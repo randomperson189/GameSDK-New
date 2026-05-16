@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Character" guid="869deae8-f6ec-fee1-a531-4a56b6daf7bf">
+ <Files>
+  <File path="mounted_gun_fp.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/weapons/mounted_gun/mounted_gun_fp_skel.chr</Path>
+  <Path>objects/weapons/mounted_gun/mounted_gun</Path>
+  <Path>Objects/weapons/mounted_gun/mounted_gun_fp.skin</Path>
+ </Dependencies>
+</AssetMetadata>

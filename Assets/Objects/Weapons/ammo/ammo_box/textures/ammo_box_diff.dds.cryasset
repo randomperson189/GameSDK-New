@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="29b3572f-8ed0-dcf6-8ca1-92a55c224e99">
+ <Files>
+  <File path="ammo_box_diff.dds"/>
+  <File path="ammo_box_diff.dds.1"/>
+  <File path="ammo_box_diff.dds.2"/>
+  <File path="ammo_box_diff.dds.3"/>
+  <File path="ammo_box_diff.dds.4"/>
+  <File path="ammo_box_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

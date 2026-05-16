@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Material" guid="d3e6f1e0-271e-9409-99dd-2a1e5bff56e7">
+ <Files>
+  <File path="rocket_launcher.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">12</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/rocket_launcher/textures/lod2_rocket_launcher_tp_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/rocket_launcher/textures/lod2_rocket_launcher_tp_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/rocket_launcher/textures/lod2_rocket_launcher_tp_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/rocket_launcher/textures/lod1_rocket_launcher_tp_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/rocket_launcher/textures/lod1_rocket_launcher_tp_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/rocket_launcher/textures/lod1_rocket_launcher_tp_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/rocket_launcher/textures/rocket_launcher_tp_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/rocket_launcher/textures/rocket_launcher_tp_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/rocket_launcher/textures/rocket_launcher_tp_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/rocket_launcher/textures/rocket_launcher_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/rocket_launcher/textures/rocket_launcher_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/rocket_launcher/textures/rocket_launcher_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

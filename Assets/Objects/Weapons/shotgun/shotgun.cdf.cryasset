@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Character" guid="7ed54c73-66b4-5050-f2f4-11e04a5210a3">
+ <Files>
+  <File path="shotgun.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/weapons/shotgun/shotgun_fp_skel.chr</Path>
+  <Path>Objects/weapons/shotgun/shotgun</Path>
+  <Path>Objects/weapons/shotgun/shotgun_fp.skin</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ed9d1fc4-7893-8274-57c0-4a7f4fd679d2">
+ <Files>
+  <File path="gun_mounted_spec.dds"/>
+  <File path="gun_mounted_spec.dds.1"/>
+  <File path="gun_mounted_spec.dds.2"/>
+  <File path="gun_mounted_spec.dds.3"/>
+  <File path="gun_mounted_spec.dds.4"/>
+  <File path="gun_mounted_spec.dds.5"/>
+  <File path="gun_mounted_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

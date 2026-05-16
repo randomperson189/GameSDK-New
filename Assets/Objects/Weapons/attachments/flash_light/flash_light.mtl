@@ -1,0 +1,10 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="80000181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.017641956,0.017641956,0.017641956" Specular="0.033104774,0.033104774,0.033104774" Emissive="0,0,0" Shininess="200" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/weapons/attachments/flash_light/textures/flash_light_diff.tif"/>
+  <Texture Map="Bumpmap" File="objects/weapons/attachments/flash_light/textures/flash_light_ddna.tif"/>
+  <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_detail.tif">
+   <TexMod TileU="8" TileV="8"/>
+  </Texture>
+ </Textures>
+ <PublicParams DetailDiffuseScale="1" SSSIndex="0" DetailBumpScale="0.15000001" DetailGlossScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,7 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_SILHOUETTE_POM%GLOSS_MAP" SurfaceType="mat_metal_shell" MatTemplate="" Diffuse="0.35865393,0.35865393,0.35865393" Specular="0.034230206,0.034230206,0.034230206" Emissive="0,0,0" Shininess="83" Opacity="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/weapons/ammo/shells/shell_556/textures/shell_556.tif" Filter="7"/>
+  <Texture Map="Specular" File="objects/weapons/ammo/shells/shell_556/textures/shell_556_spec.tif"/>
+ </Textures>
+ <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

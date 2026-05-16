@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="91032a2f-5f9b-8798-bf39-35d626ece18b">
+ <Files>
+  <File path="assault_scope_tp_ddna.dds"/>
+  <File path="assault_scope_tp_ddna.dds.a"/>
+  <File path="assault_scope_tp_ddna.dds.1"/>
+  <File path="assault_scope_tp_ddna.dds.1a"/>
+  <File path="assault_scope_tp_ddna.dds.2"/>
+  <File path="assault_scope_tp_ddna.dds.2a"/>
+  <File path="assault_scope_tp_ddna.dds.3"/>
+  <File path="assault_scope_tp_ddna.dds.3a"/>
+  <File path="assault_scope_tp_ddna.dds.4"/>
+  <File path="assault_scope_tp_ddna.dds.4a"/>
+  <File path="assault_scope_tp_ddna.dds.5"/>
+  <File path="assault_scope_tp_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

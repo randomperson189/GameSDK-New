@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="ca514374-6b4b-c3cc-41a3-1cc705356f49">
+ <Files>
+  <File path="claymore.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/ammo/claymore/textures/claymore_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/ammo/claymore/textures/claymore_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

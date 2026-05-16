@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="f32f347d-02ea-cd6c-7cb0-1b8706252448">
+ <Files>
+  <File path="sniper_scope_text_a_diff.dds"/>
+  <File path="sniper_scope_text_a_diff.dds.1"/>
+  <File path="sniper_scope_text_a_diff.dds.2"/>
+  <File path="sniper_scope_text_a_diff.dds.3"/>
+  <File path="sniper_scope_text_a_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

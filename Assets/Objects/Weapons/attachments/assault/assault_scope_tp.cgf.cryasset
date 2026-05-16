@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="06ee602d-a42f-ff32-1d06-2d3b199ead3d">
+ <Files>
+  <File path="assault_scope_tp.cgf"/>
+  <File path="assault_scope_tp_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">1899</Detail>
+  <Detail name="vertexCount">2001</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/weapons/attachments/assault/assault_scope.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

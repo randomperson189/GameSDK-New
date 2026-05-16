@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="b5d19d8b-22d0-5abc-9981-5acecda4677d">
+ <Files>
+  <File path="binoculars_tp.cgf"/>
+  <File path="binoculars_tp_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">5012</Detail>
+  <Detail name="vertexCount">3422</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./binoculars_tp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

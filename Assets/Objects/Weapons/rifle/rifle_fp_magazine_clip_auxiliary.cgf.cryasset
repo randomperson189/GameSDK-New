@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="6743f137-a7ce-3a6f-0cda-a5adc68c63b1">
+ <Files>
+  <File path="rifle_fp_magazine_clip_auxiliary.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">2609</Detail>
+  <Detail name="vertexCount">2811</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./rifle.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

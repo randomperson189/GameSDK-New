@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="1540017d-96a8-4bd7-d3ee-a56042710d1d">
+ <Files>
+  <File path="shotgun_shell.dds"/>
+  <File path="shotgun_shell.dds.1"/>
+  <File path="shotgun_shell.dds.2"/>
+  <File path="shotgun_shell.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

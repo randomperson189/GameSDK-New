@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d124fd19-f598-19c2-1f6f-09e97936aea6">
+ <Files>
+  <File path="sniper_scope_a_zoom.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">3002</Detail>
+  <Detail name="vertexCount">2046</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./sniper_scope_a_zoom.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

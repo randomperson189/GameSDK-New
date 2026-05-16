@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="11025fc0-2091-2a17-9fb7-e9ecd4c3f796">
+ <Files>
+  <File path="pistol_mag_inc_diff.dds"/>
+  <File path="pistol_mag_inc_diff.dds.1"/>
+  <File path="pistol_mag_inc_diff.dds.2"/>
+  <File path="pistol_mag_inc_diff.dds.3"/>
+  <File path="pistol_mag_inc_diff.dds.4"/>
+  <File path="pistol_mag_inc_diff.dds.5"/>
+  <File path="pistol_mag_inc_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

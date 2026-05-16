@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="3e49c6b5-0b45-3825-ce05-1a6935b3250d">
+ <Files>
+  <File path="flash_light.cgf"/>
+  <File path="flash_light_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">1066</Detail>
+  <Detail name="vertexCount">969</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./flash_light.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

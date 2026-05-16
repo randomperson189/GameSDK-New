@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="41e27995-a5e1-33fb-44cf-49265e809585">
+ <Files>
+  <File path="binocular_dark_diff.dds"/>
+  <File path="binocular_dark_diff.dds.1"/>
+  <File path="binocular_dark_diff.dds.2"/>
+  <File path="binocular_dark_diff.dds.3"/>
+  <File path="binocular_dark_diff.dds.4"/>
+  <File path="binocular_dark_diff.dds.5"/>
+  <File path="binocular_dark_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

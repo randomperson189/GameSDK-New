@@ -1,0 +1,15 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="sidewinder" MtlFlags="524416" Shader="Illum" GenMask="80" StringGenMask="%BUMP_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="124" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/ammo/rockets/sidewinder/textures/sidewinder.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/ammo/rockets/sidewinder/textures/sidewinder_ddna.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="nodraw" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="0" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

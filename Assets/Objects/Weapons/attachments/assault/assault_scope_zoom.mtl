@@ -1,0 +1,41 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="assault_scope_zoom" MtlFlags="524416" Shader="Illum" GenMask="C0000080" StringGenMask="%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/assault/textures/assault_scope_zoom_diff.tif"/>
+    <Texture Map="Specular" File="objects/weapons/attachments/assault/textures/assault_scope_zoom_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/attachments/assault/textures/assault_scope_zoom_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="crosshair" MtlFlags="524416" Shader="Scopes" GenMask="2" StringGenMask="" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="0.99000001" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/assault/textures/assault_crosshair_diff.tif"/>
+   </Textures>
+   <PublicParams FakeGlowAmount="0.1" NoiseScale="0.75" ObjectUV="0" ScopeScale="2" HolographicNoiseScale="0.0099999998" ScopeColorMultiplier="4" NoiseBias="1"/>
+  </Material>
+  <Material Name="text" MtlFlags="524416" Shader="Illum" GenMask="80000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.45641103,0.52099562,0.5332765" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Shininess="33" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/assault/textures/text_diff.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="2623616" Shader="Glass" GenMask="10010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.21586053,0.21586053,0.21586053" Specular="0.033104774,0.052860651,0.030713448" Emissive="0,0,0" Shininess="215" Opacity="0.99000001" CloakAmount="8" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/assault/textures/occular_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/attachments/assault/textures/occular_ddn.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="1,1,1" FresnelScale="1" FresnelBias="1" TintCloudiness="0.015" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+   <MaterialLayers>
+    <Layer Name="Cloaklayer" NoDraw="0" FadeOut="0">
+     <PublicParams DetailBumpTillingU="1" RefrBumpScale="1" DetailBumpScale="0" SparksTilling="1" DetailBumpTillingV="1"/>
+    </Layer>
+    <Layer />
+    <Layer Name="Cloaklayer" NoDraw="0" FadeOut="0">
+     <PublicParams DetailBumpTillingU="1" RefrBumpScale="1" DetailBumpScale="0" SparksTilling="1" DetailBumpTillingV="1"/>
+    </Layer>
+   </MaterialLayers>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

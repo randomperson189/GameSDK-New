@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="0fbf78db-e4c3-b37f-2ecf-7bfd76dee5e2">
+ <Files>
+  <File path="noise_gradient.dds"/>
+  <File path="noise_gradient.dds.1"/>
+  <File path="noise_gradient.dds.2"/>
+  <File path="noise_gradient.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

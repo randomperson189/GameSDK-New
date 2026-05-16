@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Character" guid="848e70fb-3bd6-09bb-f6ea-5342db597bba">
+ <Files>
+  <File path="rifle_fp.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/weapons/rifle_old/rifle_fp_skel.chr</Path>
+  <Path>Objects/weapons/rifle_old/rifle_fp</Path>
+  <Path>objects/weapons/attachments/rifle_magazine/rifle_magazine.cgf</Path>
+  <Path>objects/weapons/attachments/rifle_magazine/rifle_magazine.cgf</Path>
+  <Path>Objects/weapons/rifle_old/rifle_fp.skin</Path>
+ </Dependencies>
+</AssetMetadata>

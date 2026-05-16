@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="032ca2d8-e088-2ec1-253a-7e0004b25320">
+ <Files>
+  <File path="shotgun_shell_solid.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">176</Detail>
+  <Detail name="vertexCount">154</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./shotgun_shell_solid.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

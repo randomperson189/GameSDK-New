@@ -1,3 +1,212 @@
 {
-	"entries": [ { "path": "Animations/animations.dba", "condition": { "inFolder": { "path": "animations/motusAnims/" } } } ]
+	"entries": [
+		{
+			"path": "Animations/human/male/hits_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/hits/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/hits_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/hits/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/locomotion/cover.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/locomotion/cover/" } }
+		},
+		{
+			"path": "Animations/human/male/locomotion/jump.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/locomotion/jump/" } }
+		},
+		{
+			"path": "Animations/human/male/locomotion/pistol.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/locomotion/pistol/" } }
+		},
+		{
+			"path": "Animations/human/male/locomotion/rifle.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/locomotion/rifle/" } }
+		},
+		{
+			"path": "Animations/human/male/locomotion/rifle_relaxed.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/locomotion/relaxed/" } }
+		},
+		{
+			"path": "Animations/human/male/locomotion/slide.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/locomotion/slide/" } }
+		},
+		{
+			"path": "Animations/human/male/locomotion.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/locomotion/" } }
+		},
+		{
+			"path": "Animations/human/male/smartobjects/coopgrunt.dba",
+			"condition": { "and": {
+				"conditions": [
+					{ "inFolder": { "path": "animations/human/male/smartobjects/coop/" } },
+					{ "nameContains": { "substring": "_grunt_" } }
+				]} }
+		},
+		{
+			"path": "Animations/human/male/smartobjects/coophuman.dba",
+			"condition": { "and": {
+				"conditions": [
+					{ "inFolder": { "path": "animations/human/male/smartobjects/coop/" } },
+					{ "nameContains": { "substring": "_human_" } }
+				]} }
+		},
+		{
+			"path": "Animations/human/male/smartobjects/cover.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/smartObjects/cover/" } }
+		},
+		{
+			"path": "Animations/human/male/smartobjects/interact.dba",
+			"condition": { "inFolder": { "path": "animations/human/male/smartobjects/coop/" } }
+		},
+		{
+			"path": "Animations/human/male/vehicles/hmmwv/hmmwv.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/vehicles/hmmwv/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/generic.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/generic/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/generic_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/generic/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/shotgun/shotgun_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/shotgun/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/shotgun/shotgun_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/shotgun/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/shotgunMP/shotgunMP_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/shotgunMP/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/shotgunMP/shotgunMP_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/shotgunMP/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/pistol/pistol_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/pistol/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/pistol/pistol_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/pistol/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/pistolMP/pistolMP_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/pistolMP/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/pistolMP/pistolMP_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/pistolMP/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/rifle/rifle_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/rifle/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/rifle/rifle_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/rifle/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/rifleMP/rifleMP_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/rifleMP/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/rifleMP/rifleMP_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/rifleMP/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/c4/c4_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/c4/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/c4/c4_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/c4/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/c4MP/c4MP_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/c4MP/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/c4MP/c4MP_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/c4MP/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/rocketlauncher/rocketlauncher_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/rocketlauncher/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/rocketlauncher/rocketlauncher_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/rocketlauncher/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/rocketlauncherMP/rocketlauncherMP_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/rocketlauncherMP/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/rocketlauncherMP/rocketlauncherMP_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/rocketlauncherMP/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/frag_gren/frag_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/frag_gren/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/frag_gren/frag_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/frag_gren/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/fragMP/fragMP_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/fragMP/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/fragMP/fragMP_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/fragMP/3p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/hmg/hmg_1p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/hmg/1p/" } }
+		},
+		{
+			"path": "Animations/human/male/weapons/hmg/hmg_3p.dba",
+			"condition": { "inFolder": { "path": "Animations/human/male/weapons/hmg/3p/" } }
+		},
+		{
+			"path": "Animations/weapons/frag_grenade/frag_grenade.dba",
+			"condition": { "inFolder": { "path": "Animations/weapons/frag_grenade/" } }
+		},
+		{
+			"path": "Animations/weapons/hmg/hmg.dba",
+			"condition": { "inFolder": { "path": "Animations/weapons/hmg/" } }
+		},
+		{
+			"path": "Animations/weapons/pistol/pistol.dba",
+			"condition": { "inFolder": { "path": "Animations/weapons/pistol/" } }
+		},
+		{
+			"path": "Animations/weapons/rifle/rifle.dba",
+			"condition": { "inFolder": { "path": "Animations/weapons/rifle/" } }
+		},
+		{
+			"path": "Animations/weapons/shotgun/shotgun.dba",
+			"condition": { "inFolder": { "path": "Animations/weapons/shotgun/" } }
+		},
+		{
+			"path": "Animations/weapons/turret/turret.dba",
+			"condition": { "inFolder": { "path": "Animations/weapons/turret/" } }
+		},
+		{ 
+			"path": "Animations/animals/deer/deer.dba", 
+			"condition": { "inFolder": { "path": "animations/animals/deer/" } } 
+		},
+		{
+			"path": "Animations/animals/alligator.dba",
+			"condition": { "inFolder": { "path": "animations/animals/alligator/" } }
+		}
+	]
 }

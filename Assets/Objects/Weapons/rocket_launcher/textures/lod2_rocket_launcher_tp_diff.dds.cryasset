@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="87002702-5ed2-0dd9-7f53-32af0d553432">
+ <Files>
+  <File path="lod2_rocket_launcher_tp_diff.dds"/>
+  <File path="lod2_rocket_launcher_tp_diff.dds.1"/>
+  <File path="lod2_rocket_launcher_tp_diff.dds.2"/>
+  <File path="lod2_rocket_launcher_tp_diff.dds.3"/>
+  <File path="lod2_rocket_launcher_tp_diff.dds.4"/>
+  <File path="lod2_rocket_launcher_tp_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d1105738-79cb-e40e-a754-ddb9e369f3aa">
+ <Files>
+  <File path="rifle_c.dds"/>
+  <File path="rifle_c.dds.1"/>
+  <File path="rifle_c.dds.2"/>
+  <File path="rifle_c.dds.3"/>
+  <File path="rifle_c.dds.4"/>
+  <File path="rifle_c.dds.5"/>
+  <File path="rifle_c.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

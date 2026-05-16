@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="7a79e93b-5fa5-c6b4-d65f-89ba73557b60">
+ <Files>
+  <File path="rifle_noise_ddn.dds"/>
+  <File path="rifle_noise_ddn.dds.1"/>
+  <File path="rifle_noise_ddn.dds.2"/>
+  <File path="rifle_noise_ddn.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

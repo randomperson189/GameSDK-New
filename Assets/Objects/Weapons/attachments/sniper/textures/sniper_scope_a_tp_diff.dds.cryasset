@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="83341425-79f6-3f5f-6906-92aaa9b6c01e">
+ <Files>
+  <File path="sniper_scope_a_tp_diff.dds"/>
+  <File path="sniper_scope_a_tp_diff.dds.1"/>
+  <File path="sniper_scope_a_tp_diff.dds.2"/>
+  <File path="sniper_scope_a_tp_diff.dds.3"/>
+  <File path="sniper_scope_a_tp_diff.dds.4"/>
+  <File path="sniper_scope_a_tp_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

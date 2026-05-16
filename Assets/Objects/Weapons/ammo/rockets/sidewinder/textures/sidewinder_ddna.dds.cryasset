@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="d0771743-856e-0adf-f1ad-74f9f8dff8fb">
+ <Files>
+  <File path="sidewinder_ddna.dds"/>
+  <File path="sidewinder_ddna.dds.a"/>
+  <File path="sidewinder_ddna.dds.1"/>
+  <File path="sidewinder_ddna.dds.1a"/>
+  <File path="sidewinder_ddna.dds.2"/>
+  <File path="sidewinder_ddna.dds.2a"/>
+  <File path="sidewinder_ddna.dds.3"/>
+  <File path="sidewinder_ddna.dds.3a"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

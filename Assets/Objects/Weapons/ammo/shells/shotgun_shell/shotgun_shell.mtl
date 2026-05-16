@@ -1,0 +1,15 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="shell" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="mat_metal_shell_shotgun" MatTemplate="" Diffuse="0.069727086,0.069727086,0.069727086" Specular="0.52952325,0.37361506,0.36859095" Emissive="0,0,0" Shininess="148" Opacity="1" HeatAmountScaled="25">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/shells/shotgun_shell/shotgun_shell.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/shells/shotgun_shell/shotgun_shell_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelPower="3.7869999" GlossFromDiffuseContrast="1" FresnelScale="3.45" GlossFromDiffuseOffset="0" FresnelBias="0.164" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_shell_shotgun" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="0" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

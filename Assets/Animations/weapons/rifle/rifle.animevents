@@ -1,0 +1,14 @@
+<anim_event_list>
+ <animation name="animations/weapons/us/scar/stand_tac_reloadempty_scar_weapon_1p_01.caf">
+  <event name="magazine" time="0.50839999" parameter="Crysis2_weapon_scarab.mag_eject" bone="magazine" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/weapons/us/scar/stand_tac_reloadfull_scar_weapon_1p_01.caf">
+  <event name="magazine" time="0.63221002" parameter="Crysis2_weapon_scarab.mag_eject" bone="magazine" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/weapons/us/scar/stand_arm_reloadempty_scar_weapon_1p_01.caf">
+  <event name="magazine" time="0.50839999" parameter="Crysis2_weapon_scarab.mag_eject" bone="magazine" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/weapons/us/scar/stand_arm_reloadfull_scar_weapon_1p_01.caf">
+  <event name="magazine" time="0.63221002" parameter="Crysis2_weapon_scarab.mag_eject" bone="magazine" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

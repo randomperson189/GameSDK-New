@@ -1,0 +1,30 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="c4_base" MtlFlags="524416" Shader="Illum" GenMask="C1000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" HeatAmountScaled="13" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/c4/textures/c4_tp_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/c4/textures/c4_tp_ddna.tif"/>
+    <Texture Map="Specular" File="objects/weapons/c4/textures/c4_tp_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="c4_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="c4_display" MtlFlags="524448" Shader="Illum" GenMask="80000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.87513757,0.87513757,0.87513757" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Opacity="1" Shininess="40" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/c4/textures/c4_txt.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="screen" MtlFlags="524416" Shader="Illum" GenMask="C1000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.21586053,0,0" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" GlowAmount="50" HeatAmountScaled="13" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/c4/textures/c4_tp_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/c4/textures/c4_tp_ddna.tif"/>
+    <Texture Map="Specular" File="objects/weapons/c4/textures/c4_tp_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

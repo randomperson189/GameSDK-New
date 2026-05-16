@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Texture" guid="a73c0897-f994-a7de-e50b-d19d14aff265">
+ <Files>
+  <File path="rocket_launcher_ddna.dds"/>
+  <File path="rocket_launcher_ddna.dds.a"/>
+  <File path="rocket_launcher_ddna.dds.1"/>
+  <File path="rocket_launcher_ddna.dds.1a"/>
+  <File path="rocket_launcher_ddna.dds.2"/>
+  <File path="rocket_launcher_ddna.dds.2a"/>
+  <File path="rocket_launcher_ddna.dds.3"/>
+  <File path="rocket_launcher_ddna.dds.3a"/>
+  <File path="rocket_launcher_ddna.dds.4"/>
+  <File path="rocket_launcher_ddna.dds.4a"/>
+  <File path="rocket_launcher_ddna.dds.5"/>
+  <File path="rocket_launcher_ddna.dds.5a"/>
+  <File path="rocket_launcher_ddna.dds.6"/>
+  <File path="rocket_launcher_ddna.dds.6a"/>
+  <File path="rocket_launcher_ddna.dds.7"/>
+  <File path="rocket_launcher_ddna.dds.7a"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

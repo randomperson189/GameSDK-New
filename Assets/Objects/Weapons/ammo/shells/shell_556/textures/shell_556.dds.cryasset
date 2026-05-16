@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="3b09abb0-c35b-2aed-600b-512a4a49dc4a">
+ <Files>
+  <File path="shell_556.dds"/>
+  <File path="shell_556.dds.1"/>
+  <File path="shell_556.dds.2"/>
+  <File path="shell_556.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

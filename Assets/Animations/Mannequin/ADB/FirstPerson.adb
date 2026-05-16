@@ -4,13 +4,13 @@
    <Fragment BlendOutDuration="0.2" Tags="Rotate">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="1DONE-BSpace_RotateRIFLE" flags="Loop+ForceSkelUpdate"/>
+     <Animation name="1D-BSpace_StepRot" flags="Loop+ForceSkelUpdate"/>
     </AnimLayer>
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="rifleAim_idle_3p" flags="Loop+ForceSkelUpdate"/>
+     <Animation name="stand_tac_idlepose_hammer_shoulder_1p_01" flags="Loop+ForceSkelUpdate"/>
     </AnimLayer>
    </Fragment>
   </Idle>
@@ -18,7 +18,7 @@
    <Fragment BlendOutDuration="0.2" Tags="">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="2DONE-BSpace_MoveStrafeRIFLE" flags="Loop+ForceSkelUpdate"/>
+     <Animation name="2D-BSpace_Idle2Move" flags="Loop+ForceSkelUpdate"/>
     </AnimLayer>
    </Fragment>
   </Walk>

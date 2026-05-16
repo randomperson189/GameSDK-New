@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="ded3b841-1002-d796-2503-9cefb0ab9c85">
+ <Files>
+  <File path="gun_mounted_ddna.dds"/>
+  <File path="gun_mounted_ddna.dds.a"/>
+  <File path="gun_mounted_ddna.dds.1"/>
+  <File path="gun_mounted_ddna.dds.1a"/>
+  <File path="gun_mounted_ddna.dds.2"/>
+  <File path="gun_mounted_ddna.dds.2a"/>
+  <File path="gun_mounted_ddna.dds.3"/>
+  <File path="gun_mounted_ddna.dds.3a"/>
+  <File path="gun_mounted_ddna.dds.4"/>
+  <File path="gun_mounted_ddna.dds.4a"/>
+  <File path="gun_mounted_ddna.dds.5"/>
+  <File path="gun_mounted_ddna.dds.5a"/>
+  <File path="gun_mounted_ddna.dds.6"/>
+  <File path="gun_mounted_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

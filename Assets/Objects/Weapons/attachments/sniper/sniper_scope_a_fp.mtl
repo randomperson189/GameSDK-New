@@ -1,0 +1,27 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="base" MtlFlags="524416" Shader="Illum" GenMask="C0000080" StringGenMask="%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/sniper/textures/sniper_scope_a_fp_diff.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/weapons/attachments/sniper/textures/sniper_scope_fp_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/attachments/sniper/textures/sniper_scope_a_fp_ddna.tif" Filter="5"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="google" MtlFlags="524416" Shader="Scopes" GenMask="4" StringGenMask="" SurfaceType="mat_glass" MatTemplate="" Diffuse="0.0047769537,0.17788844,0.18782079" Specular="0.01266372,0.016988052,0.0016869151" Emissive="0,0,0" Shininess="150" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/sniper/textures/sniper_scope_occular_small.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/attachments/sniper/textures/sniper_scope_a_occular_ddna.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/generic_cubemap_day_cm.tif"/>
+   </Textures>
+   <PublicParams ZoomScale="0" FresnelScale="1" RefrBumpScale="0.1" FresnelBias="1"/>
+  </Material>
+  <Material Name="text" MtlFlags="524448" Shader="Illum" GenMask="80000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="0.74000001" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/sniper/textures/sniper_scope_text_a_diff.tif" Filter="5"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

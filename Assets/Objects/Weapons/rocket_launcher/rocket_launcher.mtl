@@ -1,0 +1,40 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="rocket_launcher_fp" MtlFlags="524416" Shader="Illum" GenMask="C0000080" StringGenMask="%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="0">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/rocket_launcher/textures/rocket_launcher_diff.tif"/>
+    <Texture Map="Specular" File="objects/weapons/rocket_launcher/textures/rocket_launcher_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/rocket_launcher/textures/rocket_launcher_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rocket_launcher_tp" MtlFlags="524416" Shader="Illum" GenMask="C0000080" StringGenMask="%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/rocket_launcher/textures/rocket_launcher_tp_diff.tif"/>
+    <Texture Map="Specular" File="objects/weapons/rocket_launcher/textures/rocket_launcher_tp_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/rocket_launcher/textures/rocket_launcher_tp_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="lod1" MtlFlags="524416" Shader="Illum" GenMask="C0000080" StringGenMask="%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/rocket_launcher/textures/lod1_rocket_launcher_tp_diff.tif"/>
+    <Texture Map="Specular" File="objects/weapons/rocket_launcher/textures/lod1_rocket_launcher_tp_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/rocket_launcher/textures/lod1_rocket_launcher_tp_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lod2" MtlFlags="524416" Shader="Illum" GenMask="C0000080" StringGenMask="%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/rocket_launcher/textures/lod2_rocket_launcher_tp_diff.tif"/>
+    <Texture Map="Specular" File="objects/weapons/rocket_launcher/textures/lod2_rocket_launcher_tp_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/rocket_launcher/textures/lod2_rocket_launcher_tp_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

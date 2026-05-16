@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<Params>
+<IK_Definition>
+		<AimIK_Definition>
+			<DirectionalBlends>
+				<Joint AnimToken="AimPoses" ParameterJoint="weaponjoint" StartJoint="weaponjoint_start" ReferenceJoint="weaponjoint_ref"/>
+			</DirectionalBlends>
+
+			<RotationList>
+				<Rotation Additive="0" Primary="1" JointName="weaponjoint_start"/>
+				<Rotation Additive="0" Primary="1" JointName="weaponjoint_ref"/>
+				<Rotation Additive="0" Primary="1" JointName="weaponjoint"/>
+			</RotationList>
+			<PositionList/>
+		</AimIK_Definition>
+	</IK_Definition>
+
+	<AnimationList>
+		<Animation name="#filepath" path="Animations/weapons/turret"/>
+		<Animation name="$AnimEventDatabase" path="Animations/weapons/turret/turret.animevents"/>
+		<Animation name="*" path="*.caf"/>
+	</AnimationList>
+</Params>

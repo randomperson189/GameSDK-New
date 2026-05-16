@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="ea6d1f46-2821-7014-5ab4-a4dcff1ebb3d">
+ <Files>
+  <File path="c4_off.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/weapons/c4/textures/c4_diff.dds</Path>
+  <Path usageCount="2">objects/weapons/c4/textures/c4_ddna.dds</Path>
+  <Path usageCount="2">objects/weapons/c4/textures/c4_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/c4/textures/c4_txt.dds</Path>
+ </Dependencies>
+</AssetMetadata>

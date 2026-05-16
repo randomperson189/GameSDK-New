@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="11a0e5b0-4d6f-3c98-8258-ec8efca7d37a">
+ <Files>
+  <File path="sidewinder.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">342</Detail>
+  <Detail name="vertexCount">397</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./sidewinder.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

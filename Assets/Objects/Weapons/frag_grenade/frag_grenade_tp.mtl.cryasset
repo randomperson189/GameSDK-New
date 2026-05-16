@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="3f795e8d-fef1-a05c-f996-5616e62825dc">
+ <Files>
+  <File path="frag_grenade_tp.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/frag_grenade/textures/frag_grenade_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/frag_grenade/textures/frag_grenade_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

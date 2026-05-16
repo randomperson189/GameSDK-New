@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="395bbdc7-5db4-14b6-cbc6-ca8abdd0ecc1">
+ <Files>
+  <File path="shotgun_fp.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">6237</Detail>
+  <Detail name="vertexCount">7208</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/weapons/shotgun/shotgun.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

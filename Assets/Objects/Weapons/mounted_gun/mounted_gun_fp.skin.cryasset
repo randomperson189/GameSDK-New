@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="7cbb1211-d13d-4891-4748-81593aa6ebaf">
+ <Files>
+  <File path="mounted_gun_fp.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">13</Detail>
+  <Detail name="triangleCount">9497</Detail>
+  <Detail name="vertexCount">9841</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">20</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mounted_gun.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

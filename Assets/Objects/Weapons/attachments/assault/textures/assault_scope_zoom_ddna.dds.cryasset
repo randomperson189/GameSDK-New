@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="1d8f4cb1-792c-d70b-c17a-4d53f5443be6">
+ <Files>
+  <File path="assault_scope_zoom_ddna.dds"/>
+  <File path="assault_scope_zoom_ddna.dds.a"/>
+  <File path="assault_scope_zoom_ddna.dds.1"/>
+  <File path="assault_scope_zoom_ddna.dds.1a"/>
+  <File path="assault_scope_zoom_ddna.dds.2"/>
+  <File path="assault_scope_zoom_ddna.dds.2a"/>
+  <File path="assault_scope_zoom_ddna.dds.3"/>
+  <File path="assault_scope_zoom_ddna.dds.3a"/>
+  <File path="assault_scope_zoom_ddna.dds.4"/>
+  <File path="assault_scope_zoom_ddna.dds.4a"/>
+  <File path="assault_scope_zoom_ddna.dds.5"/>
+  <File path="assault_scope_zoom_ddna.dds.5a"/>
+  <File path="assault_scope_zoom_ddna.dds.6"/>
+  <File path="assault_scope_zoom_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

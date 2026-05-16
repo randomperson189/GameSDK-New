@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="b37ba439-e4da-4bd5-e578-c189217c03dd">
+ <Files>
+  <File path="flash_light_ddna.dds"/>
+  <File path="flash_light_ddna.dds.a"/>
+  <File path="flash_light_ddna.dds.1"/>
+  <File path="flash_light_ddna.dds.1a"/>
+  <File path="flash_light_ddna.dds.2"/>
+  <File path="flash_light_ddna.dds.2a"/>
+  <File path="flash_light_ddna.dds.3"/>
+  <File path="flash_light_ddna.dds.3a"/>
+  <File path="flash_light_ddna.dds.4"/>
+  <File path="flash_light_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

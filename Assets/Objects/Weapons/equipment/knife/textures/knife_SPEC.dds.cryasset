@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="77682b31-99f2-5a7f-9c84-3c13767a464d">
+ <Files>
+  <File path="knife_SPEC.dds"/>
+  <File path="knife_SPEC.dds.1"/>
+  <File path="knife_SPEC.dds.2"/>
+  <File path="knife_SPEC.dds.3"/>
+  <File path="knife_SPEC.dds.4"/>
+  <File path="knife_SPEC.dds.5"/>
+  <File path="knife_SPEC.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

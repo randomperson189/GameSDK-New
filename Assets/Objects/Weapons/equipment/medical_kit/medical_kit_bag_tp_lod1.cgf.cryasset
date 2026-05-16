@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="8f7774c6-b8f3-a7d3-1fda-657b50bd35fb">
+ <Files>
+  <File path="medical_kit_bag_tp_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">164</Detail>
+  <Detail name="vertexCount">200</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./medical_kit_bag.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

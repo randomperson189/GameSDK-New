@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="86d1e5e8-c11c-0aac-84df-339b449b57af">
+ <Files>
+  <File path="frag_grenade_tp.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1464</Detail>
+  <Detail name="vertexCount">1571</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./frag_grenade_tp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

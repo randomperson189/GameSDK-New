@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="d8cf3376-366d-0a0e-b704-e7c0067440a6">
+ <Files>
+  <File path="ammo_box.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/ammo/ammo_box/textures/ammo_box_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/ammo/ammo_box/textures/ammo_box_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

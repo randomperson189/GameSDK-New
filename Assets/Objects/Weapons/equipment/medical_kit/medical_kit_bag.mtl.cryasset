@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="358de39e-56d7-f593-fd46-020cc7d25a6a">
+ <Files>
+  <File path="medical_kit_bag.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/equipment/medical_kit/textures/medical_kit_bag.dds</Path>
+  <Path usageCount="1">objects/weapons/equipment/medical_kit/textures/medical_kit_bag_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

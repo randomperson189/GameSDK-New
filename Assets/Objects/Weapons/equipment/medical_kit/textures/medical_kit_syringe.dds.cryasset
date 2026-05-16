@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="940cdf19-be46-878d-48d8-49354c321dd0">
+ <Files>
+  <File path="medical_kit_syringe.dds"/>
+  <File path="medical_kit_syringe.dds.1"/>
+  <File path="medical_kit_syringe.dds.2"/>
+  <File path="medical_kit_syringe.dds.3"/>
+  <File path="medical_kit_syringe.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

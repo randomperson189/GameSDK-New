@@ -1,0 +1,17 @@
+<CombinedBlendSpace>
+
+	<Dimensions>
+		<Param name="TurnAngle" ChooseBlendSpace="1" locked="1" />
+	</Dimensions>
+
+	<AdditionalExtraction>
+		<Param name="MoveSpeed" />
+		<Param name="TravelAngle" />
+	</AdditionalExtraction>
+
+	<BlendSpaces>
+		<BlendSpace AName="animations/animals/deer/1D-BSpace_idle_to_run_left.bspace" />
+		<BlendSpace AName="animations/animals/deer/1D-BSpace_idle_to_run_right.bspace" />
+	</BlendSpaces>
+
+</CombinedBlendSpace>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="414e0b83-f182-421a-ff62-9729634d7098">
+ <Files>
+  <File path="pistol.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/weapons/pistol/textures/pistol_diff.dds</Path>
+  <Path usageCount="2">objects/weapons/pistol/textures/pistol_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/detail_metal_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

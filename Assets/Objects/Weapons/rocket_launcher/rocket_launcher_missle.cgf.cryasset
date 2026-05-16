@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="89470b01-68f6-ff54-0cf8-06639493b82c">
+ <Files>
+  <File path="rocket_launcher_missle.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">2100</Detail>
+  <Detail name="vertexCount">2004</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/weapons/rocket_launcher/rocket_launcher.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

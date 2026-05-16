@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="16645714-e032-23e2-ab75-731b834e937d">
+ <Files>
+  <File path="magazine_rifle.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/ammo/ammo_crate/textures/magazine_rifle_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/ammo/ammo_crate/textures/magazine_rifle_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/ammo/ammo_crate/textures/magazine_rifle_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Material" guid="4d98ddb2-7dab-2223-f419-b8ac0eeeb71d">
+ <Files>
+  <File path="shotgun.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">8</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/16_grey.dds</Path>
+  <Path usageCount="1">objects/weapons/shotgun/textures/shotgun_b_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/shotgun/textures/shotgun_b_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/shotgun/textures/shotgun_b_ddna.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/metal/metal_001_detail.dds</Path>
+  <Path usageCount="1">objects/weapons/shotgun/textures/shotgun_a_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/shotgun/textures/shotgun_a_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/shotgun/textures/shotgun_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

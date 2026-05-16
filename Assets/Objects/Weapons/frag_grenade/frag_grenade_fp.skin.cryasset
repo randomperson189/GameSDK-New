@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="07fb695b-faa7-cf93-02f8-131d9afdd2f2">
+ <Files>
+  <File path="frag_grenade_fp.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">3277</Detail>
+  <Detail name="vertexCount">3305</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./frag_grenade.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

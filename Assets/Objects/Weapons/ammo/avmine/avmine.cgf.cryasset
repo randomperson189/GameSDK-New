@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="7e711e99-bfdb-7e8b-0b44-0e3661586b87">
+ <Files>
+  <File path="avmine.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">318</Detail>
+  <Detail name="vertexCount">340</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./avmine.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

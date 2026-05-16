@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="8421d709-4267-40bd-753b-a69219ddf89b">
+ <Files>
+  <File path="shell_556.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">32</Detail>
+  <Detail name="vertexCount">33</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./shell_556.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

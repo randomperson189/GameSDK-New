@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="0ca4d5da-1c4b-2919-0170-05ad02587913">
+ <Files>
+  <File path="rifle.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/rifle/textures/rifle_gadgets_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/rifle/textures/rifle_gadgets_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/rifle/textures/rifle_gadgets_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/rifle/textures/rifle_new_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/rifle/textures/rifle_new_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/rifle/textures/rifle_new_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_005_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

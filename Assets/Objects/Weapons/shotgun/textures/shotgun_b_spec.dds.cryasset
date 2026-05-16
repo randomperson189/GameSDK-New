@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="76f7bff1-aee2-5b7f-c487-52d3fced1773">
+ <Files>
+  <File path="shotgun_b_spec.dds"/>
+  <File path="shotgun_b_spec.dds.1"/>
+  <File path="shotgun_b_spec.dds.2"/>
+  <File path="shotgun_b_spec.dds.3"/>
+  <File path="shotgun_b_spec.dds.4"/>
+  <File path="shotgun_b_spec.dds.5"/>
+  <File path="shotgun_b_spec.dds.6"/>
+  <File path="shotgun_b_spec.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

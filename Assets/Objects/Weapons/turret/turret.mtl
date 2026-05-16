@@ -1,0 +1,42 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="proxy_mat" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="turret_base" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.71569353,0.71569353,0.71569353" Specular="0.21586053,0.21586053,0.21586053" Emissive="0,0,0" Shininess="100" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/turret/textures/turret_base_dif.tif"/>
+    <Texture Map="Specular" File="objects/weapons/turret/textures/turret_base_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/turret/textures/turret_base_ddn.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="turret_body" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.71569353,0.71569353,0.71569353" Specular="1,1,1" Emissive="0,0,0" Shininess="111" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/turret/textures/turret_body_dif.tif">
+     <TexMod TexMod_RotateType="3" TexMod_VRotateRate="0.098876953" TexMod_VRotatePhase="0.99975586" TexMod_VRotateCenter="1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="0.0020000001"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/turret/textures/turret_body_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/turret/textures/turret_body_ddn.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="turret_gun" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="1,1,1" Emissive="0,0,0" Shininess="80" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/turret/textures/turret_gun_dif.tif"/>
+    <Texture Map="Specular" File="objects/weapons/turret/textures/turret_gun_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/turret/textures/turret_gun_ddn.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="turret_glow" MtlFlags="525442" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.071761452,0.089193508,0.8591736" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001" GlowAmount="1.5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.tif"/>
+   </Textures>
+  </Material>
+  <Material Name="diff_mat" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

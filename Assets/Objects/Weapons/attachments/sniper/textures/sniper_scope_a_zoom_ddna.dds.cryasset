@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="b65547ed-7b9a-a942-e198-f0664b463cda">
+ <Files>
+  <File path="sniper_scope_a_zoom_ddna.dds"/>
+  <File path="sniper_scope_a_zoom_ddna.dds.a"/>
+  <File path="sniper_scope_a_zoom_ddna.dds.1"/>
+  <File path="sniper_scope_a_zoom_ddna.dds.1a"/>
+  <File path="sniper_scope_a_zoom_ddna.dds.2"/>
+  <File path="sniper_scope_a_zoom_ddna.dds.2a"/>
+  <File path="sniper_scope_a_zoom_ddna.dds.3"/>
+  <File path="sniper_scope_a_zoom_ddna.dds.3a"/>
+  <File path="sniper_scope_a_zoom_ddna.dds.4"/>
+  <File path="sniper_scope_a_zoom_ddna.dds.4a"/>
+  <File path="sniper_scope_a_zoom_ddna.dds.5"/>
+  <File path="sniper_scope_a_zoom_ddna.dds.5a"/>
+  <File path="sniper_scope_a_zoom_ddna.dds.6"/>
+  <File path="sniper_scope_a_zoom_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

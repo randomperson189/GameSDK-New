@@ -1,0 +1,20 @@
+<Material MtlFlags="524322" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="1,1,1" Shininess="9.999999" Opacity="0.99000001" GlowAmount="2" HeatAmountScaled="64">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/weapons/attachments/laser_beam/textures/laser_beam.tif" Filter="7">
+   <TexMod TexMod_UOscillatorType="4" TexMod_RotateType="2" TexMod_UOscillatorRate="0.02" TexMod_UOscillatorPhase="0.02" TexMod_UOscillatorAmplitude="0.02"/>
+  </Texture>
+  <Texture Map="Decal" File="objects/weapons/attachments/laser_beam/textures/noise_gradient.tif" Filter="7">
+   <TexMod TexMod_UOscillatorType="4" TexMod_UOscillatorRate="1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1"/>
+  </Texture>
+ </Textures>
+ <PublicParams FresnelPower="0" GlossFromDiffuseContrast="1" FresnelScale="0" GlossFromDiffuseOffset="0" FresnelBias="0" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+ <MaterialLayers>
+  <Layer Name="Cloaklayer" NoDraw="1">
+   <PublicParams DetailBumpTillingU="1" RefrBumpScale="1" DetailBumpScale="0" SparksTilling="1" DetailBumpTillingV="1"/>
+  </Layer>
+  <Layer />
+  <Layer Name="Cloaklayer" NoDraw="1">
+   <PublicParams DetailBumpTillingU="1" RefrBumpScale="1" DetailBumpScale="0" SparksTilling="1" DetailBumpTillingV="1"/>
+  </Layer>
+ </MaterialLayers>
+</Material>

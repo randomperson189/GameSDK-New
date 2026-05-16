@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="1c28ff97-b309-8dcc-f022-ae852ec11250">
+ <Files>
+  <File path="knife_DDNA.dds"/>
+  <File path="knife_DDNA.dds.a"/>
+  <File path="knife_DDNA.dds.1"/>
+  <File path="knife_DDNA.dds.1a"/>
+  <File path="knife_DDNA.dds.2"/>
+  <File path="knife_DDNA.dds.2a"/>
+  <File path="knife_DDNA.dds.3"/>
+  <File path="knife_DDNA.dds.3a"/>
+  <File path="knife_DDNA.dds.4"/>
+  <File path="knife_DDNA.dds.4a"/>
+  <File path="knife_DDNA.dds.5"/>
+  <File path="knife_DDNA.dds.5a"/>
+  <File path="knife_DDNA.dds.6"/>
+  <File path="knife_DDNA.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

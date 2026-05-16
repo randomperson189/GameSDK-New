@@ -1,0 +1,10 @@
+#filepath = Animations/1st_person/weapons/US/claymore
+//#filepath = Objects/weapons/us/claymore/animations
+$TracksDatabase = Animations/1st_person/weapons/us/claymore/claymore.dba
+$AnimEventDatabase = Objects/weapons/us/claymore/claymore_EventDataBase.animevents
+
+//left_handed
+
+select_claymore_left_01			=	select_claymore_left_01.caf
+idle_claymore_left_01			=	idle_claymore_left_01.caf
+place_claymore_left_01			=	place_claymore_left_01.caf

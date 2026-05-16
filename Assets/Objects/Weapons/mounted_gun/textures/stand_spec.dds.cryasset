@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="0fe7c488-7550-c72e-e9b3-8e81cb4e5cf4">
+ <Files>
+  <File path="stand_spec.dds"/>
+  <File path="stand_spec.dds.1"/>
+  <File path="stand_spec.dds.2"/>
+  <File path="stand_spec.dds.3"/>
+  <File path="stand_spec.dds.4"/>
+  <File path="stand_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

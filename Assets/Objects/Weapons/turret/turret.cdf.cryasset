@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Character" guid="414bd9a9-8d0e-5213-061f-d37b1bb8e757">
+ <Files>
+  <File path="turret.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/weapons/turret/turret.chr</Path>
+  <Path>objects/weapons/turret/turret</Path>
+  <Path>objects/weapons/turret/turretbase.cgf</Path>
+  <Path>objects/weapons/turret/turret</Path>
+  <Path>objects/weapons/turret/turretbody.cgf</Path>
+  <Path>objects/weapons/turret/turret</Path>
+  <Path>objects/weapons/turret/turretgun.cgf</Path>
+  <Path>objects/weapons/turret/turret</Path>
+ </Dependencies>
+</AssetMetadata>

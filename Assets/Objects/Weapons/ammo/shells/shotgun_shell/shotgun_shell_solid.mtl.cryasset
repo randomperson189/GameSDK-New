@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="a08465b0-cf8d-9354-0635-3f5426ccc5c3">
+ <Files>
+  <File path="shotgun_shell_solid.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/shells/shotgun_shell/shotgun_shell_solid.dds</Path>
+  <Path usageCount="1">objects/weapons/shells/shotgun_shell/shotgun_shell_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="8a815377-e2f1-ca24-bb05-655198db3617">
+ <Files>
+  <File path="binocular_ddna.dds"/>
+  <File path="binocular_ddna.dds.a"/>
+  <File path="binocular_ddna.dds.1"/>
+  <File path="binocular_ddna.dds.1a"/>
+  <File path="binocular_ddna.dds.2"/>
+  <File path="binocular_ddna.dds.2a"/>
+  <File path="binocular_ddna.dds.3"/>
+  <File path="binocular_ddna.dds.3a"/>
+  <File path="binocular_ddna.dds.4"/>
+  <File path="binocular_ddna.dds.4a"/>
+  <File path="binocular_ddna.dds.5"/>
+  <File path="binocular_ddna.dds.5a"/>
+  <File path="binocular_ddna.dds.6"/>
+  <File path="binocular_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

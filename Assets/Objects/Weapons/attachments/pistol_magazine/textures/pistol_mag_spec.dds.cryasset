@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="5f12d0d8-185c-4e73-6cd8-4fbcab52d612">
+ <Files>
+  <File path="pistol_mag_spec.dds"/>
+  <File path="pistol_mag_spec.dds.1"/>
+  <File path="pistol_mag_spec.dds.2"/>
+  <File path="pistol_mag_spec.dds.3"/>
+  <File path="pistol_mag_spec.dds.4"/>
+  <File path="pistol_mag_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

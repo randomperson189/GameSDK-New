@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="72ece173-7728-69e3-95d6-11aa755f6750">
+ <Files>
+  <File path="sidewinder_spec.dds"/>
+  <File path="sidewinder_spec.dds.1"/>
+  <File path="sidewinder_spec.dds.2"/>
+  <File path="sidewinder_spec.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

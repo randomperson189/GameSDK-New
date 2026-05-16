@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d0feed18-a535-4764-d36e-71082d97475f">
+ <Files>
+  <File path="assault_scope_zoom.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">3349</Detail>
+  <Detail name="vertexCount">2746</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/weapons/attachments/assault/assault_scope_zoom.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

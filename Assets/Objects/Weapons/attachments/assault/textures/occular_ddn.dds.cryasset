@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="a9deaee1-f3a4-6cc7-8cb7-c316b9708387">
+ <Files>
+  <File path="occular_ddn.dds"/>
+  <File path="occular_ddn.dds.1"/>
+  <File path="occular_ddn.dds.2"/>
+  <File path="occular_ddn.dds.3"/>
+  <File path="occular_ddn.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

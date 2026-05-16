@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="e9f5193d-9132-cf44-2933-234a5c52cdfe">
+ <Files>
+  <File path="shotgun_tp.cgf"/>
+  <File path="shotgun_tp_lod1.cgf"/>
+  <File path="shotgun_tp_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">2476</Detail>
+  <Detail name="vertexCount">3320</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/weapons/shotgun/shotgun_tp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

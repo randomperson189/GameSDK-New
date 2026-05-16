@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="b6570df9-13a7-5239-bc5f-e2289e848768">
+ <Files>
+  <File path="turret.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/white.dds</Path>
+  <Path usageCount="2">objects/weapons/turret/textures/turret_gun_dif.dds</Path>
+  <Path usageCount="1">objects/weapons/turret/textures/turret_gun_ddn.dds</Path>
+  <Path usageCount="1">objects/weapons/turret/textures/turret_body_dif.dds</Path>
+  <Path usageCount="1">objects/weapons/turret/textures/turret_body_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/turret/textures/turret_body_ddn.dds</Path>
+  <Path usageCount="1">objects/weapons/turret/textures/turret_base_dif.dds</Path>
+  <Path usageCount="1">objects/weapons/turret/textures/turret_base_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/turret/textures/turret_base_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="f8089929-d17d-e2a1-d1e8-f63a4ee052b9">
+ <Files>
+  <File path="ammo_box.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1800</Detail>
+  <Detail name="vertexCount">1310</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ammo_box.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

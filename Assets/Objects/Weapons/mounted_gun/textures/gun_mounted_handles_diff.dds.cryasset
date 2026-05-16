@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="8f46a192-fdde-2c5b-70c4-41ec07010adf">
+ <Files>
+  <File path="gun_mounted_handles_diff.dds"/>
+  <File path="gun_mounted_handles_diff.dds.1"/>
+  <File path="gun_mounted_handles_diff.dds.2"/>
+  <File path="gun_mounted_handles_diff.dds.3"/>
+  <File path="gun_mounted_handles_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

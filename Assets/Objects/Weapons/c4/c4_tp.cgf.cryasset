@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="48cdfc0d-7c65-d90b-1e21-502da39e8832">
+ <Files>
+  <File path="c4_tp.cgf"/>
+  <File path="c4_tp_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">860</Detail>
+  <Detail name="vertexCount">924</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./c4_tp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

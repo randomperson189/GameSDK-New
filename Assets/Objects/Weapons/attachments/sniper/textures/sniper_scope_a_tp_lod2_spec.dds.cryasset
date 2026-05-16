@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="27dc4699-1d73-502a-28f6-1e65b23a0f3b">
+ <Files>
+  <File path="sniper_scope_a_tp_lod2_spec.dds"/>
+  <File path="sniper_scope_a_tp_lod2_spec.dds.1"/>
+  <File path="sniper_scope_a_tp_lod2_spec.dds.2"/>
+  <File path="sniper_scope_a_tp_lod2_spec.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

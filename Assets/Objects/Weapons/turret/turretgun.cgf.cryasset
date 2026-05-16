@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="ccfe86e9-dea9-f1fa-f91e-0bf803cb5e92">
+ <Files>
+  <File path="turretgun.cgf"/>
+  <File path="turretgun_lod1.cgf"/>
+  <File path="turretgun_lod2.cgf"/>
+  <File path="turretgun_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">3826</Detail>
+  <Detail name="vertexCount">3091</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./turret.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

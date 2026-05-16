@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="cb495e5b-485c-d2b3-689a-48572c05c83c">
+ <Files>
+  <File path="sniper_scope_a_tp.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_tp_lod2_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_tp_lod2_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_tp_lod2_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_tp_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_tp_lod1_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_tp_lod1_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_tp_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_tp_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_tp_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

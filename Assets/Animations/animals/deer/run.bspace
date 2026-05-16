@@ -1,0 +1,28 @@
+<ParaGroup>
+	<Dimensions>
+		<Param name="TurnSpeed" min="-5.58" max="+5.58" cells="19" scale="1.0"/>
+	</Dimensions>
+
+	<AdditionalExtraction>
+		<Param name="MoveSpeed" />
+		<Param name="TravelAngle" />
+	</AdditionalExtraction>
+
+	<ExampleList>
+		<Example AName="stand_runrotate_rgt_01" />
+		<Example AName="stand_run_01" />
+		<Example AName="stand_runrotate_lft_01" />
+	</ExampleList>
+
+  <ExamplePseudo>
+    <Pseudo p0="1" p1="0" w0="-2.0" w1="3.0" />
+    <Pseudo p0="1" p1="2" w0="-2.0" w1="3.0" />
+  </ExamplePseudo>
+
+  <Blendable>
+    <Face p0="3"  p1="0" />
+    <Face p0="0"  p1="1" />
+    <Face p0="1"  p1="2" />
+    <Face p0="2"  p1="4" />
+  </Blendable>
+</ParaGroup>

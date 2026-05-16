@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="8a5e7905-885b-33d8-0a50-8a699a5c8e18">
+ <Files>
+  <File path="turret_body_ddn.dds"/>
+  <File path="turret_body_ddn.dds.1"/>
+  <File path="turret_body_ddn.dds.2"/>
+  <File path="turret_body_ddn.dds.3"/>
+  <File path="turret_body_ddn.dds.4"/>
+  <File path="turret_body_ddn.dds.5"/>
+  <File path="turret_body_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

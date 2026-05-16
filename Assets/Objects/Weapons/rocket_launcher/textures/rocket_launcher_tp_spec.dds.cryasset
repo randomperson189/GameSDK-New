@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="01aadf65-d836-2ce5-e76c-31f53cca1a2a">
+ <Files>
+  <File path="rocket_launcher_tp_spec.dds"/>
+  <File path="rocket_launcher_tp_spec.dds.1"/>
+  <File path="rocket_launcher_tp_spec.dds.2"/>
+  <File path="rocket_launcher_tp_spec.dds.3"/>
+  <File path="rocket_launcher_tp_spec.dds.4"/>
+  <File path="rocket_launcher_tp_spec.dds.5"/>
+  <File path="rocket_launcher_tp_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

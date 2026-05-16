@@ -1,0 +1,18 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="mag" MtlFlags="524416" Shader="Illum" GenMask="80181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49693301,0.49693301,0.49693301" Specular="0.033104766,0.033104766,0.033104766" Emissive="0,0,0" Shininess="160" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/rifle_magazine/textures/rifle_magazine_diff.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/weapons/attachments/rifle_magazine/textures/rifle_magazine_ddna.tif" Filter="5"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_detail.tif">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="1" SSSIndex="0" DetailBumpScale="0.1" DetailGlossScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="9.999999" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

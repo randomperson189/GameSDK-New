@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="0d2eaf7e-c299-1196-77ae-7349c25cb72d">
+ <Files>
+  <File path="stand_diff.dds"/>
+  <File path="stand_diff.dds.1"/>
+  <File path="stand_diff.dds.2"/>
+  <File path="stand_diff.dds.3"/>
+  <File path="stand_diff.dds.4"/>
+  <File path="stand_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

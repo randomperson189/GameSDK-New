@@ -1,0 +1,24 @@
+<AssetMetadata version="0" type="Material" guid="834f7c38-9840-468b-142d-b254d2104c55">
+ <Files>
+  <File path="assault_scope.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">13</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/lod_assault_scope_tp_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/lod_assault_scope_tp_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/lod_assault_scope_tp_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/assault_scope_tp_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/assault_scope_tp_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/assault_scope_tp_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/text_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/occular_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/occular_ddn.dds</Path>
+  <Path usageCount="1">textures/cubemaps/generic_cubemap_day_cm.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/assault_scope_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/assault_scope_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/assault_scope_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

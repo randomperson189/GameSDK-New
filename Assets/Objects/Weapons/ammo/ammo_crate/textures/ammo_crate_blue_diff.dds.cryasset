@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="3eae6d62-b5f2-107e-f699-65241386362e">
+ <Files>
+  <File path="ammo_crate_blue_diff.dds"/>
+  <File path="ammo_crate_blue_diff.dds.1"/>
+  <File path="ammo_crate_blue_diff.dds.2"/>
+  <File path="ammo_crate_blue_diff.dds.3"/>
+  <File path="ammo_crate_blue_diff.dds.4"/>
+  <File path="ammo_crate_blue_diff.dds.5"/>
+  <File path="ammo_crate_blue_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Character" guid="48be9562-e20c-c26c-9cd9-9c5ca7f62eb4">
+ <Files>
+  <File path="shotgun_fp.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/weapons/attachments/lightweight_shotgun/shotgun_fp.chr</Path>
+  <Path>objects/weapons/attachments/lightweight_shotgun/shotgun_fp</Path>
+  <Path>Objects/weapons/ammo/shells/shotgun_shell/shotgun_shell.cgf</Path>
+  <Path>Objects/weapons/attachments/lightweight_shotgun/shotgun_fp.skin</Path>
+ </Dependencies>
+</AssetMetadata>

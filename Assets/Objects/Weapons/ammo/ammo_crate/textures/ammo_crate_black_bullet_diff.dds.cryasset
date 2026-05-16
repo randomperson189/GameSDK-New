@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="b367e2ca-e3f7-976b-eb59-b501a0c23285">
+ <Files>
+  <File path="ammo_crate_black_bullet_diff.dds"/>
+  <File path="ammo_crate_black_bullet_diff.dds.1"/>
+  <File path="ammo_crate_black_bullet_diff.dds.2"/>
+  <File path="ammo_crate_black_bullet_diff.dds.3"/>
+  <File path="ammo_crate_black_bullet_diff.dds.4"/>
+  <File path="ammo_crate_black_bullet_diff.dds.5"/>
+  <File path="ammo_crate_black_bullet_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

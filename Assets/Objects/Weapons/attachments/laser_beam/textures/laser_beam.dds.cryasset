@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="b7507c5b-a2a0-920e-9c86-c42a7c4a175c">
+ <Files>
+  <File path="laser_beam.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">4</Detail>
+ </Details>
+</AssetMetadata>

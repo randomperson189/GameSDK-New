@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="e1d13c69-908d-d898-4b04-f6bd0073cb0c">
+ <Files>
+  <File path="shotgun_tp_diff.dds"/>
+  <File path="shotgun_tp_diff.dds.1"/>
+  <File path="shotgun_tp_diff.dds.2"/>
+  <File path="shotgun_tp_diff.dds.3"/>
+  <File path="shotgun_tp_diff.dds.4"/>
+  <File path="shotgun_tp_diff.dds.5"/>
+  <File path="shotgun_tp_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

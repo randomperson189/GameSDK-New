@@ -1,0 +1,896 @@
+<ExpressionLibrary>
+ <AllEffectors>
+  <Effector Name="AE" Type="expression"/>
+  <Effector Name="g" Type="expression"/>
+  <Effector Name="DH" Type="expression"/>
+  <Effector Name="Visime_NN" Type="expression"/>
+  <Effector Name="SH" Type="expression"/>
+  <Effector Name="AA" Type="expression"/>
+  <Effector Name="k" Type="expression"/>
+  <Effector Name="FCL_C_Jaw_M__4_rZ" Type="bone" Attachment="FCL_C_Jaw_M_" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="FCL_R_Lip_Low_M__2_tY" Type="bone" Attachment="FCL_R_Lip_Low_M_" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_Brow_L_2_tY" Type="bone" Attachment="FCL_Brow_L" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_R_Cheek_M__1_tX" Type="bone" Attachment="FCL_R_Cheek_M_" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_C_BASE_2_tY" Type="bone" Attachment="FCL_C_BASE" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="Visime_AA" Type="expression"/>
+  <Effector Name="AY" Type="expression"/>
+  <Effector Name="FCL_R_Lip_Hi_M__3_tZ" Type="bone" Attachment="FCL_R_Lip_Hi_M_" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="FCL_Brow_R_3_tZ" Type="bone" Attachment="FCL_Brow_R" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="FCL_L_EyeLid_1_tX" Type="bone" Attachment="FCL_L_EyeLid" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="Root" Flags="1" Type="group"/>
+  <Effector Name="FCL_L_Cheek_M__5_rY" Type="bone" Attachment="FCL_L_Cheek_M_" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="FCL_L_Nose_1_tX" Type="bone" Attachment="FCL_L_Nose" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_R_Lip_Cor_M__5_rY" Type="bone" Attachment="FCL_R_Lip_Cor_M_" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="FCL_L_Lip_Hi_M__4_rZ" Type="bone" Attachment="FCL_L_Lip_Hi_M_" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="Expressions_Cut" Type="group"/>
+  <Effector Name="EH" Type="expression"/>
+  <Effector Name="s" Type="expression"/>
+  <Effector Name="eye_right_bone_6_rX" Type="bone" Attachment="eye_right_bone" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="FCL_R_EyeLid_3_tZ" Type="bone" Attachment="FCL_R_EyeLid" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="w" Type="expression"/>
+  <Effector Name="FCL_R_Nose_6_rX" Type="bone" Attachment="FCL_R_Nose" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="_garbage" Type="group"/>
+  <Effector Name="_" Type="expression"/>
+  <Effector Name="FCL_R_Lip_Low_M__3_tZ" Type="bone" Attachment="FCL_R_Lip_Low_M_" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="FCL_C_Jaw_M__5_rY" Type="bone" Attachment="FCL_C_Jaw_M_" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="FCL_L_Lip_Cor_M__6_rX" Type="bone" Attachment="FCL_L_Lip_Cor_M_" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="FCL_Brow_L_3_tZ" Type="bone" Attachment="FCL_Brow_L" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="Blink" Type="expression"/>
+  <Effector Name="FCL_C_BASE_3_tZ" Type="bone" Attachment="FCL_C_BASE" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="Phonemes" Type="group"/>
+  <Effector Name="FCL_Brow_R_2_tY" Type="bone" Attachment="FCL_Brow_R" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_R_Lip_Hi_M__2_tY" Type="bone" Attachment="FCL_R_Lip_Hi_M_" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_L_Cheek_M__4_rZ" Type="bone" Attachment="FCL_L_Cheek_M_" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="FCL_L_Lip_Hi_M__5_rY" Type="bone" Attachment="FCL_L_Lip_Hi_M_" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="FCL_L_Lip_Low_M__1_tX" Type="bone" Attachment="FCL_L_Lip_Low_M_" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_R_Lip_Cor_M__4_rZ" Type="bone" Attachment="FCL_R_Lip_Cor_M_" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="BoneControls" Type="group"/>
+  <Effector Name="FCL_R_EyeLid_2_tY" Type="bone" Attachment="FCL_R_EyeLid" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="eye_left_bone_6_rX" Type="bone" Attachment="eye_left_bone" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="FCL_R_Nose_5_rY" Type="bone" Attachment="FCL_R_Nose" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="TH" Type="expression"/>
+  <Effector Name="CH" Type="expression"/>
+  <Effector Name="FCL_L_Lip_Cor_M__5_rY" Type="bone" Attachment="FCL_L_Lip_Cor_M_" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="FCL_C_Jaw_M__6_rX" Type="bone" Attachment="FCL_C_Jaw_M_" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="EXP_Angry_FACE" Type="expression"/>
+  <Effector Name="FCL_R_Lip_Hi_M__1_tX" Type="bone" Attachment="FCL_R_Lip_Hi_M_" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="UH" Type="expression"/>
+  <Effector Name="FCL_Brow_R_1_tX" Type="bone" Attachment="FCL_Brow_R" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_L_EyeLid_3_tZ" Type="bone" Attachment="FCL_L_EyeLid" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="FCL_L_Nose_3_tZ" Type="bone" Attachment="FCL_L_Nose" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="FCL_R_Cheek_M__3_tZ" Type="bone" Attachment="FCL_R_Cheek_M_" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="Visimes" Type="group"/>
+  <Effector Name="FCL_R_EyeLid_1_tX" Type="bone" Attachment="FCL_R_EyeLid" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="eye_left_bone_5_rY" Type="bone" Attachment="eye_left_bone" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="FCL_L_Lip_Low_M__2_tY" Type="bone" Attachment="FCL_L_Lip_Low_M_" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_L_Lip_Hi_M__6_rX" Type="bone" Attachment="FCL_L_Lip_Hi_M_" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="eye_right_bone_4_rZ" Type="bone" Attachment="eye_right_bone" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="Visime_CH" Type="expression"/>
+  <Effector Name="z" Type="expression"/>
+  <Effector Name="FCL_R_Nose_4_rZ" Type="bone" Attachment="FCL_R_Nose" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="FCL_Brow_L_1_tX" Type="bone" Attachment="FCL_Brow_L" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="NG" Type="expression"/>
+  <Effector Name="v" Type="expression"/>
+  <Effector Name="r" Type="expression"/>
+  <Effector Name="Expressions" Type="group"/>
+  <Effector Name="Visime_OO" Type="expression"/>
+  <Effector Name="OW" Type="expression"/>
+  <Effector Name="FCL_R_Lip_Low_M__1_tX" Type="bone" Attachment="FCL_R_Lip_Low_M_" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_L_Lip_Cor_M__4_rZ" Type="bone" Attachment="FCL_L_Lip_Cor_M_" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="EY" Type="expression"/>
+  <Effector Name="b" Type="expression"/>
+  <Effector Name="FCL_L_Nose_2_tY" Type="bone" Attachment="FCL_L_Nose" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_L_Cheek_M__6_rX" Type="bone" Attachment="FCL_L_Cheek_M_" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="FCL_L_EyeLid_2_tY" Type="bone" Attachment="FCL_L_EyeLid" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_R_Cheek_M__2_tY" Type="bone" Attachment="FCL_R_Cheek_M_" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="f" Type="expression"/>
+  <Effector Name="Visime_EE" Type="expression"/>
+  <Effector Name="FCL_C_BASE_1_tX" Type="bone" Attachment="FCL_C_BASE" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="n" Type="expression"/>
+  <Effector Name="eye_left_bone_4_rZ" Type="bone" Attachment="eye_left_bone" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="FCL_L_Lip_Low_M__3_tZ" Type="bone" Attachment="FCL_L_Lip_Low_M_" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="FCL_R_Lip_Cor_M__6_rX" Type="bone" Attachment="FCL_R_Lip_Cor_M_" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="AH" Type="expression"/>
+  <Effector Name="eye_right_bone_5_rY" Type="bone" Attachment="eye_right_bone" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="j" Type="expression"/>
+  <Effector Name="p" Type="expression"/>
+  <Effector Name="t" Type="expression"/>
+  <Effector Name="FCL_L_Lip_Cor_M__2_tY" Type="bone" Attachment="FCL_L_Lip_Cor_M_" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_C_Jaw_M__1_tX" Type="bone" Attachment="FCL_C_Jaw_M_" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="OY" Type="expression"/>
+  <Effector Name="x" Type="expression"/>
+  <Effector Name="EXP_Happy_FACE" Type="expression"/>
+  <Effector Name="FCL_R_Nose_2_tY" Type="bone" Attachment="FCL_R_Nose" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="h" Type="expression"/>
+  <Effector Name="eye_left_bone_2_tY" Type="bone" Attachment="eye_left_bone" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_R_EyeLid_6_rX" Type="bone" Attachment="FCL_R_EyeLid" PosOffset="0,0,0" RotOffset="2.0943997,0,0"/>
+  <Effector Name="eye_right_bone_3_tZ" Type="bone" Attachment="eye_right_bone" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="l" Type="expression"/>
+  <Effector Name="FCL_L_Lip_Hi_M__1_tX" Type="bone" Attachment="FCL_L_Lip_Hi_M_" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_L_Lip_Low_M__5_rY" Type="bone" Attachment="FCL_L_Lip_Low_M_" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="EXP_Angry" Type="expression"/>
+  <Effector Name="FCL_L_Nose_4_rZ" Type="bone" Attachment="FCL_L_Nose" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="d" Type="expression"/>
+  <Effector Name="FCL_L_EyeLid_4_rZ" Type="bone" Attachment="FCL_L_EyeLid" PosOffset="0,0,0" RotOffset="0,0,2.0943997"/>
+  <Effector Name="FCL_Brow_R_6_rX" Type="bone" Attachment="FCL_Brow_R" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="FCL_R_Lip_Hi_M__6_rX" Type="bone" Attachment="FCL_R_Lip_Hi_M_" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="FCL_R_Cheek_M__4_rZ" Type="bone" Attachment="FCL_R_Cheek_M_" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="FCL_Brow_L_6_rX" Type="bone" Attachment="FCL_Brow_L" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="FCL_L_Lip_Cor_M__3_tZ" Type="bone" Attachment="FCL_L_Lip_Cor_M_" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="FCL_R_Lip_Low_M__6_rX" Type="bone" Attachment="FCL_R_Lip_Low_M_" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="FCL_R_Nose_3_tZ" Type="bone" Attachment="FCL_R_Nose" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="eye_left_bone_3_tZ" Type="bone" Attachment="eye_left_bone" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="eye_right_bone_2_tY" Type="bone" Attachment="eye_right_bone" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_R_Lip_Cor_M__1_tX" Type="bone" Attachment="FCL_R_Lip_Cor_M_" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="IH" Type="expression"/>
+  <Effector Name="FCL_L_Lip_Low_M__4_rZ" Type="bone" Attachment="FCL_L_Lip_Low_M_" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="FCL_L_EyeLid_5_rY" Type="bone" Attachment="FCL_L_EyeLid" PosOffset="0,0,0" RotOffset="0,2.0943997,0"/>
+  <Effector Name="FCL_L_Cheek_M__1_tX" Type="bone" Attachment="FCL_L_Cheek_M_" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_L_Nose_5_rY" Type="bone" Attachment="FCL_L_Nose" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="FCL_C_BASE_6_rX" Type="bone" Attachment="FCL_C_BASE" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="FCL_R_Cheek_M__5_rY" Type="bone" Attachment="FCL_R_Cheek_M_" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="BASE" Type="expression"/>
+  <Effector Name="FCL_R_Lip_Low_M__5_rY" Type="bone" Attachment="FCL_R_Lip_Low_M_" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="FCL_C_Jaw_M__3_tZ" Type="bone" Attachment="FCL_C_Jaw_M_" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="Visime_FF" Type="expression"/>
+  <Effector Name="FCL_Brow_L_5_rY" Type="bone" Attachment="FCL_Brow_L" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="eye_right_bone_1_tX" Type="bone" Attachment="eye_right_bone" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_L_Lip_Hi_M__3_tZ" Type="bone" Attachment="FCL_L_Lip_Hi_M_" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="Visime_MP" Type="expression"/>
+  <Effector Name="Visime_II" Type="expression"/>
+  <Effector Name="FCL_R_Lip_Cor_M__2_tY" Type="bone" Attachment="FCL_R_Lip_Cor_M_" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="ZH" Type="expression"/>
+  <Effector Name="FCL_R_EyeLid_4_rZ" Type="bone" Attachment="FCL_R_EyeLid" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="FCL_C_BASE_5_rY" Type="bone" Attachment="FCL_C_BASE" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="FCL_R_Cheek_M__6_rX" Type="bone" Attachment="FCL_R_Cheek_M_" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="FCL_L_Nose_6_rX" Type="bone" Attachment="FCL_L_Nose" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="IY" Type="expression"/>
+  <Effector Name="FCL_L_Cheek_M__2_tY" Type="bone" Attachment="FCL_L_Cheek_M_" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_L_EyeLid_6_rX" Type="bone" Attachment="FCL_L_EyeLid" PosOffset="0,0,0" RotOffset="2.0943997,0,0"/>
+  <Effector Name="UW" Type="expression"/>
+  <Effector Name="FCL_Brow_R_4_rZ" Type="bone" Attachment="FCL_Brow_R" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="EXP_Happy_MOUTH" Type="expression"/>
+  <Effector Name="FCL_R_Lip_Hi_M__4_rZ" Type="bone" Attachment="FCL_R_Lip_Hi_M_" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="EXP_Angry_MOUTH" Type="expression"/>
+  <Effector Name="Visime_LL" Type="expression"/>
+  <Effector Name="FCL_C_Jaw_M__2_tY" Type="bone" Attachment="FCL_C_Jaw_M_" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="AO" Type="expression"/>
+  <Effector Name="FCL_L_Lip_Cor_M__1_tX" Type="bone" Attachment="FCL_L_Lip_Cor_M_" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_R_Lip_Low_M__4_rZ" Type="bone" Attachment="FCL_R_Lip_Low_M_" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="m" Type="expression"/>
+  <Effector Name="EXP_Happy" Type="expression"/>
+  <Effector Name="ER" Type="expression"/>
+  <Effector Name="FCL_Brow_L_4_rZ" Type="bone" Attachment="FCL_Brow_L" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="FCL_R_Nose_1_tX" Type="bone" Attachment="FCL_R_Nose" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="Visime_XX" Type="expression"/>
+  <Effector Name="Visime_RR" Type="expression"/>
+  <Effector Name="FCL_R_Lip_Cor_M__3_tZ" Type="bone" Attachment="FCL_R_Lip_Cor_M_" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="FCL_L_Lip_Low_M__6_rX" Type="bone" Attachment="FCL_L_Lip_Low_M_" PosOffset="0,0,0" RotOffset="2.0943999,0,0"/>
+  <Effector Name="AW" Type="expression"/>
+  <Effector Name="FCL_L_Lip_Hi_M__2_tY" Type="bone" Attachment="FCL_L_Lip_Hi_M_" PosOffset="0,0.050000001,0" RotOffset="0,0,0"/>
+  <Effector Name="eye_left_bone_1_tX" Type="bone" Attachment="eye_left_bone" PosOffset="0.050000001,0,0" RotOffset="0,0,0"/>
+  <Effector Name="FCL_R_EyeLid_5_rY" Type="bone" Attachment="FCL_R_EyeLid" PosOffset="0,0,0" RotOffset="0,2.0943997,0"/>
+  <Effector Name="FCL_C_BASE_4_rZ" Type="bone" Attachment="FCL_C_BASE" PosOffset="0,0,0" RotOffset="0,0,2.0943999"/>
+  <Effector Name="y" Type="expression"/>
+  <Effector Name="FCL_L_Cheek_M__3_tZ" Type="bone" Attachment="FCL_L_Cheek_M_" PosOffset="0,0,0.050000001" RotOffset="0,0,0"/>
+  <Effector Name="FCL_R_Lip_Hi_M__5_rY" Type="bone" Attachment="FCL_R_Lip_Hi_M_" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+  <Effector Name="FCL_Brow_R_5_rY" Type="bone" Attachment="FCL_Brow_R" PosOffset="0,0,0" RotOffset="0,2.0943999,0"/>
+ </AllEffectors>
+ <Controllers>
+  <Effector Name="AE">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_AA"/>
+  </Effector>
+  <Effector Name="g">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_NN"/>
+  </Effector>
+  <Effector Name="DH">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_NN"/>
+  </Effector>
+  <Effector Name="Visime_NN">
+   <SubCtrl Weight="-0.028759399" Keys="" Effector="FCL_C_Jaw_M__6_rX"/>
+   <SubCtrl Weight="-0.0094091417" Keys="" Effector="FCL_L_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="-0.030160522" Keys="" Effector="FCL_L_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="-0.021633089" Keys="" Effector="FCL_L_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="0.041704558" Keys="" Effector="FCL_L_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="0.042019654" Keys="" Effector="FCL_L_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="-0.04461994" Keys="" Effector="FCL_L_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.1124054" Keys="" Effector="FCL_L_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.028759301" Keys="" Effector="FCL_L_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="-0.0094089508" Keys="" Effector="FCL_R_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="-0.030160522" Keys="" Effector="FCL_R_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="0.012445187" Keys="" Effector="FCL_R_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="0.023992157" Keys="" Effector="FCL_R_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="0.032369994" Keys="" Effector="FCL_R_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="-0.04461975" Keys="" Effector="FCL_R_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.11240234" Keys="" Effector="FCL_R_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.028759399" Keys="" Effector="FCL_R_Lip_Low_M__6_rX"/>
+  </Effector>
+  <Effector Name="SH">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_CH"/>
+  </Effector>
+  <Effector Name="AA">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_AA"/>
+  </Effector>
+  <Effector Name="k">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_NN"/>
+  </Effector>
+  <Effector Name="Visime_AA">
+   <SubCtrl Weight="-0.156216" Keys="" Effector="FCL_C_Jaw_M__6_rX"/>
+   <SubCtrl Weight="0.061160326" Keys="" Effector="FCL_L_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="-0.072145842" Keys="" Effector="FCL_L_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="-0.15491334" Keys="" Effector="FCL_L_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="0.058318801" Keys="" Effector="FCL_L_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="0.014438641" Keys="" Effector="FCL_L_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="-0.30179539" Keys="" Effector="FCL_L_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.62285769" Keys="" Effector="FCL_L_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.29374099" Keys="" Effector="FCL_L_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="-0.0614205" Keys="" Effector="FCL_L_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="0.031323299" Keys="" Effector="FCL_L_Lip_Low_M__4_rZ"/>
+   <SubCtrl Weight="-0.082078889" Keys="" Effector="FCL_R_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="-0.072145842" Keys="" Effector="FCL_R_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="-0.15491334" Keys="" Effector="FCL_R_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="-0.32007998" Keys="" Effector="FCL_R_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.57040405" Keys="" Effector="FCL_R_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.156216" Keys="" Effector="FCL_R_Lip_Low_M__6_rX"/>
+  </Effector>
+  <Effector Name="AY">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_AA"/>
+  </Effector>
+  <Effector Name="Root">
+   <SubCtrl Weight="1" Keys="" Effector="_garbage"/>
+   <SubCtrl Weight="1" Keys="" Effector="BoneControls"/>
+   <SubCtrl Weight="1" Keys="" Effector="Expressions"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visimes"/>
+   <SubCtrl Weight="1" Keys="" Effector="Phonemes"/>
+  </Effector>
+  <Effector Name="Expressions_Cut">
+   <SubCtrl Weight="1" Keys="" Effector="EXP_Happy_FACE"/>
+   <SubCtrl Weight="1" Keys="" Effector="EXP_Happy_MOUTH"/>
+   <SubCtrl Weight="1" Keys="" Effector="EXP_Angry_FACE"/>
+   <SubCtrl Weight="1" Keys="" Effector="EXP_Angry_MOUTH"/>
+  </Effector>
+  <Effector Name="EH">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_II"/>
+  </Effector>
+  <Effector Name="s">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_NN"/>
+  </Effector>
+  <Effector Name="w">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_OO"/>
+  </Effector>
+  <Effector Name="_">
+   <SubCtrl Weight="1" Keys="" Effector="BASE"/>
+  </Effector>
+  <Effector Name="Blink">
+   <SubCtrl Type="1" Weight="-0.434001" Keys="-1:0.434001,0.00251889:-0.0181818,0.493703:-0.836364,1:-0.0363637," Effector="FCL_L_EyeLid_6_rX"/>
+   <SubCtrl Weight="-0.061768599" Keys="0:1,1:1," Effector="FCL_L_EyeLid_5_rY"/>
+   <SubCtrl Weight="0.0302116" Keys="0:1,1:1," Effector="FCL_L_EyeLid_4_rZ"/>
+   <SubCtrl Type="1" Weight="-0.32370201" Keys="-1:0.323702,0:-0.0181818,0.463476:-1,1:-0.0181818," Effector="FCL_R_EyeLid_6_rX"/>
+   <SubCtrl Weight="0.049209699" Keys="0:1,1:1," Effector="FCL_R_EyeLid_5_rY"/>
+   <SubCtrl Weight="-0.017364699" Keys="0:1,1:1," Effector="FCL_R_EyeLid_4_rZ"/>
+  </Effector>
+  <Effector Name="Phonemes">
+   <SubCtrl Weight="1" Keys="" Effector="_"/>
+   <SubCtrl Weight="1" Keys="" Effector="AA"/>
+   <SubCtrl Weight="1" Keys="" Effector="AH"/>
+   <SubCtrl Weight="1" Keys="" Effector="h"/>
+   <SubCtrl Weight="1" Keys="" Effector="b"/>
+   <SubCtrl Weight="1" Keys="" Effector="p"/>
+   <SubCtrl Weight="1" Keys="" Effector="EH"/>
+   <SubCtrl Weight="1" Keys="" Effector="AE"/>
+   <SubCtrl Weight="1" Keys="" Effector="IH"/>
+   <SubCtrl Weight="1" Keys="" Effector="AY"/>
+   <SubCtrl Weight="1" Keys="" Effector="f"/>
+   <SubCtrl Weight="1" Keys="" Effector="y"/>
+   <SubCtrl Weight="1" Keys="" Effector="IY"/>
+   <SubCtrl Weight="1" Keys="" Effector="EY"/>
+   <SubCtrl Weight="1" Keys="" Effector="AO"/>
+   <SubCtrl Weight="1" Keys="" Effector="AW"/>
+   <SubCtrl Weight="1" Keys="" Effector="OW"/>
+   <SubCtrl Weight="1" Keys="" Effector="OY"/>
+   <SubCtrl Weight="1" Keys="" Effector="UH"/>
+   <SubCtrl Weight="1" Keys="" Effector="UW"/>
+   <SubCtrl Weight="1" Keys="" Effector="r"/>
+   <SubCtrl Weight="1" Keys="" Effector="ER"/>
+   <SubCtrl Weight="1" Keys="" Effector="l"/>
+   <SubCtrl Weight="1" Keys="" Effector="w"/>
+   <SubCtrl Weight="1" Keys="" Effector="CH"/>
+   <SubCtrl Weight="1" Keys="" Effector="j"/>
+   <SubCtrl Weight="1" Keys="" Effector="SH"/>
+   <SubCtrl Weight="1" Keys="" Effector="ZH"/>
+   <SubCtrl Weight="1" Keys="" Effector="n"/>
+   <SubCtrl Weight="1" Keys="" Effector="NG"/>
+   <SubCtrl Weight="1" Keys="" Effector="DH"/>
+   <SubCtrl Weight="1" Keys="" Effector="d"/>
+   <SubCtrl Weight="1" Keys="" Effector="g"/>
+   <SubCtrl Weight="1" Keys="" Effector="t"/>
+   <SubCtrl Weight="1" Keys="" Effector="z"/>
+   <SubCtrl Weight="1" Keys="" Effector="s"/>
+   <SubCtrl Weight="1" Keys="" Effector="x"/>
+   <SubCtrl Weight="1" Keys="" Effector="v"/>
+   <SubCtrl Weight="1" Keys="" Effector="k"/>
+   <SubCtrl Weight="1" Keys="" Effector="TH"/>
+   <SubCtrl Weight="1" Keys="" Effector="m"/>
+  </Effector>
+  <Effector Name="BoneControls">
+   <SubCtrl Weight="1" Keys="" Effector="FCL_Brow_L_1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_Brow_L_2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_Brow_L_3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_Brow_L_4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_Brow_L_5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_Brow_L_6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_Brow_R_1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_Brow_R_2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_Brow_R_3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_Brow_R_4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_Brow_R_5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_Brow_R_6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_C_BASE_1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_C_BASE_2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_C_BASE_3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_C_BASE_4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_C_BASE_5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_C_BASE_6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_C_Jaw_M__1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_C_Jaw_M__2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_C_Jaw_M__3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_C_Jaw_M__4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_C_Jaw_M__5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_C_Jaw_M__6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Cheek_M__1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Cheek_M__2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Cheek_M__3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Cheek_M__4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Cheek_M__5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Cheek_M__6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_EyeLid_1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_EyeLid_2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_EyeLid_3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_EyeLid_4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_EyeLid_5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_EyeLid_6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Cor_M__5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Cor_M__6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Low_M__4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Nose_1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Nose_2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Nose_3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Nose_4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Nose_5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_L_Nose_6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Cheek_M__1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Cheek_M__2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Cheek_M__3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Cheek_M__4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Cheek_M__5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Cheek_M__6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_EyeLid_1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_EyeLid_2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_EyeLid_3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_EyeLid_4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_EyeLid_5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_EyeLid_6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Cor_M__5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Cor_M__6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Low_M__4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Nose_1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Nose_2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Nose_3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Nose_4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Nose_5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="FCL_R_Nose_6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="eye_left_bone_1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="eye_left_bone_2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="eye_left_bone_3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="eye_left_bone_4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="eye_left_bone_5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="eye_left_bone_6_rX"/>
+   <SubCtrl Weight="1" Keys="" Effector="eye_right_bone_1_tX"/>
+   <SubCtrl Weight="1" Keys="" Effector="eye_right_bone_2_tY"/>
+   <SubCtrl Weight="1" Keys="" Effector="eye_right_bone_3_tZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="eye_right_bone_4_rZ"/>
+   <SubCtrl Weight="1" Keys="" Effector="eye_right_bone_5_rY"/>
+   <SubCtrl Weight="1" Keys="" Effector="eye_right_bone_6_rX"/>
+  </Effector>
+  <Effector Name="TH">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_NN"/>
+  </Effector>
+  <Effector Name="CH">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_CH"/>
+  </Effector>
+  <Effector Name="EXP_Angry_FACE">
+   <SubCtrl Weight="0.029681111" Keys="" Effector="FCL_Brow_L_1_tX"/>
+   <SubCtrl Weight="-0.10401917" Keys="" Effector="FCL_Brow_L_3_tZ"/>
+   <SubCtrl Weight="0.143231" Keys="" Effector="FCL_Brow_L_5_rY"/>
+   <SubCtrl Weight="-0.054531384" Keys="" Effector="FCL_Brow_R_1_tX"/>
+   <SubCtrl Weight="-0.09935303" Keys="" Effector="FCL_Brow_R_3_tZ"/>
+   <SubCtrl Weight="-0.140971" Keys="" Effector="FCL_Brow_R_5_rY"/>
+   <SubCtrl Weight="-0.062351" Keys="" Effector="FCL_L_EyeLid_6_rX"/>
+   <SubCtrl Weight="-0.0102523" Keys="" Effector="FCL_L_EyeLid_5_rY"/>
+   <SubCtrl Weight="0.00067019701" Keys="" Effector="FCL_L_EyeLid_4_rZ"/>
+   <SubCtrl Weight="0.015638113" Keys="" Effector="FCL_L_Nose_1_tX"/>
+   <SubCtrl Weight="0.1863037" Keys="" Effector="FCL_L_Nose_3_tZ"/>
+   <SubCtrl Weight="-0.061653499" Keys="" Effector="FCL_R_EyeLid_6_rX"/>
+   <SubCtrl Weight="0.0101368" Keys="" Effector="FCL_R_EyeLid_5_rY"/>
+   <SubCtrl Weight="-0.00065558398" Keys="" Effector="FCL_R_EyeLid_4_rZ"/>
+   <SubCtrl Weight="-0.092397884" Keys="" Effector="FCL_R_Nose_1_tX"/>
+   <SubCtrl Weight="0.17434081" Keys="" Effector="FCL_R_Nose_3_tZ"/>
+  </Effector>
+  <Effector Name="UH">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_OO"/>
+  </Effector>
+  <Effector Name="Visimes">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_AA"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visime_CH"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visime_EE"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visime_FF"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visime_II"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visime_LL"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visime_MP"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visime_NN"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visime_OO"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visime_RR"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visime_XX"/>
+  </Effector>
+  <Effector Name="Visime_CH">
+   <SubCtrl Weight="-0.037214398" Keys="" Effector="FCL_C_Jaw_M__6_rX"/>
+   <SubCtrl Weight="0.090640351" Keys="" Effector="FCL_L_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="0.050779343" Keys="" Effector="FCL_L_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="-0.038916014" Keys="" Effector="FCL_L_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="0.116638" Keys="" Effector="FCL_L_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="0.0040965676" Keys="" Effector="FCL_L_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="-0.0078979488" Keys="" Effector="FCL_L_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="0.15939637" Keys="" Effector="FCL_L_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="0.32012099" Keys="" Effector="FCL_L_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="0.14886899" Keys="" Effector="FCL_L_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="0.052235201" Keys="" Effector="FCL_L_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="0.028875757" Keys="" Effector="FCL_L_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="0.0023004531" Keys="" Effector="FCL_L_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.23756714" Keys="" Effector="FCL_L_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.316295" Keys="" Effector="FCL_L_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="-0.127294" Keys="" Effector="FCL_L_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="0.049650598" Keys="" Effector="FCL_L_Lip_Low_M__4_rZ"/>
+   <SubCtrl Weight="-0.10422587" Keys="" Effector="FCL_R_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="0.060266875" Keys="" Effector="FCL_R_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="-0.038919069" Keys="" Effector="FCL_R_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="-0.097052403" Keys="" Effector="FCL_R_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="-0.018641364" Keys="" Effector="FCL_R_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="-0.035936546" Keys="" Effector="FCL_R_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="0.1497467" Keys="" Effector="FCL_R_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="0.45790201" Keys="" Effector="FCL_R_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="-0.191735" Keys="" Effector="FCL_R_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="-0.100687" Keys="" Effector="FCL_R_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="-0.058124255" Keys="" Effector="FCL_R_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="-0.025734711" Keys="" Effector="FCL_R_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.25630799" Keys="" Effector="FCL_R_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.358511" Keys="" Effector="FCL_R_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="0.142257" Keys="" Effector="FCL_R_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="-0.0629512" Keys="" Effector="FCL_R_Lip_Low_M__4_rZ"/>
+  </Effector>
+  <Effector Name="z">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_NN"/>
+  </Effector>
+  <Effector Name="NG">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_NN"/>
+  </Effector>
+  <Effector Name="v">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_FF"/>
+  </Effector>
+  <Effector Name="r">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_RR"/>
+  </Effector>
+  <Effector Name="Expressions">
+   <SubCtrl Weight="1" Keys="" Effector="Expressions_Cut"/>
+   <SubCtrl Weight="1" Keys="" Effector="BASE"/>
+   <SubCtrl Weight="1" Keys="" Effector="Blink"/>
+   <SubCtrl Weight="1" Keys="" Effector="EXP_Happy"/>
+   <SubCtrl Weight="1" Keys="" Effector="EXP_Angry"/>
+  </Effector>
+  <Effector Name="Visime_OO">
+   <SubCtrl Weight="-0.0292289" Keys="" Effector="FCL_C_Jaw_M__6_rX"/>
+   <SubCtrl Weight="0.15388756" Keys="" Effector="FCL_L_Cheek_M__1_tX"/>
+   <SubCtrl Weight="-0.054845236" Keys="" Effector="FCL_L_Cheek_M__2_tY"/>
+   <SubCtrl Weight="-0.17918701" Keys="" Effector="FCL_L_Cheek_M__3_tZ"/>
+   <SubCtrl Weight="0.14043435" Keys="" Effector="FCL_L_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="0.4139286" Keys="" Effector="FCL_L_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="-0.044781495" Keys="" Effector="FCL_L_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="0.146403" Keys="" Effector="FCL_L_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="-0.043638505" Keys="" Effector="FCL_L_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="0.23220615" Keys="" Effector="FCL_L_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="0.018188477" Keys="" Effector="FCL_L_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="0.090495601" Keys="" Effector="FCL_L_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="-0.0529522" Keys="" Effector="FCL_L_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="0.047590598" Keys="" Effector="FCL_L_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="-0.025667142" Keys="" Effector="FCL_L_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="0.35734636" Keys="" Effector="FCL_L_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.093774416" Keys="" Effector="FCL_L_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.176119" Keys="" Effector="FCL_L_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="0.027499899" Keys="" Effector="FCL_L_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="0.131065" Keys="" Effector="FCL_L_Lip_Low_M__4_rZ"/>
+   <SubCtrl Weight="-0.13064203" Keys="" Effector="FCL_L_Nose_1_tX"/>
+   <SubCtrl Weight="-0.033659935" Keys="" Effector="FCL_L_Nose_2_tY"/>
+   <SubCtrl Weight="-0.055728149" Keys="" Effector="FCL_L_Nose_3_tZ"/>
+   <SubCtrl Weight="-0.21048956" Keys="" Effector="FCL_R_Cheek_M__1_tX"/>
+   <SubCtrl Weight="0.16661319" Keys="" Effector="FCL_R_Cheek_M__2_tY"/>
+   <SubCtrl Weight="-0.15599671" Keys="" Effector="FCL_R_Cheek_M__3_tZ"/>
+   <SubCtrl Weight="-0.24499074" Keys="" Effector="FCL_R_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="0.35099888" Keys="" Effector="FCL_R_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="-0.033102416" Keys="" Effector="FCL_R_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="-0.164123" Keys="" Effector="FCL_R_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="-0.034043945" Keys="" Effector="FCL_R_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="0.23669891" Keys="" Effector="FCL_R_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="-0.0070587159" Keys="" Effector="FCL_R_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="0.135997" Keys="" Effector="FCL_R_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="0.0676606" Keys="" Effector="FCL_R_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="-0.0943771" Keys="" Effector="FCL_R_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="-0.044327211" Keys="" Effector="FCL_R_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="0.3566944" Keys="" Effector="FCL_R_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.0607666" Keys="" Effector="FCL_R_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.0488161" Keys="" Effector="FCL_R_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="-0.069726497" Keys="" Effector="FCL_R_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="-0.173149" Keys="" Effector="FCL_R_Lip_Low_M__4_rZ"/>
+   <SubCtrl Weight="-0.068136595" Keys="" Effector="FCL_R_Nose_3_tZ"/>
+  </Effector>
+  <Effector Name="OW">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_OO"/>
+  </Effector>
+  <Effector Name="EY">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_II"/>
+  </Effector>
+  <Effector Name="b">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_MP"/>
+  </Effector>
+  <Effector Name="f">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_FF"/>
+  </Effector>
+  <Effector Name="Visime_EE">
+   <SubCtrl Weight="-0.0154085" Keys="" Effector="FCL_C_Jaw_M__6_rX"/>
+   <SubCtrl Weight="-0.039399624" Keys="" Effector="FCL_L_Cheek_M__1_tX"/>
+   <SubCtrl Weight="-0.016086388" Keys="" Effector="FCL_L_Cheek_M__2_tY"/>
+   <SubCtrl Weight="0.11616516" Keys="" Effector="FCL_L_Cheek_M__3_tZ"/>
+   <SubCtrl Weight="-0.12384401" Keys="" Effector="FCL_L_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="-0.091301344" Keys="" Effector="FCL_L_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="0.099853516" Keys="" Effector="FCL_L_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="-0.038889635" Keys="" Effector="FCL_L_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="-0.0063158036" Keys="" Effector="FCL_L_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="0.10320739" Keys="" Effector="FCL_L_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="-0.028764319" Keys="" Effector="FCL_L_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="-0.095630072" Keys="" Effector="FCL_L_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.026446532" Keys="" Effector="FCL_L_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.0154085" Keys="" Effector="FCL_L_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="0.068951413" Keys="" Effector="FCL_L_Nose_3_tZ"/>
+   <SubCtrl Weight="-0.049557306" Keys="" Effector="FCL_R_Cheek_M__1_tX"/>
+   <SubCtrl Weight="-0.024762725" Keys="" Effector="FCL_R_Cheek_M__2_tY"/>
+   <SubCtrl Weight="0.10193481" Keys="" Effector="FCL_R_Cheek_M__3_tZ"/>
+   <SubCtrl Weight="0.028872108" Keys="" Effector="FCL_R_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="-0.10590343" Keys="" Effector="FCL_R_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="0.06760864" Keys="" Effector="FCL_R_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="0.012927187" Keys="" Effector="FCL_R_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="-0.045121957" Keys="" Effector="FCL_R_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="0.1305664" Keys="" Effector="FCL_R_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="0.01789875" Keys="" Effector="FCL_R_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="-0.073892213" Keys="" Effector="FCL_R_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.025930787" Keys="" Effector="FCL_R_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.0154085" Keys="" Effector="FCL_R_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="0.04777832" Keys="" Effector="FCL_R_Nose_3_tZ"/>
+  </Effector>
+  <Effector Name="n">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_NN"/>
+  </Effector>
+  <Effector Name="AH">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_AA"/>
+  </Effector>
+  <Effector Name="j">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_CH"/>
+  </Effector>
+  <Effector Name="p">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_MP"/>
+  </Effector>
+  <Effector Name="t">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_NN"/>
+  </Effector>
+  <Effector Name="OY">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_OO"/>
+  </Effector>
+  <Effector Name="x">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_XX"/>
+  </Effector>
+  <Effector Name="EXP_Happy_FACE">
+   <SubCtrl Weight="0.16166992" Keys="" Effector="FCL_Brow_L_3_tZ"/>
+   <SubCtrl Weight="0.19303894" Keys="" Effector="FCL_Brow_R_3_tZ"/>
+   <SubCtrl Weight="-0.13932757" Keys="" Effector="FCL_L_Nose_1_tX"/>
+   <SubCtrl Weight="0.065737724" Keys="" Effector="FCL_L_Nose_2_tY"/>
+   <SubCtrl Weight="0.060214233" Keys="" Effector="FCL_L_Nose_3_tZ"/>
+   <SubCtrl Weight="0.0801218" Keys="" Effector="FCL_R_Nose_1_tX"/>
+   <SubCtrl Weight="0.090295032" Keys="" Effector="FCL_R_Nose_2_tY"/>
+   <SubCtrl Weight="0.061215211" Keys="" Effector="FCL_R_Nose_3_tZ"/>
+  </Effector>
+  <Effector Name="h">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_II"/>
+  </Effector>
+  <Effector Name="l">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_LL"/>
+  </Effector>
+  <Effector Name="EXP_Angry">
+   <SubCtrl Weight="1" Keys="" Effector="EXP_Angry_FACE"/>
+   <SubCtrl Weight="1" Keys="" Effector="EXP_Angry_MOUTH"/>
+  </Effector>
+  <Effector Name="d">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_NN"/>
+  </Effector>
+  <Effector Name="IH">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_EE"/>
+  </Effector>
+  <Effector Name="Visime_FF">
+   <SubCtrl Weight="-0.036971807" Keys="" Effector="FCL_C_Jaw_M__2_tY"/>
+   <SubCtrl Weight="0.00058792799" Keys="" Effector="FCL_C_Jaw_M__6_rX"/>
+   <SubCtrl Weight="-0.010390091" Keys="" Effector="FCL_L_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="0.0069273352" Keys="" Effector="FCL_L_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="-0.013354111" Keys="" Effector="FCL_L_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="-0.097012326" Keys="" Effector="FCL_L_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="-0.128453" Keys="" Effector="FCL_L_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="-0.065418802" Keys="" Effector="FCL_L_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="0.0088666799" Keys="" Effector="FCL_L_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="0.052628029" Keys="" Effector="FCL_L_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="-0.13919449" Keys="" Effector="FCL_L_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="0.080908202" Keys="" Effector="FCL_L_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="0.166568" Keys="" Effector="FCL_L_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="0.0822879" Keys="" Effector="FCL_L_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="0.014588" Keys="" Effector="FCL_L_Lip_Low_M__4_rZ"/>
+   <SubCtrl Weight="-0.0103899" Keys="" Effector="FCL_R_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="-0.0032041073" Keys="" Effector="FCL_R_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="-0.0061771395" Keys="" Effector="FCL_R_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="-0.10580139" Keys="" Effector="FCL_R_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="-0.110344" Keys="" Effector="FCL_R_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="0.0564644" Keys="" Effector="FCL_R_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="-0.0065614502" Keys="" Effector="FCL_R_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="-0.04608836" Keys="" Effector="FCL_R_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="-0.12638149" Keys="" Effector="FCL_R_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="0.066674806" Keys="" Effector="FCL_R_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="0.205439" Keys="" Effector="FCL_R_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="-0.099997401" Keys="" Effector="FCL_R_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="-0.021991899" Keys="" Effector="FCL_R_Lip_Low_M__4_rZ"/>
+  </Effector>
+  <Effector Name="Visime_MP">
+   <SubCtrl Weight="0.0115815" Keys="" Effector="FCL_C_Jaw_M__6_rX"/>
+   <SubCtrl Weight="0.0032730103" Keys="" Effector="FCL_L_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="0.012301636" Keys="" Effector="FCL_L_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="0.013627207" Keys="" Effector="FCL_L_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="-0.026270676" Keys="" Effector="FCL_L_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="-0.075466916" Keys="" Effector="FCL_L_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="-0.15994599" Keys="" Effector="FCL_L_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="-0.080649301" Keys="" Effector="FCL_L_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="0.0136675" Keys="" Effector="FCL_L_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="-0.013973522" Keys="" Effector="FCL_L_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="0.043598365" Keys="" Effector="FCL_L_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="0.13398743" Keys="" Effector="FCL_L_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="0.17812" Keys="" Effector="FCL_L_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="0.164647" Keys="" Effector="FCL_L_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="0.053109199" Keys="" Effector="FCL_L_Lip_Low_M__4_rZ"/>
+   <SubCtrl Weight="0.0032730103" Keys="" Effector="FCL_R_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="0.012295532" Keys="" Effector="FCL_R_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="-0.016467368" Keys="" Effector="FCL_R_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="-0.031746291" Keys="" Effector="FCL_R_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="-0.083496094" Keys="" Effector="FCL_R_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="-0.17348699" Keys="" Effector="FCL_R_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="0.087046601" Keys="" Effector="FCL_R_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="-0.0160337" Keys="" Effector="FCL_R_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="0.012015199" Keys="" Effector="FCL_R_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="0.040880013" Keys="" Effector="FCL_R_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="0.10910034" Keys="" Effector="FCL_R_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="0.169449" Keys="" Effector="FCL_R_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="-0.055766199" Keys="" Effector="FCL_R_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="-0.0068998002" Keys="" Effector="FCL_R_Lip_Low_M__4_rZ"/>
+  </Effector>
+  <Effector Name="ZH">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_CH"/>
+  </Effector>
+  <Effector Name="IY">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_EE"/>
+  </Effector>
+  <Effector Name="UW">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_OO"/>
+  </Effector>
+  <Effector Name="EXP_Happy_MOUTH">
+   <SubCtrl Weight="-0.023778601" Keys="" Effector="FCL_C_Jaw_M__6_rX"/>
+   <SubCtrl Weight="0.017372418" Keys="" Effector="FCL_L_Cheek_M__1_tX"/>
+   <SubCtrl Weight="-0.0086809155" Keys="" Effector="FCL_L_Cheek_M__2_tY"/>
+   <SubCtrl Weight="0.20976563" Keys="" Effector="FCL_L_Cheek_M__3_tZ"/>
+   <SubCtrl Weight="-0.016444599" Keys="" Effector="FCL_L_Cheek_M__6_rX"/>
+   <SubCtrl Weight="-0.058518101" Keys="" Effector="FCL_L_Cheek_M__5_rY"/>
+   <SubCtrl Weight="-0.030024501" Keys="" Effector="FCL_L_Cheek_M__4_rZ"/>
+   <SubCtrl Weight="-0.19818774" Keys="" Effector="FCL_L_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="-0.20937291" Keys="" Effector="FCL_L_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="0.24772644" Keys="" Effector="FCL_L_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="-0.062679701" Keys="" Effector="FCL_L_Lip_Cor_M__6_rX"/>
+   <SubCtrl Weight="0.088469498" Keys="" Effector="FCL_L_Lip_Cor_M__5_rY"/>
+   <SubCtrl Weight="0.0898716" Keys="" Effector="FCL_L_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="-0.07901226" Keys="" Effector="FCL_L_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="-0.075877763" Keys="" Effector="FCL_L_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="0.050588988" Keys="" Effector="FCL_L_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="-0.034940399" Keys="" Effector="FCL_L_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="0.078586698" Keys="" Effector="FCL_L_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="0.0285885" Keys="" Effector="FCL_L_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="-0.062634684" Keys="" Effector="FCL_L_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="-0.10953712" Keys="" Effector="FCL_L_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.061154176" Keys="" Effector="FCL_L_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.068931103" Keys="" Effector="FCL_L_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="0.086176597" Keys="" Effector="FCL_L_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="-0.0084156999" Keys="" Effector="FCL_L_Lip_Low_M__4_rZ"/>
+   <SubCtrl Weight="-0.022879411" Keys="" Effector="FCL_R_Cheek_M__1_tX"/>
+   <SubCtrl Weight="-0.011432266" Keys="" Effector="FCL_R_Cheek_M__2_tY"/>
+   <SubCtrl Weight="0.16167602" Keys="" Effector="FCL_R_Cheek_M__3_tZ"/>
+   <SubCtrl Weight="-0.019830501" Keys="" Effector="FCL_R_Cheek_M__6_rX"/>
+   <SubCtrl Weight="0.039583899" Keys="" Effector="FCL_R_Cheek_M__5_rY"/>
+   <SubCtrl Weight="-0.00082267501" Keys="" Effector="FCL_R_Cheek_M__4_rZ"/>
+   <SubCtrl Weight="0.06779094" Keys="" Effector="FCL_R_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="-0.093493462" Keys="" Effector="FCL_R_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="0.15849304" Keys="" Effector="FCL_R_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="-0.046788" Keys="" Effector="FCL_R_Lip_Cor_M__6_rX"/>
+   <SubCtrl Weight="-0.086947098" Keys="" Effector="FCL_R_Lip_Cor_M__5_rY"/>
+   <SubCtrl Weight="-0.053608399" Keys="" Effector="FCL_R_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="0.042084742" Keys="" Effector="FCL_R_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="-0.081648827" Keys="" Effector="FCL_R_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="0.041485596" Keys="" Effector="FCL_R_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="-0.042257201" Keys="" Effector="FCL_R_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="-0.0900179" Keys="" Effector="FCL_R_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="-0.024977701" Keys="" Effector="FCL_R_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="0.049319483" Keys="" Effector="FCL_R_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="-0.10521755" Keys="" Effector="FCL_R_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.089700319" Keys="" Effector="FCL_R_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.0496164" Keys="" Effector="FCL_R_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="-0.049958698" Keys="" Effector="FCL_R_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="0.0038508901" Keys="" Effector="FCL_R_Lip_Low_M__4_rZ"/>
+  </Effector>
+  <Effector Name="EXP_Angry_MOUTH">
+   <SubCtrl Weight="0.0202037" Keys="" Effector="FCL_C_Jaw_M__6_rX"/>
+   <SubCtrl Weight="0.0055156709" Keys="" Effector="FCL_L_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="0.021499634" Keys="" Effector="FCL_L_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="0.061314501" Keys="" Effector="FCL_L_Lip_Cor_M__6_rX"/>
+   <SubCtrl Weight="-0.086596698" Keys="" Effector="FCL_L_Lip_Cor_M__5_rY"/>
+   <SubCtrl Weight="-0.0055831098" Keys="" Effector="FCL_L_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="0.14150086" Keys="" Effector="FCL_L_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="-0.0087265251" Keys="" Effector="FCL_L_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="0.022909546" Keys="" Effector="FCL_L_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="0.1046875" Keys="" Effector="FCL_L_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="0.020203801" Keys="" Effector="FCL_L_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="0.0055158613" Keys="" Effector="FCL_R_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="0.021502685" Keys="" Effector="FCL_R_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="0.083532102" Keys="" Effector="FCL_R_Lip_Cor_M__6_rX"/>
+   <SubCtrl Weight="0.116628" Keys="" Effector="FCL_R_Lip_Cor_M__5_rY"/>
+   <SubCtrl Weight="0.0102788" Keys="" Effector="FCL_R_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="-0.004231465" Keys="" Effector="FCL_R_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="0.19569091" Keys="" Effector="FCL_R_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="0.022909546" Keys="" Effector="FCL_R_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="0.12906495" Keys="" Effector="FCL_R_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="0.0202037" Keys="" Effector="FCL_R_Lip_Low_M__6_rX"/>
+  </Effector>
+  <Effector Name="Visime_LL">
+   <SubCtrl Weight="-0.051133402" Keys="" Effector="FCL_C_Jaw_M__6_rX"/>
+   <SubCtrl Weight="0.090640403" Keys="" Effector="FCL_L_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="0.045323182" Keys="" Effector="FCL_L_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="-0.053207397" Keys="" Effector="FCL_L_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="0.116638" Keys="" Effector="FCL_L_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="0.0040965676" Keys="" Effector="FCL_L_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="-0.0078979488" Keys="" Effector="FCL_L_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="0.15939637" Keys="" Effector="FCL_L_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="0.32012099" Keys="" Effector="FCL_L_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="0.14886899" Keys="" Effector="FCL_L_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="0.052235201" Keys="" Effector="FCL_L_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="0.028875839" Keys="" Effector="FCL_L_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="-0.025374794" Keys="" Effector="FCL_L_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.29226989" Keys="" Effector="FCL_L_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.330634" Keys="" Effector="FCL_L_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="-0.12579501" Keys="" Effector="FCL_L_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="0.053406801" Keys="" Effector="FCL_L_Lip_Low_M__4_rZ"/>
+   <SubCtrl Weight="-0.10422583" Keys="" Effector="FCL_R_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="0.054811098" Keys="" Effector="FCL_R_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="-0.053204346" Keys="" Effector="FCL_R_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="-0.097052403" Keys="" Effector="FCL_R_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="-0.018641364" Keys="" Effector="FCL_R_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="-0.035936546" Keys="" Effector="FCL_R_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="0.1497467" Keys="" Effector="FCL_R_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="0.45790201" Keys="" Effector="FCL_R_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="-0.191735" Keys="" Effector="FCL_R_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="-0.100687" Keys="" Effector="FCL_R_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="-0.058124173" Keys="" Effector="FCL_R_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="-0.053944208" Keys="" Effector="FCL_R_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.3101837" Keys="" Effector="FCL_R_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.37292701" Keys="" Effector="FCL_R_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="0.140366" Keys="" Effector="FCL_R_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="-0.0671563" Keys="" Effector="FCL_R_Lip_Low_M__4_rZ"/>
+  </Effector>
+  <Effector Name="AO">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_OO"/>
+  </Effector>
+  <Effector Name="m">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_MP"/>
+  </Effector>
+  <Effector Name="EXP_Happy">
+   <SubCtrl Weight="1" Keys="" Effector="EXP_Happy_FACE"/>
+   <SubCtrl Weight="1" Keys="" Effector="EXP_Happy_MOUTH"/>
+  </Effector>
+  <Effector Name="ER">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_RR"/>
+  </Effector>
+  <Effector Name="Visime_RR">
+   <SubCtrl Weight="-0.0290672" Keys="" Effector="FCL_C_Jaw_M__6_rX"/>
+   <SubCtrl Weight="0.076943874" Keys="" Effector="FCL_L_Cheek_M__1_tX"/>
+   <SubCtrl Weight="-0.027422523" Keys="" Effector="FCL_L_Cheek_M__2_tY"/>
+   <SubCtrl Weight="-0.089593507" Keys="" Effector="FCL_L_Cheek_M__3_tZ"/>
+   <SubCtrl Weight="0.037797879" Keys="" Effector="FCL_L_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="0.016876411" Keys="" Effector="FCL_L_Lip_Cor_M__2_tY"/>
+   <SubCtrl Weight="-0.03048401" Keys="" Effector="FCL_L_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="0.048638999" Keys="" Effector="FCL_L_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="-0.0032936097" Keys="" Effector="FCL_L_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="0.06647034" Keys="" Effector="FCL_L_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="0.129705" Keys="" Effector="FCL_L_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="0.066031203" Keys="" Effector="FCL_L_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="0.0090384698" Keys="" Effector="FCL_L_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="0.012041545" Keys="" Effector="FCL_L_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="-0.018908691" Keys="" Effector="FCL_L_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.15178528" Keys="" Effector="FCL_L_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.142634" Keys="" Effector="FCL_L_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="-0.056603801" Keys="" Effector="FCL_L_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="0.0103001" Keys="" Effector="FCL_L_Lip_Low_M__4_rZ"/>
+   <SubCtrl Weight="-0.065321065" Keys="" Effector="FCL_L_Nose_1_tX"/>
+   <SubCtrl Weight="-0.016830062" Keys="" Effector="FCL_L_Nose_2_tY"/>
+   <SubCtrl Weight="-0.027862549" Keys="" Effector="FCL_L_Nose_3_tZ"/>
+   <SubCtrl Weight="-0.10524473" Keys="" Effector="FCL_R_Cheek_M__1_tX"/>
+   <SubCtrl Weight="0.083306506" Keys="" Effector="FCL_R_Cheek_M__2_tY"/>
+   <SubCtrl Weight="-0.077996828" Keys="" Effector="FCL_R_Cheek_M__3_tZ"/>
+   <SubCtrl Weight="-0.012634945" Keys="" Effector="FCL_R_Lip_Cor_M__1_tX"/>
+   <SubCtrl Weight="-0.030480957" Keys="" Effector="FCL_R_Lip_Cor_M__3_tZ"/>
+   <SubCtrl Weight="-0.0404718" Keys="" Effector="FCL_R_Lip_Cor_M__4_rZ"/>
+   <SubCtrl Weight="-0.0077736257" Keys="" Effector="FCL_R_Lip_Hi_M__1_tX"/>
+   <SubCtrl Weight="-0.014985847" Keys="" Effector="FCL_R_Lip_Hi_M__2_tY"/>
+   <SubCtrl Weight="0.062445067" Keys="" Effector="FCL_R_Lip_Hi_M__3_tZ"/>
+   <SubCtrl Weight="0.181418" Keys="" Effector="FCL_R_Lip_Hi_M__6_rX"/>
+   <SubCtrl Weight="-0.090748802" Keys="" Effector="FCL_R_Lip_Hi_M__5_rY"/>
+   <SubCtrl Weight="-0.0175015" Keys="" Effector="FCL_R_Lip_Hi_M__4_rZ"/>
+   <SubCtrl Weight="-0.0242383" Keys="" Effector="FCL_R_Lip_Low_M__1_tX"/>
+   <SubCtrl Weight="-0.030464362" Keys="" Effector="FCL_R_Lip_Low_M__2_tY"/>
+   <SubCtrl Weight="-0.15979615" Keys="" Effector="FCL_R_Lip_Low_M__3_tZ"/>
+   <SubCtrl Weight="-0.159016" Keys="" Effector="FCL_R_Lip_Low_M__6_rX"/>
+   <SubCtrl Weight="0.064402699" Keys="" Effector="FCL_R_Lip_Low_M__5_rY"/>
+   <SubCtrl Weight="-0.0128701" Keys="" Effector="FCL_R_Lip_Low_M__4_rZ"/>
+   <SubCtrl Weight="-0.034069825" Keys="" Effector="FCL_R_Nose_3_tZ"/>
+  </Effector>
+  <Effector Name="AW">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_OO"/>
+  </Effector>
+  <Effector Name="y">
+   <SubCtrl Weight="1" Keys="" Effector="Visime_EE"/>
+  </Effector>
+ </Controllers>
+</ExpressionLibrary>

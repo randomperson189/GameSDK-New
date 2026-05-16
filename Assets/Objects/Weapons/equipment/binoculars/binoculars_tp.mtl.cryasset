@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="451f5667-eebc-87d9-efce-36920e64241b">
+ <Files>
+  <File path="binoculars_tp.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/equipment/binoculars/textures/lens_glass_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/equipment/binoculars/textures/lens_glass_ddn.dds</Path>
+  <Path usageCount="1">textures/cubemaps/generic_cubemap_day_cm.dds</Path>
+  <Path usageCount="2">objects/weapons/equipment/binoculars/textures/binocular_dark_diff.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/metal/detail_metal_detail.dds</Path>
+  <Path usageCount="1">objects/weapons/equipment/binoculars/textures/binocular_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

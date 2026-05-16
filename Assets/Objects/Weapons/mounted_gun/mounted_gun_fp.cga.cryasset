@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="AnimatedMesh" guid="3b0a3355-e77d-adb8-5eaa-f24e9ec565ff">
+ <Files>
+  <File path="mounted_gun_fp.cga"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">9497</Detail>
+  <Detail name="vertexCount">9843</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mounted_gun.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

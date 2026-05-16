@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="c0fedb26-8311-9df0-1fd5-0283e31ac22b">
+ <Files>
+  <File path="sniper_scope_a_fp.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_text_a_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_occular_small.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_occular_ddna.dds</Path>
+  <Path usageCount="1">textures/cubemaps/generic_cubemap_day_cm.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_fp_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_fp_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_fp_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

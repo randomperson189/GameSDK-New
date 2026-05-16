@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="197d5a39-b1c5-4aae-a8e7-2b6ee0d5f849">
+ <Files>
+  <File path="silencer_rifle.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/attachments/silencer/textures/silencer_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/silencer/textures/silencer_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="base" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49693301,0.49693301,0.49693301" Specular="0.57758057,0.57758057,0.57758057" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/ammo/ammo_crate/textures/magazine_rifle_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/ammo/ammo_crate/textures/magazine_rifle_ddna.tif"/>
+    <Texture Map="Specular" File="objects/weapons/ammo/ammo_crate/textures/magazine_rifle_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

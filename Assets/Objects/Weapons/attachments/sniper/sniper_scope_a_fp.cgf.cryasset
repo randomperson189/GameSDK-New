@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="7d5aa08b-27b4-9b62-71c9-a1189821094e">
+ <Files>
+  <File path="sniper_scope_a_fp.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">4520</Detail>
+  <Detail name="vertexCount">4218</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./sniper_scope_a_fp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

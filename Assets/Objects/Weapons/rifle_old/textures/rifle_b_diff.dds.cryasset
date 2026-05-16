@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="16006b55-c4f4-1b9a-f8d9-f71e4190ff91">
+ <Files>
+  <File path="rifle_b_diff.dds"/>
+  <File path="rifle_b_diff.dds.1"/>
+  <File path="rifle_b_diff.dds.2"/>
+  <File path="rifle_b_diff.dds.3"/>
+  <File path="rifle_b_diff.dds.4"/>
+  <File path="rifle_b_diff.dds.5"/>
+  <File path="rifle_b_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

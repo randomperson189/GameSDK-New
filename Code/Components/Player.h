@@ -172,6 +172,7 @@ protected:
 	Cry::DefaultComponents::CCameraComponent* m_pCameraComponent = nullptr;
 	Cry::DefaultComponents::CCharacterControllerComponent* m_pCharacterController = nullptr;
 	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent = nullptr;
+	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent2 = nullptr;
 	Cry::DefaultComponents::CInputComponent* m_pInputComponent = nullptr;
 	Cry::Audio::DefaultComponents::CListenerComponent* m_pAudioListenerComponent = nullptr;
 
@@ -188,6 +189,11 @@ protected:
 	float m_rotationLimitsMaxPitch = 1.5f;
 
 	float m_jumpHeight = 5.0f;
+
+	float m_baseHeight = 1.375f;
+	float m_torsoHeight = 0.375f;
+
+	bool m_bIsThirdPerson = false;
 
 	int m_cameraJointId = -1;
 

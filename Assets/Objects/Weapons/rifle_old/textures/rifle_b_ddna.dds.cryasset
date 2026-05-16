@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="bb2107e3-38fb-1750-945b-87008edcb7ac">
+ <Files>
+  <File path="rifle_b_ddna.dds"/>
+  <File path="rifle_b_ddna.dds.a"/>
+  <File path="rifle_b_ddna.dds.1"/>
+  <File path="rifle_b_ddna.dds.1a"/>
+  <File path="rifle_b_ddna.dds.2"/>
+  <File path="rifle_b_ddna.dds.2a"/>
+  <File path="rifle_b_ddna.dds.3"/>
+  <File path="rifle_b_ddna.dds.3a"/>
+  <File path="rifle_b_ddna.dds.4"/>
+  <File path="rifle_b_ddna.dds.4a"/>
+  <File path="rifle_b_ddna.dds.5"/>
+  <File path="rifle_b_ddna.dds.5a"/>
+  <File path="rifle_b_ddna.dds.6"/>
+  <File path="rifle_b_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

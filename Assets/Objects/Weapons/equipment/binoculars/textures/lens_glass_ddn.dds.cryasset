@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="67d8b7a5-cafe-7a73-7075-d89ffec1dfb5">
+ <Files>
+  <File path="lens_glass_ddn.dds"/>
+  <File path="lens_glass_ddn.dds.1"/>
+  <File path="lens_glass_ddn.dds.2"/>
+  <File path="lens_glass_ddn.dds.3"/>
+  <File path="lens_glass_ddn.dds.4"/>
+  <File path="lens_glass_ddn.dds.5"/>
+  <File path="lens_glass_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,38 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="gun_mounted" MtlFlags="524416" Shader="Illum" GenMask="181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.30946895,0.30946895,0.30946895" Specular="0.033104766,0.033104766,0.033104766" Emissive="0,0,0" Shininess="150" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/mounted_gun/textures/gun_mounted_diff.tif" Filter="0"/>
+    <Texture Map="Bumpmap" File="objects/weapons/mounted_gun/textures/gun_mounted_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_a_detail.tif">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" DetailBumpScale="0.25" SubsurfaceScatteringAmount="0" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="handles" MtlFlags="524416" Shader="Illum" GenMask="81" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.033104766,0.033104766,0.033104766" Emissive="0,0,0" Shininess="150" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/mounted_gun/textures/gun_mounted_handles_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/mounted_gun/textures/gun_mounted_handles_ddna.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="collision" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="nodraw" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="stand" MtlFlags="524416" Shader="Illum" GenMask="181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0.033104766,0.033104766,0.033104766" Emissive="0,0,0" Shininess="150" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/mounted_gun/textures/stand_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/mounted_gun/textures/stand_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_a_detail.tif">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="1" DetailBumpScale="1" SubsurfaceScatteringAmount="0" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

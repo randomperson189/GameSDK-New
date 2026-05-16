@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="3ec316cc-f17d-7916-88f1-6fb6ed72be7b">
+ <Files>
+  <File path="ammo_crate_spec.dds"/>
+  <File path="ammo_crate_spec.dds.1"/>
+  <File path="ammo_crate_spec.dds.2"/>
+  <File path="ammo_crate_spec.dds.3"/>
+  <File path="ammo_crate_spec.dds.4"/>
+  <File path="ammo_crate_spec.dds.5"/>
+  <File path="ammo_crate_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

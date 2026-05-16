@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="b9353305-f9e9-14a7-ea0c-6ed779c563fa">
+ <Files>
+  <File path="pistol_magazine_fp.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1564</Detail>
+  <Detail name="vertexCount">1143</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./pistol_mag.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

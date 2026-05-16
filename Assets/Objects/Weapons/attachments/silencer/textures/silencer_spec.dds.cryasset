@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="8b452076-c69a-9190-0707-a6dff368b029">
+ <Files>
+  <File path="silencer_spec.dds"/>
+  <File path="silencer_spec.dds.1"/>
+  <File path="silencer_spec.dds.2"/>
+  <File path="silencer_spec.dds.3"/>
+  <File path="silencer_spec.dds.4"/>
+  <File path="silencer_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

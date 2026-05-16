@@ -1,0 +1,28 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="rifle_a" MtlFlags="524416" Shader="Illum" GenMask="81000081" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.36625263,0.36625263,0.36625263" Specular="0.033104766,0.033104766,0.033104766" Emissive="0,0,0" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/rifle_old/textures/rifle_a_diff.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/weapons/rifle_old/textures/rifle_a_ddna.tif" Filter="5"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_a_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.25" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rifle_b" MtlFlags="524416" Shader="Illum" GenMask="81000081" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.36625263,0.36625263,0.36625263" Specular="0.033104766,0.033104766,0.033104766" Emissive="0,0,0" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/rifle_old/textures/rifle_b_diff.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/weapons/rifle_old/textures/rifle_b_ddna.tif" Filter="5"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plastic/fibreplastics_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="20" TileV="20"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.25" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

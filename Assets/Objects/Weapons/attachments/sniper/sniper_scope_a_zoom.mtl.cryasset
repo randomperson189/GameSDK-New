@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="7f1de899-562f-d75b-6b74-5d3baf53f381">
+ <Files>
+  <File path="sniper_scope_a_zoom.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_occular_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_occular_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_crosshair_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_zoom_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_zoom_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/sniper/textures/sniper_scope_a_zoom_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="25615b19-4fe2-d7f5-0fca-c52dcb815b34">
+ <Files>
+  <File path="medical_kit_syringe.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/weapons/equipment/medical_kit/textures/medical_kit_syringe.dds</Path>
+ </Dependencies>
+</AssetMetadata>

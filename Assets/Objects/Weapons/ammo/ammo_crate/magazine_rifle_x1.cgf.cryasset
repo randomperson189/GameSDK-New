@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="8288f50d-6f98-5a1d-c319-45b0f7b7fea7">
+ <Files>
+  <File path="magazine_rifle_x1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">194</Detail>
+  <Detail name="vertexCount">144</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./magazine_rifle.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

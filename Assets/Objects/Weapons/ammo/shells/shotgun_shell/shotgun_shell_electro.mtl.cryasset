@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="d4c1f54f-84d3-20df-883d-b4ea167e1cb5">
+ <Files>
+  <File path="shotgun_shell_electro.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/shells/shotgun_shell/shotgun_shell_electro.dds</Path>
+  <Path usageCount="1">objects/weapons/shells/shotgun_shell/shotgun_shell_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

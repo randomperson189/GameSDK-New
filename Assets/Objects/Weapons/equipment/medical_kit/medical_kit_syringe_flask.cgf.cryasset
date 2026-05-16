@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="07ff10d7-a0a4-69f7-d933-dd8f676fa586">
+ <Files>
+  <File path="medical_kit_syringe_flask.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">613</Detail>
+  <Detail name="vertexCount">477</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./medical_kit_syringe.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

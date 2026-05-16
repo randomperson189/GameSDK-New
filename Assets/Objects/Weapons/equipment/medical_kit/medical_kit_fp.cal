@@ -1,0 +1,16 @@
+#filepath = Animations/1st_person/Equipment/medical_kit
+//#filepath = Objects/weapons/equipment/medical_kit/animations
+
+$AnimEventDatabase = Objects/weapons/equipment/medical_kit/medical_kit_EventDataBase.animevents
+$TracksDatabase = Animations/1st_person/Equipment/Medical_Kit/Medical_Kit.dba
+
+
+
+
+
+
+select_01			=	select_01.caf
+idle_01			=	idle_01.caf
+selfapply_01		=	selfapply_01.caf
+deselect_01			=	deselect_01.caf
+apply_01			=	apply_01.caf

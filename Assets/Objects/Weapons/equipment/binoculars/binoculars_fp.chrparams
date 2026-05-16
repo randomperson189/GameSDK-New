@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations/1st_person/binoculars_fp/"/>
+		<Animation name="$TracksDatabase" path="Animations/1st_person/binoculars_fp/binoculars_fp.dba"/>
+
+
+		<Animation name="select_binoculars_fp" path="select_binoculars_fp.caf"/>
+		<Animation name="idle_binoculars_fp" path="idle_binoculars_fp.caf"/>	
+		<Animation name="back_to_idle_binoculars_fp" path="back_to_idle_binoculars_fp.caf"/>
+		<Animation name="raise_binoculars_fp" path="raise_binoculars_fp.caf"/>
+		<Animation name="deselect_binoculars_fp" path="deselect_binoculars_fp.caf"/>
+		<Animation name="idle_raised_animation" path="idle_raised_animation.caf"/>
+		
+	
+		
+	</AnimationList>
+</Params>

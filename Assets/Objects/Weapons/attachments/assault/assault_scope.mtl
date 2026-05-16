@@ -1,0 +1,53 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="assault_scope" MtlFlags="524416" Shader="Illum" GenMask="C0000080" StringGenMask="%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/assault/textures/assault_scope_diff.tif"/>
+    <Texture Map="Specular" File="objects/weapons/attachments/assault/textures/assault_scope_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/attachments/assault/textures/assault_scope_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="goggle" MtlFlags="2621568" Shader="Scopes" GenMask="4" StringGenMask="" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="0.18447502,0.25415212,0.17788844" Emissive="0,0,0" Shininess="180" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/assault/textures/occular_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/attachments/assault/textures/occular_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/generic_cubemap_day_cm.tif"/>
+   </Textures>
+   <PublicParams ZoomScale="0" FresnelScale="1" RefrBumpScale="0.25" FresnelBias="1"/>
+   <MaterialLayers>
+    <Layer Name="Cloaklayer" NoDraw="0" FadeOut="0">
+     <PublicParams DetailBumpTillingU="1" RefrBumpScale="1" DetailBumpScale="0" SparksTilling="1" DetailBumpTillingV="1"/>
+    </Layer>
+    <Layer />
+    <Layer />
+   </MaterialLayers>
+  </Material>
+  <Material Name="text" MtlFlags="524416" Shader="Illum" GenMask="80000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.45641103,0.52099562,0.5332765" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Shininess="33" Opacity="0.99000001" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/assault/textures/text_diff.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="scope_tp" MtlFlags="524416" Shader="Illum" GenMask="C0000080" StringGenMask="%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/assault/textures/assault_scope_tp_diff.tif"/>
+    <Texture Map="Specular" File="objects/weapons/attachments/assault/textures/assault_scope_tp_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/attachments/assault/textures/assault_scope_tp_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lod1" MtlFlags="524416" Shader="Illum" GenMask="C0000080" StringGenMask="%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/assault/textures/lod_assault_scope_tp_diff.tif"/>
+    <Texture Map="Specular" File="objects/weapons/attachments/assault/textures/lod_assault_scope_tp_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/attachments/assault/textures/lod_assault_scope_tp_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

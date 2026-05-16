@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="19de122f-5a58-7ac5-534c-07b5eece54b7">
+ <Files>
+  <File path="flash_light.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/attachments/flash_light/textures/flash_light_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/flash_light/textures/flash_light_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

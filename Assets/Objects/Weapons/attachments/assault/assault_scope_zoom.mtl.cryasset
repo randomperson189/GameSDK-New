@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="e87bf286-ec84-cfec-176d-25b3da6ab64e">
+ <Files>
+  <File path="assault_scope_zoom.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/occular_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/occular_ddn.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/text_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/assault_crosshair_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/assault_scope_zoom_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/assault_scope_zoom_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/assault/textures/assault_scope_zoom_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

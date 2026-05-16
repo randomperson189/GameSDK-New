@@ -1,0 +1,35 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="plastic" MtlFlags="524416" Shader="Illum" GenMask="80000180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="100" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/equipment/binoculars/textures/binocular_dark_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/equipment/binoculars/textures/binocular_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/detail_metal_detail.tif">
+     <TexMod TileU="6" TileV="6"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="1" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rubber" MtlFlags="524416" Shader="Illum" GenMask="90000100" StringGenMask="%DETAIL_MAPPING%PN_TESSELLATION%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="100" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/equipment/binoculars/textures/binocular_dark_diff.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/detail_metal_detail.tif">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="1" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.5" TessellationFactorMax="32" DetailGlossScale="0.25" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass_scope" MtlFlags="524416" Shader="Scopes" GenMask="4" StringGenMask="" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.91575015,0.91575015,0.19046287" Specular="0.21586053,0.21586053,0.21586053" Emissive="0,0,0" Shininess="200" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/equipment/binoculars/textures/lens_glass_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/equipment/binoculars/textures/lens_glass_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/generic_cubemap_day_cm.tif"/>
+   </Textures>
+   <PublicParams ZoomScale="1.5" FresnelScale="1" RefrBumpScale="1" FresnelBias="0.5"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

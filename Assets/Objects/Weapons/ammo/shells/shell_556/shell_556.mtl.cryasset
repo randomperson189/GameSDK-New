@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="5047e1aa-90a6-5747-2727-eb5cb99b8f5d">
+ <Files>
+  <File path="shell_556.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/ammo/shells/shell_556/textures/shell_556.dds</Path>
+  <Path usageCount="1">objects/weapons/ammo/shells/shell_556/textures/shell_556_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

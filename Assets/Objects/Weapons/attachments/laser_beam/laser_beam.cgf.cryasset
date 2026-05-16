@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="7b5df848-36d7-c03b-5d3f-bd506f420d48">
+ <Files>
+  <File path="laser_beam.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">4</Detail>
+  <Detail name="vertexCount">8</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/weapons/attachments/laser_beam/laser_beam.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

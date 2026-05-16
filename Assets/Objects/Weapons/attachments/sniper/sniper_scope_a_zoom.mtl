@@ -1,0 +1,40 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="base" MtlFlags="524416" Shader="Illum" GenMask="C0000080" StringGenMask="%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/sniper/textures/sniper_scope_a_zoom_diff.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/weapons/attachments/sniper/textures/sniper_scope_a_zoom_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/attachments/sniper/textures/sniper_scope_a_zoom_ddna.tif" Filter="5"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+  </Material>
+  <Material Name="crosshair" MtlFlags="524416" Shader="Scopes" GenMask="2" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="0.99000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/sniper/textures/sniper_scope_a_crosshair_diff.tif"/>
+   </Textures>
+   <PublicParams FakeGlowAmount="0" NoiseScale="0.75" ObjectUV="0" ScopeScale="1.8" HolographicNoiseScale="0" ScopeColorMultiplier="1" NoiseBias="1"/>
+   <MaterialLayers>
+    <Layer />
+    <Layer />
+    <Layer Name="Cloaklayer" NoDraw="1" FadeOut="0">
+     <PublicParams DetailBumpTillingU="1" RefrBumpScale="1" DetailBumpScale="0" SparksTilling="1" DetailBumpTillingV="1"/>
+    </Layer>
+   </MaterialLayers>
+  </Material>
+  <Material Name="google" MtlFlags="524416" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.0080231931,0.011612247,0.011612247" Emissive="0,0,0" Shininess="255" Opacity="0.99000001" CloakAmount="8" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/sniper/textures/sniper_scope_a_occular_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/attachments/sniper/textures/sniper_scope_a_occular_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+   <MaterialLayers>
+    <Layer />
+    <Layer />
+    <Layer Name="Cloaklayer" NoDraw="0" FadeOut="0">
+     <PublicParams DetailBumpTillingU="1" RefrBumpScale="1" DetailBumpScale="0" SparksTilling="1" DetailBumpTillingV="1"/>
+    </Layer>
+   </MaterialLayers>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Character" guid="f0695614-2674-2df2-edf8-e69e8ca39165">
+ <Files>
+  <File path="frag_grenade.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/weapons/frag_grenade/frag_grenade_fp_skel.chr</Path>
+  <Path>Objects/weapons/frag_grenade/frag_grenade_fp.skin</Path>
+ </Dependencies>
+</AssetMetadata>

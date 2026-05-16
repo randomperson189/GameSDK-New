@@ -1,0 +1,15 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="medical_kit_bag" MtlFlags="524416" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.1559265,0.1559265,0.1559265" Specular="0.0069954107,0.0069954107,0.0069954107" Emissive="0,0,0" Shininess="20" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/equipment/medical_kit/textures/medical_kit_bag.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/equipment/medical_kit/textures/medical_kit_bag_ddn.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="no_draw" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="dcb01983-ba80-45cd-343e-424135cf053e">
+ <Files>
+  <File path="gun_mounted_handles_ddn.dds"/>
+  <File path="gun_mounted_handles_ddn.dds.1"/>
+  <File path="gun_mounted_handles_ddn.dds.2"/>
+  <File path="gun_mounted_handles_ddn.dds.3"/>
+  <File path="gun_mounted_handles_ddn.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

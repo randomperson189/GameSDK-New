@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="95a13f1b-f5cd-d353-b78f-a06c4e87e59b">
+ <Files>
+  <File path="lod_assault_scope_tp_spec.dds"/>
+  <File path="lod_assault_scope_tp_spec.dds.1"/>
+  <File path="lod_assault_scope_tp_spec.dds.2"/>
+  <File path="lod_assault_scope_tp_spec.dds.3"/>
+  <File path="lod_assault_scope_tp_spec.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

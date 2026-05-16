@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Comment value="-------EVENT DATABASE-------"/>
+		<Animation name="$AnimEventDatabase" path="Animations/human/male/events.animevents"/>
+		<Animation name="$TracksDatabase" path="Animations/human/male/*/*.dba"/>
+		
+		<Animation name="#filepath" path="Animations/human/male"/>
+		<Animation name="*" path="*/*.caf"/>
+		<Animation name="*" path="*/*.bspace"/>
+		<Animation name="*" path="*/*.comb"/>
+	</AnimationList>
+</Params>

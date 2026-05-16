@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="7d3215ef-ef07-a8a2-ee53-f5e1298a9d34">
+ <Files>
+  <File path="rifle_tp.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">2872</Detail>
+  <Detail name="vertexCount">2951</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./rifle_tp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

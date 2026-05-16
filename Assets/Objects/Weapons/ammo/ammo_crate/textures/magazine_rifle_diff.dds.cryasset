@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="eb1143f7-e357-03ed-4788-e88c13cae8ab">
+ <Files>
+  <File path="magazine_rifle_diff.dds"/>
+  <File path="magazine_rifle_diff.dds.1"/>
+  <File path="magazine_rifle_diff.dds.2"/>
+  <File path="magazine_rifle_diff.dds.3"/>
+  <File path="magazine_rifle_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

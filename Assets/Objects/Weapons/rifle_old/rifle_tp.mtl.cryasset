@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="f2f01076-d40d-99d2-b425-424499ef164b">
+ <Files>
+  <File path="rifle_tp.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/rifle_old/textures/rifle_b_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/rifle_old/textures/rifle_b_ddna.dds</Path>
+  <Path usageCount="2">objects/weapons/rifle_old/textures/rifle_noise_ddn.dds</Path>
+  <Path usageCount="1">objects/weapons/rifle_old/textures/rifle_a_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/rifle_old/textures/rifle_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

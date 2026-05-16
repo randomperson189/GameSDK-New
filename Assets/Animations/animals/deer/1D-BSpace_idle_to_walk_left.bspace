@@ -1,0 +1,23 @@
+<ParaGroup>
+
+	<Dimensions>
+		<Param name="TurnAngle" min="0" max="+3.1416" cells="3" skey="0.0" ekey="1.0" locked="1" deltaextraction="1" />
+	</Dimensions>
+
+	<AdditionalExtraction>
+		<Param name="MoveSpeed" />
+		<Param name="TravelAngle" />
+	</AdditionalExtraction>
+
+	<ExampleList>
+		<Example SetPara0="0"       AName="stand_idle_to_walk_lft_01" />
+		<Example                    AName="stand_idle_to_walk90_lft_01" />
+		<Example SetPara0="+3.1416" AName="stand_idle_to_walk180_lft_01" />
+	</ExampleList>
+
+	<Blendable>
+		<Face p0="0"  p1="1" />
+		<Face p0="1"  p1="2" />
+	</Blendable>
+
+</ParaGroup>

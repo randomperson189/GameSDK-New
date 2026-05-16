@@ -1,0 +1,16 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="lightweight_shotgun_tp" MtlFlags="524416" Shader="Illum" GenMask="80091" StringGenMask="%ALLOW_SILHOUETTE_POM%BILINEAR_FP16%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.80455911,0.80455911,0.80455911" Specular="0.1169707,0.1169707,0.1169707" Emissive="0,0,0" Shininess="90" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/lightweight_shotgun/textures/shotgun_tp_diff.tif"/>
+    <Texture Map="Specular" File="objects/weapons/attachments/lightweight_shotgun/textures/shotgun_tp_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/attachments/lightweight_shotgun/textures/shotgun_tp_ddn.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

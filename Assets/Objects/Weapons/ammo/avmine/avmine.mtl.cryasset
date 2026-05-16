@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="73d90782-72c6-7329-08a8-7e2dd54296fa">
+ <Files>
+  <File path="avmine.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/ammo/avmine/textures/avmine_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/ammo/avmine/textures/avmine_ddn.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

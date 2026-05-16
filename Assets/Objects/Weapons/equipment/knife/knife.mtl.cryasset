@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="2e2197a1-2845-31c2-e149-dee0f2be7e31">
+ <Files>
+  <File path="knife.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/equipment/knife/textures/knife_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/equipment/knife/textures/knife_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/equipment/knife/textures/knife_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

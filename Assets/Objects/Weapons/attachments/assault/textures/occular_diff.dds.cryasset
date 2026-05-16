@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="76dec94e-4a21-25d8-7874-2a1b3b4682ae">
+ <Files>
+  <File path="occular_diff.dds"/>
+  <File path="occular_diff.dds.1"/>
+  <File path="occular_diff.dds.2"/>
+  <File path="occular_diff.dds.3"/>
+  <File path="occular_diff.dds.4"/>
+  <File path="occular_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

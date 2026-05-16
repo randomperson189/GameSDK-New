@@ -95,8 +95,19 @@ void CPlayerComponent::Initialize()
 	// The character controller is responsible for maintaining player physics
 	m_pCharacterController = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CCharacterControllerComponent>();
 
-	// Create the advanced animation component, responsible for updating Mannequin and animating the player
-	m_pAnimationComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>();
+	// Define the animation component's interface ID (from ReflectType)
+	const CryInterfaceID animComponentID = "{3CD5DDC5-EE15-437F-A997-79C2391537FE}"_cry_guid;
+
+	// Array to store all components of this type
+	DynArray<IEntityComponent*> components;
+	m_pEntity->GetComponentsByTypeId(animComponentID, components);
+
+	// Get the advanced animation components, responsible for updating Mannequin and animating the player
+	if (components.size() > 0)
+		m_pAnimationComponent = static_cast<Cry::DefaultComponents::CAdvancedAnimationComponent*>(components[0]);
+
+	if (components.size() > 1)
+		m_pAnimationComponent2 = static_cast<Cry::DefaultComponents::CAdvancedAnimationComponent*>(components[1]);
 
 	// Load the character and Mannequin data from file
 	m_pAnimationComponent->LoadFromDisk();
@@ -113,7 +124,7 @@ void CPlayerComponent::Initialize()
 
 void CPlayerComponent::InitializeLocalPlayer()
 {
-	// Set the animation component to always update when out of view
+	// Set the playermodel to always update when out of view
 	if (ICharacterInstance* pCharacter = m_pAnimationComponent->GetCharacter())
 	{
 		pCharacter->SetFlags(pCharacter->GetFlags() | CS_FLAG_UPDATE_ALWAYS);
@@ -121,6 +132,35 @@ void CPlayerComponent::InitializeLocalPlayer()
 		if (ISkeletonPose* pPose = pCharacter->GetISkeletonPose())
 		{
 			pPose->SetForceSkeletonUpdate(2);
+		}
+	}
+	if (ICharacterInstance* pCharacter = m_pAnimationComponent2->GetCharacter())
+	{
+		pCharacter->SetFlags(pCharacter->GetFlags() | CS_FLAG_UPDATE_ALWAYS);
+
+		if (ISkeletonPose* pPose = pCharacter->GetISkeletonPose())
+		{
+			pPose->SetForceSkeletonUpdate(2);
+		}
+	}
+
+	if (ICharacterInstance* pCharInstance = m_pAnimationComponent->GetCharacter())
+	{
+		if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+		{
+			pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
+			pAttachmentMgr->GetInterfaceByName("jacket")->HideAttachment(1);
+			pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(1);
+			pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(1);
+		}
+	}
+	if (ICharacterInstance* pCharInstance = m_pAnimationComponent2->GetCharacter())
+	{
+		if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+		{
+			pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
+			pAttachmentMgr->GetInterfaceByName("lower_body")->HideAttachment(1);
+			pAttachmentMgr->GetInterfaceByName("shoes")->HideAttachment(1);
 		}
 	}
 
@@ -328,24 +368,24 @@ void CPlayerComponent::UpdateAnimation(float frameTime)
 	const float angularVelocityTurningThreshold = 0.174; // [rad/s]
 
 	// Update tags and motion parameters used for turning
-	const bool isTurning = std::abs(m_averagedHorizontalAngularVelocity.Get()) > angularVelocityTurningThreshold;
+	/*const bool isTurning = std::abs(m_averagedHorizontalAngularVelocity.Get()) > angularVelocityTurningThreshold;
 	m_pAnimationComponent->SetTagWithId(m_rotateTagId, isTurning);
 	if (isTurning)
 	{
-		// TODO: This is a very rough predictive estimation of eMotionParamID_TurnAngle that could easily be replaced with accurate reactive motion 
+		// TODO: This is a very rough predictive estimation of eMotionParamID_TurnAngle that could easily be replaced with accurate reactive motion
 		// if we introduced IK look/aim setup to the character's model and decoupled entity's orientation from the look direction derived from mouse input.
 
 		const float turnDuration = 1.0f; // Expect the turning motion to take approximately one second.
 		m_pAnimationComponent->SetMotionParameter(eMotionParamID_TurnAngle, m_horizontalAngularVelocity * turnDuration);
-	}
+	}*/
 
 	// Update active fragment
-	const FragmentID& desiredFragmentId = m_pCharacterController->IsWalking() ? m_walkFragmentId : m_idleFragmentId;
+	/*const FragmentID& desiredFragmentId = m_pCharacterController->IsOnGround() ? m_walkFragmentId : m_idleFragmentId;
 	if (m_activeFragmentId != desiredFragmentId)
 	{
 		m_activeFragmentId = desiredFragmentId;
 		m_pAnimationComponent->QueueFragmentWithId(m_activeFragmentId);
-	}
+	}*/
 
 	// Update entity rotation as the player turns
 	// We only want to affect Z-axis rotation, zero pitch and roll
@@ -355,56 +395,78 @@ void CPlayerComponent::UpdateAnimation(float frameTime)
 	const Quat correctedOrientation = Quat(CCamera::CreateOrientationYPR(ypr));
 
 	// Send updated transform to the entity, only orientation changes
-	GetEntity()->SetPosRotScale(GetEntity()->GetWorldPos(), correctedOrientation, Vec3(1, 1, 1));
+	//GetEntity()->SetPosRotScale(GetEntity()->GetWorldPos(), correctedOrientation, Vec3(1, 1, 1));
+	//if (!m_pEntity->GetComponent<CRagdollHelperComponent>()->IsRagdoll())
+		m_pEntity->SetRotation(correctedOrientation);
+
+	if (m_pEntity->GetSlotFlags(m_pAnimationComponent2->GetEntitySlotId()) & ENTITY_FLAG_CASTSHADOW)
+	{
+		if (IRenderNode* pRenderNode = m_pEntity->GetSlotRenderNode(m_pAnimationComponent2->GetEntitySlotId()))
+		{
+			uint32 slotFlags = m_pEntity->GetSlotFlags(m_pAnimationComponent2->GetEntitySlotId());
+
+			slotFlags &= ~ENTITY_SLOT_CAST_SHADOW;
+
+			m_pEntity->SetSlotFlags(m_pAnimationComponent2->GetEntitySlotId(), slotFlags);
+		}
+	}
 }
 
 void CPlayerComponent::UpdateCamera(float frameTime)
 {
-	// Start with updating look orientation from the latest input
+	// Start with getting look orientation from the latest input
 	Ang3 ypr = CCamera::CreateAnglesYPR(Matrix33(m_lookOrientation));
 
-	ypr.x += m_mouseDeltaRotation.x * m_rotationSpeed;
-
-	// TODO: Perform soft clamp here instead of hard wall, should reduce rot speed in this direction when close to limit.
-	ypr.y = CLAMP(ypr.y + m_mouseDeltaRotation.y * m_rotationSpeed, m_rotationLimitsMinPitch, m_rotationLimitsMaxPitch);
-	// Skip roll
-	ypr.z = 0;
-
-	m_lookOrientation = Quat(CCamera::CreateOrientationYPR(ypr));
-
-	// Reset every frame
-	m_mouseDeltaRotation = ZERO;
-
-	// Ignore z-axis rotation, that's set by CPlayerAnimations
-	ypr.x = 0;
+	//if (!m_pEntity->GetComponent<CRagdollHelperComponent>()->IsRagdoll())
+	//{
+		ypr.x = 0;
+		ypr.z = 0;
+	//}
 
 	// Start with changing view rotation to the requested mouse look orientation
 	Matrix34 localTransform = IDENTITY;
 	localTransform.SetRotation33(CCamera::CreateOrientationYPR(ypr));
 
-	const float viewOffsetForward = 0.01f;
-	const float viewOffsetUp = 0.26f;
+	float viewOffsetForward;
+	float viewOffsetUp;
 
-	if (ICharacterInstance *pCharacter = m_pAnimationComponent->GetCharacter())
+	if (!m_bIsThirdPerson)
 	{
-		// Get the local space orientation of the camera joint
-		const QuatT &cameraOrientation = pCharacter->GetISkeletonPose()->GetAbsJointByID(m_cameraJointId);
-		// Apply the offset to the camera
-		localTransform.SetTranslation(cameraOrientation.t + Vec3(0, viewOffsetForward, viewOffsetUp));
+		//if (!m_pEntity->GetComponent<CRagdollHelperComponent>()->IsRagdoll())
+		//{
+			Vec3 finalOffset = Vec3(0, 0, m_baseHeight) + (localTransform.GetColumn2() * m_torsoHeight);
+			localTransform.SetTranslation(finalOffset);
+		//}
+	}
+	else
+	{
+		// Offset the player along the forward axis (normally back)
+		// Also offset upwards
+		viewOffsetForward = -1.5f;
+		viewOffsetUp = 2.f;
+
+		localTransform.SetTranslation(Vec3(0, viewOffsetForward, viewOffsetUp));
 	}
 
 	if (m_pCameraComponent)
-	{
 		m_pCameraComponent->SetTransformMatrix(localTransform);
-	}
 	if (m_pAudioListenerComponent)
-	{
 		m_pAudioListenerComponent->SetOffset(localTransform.GetTranslation());
-	}
+
+	Matrix34 test = localTransform;
+
+	Vec3 up = test.GetColumn2();
+	float testOffset = -1.625f;
+
+	Vec3 finalOffset = test.GetTranslation() + (up * testOffset) + (test.GetColumn1() * -0.2f);
+	test.SetTranslation(finalOffset);
+
+	if (m_pAnimationComponent2)
+		m_pAnimationComponent2->SetTransformMatrix(test);
 
 	if (!m_pCameraComponent || !m_pAudioListenerComponent)
 	{
-		gEnv->pRenderer->GetIRenderAuxGeom()->Draw2dLabel(50.0f, 50.0f, 1.5f, Col_Orange, false, "Player Schematyc was edited, please reopen the level if it isn't playing propely");
+		gEnv->pRenderer->GetIRenderAuxGeom()->Draw2dLabel(50.0f, 50.0f, 1.5f, Col_Orange, false, "Player Schematyc was edited, please reopen the level if player isn't working propely");
 	}
 }
 
@@ -560,6 +622,13 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 	// Apply the character to the entity and queue animations
 	m_pAnimationComponent->ResetCharacter();
 	m_pCharacterController->Physicalize();
+
+	IPhysicalEntity* pPhysEnt = m_pCharacterController->GetEntity()->GetPhysicalEntity();
+	pe_player_dynamics dynamics;
+	pPhysEnt->GetParams(&dynamics);
+	// Remove the landing bob
+	dynamics.nodSpeed = 0.f;
+	pPhysEnt->SetParams(&dynamics);
 
 	// Reset input now that the player respawned
 	m_inputFlags.Clear();

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="528e359d-6332-11e3-7b2b-3b4647f64639">
+ <Files>
+  <File path="turret_base_dif.dds"/>
+  <File path="turret_base_dif.dds.1"/>
+  <File path="turret_base_dif.dds.2"/>
+  <File path="turret_base_dif.dds.3"/>
+  <File path="turret_base_dif.dds.4"/>
+  <File path="turret_base_dif.dds.5"/>
+  <File path="turret_base_dif.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

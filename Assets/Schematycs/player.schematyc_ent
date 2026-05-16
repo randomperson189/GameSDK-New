@@ -201,7 +201,7 @@
     </children>
    </element>
    <element elementType="ComponentInstance" guid="49480795-1c51-4ee3-928f-e4678b5a9e5f" name="CPlayerComponent" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="63f4c0c6-32af-4acb-8fb0-57d45dd14725">
-    <properties MoveSpeed="5" RotationSpeed="0.0020000001" RotationLimitsMinPitch="-0.83999997" RotationLimitsMaxPitch="1.5" JumpHeight="5"/>
+    <properties MoveSpeed="5" RotationSpeed="0.0020000001" RotationLimitsMinPitch="-1.5" RotationLimitsMaxPitch="1.5" JumpHeight="5"/>
     <extensions />
     <children />
    </element>
@@ -221,7 +221,7 @@
       <element element="1"/>
      </scale>
     </transform>
-    <properties Type="RenderAndCollider" Character="Objects/Characters/SampleCharacter/firstperson.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/FirstPerson.adb" ControllerDefPath="Animations/Mannequin/ADB/FirstPersonControllerDefinition.xml" DefaultScope="FirstPersonCharacter" DefaultFragment="Idle" AnimDriven="true" GroundAlign="false">
+    <properties Type="RenderAndCollider" Character="Objects/Characters/human/sdk_player/sdk_player.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/ThirdPerson.adb" ControllerDefPath="Animations/Mannequin/ADB/FirstPersonControllerDefinition.xml" DefaultScope="ThirdPersonCharacter" DefaultFragment="Idle" AnimDriven="true" GroundAlign="true">
      <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
      <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
     </properties>
@@ -232,16 +232,16 @@
     <transform>
      <translation>
       <position>
-       <element element="0.015670657"/>
-       <element element="-0.024377203"/>
-       <element element="1.8348856"/>
+       <element element="0"/>
+       <element element="0.31309825"/>
+       <element element="1.5813843"/>
       </position>
      </translation>
-     <rotation x="-2.8647566" y="-0" z="-0"/>
+     <rotation x="-56.608414" y="-0" z="-0"/>
      <scale>
       <element element="1"/>
-      <element element="0.99999994"/>
-      <element element="0.99999994"/>
+      <element element="1"/>
+      <element element="1"/>
      </scale>
     </transform>
     <properties Type="Default" Active="false" NearPlane="0.1" FarPlane="8000" FieldOfView="1.2217305"/>
@@ -281,6 +281,29 @@
      <listener name="Default Listener">
       <offset x="0" y="0" z="0"/>
      </listener>
+    </properties>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="ComponentInstance" guid="be818e39-4e83-4160-9e1b-54e9ded4ef74" name="Advanced Animations1" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="3cd5ddc5-ee15-437f-a997-79c2391537fe">
+    <transform>
+     <translation>
+      <position>
+       <element element="0"/>
+       <element element="-1.0436609"/>
+       <element element="0.68705225"/>
+      </position>
+     </translation>
+     <rotation x="-56.608414" y="-0" z="-0"/>
+     <scale>
+      <element element="1"/>
+      <element element="1"/>
+      <element element="1"/>
+     </scale>
+    </transform>
+    <properties Type="Render" Character="Objects/Characters/human/sdk_player/sdk_player.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/FirstPerson.adb" ControllerDefPath="Animations/Mannequin/ADB/FirstPersonControllerDefinition.xml" DefaultScope="FirstPersonCharacter" DefaultFragment="Idle" AnimDriven="true" GroundAlign="false">
+     <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+     <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
     </properties>
     <extensions />
     <children />

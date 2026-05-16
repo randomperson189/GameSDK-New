@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="5adb8554-db4f-4581-660b-d90f9396f45b">
+ <Files>
+  <File path="knife_tp.cgf"/>
+  <File path="knife_tp_lod1.cgf"/>
+  <File path="knife_tp_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1356</Detail>
+  <Detail name="vertexCount">1337</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./knife.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

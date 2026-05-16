@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Character" guid="ab16bbb7-7209-51e3-bb1e-f9fce4c0877f">
+ <Files>
+  <File path="pistol_fp.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/weapons/pistol/pistol_fp_skel.chr</Path>
+  <Path>objects/weapons/pistol/pistol</Path>
+  <Path>Objects/weapons/attachments/pistol_magazine/pistol_magazine_fp.cgf</Path>
+  <Path>Objects/weapons/pistol/pistol_fp.skin</Path>
+ </Dependencies>
+</AssetMetadata>

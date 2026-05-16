@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="5424bfe4-ec6a-c105-dc2d-5df749cb1f36">
+ <Files>
+  <File path="pistol_mag_ddna.dds"/>
+  <File path="pistol_mag_ddna.dds.a"/>
+  <File path="pistol_mag_ddna.dds.1"/>
+  <File path="pistol_mag_ddna.dds.1a"/>
+  <File path="pistol_mag_ddna.dds.2"/>
+  <File path="pistol_mag_ddna.dds.2a"/>
+  <File path="pistol_mag_ddna.dds.3"/>
+  <File path="pistol_mag_ddna.dds.3a"/>
+  <File path="pistol_mag_ddna.dds.4"/>
+  <File path="pistol_mag_ddna.dds.4a"/>
+  <File path="pistol_mag_ddna.dds.5"/>
+  <File path="pistol_mag_ddna.dds.5a"/>
+  <File path="pistol_mag_ddna.dds.6"/>
+  <File path="pistol_mag_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

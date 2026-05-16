@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="39164084-3167-8e30-6ef0-d76078ef59e9">
+ <Files>
+  <File path="rifle_magazine.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/attachments/rifle_magazine/textures/rifle_magazine_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/rifle_magazine/textures/rifle_magazine_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

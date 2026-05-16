@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="0a225b79-ae5c-9ae0-585e-243e50b6ff4b">
+ <Files>
+  <File path="ammo_crate_blue.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/ammo/ammo_crate/textures/ammo_crate_blue_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/ammo/ammo_crate/textures/ammo_crate_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/ammo/ammo_crate/textures/ammo_crate_spec.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/detail_metal_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

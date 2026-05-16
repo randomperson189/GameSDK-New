@@ -1,0 +1,25 @@
+<ParaGroup>
+	<VEGPARAMS LookAheadTime="1.0" />
+
+	<Dimensions>
+		<Param name="TurnAngle" min="-1.57" max="+1.57" cells="15" locked="1" deltaextraction="1"/>
+	</Dimensions>
+
+	<ExampleList>
+		<Example SetPara0="-1.57" AName="stand_steprotate_rgt_01" />
+		<Example SetPara0="0"     AName="stand_steprotate_idle_01" />
+		<Example SetPara0="+1.57" AName="stand_steprotate_lft_01" />
+	</ExampleList>
+
+	<ExamplePseudo>
+		<Pseudo p0="1" p1="0" w0="-1.5" w1="2.5" />
+		<Pseudo p0="1" p1="2" w0="-1.5" w1="2.5" />
+	</ExamplePseudo>
+
+	<Blendable>
+		<Face p0="3"  p1="0" />
+		<Face p0="0"  p1="1" />
+		<Face p0="1"  p1="2" />
+		<Face p0="2"  p1="4" />
+	</Blendable>
+</ParaGroup>

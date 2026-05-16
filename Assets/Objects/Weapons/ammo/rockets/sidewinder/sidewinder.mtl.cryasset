@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="41ba02f7-3a1b-e1f1-8355-900673c4684a">
+ <Files>
+  <File path="sidewinder.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/ammo/rockets/sidewinder/textures/sidewinder.dds</Path>
+  <Path usageCount="1">objects/weapons/ammo/rockets/sidewinder/textures/sidewinder_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

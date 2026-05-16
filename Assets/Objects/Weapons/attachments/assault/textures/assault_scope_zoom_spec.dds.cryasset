@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="12602657-eda3-edb4-fbc0-bdda2b862e43">
+ <Files>
+  <File path="assault_scope_zoom_spec.dds"/>
+  <File path="assault_scope_zoom_spec.dds.1"/>
+  <File path="assault_scope_zoom_spec.dds.2"/>
+  <File path="assault_scope_zoom_spec.dds.3"/>
+  <File path="assault_scope_zoom_spec.dds.4"/>
+  <File path="assault_scope_zoom_spec.dds.5"/>
+  <File path="assault_scope_zoom_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

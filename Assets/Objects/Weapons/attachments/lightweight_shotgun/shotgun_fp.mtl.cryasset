@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="6d0cac5a-beb4-93f9-83c8-5a4380cc6e41">
+ <Files>
+  <File path="shotgun_fp.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/attachments/lightweight_shotgun/textures/shotgun_tp_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/lightweight_shotgun/textures/shotgun_tp_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/lightweight_shotgun/textures/shotgun_tp_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

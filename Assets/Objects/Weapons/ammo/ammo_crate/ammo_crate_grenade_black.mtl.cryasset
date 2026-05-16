@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="970f5d91-00ee-05a6-da30-51a6c127d75d">
+ <Files>
+  <File path="ammo_crate_grenade_black.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/ammo/ammo_crate/textures/ammo_crate_black_grenade_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/ammo/ammo_crate/textures/ammo_crate_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/ammo/ammo_crate/textures/ammo_crate_spec.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/detail_metal_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

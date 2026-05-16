@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="02c1eaca-1733-43d2-fa69-387968b70666">
+ <Files>
+  <File path="ammo_crate_small_open.cgf"/>
+  <File path="ammo_crate_small_open_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1464</Detail>
+  <Detail name="vertexCount">1339</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ammo_crate.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

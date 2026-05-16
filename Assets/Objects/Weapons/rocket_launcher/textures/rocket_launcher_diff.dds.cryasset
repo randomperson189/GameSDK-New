@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="95049313-f1e0-7f18-c03a-756722b894d8">
+ <Files>
+  <File path="rocket_launcher_diff.dds"/>
+  <File path="rocket_launcher_diff.dds.1"/>
+  <File path="rocket_launcher_diff.dds.2"/>
+  <File path="rocket_launcher_diff.dds.3"/>
+  <File path="rocket_launcher_diff.dds.4"/>
+  <File path="rocket_launcher_diff.dds.5"/>
+  <File path="rocket_launcher_diff.dds.6"/>
+  <File path="rocket_launcher_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

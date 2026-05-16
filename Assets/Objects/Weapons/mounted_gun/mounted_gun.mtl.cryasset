@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="361a6fcf-1a38-37b5-9661-c0a22a527aeb">
+ <Files>
+  <File path="mounted_gun.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/mounted_gun/textures/stand_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/mounted_gun/textures/stand_ddna.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+  <Path usageCount="1">objects/weapons/mounted_gun/textures/gun_mounted_handles_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/mounted_gun/textures/gun_mounted_handles_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/mounted_gun/textures/gun_mounted_diff.dds</Path>
+  <Path usageCount="1">objects/weapons/mounted_gun/textures/gun_mounted_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

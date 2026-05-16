@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="a79bb884-d708-2a2d-3339-0fffb3e5f0c9">
+ <Files>
+  <File path="assault_scope_diff.dds"/>
+  <File path="assault_scope_diff.dds.1"/>
+  <File path="assault_scope_diff.dds.2"/>
+  <File path="assault_scope_diff.dds.3"/>
+  <File path="assault_scope_diff.dds.4"/>
+  <File path="assault_scope_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="b2361fce-89b5-d1e3-9eaf-b0a22b1aab14">
+ <Files>
+  <File path="c4_tp_disarmed.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/weapons/c4/textures/c4_tp_diff.dds</Path>
+  <Path usageCount="2">objects/weapons/c4/textures/c4_tp_ddna.dds</Path>
+  <Path usageCount="2">objects/weapons/c4/textures/c4_tp_spec.dds</Path>
+  <Path usageCount="1">objects/weapons/c4/textures/c4_txt.dds</Path>
+ </Dependencies>
+</AssetMetadata>

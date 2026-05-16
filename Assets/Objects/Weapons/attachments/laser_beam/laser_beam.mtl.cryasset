@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="066e11c9-f6e3-185d-7a9b-923014c6866e">
+ <Files>
+  <File path="laser_beam.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/attachments/laser_beam/textures/laser_beam.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/laser_beam/textures/noise_gradient.dds</Path>
+ </Dependencies>
+</AssetMetadata>

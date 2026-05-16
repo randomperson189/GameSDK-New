@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="9d640d39-684a-34c9-40df-0ef679f40267">
+ <Files>
+  <File path="pistol_mag.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/weapons/attachments/pistol_magazine/textures/pistol_mag_inc_diff.dds</Path>
+  <Path usageCount="2">objects/weapons/attachments/pistol_magazine/textures/pistol_mag_ddna.dds</Path>
+  <Path usageCount="1">objects/weapons/attachments/pistol_magazine/textures/pistol_mag_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

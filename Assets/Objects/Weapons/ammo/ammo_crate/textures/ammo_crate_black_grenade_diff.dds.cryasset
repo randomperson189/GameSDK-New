@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ed5355f8-f591-d79e-0dbf-5757872821a0">
+ <Files>
+  <File path="ammo_crate_black_grenade_diff.dds"/>
+  <File path="ammo_crate_black_grenade_diff.dds.1"/>
+  <File path="ammo_crate_black_grenade_diff.dds.2"/>
+  <File path="ammo_crate_black_grenade_diff.dds.3"/>
+  <File path="ammo_crate_black_grenade_diff.dds.4"/>
+  <File path="ammo_crate_black_grenade_diff.dds.5"/>
+  <File path="ammo_crate_black_grenade_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

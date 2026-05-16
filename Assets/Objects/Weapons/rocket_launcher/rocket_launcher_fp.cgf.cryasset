@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="0244f48a-c559-a535-b09f-93f496b42985">
+ <Files>
+  <File path="rocket_launcher_fp.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">12607</Detail>
+  <Detail name="vertexCount">11387</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/weapons/rocket_launcher/rocket_launcher.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

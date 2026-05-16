@@ -1,0 +1,33 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="shotgun_a" MtlFlags="524416" Shader="Illum" GenMask="C0000181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/shotgun/textures/shotgun_a_diff.tif" Filter="7"/>
+    <Texture Map="Specular" File="objects/weapons/shotgun/textures/shotgun_a_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/shotgun/textures/shotgun_a_ddna.tif" Filter="7"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_001_detail.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.30000001" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="shotgun_b" MtlFlags="524416" Shader="Illum" GenMask="C0000181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" HeatAmountScaled="32" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/shotgun/textures/shotgun_b_diff.tif" Filter="7"/>
+    <Texture Map="Specular" File="objects/weapons/shotgun/textures/shotgun_b_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/shotgun/textures/shotgun_b_ddna.tif" Filter="7"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_001_detail.tif">
+     <TexMod TileU="15" TileV="15"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="sights" MtlFlags="524416" Shader="Illum" GenMask="80000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.065753885,0.93227684,0.015175238" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="4" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/16_grey.dds"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="b6d25a5f-fde5-7f23-aa93-0ef74d523bed">
+ <Files>
+  <File path="turret_gun_ddn.dds"/>
+  <File path="turret_gun_ddn.dds.1"/>
+  <File path="turret_gun_ddn.dds.2"/>
+  <File path="turret_gun_ddn.dds.3"/>
+  <File path="turret_gun_ddn.dds.4"/>
+  <File path="turret_gun_ddn.dds.5"/>
+  <File path="turret_gun_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,7 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Shininess="255" Opacity="1" HeatAmountScaled="32" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/weapons/frag_grenade/textures/frag_grenade_diff.tif" Filter="5"/>
+  <Texture Map="Bumpmap" File="objects/weapons/frag_grenade/textures/frag_grenade_ddna.tif"/>
+ </Textures>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="48ffcfc6-c768-e465-90b6-44ab6ed0006a">
+ <Files>
+  <File path="claymore.cgf"/>
+  <File path="claymore_lod1.cgf"/>
+  <File path="claymore_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1540</Detail>
+  <Detail name="vertexCount">1886</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./claymore.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

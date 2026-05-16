@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="2e16fe2d-9194-315b-9b50-ddf766fe0ca8">
+ <Files>
+  <File path="medical_kit_bag_ddn.dds"/>
+  <File path="medical_kit_bag_ddn.dds.1"/>
+  <File path="medical_kit_bag_ddn.dds.2"/>
+  <File path="medical_kit_bag_ddn.dds.3"/>
+  <File path="medical_kit_bag_ddn.dds.4"/>
+  <File path="medical_kit_bag_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>
