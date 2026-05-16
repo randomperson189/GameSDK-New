@@ -1,0 +1,72 @@
+<CrySchematyc CryXmlVersion="2" version="105" guid="f8fddf7e-022a-4c6c-a319-f1fbd1ec7d41" scope="">
+ <root elementType="Class" guid="c43c63e4-06bd-4613-b614-88bf2302b85d" name="bullet" Schematyc::EMPEnv="clientserver">
+  <userDocumentation author="User" description=""/>
+  <extensions />
+  <children>
+   <element elementType="Constructor" guid="85622f6a-d5a1-45b6-8cde-c589a71dc769" name="ConstructionGraph" Schematyc::EMPEnv="clientserver">
+    <userDocumentation author="User" description=""/>
+    <extensions>
+     <Graph>
+      <pos x="0" y="0"/>
+      <nodes>
+       <element key="60b60713-9d14-4d14-a256-39479d207bcf" typeGUID="12bdfa06-ba95-4e48-bb2d-bb48a7080abc">
+        <value guid="60b60713-9d14-4d14-a256-39479d207bcf">
+         <pos x="0" y="0"/>
+        </value>
+       </element>
+      </nodes>
+      <links />
+     </Graph>
+    </extensions>
+    <children />
+   </element>
+   <element elementType="SignalReceiver" guid="7a1b0933-4aec-4374-911b-7ddcf5b7269f" name="SignalGraph" Schematyc::EMPEnv="clientserver" type="Universal" signalGUID="">
+    <userDocumentation author="User" description=""/>
+    <extensions>
+     <Graph>
+      <pos x="0" y="0"/>
+      <nodes>
+       <element key="147d3824-3f44-4070-8d0c-3bedbd5eb55b" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="147d3824-3f44-4070-8d0c-3bedbd5eb55b" objectGUID="">
+         <pos x="0" y="100"/>
+         <signalId domain="Env" guid="52ad5add-7781-429b-b4a9-0cb6c905e353"/>
+        </value>
+       </element>
+       <element key="f7e30215-1395-41b1-84bd-f72d0185e30b" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="f7e30215-1395-41b1-84bd-f72d0185e30b" objectGUID="">
+         <pos x="0" y="0"/>
+         <signalId domain="Env" guid="a9279137-7c66-491d-b9a0-8752c24c8979"/>
+        </value>
+       </element>
+       <element key="ec8f798c-ee56-4749-9b6f-324c8699a195" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="ec8f798c-ee56-4749-9b6f-324c8699a195" objectGUID="">
+         <pos x="0" y="200"/>
+         <signalId domain="Env" guid="b2561caa-0753-458b-a91f-e8e38b0f0cdf"/>
+        </value>
+       </element>
+      </nodes>
+      <links />
+     </Graph>
+    </extensions>
+    <children />
+   </element>
+   <element elementType="Base" guid="bada4c94-40ad-4dff-bc0c-f85598f8dd0e" name="Base [Entity]" Schematyc::EMPEnv="clientserver">
+    <classId domain="Env" guid="be845278-0dd2-409f-b8be-97895607c256"/>
+    <envClassProperties icon="%EDITOR%/objecticons/schematyc.bmp" bHideInEditor="false" bTriggerAreas="true" bCreatePerClient="false"/>
+    <extensions />
+    <children>
+     <element elementType="ComponentInstance" guid="02ee6316-7c3c-4db9-adac-3a7fa2881e61" name="Entity" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="e88093df-904f-4c52-af38-911e26777cdc">
+      <properties />
+      <extensions />
+      <children />
+     </element>
+    </children>
+   </element>
+   <element elementType="ComponentInstance" guid="2fc43da1-c93e-4bbb-800c-b8f0f13f0cdd" name="CBulletComponent" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="9062e410-ef72-4f51-b9e4-cb83c1cd3957">
+    <properties />
+    <extensions />
+    <children />
+   </element>
+  </children>
+ </root>
+</CrySchematyc>

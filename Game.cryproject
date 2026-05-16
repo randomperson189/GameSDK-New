@@ -1,0 +1,41 @@
+{
+	"version": 4,
+	"type": "",
+	"info": {
+		"name": "GameSDK-New",
+		"guid": "644b3cef-fc9d-4d4c-beec-8a158a7e81e6"
+	},
+	"content": {
+		"assets": [ "Assets" ],
+		"code": [ "Code" ],
+		"libs": [
+			{
+				"name": "GameSDK-New",
+				"shared": { "any": "", "win_x64": "", "win_x86": "" }
+			}
+		]
+	},
+	"require": {
+		"engine": "engine-5.7",
+		"plugins": [
+			{ "guid": "", "type": "EType::Native", "path": "CryDefaultEntities" },
+			{ "guid": "", "type": "EType::Native", "path": "CrySensorSystem" },
+			{ "guid": "", "type": "EType::Native", "path": "CryScaleformSchematyc" },
+			{ "guid": "", "type": "EType::Native", "path": "CryPerceptionSystem" },
+			{ "guid": "", "type": "EType::Native", "path": "bin/win_x64/Game.dll" },
+			{
+				"guid": "",
+				"type": "EType::Native",
+				"path": "CryGamePlatform",
+				"platforms": [ "PS4" ]
+			}
+		]
+	},
+	"console_variables": {
+		"cl_DefaultNearPlane": "0.05",
+		"es_EnableFlowgraphComponents": "1",
+		"sc_allowFlowGraphNodes": "1",
+		"sys_target_platforms": "pc,ps4,xboxone,linux"
+	},
+	"console_commands": { }
+}
