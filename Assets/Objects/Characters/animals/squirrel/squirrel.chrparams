@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations/animals/squirrel/"/>
+		<Animation name="idle01" path="squirrel_idle.caf"/>
+		<Animation name="walk_loop" path="squirrel_walk.caf"/>
+		<Animation name="run_loop" path="squirrel_run.caf"/>
+	</AnimationList>
+</Params>

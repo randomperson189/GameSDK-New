@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="41877eac-a5c1-8d07-8b46-036a74a470aa">
+ <Files>
+  <File path="hair_diff.dds"/>
+  <File path="hair_diff.dds.1"/>
+  <File path="hair_diff.dds.2"/>
+  <File path="hair_diff.dds.3"/>
+  <File path="hair_diff.dds.4"/>
+  <File path="hair_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a13d232a-52c5-dcb6-8697-654da25b6146">
+ <Files>
+  <File path="nero_eyelash_diff.dds"/>
+  <File path="nero_eyelash_diff.dds.1"/>
+  <File path="nero_eyelash_diff.dds.2"/>
+  <File path="nero_eyelash_diff.dds.3"/>
+  <File path="nero_eyelash_diff.dds.4"/>
+  <File path="nero_eyelash_diff.dds.5"/>
+  <File path="nero_eyelash_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

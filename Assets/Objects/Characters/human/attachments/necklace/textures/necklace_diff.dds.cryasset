@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="76006867-861c-2339-232b-b88728f869d5">
+ <Files>
+  <File path="necklace_diff.dds"/>
+  <File path="necklace_diff.dds.1"/>
+  <File path="necklace_diff.dds.2"/>
+  <File path="necklace_diff.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

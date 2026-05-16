@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="cfd9413e-f227-50fe-b4bd-2e3b43f99870">
+ <Files>
+  <File path="bat_spec.dds"/>
+  <File path="bat_spec.dds.1"/>
+  <File path="bat_spec.dds.2"/>
+  <File path="bat_spec.dds.3"/>
+  <File path="bat_spec.dds.4"/>
+  <File path="bat_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

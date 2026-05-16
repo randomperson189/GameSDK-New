@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="8346d7a7-76e2-1c84-d783-8b6ee4496d58">
+ <Files>
+  <File path="Helmet.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">7068</Detail>
+  <Detail name="vertexCount">4991</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">20</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./helmet.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Character" guid="0f5bff6f-cb56-ac3f-649f-35495e4d73e1">
+ <Files>
+  <File path="attachment_07 (face).cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/human/generic/skeleton_player_generic.chr</Path>
+  <Path>objects/weapons/attachments/sniper/sniper_scope_a_tp.cgf</Path>
+  <Path>objects/weapons/attachments/sniper/sniper_scope_a_tp.cgf</Path>
+  <Path>objects/weapons/rifle/rifle_tp.cgf</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/glottskull/glottskull.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/glottskull/glottskull.mtl</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/rebels/bodymesh.skin</Path>
+ </Dependencies>
+</AssetMetadata>

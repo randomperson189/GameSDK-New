@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="8fb54847-49cd-2164-8f1a-faf1c1ee3115">
+ <Files>
+  <File path="beanie.cgf"/>
+  <File path="beanie_lod1.cgf"/>
+  <File path="beanie_lod2.cgf"/>
+  <File path="beanie_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1406</Detail>
+  <Detail name="vertexCount">873</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./beanie.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

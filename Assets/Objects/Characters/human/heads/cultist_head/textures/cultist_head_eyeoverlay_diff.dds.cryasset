@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="6bd650a7-26fa-ab27-0c57-1a9b7a0ad645">
+ <Files>
+  <File path="cultist_head_eyeoverlay_diff.dds"/>
+  <File path="cultist_head_eyeoverlay_diff.dds.1"/>
+  <File path="cultist_head_eyeoverlay_diff.dds.2"/>
+  <File path="cultist_head_eyeoverlay_diff.dds.3"/>
+  <File path="cultist_head_eyeoverlay_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

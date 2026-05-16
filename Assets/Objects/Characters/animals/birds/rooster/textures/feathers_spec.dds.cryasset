@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="cbf9d62b-b461-084e-1223-56ef33f00255">
+ <Files>
+  <File path="feathers_spec.dds"/>
+  <File path="feathers_spec.dds.1"/>
+  <File path="feathers_spec.dds.2"/>
+  <File path="feathers_spec.dds.3"/>
+  <File path="feathers_spec.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

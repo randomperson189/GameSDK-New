@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="d9393157-2a19-0430-2cb6-be8b04b76a3d">
+ <Files>
+  <File path="beanie_ddna.dds"/>
+  <File path="beanie_ddna.dds.a"/>
+  <File path="beanie_ddna.dds.1"/>
+  <File path="beanie_ddna.dds.1a"/>
+  <File path="beanie_ddna.dds.2"/>
+  <File path="beanie_ddna.dds.2a"/>
+  <File path="beanie_ddna.dds.3"/>
+  <File path="beanie_ddna.dds.3a"/>
+  <File path="beanie_ddna.dds.4"/>
+  <File path="beanie_ddna.dds.4a"/>
+  <File path="beanie_ddna.dds.5"/>
+  <File path="beanie_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d87bdb21-f233-f65e-e9b2-5b9926d6a4d9">
+ <Files>
+  <File path="nero_head_wrinkle_atlas.dds"/>
+  <File path="nero_head_wrinkle_atlas.dds.1"/>
+  <File path="nero_head_wrinkle_atlas.dds.2"/>
+  <File path="nero_head_wrinkle_atlas.dds.3"/>
+  <File path="nero_head_wrinkle_atlas.dds.4"/>
+  <File path="nero_head_wrinkle_atlas.dds.5"/>
+  <File path="nero_head_wrinkle_atlas.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

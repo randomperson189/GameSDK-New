@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="09e22510-21c7-da4f-0336-3eb938a9f537">
+ <Files>
+  <File path="helmet_a_decal_diff.dds"/>
+  <File path="helmet_a_decal_diff.dds.1"/>
+  <File path="helmet_a_decal_diff.dds.2"/>
+  <File path="helmet_a_decal_diff.dds.3"/>
+  <File path="helmet_a_decal_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

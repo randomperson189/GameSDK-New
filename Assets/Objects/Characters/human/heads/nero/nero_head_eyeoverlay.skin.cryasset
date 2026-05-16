@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="62ab96e3-7b1a-4b98-a208-b97fd33297e7">
+ <Files>
+  <File path="nero_head_eyeoverlay.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">336</Detail>
+  <Detail name="vertexCount">208</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">515</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mat_nero_head.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

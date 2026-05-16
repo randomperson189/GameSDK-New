@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="943acb90-cc6d-d39b-6851-39256545f873">
+ <Files>
+  <File path="shoes.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">16</Detail>
+  <Detail name="triangleCount">1416</Detail>
+  <Detail name="vertexCount">864</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">135</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./SDK_Player.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

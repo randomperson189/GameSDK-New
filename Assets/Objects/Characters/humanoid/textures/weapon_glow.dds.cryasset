@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="c4bc3dc8-0331-3c7a-2de1-b9738952bcd0">
+ <Files>
+  <File path="weapon_glow.dds"/>
+  <File path="weapon_glow.dds.1"/>
+  <File path="weapon_glow.dds.2"/>
+  <File path="weapon_glow.dds.3"/>
+  <File path="weapon_glow.dds.4"/>
+  <File path="weapon_glow.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="60b6b0df-af27-a137-5a2e-e432887606cd">
+ <Files>
+  <File path="necklace.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/human/attachments/necklace/textures/necklace_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/attachments/necklace/textures/necklace_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/attachments/necklace/textures/necklace_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

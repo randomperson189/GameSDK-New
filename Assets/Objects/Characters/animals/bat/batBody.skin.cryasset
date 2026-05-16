@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="27cd8bd1-10a7-fec5-8f6c-2c59707128ba">
+ <Files>
+  <File path="batBody.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">493</Detail>
+  <Detail name="vertexCount">451</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">21</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./bat_mat.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

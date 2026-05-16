@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Character" guid="1fc6d127-e594-07cf-59ab-194a09ece1ba">
+ <Files>
+  <File path="humanoid.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/human/generic/skeleton_player_generic.chr</Path>
+  <Path>Objects/characters/human/generic/skeleton_male_generic</Path>
+  <Path>objects/characters/humanoid/humanoid_head.skin</Path>
+  <Path>objects/characters/humanoid/humanoid_body.skin</Path>
+  <Path>objects/characters/humanoid/eye_fish.cgf</Path>
+  <Path>Objects/Characters/Humanoid/Eye_Fish</Path>
+  <Path>objects/characters/humanoid/eye_fish.cgf</Path>
+  <Path>Objects/characters/humanoid/eye_fish</Path>
+  <Path>objects/characters/humanoid/plasma_rifle.cgf</Path>
+  <Path>objects/characters/humanoid/sails.skin</Path>
+  <Path>./</Path>
+  <Path>./</Path>
+  <Path>./</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,9 @@
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations/humanoid/sails"/>
+		<Animation name="$TracksDatabase" path="Animations/humanoid/sails.dba"/>
+		
+
+		<Animation name="Sail_idle" path="Sail_idle01.caf"/>
+	</AnimationList>
+</Params>

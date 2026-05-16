@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="5cbf32c9-2bfd-a165-2c3d-887a0e684c08">
+ <Files>
+  <File path="ratBody.skin"/>
+  <File path="ratBody_lod1.skin"/>
+  <File path="ratBody_lod2.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">876</Detail>
+  <Detail name="vertexCount">713</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">28</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./rat_mat.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

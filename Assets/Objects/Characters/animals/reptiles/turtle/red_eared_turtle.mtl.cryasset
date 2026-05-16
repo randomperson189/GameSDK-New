@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="e7094ece-f6bd-124b-9250-683922f2fdda">
+ <Files>
+  <File path="red_eared_turtle.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/animals/reptiles/turtle/textures/turtle_dif.dds</Path>
+  <Path usageCount="1">objects/characters/animals/reptiles/turtle/textures/turtle_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

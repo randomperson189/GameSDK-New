@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="f48f2726-2467-20eb-5222-24ca3f91a3b7">
+ <Files>
+  <File path="background_gradiant.dds"/>
+  <File path="background_gradiant.dds.1"/>
+  <File path="background_gradiant.dds.2"/>
+  <File path="background_gradiant.dds.3"/>
+  <File path="background_gradiant.dds.4"/>
+  <File path="background_gradiant.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

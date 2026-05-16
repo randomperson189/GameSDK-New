@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Material" guid="38bc5f75-6fc6-c9c2-72a8-dbbb8492979b">
+ <Files>
+  <File path="cultist_head_default.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">14</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./textures/cultist_head_eyeoverlay_diff.dds</Path>
+  <Path usageCount="1">./textures/cultist_head_eyeoverlay_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_iris_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_iris_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_iris_displ.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_cornea_ddn.dds</Path>
+  <Path usageCount="1">./textures/teeth_diff.dds</Path>
+  <Path usageCount="1">./textures/teeth_ddna.dds</Path>
+  <Path usageCount="1">./textures/teeth_spec.dds</Path>
+  <Path usageCount="1">./textures/cultist_head_eyebrows_diff.dds</Path>
+  <Path usageCount="1">./textures/cultist_head_diff.dds</Path>
+  <Path usageCount="1">./textures/cultist_head_ddna.dds</Path>
+  <Path usageCount="1">./textures/cultist_head_spec.dds</Path>
+  <Path usageCount="1">./textures/cultist_head_sss.dds</Path>
+ </Dependencies>
+</AssetMetadata>

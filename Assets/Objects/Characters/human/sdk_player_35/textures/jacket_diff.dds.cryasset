@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="eb090d96-e0cd-3cbf-b061-f9e14a3a3787">
+ <Files>
+  <File path="jacket_diff.dds"/>
+  <File path="jacket_diff.dds.1"/>
+  <File path="jacket_diff.dds.2"/>
+  <File path="jacket_diff.dds.3"/>
+  <File path="jacket_diff.dds.4"/>
+  <File path="jacket_diff.dds.5"/>
+  <File path="jacket_diff.dds.6"/>
+  <File path="jacket_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

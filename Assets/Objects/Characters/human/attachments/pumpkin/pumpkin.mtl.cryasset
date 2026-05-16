@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="7c161db1-2246-3b6a-b253-9637d9467cc3">
+ <Files>
+  <File path="pumpkin.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/characters/human/attachments/pumpkin/textures/pumpkin_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/attachments/pumpkin/textures/pumpkin_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

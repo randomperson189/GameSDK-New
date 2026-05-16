@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Material" guid="67c0ea2b-08e3-ece8-c8e0-4020a0cf703f">
+ <Files>
+  <File path="psycho_head.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">14</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_iris_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_iris_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_iris_displ.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_iris_sss.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_cornea_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_iris_depth_ddn.dds</Path>
+  <Path usageCount="1">Objects/characters/human/heads/psycho/psycho_hair.dds</Path>
+  <Path usageCount="1">Objects/characters/human/heads/psycho/psycho_face.dds</Path>
+  <Path usageCount="2">objects/characters/human/heads/psycho/psycho_face_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/psycho/psycho_face_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/psycho/psycho_face_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/psycho/psycho_face_wrinkle_ao.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/psycho/psycho_face_wrinkle_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/psycho/psycho_face_wrinkle_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

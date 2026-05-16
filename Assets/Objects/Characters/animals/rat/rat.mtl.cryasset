@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="01477d8c-0bf0-8631-d1e1-eca3572eba9a">
+ <Files>
+  <File path="rat.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/animals/rat/rat.dds</Path>
+  <Path usageCount="1">objects/characters/animals/rat/rat_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

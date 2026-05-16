@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="180cc6fe-372a-81ff-e0b2-eb04a202355a">
+ <Files>
+  <File path="salamander.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./salamander_diff.dds</Path>
+  <Path usageCount="1">./salamander_ddna.dds</Path>
+  <Path usageCount="1">./salamander_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

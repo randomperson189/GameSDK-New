@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="fd715339-e19e-1a69-ee0b-eefc2ca58c1c">
+ <Files>
+  <File path="cultist_head_sss.dds"/>
+  <File path="cultist_head_sss.dds.1"/>
+  <File path="cultist_head_sss.dds.2"/>
+  <File path="cultist_head_sss.dds.3"/>
+  <File path="cultist_head_sss.dds.4"/>
+  <File path="cultist_head_sss.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

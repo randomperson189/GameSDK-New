@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="ceb8d12d-eb93-858e-c311-a4db7b39563d">
+ <Files>
+  <File path="bodymesh.skin"/>
+  <File path="bodymesh_lod1.skin"/>
+  <File path="bodymesh_lod2.skin"/>
+  <File path="bodymesh_lod3.skin"/>
+  <File path="bodymesh_lod4.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">10</Detail>
+  <Detail name="triangleCount">7299</Detail>
+  <Detail name="vertexCount">4473</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">133</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./rebels.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

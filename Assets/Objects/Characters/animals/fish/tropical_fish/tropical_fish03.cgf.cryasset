@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d3cd553b-be67-0b06-a570-bd9116e23396">
+ <Files>
+  <File path="tropical_fish03.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">88</Detail>
+  <Detail name="vertexCount">73</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./tropical_fish03.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

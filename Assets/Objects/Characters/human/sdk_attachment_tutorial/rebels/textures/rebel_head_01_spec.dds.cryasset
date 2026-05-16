@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="e0709ad9-a2b4-e18c-6f69-44e074dcb71b">
+ <Files>
+  <File path="rebel_head_01_spec.dds"/>
+  <File path="rebel_head_01_spec.dds.1"/>
+  <File path="rebel_head_01_spec.dds.2"/>
+  <File path="rebel_head_01_spec.dds.3"/>
+  <File path="rebel_head_01_spec.dds.4"/>
+  <File path="rebel_head_01_spec.dds.5"/>
+  <File path="rebel_head_01_spec.dds.6"/>
+  <File path="rebel_head_01_spec.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

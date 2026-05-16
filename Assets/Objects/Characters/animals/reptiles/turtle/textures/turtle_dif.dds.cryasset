@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ec697ac5-6941-f6aa-ca23-ee29388f7b4b">
+ <Files>
+  <File path="turtle_dif.dds"/>
+  <File path="turtle_dif.dds.1"/>
+  <File path="turtle_dif.dds.2"/>
+  <File path="turtle_dif.dds.3"/>
+  <File path="turtle_dif.dds.4"/>
+  <File path="turtle_dif.dds.5"/>
+  <File path="turtle_dif.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

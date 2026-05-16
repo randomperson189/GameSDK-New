@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="26805d53-ce2b-5900-6d33-53532271974e">
+ <Files>
+  <File path="helmet_a.cgf"/>
+  <File path="helmet_a_lod1.cgf"/>
+  <File path="helmet_a_lod2.cgf"/>
+  <File path="helmet_a_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">3446</Detail>
+  <Detail name="vertexCount">2700</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/characters/human/attachments/helmet/helmet_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="fe4ff167-de61-0b90-be8b-c64a8afaf92a">
+ <Files>
+  <File path="toad_diff.dds"/>
+  <File path="toad_diff.dds.1"/>
+  <File path="toad_diff.dds.2"/>
+  <File path="toad_diff.dds.3"/>
+  <File path="toad_diff.dds.4"/>
+  <File path="toad_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

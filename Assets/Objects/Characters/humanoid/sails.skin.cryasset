@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="360e4d7c-a5a4-383a-ba91-137ff00fb1f3">
+ <Files>
+  <File path="sails.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">32</Detail>
+  <Detail name="triangleCount">414</Detail>
+  <Detail name="vertexCount">281</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">95</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/humanoid/Humanoid_Material.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,23 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Body" MtlFlags="524416" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.10114516,0.10114516,0.10114516" Specular="0.11392093,0.11392093,0.11392093" Emissive="0,0,0" Shininess="50" Opacity="1" AlphaTest="0.5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/animals/alligator/tx/alligator_diff.tif"/>
+    <Texture Map="Specular" File="objects/characters/animals/alligator/tx/alligator_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/animals/alligator/tx/alligator_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="eye" MtlFlags="524448" Shader="Eye" GenMask="1000010000" StringGenMask="%ENVIRONMENT_MAP%TEMP_EYES" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.080219261,0.080219261,0.080219261" Specular="0.20109573,0.20109573,0.20109573" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/animals/alligator/tx/alligator_diff.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/eye_reflect.dds"/>
+   </Textures>
+   <PublicParams PupilX="0.5" IrisDepth="0.0089999996" PupilDynDilation="0" CorneaOpacity="0.5" PupilDilation="0" IrisScattering="0.96200001" FresnelScale="1" PupilY="0.5" IrisColor="0.31118053,0.31118053,0.31118053" GlintMul="1" FresnelBias="0.123" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

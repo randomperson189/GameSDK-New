@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="9724cfaf-c33d-09c7-c3b4-e1bac739edad">
+ <Files>
+  <File path="leatherbelt_spec.dds"/>
+  <File path="leatherbelt_spec.dds.1"/>
+  <File path="leatherbelt_spec.dds.2"/>
+  <File path="leatherbelt_spec.dds.3"/>
+  <File path="leatherbelt_spec.dds.4"/>
+  <File path="leatherbelt_spec.dds.5"/>
+  <File path="leatherbelt_spec.dds.6"/>
+  <File path="leatherbelt_spec.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="106bd2d9-efa7-fe70-869f-6db606e15195">
+ <Files>
+  <File path="sunglasses_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/characters/human/attachments/sunglasses/textures/sunglasses_a_diff.dds</Path>
+  <Path usageCount="2">objects/characters/human/attachments/sunglasses/textures/sunglasses_a_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/attachments/sunglasses/textures/sunglasses_a_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

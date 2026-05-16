@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="6f98924c-f1e2-31a6-f1b8-b59f3b94c9bc">
+ <Files>
+  <File path="Skirt.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/cloth_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/cloth_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/cloth_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

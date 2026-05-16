@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="1bd8c4ba-9472-14f7-624d-35c65db02551">
+ <Files>
+  <File path="generic_teeth_diff.dds"/>
+  <File path="generic_teeth_diff.dds.1"/>
+  <File path="generic_teeth_diff.dds.2"/>
+  <File path="generic_teeth_diff.dds.3"/>
+  <File path="generic_teeth_diff.dds.4"/>
+  <File path="generic_teeth_diff.dds.5"/>
+  <File path="generic_teeth_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

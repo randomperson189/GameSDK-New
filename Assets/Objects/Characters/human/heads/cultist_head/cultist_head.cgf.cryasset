@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="7d324daf-e933-9eff-8f0b-939c1e784176">
+ <Files>
+  <File path="cultist_head.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">8240</Detail>
+  <Detail name="vertexCount">4789</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cultist_head_default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="7dbbc8f7-7fe6-1637-661c-86323f395cd1">
+ <Files>
+  <File path="salamander.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1496</Detail>
+  <Detail name="vertexCount">1010</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">22</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./salamander.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

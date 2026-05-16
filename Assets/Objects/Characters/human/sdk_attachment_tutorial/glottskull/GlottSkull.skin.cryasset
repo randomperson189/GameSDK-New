@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="c156d8fc-6cbf-c7ba-0bea-35abb4ef3062">
+ <Files>
+  <File path="GlottSkull.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">17877</Detail>
+  <Detail name="vertexCount">10506</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">127</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./glottskull.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

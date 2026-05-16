@@ -1,0 +1,16 @@
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations\animals\alligator"/>
+		<Animation name="$TracksDatabase" path="Animations\animals\alligator.dba"/>
+		
+
+		<Animation name="walk_loop" path="alligator_high_walk.caf"/>
+		<Animation name="swim_loop" path="alligator_swim_loop.caf"/>
+		<Animation name="swim_bite" path="alligator_swim_bite.caf"/>
+		<Animation name="swim_idle" path="alligator_swim_idle.caf"/>
+		<Animation name="idle_loop" path="idle_loop.caf"/>
+		<Animation name="idle3" path="idle3.caf"/>
+
+
+	</AnimationList>
+</Params>

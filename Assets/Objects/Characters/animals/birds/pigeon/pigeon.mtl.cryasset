@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="10b27ebc-c440-c432-947e-4a9e7be4e03c">
+ <Files>
+  <File path="pigeon.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/animals/birds/pigeon/textures/pigeon_low.dds</Path>
+  <Path usageCount="1">objects/characters/animals/birds/pigeon/textures/pigeon_diff.dds</Path>
+  <Path usageCount="1">objects/characters/animals/birds/pigeon/textures/pigeon_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Character" guid="91f0e64f-c963-53d0-16d4-828ce0648571">
+ <Files>
+  <File path="deer.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/characters/animals/deer/deer.chr</Path>
+  <Path>objects/characters/animals/deer/deer_mat</Path>
+  <Path>Objects/characters/animals/deer/deerBody.skin</Path>
+  <Path>Objects/characters/animals/deer/antlers.cgf</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,24 @@
+<AssetMetadata version="0" type="Material" guid="4a623b32-9a6f-7c43-8a4c-4607168244e2">
+ <Files>
+  <File path="humanoid_material.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">10</Detail>
+  <Detail name="textureCount">13</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/humanoid/textures/weapon.dds</Path>
+  <Path usageCount="1">objects/characters/humanoid/textures/weapon_spec.dds</Path>
+  <Path usageCount="1">objects/characters/humanoid/textures/weapon_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/humanoid/textures/weapon_glow.dds</Path>
+  <Path usageCount="5">objects/characters/humanoid/textures/body_diff.dds</Path>
+  <Path usageCount="4">objects/characters/humanoid/textures/body_spec.dds</Path>
+  <Path usageCount="4">objects/characters/humanoid/textures/body_ddn.dds</Path>
+  <Path usageCount="3">objects/characters/humanoid/textures/body_displ.dds</Path>
+  <Path usageCount="2">objects/characters/humanoid/textures/glow.dds</Path>
+  <Path usageCount="1">objects/characters/humanoid/textures/head_diff.dds</Path>
+  <Path usageCount="1">objects/characters/humanoid/textures/head_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/humanoid/textures/head_displ.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_scratches_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

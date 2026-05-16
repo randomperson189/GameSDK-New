@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="3dee99fd-f0a4-483e-87c7-246b174df02b">
+ <Files>
+  <File path="dragonfly_flapping.dds"/>
+  <File path="dragonfly_flapping.dds.1"/>
+  <File path="dragonfly_flapping.dds.2"/>
+  <File path="dragonfly_flapping.dds.3"/>
+  <File path="dragonfly_flapping.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

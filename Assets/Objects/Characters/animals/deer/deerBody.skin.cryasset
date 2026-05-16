@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="bcd7b58c-3e47-0415-a959-5412386221e9">
+ <Files>
+  <File path="deerBody.skin"/>
+  <File path="deerBody_lod1.skin"/>
+  <File path="deerBody_lod2.skin"/>
+  <File path="deerBody_lod3.skin"/>
+  <File path="deerBody_lod4.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">2256</Detail>
+  <Detail name="vertexCount">1509</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">42</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./deer_mat.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

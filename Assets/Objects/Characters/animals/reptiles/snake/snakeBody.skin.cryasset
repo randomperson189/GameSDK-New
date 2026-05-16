@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="8e0ce9fd-904c-4741-1993-ca86ce488445">
+ <Files>
+  <File path="snakeBody.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">500</Detail>
+  <Detail name="vertexCount">366</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">13</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./snake_mat.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="4034a0e0-f499-4b90-c0f5-8b0272004dcf">
+ <Files>
+  <File path="rebels.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_head_01_diff.dds</Path>
+  <Path usageCount="2">objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_head_01_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_head_mask_01.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_cloth_02_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_cloth_02_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_cloth_02_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_cloth_01_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_cloth_01_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_cloth_01_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

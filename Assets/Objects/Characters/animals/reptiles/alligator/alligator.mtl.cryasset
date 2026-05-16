@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="0b06fa9a-c517-04f0-50dd-3d60ab4dfe0a">
+ <Files>
+  <File path="alligator.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/characters/animals/alligator/tx/alligator_diff.dds</Path>
+  <Path usageCount="1">textures/cubemaps/eye_reflect.dds</Path>
+  <Path usageCount="1">objects/characters/animals/alligator/tx/alligator_spec.dds</Path>
+  <Path usageCount="1">objects/characters/animals/alligator/tx/alligator_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

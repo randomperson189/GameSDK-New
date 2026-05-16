@@ -1,0 +1,4 @@
+#filepath = Objects/Characters/animals/insects/butterfly
+
+fly_loop			=	fly_loop.caf
+landing				= landing.caf

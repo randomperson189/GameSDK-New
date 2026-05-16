@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="0600e827-f4ab-af35-a0f3-8ab2e944df86">
+ <Files>
+  <File path="sunglasses_a.cgf"/>
+  <File path="sunglasses_a_lod1.cgf"/>
+  <File path="sunglasses_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1418</Detail>
+  <Detail name="vertexCount">1536</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./sunglasses_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

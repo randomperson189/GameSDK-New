@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="3e8b07d5-1a43-b27a-c00a-d49b47058d2d">
+ <Files>
+  <File path="head_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">21028</Detail>
+  <Detail name="vertexCount">11712</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mat_head_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="44b0b48d-73c1-12e5-b35f-5947896d7a99">
+ <Files>
+  <File path="crowbody.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">650</Detail>
+  <Detail name="vertexCount">647</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">30</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./crow_mat.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

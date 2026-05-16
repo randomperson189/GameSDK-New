@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="d61e3f94-f7f1-7079-6f26-5da8dfa682c7">
+ <Files>
+  <File path="bat.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/characters/animals/bat/bat_diff.dds</Path>
+  <Path usageCount="1">objects/characters/animals/bat/bat_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

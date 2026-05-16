@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="30cca398-2295-3e45-879d-62867bf9f935">
+ <Files>
+  <File path="psycho_head.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">5634</Detail>
+  <Detail name="vertexCount">3207</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./psycho_head.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

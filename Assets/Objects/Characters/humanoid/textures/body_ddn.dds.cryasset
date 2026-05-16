@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="1c095d67-6214-f878-b181-00a1f7f40c7e">
+ <Files>
+  <File path="body_ddn.dds"/>
+  <File path="body_ddn.dds.1"/>
+  <File path="body_ddn.dds.2"/>
+  <File path="body_ddn.dds.3"/>
+  <File path="body_ddn.dds.4"/>
+  <File path="body_ddn.dds.5"/>
+  <File path="body_ddn.dds.6"/>
+  <File path="body_ddn.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

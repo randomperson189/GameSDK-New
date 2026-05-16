@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Character" guid="a8f81375-bf68-b729-c3a1-de79676ab390">
+ <Files>
+  <File path="ChainOfJoints3 (grey proxy).cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/human/generic/skeleton_player_generic.chr</Path>
+  <Path>objects/weapons/attachments/sniper/sniper_scope_a_tp.cgf</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/rebels/bodymesh.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/glottskull/glottskullsimple.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/leatherbelt.skin</Path>
+  <Path>objects/weapons/rifle/rifle_tp.cgf</Path>
+  <Path>objects/weapons/attachments/sniper/sniper_scope_a_tp.cgf</Path>
+ </Dependencies>
+</AssetMetadata>

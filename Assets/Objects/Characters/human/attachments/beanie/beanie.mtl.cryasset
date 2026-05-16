@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="a94a4780-0e39-de47-6eda-85d5d0d33d0c">
+ <Files>
+  <File path="beanie.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/human/attachments/beanie/textures/beanie_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/attachments/beanie/textures/beanie_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/attachments/beanie/textures/beanie_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

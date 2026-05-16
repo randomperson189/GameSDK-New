@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Character" guid="4ecea11c-2aa3-6dcc-ce6e-73746eb39e91">
+ <Files>
+  <File path="spider_wolf.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/characters/animals/Spider/spider_wolf.chr</Path>
+  <Path>Objects/characters/animals/Spider/spider_wolf</Path>
+  <Path>Objects/characters/animals/Spider/spider_wolfBody.skin</Path>
+  <Path>Objects/characters/animals/Spider/spider_wolf</Path>
+ </Dependencies>
+</AssetMetadata>

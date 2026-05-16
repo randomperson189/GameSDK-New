@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a62fe9b4-b81f-f311-c5e1-778c500f1927">
+ <Files>
+  <File path="generic_eyeball_cornea_ddn.dds"/>
+  <File path="generic_eyeball_cornea_ddn.dds.1"/>
+  <File path="generic_eyeball_cornea_ddn.dds.2"/>
+  <File path="generic_eyeball_cornea_ddn.dds.3"/>
+  <File path="generic_eyeball_cornea_ddn.dds.4"/>
+  <File path="generic_eyeball_cornea_ddn.dds.5"/>
+  <File path="generic_eyeball_cornea_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

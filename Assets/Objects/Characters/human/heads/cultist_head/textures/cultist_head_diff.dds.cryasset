@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="028715bb-e131-0ac5-72dc-619c98f3baf5">
+ <Files>
+  <File path="cultist_head_diff.dds"/>
+  <File path="cultist_head_diff.dds.1"/>
+  <File path="cultist_head_diff.dds.2"/>
+  <File path="cultist_head_diff.dds.3"/>
+  <File path="cultist_head_diff.dds.4"/>
+  <File path="cultist_head_diff.dds.5"/>
+  <File path="cultist_head_diff.dds.6"/>
+  <File path="cultist_head_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

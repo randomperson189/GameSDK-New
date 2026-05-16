@@ -1,0 +1,16 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="knitted_wool" MtlFlags="524416" Shader="Illum" GenMask="2088000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/attachments/beanie/textures/beanie_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/attachments/beanie/textures/beanie_ddna.tif"/>
+    <Texture Map="Heightmap" File="objects/characters/human/attachments/beanie/textures/beanie_displ.tif"/>
+   </Textures>
+   <PublicParams PomDisplacement="0.02" SSSIndex="1.2" SelfShadowStrength="5" HeightBias="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxie" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,0" Specular="0.5332765,0.5332765,0.5332765" Emissive="0,0,0" Shininess="81" Opacity="0.5" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

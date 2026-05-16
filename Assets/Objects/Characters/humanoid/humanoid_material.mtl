@@ -1,0 +1,79 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="body_shader" MtlFlags="524416" Shader="Illum" GenMask="2000088081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DISPLACEMENT_MAPPING%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.49102089,0.49102089,0.49102089" Specular="1,1,1" Emissive="0,0,0" Shininess="141" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/humanoid/textures/body_diff.tif"/>
+    <Texture Map="Specular" File="objects/characters/humanoid/textures/body_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/humanoid/textures/body_ddn.tif"/>
+    <Texture Map="Heightmap" File="objects/characters/humanoid/textures/body_displ.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="2.7920001" TessellationDispBias="0.5" TessellationHeightScale="0.40000001" TessellationFactorMax="64" SubsurfaceScatteringAmount="0" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="eye_shader" MtlFlags="525472" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="gear_shader" MtlFlags="524416" Shader="Illum" GenMask="2040088081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DISPLACEMENT_MAPPING%GLOSS_MAP%PN_TESSELLATION%VERTCOLORS" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.49102089,0.49102089,0.49102089" Specular="1,1,1" Emissive="0,0,0" Shininess="128" Opacity="1" GlowAmount="50" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/humanoid/textures/body_diff.tif"/>
+    <Texture Map="Specular" File="objects/characters/humanoid/textures/body_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/humanoid/textures/body_ddn.tif"/>
+    <Texture Map="Heightmap" File="objects/characters/humanoid/textures/body_displ.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_detail.tif">
+     <TexMod TileU="25" TileV="25"/>
+    </Texture>
+    <Texture Map="Decal" File="objects/characters/humanoid/textures/glow.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="2" TessellationDispBias="0.5" TessellationHeightScale="0.2" TessellationFactorMax="64" SubsurfaceScatteringAmount="0" TessellationFactorMin="11.33" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="head_shader" MtlFlags="524416" Shader="Illum" GenMask="2040008081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DISPLACEMENT_MAPPING%PN_TESSELLATION%VERTCOLORS" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.057805438,0.057805438,0.057805438" Emissive="0,0,0" Shininess="160" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/humanoid/textures/head_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/humanoid/textures/head_ddn.tif"/>
+    <Texture Map="Heightmap" File="objects/characters/humanoid/textures/head_displ.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="3.3699999" TessellationDispBias="0.5" TessellationHeightScale="0.13" TessellationFactorMax="64" SubsurfaceScatteringAmount="0" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lense_shader" MtlFlags="2621568" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.056374099,0.18014428,0.04145189" Specular="0.089193508,1,0.1036341" Emissive="0,0,0" Shininess="255" Opacity="0.99000001" GlowAmount="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/humanoid/textures/body_diff.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="phys" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="null" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="fins" MtlFlags="524418" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.46474114,0.46474114,0.46474114" Specular="0.32503697,0.32503697,0.32503697" Emissive="0,0,0" Shininess="114" Opacity="1" AlphaTest="0.80000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/humanoid/textures/body_diff.tif"/>
+    <Texture Map="Specular" File="objects/characters/humanoid/textures/body_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/humanoid/textures/body_ddn.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="gill_breather" MtlFlags="524416" Shader="Illum" GenMask="2040080081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PN_TESSELLATION%VERTCOLORS" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="128" Opacity="1" GlowAmount="50" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/humanoid/textures/body_diff.tif"/>
+    <Texture Map="Specular" File="objects/characters/humanoid/textures/body_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/humanoid/textures/body_ddn.tif"/>
+    <Texture Map="Heightmap" File="objects/characters/humanoid/textures/body_displ.tif"/>
+    <Texture Map="Decal" File="objects/characters/humanoid/textures/glow.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="1" TessellationFactorMax="64" SubsurfaceScatteringAmount="0" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="weapon" MtlFlags="524448" Shader="Illum" GenMask="80083" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAGLOW%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="100" Opacity="1" GlowAmount="5" HeatAmountScaled="23" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/humanoid/textures/weapon.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/characters/humanoid/textures/weapon_spec.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/characters/humanoid/textures/weapon_ddn.tif" Filter="5"/>
+    <Texture Map="Decal" File="objects/characters/humanoid/textures/weapon_glow.tif">
+     <TexMod TexMod_UOscillatorType="2" TexMod_UOscillatorRate="1" TexMod_VOscillatorRate="1" TexMod_UOscillatorPhase="1" TexMod_VOscillatorPhase="1" TexMod_UOscillatorAmplitude="0.079999998" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1" SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

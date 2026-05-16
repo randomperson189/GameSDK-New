@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="ae16e647-28b2-89a1-d0d1-7393ad3a8b71">
+ <Files>
+  <File path="rooster.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/animals/birds/rooster/textures/feathers_diff.dds</Path>
+  <Path usageCount="1">objects/characters/animals/birds/rooster/textures/feathers_spec.dds</Path>
+  <Path usageCount="1">objects/characters/animals/birds/rooster/textures/feathers_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/animals/birds/rooster/textures/rooster_diff.dds</Path>
+  <Path usageCount="1">objects/characters/animals/birds/rooster/textures/rooster_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

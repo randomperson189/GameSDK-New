@@ -1,0 +1,27 @@
+<AssetMetadata version="0" type="Texture" guid="f2a931e5-f760-e86d-bddf-f6ec2b7fc4bb">
+ <Files>
+  <File path="cultist_head_ddna.dds"/>
+  <File path="cultist_head_ddna.dds.a"/>
+  <File path="cultist_head_ddna.dds.1"/>
+  <File path="cultist_head_ddna.dds.1a"/>
+  <File path="cultist_head_ddna.dds.2"/>
+  <File path="cultist_head_ddna.dds.2a"/>
+  <File path="cultist_head_ddna.dds.3"/>
+  <File path="cultist_head_ddna.dds.3a"/>
+  <File path="cultist_head_ddna.dds.4"/>
+  <File path="cultist_head_ddna.dds.4a"/>
+  <File path="cultist_head_ddna.dds.5"/>
+  <File path="cultist_head_ddna.dds.5a"/>
+  <File path="cultist_head_ddna.dds.6"/>
+  <File path="cultist_head_ddna.dds.6a"/>
+  <File path="cultist_head_ddna.dds.7"/>
+  <File path="cultist_head_ddna.dds.7a"/>
+  <File path="cultist_head_ddna.dds.8"/>
+  <File path="cultist_head_ddna.dds.8a"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="4cc17d82-790e-bf06-05f1-3045f8fbb69b">
+ <Files>
+  <File path="cultist_broken_eyeball.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_iris_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_iris_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_iris_displ.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_cornea_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

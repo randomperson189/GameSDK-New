@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c871b4d0-8627-f011-f409-21ed48ab6fb1">
+ <Files>
+  <File path="antlers_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">222</Detail>
+  <Detail name="vertexCount">235</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./deer_mat.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

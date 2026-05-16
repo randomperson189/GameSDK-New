@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Character" guid="a62b0e01-265b-5c69-aeaf-1b6ccdc27d67">
+ <Files>
+  <File path="salamander.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/characters/animals/amphibians/salamander/salamander.chr</Path>
+  <Path>Objects/characters/animals/amphibians/salamander/salamander.skin</Path>
+  <Path>Objects/characters/animals/amphibians/salamander/salamander.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

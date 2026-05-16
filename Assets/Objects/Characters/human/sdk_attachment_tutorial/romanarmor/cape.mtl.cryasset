@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="d44e6327-27ef-6018-c7a2-327d6d3b25a6">
+ <Files>
+  <File path="cape.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/cape_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/cape_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/cape_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

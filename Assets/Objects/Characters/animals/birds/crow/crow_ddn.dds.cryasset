@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="1614213a-6c55-a455-cf1a-4c6337fd2110">
+ <Files>
+  <File path="crow_ddn.dds"/>
+  <File path="crow_ddn.dds.1"/>
+  <File path="crow_ddn.dds.2"/>
+  <File path="crow_ddn.dds.3"/>
+  <File path="crow_ddn.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

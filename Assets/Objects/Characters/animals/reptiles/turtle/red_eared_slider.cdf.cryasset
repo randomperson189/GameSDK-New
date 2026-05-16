@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Character" guid="b1c58a97-aaf8-ae5d-e0ab-c745902bc14c">
+ <Files>
+  <File path="red_eared_slider.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/animals/reptiles/turtle/red_eared_slider_skel.chr</Path>
+  <Path>objects/characters/animals/reptiles/turtle/red_eared_turtle</Path>
+  <Path>objects/characters/animals/reptiles/turtle/red_eared_slider.skin</Path>
+  <Path>./</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="9f8eb038-b10d-12e9-f18c-6756759ee58e">
+ <Files>
+  <File path="cultist_head_angry.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">5224</Detail>
+  <Detail name="vertexCount">3012</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cultist_head_angry.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

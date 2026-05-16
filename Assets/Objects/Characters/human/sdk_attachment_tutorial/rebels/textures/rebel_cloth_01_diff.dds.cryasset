@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="907c6009-ca81-b280-02e5-e821d51e9f3a">
+ <Files>
+  <File path="rebel_cloth_01_diff.dds"/>
+  <File path="rebel_cloth_01_diff.dds.1"/>
+  <File path="rebel_cloth_01_diff.dds.2"/>
+  <File path="rebel_cloth_01_diff.dds.3"/>
+  <File path="rebel_cloth_01_diff.dds.4"/>
+  <File path="rebel_cloth_01_diff.dds.5"/>
+  <File path="rebel_cloth_01_diff.dds.6"/>
+  <File path="rebel_cloth_01_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

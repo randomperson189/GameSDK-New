@@ -1,0 +1,14 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="eyeball" MtlFlags="2621568" Shader="Eye" GenMask="2080410000" StringGenMask="%ENVIRONMENT_MAP%NORMAL_MAP%TEMP_EYES%VERTCOLORS" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.60382748,0.60382748,0.60382748" Specular="0.033104774,0.033104774,0.033104774" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/eyes/generic_eyeball_iris_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/eyes/generic_eyeball_iris_ddn.tif"/>
+    <Texture Map="Heightmap" File="objects/characters/human/eyes/generic_eyeball_iris_displ.tif"/>
+    <Texture Map="Custom" File="objects/characters/human/eyes/generic_eyeball_cornea_ddn.tif"/>
+   </Textures>
+   <PublicParams CorneaRefraction="0.0099999998" IrisDepth="0.0049999999" IrisColor="0.68668544,0,0" IrisShadowing="5" CorneaSmoothness="1" ScleraSSS="0.40000001" IrisSSS="0.60000002"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations/human/heads/nero"/>
+		<Animation name="*" path="*/*.caf"/>
+		<Animation name="#filepath" path="Animations/cinematics/human/heads/nero"/>
+		<Animation name="*" path="*/*.caf"/>
+	</AnimationList>
+	
+	<BBoxIncludeList>
+		<Joint name="ForeheadD"/>
+		<Joint name="R_EarLower"/>
+		<Joint name="L_EarLower"/>
+		<Joint name="Spine04"/>
+	</BBoxIncludeList>
+	
+	<Lod>
+		<JointList level="1">
+			<Joint name="AdamsApple"/>
+			<Joint name="ChinSkin2"/>
+			<Joint name="FacialRoot"/>
+			<Joint name="Forehead"/>
+			<Joint name="Jaw"/>
+			<Joint name="L_CheekEyeOuterSkin2"/>
+			<Joint name="L_CheekInner"/>
+			<Joint name="L_CheekLower"/>
+			<Joint name="L_CheekOuter"/>
+			<Joint name="L_ChinSide"/>
+			<Joint name="L_Ear"/>
+			<Joint name="L_Eyeball"/>
+			<Joint name="L_EyeCornerOuter"/>
+			<Joint name="L_EyelidLower"/>
+			<Joint name="L_EyelidUpper"/>
+			<Joint name="L_EyelidUpperFurrow3"/>
+			<Joint name="L_EyesackLower3"/>
+			<Joint name="L_EyesackUpper3"/>
+			<Joint name="L_ForeheadInner"/>
+			<Joint name="L_ForeheadMid"/>
+			<Joint name="L_ForeheadOuter"/>
+			<Joint name="L_JawRecess"/>
+			<Joint name="L_LipCorner"/>
+			<Joint name="L_LipLower"/>
+			<Joint name="L_LipLowerOuter"/>
+			<Joint name="L_LipUpper"/>
+			<Joint name="L_LipUpperOuter"/>
+			<Joint name="L_Masseter"/>
+			<Joint name="L_NasolabialBulge1"/>
+			<Joint name="L_NasolabialBulge3"/>
+			<Joint name="L_NasolabialFurrowUp"/>
+			<Joint name="L_Nostril"/>
+			<Joint name="L_Temple"/>
+			<Joint name="LipLower"/>
+			<Joint name="LipUpper"/>
+			<Joint name="Neck"/>
+			<Joint name="Nose"/>
+			<Joint name="NoseBridge"/>
+			<Joint name="NoseLower"/>
+			<Joint name="R_CheekEyeOuterSkin2"/>
+			<Joint name="R_CheekInner"/>
+			<Joint name="R_CheekLower"/>
+			<Joint name="R_CheekOuter"/>
+			<Joint name="R_ChinSide"/>
+			<Joint name="R_Clavicle"/>
+			<Joint name="R_Ear"/>
+			<Joint name="R_Eyeball"/>
+			<Joint name="R_EyeCornerOuter"/>
+			<Joint name="R_EyelidLower"/>
+			<Joint name="R_EyelidUpper"/>
+			<Joint name="R_EyelidUpperFurrow3"/>
+			<Joint name="R_EyesackLower3"/>
+			<Joint name="R_EyesackUpper3"/>
+			<Joint name="R_ForeheadInner"/>
+			<Joint name="R_ForeheadMid"/>
+			<Joint name="R_ForeheadOuter"/>
+			<Joint name="R_JawRecess"/>
+			<Joint name="R_LipCorner"/>
+			<Joint name="R_LipLower"/>
+			<Joint name="R_LipLowerOuter"/>
+			<Joint name="R_LipUpper"/>
+			<Joint name="R_LipUpperOuter"/>
+			<Joint name="R_Masseter"/>
+			<Joint name="R_NasolabialBulge1"/>
+			<Joint name="R_NasolabialBulge3"/>
+			<Joint name="R_NasolabialFurrowUp"/>
+			<Joint name="R_Nostril"/>
+			<Joint name="R_Temple"/>
+			<Joint name="Skull"/>
+			<Joint name="TongueA"/>
+			<Joint name="TongueB"/>
+			<Joint name="TongueC"/>
+			<Joint name="TongueD"/>
+			<Joint name="TongueE"/>
+			<Joint name="UnderChin"/>
+			<Joint name="Spine03"/>
+			<Joint name="Spine04"/>
+			<Joint name="L_Clavicle"/>
+			<Joint name="L_UpperArm"/>
+			<Joint name="L_Forearm"/>
+			<Joint name="L_UpArmTwist1"/>
+			<Joint name="L_UpArmTwist2"/>
+			<Joint name="R_UpperArm"/>
+			<Joint name="R_Forearm"/>
+			<Joint name="R_UpArmTwist1"/>
+			<Joint name="R_UpArmTwist2"/>
+			<Joint name="Head"/>
+		</JointList>
+		<JointList level="2">
+			<Joint name="Spine03"/>
+			<Joint name="Spine04"/>
+			<Joint name="L_Clavicle"/>
+			<Joint name="L_UpperArm"/>
+			<Joint name="L_Forearm"/>
+			<Joint name="L_UpArmTwist1"/>
+			<Joint name="L_UpArmTwist2"/>
+			<Joint name="R_Clavicle"/>
+			<Joint name="R_UpperArm"/>
+			<Joint name="R_Forearm"/>
+			<Joint name="R_UpArmTwist1"/>
+			<Joint name="R_UpArmTwist2"/>
+			<Joint name="Neck"/>
+			<Joint name="Head"/>
+			<Joint name="FacialRoot"/>
+			<Joint name="Jaw"/>
+		</JointList>
+	</Lod>
+	<BBoxExtension>
+			<Axis negX="0.4" />
+			<Axis negY="0" />
+			<Axis negZ="0.4" />
+			<Axis posX="0.4" />
+			<Axis posY="0.4" />
+			<Axis posZ="0.4" />
+	</BBoxExtension>
+</Params>

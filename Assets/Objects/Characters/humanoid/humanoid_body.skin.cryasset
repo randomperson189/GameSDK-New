@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="0eb96ffe-808f-04ad-67c1-21757c518370">
+ <Files>
+  <File path="humanoid_body.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">32</Detail>
+  <Detail name="triangleCount">11325</Detail>
+  <Detail name="vertexCount">7050</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">95</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/humanoid/Humanoid_Material.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

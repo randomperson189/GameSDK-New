@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="86e518f2-9903-bc66-9ce3-c0fa8fb7e9e4">
+ <Files>
+  <File path="toad.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/animals/amphibians/toad/textures/toad_diff.dds</Path>
+  <Path usageCount="1">objects/characters/animals/amphibians/toad/textures/toad_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

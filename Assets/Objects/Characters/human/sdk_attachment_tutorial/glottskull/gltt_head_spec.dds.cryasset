@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="72d5cf34-e506-d8f1-b2a2-b55f2c0944c1">
+ <Files>
+  <File path="gltt_head_spec.dds"/>
+  <File path="gltt_head_spec.dds.1"/>
+  <File path="gltt_head_spec.dds.2"/>
+  <File path="gltt_head_spec.dds.3"/>
+  <File path="gltt_head_spec.dds.4"/>
+  <File path="gltt_head_spec.dds.5"/>
+  <File path="gltt_head_spec.dds.6"/>
+  <File path="gltt_head_spec.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

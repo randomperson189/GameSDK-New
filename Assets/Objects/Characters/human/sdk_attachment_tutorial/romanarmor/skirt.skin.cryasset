@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="f4d67248-9cbb-7bfe-1e53-e63e47068a83">
+ <Files>
+  <File path="skirt.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1352</Detail>
+  <Detail name="vertexCount">756</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">159</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Skirt.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

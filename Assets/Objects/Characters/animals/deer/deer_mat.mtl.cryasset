@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="dad3e7ab-54e8-6925-1e3d-eb1120616e22">
+ <Files>
+  <File path="deer_mat.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/characters/animals/deer/texture/deer_dif.dds</Path>
+  <Path usageCount="2">objects/characters/animals/deer/texture/deer_spec.dds</Path>
+  <Path usageCount="2">objects/characters/animals/deer/texture/deer_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

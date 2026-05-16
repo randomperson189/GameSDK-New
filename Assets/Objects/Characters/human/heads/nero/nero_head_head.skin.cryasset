@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="7d79cf85-387c-5c34-3e20-bc831d1aea2d">
+ <Files>
+  <File path="nero_head_head.skin"/>
+  <File path="nero_head_head_lod1.skin"/>
+  <File path="nero_head_head_lod2.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">10276</Detail>
+  <Detail name="vertexCount">5516</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">515</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mat_nero_head.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

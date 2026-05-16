@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Texture" guid="dbd56d59-3343-aaf5-94d8-f1ba4fab3a7f">
+ <Files>
+  <File path="head_a_turtleneck_diff.dds"/>
+  <File path="head_a_turtleneck_diff.dds.1"/>
+  <File path="head_a_turtleneck_diff.dds.2"/>
+  <File path="head_a_turtleneck_diff.dds.3"/>
+  <File path="head_a_turtleneck_diff.dds.4"/>
+  <File path="head_a_turtleneck_diff.dds.5"/>
+  <File path="head_a_turtleneck_diff.dds.6"/>
+  <File path="head_a_turtleneck_diff.dds.7"/>
+  <File path="head_a_turtleneck_diff.dds.8"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

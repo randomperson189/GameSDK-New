@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="8de51a69-83cb-8f92-d2c7-35d261b20d10">
+ <Files>
+  <File path="tropical_fish01.dds"/>
+  <File path="tropical_fish01.dds.1"/>
+  <File path="tropical_fish01.dds.2"/>
+  <File path="tropical_fish01.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

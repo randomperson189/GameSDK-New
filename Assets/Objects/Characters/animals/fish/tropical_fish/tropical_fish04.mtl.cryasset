@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="1e185d5f-0614-5e7d-7152-9f5ef390e20b">
+ <Files>
+  <File path="tropical_fish04.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/animals/fish/tropical_fish/textures/tropical_fish04.dds</Path>
+ </Dependencies>
+</AssetMetadata>

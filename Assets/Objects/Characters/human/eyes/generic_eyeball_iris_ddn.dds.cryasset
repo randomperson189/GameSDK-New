@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="36121543-47db-0604-3a4e-89e035a600f1">
+ <Files>
+  <File path="generic_eyeball_iris_ddn.dds"/>
+  <File path="generic_eyeball_iris_ddn.dds.1"/>
+  <File path="generic_eyeball_iris_ddn.dds.2"/>
+  <File path="generic_eyeball_iris_ddn.dds.3"/>
+  <File path="generic_eyeball_iris_ddn.dds.4"/>
+  <File path="generic_eyeball_iris_ddn.dds.5"/>
+  <File path="generic_eyeball_iris_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

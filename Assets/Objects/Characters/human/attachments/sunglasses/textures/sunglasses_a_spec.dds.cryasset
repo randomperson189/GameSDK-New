@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="a47c0253-741c-d92c-180a-660d8692cd27">
+ <Files>
+  <File path="sunglasses_a_spec.dds"/>
+  <File path="sunglasses_a_spec.dds.1"/>
+  <File path="sunglasses_a_spec.dds.2"/>
+  <File path="sunglasses_a_spec.dds.3"/>
+  <File path="sunglasses_a_spec.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

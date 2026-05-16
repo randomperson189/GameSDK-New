@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="2aa278b4-f027-c952-37ec-65bae6d829ad">
+ <Files>
+  <File path="psycho_face_wrinkle_displ.dds"/>
+  <File path="psycho_face_wrinkle_displ.dds.1"/>
+  <File path="psycho_face_wrinkle_displ.dds.2"/>
+  <File path="psycho_face_wrinkle_displ.dds.3"/>
+  <File path="psycho_face_wrinkle_displ.dds.4"/>
+  <File path="psycho_face_wrinkle_displ.dds.5"/>
+  <File path="psycho_face_wrinkle_displ.dds.6"/>
+  <File path="psycho_face_wrinkle_displ.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

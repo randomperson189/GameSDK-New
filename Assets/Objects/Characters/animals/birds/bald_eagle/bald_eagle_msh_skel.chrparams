@@ -1,0 +1,12 @@
+<Params>
+ <AnimationList>
+  <Animation name="#filepath" path="Objects/characters/animals/birds/bald_eagle/anims"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*/*.bspace"/>
+  <Animation name="*" path="*/*.comb"/>
+  <Animation name="#filepath" path="Animations/animals/birds/bald_eagle"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*/*.bspace"/>
+  <Animation name="*" path="*/*.comb"/>
+ </AnimationList>
+</Params>

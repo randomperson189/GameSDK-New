@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d3cfe682-54c3-f849-c7e2-b9985b98aa8a">
+ <Files>
+  <File path="helmet_spec.dds"/>
+  <File path="helmet_spec.dds.1"/>
+  <File path="helmet_spec.dds.2"/>
+  <File path="helmet_spec.dds.3"/>
+  <File path="helmet_spec.dds.4"/>
+  <File path="helmet_spec.dds.5"/>
+  <File path="helmet_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

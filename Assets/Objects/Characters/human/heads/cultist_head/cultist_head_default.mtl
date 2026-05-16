@@ -1,0 +1,44 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="Head" MtlFlags="524416" Shader="Humanskin" GenMask="110400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%TEMP_SKIN" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.036889456,0.036889456,0.036889456" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./textures/cultist_head_diff.tif"/>
+    <Texture Map="Bumpmap" File="./textures/cultist_head_ddna.tif"/>
+    <Texture Map="Specular" File="./textures/cultist_head_spec.tif"/>
+    <Texture Map="Opacity" File="./textures/cultist_head_sss.tif"/>
+   </Textures>
+   <PublicParams Melanin="0" SSSIndex="1.2" TranslucencyMultiplier="1"/>
+  </Material>
+  <Material Name="Eyelashes" MtlFlags="2623616" Shader="Hair" GenMask="800100008" StringGenMask="%ANISO_SPECULAR%HAIR_PASS%THIN_HAIR" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.025186861,0.025186861,0.025186861" Opacity="0.99000001" Shininess="255" AlphaTest="0.55000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./textures/cultist_head_eyebrows_diff.tif"/>
+   </Textures>
+   <PublicParams SecondaryHighlightShiftAmount="0.1" SoftIntersection="0" ShiftVariation="0" DiffuseWrap="0.5" SecondaryHighlightColor="0.69999999,0.69999999,0.69999999" SecondaryHighlightWidth="1.5" ThinHairThreshold="0.066" AlphaBlendMultiplier="1"/>
+  </Material>
+  <Material Name="Teeth" MtlFlags="524416" Shader="Illum" GenMask="30400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./textures/teeth_diff.tif"/>
+    <Texture Map="Bumpmap" File="./textures/teeth_ddna.tif"/>
+    <Texture Map="Specular" File="./textures/teeth_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+  <Material Name="Eye" MtlFlags="2621568" Shader="Eye" GenMask="2080410000" StringGenMask="%ENVIRONMENT_MAP%NORMAL_MAP%TEMP_EYES%VERTCOLORS" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.33716366,0.33716366,0.33716366" Specular="0.051269464,0.051269464,0.051269464" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/eyes/generic_eyeball_iris_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/eyes/generic_eyeball_iris_ddn.tif"/>
+    <Texture Map="Heightmap" File="objects/characters/human/eyes/generic_eyeball_iris_displ.tif"/>
+    <Texture Map="Custom" File="objects/characters/human/eyes/generic_eyeball_cornea_ddn.tif"/>
+   </Textures>
+   <PublicParams CorneaRefraction="0.0099999998" IrisDepth="0.0049999999" IrisColor="0.64447981,0.64447981,0.64447981" IrisShadowing="5" CorneaSmoothness="1" ScleraSSS="0.40000001" IrisSSS="0.60000002"/>
+  </Material>
+  <Material Name="eye overlay" MtlFlags="524416" Shader="Illum" GenMask="30000000" StringGenMask="%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="./textures/cultist_head_eyeoverlay_diff.tif"/>
+    <Texture Map="Specular" File="./textures/cultist_head_eyeoverlay_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Character" guid="381c773e-ee7c-62d7-4981-4654982fed24">
+ <Files>
+  <File path="sdk_player_red.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/human/generic/skeleton_player_generic.chr</Path>
+  <Path>objects/characters/human/generic/skeleton_male_generic</Path>
+  <Path>objects/characters/human/sdk_player/shoes.skin</Path>
+  <Path>objects/characters/human/sdk_player/jeans.skin</Path>
+  <Path>objects/characters/human/sdk_player/arm_hands.skin</Path>
+  <Path>objects/characters/human/sdk_player/head_a.skin</Path>
+  <Path>Objects/characters/human/sdk_player/head_a</Path>
+  <Path>objects/characters/human/sdk_player/jacket.skin</Path>
+  <Path>Objects/characters/human/sdk_player/sdk_player_red</Path>
+ </Dependencies>
+</AssetMetadata>

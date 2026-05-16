@@ -1,0 +1,36 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="body_01" MtlFlags="524416" Shader="Illum" GenMask="C1000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_cloth_01_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_cloth_01_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_cloth_01_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="body_02" MtlFlags="524416" Shader="Illum" GenMask="C1000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_cloth_02_diff.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_cloth_02_ddna.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_cloth_02_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="head" MtlFlags="524416" Shader="Humanskin" GenMask="1001000000" StringGenMask="%NORMAL_MAP%TEMP_SKIN" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.035601322,0.035601322,0.035601322" Emissive="0,0,0" Opacity="1" Shininess="255" HeatAmountScaled="38" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_head_01_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_head_01_ddna.tif"/>
+    <Texture Map="Decal" File="objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_head_mask_01.tif"/>
+   </Textures>
+   <PublicParams Melanin="0" SSSIndex="1.2" TranslucencyMultiplier="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="eyes" MtlFlags="2621568" Shader="Illum" GenMask="2081000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.035601322,0.035601322,0.035601322" Emissive="0,0,0" Opacity="1" Shininess="255" HeatAmountScaled="38" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_head_01_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/sdk_attachment_tutorial/rebels/textures/rebel_head_01_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="1.2" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Character" guid="2732abd6-9621-1df0-7872-762a2fe14a2f">
+ <Files>
+  <File path="toad.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/animals/amphibians/toad/toad_skel.chr</Path>
+  <Path>objects/characters/animals/amphibians/toad/toad</Path>
+  <Path>objects/characters/animals/amphibians/toad/toad.skin</Path>
+ </Dependencies>
+</AssetMetadata>

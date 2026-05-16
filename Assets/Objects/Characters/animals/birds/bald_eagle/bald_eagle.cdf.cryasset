@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Character" guid="b5e134fd-77a2-831a-b662-9b0984f3e9d6">
+ <Files>
+  <File path="bald_eagle.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/characters/animals/birds/bald_eagle/bald_eagle_MSH_skel.chr</Path>
+  <Path>Objects/characters/animals/birds/bald_eagle/bald_eagle_MSH.skin</Path>
+  <Path>Objects/characters/animals/birds/bald_eagle/eagle.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

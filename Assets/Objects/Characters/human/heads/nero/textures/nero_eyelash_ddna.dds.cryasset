@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="c92fe5b8-02ab-d886-9c8d-b45d32ab95be">
+ <Files>
+  <File path="nero_eyelash_ddna.dds"/>
+  <File path="nero_eyelash_ddna.dds.a"/>
+  <File path="nero_eyelash_ddna.dds.1"/>
+  <File path="nero_eyelash_ddna.dds.1a"/>
+  <File path="nero_eyelash_ddna.dds.2"/>
+  <File path="nero_eyelash_ddna.dds.2a"/>
+  <File path="nero_eyelash_ddna.dds.3"/>
+  <File path="nero_eyelash_ddna.dds.3a"/>
+  <File path="nero_eyelash_ddna.dds.4"/>
+  <File path="nero_eyelash_ddna.dds.4a"/>
+  <File path="nero_eyelash_ddna.dds.5"/>
+  <File path="nero_eyelash_ddna.dds.5a"/>
+  <File path="nero_eyelash_ddna.dds.6"/>
+  <File path="nero_eyelash_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

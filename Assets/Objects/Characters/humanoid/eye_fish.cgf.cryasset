@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="f9c895d2-d33e-15e3-8f74-04b86566e45c">
+ <Files>
+  <File path="eye_fish.cgf"/>
+  <File path="eye_fish_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">243</Detail>
+  <Detail name="vertexCount">135</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/Characters/Humanoid/Eye_Fish.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

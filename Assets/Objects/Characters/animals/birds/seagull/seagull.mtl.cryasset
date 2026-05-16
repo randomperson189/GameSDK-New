@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="20eaa8dc-4580-4bd3-7b07-7e56e9404965">
+ <Files>
+  <File path="seagull.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/characters/animals/birds/seagull/textures/seagull_diff.dds</Path>
+  <Path usageCount="1">objects/characters/animals/birds/seagull/textures/seagull_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

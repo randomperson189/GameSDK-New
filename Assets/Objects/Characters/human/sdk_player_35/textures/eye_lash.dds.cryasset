@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="fece914d-ed9d-0917-4f95-39e4d575cfd3">
+ <Files>
+  <File path="eye_lash.dds"/>
+  <File path="eye_lash.dds.1"/>
+  <File path="eye_lash.dds.2"/>
+  <File path="eye_lash.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

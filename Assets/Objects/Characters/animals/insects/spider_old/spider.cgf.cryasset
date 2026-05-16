@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="7df91309-e69f-c419-a917-2c72a8322c0b">
+ <Files>
+  <File path="spider.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">7</Detail>
+  <Detail name="vertexCount">8</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Spider.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

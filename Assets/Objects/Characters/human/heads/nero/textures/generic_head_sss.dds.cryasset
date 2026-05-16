@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="0bd8206c-a919-9a13-ce61-3fa51ced5d25">
+ <Files>
+  <File path="generic_head_sss.dds"/>
+  <File path="generic_head_sss.dds.1"/>
+  <File path="generic_head_sss.dds.2"/>
+  <File path="generic_head_sss.dds.3"/>
+  <File path="generic_head_sss.dds.4"/>
+  <File path="generic_head_sss.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

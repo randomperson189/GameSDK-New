@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="f7897a52-e9c4-0418-c39b-26d99dda13ed">
+ <Files>
+  <File path="nero_hair_plate_spec.dds"/>
+  <File path="nero_hair_plate_spec.dds.1"/>
+  <File path="nero_hair_plate_spec.dds.2"/>
+  <File path="nero_hair_plate_spec.dds.3"/>
+  <File path="nero_hair_plate_spec.dds.4"/>
+  <File path="nero_hair_plate_spec.dds.5"/>
+  <File path="nero_hair_plate_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

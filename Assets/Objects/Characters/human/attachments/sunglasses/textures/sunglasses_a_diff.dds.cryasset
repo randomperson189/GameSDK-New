@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="66547d78-fedb-3d3a-38ae-341b91ea6b3f">
+ <Files>
+  <File path="sunglasses_a_diff.dds"/>
+  <File path="sunglasses_a_diff.dds.1"/>
+  <File path="sunglasses_a_diff.dds.2"/>
+  <File path="sunglasses_a_diff.dds.3"/>
+  <File path="sunglasses_a_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

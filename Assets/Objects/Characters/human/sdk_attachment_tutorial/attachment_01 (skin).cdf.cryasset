@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Character" guid="e1b57875-dff2-1855-6378-3f97c04ae519">
+ <Files>
+  <File path="attachment_01 (skin).cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/human/generic/skeleton_player_generic.chr</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/rebels/bodymesh.skin</Path>
+ </Dependencies>
+</AssetMetadata>

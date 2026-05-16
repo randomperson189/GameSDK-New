@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations/animals/birds/crow"/>
+		<Animation name="fly_loop" path="crow_fly.caf"/>
+		<Animation name="walk_loop" path="crow_walk.caf"/>
+		<Animation name="idle_loop" path="crow_idle.caf"/>
+		<Animation name="take_off" path="crow_takeoff.caf"/>
+	</AnimationList>
+</Params>

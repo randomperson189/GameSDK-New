@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="53cab88b-d585-6b9e-994d-7ef66be8d9a0">
+ <Files>
+  <File path="squirrel.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/animals/squirrel/squirrel_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

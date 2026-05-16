@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="0c9f4993-eca3-d92a-0e2a-b1089c197088">
+ <Files>
+  <File path="helmet_a_face_mask_ddn.dds"/>
+  <File path="helmet_a_face_mask_ddn.dds.1"/>
+  <File path="helmet_a_face_mask_ddn.dds.2"/>
+  <File path="helmet_a_face_mask_ddn.dds.3"/>
+  <File path="helmet_a_face_mask_ddn.dds.4"/>
+  <File path="helmet_a_face_mask_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

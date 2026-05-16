@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="e92d92a1-4e8b-e78d-81cd-83aae36453c4">
+ <Files>
+  <File path="cultist_teeth.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">894</Detail>
+  <Detail name="vertexCount">589</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cultist_teeth.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

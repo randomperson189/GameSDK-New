@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="1e4a19d1-f1bd-622f-ec54-56aa0ab6c907">
+ <Files>
+  <File path="trout_b.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">104</Detail>
+  <Detail name="vertexCount">84</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./trout.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

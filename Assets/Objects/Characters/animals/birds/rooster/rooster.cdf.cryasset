@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Character" guid="eb5fab66-7f45-c3b7-0fad-1b7808e7f85e">
+ <Files>
+  <File path="rooster.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/animals/birds/rooster/rooster_skel.chr</Path>
+  <Path>objects/characters/animals/birds/rooster/Rooster</Path>
+  <Path>objects/characters/animals/birds/rooster/rooster.skin</Path>
+ </Dependencies>
+</AssetMetadata>

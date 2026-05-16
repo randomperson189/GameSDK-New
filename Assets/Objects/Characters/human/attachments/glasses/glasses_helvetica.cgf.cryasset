@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Mesh" guid="da26fe24-29b6-7375-7384-3b5f3a3d6ada">
+ <Files>
+  <File path="glasses_helvetica.cgf"/>
+  <File path="glasses_helvetica_lod1.cgf"/>
+  <File path="glasses_helvetica_lod2.cgf"/>
+  <File path="glasses_helvetica_lod3.cgf"/>
+  <File path="glasses_helvetica_lod4.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1612</Detail>
+  <Detail name="vertexCount">1585</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/characters/human/attachments/glasses/glasses_helvetica.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="4cebf06d-394a-4952-25f6-d29b50aef505">
+ <Files>
+  <File path="armor.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/leatherbelt_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/leatherbelt_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/leatherbelt_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/armour_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/armour_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/armour_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

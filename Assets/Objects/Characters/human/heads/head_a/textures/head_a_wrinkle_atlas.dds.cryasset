@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="afd87da6-a4da-20d1-caff-031389abb869">
+ <Files>
+  <File path="head_a_wrinkle_atlas.dds"/>
+  <File path="head_a_wrinkle_atlas.dds.1"/>
+  <File path="head_a_wrinkle_atlas.dds.2"/>
+  <File path="head_a_wrinkle_atlas.dds.3"/>
+  <File path="head_a_wrinkle_atlas.dds.4"/>
+  <File path="head_a_wrinkle_atlas.dds.5"/>
+  <File path="head_a_wrinkle_atlas.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

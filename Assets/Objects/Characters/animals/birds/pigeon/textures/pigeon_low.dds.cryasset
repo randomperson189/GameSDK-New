@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="97b43b2c-5787-e27b-b6a1-bac7130a8523">
+ <Files>
+  <File path="pigeon_low.dds"/>
+  <File path="pigeon_low.dds.1"/>
+  <File path="pigeon_low.dds.2"/>
+  <File path="pigeon_low.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="417fe5f8-a034-c541-5d40-16de10e76456">
+ <Files>
+  <File path="pumpkin.cgf"/>
+  <File path="pumpkin_lod1.cgf"/>
+  <File path="pumpkin_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">6783</Detail>
+  <Detail name="vertexCount">4306</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./pumpkin.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

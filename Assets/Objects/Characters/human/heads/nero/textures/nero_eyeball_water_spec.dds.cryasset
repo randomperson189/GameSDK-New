@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="3d03fecb-d631-3b84-a6e9-d371e4da0533">
+ <Files>
+  <File path="nero_eyeball_water_spec.dds"/>
+  <File path="nero_eyeball_water_spec.dds.1"/>
+  <File path="nero_eyeball_water_spec.dds.2"/>
+  <File path="nero_eyeball_water_spec.dds.3"/>
+  <File path="nero_eyeball_water_spec.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

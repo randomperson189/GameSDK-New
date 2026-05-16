@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="9f6f99b9-2571-ae06-766a-2794ff1d2864">
+ <Files>
+  <File path="bat_diff.dds"/>
+  <File path="bat_diff.dds.1"/>
+  <File path="bat_diff.dds.2"/>
+  <File path="bat_diff.dds.3"/>
+  <File path="bat_diff.dds.4"/>
+  <File path="bat_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

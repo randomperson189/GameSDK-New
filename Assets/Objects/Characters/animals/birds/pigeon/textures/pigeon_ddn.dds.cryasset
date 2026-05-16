@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="8039bcf5-41f7-bfea-df67-7046aab7edac">
+ <Files>
+  <File path="pigeon_ddn.dds"/>
+  <File path="pigeon_ddn.dds.1"/>
+  <File path="pigeon_ddn.dds.2"/>
+  <File path="pigeon_ddn.dds.3"/>
+  <File path="pigeon_ddn.dds.4"/>
+  <File path="pigeon_ddn.dds.5"/>
+  <File path="pigeon_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="16e27b36-e7fd-3e67-a8b9-cb9dd94bad13">
+ <Files>
+  <File path="nero_teeth_diff.dds"/>
+  <File path="nero_teeth_diff.dds.1"/>
+  <File path="nero_teeth_diff.dds.2"/>
+  <File path="nero_teeth_diff.dds.3"/>
+  <File path="nero_teeth_diff.dds.4"/>
+  <File path="nero_teeth_diff.dds.5"/>
+  <File path="nero_teeth_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

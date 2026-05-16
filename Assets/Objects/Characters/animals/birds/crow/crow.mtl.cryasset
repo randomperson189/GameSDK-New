@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="b296542d-6374-fffa-10fc-27960a6c4b66">
+ <Files>
+  <File path="crow.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/animals/birds/crow/crow_diff.dds</Path>
+  <Path usageCount="1">objects/characters/animals/birds/crow/crow_spec.dds</Path>
+  <Path usageCount="1">objects/characters/animals/birds/crow/crow_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

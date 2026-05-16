@@ -1,0 +1,30 @@
+<AssetMetadata version="0" type="Character" guid="13e0a2b4-1ad9-c753-09f1-9904e044b8bb">
+ <Files>
+  <File path="head.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/characters/human/face/head_base.chr</Path>
+  <Path>Objects/characters/human/face/mat_head_a.mtl</Path>
+  <Path>Objects/characters/human/face/head_eyelashesLower.skin</Path>
+  <Path>Objects/characters/human/face/mat_head_a.mtl</Path>
+  <Path>Objects/characters/human/face/head_eyelashesUpper.skin</Path>
+  <Path>Objects/characters/human/face/mat_head_a.mtl</Path>
+  <Path>Objects/characters/human/face/head_eyeoverlay.skin</Path>
+  <Path>Objects/characters/human/face/mat_head_a.mtl</Path>
+  <Path>Objects/characters/human/face/head_eyes.skin</Path>
+  <Path>Objects/characters/human/face/mat_head_a.mtl</Path>
+  <Path>Objects/characters/human/face/head_eyewater.skin</Path>
+  <Path>Objects/characters/human/face/mat_head_a.mtl</Path>
+  <Path>Objects/characters/human/face/head.skin</Path>
+  <Path>Objects/characters/human/face/mat_head_a.mtl</Path>
+  <Path>Objects/characters/human/face/head_tearduct.skin</Path>
+  <Path>Objects/characters/human/face/mat_head_a.mtl</Path>
+  <Path>Objects/characters/human/face/head_teeth.skin</Path>
+  <Path>Objects/characters/human/face/mat_head_a.mtl</Path>
+  <Path>Objects/characters/human/face/head_tongue.skin</Path>
+  <Path>Objects/characters/human/face/mat_head_a.mtl</Path>
+  <Path>Objects/characters/human/face/head_haircap.skin</Path>
+  <Path>Objects/characters/human/face/mat_head_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

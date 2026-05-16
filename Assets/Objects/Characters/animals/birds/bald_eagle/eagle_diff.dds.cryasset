@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="40036920-461b-81b3-3312-47e5d1a5345f">
+ <Files>
+  <File path="eagle_diff.dds"/>
+  <File path="eagle_diff.dds.1"/>
+  <File path="eagle_diff.dds.2"/>
+  <File path="eagle_diff.dds.3"/>
+  <File path="eagle_diff.dds.4"/>
+  <File path="eagle_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="6c3cbf16-08f1-cdc6-6350-bee363fc8253">
+ <Files>
+  <File path="eye_ddn.dds"/>
+  <File path="eye_ddn.dds.1"/>
+  <File path="eye_ddn.dds.2"/>
+  <File path="eye_ddn.dds.3"/>
+  <File path="eye_ddn.dds.4"/>
+  <File path="eye_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

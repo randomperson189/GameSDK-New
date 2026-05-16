@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="bbe4eaa7-1c9e-134c-8396-ffdcffe4916d">
+ <Files>
+  <File path="beanie_diff.dds"/>
+  <File path="beanie_diff.dds.1"/>
+  <File path="beanie_diff.dds.2"/>
+  <File path="beanie_diff.dds.3"/>
+  <File path="beanie_diff.dds.4"/>
+  <File path="beanie_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

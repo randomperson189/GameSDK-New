@@ -1,0 +1,9 @@
+<AssetMetadata version="0" type="Material" guid="779fe611-20a2-a3a4-054b-97b4af2c9a4a">
+ <Files>
+  <File path="skeleton_male_generic.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">0</Detail>
+ </Details>
+</AssetMetadata>

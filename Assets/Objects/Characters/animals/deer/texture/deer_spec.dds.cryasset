@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="b71356aa-d770-2602-ea7f-95de5b0e253d">
+ <Files>
+  <File path="deer_spec.dds"/>
+  <File path="deer_spec.dds.1"/>
+  <File path="deer_spec.dds.2"/>
+  <File path="deer_spec.dds.3"/>
+  <File path="deer_spec.dds.4"/>
+  <File path="deer_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

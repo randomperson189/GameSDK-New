@@ -1,0 +1,9 @@
+<AssetMetadata version="0" type="Character" guid="b635a2a3-8e03-17f8-dd0a-ae0494b8be44">
+ <Files>
+  <File path="attachment_00 (empty).cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/human/generic/skeleton_player_generic.chr</Path>
+ </Dependencies>
+</AssetMetadata>

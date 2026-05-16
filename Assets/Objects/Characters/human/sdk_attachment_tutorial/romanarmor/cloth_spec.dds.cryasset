@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="08afbaac-b888-6abd-3f4d-0778db5ca783">
+ <Files>
+  <File path="cloth_spec.dds"/>
+  <File path="cloth_spec.dds.1"/>
+  <File path="cloth_spec.dds.2"/>
+  <File path="cloth_spec.dds.3"/>
+  <File path="cloth_spec.dds.4"/>
+  <File path="cloth_spec.dds.5"/>
+  <File path="cloth_spec.dds.6"/>
+  <File path="cloth_spec.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

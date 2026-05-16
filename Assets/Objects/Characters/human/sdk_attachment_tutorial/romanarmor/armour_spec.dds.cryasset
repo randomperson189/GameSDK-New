@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="ab423c9b-bdfe-4765-7c11-932fa4df402e">
+ <Files>
+  <File path="armour_spec.dds"/>
+  <File path="armour_spec.dds.1"/>
+  <File path="armour_spec.dds.2"/>
+  <File path="armour_spec.dds.3"/>
+  <File path="armour_spec.dds.4"/>
+  <File path="armour_spec.dds.5"/>
+  <File path="armour_spec.dds.6"/>
+  <File path="armour_spec.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

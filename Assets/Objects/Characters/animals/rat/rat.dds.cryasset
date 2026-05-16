@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="911daf48-126c-0680-44cc-da55e03482db">
+ <Files>
+  <File path="rat.dds"/>
+  <File path="rat.dds.1"/>
+  <File path="rat.dds.2"/>
+  <File path="rat.dds.3"/>
+  <File path="rat.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

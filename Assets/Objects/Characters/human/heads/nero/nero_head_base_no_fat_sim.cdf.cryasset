@@ -1,0 +1,32 @@
+<AssetMetadata version="0" type="Character" guid="900c4282-4dcb-c2e0-47f3-c1ec3d7baeaf">
+ <Files>
+  <File path="nero_head_base_no_fat_sim.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/human/heads/nero/nero_head_base.chr</Path>
+  <Path>Objects/characters/human/heads/nero/mat_nero_head</Path>
+  <Path>objects/characters/human/heads/nero/nero_head_eyebrows.skin</Path>
+  <Path>Objects/characters/human/heads/nero/mat_nero_head</Path>
+  <Path>objects/characters/human/heads/nero/nero_head_eyelasheslower.skin</Path>
+  <Path>Objects/characters/human/heads/nero/mat_nero_head</Path>
+  <Path>objects/characters/human/heads/nero/nero_head_eyelashesupper.skin</Path>
+  <Path>Objects/characters/human/heads/nero/mat_nero_head</Path>
+  <Path>objects/characters/human/heads/nero/nero_head_eyeoverlay.skin</Path>
+  <Path>Objects/characters/human/heads/nero/mat_nero_head</Path>
+  <Path>objects/characters/human/heads/nero/nero_head_eyes.skin</Path>
+  <Path>Objects/characters/human/heads/nero/mat_nero_head</Path>
+  <Path>objects/characters/human/heads/nero/nero_head_eyewater.skin</Path>
+  <Path>Objects/characters/human/heads/nero/mat_nero_head</Path>
+  <Path>objects/characters/human/heads/nero/nero_head_head.skin</Path>
+  <Path>Objects/characters/human/heads/nero/mat_nero_head</Path>
+  <Path>objects/characters/human/heads/nero/nero_head_tearduct.skin</Path>
+  <Path>Objects/characters/human/heads/nero/mat_nero_head</Path>
+  <Path>objects/characters/human/heads/nero/nero_head_teeth.skin</Path>
+  <Path>Objects/characters/human/heads/nero/mat_nero_head</Path>
+  <Path>objects/characters/human/heads/nero/nero_head_tongue.skin</Path>
+  <Path>Objects/characters/human/heads/nero/mat_nero_head</Path>
+  <Path>objects/characters/human/heads/nero/nero_head_hair.skin</Path>
+  <Path>Objects/characters/human/heads/nero/mat_nero_head</Path>
+ </Dependencies>
+</AssetMetadata>

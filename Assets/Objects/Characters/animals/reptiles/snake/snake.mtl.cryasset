@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="ac3c2086-2a4a-f753-b1bd-70c357f18cd0">
+ <Files>
+  <File path="snake.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">Objects/characters/animals/snake/snake_diff.dds</Path>
+  <Path usageCount="2">Objects/characters/animals/snake/snake_spec.dds</Path>
+  <Path usageCount="1">objects/characters/animals/snake/snake_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

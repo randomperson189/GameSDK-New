@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Character" guid="7eccd9db-d207-07a0-1c3d-56dbc120b67c">
+ <Files>
+  <File path="bat.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/animals/bat/bat.chr</Path>
+  <Path>Objects/characters/animals/bat/bat</Path>
+  <Path>Objects/characters/animals/bat/batBody.skin</Path>
+  <Path>Objects/characters/animals/bat/bat</Path>
+ </Dependencies>
+</AssetMetadata>

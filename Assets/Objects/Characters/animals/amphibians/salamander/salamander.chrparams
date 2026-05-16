@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations/animals/salamander"/>
+		<Animation name="walk_loop" path="salamander_walk.caf"/>
+		<Animation name="idle01_loop" path="salamander_idle.caf"/>
+	</AnimationList>
+</Params>

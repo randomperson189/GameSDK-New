@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="2ed16aaf-587d-f9b0-cd36-865f6cee5724">
+ <Files>
+  <File path="helmet.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">7</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/helmet_plume_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/helmet_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/helmet_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/romanarmor/helmet_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

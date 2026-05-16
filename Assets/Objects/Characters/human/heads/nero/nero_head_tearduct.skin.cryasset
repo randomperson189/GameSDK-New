@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="d318b3b0-7b63-c9f2-9a8b-ac54ee101f25">
+ <Files>
+  <File path="nero_head_tearduct.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">232</Detail>
+  <Detail name="vertexCount">146</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">515</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mat_nero_head.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

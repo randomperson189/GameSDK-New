@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="5c66cfd1-2d09-2615-5b74-2e8f255febf0">
+ <Files>
+  <File path="cultist_head_eyebrows_ddna.dds"/>
+  <File path="cultist_head_eyebrows_ddna.dds.a"/>
+  <File path="cultist_head_eyebrows_ddna.dds.1"/>
+  <File path="cultist_head_eyebrows_ddna.dds.1a"/>
+  <File path="cultist_head_eyebrows_ddna.dds.2"/>
+  <File path="cultist_head_eyebrows_ddna.dds.2a"/>
+  <File path="cultist_head_eyebrows_ddna.dds.3"/>
+  <File path="cultist_head_eyebrows_ddna.dds.3a"/>
+  <File path="cultist_head_eyebrows_ddna.dds.4"/>
+  <File path="cultist_head_eyebrows_ddna.dds.4a"/>
+  <File path="cultist_head_eyebrows_ddna.dds.5"/>
+  <File path="cultist_head_eyebrows_ddna.dds.5a"/>
+  <File path="cultist_head_eyebrows_ddna.dds.6"/>
+  <File path="cultist_head_eyebrows_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

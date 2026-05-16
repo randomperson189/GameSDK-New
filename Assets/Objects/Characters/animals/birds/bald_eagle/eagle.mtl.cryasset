@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="29a7479b-edac-2e7b-99e3-be107a2a2ae8">
+ <Files>
+  <File path="eagle.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/characters/animals/birds/bald_eagle/eagle_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

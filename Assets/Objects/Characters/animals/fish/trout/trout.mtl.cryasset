@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="ca3cee97-a78d-dc8d-6a72-7785a5a9642e">
+ <Files>
+  <File path="trout.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/animals/fish/trout/trout_diff.dds</Path>
+  <Path usageCount="1">objects/characters/animals/fish/trout/trout_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

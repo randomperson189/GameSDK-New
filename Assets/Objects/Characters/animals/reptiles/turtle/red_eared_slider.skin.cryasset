@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="13e9a84a-61bf-91bf-552a-34eb7eef4e80">
+ <Files>
+  <File path="red_eared_slider.skin"/>
+  <File path="red_eared_slider_lod1.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1774</Detail>
+  <Detail name="vertexCount">1218</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">16</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./red_eared_turtle.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

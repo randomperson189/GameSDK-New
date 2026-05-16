@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="85fb6702-bfa3-057d-7515-91015e90cc8e">
+ <Files>
+  <File path="psycho_hair.dds"/>
+  <File path="psycho_hair.dds.1"/>
+  <File path="psycho_hair.dds.2"/>
+  <File path="psycho_hair.dds.3"/>
+  <File path="psycho_hair.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

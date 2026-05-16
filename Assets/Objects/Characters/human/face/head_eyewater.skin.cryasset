@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="71b3c547-5da1-3bee-b7fd-faecf4275d5c">
+ <Files>
+  <File path="head_eyewater.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">448</Detail>
+  <Detail name="vertexCount">300</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">102</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./face.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

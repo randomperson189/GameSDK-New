@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="7076bed2-7ccd-7273-8476-e61a66c0dc15">
+ <Files>
+  <File path="eye_fish.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/humanoid/textures/eyeball.dds</Path>
+ </Dependencies>
+</AssetMetadata>

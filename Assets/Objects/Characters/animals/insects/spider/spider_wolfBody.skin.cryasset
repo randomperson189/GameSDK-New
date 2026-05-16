@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="5adb7867-3c13-d20e-54b1-e9b18776823c">
+ <Files>
+  <File path="spider_wolfBody.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">798</Detail>
+  <Detail name="vertexCount">576</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">26</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./spiderWolf.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

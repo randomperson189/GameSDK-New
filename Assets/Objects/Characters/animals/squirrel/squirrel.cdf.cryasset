@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Character" guid="1426a9f0-0413-ca02-a07e-1980930f1ddd">
+ <Files>
+  <File path="squirrel.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/characters/animals/squirrel/squirrel.chr</Path>
+  <Path>Objects/characters/animals/squirrel/squirrel</Path>
+  <Path>Objects/characters/animals/squirrel/squirrelBody.skin</Path>
+  <Path>Objects/characters/animals/squirrel/squirrel</Path>
+ </Dependencies>
+</AssetMetadata>

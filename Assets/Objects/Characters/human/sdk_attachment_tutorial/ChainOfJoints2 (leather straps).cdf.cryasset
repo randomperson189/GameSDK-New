@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Character" guid="9b419eff-dd9b-1313-1785-f6f5a8fce543">
+ <Files>
+  <File path="ChainOfJoints2 (leather straps).cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/human/generic/skeleton_player_generic.chr</Path>
+  <Path>objects/weapons/attachments/sniper/sniper_scope_a_tp.cgf</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/rebels/bodymesh.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/glottskull/glottskullsimple.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/leatherbelt.skin</Path>
+  <Path>objects/weapons/rifle/rifle_tp.cgf</Path>
+  <Path>objects/weapons/attachments/sniper/sniper_scope_a_tp.cgf</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,23 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="base" MtlFlags="524416" Shader="Illum" GenMask="C0000080" StringGenMask="%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/attachments/sunglasses/textures/sunglasses_a_diff.tif" Filter="5"/>
+    <Texture Map="Specular" File="objects/characters/human/attachments/sunglasses/textures/sunglasses_a_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/attachments/sunglasses/textures/sunglasses_a_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="google" MtlFlags="524418" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_glass" MatTemplate="" Diffuse="1,1,1" Specular="0.66538745,0.36625263,0.18447502" Emissive="0,0,0" Shininess="255" Opacity="0.75" HeatAmountScaled="13" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/attachments/sunglasses/textures/sunglasses_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/attachments/sunglasses/textures/sunglasses_a_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_glass" MatTemplate="" Diffuse="0.63759702,0.19461785,0.078187428" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

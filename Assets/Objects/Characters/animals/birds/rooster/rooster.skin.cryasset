@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="ec1f8222-3f1b-8c35-4dc6-452274aa0bea">
+ <Files>
+  <File path="rooster.skin"/>
+  <File path="rooster_lod1.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">2266</Detail>
+  <Detail name="vertexCount">1581</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">42</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Rooster.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

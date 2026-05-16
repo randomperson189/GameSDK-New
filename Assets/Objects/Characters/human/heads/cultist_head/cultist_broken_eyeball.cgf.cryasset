@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="01edf569-9b73-e72a-77e9-4f11a4c15faf">
+ <Files>
+  <File path="cultist_broken_eyeball.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">1216</Detail>
+  <Detail name="vertexCount">706</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cultist_broken_eyeball.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

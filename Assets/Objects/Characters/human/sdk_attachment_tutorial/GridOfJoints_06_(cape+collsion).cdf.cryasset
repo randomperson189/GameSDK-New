@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Character" guid="9032d024-e7cc-b117-ac5b-419a36b3b100">
+ <Files>
+  <File path="GridOfJoints_06_(cape+collsion).cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/human/generic/skeleton_player_generic.chr</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/skirt</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/rebels/bodymesh.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/shoulderplates.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/cape.skin</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<CharacterDefinition>
+ <Model File="objects/characters/human/generic/skeleton_player_generic.chr" Material="Objects/characters/human/generic/skeleton_male_generic"/>
+ <AttachmentList>
+  <Attachment AName="head" Type="CA_SKIN" Rotation="1,0,0,0" Position="0,0,0" BoneName="" Binding="objects/characters/humanoid/humanoid_head.skin" Flags="0"/>
+  <Attachment AName="body" Type="CA_SKIN" Rotation="1,0,0,0" Position="0,0,0" BoneName="" Binding="objects/characters/humanoid/humanoid_body.skin" Flags="0"/>
+  <Attachment AName="eye_left" Type="CA_BONE" Rotation="0.99999994,8.5681677e-008,-8.9406967e-008,-5.1409006e-007" Position="-0.030640198,0.086290784,1.7347306" BoneName="eye_left_bone" Binding="objects/characters/humanoid/eye_fish.cgf" Flags="0" Material="Objects/Characters/Humanoid/Eye_Fish"/>
+  <Attachment AName="eye_right" Type="CA_BONE" Rotation="0.99999994,8.5681677e-008,-8.9406967e-008,-5.1409006e-007" Position="0.036554702,0.086459719,1.7345154" BoneName="eye_right_bone" Binding="objects/characters/humanoid/eye_fish.cgf" Flags="0" Material="Objects/characters/humanoid/eye_fish"/>
+  <Attachment AName="weapon" Type="CA_BONE" Rotation="0.89040291,-0.4503817,-0.040586233,-0.051887363" Position="0.44,0.275,0.95" BoneName="weapon_bone" Flags="0"/>
+  <Attachment AName="gun" Type="CA_BONE" Rotation="0.187859,-0.30385575,0.68368077,-0.63636559" Position="-0.090861276,-0.12297346,1.3637671" BoneName="weaponPos_rifle01" Binding="objects/characters/humanoid/plasma_rifle.cgf" Flags="0"/>
+  <Attachment AName="sails" Type="CA_SKIN" Rotation="1,0,0,0" Position="0,0,0" BoneName="" Binding="objects/characters/humanoid/sails.skin" Flags="0"/>
+  <Attachment AName="rope1" Type="CA_BONE" Rotation="1,0,0,0" Position="0,0,0" BoneName="Rope1_Seg01" Binding="" Flags="0" PhysPropType="Rope" lod0_Gravity="1" lod0_JointLimit="0" lod0_JointLimitIncrease="0" lod0_MaxTimestep="0.02" lod0_Stiffness="30" lod0_StiffnessDecay="0" lod0_Damping="5" lod0_Friction="5" lod0_SimpleBlending="1" lod0_EnvCollisions="1" lod0_BodyCollisions="1" lod0_Mass="0.1" lod0_Thickness="0.01" lod0_StiffnessControlBone="5"/>
+  <Attachment AName="rope2" Type="CA_BONE" Rotation="1,0,0,0" Position="0,0,0" BoneName="Rope2_Seg01" Binding="" Flags="0" PhysPropType="Rope" lod0_Gravity="1" lod0_JointLimit="0" lod0_JointLimitIncrease="0" lod0_MaxTimestep="0.02" lod0_Stiffness="10" lod0_StiffnessDecay="0" lod0_Damping="5" lod0_Friction="5" lod0_SimpleBlending="1" lod0_EnvCollisions="1" lod0_BodyCollisions="1" lod0_Mass="0.1" lod0_Thickness="0.01" lod0_StiffnessControlBone="5"/>
+  <Attachment AName="rope3" Type="CA_BONE" Rotation="-0.15157555,-0.5465728,0.46458736,0.68003041" Position="-0.044477031,-0.06342686,1.291808" BoneName="Rope3_Seg01" Binding="" Flags="0" PhysPropType="Rope" lod0_Gravity="1" lod0_JointLimit="0" lod0_JointLimitIncrease="0" lod0_MaxTimestep="0.02" lod0_Stiffness="10" lod0_StiffnessDecay="0" lod0_Damping="5" lod0_Friction="5" lod0_SimpleBlending="1" lod0_EnvCollisions="1" lod0_BodyCollisions="1" lod0_Mass="0.1" lod0_Thickness="0.01" lod0_StiffnessControlBone="5"/>
+ </AttachmentList>
+</CharacterDefinition>

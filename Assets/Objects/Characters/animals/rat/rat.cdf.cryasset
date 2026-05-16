@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Character" guid="d6cfeafa-0e4e-9a5d-e347-328a1c9a2bb2">
+ <Files>
+  <File path="rat.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/animals/rat/rat.chr</Path>
+  <Path>Objects/characters/animals/rat/rat</Path>
+  <Path>Objects/characters/animals/rat/ratBody.skin</Path>
+  <Path>Objects/characters/animals/rat/rat</Path>
+  <Path>./</Path>
+ </Dependencies>
+</AssetMetadata>

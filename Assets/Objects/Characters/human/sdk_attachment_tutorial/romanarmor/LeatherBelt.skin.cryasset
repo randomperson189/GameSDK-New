@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="1e59a8a5-6519-99c1-9e8c-f4f1fbb58082">
+ <Files>
+  <File path="LeatherBelt.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">3605</Detail>
+  <Detail name="vertexCount">2621</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">46</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./armor.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

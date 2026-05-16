@@ -1,0 +1,24 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="deer_body" MtlFlags="524416" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="220" Opacity="1" HeatAmountScaled="38" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/animals/deer/texture/deer_dif.dds"/>
+    <Texture Map="Specular" File="objects/characters/animals/deer/texture/deer_spec.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/animals/deer/texture/deer_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="1" GlossMapChannelB="1" SpecMapChannelG="1" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="antlers" MtlFlags="524416" Shader="Illum" GenMask="400000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" HeatAmountScaled="38" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/animals/deer/texture/deer_dif.dds"/>
+    <Texture Map="Specular" File="objects/characters/animals/deer/texture/deer_spec.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/animals/deer/texture/deer_ddn.dds"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric_nopierce" MatTemplate="" Diffuse="1,1,0" Specular="0.5,0.5,0.5" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

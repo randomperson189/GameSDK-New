@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="77c19a9e-102f-838d-9324-b99af7a8a5ab">
+ <Files>
+  <File path="bald_eagle_MSH.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">324</Detail>
+  <Detail name="vertexCount">333</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">14</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Eagle.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

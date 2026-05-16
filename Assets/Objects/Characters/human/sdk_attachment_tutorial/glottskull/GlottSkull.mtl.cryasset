@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="98259cbe-88e8-f665-e578-f5039c937ddf">
+ <Files>
+  <File path="GlottSkull.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/glottskull/gltt_head_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/glottskull/gltt_head_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_attachment_tutorial/glottskull/gltt_head_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

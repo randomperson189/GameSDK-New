@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="7db12ec2-d175-f0e6-80ab-29cf5e578600">
+ <Files>
+  <File path="spider.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/animals/insects/spider/spider_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

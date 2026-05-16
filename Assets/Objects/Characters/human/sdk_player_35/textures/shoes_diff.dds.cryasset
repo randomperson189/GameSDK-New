@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="4e1e15a1-1310-a9f0-744a-b2d53c5fac29">
+ <Files>
+  <File path="shoes_diff.dds"/>
+  <File path="shoes_diff.dds.1"/>
+  <File path="shoes_diff.dds.2"/>
+  <File path="shoes_diff.dds.3"/>
+  <File path="shoes_diff.dds.4"/>
+  <File path="shoes_diff.dds.5"/>
+  <File path="shoes_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

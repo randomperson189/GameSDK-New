@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="ab4f0c13-cce6-c94c-8cfb-32725d0109e6">
+ <Files>
+  <File path="teeth_spec.dds"/>
+  <File path="teeth_spec.dds.1"/>
+  <File path="teeth_spec.dds.2"/>
+  <File path="teeth_spec.dds.3"/>
+  <File path="teeth_spec.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

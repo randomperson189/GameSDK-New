@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="98b83932-c3af-2174-fbac-dd171aa8a4fe">
+ <Files>
+  <File path="cultist_teeth.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/human/heads/cultist_head/textures/teeth_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/cultist_head/textures/teeth_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/cultist_head/textures/teeth_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

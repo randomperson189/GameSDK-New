@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="2e22a2a5-803e-ff79-4f17-019eb6357168">
+ <Files>
+  <File path="rooster_diff.dds"/>
+  <File path="rooster_diff.dds.1"/>
+  <File path="rooster_diff.dds.2"/>
+  <File path="rooster_diff.dds.3"/>
+  <File path="rooster_diff.dds.4"/>
+  <File path="rooster_diff.dds.5"/>
+  <File path="rooster_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,24 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="plastic" MtlFlags="524416" Shader="Illum" GenMask="C0000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="0.45641103,0.45641103,0.45641103" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/attachments/glasses/textures/glasses_diff.tif"/>
+    <Texture Map="Specular" File="objects/characters/human/attachments/glasses/textures/glasses_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/attachments/glasses/textures/glasses_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="526464" Shader="Glass" GenMask="18050" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%DIRT_MAP%ENVIRONMENT_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="0.30000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/attachments/glasses/textures/glasses_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/attachments/glasses/textures/glasses_ddna.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/generic_cubemap_day_cm.tif"/>
+   </Textures>
+   <PublicParams SpecFromDiffAlphaBias="0" BumpMapTile="1" TintColor="1,1,1" BlurAmount="0.075000003" FresnelScale="3.8900001" SpecFromDiffAlphaMult="1" FresnelBias="0.31600001" TintCloudiness="0" BackLightScale="0.42500001" BumpScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0,1,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.47" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

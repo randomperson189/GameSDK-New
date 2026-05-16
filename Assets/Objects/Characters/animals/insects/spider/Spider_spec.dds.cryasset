@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="8fafab2a-6889-2270-9419-63d28f164c30">
+ <Files>
+  <File path="Spider_spec.dds"/>
+  <File path="Spider_spec.dds.1"/>
+  <File path="Spider_spec.dds.2"/>
+  <File path="Spider_spec.dds.3"/>
+  <File path="Spider_spec.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

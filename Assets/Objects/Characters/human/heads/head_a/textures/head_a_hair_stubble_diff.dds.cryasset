@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="f177e75a-10b1-4522-92a2-c58803bacd22">
+ <Files>
+  <File path="head_a_hair_stubble_diff.dds"/>
+  <File path="head_a_hair_stubble_diff.dds.1"/>
+  <File path="head_a_hair_stubble_diff.dds.2"/>
+  <File path="head_a_hair_stubble_diff.dds.3"/>
+  <File path="head_a_hair_stubble_diff.dds.4"/>
+  <File path="head_a_hair_stubble_diff.dds.5"/>
+  <File path="head_a_hair_stubble_diff.dds.6"/>
+  <File path="head_a_hair_stubble_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

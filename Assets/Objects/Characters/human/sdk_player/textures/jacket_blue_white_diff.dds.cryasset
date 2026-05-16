@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="23d4e06b-e8a7-31d6-0dbc-ccd9794a0b54">
+ <Files>
+  <File path="jacket_blue_white_diff.dds"/>
+  <File path="jacket_blue_white_diff.dds.1"/>
+  <File path="jacket_blue_white_diff.dds.2"/>
+  <File path="jacket_blue_white_diff.dds.3"/>
+  <File path="jacket_blue_white_diff.dds.4"/>
+  <File path="jacket_blue_white_diff.dds.5"/>
+  <File path="jacket_blue_white_diff.dds.6"/>
+  <File path="jacket_blue_white_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

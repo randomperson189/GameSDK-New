@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="4355c702-49ed-a821-df66-0a725980b7ae">
+ <Files>
+  <File path="head_teeth.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1360</Detail>
+  <Detail name="vertexCount">855</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">102</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./face.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

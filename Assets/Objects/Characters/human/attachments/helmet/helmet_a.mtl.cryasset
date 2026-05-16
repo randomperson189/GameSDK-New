@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="e9326c7f-91ca-bc23-acf9-fea644feec43">
+ <Files>
+  <File path="helmet_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/human/attachments/helmet/textures/helmet_a_decal_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/attachments/helmet/textures/helmet_a_decal_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/attachments/helmet/textures/helmet_a_face_mask_ddn.dds</Path>
+  <Path usageCount="1">textures/cubemaps/generic_cubemap_day_cm.dds</Path>
+  <Path usageCount="1">objects/characters/human/attachments/helmet/textures/helmet_a_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/attachments/helmet/textures/helmet_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

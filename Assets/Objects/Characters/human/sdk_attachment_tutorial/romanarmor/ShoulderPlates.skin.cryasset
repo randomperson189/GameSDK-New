@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="2af35fc3-0fc9-1c20-b0ac-69fa77b589e0">
+ <Files>
+  <File path="ShoulderPlates.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">6943</Detail>
+  <Detail name="vertexCount">4614</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">20</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./armor.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

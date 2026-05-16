@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="961dcb3c-fe11-c96b-1228-7c9eff8614e1">
+ <Files>
+  <File path="spider_diff.dds"/>
+  <File path="spider_diff.dds.1"/>
+  <File path="spider_diff.dds.2"/>
+  <File path="spider_diff.dds.3"/>
+  <File path="spider_diff.dds.4"/>
+  <File path="spider_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

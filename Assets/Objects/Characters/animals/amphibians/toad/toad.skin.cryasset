@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="a0f15e02-f59b-c2fe-a3f2-09b971d81ea2">
+ <Files>
+  <File path="toad.skin"/>
+  <File path="toad_lod1.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">2734</Detail>
+  <Detail name="vertexCount">1728</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">23</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./toad.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

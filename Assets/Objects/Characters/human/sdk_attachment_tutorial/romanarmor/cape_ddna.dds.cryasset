@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="7966a5eb-409d-e0c2-a5b3-1b85da8b740a">
+ <Files>
+  <File path="cape_ddna.dds"/>
+  <File path="cape_ddna.dds.a"/>
+  <File path="cape_ddna.dds.1"/>
+  <File path="cape_ddna.dds.1a"/>
+  <File path="cape_ddna.dds.2"/>
+  <File path="cape_ddna.dds.2a"/>
+  <File path="cape_ddna.dds.3"/>
+  <File path="cape_ddna.dds.3a"/>
+  <File path="cape_ddna.dds.4"/>
+  <File path="cape_ddna.dds.4a"/>
+  <File path="cape_ddna.dds.5"/>
+  <File path="cape_ddna.dds.5a"/>
+  <File path="cape_ddna.dds.6"/>
+  <File path="cape_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Character" guid="a49e89c9-69fc-37bb-1ec3-3e12a5e7c5cd">
+ <Files>
+  <File path="attachment_05 (joint).cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/human/generic/skeleton_player_generic.chr</Path>
+  <Path>objects/weapons/rifle/rifle_tp.cgf</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/glottskull/glottskull.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/rebels/bodymesh.skin</Path>
+ </Dependencies>
+</AssetMetadata>

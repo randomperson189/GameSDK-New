@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="e243a1c4-f28f-4fc5-931c-9844d8b7ddcc">
+ <Files>
+  <File path="cultist_head_angry.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./textures/cultist_head_eyeoverlay_diff.dds</Path>
+  <Path usageCount="1">./textures/cultist_head_eyeoverlay_spec.dds</Path>
+  <Path usageCount="1">./textures/cultist_head_eyebrows_diff.dds</Path>
+  <Path usageCount="1">./textures/cultist_head_angry_diff.dds</Path>
+  <Path usageCount="1">./textures/cultist_head_angry_ddna.dds</Path>
+  <Path usageCount="1">./textures/cultist_head_angry_spec.dds</Path>
+  <Path usageCount="1">./textures/cultist_head_sss.dds</Path>
+ </Dependencies>
+</AssetMetadata>

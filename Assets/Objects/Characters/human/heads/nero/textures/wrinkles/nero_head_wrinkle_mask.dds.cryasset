@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="eac2b4b6-9e62-92f7-029a-ccf0f6ebae1f">
+ <Files>
+  <File path="nero_head_wrinkle_mask.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

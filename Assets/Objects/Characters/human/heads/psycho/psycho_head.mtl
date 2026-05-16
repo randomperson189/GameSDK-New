@@ -1,0 +1,40 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="skin" MtlFlags="524416" Shader="HumanSkin" GenMask="9051000000" StringGenMask="%NORMAL_MAP%PN_TESSELLATION%SPECULAR_MAP%TEMP_SKIN%WRINKLE_BLENDING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/heads/psycho/psycho_face_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/heads/psycho/psycho_face_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/human/heads/psycho/psycho_face_spec.tif"/>
+    <Texture Map="Decal" File="objects/characters/human/heads/psycho/psycho_face_wrinkle_ao.tif"/>
+    <Texture Map="Custom" File="objects/characters/human/heads/psycho/psycho_face_wrinkle_ddn.tif"/>
+    <Texture Map="[1] Custom" File="objects/characters/human/heads/psycho/psycho_face_wrinkle_mask.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="1" Melanin="0" SSSIndex="1.2" TessellationFactorMax="32" TranslucencyMultiplier="0" WrinklesBlend="1" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="eye_over" MtlFlags="524416" Shader="Eye" GenMask="2801000000" StringGenMask="%NORMAL_MAP%TEMP_EYES%VERTCOLORS" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.59720188,0.51491767,0.4793202" Specular="0.012983033,0.012983033,0.012983033" Emissive="0.090841718,0.090841718,0.090841718" Shininess="22" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/characters/human/heads/psycho/psycho_face.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/heads/psycho/psycho_face_ddna.tif"/>
+   </Textures>
+   <PublicParams CorneaRefraction="0.0099999998" IrisDepth="0.0049999999" IrisColor="0.5,0.5,0.5" IrisShadowing="5" CorneaSmoothness="1" ScleraSSS="0.40000001" IrisSSS="0.60000002" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="eye_lash" MtlFlags="526464" Shader="Hair" GenMask="20000400008" StringGenMask="%ANISO_SPECULAR%HAIR_PASS%THIN_HAIR" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.025186861,0.025186861,0.025186861" Emissive="0,0,0" Opacity="0.99000001" Shininess="9.999999" AlphaTest="0.2" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/characters/human/heads/psycho/psycho_hair.tif"/>
+   </Textures>
+   <PublicParams SecondaryHighlightShiftAmount="0.1" SoftIntersection="0" ShiftVariation="0" DiffuseWrap="0.75" SecondaryHighlightColor="0.69999999,0.69999999,0.69999999" SecondaryHighlightWidth="1.5" ThinHairThreshold="0.066" AlphaBlendMultiplier="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="eyes" MtlFlags="2621568" Shader="Eye" GenMask="2801010000" StringGenMask="%ENVIRONMENT_MAP%NORMAL_MAP%TEMP_EYES%VERTCOLORS" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.49693301,0.49693301,0.49693301" Specular="0.048171829,0.048171829,0.048171829" Emissive="0,0,0" Opacity="1" Shininess="222" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/eyes/generic_eyeball_iris_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/eyes/generic_eyeball_iris_ddn.tif"/>
+    <Texture Map="Heightmap" File="objects/characters/human/eyes/generic_eyeball_iris_displ.tif"/>
+    <Texture Map="SubSurface" File="objects/characters/human/eyes/generic_eyeball_iris_sss.tif"/>
+    <Texture Map="Custom" File="objects/characters/human/eyes/generic_eyeball_cornea_ddn.tif"/>
+    <Texture Map="[1] Custom" File="objects/characters/human/eyes/generic_eyeball_iris_depth_ddn.tif"/>
+   </Textures>
+   <PublicParams CorneaRefraction="0" IrisDepth="0.0099999998" IrisColor="0.5,0.5,0.5" IrisShadowing="2.266" CorneaSmoothness="1" ScleraSSS="0.15000001" IrisSSS="0.40000001" IndirectColor="0,0,0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

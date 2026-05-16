@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="2d8dab8e-378b-585b-c0e3-49fb59740873">
+ <Files>
+  <File path="cultist_head_eyebrows_diff.dds"/>
+  <File path="cultist_head_eyebrows_diff.dds.1"/>
+  <File path="cultist_head_eyebrows_diff.dds.2"/>
+  <File path="cultist_head_eyebrows_diff.dds.3"/>
+  <File path="cultist_head_eyebrows_diff.dds.4"/>
+  <File path="cultist_head_eyebrows_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

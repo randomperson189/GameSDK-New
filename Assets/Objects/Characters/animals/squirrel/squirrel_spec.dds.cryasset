@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="f141a658-a93b-e9a5-1d4e-27a838df032b">
+ <Files>
+  <File path="squirrel_spec.dds"/>
+  <File path="squirrel_spec.dds.1"/>
+  <File path="squirrel_spec.dds.2"/>
+  <File path="squirrel_spec.dds.3"/>
+  <File path="squirrel_spec.dds.4"/>
+  <File path="squirrel_spec.dds.5"/>
+  <File path="squirrel_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

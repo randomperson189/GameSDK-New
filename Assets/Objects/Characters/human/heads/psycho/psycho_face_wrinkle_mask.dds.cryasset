@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="e2242d0c-9c9c-668e-acc7-8938a7723608">
+ <Files>
+  <File path="psycho_face_wrinkle_mask.dds"/>
+  <File path="psycho_face_wrinkle_mask.dds.1"/>
+  <File path="psycho_face_wrinkle_mask.dds.2"/>
+  <File path="psycho_face_wrinkle_mask.dds.3"/>
+  <File path="psycho_face_wrinkle_mask.dds.4"/>
+  <File path="psycho_face_wrinkle_mask.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

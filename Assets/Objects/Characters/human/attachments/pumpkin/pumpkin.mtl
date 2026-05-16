@@ -1,0 +1,22 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="80000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="pumpkin" MtlFlags="524416" Shader="HumanSkin" GenMask="800000080" StringGenMask="%BUMP_MAP%TEMP_SKIN" SurfaceType="" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0.046665091,0.046665091,0.046665091" Emissive="0,0,0" Shininess="147" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/attachments/pumpkin/textures/pumpkin_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/attachments/pumpkin/textures/pumpkin_ddna.tif"/>
+   </Textures>
+   <PublicParams Melanin="0" SSSIndex="1.733" TranslucencyMultiplier="0.71200001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glow" MtlFlags="524416" Shader="Illum" GenMask="80000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.99110222,0.49693301,0.24620135" Specular="0,0,0" Emissive="0,0,0" Opacity="1" GlowAmount="17" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/attachments/pumpkin/textures/pumpkin_diff.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

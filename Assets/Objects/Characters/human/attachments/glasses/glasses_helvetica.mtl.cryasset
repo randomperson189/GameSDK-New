@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="803c475e-98b3-7f7d-2bcf-8b54fb63cdd3">
+ <Files>
+  <File path="glasses_helvetica.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/characters/human/attachments/glasses/textures/glasses_diff.dds</Path>
+  <Path usageCount="2">objects/characters/human/attachments/glasses/textures/glasses_ddna.dds</Path>
+  <Path usageCount="1">textures/cubemaps/generic_cubemap_day_cm.dds</Path>
+  <Path usageCount="1">objects/characters/human/attachments/glasses/textures/glasses_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

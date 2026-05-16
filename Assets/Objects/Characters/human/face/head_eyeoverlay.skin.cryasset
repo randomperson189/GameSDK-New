@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="86e5d46d-7243-330a-9baa-6267990e3021">
+ <Files>
+  <File path="head_eyeoverlay.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">336</Detail>
+  <Detail name="vertexCount">208</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">102</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./face.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="8d8c4f79-65ba-c2b9-c09e-e98b20fe77ef">
+ <Files>
+  <File path="shirt_ddn.dds"/>
+  <File path="shirt_ddn.dds.1"/>
+  <File path="shirt_ddn.dds.2"/>
+  <File path="shirt_ddn.dds.3"/>
+  <File path="shirt_ddn.dds.4"/>
+  <File path="shirt_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

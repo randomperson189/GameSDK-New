@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="1d5e6527-c46c-ea22-ad82-54255df39277">
+ <Files>
+  <File path="rooster_ddn.dds"/>
+  <File path="rooster_ddn.dds.1"/>
+  <File path="rooster_ddn.dds.2"/>
+  <File path="rooster_ddn.dds.3"/>
+  <File path="rooster_ddn.dds.4"/>
+  <File path="rooster_ddn.dds.5"/>
+  <File path="rooster_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

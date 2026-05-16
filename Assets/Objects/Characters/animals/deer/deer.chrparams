@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<Params>
+	<IK_Definition>
+		<LimbIK_Definition>
+			<IK Handle="RgtArm01" EndEffector="Def_R_Wrist_jnt" Root="Def_R_Shoulder_jnt" Solver="2BIK"/>
+			<IK Handle="LftArm01" EndEffector="Def_L_Wrist_jnt" Root="Def_L_Shoulder_jnt" Solver="2BIK"/>
+			<IK Handle="RgtLeg01" EndEffector="Def_R_Toe_jnt" Root="Def_R_Knee_jnt" Solver="2BIK"/>
+			<IK Handle="LftLeg01" EndEffector="Def_L_Toe_jnt" Root="Def_L_Knee_jnt" Solver="2BIK"/>
+		</LimbIK_Definition>
+	</IK_Definition>
+
+	<AnimationList>
+		<Animation name="#filepath" path="Animations/animals/deer"/>
+		<Animation name="$AnimEventDatabase" path="Animations/animals/deer/deer.animevents"/>
+		<Animation name="$TracksDatabase" path="Animations/animals/deer/deer.dba"/>
+		<Animation name="*" path="*.caf"/>
+		<Animation name="*" path="*.bspace"/>
+		<Animation name="*" path="*.comb"/>
+	</AnimationList>
+</Params>

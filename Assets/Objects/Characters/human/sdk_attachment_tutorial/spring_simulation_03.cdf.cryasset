@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Character" guid="3d0b5cb1-b972-fc46-5c44-1be4d82deca5">
+ <Files>
+  <File path="spring_simulation_03.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/characters/human/generic/skeleton_player_generic.chr</Path>
+  <Path>Objects/characters/human/attachments/pumpkin/pumpkin.cgf</Path>
+  <Path>Objects/weapons/attachments/sniper/sniper_scope_a_tp.cgf</Path>
+  <Path>Objects/characters/human/sdk_attachment_tutorial/rebels/bodymesh.skin</Path>
+  <Path>Objects/characters/human/sdk_attachment_tutorial/glottskull/glottskull.skin</Path>
+  <Path>Objects/characters/human/sdk_attachment_tutorial/glottskull/glottskull.mtl</Path>
+  <Path>Objects/weapons/rifle/rifle_tp.cgf</Path>
+  <Path>Objects/weapons/attachments/sniper/sniper_scope_a_tp.cgf</Path>
+ </Dependencies>
+</AssetMetadata>

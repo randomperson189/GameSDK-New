@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="bd1c9a01-bb98-8e66-a37b-ed80655c3d98">
+ <Files>
+  <File path="eyeball.dds"/>
+  <File path="eyeball.dds.1"/>
+  <File path="eyeball.dds.2"/>
+  <File path="eyeball.dds.3"/>
+  <File path="eyeball.dds.4"/>
+  <File path="eyeball.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

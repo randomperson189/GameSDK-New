@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="c48cf2e8-1442-ccea-330b-32fb1c9e5cf2">
+ <Files>
+  <File path="alligatorbody.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">4648</Detail>
+  <Detail name="vertexCount">3345</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">43</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Alligator.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

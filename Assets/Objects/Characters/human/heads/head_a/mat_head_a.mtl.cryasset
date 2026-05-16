@@ -1,0 +1,38 @@
+<AssetMetadata version="0" type="Material" guid="6ccebd65-0bf5-4a12-504a-0c18df046366">
+ <Files>
+  <File path="mat_head_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">11</Detail>
+  <Detail name="textureCount">27</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/background_gradiant.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_turtleneck_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_turtleneck_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_plate_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_plate_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_plate_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_plate_dr_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_hair_stubble_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_eyelash_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_overlay_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_overlay_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_water_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_iris_diff.dds</Path>
+  <Path usageCount="2">objects/characters/human/eyes/generic_eyeball_iris_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_eyeball_iris_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_iris_displ.dds</Path>
+  <Path usageCount="1">objects/characters/human/eyes/generic_eyeball_cornea_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/human/teeth/generic_teeth_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/teeth/generic_teeth_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/teeth/generic_teeth_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/teeth/generic_teeth_dmap.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_wrinkle_atlas.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_wrinkle_mask_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/heads/head_a/textures/head_a_sss.dds</Path>
+ </Dependencies>
+</AssetMetadata>

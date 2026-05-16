@@ -1,0 +1,31 @@
+<AssetMetadata version="0" type="Material" guid="7f783b72-61e4-fa24-bb61-222d2aaf56d3">
+ <Files>
+  <File path="sdk_player.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">13</Detail>
+  <Detail name="textureCount">20</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/characters/human/sdk_player_35/textures/jeans_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/jeans_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/shoes_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/shoes_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/fabric/fabric_a_detail.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/jeans_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/shirt_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/shirt_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/jacket_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/jacket_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/eye_diff.dds</Path>
+  <Path usageCount="2">objects/characters/human/sdk_player_35/textures/eye_ddn.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/hair_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/hair_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/hands_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/hands_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/hands_ddna.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/head_diff.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/head_spec.dds</Path>
+  <Path usageCount="1">objects/characters/human/sdk_player_35/textures/head_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

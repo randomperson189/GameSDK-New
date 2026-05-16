@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="298fe31f-d0bc-bb16-157d-97e8968695ad">
+ <Files>
+  <File path="arm_hands.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">16</Detail>
+  <Detail name="triangleCount">10854</Detail>
+  <Detail name="vertexCount">5950</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">135</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./SDK_Player.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

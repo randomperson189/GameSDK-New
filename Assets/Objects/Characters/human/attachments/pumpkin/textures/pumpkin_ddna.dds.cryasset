@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="2a529df0-ade3-4172-3543-aeb73ffa920c">
+ <Files>
+  <File path="pumpkin_ddna.dds"/>
+  <File path="pumpkin_ddna.dds.a"/>
+  <File path="pumpkin_ddna.dds.1"/>
+  <File path="pumpkin_ddna.dds.1a"/>
+  <File path="pumpkin_ddna.dds.2"/>
+  <File path="pumpkin_ddna.dds.2a"/>
+  <File path="pumpkin_ddna.dds.3"/>
+  <File path="pumpkin_ddna.dds.3a"/>
+  <File path="pumpkin_ddna.dds.4"/>
+  <File path="pumpkin_ddna.dds.4a"/>
+  <File path="pumpkin_ddna.dds.5"/>
+  <File path="pumpkin_ddna.dds.5a"/>
+  <File path="pumpkin_ddna.dds.6"/>
+  <File path="pumpkin_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

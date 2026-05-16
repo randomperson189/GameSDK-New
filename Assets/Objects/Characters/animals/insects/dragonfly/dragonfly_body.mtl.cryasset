@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="472f938c-fd13-d6fb-4760-1af48dbde454">
+ <Files>
+  <File path="dragonfly_body.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/animals/insects/dragonfly/dragonfly_body.dds</Path>
+ </Dependencies>
+</AssetMetadata>

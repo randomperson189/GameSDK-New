@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="ad46d51f-597d-32b1-7b4c-8cb9966c15e1">
+ <Files>
+  <File path="plasma_rifle.cgf"/>
+  <File path="plasma_rifle_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">2359</Detail>
+  <Detail name="vertexCount">2174</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/humanoid/Humanoid_Material.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

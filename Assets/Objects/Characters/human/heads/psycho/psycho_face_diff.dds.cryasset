@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="03022b9e-197d-3310-6ca8-6f51ea81c071">
+ <Files>
+  <File path="psycho_face_diff.dds"/>
+  <File path="psycho_face_diff.dds.1"/>
+  <File path="psycho_face_diff.dds.2"/>
+  <File path="psycho_face_diff.dds.3"/>
+  <File path="psycho_face_diff.dds.4"/>
+  <File path="psycho_face_diff.dds.5"/>
+  <File path="psycho_face_diff.dds.6"/>
+  <File path="psycho_face_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="dae8a311-2ba2-1405-a276-b5f7c7551d8d">
+ <Files>
+  <File path="feathers_ddn.dds"/>
+  <File path="feathers_ddn.dds.1"/>
+  <File path="feathers_ddn.dds.2"/>
+  <File path="feathers_ddn.dds.3"/>
+  <File path="feathers_ddn.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

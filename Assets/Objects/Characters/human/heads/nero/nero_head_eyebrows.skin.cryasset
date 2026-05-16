@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="4ef1c5fd-16de-9f32-e141-4366efd2a69b">
+ <Files>
+  <File path="nero_head_eyebrows.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">486</Detail>
+  <Detail name="vertexCount">421</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">515</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mat_nero_head.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

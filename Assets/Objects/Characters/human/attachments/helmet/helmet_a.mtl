@@ -1,0 +1,29 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="helmet_a_plastic" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="0.038204376,0.038204376,0.038204376" Emissive="0,0,0" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/attachments/helmet/textures/helmet_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/attachments/helmet/textures/helmet_a_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0,0,0"/>
+  </Material>
+  <Material Name="helmet_a_glass" MtlFlags="526464" Shader="Glass" GenMask="10010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0,0,0" Specular="0.051269464,0.051269464,0.051269464" Emissive="0,0,0" Opacity="1" Shininess="200" AlphaTest="0.1" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="objects/characters/human/attachments/helmet/textures/helmet_a_face_mask_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/generic_cubemap_day_cm.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.051269464,0.051269464,0.051269464" TintCloudiness="0.050000001" BackLightScale="0.5" BumpScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="helmet_a_decal" MtlFlags="524416" Shader="Illum" GenMask="81000801" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="0.040915202,0.040915202,0.040915202" Emissive="0,0,0" Opacity="1" Shininess="252" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/attachments/helmet/textures/helmet_a_decal_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/human/attachments/helmet/textures/helmet_a_decal_ddna.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

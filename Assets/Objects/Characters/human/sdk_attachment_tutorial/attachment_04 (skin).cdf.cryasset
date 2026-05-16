@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Character" guid="7210a6fa-56ab-2f14-9412-53dad9073655">
+ <Files>
+  <File path="attachment_04 (skin).cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/characters/human/generic/skeleton_player_generic.chr</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/skirt</Path>
+  <Path>objects\characters\animals\deer\deerbody.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/skirt.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/cape.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/helmet.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/shoulderplates.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/leatherbelt.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/glottskull/glottskull.skin</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/rebels/bodymesh.skin</Path>
+ </Dependencies>
+</AssetMetadata>

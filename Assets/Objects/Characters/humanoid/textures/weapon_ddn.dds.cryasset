@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="9db7c6b4-78a5-5d6d-a02a-35cde0e27a60">
+ <Files>
+  <File path="weapon_ddn.dds"/>
+  <File path="weapon_ddn.dds.1"/>
+  <File path="weapon_ddn.dds.2"/>
+  <File path="weapon_ddn.dds.3"/>
+  <File path="weapon_ddn.dds.4"/>
+  <File path="weapon_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

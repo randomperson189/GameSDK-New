@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="0ac85dd5-e2d9-c672-ce5e-3f357db74b31">
+ <Files>
+  <File path="alligator_diff.dds"/>
+  <File path="alligator_diff.dds.1"/>
+  <File path="alligator_diff.dds.2"/>
+  <File path="alligator_diff.dds.3"/>
+  <File path="alligator_diff.dds.4"/>
+  <File path="alligator_diff.dds.5"/>
+  <File path="alligator_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>
