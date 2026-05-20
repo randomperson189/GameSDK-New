@@ -6,6 +6,7 @@
  <Dependencies>
   <Path>objects/characters/human/generic/skeleton_player_generic.chr</Path>
   <Path>objects/characters/human/generic/skeleton_male_generic</Path>
+  <Path>Objects/Weapons/pistol/pistol_fp.cdf</Path>
   <Path>objects/characters/human/sdk_player/shoes.skin</Path>
   <Path>objects/characters/human/sdk_player/jeans.skin</Path>
   <Path>objects/characters/human/sdk_player/arm_hands.skin</Path>

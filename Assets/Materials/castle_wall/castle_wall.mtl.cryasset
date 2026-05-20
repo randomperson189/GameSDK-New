@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="5553ce30-0416-dc2a-af7a-c43d7c549ce5" source="" timestamp="1777985713">
+ <Files>
+  <File path="castle_wall.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./scpgdgca_4k_albedo.dds</Path>
+  <Path usageCount="1">./scpgdgca_4k_ddna.dds</Path>
+  <Path usageCount="1">./scpgdgca_4k_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="46769f5d-dbff-d0c3-a3d6-1ca2c448b45f" source="" timestamp="1778101826">
+ <Files>
+  <File path="wood.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./tbykeacs_4k_albedo.dds</Path>
+  <Path usageCount="1">./tbykeacs_4k_ddna.dds</Path>
+  <Path usageCount="1">./tbykeacs_4k_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

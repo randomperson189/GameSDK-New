@@ -1,0 +1,9 @@
+<AssetMetadata version="0" type="Material" guid="4afe4ef9-f333-5c6f-df0b-4abea3bfdbcb" timestamp="1765647314">
+ <Files>
+  <File path="black.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">0</Detail>
+ </Details>
+</AssetMetadata>

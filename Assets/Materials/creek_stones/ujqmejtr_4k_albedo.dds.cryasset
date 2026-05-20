@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="4efd95a9-99c4-b9e4-98a4-40a563a6257e" source="ujqmejtr_4k_albedo.tif">
+ <Files>
+  <File path="ujqmejtr_4k_albedo.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

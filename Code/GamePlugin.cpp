@@ -55,7 +55,7 @@ void CGamePlugin::OnSystemEvent(ESystemEvent event, UINT_PTR wparam, UINT_PTR lp
 			if (!gEnv->IsEditor())
 			{
 				// Load the example map in client server mode
-				gEnv->pConsole->ExecuteString("map example s", false, true);
+				//gEnv->pConsole->ExecuteString("map example s", false, true);
 			}
 		}
 		break;

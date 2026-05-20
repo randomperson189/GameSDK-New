@@ -24,11 +24,11 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="0" y="0"/>
+      <pos x="-5" y="-35"/>
       <nodes>
        <element key="f998925a-d192-40db-8c0c-61b6f2c7a39c" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="f998925a-d192-40db-8c0c-61b6f2c7a39c" objectGUID="">
-         <pos x="-32" y="389"/>
+         <pos x="-33" y="808.5"/>
          <signalId domain="Env" guid="b2561caa-0753-458b-a91f-e8e38b0f0cdf"/>
         </value>
        </element>
@@ -45,6 +45,12 @@
            <key type="Idx" value="1"/>
           </element>
          </inputs>
+        </value>
+       </element>
+       <element key="eaee9da8-46a2-426d-a3d5-d32ecff3af4d" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="eaee9da8-46a2-426d-a3d5-d32ecff3af4d" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
+         <pos x="-32" y="387"/>
+         <signalId domain="Env" guid="7297c852-9eb8-4530-a7ad-e81d1bbfa16a"/>
         </value>
        </element>
        <element key="1949f9a1-6429-4322-8db0-8ba773cc0121" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
@@ -95,6 +101,12 @@
          <functionId domain="Env" guid="df2a9ae7-7724-4684-89f6-9df336f61ac2"/>
         </value>
        </element>
+       <element key="a8807aea-755a-4889-8523-9cb918bfceb4" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="a8807aea-755a-4889-8523-9cb918bfceb4" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
+         <pos x="263" y="464"/>
+         <functionId domain="Env" guid="29f94fb6-54bd-4e10-ab93-2b87ea095d0d"/>
+        </value>
+       </element>
        <element key="c220eeb1-43b9-4ac6-86d9-45bc5a830e9f" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="c220eeb1-43b9-4ac6-86d9-45bc5a830e9f" objectGUID="6e8bcb28-b9ef-4197-a29e-59136d644858">
          <pos x="668" y="-32"/>
@@ -123,14 +135,35 @@
        </element>
        <element key="f98a314f-2c93-4b10-a9dc-504b805df9fa" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="f98a314f-2c93-4b10-a9dc-504b805df9fa" objectGUID="">
-         <pos x="-31" y="249"/>
+         <pos x="-32" y="668.5"/>
          <signalId domain="Env" guid="52ad5add-7781-429b-b4a9-0cb6c905e353"/>
+        </value>
+       </element>
+       <element key="a7f36dfb-5667-4cee-ab37-5eab2d3a9d02" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="a7f36dfb-5667-4cee-ab37-5eab2d3a9d02" objectGUID="be818e39-4e83-4160-9e1b-54e9ded4ef74">
+         <pos x="668" y="389"/>
+         <functionId domain="Env" guid="a4d2b249-64be-48da-8700-e3b479bb6f65"/>
+         <inputs>
+          <element value="Render">
+           <key type="UInt32" value="1954115685"/>
+          </element>
+         </inputs>
         </value>
        </element>
        <element key="50ca8286-6371-4d2e-acdc-05d9b18ea281" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="50ca8286-6371-4d2e-acdc-05d9b18ea281" objectGUID="6e8bcb28-b9ef-4197-a29e-59136d644858">
          <pos x="-32" y="-453"/>
          <signalId domain="Env" guid="603771b5-6321-4113-82fb-b839f1be7f64"/>
+        </value>
+       </element>
+       <element key="f4b943fb-7c04-4d96-a734-95b493acb1bb" typeGUID="b30f637b-555a-4e2e-8558-87fa49d470c1">
+        <value guid="f4b943fb-7c04-4d96-a734-95b493acb1bb">
+         <pos x="388" y="388"/>
+         <inputs>
+          <element value="false">
+           <key type="Idx" value="1"/>
+          </element>
+         </inputs>
         </value>
        </element>
        <element key="3d219134-e9e0-4ea6-965c-d39ef63af91f" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
@@ -180,6 +213,22 @@
         <dstInputId type="Idx" value="1"/>
        </element>
        <element srcNodeGUID="645970c0-47bd-46b3-b78b-1e67cfe835e8" dstNodeGUID="e35b18dc-5107-46ee-badf-ae8f7e43a6da">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="eaee9da8-46a2-426d-a3d5-d32ecff3af4d" dstNodeGUID="a8807aea-755a-4889-8523-9cb918bfceb4">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="a8807aea-755a-4889-8523-9cb918bfceb4" dstNodeGUID="f4b943fb-7c04-4d96-a734-95b493acb1bb">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="a8807aea-755a-4889-8523-9cb918bfceb4" dstNodeGUID="f4b943fb-7c04-4d96-a734-95b493acb1bb">
+        <srcOutputId type="UInt32" value="6909027"/>
+        <dstInputId type="Idx" value="1"/>
+       </element>
+       <element srcNodeGUID="f4b943fb-7c04-4d96-a734-95b493acb1bb" dstNodeGUID="a7f36dfb-5667-4cee-ab37-5eab2d3a9d02">
         <srcOutputId type="Idx" value="0"/>
         <dstInputId type="Idx" value="0"/>
        </element>
@@ -259,7 +308,7 @@
       <position>
        <element element="0"/>
        <element element="0"/>
-       <element element="1"/>
+       <element element="1.175"/>
       </position>
      </translation>
      <rotation x="0" y="-0" z="0"/>
@@ -270,7 +319,7 @@
      </scale>
     </transform>
     <properties Networked="false">
-     <Physics Mass="80" Radius="0.44999999" Height="0.935" Capsule="true" GroundContactEps="0.0040000002" SendCollisionSignal="false"/>
+     <Physics Mass="80" Radius="1" Height="1.25" Capsule="true" GroundContactEps="0.0040000002" SendCollisionSignal="true"/>
      <Movement AirControl="0" AirResistance="0.2" Inertia="8" InertiaAcc="8" MaxClimb="0.87266463" MaxJump="0.87266463" MinSlide="1.2217305" MinFall="1.3962634" MaxGroundVelocity="16"/>
     </properties>
     <extensions />
@@ -301,7 +350,7 @@
       <element element="1"/>
      </scale>
     </transform>
-    <properties Type="Render" Character="Objects/Characters/human/sdk_player/sdk_player.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/FirstPerson.adb" ControllerDefPath="Animations/Mannequin/ADB/FirstPersonControllerDefinition.xml" DefaultScope="FirstPersonCharacter" DefaultFragment="Idle" AnimDriven="true" GroundAlign="false">
+    <properties Type="None" Character="Objects/Characters/human/sdk_player/sdk_player.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/FirstPerson.adb" ControllerDefPath="Animations/Mannequin/ADB/FirstPersonControllerDefinition.xml" DefaultScope="FirstPersonCharacter" DefaultFragment="Idle" AnimDriven="true" GroundAlign="false">
      <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
      <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
     </properties>

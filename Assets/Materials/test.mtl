@@ -1,0 +1,14 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="4000008000020" StringGenMask="%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="Textures/backrooms/pool_tiles/pool_tiles_color.dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="Textures/backrooms/pool_tiles/pool_tiles_normal.dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+  </Texture>
+  <Texture Map="Heightmap" File="Textures/backrooms/pool_tiles/pool_tiles_height.dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+  </Texture>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" HeightBias="1" PomDisplacement="0.0049999999" SSSIndex="0" SelfShadowStrength="3"/>
+</Material>

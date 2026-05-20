@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="b925db0f-c7b6-5e14-7ef6-1ff732a32a21" source="scpgdgca_4k_ddna.tif">
+ <Files>
+  <File path="scpgdgca_4k_ddna.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

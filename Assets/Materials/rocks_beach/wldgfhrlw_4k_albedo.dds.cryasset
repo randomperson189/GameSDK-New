@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f6787bb6-0e20-2ca3-17fa-af6932289d66" source="wldgfhrlw_4k_albedo.tif">
+ <Files>
+  <File path="wldgfhrlw_4k_albedo.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

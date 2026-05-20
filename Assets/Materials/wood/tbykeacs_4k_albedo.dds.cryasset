@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="068de7ea-65af-3e74-c7bf-8b0425da8635" source="tbykeacs_4k_albedo.tif">
+ <Files>
+  <File path="tbykeacs_4k_albedo.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="0986323c-7ed7-ac17-9c94-778a14807085" source="" timestamp="1777987484">
+ <Files>
+  <File path="rocks_test.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ulgmbhwn_4k_albedo.dds</Path>
+  <Path usageCount="1">./ulgmbhwn_4k_ddna.dds</Path>
+  <Path usageCount="1">./ulgmbhwn_4k_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

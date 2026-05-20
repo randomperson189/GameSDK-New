@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="dae33c93-faad-9291-953c-db7ac767c85c" source="vd3lecfs_4k_albedo.tif">
+ <Files>
+  <File path="vd3lecfs_4k_albedo.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

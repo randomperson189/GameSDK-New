@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="0512e928-1354-f1bd-d119-a1198d06b744" source="" timestamp="1775179755">
+ <Files>
+  <File path="backrooms.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Textures/backrooms/wallpaper/wallpaper_color.dds</Path>
+  <Path usageCount="1">Textures/backrooms/wallpaper/wallpaper_ddna.dds</Path>
+  <Path usageCount="1">Textures/backrooms/carpet/carpet_color.dds</Path>
+  <Path usageCount="1">Textures/backrooms/carpet/carpet_ddna.dds</Path>
+  <Path usageCount="1">Textures/backrooms/ceiling_tiles/ceiling_tiles_color.dds</Path>
+  <Path usageCount="1">Textures/backrooms/ceiling_tiles/ceiling_tiles_ddna.dds</Path>
+  <Path usageCount="1">Textures/backrooms/pool_tiles/pool_tiles_color.dds</Path>
+  <Path usageCount="1">Textures/backrooms/pool_tiles/pool_tiles_ddna.dds</Path>
+  <Path usageCount="1">Textures/backrooms/pool_tiles/pool_tiles_height.dds</Path>
+ </Dependencies>
+</AssetMetadata>

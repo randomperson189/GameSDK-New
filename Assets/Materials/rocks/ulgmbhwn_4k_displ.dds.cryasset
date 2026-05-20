@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="d707889b-7046-ba0c-de17-7151c0fa7563" source="ulgmbhwn_4k_displ.tif">
+ <Files>
+  <File path="ulgmbhwn_4k_displ.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

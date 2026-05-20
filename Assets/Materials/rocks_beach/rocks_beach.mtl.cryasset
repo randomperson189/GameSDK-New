@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="c25ee578-5ee7-fa97-1b62-8b6273e29ec8" source="" timestamp="1777980874">
+ <Files>
+  <File path="rocks_beach.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wldgfhrlw_4k_albedo.dds</Path>
+  <Path usageCount="1">./wldgfhrlw_4k_ddna.dds</Path>
+  <Path usageCount="1">./wldgfhrlw_4k_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

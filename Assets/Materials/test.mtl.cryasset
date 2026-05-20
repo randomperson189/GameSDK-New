@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="ce5b3537-1732-2413-f80b-f4cd30abe8c8" source="" timestamp="1775179742">
+ <Files>
+  <File path="test.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Textures/backrooms/pool_tiles/pool_tiles_color.dds</Path>
+  <Path usageCount="1">Textures/backrooms/pool_tiles/pool_tiles_normal.dds</Path>
+  <Path usageCount="1">Textures/backrooms/pool_tiles/pool_tiles_height.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,11 @@
+<UIElements name="Menus">
+	<UIElement name="MainMenu" mouseevents="1" keyevents="1" cursor="1" controller_input="1">
+		<GFx file="Menus_Startmenu.gfx" layer="3">
+			<Constraints>
+				<Align mode="dynamic" valign="center" halign="center" scale="1" max="0"/>
+			</Constraints>
+		</GFx>
+	</UIElement>
+</UIElements>
+
+

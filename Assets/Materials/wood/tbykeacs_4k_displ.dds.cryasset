@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="fd6db650-a32e-6d26-a5ba-15ff0a5c55aa" source="tbykeacs_4k_displ.tif">
+ <Files>
+  <File path="tbykeacs_4k_displ.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

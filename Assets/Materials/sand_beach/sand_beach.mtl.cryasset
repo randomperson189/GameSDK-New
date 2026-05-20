@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="0d8fbb77-fe97-adee-fac4-51cbe50419e2" source="" timestamp="1778102122">
+ <Files>
+  <File path="sand_beach.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./tdsmeeko_4k_albedo.dds</Path>
+  <Path usageCount="1">./tdsmeeko_4k_ddna.dds</Path>
+  <Path usageCount="1">./tdsmeeko_4k_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,9 @@
+<AssetMetadata version="0" type="Material" guid="496c0b9e-f7b8-15fc-2b27-3ec9aa021d8c" timestamp="1763832189">
+ <Files>
+  <File path="testwater.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">0</Detail>
+ </Details>
+</AssetMetadata>

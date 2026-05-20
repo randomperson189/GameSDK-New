@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="82ec27b0-c9f9-92a3-47b8-42d241c2ca77" source="ulgmbhwn_4k_ddna.tif">
+ <Files>
+  <File path="ulgmbhwn_4k_ddna.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

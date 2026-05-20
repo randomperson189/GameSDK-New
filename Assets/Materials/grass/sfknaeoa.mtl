@@ -1,0 +1,14 @@
+<Material MtlFlags="526336" Shader="Terrain.Layer" GenMask="200208000020" StringGenMask="%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%TEMP_TERRAIN%USE_ORIGINAL_DIFFUSE_MAP" SurfaceType="" MatTemplate="" Diffuse="0.1274377,0.1274377,0.1274377" Specular="0.0069954102,0.0069954102,0.0069954102" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="./sfknaeoa_4k_albedo.dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.125" TileV="0.125"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="./sfknaeoa_4k_ddna.dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.125" TileV="0.125"/>
+  </Texture>
+  <Texture Map="Heightmap" File="./sfknaeoa_4k_displ.dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.125" TileV="0.125"/>
+  </Texture>
+ </Textures>
+ <PublicParams BlendFactor="0" BlendFalloff="1" HeightBias="0.40000001" NormalMapBumpiness="1" PomDisplacement="0.050000001" SelfShadowStrength="3"/>
+</Material>

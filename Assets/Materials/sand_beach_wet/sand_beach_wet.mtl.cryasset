@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="a0e1509a-25da-1950-4eab-4156a88c86dd" source="" timestamp="1778102100">
+ <Files>
+  <File path="sand_beach_wet.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./vd3lecfs_4k_albedo.dds</Path>
+  <Path usageCount="1">./vd3lecfs_4k_ddna.dds</Path>
+  <Path usageCount="1">./vd3lecfs_4k_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

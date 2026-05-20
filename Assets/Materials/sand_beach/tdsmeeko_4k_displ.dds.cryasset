@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="1d170cd2-0512-83a5-8c36-ec244f85d1a3" source="tdsmeeko_4k_displ.tif">
+ <Files>
+  <File path="tdsmeeko_4k_displ.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

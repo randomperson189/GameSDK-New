@@ -1,0 +1,6 @@
+<TimeOfDay Time="6.5004997" TimeStart="0" TimeEnd="24" TimeAnimSpeed="0">
+ <Presets>
+  <Preset Name="%ENGINE%/EngineAssets/Shading/default.env"/>
+  <Preset Name="Libs/environmentpresets/test.env" Default="1"/>
+ </Presets>
+</TimeOfDay>

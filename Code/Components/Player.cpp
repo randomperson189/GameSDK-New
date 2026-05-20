@@ -54,6 +54,12 @@ namespace
 				componentScope.Register(pFunction);
 			}
 
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::IsLocalClient, "{29F94FB6-54BD-4E10-AB93-2B87EA095D0D}"_cry_guid, "Is Local Client");
+				pFunction->BindOutput(0, 'ilc', "Is Local Client", "Is Local Client");
+				componentScope.Register(pFunction);
+			}
+
 			// These are here just for reference since you can get reflected component variables in Schematyc by default
 			/*{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetMoveSpeed, "{0761CED9-067F-4C04-8E7F-170E0F5CFE66}"_cry_guid, "Get Move Speed");
@@ -78,6 +84,7 @@ namespace
 			}*/
 
 			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CPlayerComponent::SInitializeLocalPlayer));
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CPlayerComponent::SRevive));
 		}
 	}
 
@@ -88,6 +95,12 @@ static void ReflectType(Schematyc::CTypeDesc<CPlayerComponent::SInitializeLocalP
 {
 	desc.SetGUID("{A0411357-E8B6-4BDC-AF4F-DF49263897DF}"_cry_guid);
 	desc.SetLabel("Initialize Local Player");
+}
+
+static void ReflectType(Schematyc::CTypeDesc<CPlayerComponent::SRevive>& desc)
+{
+	desc.SetGUID("{7297C852-9EB8-4530-A7AD-E81D1BBFA16A}"_cry_guid);
+	desc.SetLabel("Revive");
 }
 
 void CPlayerComponent::Initialize()
@@ -648,6 +661,12 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 	{
 		// Cache the camera joint id so that we don't need to look it up every frame in UpdateView
 		m_cameraJointId = pCharacter->GetIDefaultSkeleton().GetJointIDByName("head");
+	}
+
+	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
+	{
+		// Our player has revived, call the Schematyc signal for it now
+		m_pEntity->GetSchematycObject()->ProcessSignal(SRevive(), GetGUID());
 	}
 }
 

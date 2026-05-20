@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="385ed85d-027f-a843-42ec-6174c3279917" timestamp="1765647462">
+ <Files>
+  <File path="monster.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Textures/monster/kami2kd001.dds</Path>
+  <Path usageCount="1">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>
