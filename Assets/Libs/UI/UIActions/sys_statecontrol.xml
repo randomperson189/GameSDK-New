@@ -27,6 +27,15 @@
   <Node Id="11" Class="UI:Display:Display" pos="378,324,0">
    <Inputs uiElements_Element="MainMenu" instanceID="-1"/>
   </Node>
+  <Node Id="15" Class="UI:Functions:MainMenu:showLoader" pos="864,324,0">
+   <Inputs instanceID="-1"/>
+  </Node>
+  <Node Id="16" Class="UI:Events:System:OnLoadingComplete" pos="-324,936,0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="17" Class="UI:Display:Display" pos="396,792,0">
+   <Inputs uiElements_Element="MainMenu" instanceID="-1"/>
+  </Node>
  </Nodes>
  <Edges>
   <Edge nodeIn="4" nodeOut="1" portIn="in1" portOut="onEvent" enabled="1"/>
@@ -35,6 +44,9 @@
   <Edge nodeIn="4" nodeOut="6" portIn="in3" portOut="onEvent" enabled="1"/>
   <Edge nodeIn="10" nodeOut="7" portIn="in1" portOut="onEvent" enabled="1"/>
   <Edge nodeIn="10" nodeOut="8" portIn="in2" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="10" portIn="show" portOut="out" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="11" portIn="Call" portOut="onShow" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="16" portIn="unload" portOut="onEvent" enabled="1"/>
  </Edges>
  <GraphTokens />
 </Graph>

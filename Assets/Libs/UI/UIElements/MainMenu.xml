@@ -5,6 +5,11 @@
 				<Align mode="dynamic" valign="center" halign="center" scale="1" max="0"/>
 			</Constraints>
 		</GFx>
+		<functions>
+			<!-- loadingScreen -->
+			<function name="showLoader" funcname="show_loader" desc="Show Loading Screen"/>
+			<function name="hideLoader" funcname="hide_loader" desc="Hide Loading Screen"/>
+		</functions>
 	</UIElement>
 </UIElements>
 
