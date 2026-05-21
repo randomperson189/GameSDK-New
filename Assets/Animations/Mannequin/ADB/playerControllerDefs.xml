@@ -1,0 +1,38 @@
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/playerTags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/playerActions.xml"/>
+ <FragmentDefs>
+  <FPMovement scopes="Motion1P"/>
+  <MotionIdle scopes="FullBody1P+Torso1P+Motion1P+Sway1P+GroundAlignment1P+FullBody3P+AimPose+Torso3P+GroundAlignment3P+Weapon+WeaponForceFeedback+Audio1+Audio2+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
+  <IdlePose scopes="FullBody1P"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <Char1P />
+  <Char3P />
+  <Weapon />
+  <Audio />
+  <attachment_top />
+  <attachment_bottom />
+  <SlaveChar />
+  <SlaveObject />
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <FullBody1P layer="0" numLayers="3" context="Char1P"/>
+  <Torso1P layer="10" numLayers="3" context="Char1P"/>
+  <Motion1P layer="4" numLayers="1" context="Char1P"/>
+  <Sway1P layer="5" numLayers="4" context="Char1P"/>
+  <GroundAlignment1P layer="13" numLayers="1" context="Char1P"/>
+  <FullBody3P layer="0" numLayers="3" context="Char3P"/>
+  <AimPose layer="4" numLayers="2" context="Char3P"/>
+  <Torso3P layer="9" numLayers="3" context="Char3P"/>
+  <GroundAlignment3P layer="13" numLayers="1" context="Char3P"/>
+  <Weapon layer="0" numLayers="3" context="Weapon"/>
+  <WeaponForceFeedback layer="0" numLayers="0" context="Weapon"/>
+  <Audio1 layer="0" numLayers="0" context="Audio"/>
+  <Audio2 layer="0" numLayers="0" context="Audio"/>
+  <AttachmentTop layer="0" numLayers="3" context="attachment_top"/>
+  <AttachmentBottom layer="0" numLayers="3" context="attachment_bottom"/>
+  <SlaveChar layer="0" numLayers="3" context="SlaveChar"/>
+  <SlaveObject layer="0" numLayers="3" context="SlaveObject"/>
+ </ScopeDefs>
+</ControllerDef>

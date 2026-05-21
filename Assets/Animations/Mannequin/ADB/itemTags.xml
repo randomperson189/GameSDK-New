@@ -1,0 +1,43 @@
+<TagDefinition version="2">
+ <Tags>
+  <Group name="item">
+   <Tag name="noItem"/>
+   <Tag name="SDKRifle"/>
+   <Tag name="SDKPistol"/>
+   <Tag name="SDKGrenade"/>
+   <Tag name="pick1h"/>
+   <Tag name="pick2h"/>
+   <Tag name="SDKShotgun"/>
+   <Tag name="SDKRocketLauncher"/>
+   <Tag name="SDKHMG"/>
+   <Tag name="SDKC4"/>
+  </Group>
+  <Group name="weaponType">
+   <Tag name="nw"/>
+   <Tag name="grenade"/>
+   <Tag name="rifle"/>
+   <Tag name="pistol"/>
+   <Tag name="shotgun"/>
+   <Tag name="rocket"/>
+   <Tag name="heavy"/>
+  </Group>
+  <Group name="firemode">
+   <Tag name="rapid" priority="1"/>
+   <Tag name="single"/>
+   <Tag name="burst" priority="1"/>
+   <Tag name="gren" priority="1"/>
+  </Group>
+  <Group name="playMode">
+   <Tag name="MP"/>
+   <Tag name="SP"/>
+  </Group>
+  <Group name="barrel_attachment">
+   <Tag name="silencer" priority="1"/>
+  </Group>
+  <Group name="mountedWeapons">
+   <Tag name="weaponMounted"/>
+   <Tag name="weaponDetached"/>
+  </Group>
+  <Tag name="FP"/>
+ </Tags>
+</TagDefinition>

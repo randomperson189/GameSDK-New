@@ -1,5 +1,41 @@
 <TagDefinition version="2">
+ <Imports>
+  <Import filename="Animations/Mannequin/ADB/itemTags.xml"/>
+ </Imports>
  <Tags>
-  <Tag name="Rotate"/>
+  <Group name="stance">
+   <Tag name="crouch" priority="10"/>
+   <Tag name="jump" priority="10"/>
+   <Tag name="swim" priority="10"/>
+   <Tag name="underwater" priority="10"/>
+  </Group>
+  <Group name="zoom">
+   <Tag name="shoulder"/>
+   <Tag name="iron"/>
+   <Tag name="reflex"/>
+   <Tag name="assault"/>
+   <Tag name="sniper"/>
+  </Group>
+  <Group name="gamemode">
+   <Tag name="tick" priority="1"/>
+   <Tag name="flag" priority="1"/>
+  </Group>
+  <Group name="moveDir">
+   <Tag name="forward"/>
+   <Tag name="backward"/>
+   <Tag name="left"/>
+   <Tag name="right"/>
+  </Group>
+  <Group name="moveSpeed">
+   <Tag name="move"/>
+   <Tag name="sprint"/>
+  </Group>
+  <Tag name="aiming"/>
+  <Tag name="throwing"/>
+  <Tag name="outOfAmmo" priority="1"/>
+  <Tag name="slave"/>
+  <Tag name="slaveHuman"/>
+  <Tag name="localClient"/>
+  <Tag name="forceFeedback" priority="2"/>
  </Tags>
 </TagDefinition>

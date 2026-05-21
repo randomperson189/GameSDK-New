@@ -24,11 +24,11 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="-5" y="-35"/>
+      <pos x="1530" y="465"/>
       <nodes>
        <element key="f998925a-d192-40db-8c0c-61b6f2c7a39c" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="f998925a-d192-40db-8c0c-61b6f2c7a39c" objectGUID="">
-         <pos x="-33" y="808.5"/>
+         <pos x="-33" y="808"/>
          <signalId domain="Env" guid="b2561caa-0753-458b-a91f-e8e38b0f0cdf"/>
         </value>
        </element>
@@ -79,6 +79,20 @@
          </inputs>
         </value>
        </element>
+       <element key="ebaf9364-fcfe-4379-b684-c1a39a3643bd" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="ebaf9364-fcfe-4379-b684-c1a39a3643bd" objectGUID="89784630-c3af-4a6f-bdb3-7f72a04626b2">
+         <pos x="1227" y="386"/>
+         <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
+         <inputs>
+          <element value="true">
+           <key type="UInt32" value="7562612"/>
+          </element>
+          <element value="SDKPistol">
+           <key type="UInt32" value="1952540526"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
        <element key="fec91df6-18ab-461d-985a-cfb70a0586c4" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="fec91df6-18ab-461d-985a-cfb70a0586c4" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
          <pos x="528" y="-312"/>
@@ -105,6 +119,20 @@
         <value guid="a8807aea-755a-4889-8523-9cb918bfceb4" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
          <pos x="263" y="464"/>
          <functionId domain="Env" guid="29f94fb6-54bd-4e10-ab93-2b87ea095d0d"/>
+        </value>
+       </element>
+       <element key="69e59c99-18e2-48a9-a7b4-379d1d29560b" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="69e59c99-18e2-48a9-a7b4-379d1d29560b" objectGUID="be818e39-4e83-4160-9e1b-54e9ded4ef74">
+         <pos x="948" y="389"/>
+         <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
+         <inputs>
+          <element value="true">
+           <key type="UInt32" value="7562612"/>
+          </element>
+          <element value="SDKPistol">
+           <key type="UInt32" value="1952540526"/>
+          </element>
+         </inputs>
         </value>
        </element>
        <element key="c220eeb1-43b9-4ac6-86d9-45bc5a830e9f" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
@@ -135,7 +163,7 @@
        </element>
        <element key="f98a314f-2c93-4b10-a9dc-504b805df9fa" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="f98a314f-2c93-4b10-a9dc-504b805df9fa" objectGUID="">
-         <pos x="-32" y="668.5"/>
+         <pos x="-32" y="668"/>
          <signalId domain="Env" guid="52ad5add-7781-429b-b4a9-0cb6c905e353"/>
         </value>
        </element>
@@ -232,6 +260,14 @@
         <srcOutputId type="Idx" value="0"/>
         <dstInputId type="Idx" value="0"/>
        </element>
+       <element srcNodeGUID="a7f36dfb-5667-4cee-ab37-5eab2d3a9d02" dstNodeGUID="69e59c99-18e2-48a9-a7b4-379d1d29560b">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="69e59c99-18e2-48a9-a7b4-379d1d29560b" dstNodeGUID="ebaf9364-fcfe-4379-b684-c1a39a3643bd">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
       </links>
      </Graph>
     </extensions>
@@ -270,7 +306,7 @@
       <element element="1"/>
      </scale>
     </transform>
-    <properties Type="RenderAndCollider" Character="Objects/Characters/human/sdk_player/sdk_player.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/ThirdPerson.adb" ControllerDefPath="Animations/Mannequin/ADB/FirstPersonControllerDefinition.xml" DefaultScope="ThirdPersonCharacter" DefaultFragment="Idle" AnimDriven="true" GroundAlign="true">
+    <properties Type="RenderAndCollider" Character="Objects/Characters/human/sdk_player/sdk_player.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/playerAnims3P.adb" ControllerDefPath="Animations/Mannequin/ADB/playerControllerDefs.xml" DefaultScope="Char3P" DefaultFragment="MotionIdle" AnimDriven="true" GroundAlign="true">
      <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
      <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
     </properties>
@@ -282,11 +318,11 @@
      <translation>
       <position>
        <element element="0"/>
-       <element element="0.31309825"/>
-       <element element="1.5813843"/>
+       <element element="0.017245047"/>
+       <element element="1.7496033"/>
       </position>
      </translation>
-     <rotation x="-56.608414" y="-0" z="-0"/>
+     <rotation x="-2.6357784" y="-0" z="-0"/>
      <scale>
       <element element="1"/>
       <element element="1"/>
@@ -339,18 +375,18 @@
      <translation>
       <position>
        <element element="0"/>
-       <element element="-1.0436609"/>
-       <element element="0.68705225"/>
+       <element element="-0.25727192"/>
+       <element element="0.13551974"/>
       </position>
      </translation>
-     <rotation x="-56.608414" y="-0" z="-0"/>
+     <rotation x="-2.6357784" y="-0" z="-0"/>
      <scale>
       <element element="1"/>
       <element element="1"/>
       <element element="1"/>
      </scale>
     </transform>
-    <properties Type="None" Character="Objects/Characters/human/sdk_player/sdk_player.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/FirstPerson.adb" ControllerDefPath="Animations/Mannequin/ADB/FirstPersonControllerDefinition.xml" DefaultScope="FirstPersonCharacter" DefaultFragment="Idle" AnimDriven="true" GroundAlign="false">
+    <properties Type="None" Character="Objects/Characters/human/sdk_player/sdk_player.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/playerAnims1P.adb" ControllerDefPath="Animations/Mannequin/ADB/playerControllerDefs.xml" DefaultScope="Char1P" DefaultFragment="IdlePose" AnimDriven="true" GroundAlign="false">
      <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
      <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
     </properties>
