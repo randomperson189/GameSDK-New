@@ -5,7 +5,11 @@
 #include <CryEntitySystem/IEntityClass.h>
 #include <CryNetwork/INetwork.h>
 
+#include "GameCVars.h"
+
 class CPlayerComponent;
+
+struct SCVars;
 
 // The entry-point of the application
 // An instance of CGamePlugin is automatically created when the library is loaded
@@ -60,7 +64,11 @@ public:
 		return cryinterface_cast<CGamePlugin>(CGamePlugin::s_factory.CreateClassInstance().get());
 	}
 
+	ILINE SCVars* GetCVars() { return m_pCVars; }
+
 protected:
 	// Map containing player components, key is the channel id received in OnClientConnectionReceived
 	std::unordered_map<int, EntityId> m_players;
+
+	SCVars* m_pCVars;
 };

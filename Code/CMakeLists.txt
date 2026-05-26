@@ -17,10 +17,12 @@ sources_platform(ALL)
 add_sources("Code_uber.cpp"
     PROJECTS GameSDK-New
     SOURCE_GROUP "Root"
+		"GameCVars.cpp"
 		"GamePlugin.cpp"
 		"ProceduralClipRagdoll.cpp"
 		"ProceduralContextRagdoll.cpp"
 		"StdAfx.cpp"
+		"GameCVars.h"
 		"GamePlugin.h"
 		"ProceduralContextRagdoll.h"
 		"StdAfx.h"

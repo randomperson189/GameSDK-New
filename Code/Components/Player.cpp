@@ -161,9 +161,9 @@ void CPlayerComponent::InitializeLocalPlayer()
 	{
 		if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 		{
-			pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
+			/*pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
 			pAttachmentMgr->GetInterfaceByName("jacket")->HideAttachment(1);
-			pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(1);
+			pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(1);*/
 			pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(1);
 		}
 	}
@@ -176,6 +176,21 @@ void CPlayerComponent::InitializeLocalPlayer()
 			pAttachmentMgr->GetInterfaceByName("shoes")->HideAttachment(1);
 		}
 	}
+
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 0, 0.0f);
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 1, 0.0f);
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 2, 0.0f);
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 3, 0.0f);
+
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 0, 0.0f);
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 1, 0.0f);
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 2, 0.0f);
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 3, 0.0f);
+
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 0, 0.0f);
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 1, 0.0f);
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 2, 0.0f);
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 3, 0.0f);
 
 	// Create the camera component, will automatically update the viewport every frame
 	m_pCameraComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CCameraComponent>();
@@ -492,7 +507,7 @@ void CPlayerComponent::Jump()
 
 void CPlayerComponent::Shoot()
 {
-	if (ICharacterInstance *pCharacter = m_pAnimationComponent->GetCharacter())
+	if (ICharacterInstance *pCharacter = m_pAnimationComponent2->GetCharacter())
 	{
 		IAttachment* pBarrelOutAttachment = pCharacter->GetIAttachmentManager()->GetInterfaceByName("barrel_out");
 
@@ -563,6 +578,31 @@ void CPlayerComponent::GetRotationLimits(float& minPitch, float& maxPitch)
 float CPlayerComponent::GetJumpHeight()
 {
 	return m_jumpHeight;
+}
+
+void CPlayerComponent::SetAttachmentOpacity(ICharacterInstance* character, Schematyc::CSharedString attachmentName, int materialIndex, float opacity)
+{
+	IMaterial* m_pMaterial;
+	IMaterial* pMaterial;
+
+	// Try to get replacement material first (defined in cdf), if it doesn't exist then get the model's one
+	if (IMaterial* test = character->GetIAttachmentManager()->GetInterfaceByName(attachmentName.c_str())->GetIAttachmentObject()->GetReplacementMaterial())
+		pMaterial = test;
+	else if (IMaterial* test = character->GetIAttachmentManager()->GetInterfaceByName(attachmentName.c_str())->GetIAttachmentSkin()->GetISkin()->GetIMaterial(0))
+		pMaterial = test;
+
+	//CryLogAlways("Material is %s", pMaterial->GetName());
+
+	m_pMaterial = gEnv->p3DEngine->GetMaterialManager()->CloneMaterial(pMaterial); // One way of doing it
+
+	gEnv->p3DEngine->GetMaterialManager()->CopyMaterial(pMaterial, m_pMaterial, EMaterialCopyFlags::MTL_COPY_DEFAULT); // We can also copy the material and store it, pMaterial is material we want to copy, and m_pMaterial is now the copy of it
+
+	float newAlpha = opacity;
+
+	// apply changes
+	m_pMaterial->GetSubMtl(materialIndex)->SetGetMaterialParamFloat("opacity", newAlpha, false);
+
+	character->GetIAttachmentManager()->GetInterfaceByName(attachmentName.c_str())->GetIAttachmentObject()->SetReplacementMaterial(m_pMaterial);
 }
 
 void CPlayerComponent::OnReadyForGameplayOnServer()

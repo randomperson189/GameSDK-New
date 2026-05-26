@@ -209,6 +209,7 @@ protected:
 public:
 	void Jump();
 	void Shoot();
+	void SetAttachmentOpacity(ICharacterInstance* character, Schematyc::CSharedString attachmentName, int materialIndex, float opacity);
 
 	bool IsSwimming();
 

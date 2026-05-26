@@ -14,6 +14,8 @@
 // Included only once per DLL module.
 #include <CryCore/Platform/platform_impl.inl>
 
+SCVars* g_pGameCVars = 0;
+
 CGamePlugin::~CGamePlugin()
 {
 	// Remove any registered listeners before 'this' becomes invalid
@@ -34,6 +36,11 @@ bool CGamePlugin::Initialize(SSystemGlobalEnvironment& env, const SSystemInitPar
 {
 	// Register for engine system events, in our case we need ESYSTEM_EVENT_GAME_POST_INIT to load the map
 	gEnv->pSystem->GetISystemEventDispatcher()->RegisterListener(this, "CGamePlugin");
+
+	// Initialize game CVars and set global pointer
+	m_pCVars = new SCVars();
+	g_pGameCVars = m_pCVars;
+	m_pCVars->InitCVars(gEnv->pConsole);
 	
 	return true;
 }
