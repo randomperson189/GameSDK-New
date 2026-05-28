@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="b61ba64b-b3b2-476a-03fe-6de81040fc43">
+ <Files>
+  <File path="orbs_lamp3.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

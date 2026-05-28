@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="4b394619-602f-1942-8ab5-2a845d04d0b3">
+ <Files>
+  <File path="scratched_metal_sheet_ddna.dds"/>
+  <File path="scratched_metal_sheet_ddna.dds.a"/>
+  <File path="scratched_metal_sheet_ddna.dds.1"/>
+  <File path="scratched_metal_sheet_ddna.dds.1a"/>
+  <File path="scratched_metal_sheet_ddna.dds.2"/>
+  <File path="scratched_metal_sheet_ddna.dds.2a"/>
+  <File path="scratched_metal_sheet_ddna.dds.3"/>
+  <File path="scratched_metal_sheet_ddna.dds.3a"/>
+  <File path="scratched_metal_sheet_ddna.dds.4"/>
+  <File path="scratched_metal_sheet_ddna.dds.4a"/>
+  <File path="scratched_metal_sheet_ddna.dds.5"/>
+  <File path="scratched_metal_sheet_ddna.dds.5a"/>
+  <File path="scratched_metal_sheet_ddna.dds.6"/>
+  <File path="scratched_metal_sheet_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

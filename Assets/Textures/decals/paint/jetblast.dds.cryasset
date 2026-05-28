@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="6bec8dcb-e4e3-3d35-29cb-54eaab6d2136">
+ <Files>
+  <File path="jetblast.dds"/>
+  <File path="jetblast.dds.1"/>
+  <File path="jetblast.dds.2"/>
+  <File path="jetblast.dds.3"/>
+  <File path="jetblast.dds.4"/>
+  <File path="jetblast.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

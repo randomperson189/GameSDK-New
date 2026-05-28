@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="857a69fc-30ab-59ed-01c1-1f57ffc04c3d">
+ <Files>
+  <File path="glass_hex_ddn.dds"/>
+  <File path="glass_hex_ddn.dds.1"/>
+  <File path="glass_hex_ddn.dds.2"/>
+  <File path="glass_hex_ddn.dds.3"/>
+  <File path="glass_hex_ddn.dds.4"/>
+  <File path="glass_hex_ddn.dds.5"/>
+  <File path="glass_hex_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

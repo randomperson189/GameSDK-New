@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="fb68d5c9-35a0-4f6e-4749-cb836a3a2bce">
+ <Files>
+  <File path="rough_sand_b_displ.dds"/>
+  <File path="rough_sand_b_displ.dds.1"/>
+  <File path="rough_sand_b_displ.dds.2"/>
+  <File path="rough_sand_b_displ.dds.3"/>
+  <File path="rough_sand_b_displ.dds.4"/>
+  <File path="rough_sand_b_displ.dds.5"/>
+  <File path="rough_sand_b_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

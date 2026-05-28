@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="6d454fbc-e9f9-f8b5-5986-379ecf6771dd">
+ <Files>
+  <File path="underwater_tiled_a.dds"/>
+  <File path="underwater_tiled_a.dds.1"/>
+  <File path="underwater_tiled_a.dds.2"/>
+  <File path="underwater_tiled_a.dds.3"/>
+  <File path="underwater_tiled_a.dds.4"/>
+  <File path="underwater_tiled_a.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

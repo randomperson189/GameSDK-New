@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="94419c4a-a460-4053-6256-c934e798d984">
+ <Files>
+  <File path="generic_cubemap_night_cm_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

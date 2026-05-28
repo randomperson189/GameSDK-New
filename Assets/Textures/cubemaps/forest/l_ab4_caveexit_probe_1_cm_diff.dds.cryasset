@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="daf2c9e5-775e-9ad9-5ba3-cc4a739a416c">
+ <Files>
+  <File path="l_ab4_caveexit_probe_1_cm_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

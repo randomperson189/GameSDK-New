@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="54f358fe-bcb1-60ee-9408-d32ab9053bd2">
+ <Files>
+  <File path="daub_rough_wood_mask.dds"/>
+  <File path="daub_rough_wood_mask.dds.1"/>
+  <File path="daub_rough_wood_mask.dds.2"/>
+  <File path="daub_rough_wood_mask.dds.3"/>
+  <File path="daub_rough_wood_mask.dds.4"/>
+  <File path="daub_rough_wood_mask.dds.5"/>
+  <File path="daub_rough_wood_mask.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

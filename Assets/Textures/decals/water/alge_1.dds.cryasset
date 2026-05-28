@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ee57e71f-1e03-a630-8542-919a32cca6cd">
+ <Files>
+  <File path="alge_1.dds"/>
+  <File path="alge_1.dds.1"/>
+  <File path="alge_1.dds.2"/>
+  <File path="alge_1.dds.3"/>
+  <File path="alge_1.dds.4"/>
+  <File path="alge_1.dds.5"/>
+  <File path="alge_1.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="5c7b7d01-4e6d-fe60-ae01-5f6b25aea183">
+ <Files>
+  <File path="cloud_dense3_distant.dds"/>
+  <File path="cloud_dense3_distant.dds.1"/>
+  <File path="cloud_dense3_distant.dds.2"/>
+  <File path="cloud_dense3_distant.dds.3"/>
+  <File path="cloud_dense3_distant.dds.4"/>
+  <File path="cloud_dense3_distant.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

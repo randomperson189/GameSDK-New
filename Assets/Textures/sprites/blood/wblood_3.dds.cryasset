@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="776f03ad-55e1-ad05-4b19-1035b951586a">
+ <Files>
+  <File path="wblood_3.dds"/>
+  <File path="wblood_3.dds.1"/>
+  <File path="wblood_3.dds.2"/>
+  <File path="wblood_3.dds.3"/>
+  <File path="wblood_3.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

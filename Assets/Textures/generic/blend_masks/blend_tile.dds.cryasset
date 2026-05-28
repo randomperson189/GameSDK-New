@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="48911705-78a4-ce12-9a4f-18bebd0d7a1e">
+ <Files>
+  <File path="blend_tile.dds"/>
+  <File path="blend_tile.dds.1"/>
+  <File path="blend_tile.dds.2"/>
+  <File path="blend_tile.dds.3"/>
+  <File path="blend_tile.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

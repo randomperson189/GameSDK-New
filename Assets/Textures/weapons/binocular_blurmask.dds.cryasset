@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="274689c0-9d2c-b3dc-c9e4-2337c2bfec7b">
+ <Files>
+  <File path="binocular_blurmask.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

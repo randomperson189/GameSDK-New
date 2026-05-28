@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="6b4e8d1b-82a4-51f2-9335-b7f073c68361">
+ <Files>
+  <File path="refraction_a_ddn.dds"/>
+  <File path="refraction_a_ddn.dds.1"/>
+  <File path="refraction_a_ddn.dds.2"/>
+  <File path="refraction_a_ddn.dds.3"/>
+  <File path="refraction_a_ddn.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

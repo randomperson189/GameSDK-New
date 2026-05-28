@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="63c2b643-99d9-c1e4-d98f-7181e4b01756">
+ <Files>
+  <File path="defaultnouvs.dds"/>
+  <File path="defaultnouvs.dds.1"/>
+  <File path="defaultnouvs.dds.2"/>
+  <File path="defaultnouvs.dds.3"/>
+  <File path="defaultnouvs.dds.4"/>
+  <File path="defaultnouvs.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

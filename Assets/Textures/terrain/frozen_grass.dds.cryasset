@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="42caf194-7d1b-6390-ce4b-3156bb3ddeb2">
+ <Files>
+  <File path="frozen_grass.dds"/>
+  <File path="frozen_grass.dds.1"/>
+  <File path="frozen_grass.dds.2"/>
+  <File path="frozen_grass.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="2a0e5563-7ea8-b39a-3eec-d76b5b7827f5">
+ <Files>
+  <File path="lamp1vertical.dds"/>
+  <File path="lamp1vertical.dds.1"/>
+  <File path="lamp1vertical.dds.2"/>
+  <File path="lamp1vertical.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

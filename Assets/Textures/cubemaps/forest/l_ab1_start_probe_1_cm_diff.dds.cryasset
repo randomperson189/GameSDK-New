@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="bb3ce29e-fd3f-f606-bb43-26992c50d76c">
+ <Files>
+  <File path="l_ab1_start_probe_1_cm_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

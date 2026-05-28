@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ee756fb4-dc54-63eb-7681-e2a5af9469b2">
+ <Files>
+  <File path="hull_blend_rust_spec.dds"/>
+  <File path="hull_blend_rust_spec.dds.1"/>
+  <File path="hull_blend_rust_spec.dds.2"/>
+  <File path="hull_blend_rust_spec.dds.3"/>
+  <File path="hull_blend_rust_spec.dds.4"/>
+  <File path="hull_blend_rust_spec.dds.5"/>
+  <File path="hull_blend_rust_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

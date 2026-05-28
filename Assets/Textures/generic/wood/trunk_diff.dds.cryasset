@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="23894368-3b13-fda8-74e0-df214ceb99ba">
+ <Files>
+  <File path="trunk_diff.dds"/>
+  <File path="trunk_diff.dds.1"/>
+  <File path="trunk_diff.dds.2"/>
+  <File path="trunk_diff.dds.3"/>
+  <File path="trunk_diff.dds.4"/>
+  <File path="trunk_diff.dds.5"/>
+  <File path="trunk_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

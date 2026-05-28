@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="9ba99eae-31e6-70ad-8ba2-f4962dec3cf5">
+ <Files>
+  <File path="cliff_next_to_ocean_ddna.dds"/>
+  <File path="cliff_next_to_ocean_ddna.dds.a"/>
+  <File path="cliff_next_to_ocean_ddna.dds.1"/>
+  <File path="cliff_next_to_ocean_ddna.dds.1a"/>
+  <File path="cliff_next_to_ocean_ddna.dds.2"/>
+  <File path="cliff_next_to_ocean_ddna.dds.2a"/>
+  <File path="cliff_next_to_ocean_ddna.dds.3"/>
+  <File path="cliff_next_to_ocean_ddna.dds.3a"/>
+  <File path="cliff_next_to_ocean_ddna.dds.4"/>
+  <File path="cliff_next_to_ocean_ddna.dds.4a"/>
+  <File path="cliff_next_to_ocean_ddna.dds.5"/>
+  <File path="cliff_next_to_ocean_ddna.dds.5a"/>
+  <File path="cliff_next_to_ocean_ddna.dds.6"/>
+  <File path="cliff_next_to_ocean_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="794ec51f-b39c-2b86-975c-5a6e0d0859b9">
+ <Files>
+  <File path="river_pepples_no_water.dds"/>
+  <File path="river_pepples_no_water.dds.1"/>
+  <File path="river_pepples_no_water.dds.2"/>
+  <File path="river_pepples_no_water.dds.3"/>
+  <File path="river_pepples_no_water.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

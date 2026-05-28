@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="a39545e2-f17b-9c32-7ba4-6ae452be60f1">
+ <Files>
+  <File path="cardboard.dds"/>
+  <File path="cardboard.dds.1"/>
+  <File path="cardboard.dds.2"/>
+  <File path="cardboard.dds.3"/>
+  <File path="cardboard.dds.4"/>
+  <File path="cardboard.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

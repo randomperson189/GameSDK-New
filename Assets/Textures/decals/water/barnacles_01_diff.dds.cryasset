@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="13c62244-afec-6762-77aa-6c1dd1d3d31a">
+ <Files>
+  <File path="barnacles_01_diff.dds"/>
+  <File path="barnacles_01_diff.dds.1"/>
+  <File path="barnacles_01_diff.dds.2"/>
+  <File path="barnacles_01_diff.dds.3"/>
+  <File path="barnacles_01_diff.dds.4"/>
+  <File path="barnacles_01_diff.dds.5"/>
+  <File path="barnacles_01_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

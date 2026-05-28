@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="cad74057-832b-99ae-23a8-696e70a4feed">
+ <Files>
+  <File path="chainmail_displ.dds"/>
+  <File path="chainmail_displ.dds.1"/>
+  <File path="chainmail_displ.dds.2"/>
+  <File path="chainmail_displ.dds.3"/>
+  <File path="chainmail_displ.dds.4"/>
+  <File path="chainmail_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

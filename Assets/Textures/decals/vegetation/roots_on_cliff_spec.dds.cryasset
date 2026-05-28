@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="5c226e2a-b821-7ed8-8bae-17b75211731c">
+ <Files>
+  <File path="roots_on_cliff_spec.dds"/>
+  <File path="roots_on_cliff_spec.dds.1"/>
+  <File path="roots_on_cliff_spec.dds.2"/>
+  <File path="roots_on_cliff_spec.dds.3"/>
+  <File path="roots_on_cliff_spec.dds.4"/>
+  <File path="roots_on_cliff_spec.dds.5"/>
+  <File path="roots_on_cliff_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

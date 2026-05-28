@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="40c40592-4aa7-b3f8-ffef-151cf4c44e17">
+ <Files>
+  <File path="cliff_next_to_ocean_displ.dds"/>
+  <File path="cliff_next_to_ocean_displ.dds.1"/>
+  <File path="cliff_next_to_ocean_displ.dds.2"/>
+  <File path="cliff_next_to_ocean_displ.dds.3"/>
+  <File path="cliff_next_to_ocean_displ.dds.4"/>
+  <File path="cliff_next_to_ocean_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="ee297cb3-31ec-bdc4-4398-10e77c42d271">
+ <Files>
+  <File path="oceanwaves_ddn.dds"/>
+  <File path="oceanwaves_ddn.dds.1"/>
+  <File path="oceanwaves_ddn.dds.2"/>
+  <File path="oceanwaves_ddn.dds.3"/>
+  <File path="oceanwaves_ddn.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

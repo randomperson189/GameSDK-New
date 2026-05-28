@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="c0be5f6f-cfc2-0f4f-f069-d746f94b781e">
+ <Files>
+  <File path="metal_beams_rusty_spec.dds"/>
+  <File path="metal_beams_rusty_spec.dds.1"/>
+  <File path="metal_beams_rusty_spec.dds.2"/>
+  <File path="metal_beams_rusty_spec.dds.3"/>
+  <File path="metal_beams_rusty_spec.dds.4"/>
+  <File path="metal_beams_rusty_spec.dds.5"/>
+  <File path="metal_beams_rusty_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

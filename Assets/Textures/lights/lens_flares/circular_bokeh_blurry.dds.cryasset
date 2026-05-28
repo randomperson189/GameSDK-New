@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="610da003-7605-636c-0ede-4e71089bacb0">
+ <Files>
+  <File path="circular_bokeh_blurry.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

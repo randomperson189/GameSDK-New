@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="d89f5613-28f0-be5e-57f2-06676fa12333">
+ <Files>
+  <File path="brick_large_worn_diff.dds"/>
+  <File path="brick_large_worn_diff.dds.1"/>
+  <File path="brick_large_worn_diff.dds.2"/>
+  <File path="brick_large_worn_diff.dds.3"/>
+  <File path="brick_large_worn_diff.dds.4"/>
+  <File path="brick_large_worn_diff.dds.5"/>
+  <File path="brick_large_worn_diff.dds.6"/>
+  <File path="brick_large_worn_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

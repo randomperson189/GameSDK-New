@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="6b3d0bcf-d403-c41e-afbd-5702e10adbfa">
+ <Files>
+  <File path="ruler_straightline_ddn.dds"/>
+  <File path="ruler_straightline_ddn.dds.1"/>
+  <File path="ruler_straightline_ddn.dds.2"/>
+  <File path="ruler_straightline_ddn.dds.3"/>
+  <File path="ruler_straightline_ddn.dds.4"/>
+  <File path="ruler_straightline_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

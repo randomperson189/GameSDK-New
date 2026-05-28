@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="54efa702-489e-fc31-5bf9-b158d20f8fab">
+ <Files>
+  <File path="copper_spec.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4</Detail>
+  <Detail name="height">4</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

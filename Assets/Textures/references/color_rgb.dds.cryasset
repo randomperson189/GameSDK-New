@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="b0e50b81-c3b2-9cd5-a7ab-ee74905cb0bd">
+ <Files>
+  <File path="color_rgb.dds"/>
+  <File path="color_rgb.dds.1"/>
+  <File path="color_rgb.dds.2"/>
+  <File path="color_rgb.dds.3"/>
+  <File path="color_rgb.dds.4"/>
+  <File path="color_rgb.dds.5"/>
+  <File path="color_rgb.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

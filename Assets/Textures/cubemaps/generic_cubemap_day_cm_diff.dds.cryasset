@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="aeb59832-5158-f55f-67b5-140296a6adff">
+ <Files>
+  <File path="generic_cubemap_day_cm_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

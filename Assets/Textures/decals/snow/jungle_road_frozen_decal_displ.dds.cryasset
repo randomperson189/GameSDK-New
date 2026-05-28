@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="03562b0b-cf94-6139-79ce-59a53be8b3cc">
+ <Files>
+  <File path="jungle_road_frozen_decal_displ.dds"/>
+  <File path="jungle_road_frozen_decal_displ.dds.1"/>
+  <File path="jungle_road_frozen_decal_displ.dds.2"/>
+  <File path="jungle_road_frozen_decal_displ.dds.3"/>
+  <File path="jungle_road_frozen_decal_displ.dds.4"/>
+  <File path="jungle_road_frozen_decal_displ.dds.5"/>
+  <File path="jungle_road_frozen_decal_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

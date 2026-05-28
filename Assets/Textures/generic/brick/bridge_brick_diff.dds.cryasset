@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="7b588a1c-ab3d-9fe8-8e96-ba7f7dd75d49">
+ <Files>
+  <File path="bridge_brick_diff.dds"/>
+  <File path="bridge_brick_diff.dds.1"/>
+  <File path="bridge_brick_diff.dds.2"/>
+  <File path="bridge_brick_diff.dds.3"/>
+  <File path="bridge_brick_diff.dds.4"/>
+  <File path="bridge_brick_diff.dds.5"/>
+  <File path="bridge_brick_diff.dds.6"/>
+  <File path="bridge_brick_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

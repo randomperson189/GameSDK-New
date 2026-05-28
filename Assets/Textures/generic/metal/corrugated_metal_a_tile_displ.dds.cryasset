@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="b482399a-2727-c1ad-1ed2-2432f3107875">
+ <Files>
+  <File path="corrugated_metal_a_tile_displ.dds"/>
+  <File path="corrugated_metal_a_tile_displ.dds.1"/>
+  <File path="corrugated_metal_a_tile_displ.dds.2"/>
+  <File path="corrugated_metal_a_tile_displ.dds.3"/>
+  <File path="corrugated_metal_a_tile_displ.dds.4"/>
+  <File path="corrugated_metal_a_tile_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

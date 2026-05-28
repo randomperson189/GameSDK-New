@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="cd0952e7-4edd-0f67-6270-a83bfbbc6007">
+ <Files>
+  <File path="burn_displ.dds"/>
+  <File path="burn_displ.dds.1"/>
+  <File path="burn_displ.dds.2"/>
+  <File path="burn_displ.dds.3"/>
+  <File path="burn_displ.dds.4"/>
+  <File path="burn_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

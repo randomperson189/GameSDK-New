@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="251bd953-5825-cb6f-3b60-64dbe1194f80">
+ <Files>
+  <File path="lens_flare2.dds"/>
+  <File path="lens_flare2.dds.a"/>
+  <File path="lens_flare2.dds.1"/>
+  <File path="lens_flare2.dds.1a"/>
+  <File path="lens_flare2.dds.2"/>
+  <File path="lens_flare2.dds.2a"/>
+  <File path="lens_flare2.dds.3"/>
+  <File path="lens_flare2.dds.3a"/>
+  <File path="lens_flare2.dds.4"/>
+  <File path="lens_flare2.dds.4a"/>
+  <File path="lens_flare2.dds.5"/>
+  <File path="lens_flare2.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

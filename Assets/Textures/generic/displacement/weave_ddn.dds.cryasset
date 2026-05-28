@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="cdcf53b9-9709-2b35-fced-25e16a390db4">
+ <Files>
+  <File path="weave_ddn.dds"/>
+  <File path="weave_ddn.dds.1"/>
+  <File path="weave_ddn.dds.2"/>
+  <File path="weave_ddn.dds.3"/>
+  <File path="weave_ddn.dds.4"/>
+  <File path="weave_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

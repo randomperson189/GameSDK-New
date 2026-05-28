@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="cea62f90-936e-4796-fe36-094d229d91a3">
+ <Files>
+  <File path="plaster_rough_stones_mask.dds"/>
+  <File path="plaster_rough_stones_mask.dds.1"/>
+  <File path="plaster_rough_stones_mask.dds.2"/>
+  <File path="plaster_rough_stones_mask.dds.3"/>
+  <File path="plaster_rough_stones_mask.dds.4"/>
+  <File path="plaster_rough_stones_mask.dds.5"/>
+  <File path="plaster_rough_stones_mask.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

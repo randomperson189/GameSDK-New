@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a406f4a5-4b70-860b-b180-799d5be6057d">
+ <Files>
+  <File path="metal_rusty_plane_spec.dds"/>
+  <File path="metal_rusty_plane_spec.dds.1"/>
+  <File path="metal_rusty_plane_spec.dds.2"/>
+  <File path="metal_rusty_plane_spec.dds.3"/>
+  <File path="metal_rusty_plane_spec.dds.4"/>
+  <File path="metal_rusty_plane_spec.dds.5"/>
+  <File path="metal_rusty_plane_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

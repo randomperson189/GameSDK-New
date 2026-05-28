@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="f4b1f22c-6b26-5778-deaf-f3586f137484">
+ <Files>
+  <File path="ruler_45_displ.dds"/>
+  <File path="ruler_45_displ.dds.1"/>
+  <File path="ruler_45_displ.dds.2"/>
+  <File path="ruler_45_displ.dds.3"/>
+  <File path="ruler_45_displ.dds.4"/>
+  <File path="ruler_45_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

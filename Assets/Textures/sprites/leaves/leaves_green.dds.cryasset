@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="4888d084-f38b-3c37-7063-f4037d8ee0a8">
+ <Files>
+  <File path="leaves_green.dds"/>
+  <File path="leaves_green.dds.1"/>
+  <File path="leaves_green.dds.2"/>
+  <File path="leaves_green.dds.3"/>
+  <File path="leaves_green.dds.4"/>
+  <File path="leaves_green.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

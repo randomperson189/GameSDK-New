@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a269fe8c-2b04-20b6-058f-1b32fb6f99fd">
+ <Files>
+  <File path="drain_spec.dds"/>
+  <File path="drain_spec.dds.1"/>
+  <File path="drain_spec.dds.2"/>
+  <File path="drain_spec.dds.3"/>
+  <File path="drain_spec.dds.4"/>
+  <File path="drain_spec.dds.5"/>
+  <File path="drain_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

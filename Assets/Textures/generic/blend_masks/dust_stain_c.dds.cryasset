@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="30e9d90d-2934-3dd3-93c5-bfa3805fc2ab">
+ <Files>
+  <File path="dust_stain_c.dds"/>
+  <File path="dust_stain_c.dds.1"/>
+  <File path="dust_stain_c.dds.2"/>
+  <File path="dust_stain_c.dds.3"/>
+  <File path="dust_stain_c.dds.4"/>
+  <File path="dust_stain_c.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

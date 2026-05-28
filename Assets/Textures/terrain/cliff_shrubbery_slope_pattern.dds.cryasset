@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="a7b9e412-0ced-5e5d-589a-4caf7d8ab9bf">
+ <Files>
+  <File path="cliff_shrubbery_slope_pattern.dds"/>
+  <File path="cliff_shrubbery_slope_pattern.dds.1"/>
+  <File path="cliff_shrubbery_slope_pattern.dds.2"/>
+  <File path="cliff_shrubbery_slope_pattern.dds.3"/>
+  <File path="cliff_shrubbery_slope_pattern.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

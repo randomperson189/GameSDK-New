@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="09bb1c14-93f1-bdca-63fb-b5bc14716ad8">
+ <Files>
+  <File path="snow02.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">32</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">4</Detail>
+ </Details>
+</AssetMetadata>

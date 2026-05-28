@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="d7ae30fb-b3ba-8fa5-06ae-5fe10846bae7">
+ <Files>
+  <File path="concrete_blend.dds"/>
+  <File path="concrete_blend.dds.1"/>
+  <File path="concrete_blend.dds.2"/>
+  <File path="concrete_blend.dds.3"/>
+  <File path="concrete_blend.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

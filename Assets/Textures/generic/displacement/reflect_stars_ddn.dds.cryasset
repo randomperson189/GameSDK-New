@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="a9e9f999-6177-8c1f-8cdd-08f8baa586d6">
+ <Files>
+  <File path="reflect_stars_ddn.dds"/>
+  <File path="reflect_stars_ddn.dds.1"/>
+  <File path="reflect_stars_ddn.dds.2"/>
+  <File path="reflect_stars_ddn.dds.3"/>
+  <File path="reflect_stars_ddn.dds.4"/>
+  <File path="reflect_stars_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="068dd374-2881-4ee9-3c41-11c187d8a227">
+ <Files>
+  <File path="heli_wake.dds"/>
+  <File path="heli_wake.dds.1"/>
+  <File path="heli_wake.dds.2"/>
+  <File path="heli_wake.dds.3"/>
+  <File path="heli_wake.dds.4"/>
+  <File path="heli_wake.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

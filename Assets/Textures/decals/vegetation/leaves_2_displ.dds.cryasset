@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="9d953891-3051-5603-4a89-b5ecc6ec040a">
+ <Files>
+  <File path="leaves_2_displ.dds"/>
+  <File path="leaves_2_displ.dds.1"/>
+  <File path="leaves_2_displ.dds.2"/>
+  <File path="leaves_2_displ.dds.3"/>
+  <File path="leaves_2_displ.dds.4"/>
+  <File path="leaves_2_displ.dds.5"/>
+  <File path="leaves_2_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

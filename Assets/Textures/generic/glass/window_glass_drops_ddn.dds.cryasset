@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="cace1ed2-a801-e94e-d1fa-4d964835cb8b">
+ <Files>
+  <File path="window_glass_drops_ddn.dds"/>
+  <File path="window_glass_drops_ddn.dds.1"/>
+  <File path="window_glass_drops_ddn.dds.2"/>
+  <File path="window_glass_drops_ddn.dds.3"/>
+  <File path="window_glass_drops_ddn.dds.4"/>
+  <File path="window_glass_drops_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

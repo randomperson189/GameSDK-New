@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="82686847-f61f-a8bc-e89e-f8fd081b5a94">
+ <Files>
+  <File path="brown_brick_large_ddna.dds"/>
+  <File path="brown_brick_large_ddna.dds.a"/>
+  <File path="brown_brick_large_ddna.dds.1"/>
+  <File path="brown_brick_large_ddna.dds.1a"/>
+  <File path="brown_brick_large_ddna.dds.2"/>
+  <File path="brown_brick_large_ddna.dds.2a"/>
+  <File path="brown_brick_large_ddna.dds.3"/>
+  <File path="brown_brick_large_ddna.dds.3a"/>
+  <File path="brown_brick_large_ddna.dds.4"/>
+  <File path="brown_brick_large_ddna.dds.4a"/>
+  <File path="brown_brick_large_ddna.dds.5"/>
+  <File path="brown_brick_large_ddna.dds.5a"/>
+  <File path="brown_brick_large_ddna.dds.6"/>
+  <File path="brown_brick_large_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

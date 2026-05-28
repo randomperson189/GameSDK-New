@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="3f14af73-0cd5-2329-6e7a-d48ff36997d6">
+ <Files>
+  <File path="tiretread_displ.dds"/>
+  <File path="tiretread_displ.dds.1"/>
+  <File path="tiretread_displ.dds.2"/>
+  <File path="tiretread_displ.dds.3"/>
+  <File path="tiretread_displ.dds.4"/>
+  <File path="tiretread_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="9115d24c-2030-86a2-d1f7-048ce1e26cf3">
+ <Files>
+  <File path="confetti_displ.dds"/>
+  <File path="confetti_displ.dds.1"/>
+  <File path="confetti_displ.dds.2"/>
+  <File path="confetti_displ.dds.3"/>
+  <File path="confetti_displ.dds.4"/>
+  <File path="confetti_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

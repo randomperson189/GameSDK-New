@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="83b10218-b2a1-7176-f215-f7cbeb3597a1">
+ <Files>
+  <File path="stripes_yellow_corner.dds"/>
+  <File path="stripes_yellow_corner.dds.1"/>
+  <File path="stripes_yellow_corner.dds.2"/>
+  <File path="stripes_yellow_corner.dds.3"/>
+  <File path="stripes_yellow_corner.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

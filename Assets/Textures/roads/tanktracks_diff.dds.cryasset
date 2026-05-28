@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="fd2714ae-b6ae-8dda-6471-a6ec7f77c01a">
+ <Files>
+  <File path="tanktracks_diff.dds"/>
+  <File path="tanktracks_diff.dds.1"/>
+  <File path="tanktracks_diff.dds.2"/>
+  <File path="tanktracks_diff.dds.3"/>
+  <File path="tanktracks_diff.dds.4"/>
+  <File path="tanktracks_diff.dds.5"/>
+  <File path="tanktracks_diff.dds.6"/>
+  <File path="tanktracks_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

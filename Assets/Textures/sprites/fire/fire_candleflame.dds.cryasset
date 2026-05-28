@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="73e256ee-cae7-194c-c3b5-1c15cd6d44f2">
+ <Files>
+  <File path="fire_candleflame.dds"/>
+  <File path="fire_candleflame.dds.1"/>
+  <File path="fire_candleflame.dds.2"/>
+  <File path="fire_candleflame.dds.3"/>
+  <File path="fire_candleflame.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

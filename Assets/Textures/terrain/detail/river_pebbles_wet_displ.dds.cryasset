@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="74c15d6a-90c5-6085-8360-b8436732a21c">
+ <Files>
+  <File path="river_pebbles_wet_displ.dds"/>
+  <File path="river_pebbles_wet_displ.dds.1"/>
+  <File path="river_pebbles_wet_displ.dds.2"/>
+  <File path="river_pebbles_wet_displ.dds.3"/>
+  <File path="river_pebbles_wet_displ.dds.4"/>
+  <File path="river_pebbles_wet_displ.dds.5"/>
+  <File path="river_pebbles_wet_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

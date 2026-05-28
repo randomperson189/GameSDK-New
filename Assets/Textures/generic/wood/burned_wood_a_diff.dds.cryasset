@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d21103a9-02e0-fdbc-240d-e0b2779a6e5e">
+ <Files>
+  <File path="burned_wood_a_diff.dds"/>
+  <File path="burned_wood_a_diff.dds.1"/>
+  <File path="burned_wood_a_diff.dds.2"/>
+  <File path="burned_wood_a_diff.dds.3"/>
+  <File path="burned_wood_a_diff.dds.4"/>
+  <File path="burned_wood_a_diff.dds.5"/>
+  <File path="burned_wood_a_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

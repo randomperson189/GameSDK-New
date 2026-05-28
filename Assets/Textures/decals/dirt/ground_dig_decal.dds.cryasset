@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ce415f02-b0a0-cb24-32b2-45b36c781a14">
+ <Files>
+  <File path="ground_dig_decal.dds"/>
+  <File path="ground_dig_decal.dds.1"/>
+  <File path="ground_dig_decal.dds.2"/>
+  <File path="ground_dig_decal.dds.3"/>
+  <File path="ground_dig_decal.dds.4"/>
+  <File path="ground_dig_decal.dds.5"/>
+  <File path="ground_dig_decal.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

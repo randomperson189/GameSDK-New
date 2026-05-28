@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="8ba32f84-a3c3-a853-622b-31d5aeeb3eb5">
+ <Files>
+  <File path="hull_wireplate_displ.dds"/>
+  <File path="hull_wireplate_displ.dds.1"/>
+  <File path="hull_wireplate_displ.dds.2"/>
+  <File path="hull_wireplate_displ.dds.3"/>
+  <File path="hull_wireplate_displ.dds.4"/>
+  <File path="hull_wireplate_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

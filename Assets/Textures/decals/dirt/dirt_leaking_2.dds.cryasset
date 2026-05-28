@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="cb6607b6-0f5b-aab0-04ef-fa880e296b43">
+ <Files>
+  <File path="dirt_leaking_2.dds"/>
+  <File path="dirt_leaking_2.dds.1"/>
+  <File path="dirt_leaking_2.dds.2"/>
+  <File path="dirt_leaking_2.dds.3"/>
+  <File path="dirt_leaking_2.dds.4"/>
+  <File path="dirt_leaking_2.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

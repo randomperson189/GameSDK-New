@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="d7cc1387-5e22-8614-25a7-7c6110cbf0d8">
+ <Files>
+  <File path="snow_tiled1_motion.dds"/>
+  <File path="snow_tiled1_motion.dds.1"/>
+  <File path="snow_tiled1_motion.dds.2"/>
+  <File path="snow_tiled1_motion.dds.3"/>
+  <File path="snow_tiled1_motion.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

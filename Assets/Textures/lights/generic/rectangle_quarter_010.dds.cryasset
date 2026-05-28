@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="acb8e87b-862b-cfa7-af90-77d9fbd7b7d5">
+ <Files>
+  <File path="rectangle_quarter_010.dds"/>
+  <File path="rectangle_quarter_010.dds.1"/>
+  <File path="rectangle_quarter_010.dds.2"/>
+  <File path="rectangle_quarter_010.dds.3"/>
+  <File path="rectangle_quarter_010.dds.4"/>
+  <File path="rectangle_quarter_010.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

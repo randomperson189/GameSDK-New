@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="170b623d-2bf8-77ab-a275-fdbfa8d34e4e">
+ <Files>
+  <File path="bricks.dds"/>
+  <File path="bricks.dds.1"/>
+  <File path="bricks.dds.2"/>
+  <File path="bricks.dds.3"/>
+  <File path="bricks.dds.4"/>
+  <File path="bricks.dds.5"/>
+  <File path="bricks.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

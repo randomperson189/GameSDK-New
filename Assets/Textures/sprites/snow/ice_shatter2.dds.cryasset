@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="9601b095-0245-5eaf-1297-34e2cacdaaa2">
+ <Files>
+  <File path="ice_shatter2.dds"/>
+  <File path="ice_shatter2.dds.1"/>
+  <File path="ice_shatter2.dds.2"/>
+  <File path="ice_shatter2.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

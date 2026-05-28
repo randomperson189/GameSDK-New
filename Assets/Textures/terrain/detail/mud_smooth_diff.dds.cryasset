@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="4ab20706-001d-5127-afc8-d944ebf5d3b0">
+ <Files>
+  <File path="mud_smooth_diff.dds"/>
+  <File path="mud_smooth_diff.dds.1"/>
+  <File path="mud_smooth_diff.dds.2"/>
+  <File path="mud_smooth_diff.dds.3"/>
+  <File path="mud_smooth_diff.dds.4"/>
+  <File path="mud_smooth_diff.dds.5"/>
+  <File path="mud_smooth_diff.dds.6"/>
+  <File path="mud_smooth_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

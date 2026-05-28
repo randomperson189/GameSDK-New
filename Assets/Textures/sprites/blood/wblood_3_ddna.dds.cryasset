@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="5c020bdb-464b-5154-1aca-d30329260341">
+ <Files>
+  <File path="wblood_3_ddna.dds"/>
+  <File path="wblood_3_ddna.dds.a"/>
+  <File path="wblood_3_ddna.dds.1"/>
+  <File path="wblood_3_ddna.dds.1a"/>
+  <File path="wblood_3_ddna.dds.2"/>
+  <File path="wblood_3_ddna.dds.2a"/>
+  <File path="wblood_3_ddna.dds.3"/>
+  <File path="wblood_3_ddna.dds.3a"/>
+  <File path="wblood_3_ddna.dds.4"/>
+  <File path="wblood_3_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

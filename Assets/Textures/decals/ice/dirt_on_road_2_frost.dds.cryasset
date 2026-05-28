@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="ee2d5d9b-bde4-c1c5-2b93-bec87e21d2f0">
+ <Files>
+  <File path="dirt_on_road_2_frost.dds"/>
+  <File path="dirt_on_road_2_frost.dds.1"/>
+  <File path="dirt_on_road_2_frost.dds.2"/>
+  <File path="dirt_on_road_2_frost.dds.3"/>
+  <File path="dirt_on_road_2_frost.dds.4"/>
+  <File path="dirt_on_road_2_frost.dds.5"/>
+  <File path="dirt_on_road_2_frost.dds.6"/>
+  <File path="dirt_on_road_2_frost.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

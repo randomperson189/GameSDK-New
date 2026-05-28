@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="d6927d09-ad8b-575f-680a-b418521ac386">
+ <Files>
+  <File path="vertical_50_hard_diff.dds"/>
+  <File path="vertical_50_hard_diff.dds.1"/>
+  <File path="vertical_50_hard_diff.dds.2"/>
+  <File path="vertical_50_hard_diff.dds.3"/>
+  <File path="vertical_50_hard_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

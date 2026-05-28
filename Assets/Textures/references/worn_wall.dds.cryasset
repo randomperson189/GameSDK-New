@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="1f10dfdc-dabe-28eb-767a-6d416c2f9bb7">
+ <Files>
+  <File path="worn_wall.dds"/>
+  <File path="worn_wall.dds.1"/>
+  <File path="worn_wall.dds.2"/>
+  <File path="worn_wall.dds.3"/>
+  <File path="worn_wall.dds.4"/>
+  <File path="worn_wall.dds.5"/>
+  <File path="worn_wall.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

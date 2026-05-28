@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="1f47d121-325a-b572-67b3-9ea40db43678">
+ <Files>
+  <File path="fireball_blast_tiled3.dds"/>
+  <File path="fireball_blast_tiled3.dds.1"/>
+  <File path="fireball_blast_tiled3.dds.2"/>
+  <File path="fireball_blast_tiled3.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

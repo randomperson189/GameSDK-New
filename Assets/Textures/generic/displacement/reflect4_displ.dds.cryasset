@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="0bc550f0-328a-cdaf-0fa3-b795f48a7340">
+ <Files>
+  <File path="reflect4_displ.dds"/>
+  <File path="reflect4_displ.dds.1"/>
+  <File path="reflect4_displ.dds.2"/>
+  <File path="reflect4_displ.dds.3"/>
+  <File path="reflect4_displ.dds.4"/>
+  <File path="reflect4_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

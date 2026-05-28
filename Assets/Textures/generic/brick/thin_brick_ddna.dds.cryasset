@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="9cbb45b9-0b83-81f2-49db-32b15ba60d4a">
+ <Files>
+  <File path="thin_brick_ddna.dds"/>
+  <File path="thin_brick_ddna.dds.a"/>
+  <File path="thin_brick_ddna.dds.1"/>
+  <File path="thin_brick_ddna.dds.1a"/>
+  <File path="thin_brick_ddna.dds.2"/>
+  <File path="thin_brick_ddna.dds.2a"/>
+  <File path="thin_brick_ddna.dds.3"/>
+  <File path="thin_brick_ddna.dds.3a"/>
+  <File path="thin_brick_ddna.dds.4"/>
+  <File path="thin_brick_ddna.dds.4a"/>
+  <File path="thin_brick_ddna.dds.5"/>
+  <File path="thin_brick_ddna.dds.5a"/>
+  <File path="thin_brick_ddna.dds.6"/>
+  <File path="thin_brick_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

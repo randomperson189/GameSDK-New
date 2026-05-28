@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="43477c58-3adf-1b8e-e85b-6d4a5ebbe0b6">
+ <Files>
+  <File path="palette_box_ddna.dds"/>
+  <File path="palette_box_ddna.dds.a"/>
+  <File path="palette_box_ddna.dds.1"/>
+  <File path="palette_box_ddna.dds.1a"/>
+  <File path="palette_box_ddna.dds.2"/>
+  <File path="palette_box_ddna.dds.2a"/>
+  <File path="palette_box_ddna.dds.3"/>
+  <File path="palette_box_ddna.dds.3a"/>
+  <File path="palette_box_ddna.dds.4"/>
+  <File path="palette_box_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

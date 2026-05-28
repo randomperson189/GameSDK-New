@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="b5d48287-4fb5-cac5-ddb8-7155d1a2c07f">
+ <Files>
+  <File path="gold_spec.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4</Detail>
+  <Detail name="height">4</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

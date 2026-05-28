@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="2447357d-5491-4be0-5c41-1762d5cb8389">
+ <Files>
+  <File path="cliff_limestone_ddna.dds"/>
+  <File path="cliff_limestone_ddna.dds.a"/>
+  <File path="cliff_limestone_ddna.dds.1"/>
+  <File path="cliff_limestone_ddna.dds.1a"/>
+  <File path="cliff_limestone_ddna.dds.2"/>
+  <File path="cliff_limestone_ddna.dds.2a"/>
+  <File path="cliff_limestone_ddna.dds.3"/>
+  <File path="cliff_limestone_ddna.dds.3a"/>
+  <File path="cliff_limestone_ddna.dds.4"/>
+  <File path="cliff_limestone_ddna.dds.4a"/>
+  <File path="cliff_limestone_ddna.dds.5"/>
+  <File path="cliff_limestone_ddna.dds.5a"/>
+  <File path="cliff_limestone_ddna.dds.6"/>
+  <File path="cliff_limestone_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

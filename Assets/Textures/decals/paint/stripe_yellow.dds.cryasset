@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="6d9a3bc7-78b5-6433-0f4e-e3d7910bfb5b">
+ <Files>
+  <File path="stripe_yellow.dds"/>
+  <File path="stripe_yellow.dds.1"/>
+  <File path="stripe_yellow.dds.2"/>
+  <File path="stripe_yellow.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

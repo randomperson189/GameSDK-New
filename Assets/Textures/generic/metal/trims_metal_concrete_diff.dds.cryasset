@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="1dce4386-fde7-3a52-8966-b668c8a06e9d">
+ <Files>
+  <File path="trims_metal_concrete_diff.dds"/>
+  <File path="trims_metal_concrete_diff.dds.1"/>
+  <File path="trims_metal_concrete_diff.dds.2"/>
+  <File path="trims_metal_concrete_diff.dds.3"/>
+  <File path="trims_metal_concrete_diff.dds.4"/>
+  <File path="trims_metal_concrete_diff.dds.5"/>
+  <File path="trims_metal_concrete_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

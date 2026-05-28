@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="2947caa2-89e9-a72c-56df-fd86225cd38e">
+ <Files>
+  <File path="metal_gold_a_diff.dds"/>
+  <File path="metal_gold_a_diff.dds.1"/>
+  <File path="metal_gold_a_diff.dds.2"/>
+  <File path="metal_gold_a_diff.dds.3"/>
+  <File path="metal_gold_a_diff.dds.4"/>
+  <File path="metal_gold_a_diff.dds.5"/>
+  <File path="metal_gold_a_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

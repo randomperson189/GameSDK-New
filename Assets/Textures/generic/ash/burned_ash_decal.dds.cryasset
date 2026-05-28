@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="b646583b-dc4a-8f85-c73a-a8aa45aa8ae1">
+ <Files>
+  <File path="burned_ash_decal.dds"/>
+  <File path="burned_ash_decal.dds.1"/>
+  <File path="burned_ash_decal.dds.2"/>
+  <File path="burned_ash_decal.dds.3"/>
+  <File path="burned_ash_decal.dds.4"/>
+  <File path="burned_ash_decal.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

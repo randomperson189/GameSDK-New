@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="e090bbc7-5925-ec05-31e3-edd14f62067e">
+ <Files>
+  <File path="burning_coals_01_displ.dds"/>
+  <File path="burning_coals_01_displ.dds.1"/>
+  <File path="burning_coals_01_displ.dds.2"/>
+  <File path="burning_coals_01_displ.dds.3"/>
+  <File path="burning_coals_01_displ.dds.4"/>
+  <File path="burning_coals_01_displ.dds.5"/>
+  <File path="burning_coals_01_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

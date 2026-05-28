@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="f77ee4f6-9e8a-2bc8-cd36-7a469a60a805">
+ <Files>
+  <File path="light3.dds"/>
+  <File path="light3.dds.1"/>
+  <File path="light3.dds.2"/>
+  <File path="light3.dds.3"/>
+  <File path="light3.dds.4"/>
+  <File path="light3.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="616180dd-9517-c52d-46ab-60efad9b51c8">
+ <Files>
+  <File path="stone_dirt_a_mask.dds"/>
+  <File path="stone_dirt_a_mask.dds.1"/>
+  <File path="stone_dirt_a_mask.dds.2"/>
+  <File path="stone_dirt_a_mask.dds.3"/>
+  <File path="stone_dirt_a_mask.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

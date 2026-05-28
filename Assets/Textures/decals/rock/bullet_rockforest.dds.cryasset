@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="241760fd-f9d8-5d96-904a-22675c8cbd86">
+ <Files>
+  <File path="bullet_rockforest.dds"/>
+  <File path="bullet_rockforest.dds.1"/>
+  <File path="bullet_rockforest.dds.2"/>
+  <File path="bullet_rockforest.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

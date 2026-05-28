@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="42f7d580-dd32-178b-823d-cd59fcc42e70">
+ <Files>
+  <File path="brick_clean_diff.dds"/>
+  <File path="brick_clean_diff.dds.1"/>
+  <File path="brick_clean_diff.dds.2"/>
+  <File path="brick_clean_diff.dds.3"/>
+  <File path="brick_clean_diff.dds.4"/>
+  <File path="brick_clean_diff.dds.5"/>
+  <File path="brick_clean_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

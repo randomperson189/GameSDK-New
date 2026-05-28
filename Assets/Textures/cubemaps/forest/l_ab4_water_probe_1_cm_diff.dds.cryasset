@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="a1cc7d26-e594-457e-564e-cfa3dc010c66">
+ <Files>
+  <File path="l_ab4_water_probe_1_cm_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

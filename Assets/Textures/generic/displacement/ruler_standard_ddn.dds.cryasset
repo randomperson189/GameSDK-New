@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="8d80143b-07c8-4b70-0ecf-a20c6c469600">
+ <Files>
+  <File path="ruler_standard_ddn.dds"/>
+  <File path="ruler_standard_ddn.dds.1"/>
+  <File path="ruler_standard_ddn.dds.2"/>
+  <File path="ruler_standard_ddn.dds.3"/>
+  <File path="ruler_standard_ddn.dds.4"/>
+  <File path="ruler_standard_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

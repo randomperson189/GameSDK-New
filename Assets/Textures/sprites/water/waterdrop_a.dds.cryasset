@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Texture" guid="ceed55f3-5793-a356-4c82-eecc808c8635">
+ <Files>
+  <File path="waterdrop_a.dds"/>
+  <File path="waterdrop_a.dds.1"/>
+  <File path="waterdrop_a.dds.2"/>
+ </Files>
+ <Details>
+  <Detail name="width">64</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">5</Detail>
+ </Details>
+</AssetMetadata>

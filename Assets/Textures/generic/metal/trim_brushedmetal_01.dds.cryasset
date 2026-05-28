@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="9938b01c-7419-8bf9-ef10-61180c47c9a6">
+ <Files>
+  <File path="trim_brushedmetal_01.dds"/>
+  <File path="trim_brushedmetal_01.dds.1"/>
+  <File path="trim_brushedmetal_01.dds.2"/>
+  <File path="trim_brushedmetal_01.dds.3"/>
+  <File path="trim_brushedmetal_01.dds.4"/>
+  <File path="trim_brushedmetal_01.dds.5"/>
+  <File path="trim_brushedmetal_01.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

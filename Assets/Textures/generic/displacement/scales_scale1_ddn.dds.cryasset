@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="58ba9469-5e7c-8f76-243c-ba764028ecf3">
+ <Files>
+  <File path="scales_scale1_ddn.dds"/>
+  <File path="scales_scale1_ddn.dds.1"/>
+  <File path="scales_scale1_ddn.dds.2"/>
+  <File path="scales_scale1_ddn.dds.3"/>
+  <File path="scales_scale1_ddn.dds.4"/>
+  <File path="scales_scale1_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

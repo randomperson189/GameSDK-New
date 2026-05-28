@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="24d043d8-b411-6179-d22b-41900bc93a38">
+ <Files>
+  <File path="rope_set_shipwreck_b_diff.dds"/>
+  <File path="rope_set_shipwreck_b_diff.dds.1"/>
+  <File path="rope_set_shipwreck_b_diff.dds.2"/>
+  <File path="rope_set_shipwreck_b_diff.dds.3"/>
+  <File path="rope_set_shipwreck_b_diff.dds.4"/>
+  <File path="rope_set_shipwreck_b_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="750d86b3-7690-3ac5-0066-527f7eb9838d">
+ <Files>
+  <File path="smoke_test_diff_excl30.dds"/>
+  <File path="smoke_test_diff_excl30.dds.1"/>
+  <File path="smoke_test_diff_excl30.dds.2"/>
+  <File path="smoke_test_diff_excl30.dds.3"/>
+  <File path="smoke_test_diff_excl30.dds.4"/>
+  <File path="smoke_test_diff_excl30.dds.5"/>
+  <File path="smoke_test_diff_excl30.dds.6"/>
+  <File path="smoke_test_diff_excl30.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

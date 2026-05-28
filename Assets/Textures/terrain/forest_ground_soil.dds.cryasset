@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="aad03ade-f77f-7206-4fb4-c244a12ccbf8">
+ <Files>
+  <File path="forest_ground_soil.dds"/>
+  <File path="forest_ground_soil.dds.1"/>
+  <File path="forest_ground_soil.dds.2"/>
+  <File path="forest_ground_soil.dds.3"/>
+  <File path="forest_ground_soil.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

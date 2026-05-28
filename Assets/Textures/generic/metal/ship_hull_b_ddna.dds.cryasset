@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="2aa5bfbe-8c92-a762-3188-90544340866b">
+ <Files>
+  <File path="ship_hull_b_ddna.dds"/>
+  <File path="ship_hull_b_ddna.dds.a"/>
+  <File path="ship_hull_b_ddna.dds.1"/>
+  <File path="ship_hull_b_ddna.dds.1a"/>
+  <File path="ship_hull_b_ddna.dds.2"/>
+  <File path="ship_hull_b_ddna.dds.2a"/>
+  <File path="ship_hull_b_ddna.dds.3"/>
+  <File path="ship_hull_b_ddna.dds.3a"/>
+  <File path="ship_hull_b_ddna.dds.4"/>
+  <File path="ship_hull_b_ddna.dds.4a"/>
+  <File path="ship_hull_b_ddna.dds.5"/>
+  <File path="ship_hull_b_ddna.dds.5a"/>
+  <File path="ship_hull_b_ddna.dds.6"/>
+  <File path="ship_hull_b_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

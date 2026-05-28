@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="7db99471-7e97-ecd9-a477-b1d8f6842c5d">
+ <Files>
+  <File path="l_ab3_village_probe_1_cm.dds"/>
+  <File path="l_ab3_village_probe_1_cm.dds.1"/>
+  <File path="l_ab3_village_probe_1_cm.dds.2"/>
+  <File path="l_ab3_village_probe_1_cm.dds.3"/>
+  <File path="l_ab3_village_probe_1_cm.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">1536</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

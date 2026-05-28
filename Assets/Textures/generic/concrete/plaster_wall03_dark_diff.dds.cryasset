@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="e1973eaf-4055-bb9f-60e4-c6e85530558b">
+ <Files>
+  <File path="plaster_wall03_dark_diff.dds"/>
+  <File path="plaster_wall03_dark_diff.dds.1"/>
+  <File path="plaster_wall03_dark_diff.dds.2"/>
+  <File path="plaster_wall03_dark_diff.dds.3"/>
+  <File path="plaster_wall03_dark_diff.dds.4"/>
+  <File path="plaster_wall03_dark_diff.dds.5"/>
+  <File path="plaster_wall03_dark_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

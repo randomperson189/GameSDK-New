@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="a47ded53-7ec1-bec9-a1a1-e92c381dc23e">
+ <Files>
+  <File path="scales_tritilt_displ.dds"/>
+  <File path="scales_tritilt_displ.dds.1"/>
+  <File path="scales_tritilt_displ.dds.2"/>
+  <File path="scales_tritilt_displ.dds.3"/>
+  <File path="scales_tritilt_displ.dds.4"/>
+  <File path="scales_tritilt_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

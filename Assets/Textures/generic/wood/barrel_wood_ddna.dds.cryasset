@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="ea71af18-972d-ecc9-118b-f9a2ef6787ba">
+ <Files>
+  <File path="barrel_wood_ddna.dds"/>
+  <File path="barrel_wood_ddna.dds.a"/>
+  <File path="barrel_wood_ddna.dds.1"/>
+  <File path="barrel_wood_ddna.dds.1a"/>
+  <File path="barrel_wood_ddna.dds.2"/>
+  <File path="barrel_wood_ddna.dds.2a"/>
+  <File path="barrel_wood_ddna.dds.3"/>
+  <File path="barrel_wood_ddna.dds.3a"/>
+  <File path="barrel_wood_ddna.dds.4"/>
+  <File path="barrel_wood_ddna.dds.4a"/>
+  <File path="barrel_wood_ddna.dds.5"/>
+  <File path="barrel_wood_ddna.dds.5a"/>
+  <File path="barrel_wood_ddna.dds.6"/>
+  <File path="barrel_wood_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

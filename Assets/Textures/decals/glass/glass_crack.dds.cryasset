@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="29cce42d-cfda-76d5-711f-34e3be494339">
+ <Files>
+  <File path="glass_crack.dds"/>
+  <File path="glass_crack.dds.1"/>
+  <File path="glass_crack.dds.2"/>
+  <File path="glass_crack.dds.3"/>
+  <File path="glass_crack.dds.4"/>
+  <File path="glass_crack.dds.5"/>
+  <File path="glass_crack.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

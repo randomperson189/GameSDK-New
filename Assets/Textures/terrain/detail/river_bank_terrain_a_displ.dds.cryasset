@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="b9c789c2-fc1d-7b51-b113-598282f78889">
+ <Files>
+  <File path="river_bank_terrain_a_displ.dds"/>
+  <File path="river_bank_terrain_a_displ.dds.1"/>
+  <File path="river_bank_terrain_a_displ.dds.2"/>
+  <File path="river_bank_terrain_a_displ.dds.3"/>
+  <File path="river_bank_terrain_a_displ.dds.4"/>
+  <File path="river_bank_terrain_a_displ.dds.5"/>
+  <File path="river_bank_terrain_a_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

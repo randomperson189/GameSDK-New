@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="8265e13c-a926-a985-a6e8-1ca5625df61c">
+ <Files>
+  <File path="spark_mono_a.dds"/>
+  <File path="spark_mono_a.dds.1"/>
+  <File path="spark_mono_a.dds.2"/>
+  <File path="spark_mono_a.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

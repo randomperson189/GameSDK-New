@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="75a70094-2344-e81b-5b45-943b376cc101">
+ <Files>
+  <File path="corrugated_metal_c_ddna.dds"/>
+  <File path="corrugated_metal_c_ddna.dds.a"/>
+  <File path="corrugated_metal_c_ddna.dds.1"/>
+  <File path="corrugated_metal_c_ddna.dds.1a"/>
+  <File path="corrugated_metal_c_ddna.dds.2"/>
+  <File path="corrugated_metal_c_ddna.dds.2a"/>
+  <File path="corrugated_metal_c_ddna.dds.3"/>
+  <File path="corrugated_metal_c_ddna.dds.3a"/>
+  <File path="corrugated_metal_c_ddna.dds.4"/>
+  <File path="corrugated_metal_c_ddna.dds.4a"/>
+  <File path="corrugated_metal_c_ddna.dds.5"/>
+  <File path="corrugated_metal_c_ddna.dds.5a"/>
+  <File path="corrugated_metal_c_ddna.dds.6"/>
+  <File path="corrugated_metal_c_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

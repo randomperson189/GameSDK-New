@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="0ac7524b-8509-8d53-5885-ceb612714b33">
+ <Files>
+  <File path="courtyard_floor_broken_mask.dds"/>
+  <File path="courtyard_floor_broken_mask.dds.1"/>
+  <File path="courtyard_floor_broken_mask.dds.2"/>
+  <File path="courtyard_floor_broken_mask.dds.3"/>
+  <File path="courtyard_floor_broken_mask.dds.4"/>
+  <File path="courtyard_floor_broken_mask.dds.5"/>
+  <File path="courtyard_floor_broken_mask.dds.6"/>
+  <File path="courtyard_floor_broken_mask.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

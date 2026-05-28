@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="62e119b9-1d6d-661a-6b42-0453f3ae00ac">
+ <Files>
+  <File path="explo_decal.dds"/>
+  <File path="explo_decal.dds.1"/>
+  <File path="explo_decal.dds.2"/>
+  <File path="explo_decal.dds.3"/>
+  <File path="explo_decal.dds.4"/>
+  <File path="explo_decal.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

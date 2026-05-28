@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="148607a2-0ae7-53f3-ae48-1376cf0e7579">
+ <Files>
+  <File path="trippy_displ.dds"/>
+  <File path="trippy_displ.dds.1"/>
+  <File path="trippy_displ.dds.2"/>
+  <File path="trippy_displ.dds.3"/>
+  <File path="trippy_displ.dds.4"/>
+  <File path="trippy_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

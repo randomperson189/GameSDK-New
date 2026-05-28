@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="bf318678-eff9-7ee4-e4bf-fd6f591357b0">
+ <Files>
+  <File path="wood_tile_diff.dds"/>
+  <File path="wood_tile_diff.dds.1"/>
+  <File path="wood_tile_diff.dds.2"/>
+  <File path="wood_tile_diff.dds.3"/>
+  <File path="wood_tile_diff.dds.4"/>
+  <File path="wood_tile_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

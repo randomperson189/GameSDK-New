@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="f50259f9-b9e0-572d-2a0a-3ebf18e0ccbf">
+ <Files>
+  <File path="mud_rough_grass_displ.dds"/>
+  <File path="mud_rough_grass_displ.dds.1"/>
+  <File path="mud_rough_grass_displ.dds.2"/>
+  <File path="mud_rough_grass_displ.dds.3"/>
+  <File path="mud_rough_grass_displ.dds.4"/>
+  <File path="mud_rough_grass_displ.dds.5"/>
+  <File path="mud_rough_grass_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="0ff6a421-89e2-1e42-ee64-82fb870476d3">
+ <Files>
+  <File path="river_ground_terrain_displ.dds"/>
+  <File path="river_ground_terrain_displ.dds.1"/>
+  <File path="river_ground_terrain_displ.dds.2"/>
+  <File path="river_ground_terrain_displ.dds.3"/>
+  <File path="river_ground_terrain_displ.dds.4"/>
+  <File path="river_ground_terrain_displ.dds.5"/>
+  <File path="river_ground_terrain_displ.dds.6"/>
+  <File path="river_ground_terrain_displ.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

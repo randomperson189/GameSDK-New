@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="739739cc-4133-ec77-d895-ee5e0ee0d021">
+ <Files>
+  <File path="concrete_hole_2_diff.dds"/>
+  <File path="concrete_hole_2_diff.dds.1"/>
+  <File path="concrete_hole_2_diff.dds.2"/>
+  <File path="concrete_hole_2_diff.dds.3"/>
+  <File path="concrete_hole_2_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

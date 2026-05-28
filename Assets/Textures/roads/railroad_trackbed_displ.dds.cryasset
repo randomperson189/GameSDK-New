@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="6c6de23c-7c96-ed24-9b8d-eff2ac6ee1ac">
+ <Files>
+  <File path="railroad_trackbed_displ.dds"/>
+  <File path="railroad_trackbed_displ.dds.1"/>
+  <File path="railroad_trackbed_displ.dds.2"/>
+  <File path="railroad_trackbed_displ.dds.3"/>
+  <File path="railroad_trackbed_displ.dds.4"/>
+  <File path="railroad_trackbed_displ.dds.5"/>
+  <File path="railroad_trackbed_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

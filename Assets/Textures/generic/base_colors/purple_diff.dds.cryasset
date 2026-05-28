@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="3688d2f9-5cd8-4764-378a-89f2eb776029">
+ <Files>
+  <File path="purple_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4</Detail>
+  <Detail name="height">4</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="b3e9d1bf-d13e-c475-9c55-34c2865316a2">
+ <Files>
+  <File path="wood_planks_lrg_a_blue_dmg_displ.dds"/>
+  <File path="wood_planks_lrg_a_blue_dmg_displ.dds.1"/>
+  <File path="wood_planks_lrg_a_blue_dmg_displ.dds.2"/>
+  <File path="wood_planks_lrg_a_blue_dmg_displ.dds.3"/>
+  <File path="wood_planks_lrg_a_blue_dmg_displ.dds.4"/>
+  <File path="wood_planks_lrg_a_blue_dmg_displ.dds.5"/>
+  <File path="wood_planks_lrg_a_blue_dmg_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

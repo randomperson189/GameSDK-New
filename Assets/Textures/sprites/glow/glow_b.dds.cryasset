@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="8ba3af2e-432c-3a9f-d82a-16425268c4ab">
+ <Files>
+  <File path="glow_b.dds"/>
+  <File path="glow_b.dds.1"/>
+  <File path="glow_b.dds.2"/>
+  <File path="glow_b.dds.3"/>
+  <File path="glow_b.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

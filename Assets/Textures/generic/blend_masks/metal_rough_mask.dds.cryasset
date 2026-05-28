@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="23ad3465-3351-71b5-63c2-2852658a9808">
+ <Files>
+  <File path="metal_rough_mask.dds"/>
+  <File path="metal_rough_mask.dds.1"/>
+  <File path="metal_rough_mask.dds.2"/>
+  <File path="metal_rough_mask.dds.3"/>
+  <File path="metal_rough_mask.dds.4"/>
+  <File path="metal_rough_mask.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="abb678fd-ab1a-785a-301a-21a06e554553">
+ <Files>
+  <File path="human_body_ddna.dds"/>
+  <File path="human_body_ddna.dds.a"/>
+  <File path="human_body_ddna.dds.1"/>
+  <File path="human_body_ddna.dds.1a"/>
+  <File path="human_body_ddna.dds.2"/>
+  <File path="human_body_ddna.dds.2a"/>
+  <File path="human_body_ddna.dds.3"/>
+  <File path="human_body_ddna.dds.3a"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

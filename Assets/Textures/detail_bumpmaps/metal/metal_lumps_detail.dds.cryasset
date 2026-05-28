@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="ff17b0d0-2bcf-204f-7668-f50da70687bb">
+ <Files>
+  <File path="metal_lumps_detail.dds"/>
+  <File path="metal_lumps_detail.dds.1"/>
+  <File path="metal_lumps_detail.dds.2"/>
+  <File path="metal_lumps_detail.dds.3"/>
+  <File path="metal_lumps_detail.dds.4"/>
+  <File path="metal_lumps_detail.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

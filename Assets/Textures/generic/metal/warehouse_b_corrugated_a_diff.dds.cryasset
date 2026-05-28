@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="9754f678-10a2-076a-85b5-08c730b51183">
+ <Files>
+  <File path="warehouse_b_corrugated_a_diff.dds"/>
+  <File path="warehouse_b_corrugated_a_diff.dds.1"/>
+  <File path="warehouse_b_corrugated_a_diff.dds.2"/>
+  <File path="warehouse_b_corrugated_a_diff.dds.3"/>
+  <File path="warehouse_b_corrugated_a_diff.dds.4"/>
+  <File path="warehouse_b_corrugated_a_diff.dds.5"/>
+  <File path="warehouse_b_corrugated_a_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

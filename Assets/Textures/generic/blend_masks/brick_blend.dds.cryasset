@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="c959eadb-27cb-f752-f71a-a6873faefdb4">
+ <Files>
+  <File path="brick_blend.dds"/>
+  <File path="brick_blend.dds.1"/>
+  <File path="brick_blend.dds.2"/>
+  <File path="brick_blend.dds.3"/>
+  <File path="brick_blend.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="ad1c56d6-012a-66e4-2220-ae516703125d">
+ <Files>
+  <File path="concrete_wall_c_ddna.dds"/>
+  <File path="concrete_wall_c_ddna.dds.a"/>
+  <File path="concrete_wall_c_ddna.dds.1"/>
+  <File path="concrete_wall_c_ddna.dds.1a"/>
+  <File path="concrete_wall_c_ddna.dds.2"/>
+  <File path="concrete_wall_c_ddna.dds.2a"/>
+  <File path="concrete_wall_c_ddna.dds.3"/>
+  <File path="concrete_wall_c_ddna.dds.3a"/>
+  <File path="concrete_wall_c_ddna.dds.4"/>
+  <File path="concrete_wall_c_ddna.dds.4a"/>
+  <File path="concrete_wall_c_ddna.dds.5"/>
+  <File path="concrete_wall_c_ddna.dds.5a"/>
+  <File path="concrete_wall_c_ddna.dds.6"/>
+  <File path="concrete_wall_c_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

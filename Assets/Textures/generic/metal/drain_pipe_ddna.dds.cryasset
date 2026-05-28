@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="bcc5c880-bca9-478d-5104-b19bffe4f913">
+ <Files>
+  <File path="drain_pipe_ddna.dds"/>
+  <File path="drain_pipe_ddna.dds.a"/>
+  <File path="drain_pipe_ddna.dds.1"/>
+  <File path="drain_pipe_ddna.dds.1a"/>
+  <File path="drain_pipe_ddna.dds.2"/>
+  <File path="drain_pipe_ddna.dds.2a"/>
+  <File path="drain_pipe_ddna.dds.3"/>
+  <File path="drain_pipe_ddna.dds.3a"/>
+  <File path="drain_pipe_ddna.dds.4"/>
+  <File path="drain_pipe_ddna.dds.4a"/>
+  <File path="drain_pipe_ddna.dds.5"/>
+  <File path="drain_pipe_ddna.dds.5a"/>
+  <File path="drain_pipe_ddna.dds.6"/>
+  <File path="drain_pipe_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

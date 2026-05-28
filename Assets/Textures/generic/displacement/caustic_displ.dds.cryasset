@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="3ccebe16-cd06-3db5-78ab-2ab7774671ca">
+ <Files>
+  <File path="caustic_displ.dds"/>
+  <File path="caustic_displ.dds.1"/>
+  <File path="caustic_displ.dds.2"/>
+  <File path="caustic_displ.dds.3"/>
+  <File path="caustic_displ.dds.4"/>
+  <File path="caustic_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

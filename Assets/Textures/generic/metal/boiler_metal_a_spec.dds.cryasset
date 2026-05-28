@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="4bb52c88-ece1-32d7-5442-7a227f6b0641">
+ <Files>
+  <File path="boiler_metal_a_spec.dds"/>
+  <File path="boiler_metal_a_spec.dds.1"/>
+  <File path="boiler_metal_a_spec.dds.2"/>
+  <File path="boiler_metal_a_spec.dds.3"/>
+  <File path="boiler_metal_a_spec.dds.4"/>
+  <File path="boiler_metal_a_spec.dds.5"/>
+  <File path="boiler_metal_a_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

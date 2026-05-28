@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="0f1bc060-a273-79d0-3694-e71de853940e">
+ <Files>
+  <File path="cumulus_01.dds"/>
+  <File path="cumulus_01.dds.1"/>
+  <File path="cumulus_01.dds.2"/>
+  <File path="cumulus_01.dds.3"/>
+  <File path="cumulus_01.dds.4"/>
+  <File path="cumulus_01.dds.5"/>
+  <File path="cumulus_01.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

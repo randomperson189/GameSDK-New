@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="e7b451a1-887a-0c71-695a-441583176385">
+ <Files>
+  <File path="spark_stretched1.dds"/>
+  <File path="spark_stretched1.dds.1"/>
+  <File path="spark_stretched1.dds.2"/>
+  <File path="spark_stretched1.dds.3"/>
+  <File path="spark_stretched1.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

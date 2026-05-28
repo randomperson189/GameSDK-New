@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="33ff73cb-42f6-a3bd-1d6f-94ec289781c9">
+ <Files>
+  <File path="brushed_metal_detail.dds"/>
+  <File path="brushed_metal_detail.dds.1"/>
+  <File path="brushed_metal_detail.dds.2"/>
+  <File path="brushed_metal_detail.dds.3"/>
+  <File path="brushed_metal_detail.dds.4"/>
+  <File path="brushed_metal_detail.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

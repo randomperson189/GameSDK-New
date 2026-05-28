@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="4e231d0b-d0a2-42c7-7b27-1b4844ad7fcd">
+ <Files>
+  <File path="brick_damaged_displ.dds"/>
+  <File path="brick_damaged_displ.dds.1"/>
+  <File path="brick_damaged_displ.dds.2"/>
+  <File path="brick_damaged_displ.dds.3"/>
+  <File path="brick_damaged_displ.dds.4"/>
+  <File path="brick_damaged_displ.dds.5"/>
+  <File path="brick_damaged_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

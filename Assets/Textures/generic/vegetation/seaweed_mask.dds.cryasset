@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="0cf1d68f-6257-4eb0-e787-f41352718c31">
+ <Files>
+  <File path="seaweed_mask.dds"/>
+  <File path="seaweed_mask.dds.1"/>
+  <File path="seaweed_mask.dds.2"/>
+  <File path="seaweed_mask.dds.3"/>
+  <File path="seaweed_mask.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

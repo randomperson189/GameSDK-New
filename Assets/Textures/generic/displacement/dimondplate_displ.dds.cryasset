@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="01f81f6a-8234-ddc3-decd-1a26231b2e8c">
+ <Files>
+  <File path="dimondplate_displ.dds"/>
+  <File path="dimondplate_displ.dds.1"/>
+  <File path="dimondplate_displ.dds.2"/>
+  <File path="dimondplate_displ.dds.3"/>
+  <File path="dimondplate_displ.dds.4"/>
+  <File path="dimondplate_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

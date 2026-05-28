@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="cb412c6c-1052-4569-eab4-5e86c8d32bcb">
+ <Files>
+  <File path="exterior_metal_plate_ddna.dds"/>
+  <File path="exterior_metal_plate_ddna.dds.a"/>
+  <File path="exterior_metal_plate_ddna.dds.1"/>
+  <File path="exterior_metal_plate_ddna.dds.1a"/>
+  <File path="exterior_metal_plate_ddna.dds.2"/>
+  <File path="exterior_metal_plate_ddna.dds.2a"/>
+  <File path="exterior_metal_plate_ddna.dds.3"/>
+  <File path="exterior_metal_plate_ddna.dds.3a"/>
+  <File path="exterior_metal_plate_ddna.dds.4"/>
+  <File path="exterior_metal_plate_ddna.dds.4a"/>
+  <File path="exterior_metal_plate_ddna.dds.5"/>
+  <File path="exterior_metal_plate_ddna.dds.5a"/>
+  <File path="exterior_metal_plate_ddna.dds.6"/>
+  <File path="exterior_metal_plate_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

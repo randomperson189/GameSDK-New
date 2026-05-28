@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="66a3d952-f239-1b33-14cd-ddd386624c6d">
+ <Files>
+  <File path="drain_pipe_diff.dds"/>
+  <File path="drain_pipe_diff.dds.1"/>
+  <File path="drain_pipe_diff.dds.2"/>
+  <File path="drain_pipe_diff.dds.3"/>
+  <File path="drain_pipe_diff.dds.4"/>
+  <File path="drain_pipe_diff.dds.5"/>
+  <File path="drain_pipe_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

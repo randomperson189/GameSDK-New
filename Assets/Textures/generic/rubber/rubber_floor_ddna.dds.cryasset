@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="be27e6b2-7ac9-1efb-a7b2-297a1374e879">
+ <Files>
+  <File path="rubber_floor_ddna.dds"/>
+  <File path="rubber_floor_ddna.dds.a"/>
+  <File path="rubber_floor_ddna.dds.1"/>
+  <File path="rubber_floor_ddna.dds.1a"/>
+  <File path="rubber_floor_ddna.dds.2"/>
+  <File path="rubber_floor_ddna.dds.2a"/>
+  <File path="rubber_floor_ddna.dds.3"/>
+  <File path="rubber_floor_ddna.dds.3a"/>
+  <File path="rubber_floor_ddna.dds.4"/>
+  <File path="rubber_floor_ddna.dds.4a"/>
+  <File path="rubber_floor_ddna.dds.5"/>
+  <File path="rubber_floor_ddna.dds.5a"/>
+  <File path="rubber_floor_ddna.dds.6"/>
+  <File path="rubber_floor_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

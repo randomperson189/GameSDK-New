@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="5f9d9abc-bb6f-cf2e-760b-84810d862f4a">
+ <Files>
+  <File path="orbs_3.dds"/>
+  <File path="orbs_3.dds.1"/>
+  <File path="orbs_3.dds.2"/>
+  <File path="orbs_3.dds.3"/>
+  <File path="orbs_3.dds.4"/>
+  <File path="orbs_3.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

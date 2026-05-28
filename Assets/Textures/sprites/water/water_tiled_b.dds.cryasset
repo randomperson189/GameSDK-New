@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="afeaca54-2ce4-696a-24b0-e405078673d2">
+ <Files>
+  <File path="water_tiled_b.dds"/>
+  <File path="water_tiled_b.dds.1"/>
+  <File path="water_tiled_b.dds.2"/>
+  <File path="water_tiled_b.dds.3"/>
+  <File path="water_tiled_b.dds.4"/>
+  <File path="water_tiled_b.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="6bebbf54-6f02-f3c8-f18b-b8b9b3b35dcb">
+ <Files>
+  <File path="white.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4</Detail>
+  <Detail name="height">4</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

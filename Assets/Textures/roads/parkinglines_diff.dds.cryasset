@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="1389acd9-28c0-bdac-69e7-bf590bb21d2e">
+ <Files>
+  <File path="parkinglines_diff.dds"/>
+  <File path="parkinglines_diff.dds.1"/>
+  <File path="parkinglines_diff.dds.2"/>
+  <File path="parkinglines_diff.dds.3"/>
+  <File path="parkinglines_diff.dds.4"/>
+  <File path="parkinglines_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

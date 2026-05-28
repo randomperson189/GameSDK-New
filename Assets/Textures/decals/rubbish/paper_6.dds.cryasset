@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="c34dc47e-0fcc-df6e-108c-087ede3064d7">
+ <Files>
+  <File path="paper_6.dds"/>
+  <File path="paper_6.dds.1"/>
+  <File path="paper_6.dds.2"/>
+  <File path="paper_6.dds.3"/>
+  <File path="paper_6.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

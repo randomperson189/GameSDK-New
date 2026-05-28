@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="980fba53-9d02-3d1d-d4cd-a417a03c84fa">
+ <Files>
+  <File path="sun_big_sparkle2.dds"/>
+  <File path="sun_big_sparkle2.dds.1"/>
+  <File path="sun_big_sparkle2.dds.2"/>
+  <File path="sun_big_sparkle2.dds.3"/>
+  <File path="sun_big_sparkle2.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

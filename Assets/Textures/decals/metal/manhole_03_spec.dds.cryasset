@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="4bd1ba16-6592-cb36-7d76-dcd9bcfad6f1">
+ <Files>
+  <File path="manhole_03_spec.dds"/>
+  <File path="manhole_03_spec.dds.1"/>
+  <File path="manhole_03_spec.dds.2"/>
+  <File path="manhole_03_spec.dds.3"/>
+  <File path="manhole_03_spec.dds.4"/>
+  <File path="manhole_03_spec.dds.5"/>
+  <File path="manhole_03_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="8f671d0b-289d-3038-f884-3360f9cb6668">
+ <Files>
+  <File path="softedge.dds"/>
+  <File path="softedge.dds.1"/>
+  <File path="softedge.dds.2"/>
+  <File path="softedge.dds.3"/>
+  <File path="softedge.dds.4"/>
+  <File path="softedge.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

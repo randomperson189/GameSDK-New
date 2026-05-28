@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="0c90fa25-ab0a-3247-ceb9-ab065f110cf3">
+ <Files>
+  <File path="scale_snakesmooth_displ.dds"/>
+  <File path="scale_snakesmooth_displ.dds.1"/>
+  <File path="scale_snakesmooth_displ.dds.2"/>
+  <File path="scale_snakesmooth_displ.dds.3"/>
+  <File path="scale_snakesmooth_displ.dds.4"/>
+  <File path="scale_snakesmooth_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d92f2ad0-38ee-07f0-898d-1293e179a36e">
+ <Files>
+  <File path="rubber_flat_diff.dds"/>
+  <File path="rubber_flat_diff.dds.1"/>
+  <File path="rubber_flat_diff.dds.2"/>
+  <File path="rubber_flat_diff.dds.3"/>
+  <File path="rubber_flat_diff.dds.4"/>
+  <File path="rubber_flat_diff.dds.5"/>
+  <File path="rubber_flat_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

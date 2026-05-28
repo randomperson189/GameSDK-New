@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="53c78d81-aee2-4951-ce0e-58e024cdd517">
+ <Files>
+  <File path="concrete_corner_diff.dds"/>
+  <File path="concrete_corner_diff.dds.1"/>
+  <File path="concrete_corner_diff.dds.2"/>
+  <File path="concrete_corner_diff.dds.3"/>
+  <File path="concrete_corner_diff.dds.4"/>
+  <File path="concrete_corner_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

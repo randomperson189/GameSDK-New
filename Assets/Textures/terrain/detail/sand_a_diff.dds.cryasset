@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="60ff34d8-b2b4-aa3d-937c-82043ee97874">
+ <Files>
+  <File path="sand_a_diff.dds"/>
+  <File path="sand_a_diff.dds.1"/>
+  <File path="sand_a_diff.dds.2"/>
+  <File path="sand_a_diff.dds.3"/>
+  <File path="sand_a_diff.dds.4"/>
+  <File path="sand_a_diff.dds.5"/>
+  <File path="sand_a_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

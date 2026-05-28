@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="6abc613d-bbe8-8c88-6172-ab77b4116808">
+ <Files>
+  <File path="black_white_horiz_mask.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4</Detail>
+  <Detail name="height">4</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

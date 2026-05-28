@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="bf44fff3-fad6-2f47-319f-7051b9f3545e">
+ <Files>
+  <File path="bulletdecal.dds"/>
+  <File path="bulletdecal.dds.1"/>
+  <File path="bulletdecal.dds.2"/>
+  <File path="bulletdecal.dds.3"/>
+  <File path="bulletdecal.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

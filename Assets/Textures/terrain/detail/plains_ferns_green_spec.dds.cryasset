@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="709e22fe-d1c6-4b8f-afb8-a468120d91e5">
+ <Files>
+  <File path="plains_ferns_green_spec.dds"/>
+  <File path="plains_ferns_green_spec.dds.1"/>
+  <File path="plains_ferns_green_spec.dds.2"/>
+  <File path="plains_ferns_green_spec.dds.3"/>
+  <File path="plains_ferns_green_spec.dds.4"/>
+  <File path="plains_ferns_green_spec.dds.5"/>
+  <File path="plains_ferns_green_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

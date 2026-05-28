@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="79d6e7f2-ff5a-ff61-ca49-5ca95249a494">
+ <Files>
+  <File path="sand_big_stones_displ.dds"/>
+  <File path="sand_big_stones_displ.dds.1"/>
+  <File path="sand_big_stones_displ.dds.2"/>
+  <File path="sand_big_stones_displ.dds.3"/>
+  <File path="sand_big_stones_displ.dds.4"/>
+  <File path="sand_big_stones_displ.dds.5"/>
+  <File path="sand_big_stones_displ.dds.6"/>
+  <File path="sand_big_stones_displ.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

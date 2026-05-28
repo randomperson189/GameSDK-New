@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="3e5919d2-6791-9c68-2f32-7f20e5f30043">
+ <Files>
+  <File path="hull_wires_complex_displ.dds"/>
+  <File path="hull_wires_complex_displ.dds.1"/>
+  <File path="hull_wires_complex_displ.dds.2"/>
+  <File path="hull_wires_complex_displ.dds.3"/>
+  <File path="hull_wires_complex_displ.dds.4"/>
+  <File path="hull_wires_complex_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

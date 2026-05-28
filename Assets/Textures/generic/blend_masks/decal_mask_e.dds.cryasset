@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="9d33ef6e-15dc-42c1-974b-a90f04367e24">
+ <Files>
+  <File path="decal_mask_e.dds"/>
+  <File path="decal_mask_e.dds.1"/>
+  <File path="decal_mask_e.dds.2"/>
+  <File path="decal_mask_e.dds.3"/>
+  <File path="decal_mask_e.dds.4"/>
+  <File path="decal_mask_e.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

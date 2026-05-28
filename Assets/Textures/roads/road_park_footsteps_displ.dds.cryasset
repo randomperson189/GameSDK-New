@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="7532af86-b5d1-6218-f728-4a715b0ab799">
+ <Files>
+  <File path="road_park_footsteps_displ.dds"/>
+  <File path="road_park_footsteps_displ.dds.1"/>
+  <File path="road_park_footsteps_displ.dds.2"/>
+  <File path="road_park_footsteps_displ.dds.3"/>
+  <File path="road_park_footsteps_displ.dds.4"/>
+  <File path="road_park_footsteps_displ.dds.5"/>
+  <File path="road_park_footsteps_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

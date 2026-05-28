@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="e70fb4e5-6fda-a1e3-a766-c542697d54f9">
+ <Files>
+  <File path="snow_melt_ddna.dds"/>
+  <File path="snow_melt_ddna.dds.a"/>
+  <File path="snow_melt_ddna.dds.1"/>
+  <File path="snow_melt_ddna.dds.1a"/>
+  <File path="snow_melt_ddna.dds.2"/>
+  <File path="snow_melt_ddna.dds.2a"/>
+  <File path="snow_melt_ddna.dds.3"/>
+  <File path="snow_melt_ddna.dds.3a"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

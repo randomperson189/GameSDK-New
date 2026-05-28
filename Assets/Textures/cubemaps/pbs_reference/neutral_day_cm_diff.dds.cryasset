@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="e0caffa5-7644-adbd-3cc3-22c3d4359760">
+ <Files>
+  <File path="neutral_day_cm_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

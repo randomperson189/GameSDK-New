@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="2d14c287-d983-ea56-fc3e-0d3716e547b2">
+ <Files>
+  <File path="general_trash_ddn.dds"/>
+  <File path="general_trash_ddn.dds.1"/>
+  <File path="general_trash_ddn.dds.2"/>
+  <File path="general_trash_ddn.dds.3"/>
+  <File path="general_trash_ddn.dds.4"/>
+  <File path="general_trash_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

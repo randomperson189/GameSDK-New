@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="80b2fc84-af92-565a-cb01-cadb95cc4e44">
+ <Files>
+  <File path="number9_together1.dds"/>
+  <File path="number9_together1.dds.1"/>
+  <File path="number9_together1.dds.2"/>
+  <File path="number9_together1.dds.3"/>
+  <File path="number9_together1.dds.4"/>
+  <File path="number9_together1.dds.5"/>
+  <File path="number9_together1.dds.6"/>
+  <File path="number9_together1.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

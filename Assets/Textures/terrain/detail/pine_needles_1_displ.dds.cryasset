@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="7674a827-6c50-4b2d-47f7-94732527903a">
+ <Files>
+  <File path="pine_needles_1_displ.dds"/>
+  <File path="pine_needles_1_displ.dds.1"/>
+  <File path="pine_needles_1_displ.dds.2"/>
+  <File path="pine_needles_1_displ.dds.3"/>
+  <File path="pine_needles_1_displ.dds.4"/>
+  <File path="pine_needles_1_displ.dds.5"/>
+  <File path="pine_needles_1_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

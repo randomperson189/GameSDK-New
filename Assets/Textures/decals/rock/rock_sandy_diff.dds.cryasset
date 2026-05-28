@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="ac4a4f6c-c979-9d13-5deb-a99d7974cbff">
+ <Files>
+  <File path="rock_sandy_diff.dds"/>
+  <File path="rock_sandy_diff.dds.1"/>
+  <File path="rock_sandy_diff.dds.2"/>
+  <File path="rock_sandy_diff.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

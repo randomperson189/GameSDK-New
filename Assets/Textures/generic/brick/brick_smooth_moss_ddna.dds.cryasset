@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="bddd70b1-2b13-9242-c653-bbae140b0725">
+ <Files>
+  <File path="brick_smooth_moss_ddna.dds"/>
+  <File path="brick_smooth_moss_ddna.dds.a"/>
+  <File path="brick_smooth_moss_ddna.dds.1"/>
+  <File path="brick_smooth_moss_ddna.dds.1a"/>
+  <File path="brick_smooth_moss_ddna.dds.2"/>
+  <File path="brick_smooth_moss_ddna.dds.2a"/>
+  <File path="brick_smooth_moss_ddna.dds.3"/>
+  <File path="brick_smooth_moss_ddna.dds.3a"/>
+  <File path="brick_smooth_moss_ddna.dds.4"/>
+  <File path="brick_smooth_moss_ddna.dds.4a"/>
+  <File path="brick_smooth_moss_ddna.dds.5"/>
+  <File path="brick_smooth_moss_ddna.dds.5a"/>
+  <File path="brick_smooth_moss_ddna.dds.6"/>
+  <File path="brick_smooth_moss_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

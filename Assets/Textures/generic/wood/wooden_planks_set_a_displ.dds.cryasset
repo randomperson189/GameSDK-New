@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ff3be295-c96d-c776-4930-8e75285c01c9">
+ <Files>
+  <File path="wooden_planks_set_a_displ.dds"/>
+  <File path="wooden_planks_set_a_displ.dds.1"/>
+  <File path="wooden_planks_set_a_displ.dds.2"/>
+  <File path="wooden_planks_set_a_displ.dds.3"/>
+  <File path="wooden_planks_set_a_displ.dds.4"/>
+  <File path="wooden_planks_set_a_displ.dds.5"/>
+  <File path="wooden_planks_set_a_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

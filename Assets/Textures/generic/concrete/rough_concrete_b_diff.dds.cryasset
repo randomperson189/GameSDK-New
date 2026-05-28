@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="fdb22f1c-8dd2-d468-3a21-e21f1036b857">
+ <Files>
+  <File path="rough_concrete_b_diff.dds"/>
+  <File path="rough_concrete_b_diff.dds.1"/>
+  <File path="rough_concrete_b_diff.dds.2"/>
+  <File path="rough_concrete_b_diff.dds.3"/>
+  <File path="rough_concrete_b_diff.dds.4"/>
+  <File path="rough_concrete_b_diff.dds.5"/>
+  <File path="rough_concrete_b_diff.dds.6"/>
+  <File path="rough_concrete_b_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

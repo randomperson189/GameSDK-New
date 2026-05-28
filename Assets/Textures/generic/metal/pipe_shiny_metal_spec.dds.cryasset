@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="635e1440-5e11-58d5-e497-47c4e23b9e42">
+ <Files>
+  <File path="pipe_shiny_metal_spec.dds"/>
+  <File path="pipe_shiny_metal_spec.dds.1"/>
+  <File path="pipe_shiny_metal_spec.dds.2"/>
+  <File path="pipe_shiny_metal_spec.dds.3"/>
+  <File path="pipe_shiny_metal_spec.dds.4"/>
+  <File path="pipe_shiny_metal_spec.dds.5"/>
+  <File path="pipe_shiny_metal_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

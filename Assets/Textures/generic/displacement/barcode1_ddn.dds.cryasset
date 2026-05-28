@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="23d5b4a6-ed57-05bc-e913-65a0075fc0b9">
+ <Files>
+  <File path="barcode1_ddn.dds"/>
+  <File path="barcode1_ddn.dds.1"/>
+  <File path="barcode1_ddn.dds.2"/>
+  <File path="barcode1_ddn.dds.3"/>
+  <File path="barcode1_ddn.dds.4"/>
+  <File path="barcode1_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

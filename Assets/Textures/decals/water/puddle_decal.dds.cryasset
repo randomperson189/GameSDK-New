@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="13007182-38c3-c48b-451a-4a305eb9ec0e">
+ <Files>
+  <File path="puddle_decal.dds"/>
+  <File path="puddle_decal.dds.1"/>
+  <File path="puddle_decal.dds.2"/>
+  <File path="puddle_decal.dds.3"/>
+  <File path="puddle_decal.dds.4"/>
+  <File path="puddle_decal.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

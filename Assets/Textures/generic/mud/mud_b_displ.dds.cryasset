@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="bc7b9d60-8a92-6992-323e-a40e0ed96c72">
+ <Files>
+  <File path="mud_b_displ.dds"/>
+  <File path="mud_b_displ.dds.1"/>
+  <File path="mud_b_displ.dds.2"/>
+  <File path="mud_b_displ.dds.3"/>
+  <File path="mud_b_displ.dds.4"/>
+  <File path="mud_b_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

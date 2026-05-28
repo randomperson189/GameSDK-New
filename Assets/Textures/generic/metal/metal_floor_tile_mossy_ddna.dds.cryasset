@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="d1a78f5a-4c3b-398f-03d7-181aab415c2f">
+ <Files>
+  <File path="metal_floor_tile_mossy_ddna.dds"/>
+  <File path="metal_floor_tile_mossy_ddna.dds.a"/>
+  <File path="metal_floor_tile_mossy_ddna.dds.1"/>
+  <File path="metal_floor_tile_mossy_ddna.dds.1a"/>
+  <File path="metal_floor_tile_mossy_ddna.dds.2"/>
+  <File path="metal_floor_tile_mossy_ddna.dds.2a"/>
+  <File path="metal_floor_tile_mossy_ddna.dds.3"/>
+  <File path="metal_floor_tile_mossy_ddna.dds.3a"/>
+  <File path="metal_floor_tile_mossy_ddna.dds.4"/>
+  <File path="metal_floor_tile_mossy_ddna.dds.4a"/>
+  <File path="metal_floor_tile_mossy_ddna.dds.5"/>
+  <File path="metal_floor_tile_mossy_ddna.dds.5a"/>
+  <File path="metal_floor_tile_mossy_ddna.dds.6"/>
+  <File path="metal_floor_tile_mossy_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

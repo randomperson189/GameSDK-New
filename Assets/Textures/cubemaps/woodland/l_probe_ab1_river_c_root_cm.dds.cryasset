@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="b9417162-2175-92fb-8c41-8ef9b6c02a19">
+ <Files>
+  <File path="l_probe_ab1_river_c_root_cm.dds"/>
+  <File path="l_probe_ab1_river_c_root_cm.dds.1"/>
+  <File path="l_probe_ab1_river_c_root_cm.dds.2"/>
+  <File path="l_probe_ab1_river_c_root_cm.dds.3"/>
+  <File path="l_probe_ab1_river_c_root_cm.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">1536</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

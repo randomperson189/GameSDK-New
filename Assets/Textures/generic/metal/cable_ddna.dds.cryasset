@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="4d6a82a4-c767-20bc-2f6b-fe0d0f7cc3f1">
+ <Files>
+  <File path="cable_ddna.dds"/>
+  <File path="cable_ddna.dds.a"/>
+  <File path="cable_ddna.dds.1"/>
+  <File path="cable_ddna.dds.1a"/>
+  <File path="cable_ddna.dds.2"/>
+  <File path="cable_ddna.dds.2a"/>
+  <File path="cable_ddna.dds.3"/>
+  <File path="cable_ddna.dds.3a"/>
+  <File path="cable_ddna.dds.4"/>
+  <File path="cable_ddna.dds.4a"/>
+  <File path="cable_ddna.dds.5"/>
+  <File path="cable_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="dd50e8cd-9e76-5f3b-fe31-f66c6fcd41c2">
+ <Files>
+  <File path="road_stones_01_displ.dds"/>
+  <File path="road_stones_01_displ.dds.1"/>
+  <File path="road_stones_01_displ.dds.2"/>
+  <File path="road_stones_01_displ.dds.3"/>
+  <File path="road_stones_01_displ.dds.4"/>
+  <File path="road_stones_01_displ.dds.5"/>
+  <File path="road_stones_01_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

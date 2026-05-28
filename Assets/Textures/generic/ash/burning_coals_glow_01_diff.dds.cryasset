@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="47c0674a-2b93-0608-7a51-1ccc5f6bbe72">
+ <Files>
+  <File path="burning_coals_glow_01_diff.dds"/>
+  <File path="burning_coals_glow_01_diff.dds.1"/>
+  <File path="burning_coals_glow_01_diff.dds.2"/>
+  <File path="burning_coals_glow_01_diff.dds.3"/>
+  <File path="burning_coals_glow_01_diff.dds.4"/>
+  <File path="burning_coals_glow_01_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

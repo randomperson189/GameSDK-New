@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="ec50ba91-0f14-5822-07cd-b728880dec48">
+ <Files>
+  <File path="asphalt_b_diff.dds"/>
+  <File path="asphalt_b_diff.dds.1"/>
+  <File path="asphalt_b_diff.dds.2"/>
+  <File path="asphalt_b_diff.dds.3"/>
+  <File path="asphalt_b_diff.dds.4"/>
+  <File path="asphalt_b_diff.dds.5"/>
+  <File path="asphalt_b_diff.dds.6"/>
+  <File path="asphalt_b_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

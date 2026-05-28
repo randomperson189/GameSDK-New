@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="9144edd3-c493-6a72-1fb4-52a5991ca04d">
+ <Files>
+  <File path="wood_trunk_oak_tree_a_displ.dds"/>
+  <File path="wood_trunk_oak_tree_a_displ.dds.1"/>
+  <File path="wood_trunk_oak_tree_a_displ.dds.2"/>
+  <File path="wood_trunk_oak_tree_a_displ.dds.3"/>
+  <File path="wood_trunk_oak_tree_a_displ.dds.4"/>
+  <File path="wood_trunk_oak_tree_a_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

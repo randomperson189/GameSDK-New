@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="0ffe99a7-010f-ddda-aa07-4fb8eaa771e7">
+ <Files>
+  <File path="fibreplastics_detail.dds"/>
+  <File path="fibreplastics_detail.dds.1"/>
+  <File path="fibreplastics_detail.dds.2"/>
+  <File path="fibreplastics_detail.dds.3"/>
+  <File path="fibreplastics_detail.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

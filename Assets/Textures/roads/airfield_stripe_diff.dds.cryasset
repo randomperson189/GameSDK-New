@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="aa374a34-2114-c33d-638a-f19f2a43cd02">
+ <Files>
+  <File path="airfield_stripe_diff.dds"/>
+  <File path="airfield_stripe_diff.dds.1"/>
+  <File path="airfield_stripe_diff.dds.2"/>
+  <File path="airfield_stripe_diff.dds.3"/>
+  <File path="airfield_stripe_diff.dds.4"/>
+  <File path="airfield_stripe_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

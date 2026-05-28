@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="08b83435-8e42-a213-7917-bec2ff9f74f4">
+ <Files>
+  <File path="metal_006_detail.dds"/>
+  <File path="metal_006_detail.dds.1"/>
+  <File path="metal_006_detail.dds.2"/>
+  <File path="metal_006_detail.dds.3"/>
+  <File path="metal_006_detail.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

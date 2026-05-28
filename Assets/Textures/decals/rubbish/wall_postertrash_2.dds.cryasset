@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="8dbac89e-6e22-9bca-a6a6-73a60d0107dc">
+ <Files>
+  <File path="wall_postertrash_2.dds"/>
+  <File path="wall_postertrash_2.dds.1"/>
+  <File path="wall_postertrash_2.dds.2"/>
+  <File path="wall_postertrash_2.dds.3"/>
+  <File path="wall_postertrash_2.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="9a0ce0b7-d581-330e-4f45-7c14aee893be">
+ <Files>
+  <File path="floor_stone_paver_a_diff.dds"/>
+  <File path="floor_stone_paver_a_diff.dds.1"/>
+  <File path="floor_stone_paver_a_diff.dds.2"/>
+  <File path="floor_stone_paver_a_diff.dds.3"/>
+  <File path="floor_stone_paver_a_diff.dds.4"/>
+  <File path="floor_stone_paver_a_diff.dds.5"/>
+  <File path="floor_stone_paver_a_diff.dds.6"/>
+  <File path="floor_stone_paver_a_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

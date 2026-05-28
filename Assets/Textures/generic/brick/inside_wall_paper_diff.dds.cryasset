@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="c294214f-5c3e-0982-2939-a09644a24263">
+ <Files>
+  <File path="inside_wall_paper_diff.dds"/>
+  <File path="inside_wall_paper_diff.dds.1"/>
+  <File path="inside_wall_paper_diff.dds.2"/>
+  <File path="inside_wall_paper_diff.dds.3"/>
+  <File path="inside_wall_paper_diff.dds.4"/>
+  <File path="inside_wall_paper_diff.dds.5"/>
+  <File path="inside_wall_paper_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

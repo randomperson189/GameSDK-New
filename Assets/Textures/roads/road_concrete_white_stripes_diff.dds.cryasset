@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ee66c4f6-2a6e-0c60-1380-b69134e9145a">
+ <Files>
+  <File path="road_concrete_white_stripes_diff.dds"/>
+  <File path="road_concrete_white_stripes_diff.dds.1"/>
+  <File path="road_concrete_white_stripes_diff.dds.2"/>
+  <File path="road_concrete_white_stripes_diff.dds.3"/>
+  <File path="road_concrete_white_stripes_diff.dds.4"/>
+  <File path="road_concrete_white_stripes_diff.dds.5"/>
+  <File path="road_concrete_white_stripes_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

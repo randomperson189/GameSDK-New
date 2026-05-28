@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="32db40d5-2763-a30a-2311-4b28add1b032">
+ <Files>
+  <File path="bolts.dds"/>
+  <File path="bolts.dds.1"/>
+  <File path="bolts.dds.2"/>
+  <File path="bolts.dds.3"/>
+  <File path="bolts.dds.4"/>
+  <File path="bolts.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

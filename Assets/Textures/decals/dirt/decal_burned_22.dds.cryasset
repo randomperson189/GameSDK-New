@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="2dc45f4d-f77e-3a57-9814-a7f04d0bd57d">
+ <Files>
+  <File path="decal_burned_22.dds"/>
+  <File path="decal_burned_22.dds.1"/>
+  <File path="decal_burned_22.dds.2"/>
+  <File path="decal_burned_22.dds.3"/>
+  <File path="decal_burned_22.dds.4"/>
+  <File path="decal_burned_22.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

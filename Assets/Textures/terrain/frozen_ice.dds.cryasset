@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="edf0abd6-c251-0dd2-363a-052cd6987139">
+ <Files>
+  <File path="frozen_ice.dds"/>
+  <File path="frozen_ice.dds.1"/>
+  <File path="frozen_ice.dds.2"/>
+  <File path="frozen_ice.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

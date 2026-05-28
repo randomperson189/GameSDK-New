@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="a3f394d4-2f0f-a885-a5f0-a366da83c131">
+ <Files>
+  <File path="underwater_coral.dds"/>
+  <File path="underwater_coral.dds.1"/>
+  <File path="underwater_coral.dds.2"/>
+  <File path="underwater_coral.dds.3"/>
+  <File path="underwater_coral.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

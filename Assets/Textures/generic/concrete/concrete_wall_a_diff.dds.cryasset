@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="dae4d871-a5cf-6dfa-c4da-2ffe2e4d20cb">
+ <Files>
+  <File path="concrete_wall_a_diff.dds"/>
+  <File path="concrete_wall_a_diff.dds.1"/>
+  <File path="concrete_wall_a_diff.dds.2"/>
+  <File path="concrete_wall_a_diff.dds.3"/>
+  <File path="concrete_wall_a_diff.dds.4"/>
+  <File path="concrete_wall_a_diff.dds.5"/>
+  <File path="concrete_wall_a_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

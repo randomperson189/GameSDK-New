@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="e6da86f1-514c-5cba-a69a-9dbaf04fe650">
+ <Files>
+  <File path="corrugated_metal_d_diff.dds"/>
+  <File path="corrugated_metal_d_diff.dds.1"/>
+  <File path="corrugated_metal_d_diff.dds.2"/>
+  <File path="corrugated_metal_d_diff.dds.3"/>
+  <File path="corrugated_metal_d_diff.dds.4"/>
+  <File path="corrugated_metal_d_diff.dds.5"/>
+  <File path="corrugated_metal_d_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

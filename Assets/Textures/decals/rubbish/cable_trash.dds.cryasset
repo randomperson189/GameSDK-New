@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="ec899100-fcca-9cf4-2c4e-58fa64425a87">
+ <Files>
+  <File path="cable_trash.dds"/>
+  <File path="cable_trash.dds.1"/>
+  <File path="cable_trash.dds.2"/>
+  <File path="cable_trash.dds.3"/>
+  <File path="cable_trash.dds.4"/>
+  <File path="cable_trash.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="4b18837f-28ff-46b6-055b-575c3cd0a27a">
+ <Files>
+  <File path="rusted_red_panels_diff.dds"/>
+  <File path="rusted_red_panels_diff.dds.1"/>
+  <File path="rusted_red_panels_diff.dds.2"/>
+  <File path="rusted_red_panels_diff.dds.3"/>
+  <File path="rusted_red_panels_diff.dds.4"/>
+  <File path="rusted_red_panels_diff.dds.5"/>
+  <File path="rusted_red_panels_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

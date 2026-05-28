@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="6f0b0c7c-c335-0b76-30fd-1dcea62652ce">
+ <Files>
+  <File path="mosaic_ddn.dds"/>
+  <File path="mosaic_ddn.dds.1"/>
+  <File path="mosaic_ddn.dds.2"/>
+  <File path="mosaic_ddn.dds.3"/>
+  <File path="mosaic_ddn.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

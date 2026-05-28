@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="acc821e4-8e68-0f49-26e0-986e330b507b">
+ <Files>
+  <File path="debug_saturation_33.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">16</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

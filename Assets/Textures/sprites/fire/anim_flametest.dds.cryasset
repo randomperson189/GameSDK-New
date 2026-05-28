@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="75ff8f0a-27a1-abf9-d3b3-23949f9a231d">
+ <Files>
+  <File path="anim_flametest.dds"/>
+  <File path="anim_flametest.dds.1"/>
+  <File path="anim_flametest.dds.2"/>
+  <File path="anim_flametest.dds.3"/>
+  <File path="anim_flametest.dds.4"/>
+  <File path="anim_flametest.dds.5"/>
+  <File path="anim_flametest.dds.6"/>
+  <File path="anim_flametest.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

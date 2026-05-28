@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="1af1c6d2-1c26-7c2c-0ee7-70cc1557d103">
+ <Files>
+  <File path="cheetah_displ.dds"/>
+  <File path="cheetah_displ.dds.1"/>
+  <File path="cheetah_displ.dds.2"/>
+  <File path="cheetah_displ.dds.3"/>
+  <File path="cheetah_displ.dds.4"/>
+  <File path="cheetah_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

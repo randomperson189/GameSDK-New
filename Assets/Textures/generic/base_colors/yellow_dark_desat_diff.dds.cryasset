@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="c2f4d643-387a-bdfd-05c1-06b56a2514df">
+ <Files>
+  <File path="yellow_dark_desat_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4</Detail>
+  <Detail name="height">4</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

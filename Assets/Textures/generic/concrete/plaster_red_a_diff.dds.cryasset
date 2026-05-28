@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="014f4516-f6b8-f52e-99d5-125711c3738e">
+ <Files>
+  <File path="plaster_red_a_diff.dds"/>
+  <File path="plaster_red_a_diff.dds.1"/>
+  <File path="plaster_red_a_diff.dds.2"/>
+  <File path="plaster_red_a_diff.dds.3"/>
+  <File path="plaster_red_a_diff.dds.4"/>
+  <File path="plaster_red_a_diff.dds.5"/>
+  <File path="plaster_red_a_diff.dds.6"/>
+  <File path="plaster_red_a_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

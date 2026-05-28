@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="c1cff3e7-a981-0ae1-e402-03151adb8f38">
+ <Files>
+  <File path="scrap_1.dds"/>
+  <File path="scrap_1.dds.1"/>
+  <File path="scrap_1.dds.2"/>
+  <File path="scrap_1.dds.3"/>
+  <File path="scrap_1.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

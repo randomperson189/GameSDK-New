@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="f7c9d84a-e8db-61ea-fbf2-8ebbe6a79638">
+ <Files>
+  <File path="fire_tiled_a.dds"/>
+  <File path="fire_tiled_a.dds.1"/>
+  <File path="fire_tiled_a.dds.2"/>
+  <File path="fire_tiled_a.dds.3"/>
+  <File path="fire_tiled_a.dds.4"/>
+  <File path="fire_tiled_a.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

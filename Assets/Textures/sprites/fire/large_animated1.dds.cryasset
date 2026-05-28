@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="5d306343-dc2f-55d7-9313-43390eaab709">
+ <Files>
+  <File path="large_animated1.dds"/>
+  <File path="large_animated1.dds.1"/>
+  <File path="large_animated1.dds.2"/>
+  <File path="large_animated1.dds.3"/>
+  <File path="large_animated1.dds.4"/>
+  <File path="large_animated1.dds.5"/>
+  <File path="large_animated1.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

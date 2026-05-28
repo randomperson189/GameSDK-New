@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="01981e1c-0d34-701e-b881-92f0463f5e20">
+ <Files>
+  <File path="roof_tar_paper01_ddna.dds"/>
+  <File path="roof_tar_paper01_ddna.dds.a"/>
+  <File path="roof_tar_paper01_ddna.dds.1"/>
+  <File path="roof_tar_paper01_ddna.dds.1a"/>
+  <File path="roof_tar_paper01_ddna.dds.2"/>
+  <File path="roof_tar_paper01_ddna.dds.2a"/>
+  <File path="roof_tar_paper01_ddna.dds.3"/>
+  <File path="roof_tar_paper01_ddna.dds.3a"/>
+  <File path="roof_tar_paper01_ddna.dds.4"/>
+  <File path="roof_tar_paper01_ddna.dds.4a"/>
+  <File path="roof_tar_paper01_ddna.dds.5"/>
+  <File path="roof_tar_paper01_ddna.dds.5a"/>
+  <File path="roof_tar_paper01_ddna.dds.6"/>
+  <File path="roof_tar_paper01_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

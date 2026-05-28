@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="8c7599ee-b75b-0431-02e4-0b86bd7b1710">
+ <Files>
+  <File path="grime_a_diff.dds"/>
+  <File path="grime_a_diff.dds.1"/>
+  <File path="grime_a_diff.dds.2"/>
+  <File path="grime_a_diff.dds.3"/>
+  <File path="grime_a_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

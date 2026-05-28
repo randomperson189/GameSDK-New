@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="d8a2bed3-6bc8-1ae8-1e21-060bbc97b786">
+ <Files>
+  <File path="interior_cm_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

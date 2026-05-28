@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="6f21b9c4-76a0-f384-144e-992b45b55714">
+ <Files>
+  <File path="mud_straw_b_diff.dds"/>
+  <File path="mud_straw_b_diff.dds.1"/>
+  <File path="mud_straw_b_diff.dds.2"/>
+  <File path="mud_straw_b_diff.dds.3"/>
+  <File path="mud_straw_b_diff.dds.4"/>
+  <File path="mud_straw_b_diff.dds.5"/>
+  <File path="mud_straw_b_diff.dds.6"/>
+  <File path="mud_straw_b_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

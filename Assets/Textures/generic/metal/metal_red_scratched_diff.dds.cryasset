@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="9dd3e817-410e-1c4e-08cf-6a4526ca6c4a">
+ <Files>
+  <File path="metal_red_scratched_diff.dds"/>
+  <File path="metal_red_scratched_diff.dds.1"/>
+  <File path="metal_red_scratched_diff.dds.2"/>
+  <File path="metal_red_scratched_diff.dds.3"/>
+  <File path="metal_red_scratched_diff.dds.4"/>
+  <File path="metal_red_scratched_diff.dds.5"/>
+  <File path="metal_red_scratched_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

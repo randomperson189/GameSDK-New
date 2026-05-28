@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="05e3227e-6cfa-40e8-da0a-8e4ebcaa5a44">
+ <Files>
+  <File path="brick_moss_blend_mask.dds"/>
+  <File path="brick_moss_blend_mask.dds.1"/>
+  <File path="brick_moss_blend_mask.dds.2"/>
+  <File path="brick_moss_blend_mask.dds.3"/>
+  <File path="brick_moss_blend_mask.dds.4"/>
+  <File path="brick_moss_blend_mask.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

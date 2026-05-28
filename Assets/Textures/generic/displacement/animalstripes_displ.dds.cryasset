@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="2e26f74f-6e79-1747-8936-82c57b93a463">
+ <Files>
+  <File path="animalstripes_displ.dds"/>
+  <File path="animalstripes_displ.dds.1"/>
+  <File path="animalstripes_displ.dds.2"/>
+  <File path="animalstripes_displ.dds.3"/>
+  <File path="animalstripes_displ.dds.4"/>
+  <File path="animalstripes_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

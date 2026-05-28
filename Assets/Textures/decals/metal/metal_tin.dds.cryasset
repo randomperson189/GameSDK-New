@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="34235111-cc51-21c1-0fd3-6303fdc329c8">
+ <Files>
+  <File path="metal_tin.dds"/>
+  <File path="metal_tin.dds.1"/>
+  <File path="metal_tin.dds.2"/>
+  <File path="metal_tin.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

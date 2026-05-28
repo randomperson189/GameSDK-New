@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="f27e96d2-664b-8291-e4e3-b603884ca990">
+ <Files>
+  <File path="spray01.dds"/>
+  <File path="spray01.dds.1"/>
+  <File path="spray01.dds.2"/>
+  <File path="spray01.dds.3"/>
+  <File path="spray01.dds.4"/>
+  <File path="spray01.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

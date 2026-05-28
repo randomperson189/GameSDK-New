@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="f10e8d64-97df-3745-ba3e-404f6ac7fd85">
+ <Files>
+  <File path="mud_rubbish_displ.dds"/>
+  <File path="mud_rubbish_displ.dds.1"/>
+  <File path="mud_rubbish_displ.dds.2"/>
+  <File path="mud_rubbish_displ.dds.3"/>
+  <File path="mud_rubbish_displ.dds.4"/>
+  <File path="mud_rubbish_displ.dds.5"/>
+  <File path="mud_rubbish_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

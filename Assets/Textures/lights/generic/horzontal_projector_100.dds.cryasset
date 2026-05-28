@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="7582e257-afd8-e224-4766-48b9a5648ec3">
+ <Files>
+  <File path="horzontal_projector_100.dds"/>
+  <File path="horzontal_projector_100.dds.1"/>
+  <File path="horzontal_projector_100.dds.2"/>
+  <File path="horzontal_projector_100.dds.3"/>
+  <File path="horzontal_projector_100.dds.4"/>
+  <File path="horzontal_projector_100.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

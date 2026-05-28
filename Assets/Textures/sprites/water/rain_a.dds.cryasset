@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="9661385a-610d-3d5d-3bd0-1ddacc679366">
+ <Files>
+  <File path="rain_a.dds"/>
+  <File path="rain_a.dds.1"/>
+  <File path="rain_a.dds.2"/>
+  <File path="rain_a.dds.3"/>
+  <File path="rain_a.dds.4"/>
+  <File path="rain_a.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

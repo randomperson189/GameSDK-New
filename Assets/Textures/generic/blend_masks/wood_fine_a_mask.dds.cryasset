@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="1f851107-a51b-fc8e-fb0f-91e26e9ea4cd">
+ <Files>
+  <File path="wood_fine_a_mask.dds"/>
+  <File path="wood_fine_a_mask.dds.1"/>
+  <File path="wood_fine_a_mask.dds.2"/>
+  <File path="wood_fine_a_mask.dds.3"/>
+  <File path="wood_fine_a_mask.dds.4"/>
+  <File path="wood_fine_a_mask.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

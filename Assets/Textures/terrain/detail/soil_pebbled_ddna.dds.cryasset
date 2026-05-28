@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Texture" guid="847d583f-1a0a-39c0-6987-4c3d52825a9c">
+ <Files>
+  <File path="soil_pebbled_ddna.dds"/>
+  <File path="soil_pebbled_ddna.dds.a"/>
+  <File path="soil_pebbled_ddna.dds.1"/>
+  <File path="soil_pebbled_ddna.dds.1a"/>
+  <File path="soil_pebbled_ddna.dds.2"/>
+  <File path="soil_pebbled_ddna.dds.2a"/>
+  <File path="soil_pebbled_ddna.dds.3"/>
+  <File path="soil_pebbled_ddna.dds.3a"/>
+  <File path="soil_pebbled_ddna.dds.4"/>
+  <File path="soil_pebbled_ddna.dds.4a"/>
+  <File path="soil_pebbled_ddna.dds.5"/>
+  <File path="soil_pebbled_ddna.dds.5a"/>
+  <File path="soil_pebbled_ddna.dds.6"/>
+  <File path="soil_pebbled_ddna.dds.6a"/>
+  <File path="soil_pebbled_ddna.dds.7"/>
+  <File path="soil_pebbled_ddna.dds.7a"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

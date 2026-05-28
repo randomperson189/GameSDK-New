@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="e7c37a3c-ae18-216f-2f43-be6d1165a469">
+ <Files>
+  <File path="box_5.dds"/>
+  <File path="box_5.dds.1"/>
+  <File path="box_5.dds.2"/>
+  <File path="box_5.dds.3"/>
+  <File path="box_5.dds.4"/>
+  <File path="box_5.dds.5"/>
+  <File path="box_5.dds.6"/>
+  <File path="box_5.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

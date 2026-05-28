@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="a96610b3-c058-722e-9fec-feb2f71df091">
+ <Files>
+  <File path="wall_dirt_bright.dds"/>
+  <File path="wall_dirt_bright.dds.1"/>
+  <File path="wall_dirt_bright.dds.2"/>
+  <File path="wall_dirt_bright.dds.3"/>
+  <File path="wall_dirt_bright.dds.4"/>
+  <File path="wall_dirt_bright.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="601f2e69-cce0-935e-4d08-dd46f16f1b9c">
+ <Files>
+  <File path="path_forest_displ.dds"/>
+  <File path="path_forest_displ.dds.1"/>
+  <File path="path_forest_displ.dds.2"/>
+  <File path="path_forest_displ.dds.3"/>
+  <File path="path_forest_displ.dds.4"/>
+  <File path="path_forest_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

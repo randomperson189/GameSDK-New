@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="9a3002b0-8ad2-9a12-a3a4-a66444433dd3">
+ <Files>
+  <File path="logo_vertical_black.dds"/>
+  <File path="logo_vertical_black.dds.1"/>
+  <File path="logo_vertical_black.dds.2"/>
+  <File path="logo_vertical_black.dds.3"/>
+  <File path="logo_vertical_black.dds.4"/>
+  <File path="logo_vertical_black.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

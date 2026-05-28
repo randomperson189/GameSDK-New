@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="f0545e88-6520-39ab-50c3-6d65cfc4f2ab">
+ <Files>
+  <File path="trail_smoke_b.dds"/>
+  <File path="trail_smoke_b.dds.1"/>
+  <File path="trail_smoke_b.dds.2"/>
+  <File path="trail_smoke_b.dds.3"/>
+  <File path="trail_smoke_b.dds.4"/>
+  <File path="trail_smoke_b.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

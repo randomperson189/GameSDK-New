@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="bd2b3010-d643-8c9d-6017-c466ad1fc2b2">
+ <Files>
+  <File path="rock_a_mask.dds"/>
+  <File path="rock_a_mask.dds.1"/>
+  <File path="rock_a_mask.dds.2"/>
+  <File path="rock_a_mask.dds.3"/>
+  <File path="rock_a_mask.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

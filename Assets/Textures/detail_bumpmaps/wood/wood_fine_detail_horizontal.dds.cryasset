@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="61198c9c-c033-7f42-a484-bc395d0dd22f">
+ <Files>
+  <File path="wood_fine_detail_horizontal.dds"/>
+  <File path="wood_fine_detail_horizontal.dds.1"/>
+  <File path="wood_fine_detail_horizontal.dds.2"/>
+  <File path="wood_fine_detail_horizontal.dds.3"/>
+  <File path="wood_fine_detail_horizontal.dds.4"/>
+  <File path="wood_fine_detail_horizontal.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

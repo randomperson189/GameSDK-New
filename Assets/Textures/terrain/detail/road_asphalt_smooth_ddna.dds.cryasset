@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="00b00a4f-e615-1d46-53f3-6f24f37032fc">
+ <Files>
+  <File path="road_asphalt_smooth_ddna.dds"/>
+  <File path="road_asphalt_smooth_ddna.dds.a"/>
+  <File path="road_asphalt_smooth_ddna.dds.1"/>
+  <File path="road_asphalt_smooth_ddna.dds.1a"/>
+  <File path="road_asphalt_smooth_ddna.dds.2"/>
+  <File path="road_asphalt_smooth_ddna.dds.2a"/>
+  <File path="road_asphalt_smooth_ddna.dds.3"/>
+  <File path="road_asphalt_smooth_ddna.dds.3a"/>
+  <File path="road_asphalt_smooth_ddna.dds.4"/>
+  <File path="road_asphalt_smooth_ddna.dds.4a"/>
+  <File path="road_asphalt_smooth_ddna.dds.5"/>
+  <File path="road_asphalt_smooth_ddna.dds.5a"/>
+  <File path="road_asphalt_smooth_ddna.dds.6"/>
+  <File path="road_asphalt_smooth_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

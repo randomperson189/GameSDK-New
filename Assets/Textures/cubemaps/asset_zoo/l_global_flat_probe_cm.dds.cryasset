@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="678f5b15-ab03-fcc5-3591-6a2f0be4ca20">
+ <Files>
+  <File path="l_global_flat_probe_cm.dds"/>
+  <File path="l_global_flat_probe_cm.dds.1"/>
+  <File path="l_global_flat_probe_cm.dds.2"/>
+  <File path="l_global_flat_probe_cm.dds.3"/>
+  <File path="l_global_flat_probe_cm.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">1536</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

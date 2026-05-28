@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="6f280633-97b1-6923-b1eb-3513a7770fdb">
+ <Files>
+  <File path="fly_a.dds"/>
+  <File path="fly_a.dds.1"/>
+  <File path="fly_a.dds.2"/>
+  <File path="fly_a.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

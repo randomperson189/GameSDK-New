@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="1152406f-fecd-f754-c54f-2517499759b6">
+ <Files>
+  <File path="black_white_gradient_mask.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4</Detail>
+  <Detail name="height">4</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

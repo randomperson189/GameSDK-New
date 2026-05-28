@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d60ca38f-5fef-3c51-1f37-6399e0af015b">
+ <Files>
+  <File path="rectangle_full_075.dds"/>
+  <File path="rectangle_full_075.dds.1"/>
+  <File path="rectangle_full_075.dds.2"/>
+  <File path="rectangle_full_075.dds.3"/>
+  <File path="rectangle_full_075.dds.4"/>
+  <File path="rectangle_full_075.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

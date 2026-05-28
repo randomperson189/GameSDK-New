@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ddf94659-90d8-7576-4027-52edf38891cf">
+ <Files>
+  <File path="concrete_broken_02_diff.dds"/>
+  <File path="concrete_broken_02_diff.dds.1"/>
+  <File path="concrete_broken_02_diff.dds.2"/>
+  <File path="concrete_broken_02_diff.dds.3"/>
+  <File path="concrete_broken_02_diff.dds.4"/>
+  <File path="concrete_broken_02_diff.dds.5"/>
+  <File path="concrete_broken_02_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="a5b52754-4f7a-a0e5-7be2-36da51f9e8c1">
+ <Files>
+  <File path="rubber_floor_displ.dds"/>
+  <File path="rubber_floor_displ.dds.1"/>
+  <File path="rubber_floor_displ.dds.2"/>
+  <File path="rubber_floor_displ.dds.3"/>
+  <File path="rubber_floor_displ.dds.4"/>
+  <File path="rubber_floor_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

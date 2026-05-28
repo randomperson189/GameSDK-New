@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="4459ab1e-4c7e-b91e-fbc4-db584f22cea8">
+ <Files>
+  <File path="logo_vertical_black_inverted.dds"/>
+  <File path="logo_vertical_black_inverted.dds.1"/>
+  <File path="logo_vertical_black_inverted.dds.2"/>
+  <File path="logo_vertical_black_inverted.dds.3"/>
+  <File path="logo_vertical_black_inverted.dds.4"/>
+  <File path="logo_vertical_black_inverted.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d6337613-d0da-af47-b3a7-9701ac665c00">
+ <Files>
+  <File path="storagehall_corrugated_metal_diff.dds"/>
+  <File path="storagehall_corrugated_metal_diff.dds.1"/>
+  <File path="storagehall_corrugated_metal_diff.dds.2"/>
+  <File path="storagehall_corrugated_metal_diff.dds.3"/>
+  <File path="storagehall_corrugated_metal_diff.dds.4"/>
+  <File path="storagehall_corrugated_metal_diff.dds.5"/>
+  <File path="storagehall_corrugated_metal_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

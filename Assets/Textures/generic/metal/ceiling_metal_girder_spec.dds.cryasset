@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="1547b70c-818a-46f9-0bb0-85efff658d6a">
+ <Files>
+  <File path="ceiling_metal_girder_spec.dds"/>
+  <File path="ceiling_metal_girder_spec.dds.1"/>
+  <File path="ceiling_metal_girder_spec.dds.2"/>
+  <File path="ceiling_metal_girder_spec.dds.3"/>
+  <File path="ceiling_metal_girder_spec.dds.4"/>
+  <File path="ceiling_metal_girder_spec.dds.5"/>
+  <File path="ceiling_metal_girder_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

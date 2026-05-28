@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="2bcae0e3-9cfb-7249-0dcb-54f1d9c91109">
+ <Files>
+  <File path="metal_bronze_plain_a_mask.dds"/>
+  <File path="metal_bronze_plain_a_mask.dds.1"/>
+  <File path="metal_bronze_plain_a_mask.dds.2"/>
+  <File path="metal_bronze_plain_a_mask.dds.3"/>
+  <File path="metal_bronze_plain_a_mask.dds.4"/>
+  <File path="metal_bronze_plain_a_mask.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

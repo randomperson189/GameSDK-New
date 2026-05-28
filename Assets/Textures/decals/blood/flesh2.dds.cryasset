@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="d6b37852-493c-ac9d-b30a-6886c64a3328">
+ <Files>
+  <File path="flesh2.dds"/>
+  <File path="flesh2.dds.1"/>
+  <File path="flesh2.dds.2"/>
+  <File path="flesh2.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

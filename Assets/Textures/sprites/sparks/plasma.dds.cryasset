@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="376e5d6a-d096-f0ba-c6f8-963f9cea9335">
+ <Files>
+  <File path="plasma.dds"/>
+  <File path="plasma.dds.1"/>
+  <File path="plasma.dds.2"/>
+  <File path="plasma.dds.3"/>
+  <File path="plasma.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

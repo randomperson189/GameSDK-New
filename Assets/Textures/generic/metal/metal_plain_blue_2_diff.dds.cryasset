@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="cef58424-90b9-c18e-88b5-f09ce93ef54f">
+ <Files>
+  <File path="metal_plain_blue_2_diff.dds"/>
+  <File path="metal_plain_blue_2_diff.dds.1"/>
+  <File path="metal_plain_blue_2_diff.dds.2"/>
+  <File path="metal_plain_blue_2_diff.dds.3"/>
+  <File path="metal_plain_blue_2_diff.dds.4"/>
+  <File path="metal_plain_blue_2_diff.dds.5"/>
+  <File path="metal_plain_blue_2_diff.dds.6"/>
+  <File path="metal_plain_blue_2_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

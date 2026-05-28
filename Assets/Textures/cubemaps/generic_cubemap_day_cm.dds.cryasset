@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="ba8cbccc-1eb6-7a53-e8fb-4397717716bd">
+ <Files>
+  <File path="generic_cubemap_day_cm.dds"/>
+  <File path="generic_cubemap_day_cm.dds.1"/>
+  <File path="generic_cubemap_day_cm.dds.2"/>
+  <File path="generic_cubemap_day_cm.dds.3"/>
+  <File path="generic_cubemap_day_cm.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">1536</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

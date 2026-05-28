@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="de18a0fc-b35d-7f61-93ca-9c7d869bda50">
+ <Files>
+  <File path="spark_sheet_b.dds"/>
+  <File path="spark_sheet_b.dds.1"/>
+  <File path="spark_sheet_b.dds.2"/>
+  <File path="spark_sheet_b.dds.3"/>
+  <File path="spark_sheet_b.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

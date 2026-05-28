@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="217c2929-53b5-b702-852d-c27482f60241">
+ <Files>
+  <File path="wood_scots_pine_a_stripped_diff.dds"/>
+  <File path="wood_scots_pine_a_stripped_diff.dds.1"/>
+  <File path="wood_scots_pine_a_stripped_diff.dds.2"/>
+  <File path="wood_scots_pine_a_stripped_diff.dds.3"/>
+  <File path="wood_scots_pine_a_stripped_diff.dds.4"/>
+  <File path="wood_scots_pine_a_stripped_diff.dds.5"/>
+  <File path="wood_scots_pine_a_stripped_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

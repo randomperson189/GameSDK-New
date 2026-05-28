@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="55e8d2ca-c7e3-9a54-4173-4e12ebd77b42">
+ <Files>
+  <File path="blast_ice.dds"/>
+  <File path="blast_ice.dds.1"/>
+  <File path="blast_ice.dds.2"/>
+  <File path="blast_ice.dds.3"/>
+  <File path="blast_ice.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

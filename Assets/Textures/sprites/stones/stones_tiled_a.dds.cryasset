@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="0837fa35-5d46-5b70-698f-fb7062a06888">
+ <Files>
+  <File path="stones_tiled_a.dds"/>
+  <File path="stones_tiled_a.dds.1"/>
+  <File path="stones_tiled_a.dds.2"/>
+  <File path="stones_tiled_a.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="b2306d37-8987-44d6-3ab2-c741579d4cf1">
+ <Files>
+  <File path="scales_oddbump_displ.dds"/>
+  <File path="scales_oddbump_displ.dds.1"/>
+  <File path="scales_oddbump_displ.dds.2"/>
+  <File path="scales_oddbump_displ.dds.3"/>
+  <File path="scales_oddbump_displ.dds.4"/>
+  <File path="scales_oddbump_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

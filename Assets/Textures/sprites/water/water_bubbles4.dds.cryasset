@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="77d8b9ca-88f8-b43c-5c52-d495ab7ad97f">
+ <Files>
+  <File path="water_bubbles4.dds"/>
+  <File path="water_bubbles4.dds.1"/>
+  <File path="water_bubbles4.dds.2"/>
+  <File path="water_bubbles4.dds.3"/>
+  <File path="water_bubbles4.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

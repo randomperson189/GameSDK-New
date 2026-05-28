@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="c68003b1-b95a-1c01-0457-46ba0e781e3c">
+ <Files>
+  <File path="rope_ddn.dds"/>
+  <File path="rope_ddn.dds.1"/>
+  <File path="rope_ddn.dds.2"/>
+  <File path="rope_ddn.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

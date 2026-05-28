@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="49eaf7db-8406-7ee6-e4b0-4394a87665d6">
+ <Files>
+  <File path="road_soil_small_pepples.dds"/>
+  <File path="road_soil_small_pepples.dds.1"/>
+  <File path="road_soil_small_pepples.dds.2"/>
+  <File path="road_soil_small_pepples.dds.3"/>
+  <File path="road_soil_small_pepples.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

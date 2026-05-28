@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="a0c880e9-dfe4-26b2-7e56-7a3ab5bd3fd1">
+ <Files>
+  <File path="pebbles01_diff.dds"/>
+  <File path="pebbles01_diff.dds.1"/>
+  <File path="pebbles01_diff.dds.2"/>
+  <File path="pebbles01_diff.dds.3"/>
+  <File path="pebbles01_diff.dds.4"/>
+  <File path="pebbles01_diff.dds.5"/>
+  <File path="pebbles01_diff.dds.6"/>
+  <File path="pebbles01_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="24581276-88be-3130-2e3a-8e7ba41108de">
+ <Files>
+  <File path="fireball4.dds"/>
+  <File path="fireball4.dds.1"/>
+  <File path="fireball4.dds.2"/>
+  <File path="fireball4.dds.3"/>
+  <File path="fireball4.dds.4"/>
+  <File path="fireball4.dds.5"/>
+  <File path="fireball4.dds.6"/>
+  <File path="fireball4.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

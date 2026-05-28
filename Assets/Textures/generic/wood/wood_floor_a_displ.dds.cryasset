@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="118af928-d326-d186-53af-674d1c47cc73">
+ <Files>
+  <File path="wood_floor_a_displ.dds"/>
+  <File path="wood_floor_a_displ.dds.1"/>
+  <File path="wood_floor_a_displ.dds.2"/>
+  <File path="wood_floor_a_displ.dds.3"/>
+  <File path="wood_floor_a_displ.dds.4"/>
+  <File path="wood_floor_a_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

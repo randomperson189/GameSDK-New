@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="33fdd4c2-b78e-0013-8b9d-25da302293e4">
+ <Files>
+  <File path="overcast_probe_cm_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

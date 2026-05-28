@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="1b6763bc-24f1-82a4-2129-530e7963ea60">
+ <Files>
+  <File path="ember.dds"/>
+  <File path="ember.dds.1"/>
+  <File path="ember.dds.2"/>
+  <File path="ember.dds.3"/>
+  <File path="ember.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

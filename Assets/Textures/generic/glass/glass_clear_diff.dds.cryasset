@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="5c78826a-d82a-0b54-2fd6-59bf27898e1f">
+ <Files>
+  <File path="glass_clear_diff.dds"/>
+  <File path="glass_clear_diff.dds.1"/>
+  <File path="glass_clear_diff.dds.2"/>
+  <File path="glass_clear_diff.dds.3"/>
+  <File path="glass_clear_diff.dds.4"/>
+  <File path="glass_clear_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

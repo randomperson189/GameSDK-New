@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="a8cb835d-2dbb-f87f-a48e-dfef79bf2cd3">
+ <Files>
+  <File path="metalstripes_a_ddna.dds"/>
+  <File path="metalstripes_a_ddna.dds.a"/>
+  <File path="metalstripes_a_ddna.dds.1"/>
+  <File path="metalstripes_a_ddna.dds.1a"/>
+  <File path="metalstripes_a_ddna.dds.2"/>
+  <File path="metalstripes_a_ddna.dds.2a"/>
+  <File path="metalstripes_a_ddna.dds.3"/>
+  <File path="metalstripes_a_ddna.dds.3a"/>
+  <File path="metalstripes_a_ddna.dds.4"/>
+  <File path="metalstripes_a_ddna.dds.4a"/>
+  <File path="metalstripes_a_ddna.dds.5"/>
+  <File path="metalstripes_a_ddna.dds.5a"/>
+  <File path="metalstripes_a_ddna.dds.6"/>
+  <File path="metalstripes_a_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

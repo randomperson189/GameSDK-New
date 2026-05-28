@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="47e2a2e5-6b15-12af-de9c-aeff8766267d">
+ <Files>
+  <File path="pine_distance_terrain_diff.dds"/>
+  <File path="pine_distance_terrain_diff.dds.1"/>
+  <File path="pine_distance_terrain_diff.dds.2"/>
+  <File path="pine_distance_terrain_diff.dds.3"/>
+  <File path="pine_distance_terrain_diff.dds.4"/>
+  <File path="pine_distance_terrain_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

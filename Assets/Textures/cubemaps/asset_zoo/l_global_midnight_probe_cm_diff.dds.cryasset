@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="edd36fdb-4cad-becc-ced1-d2bf96d13e00">
+ <Files>
+  <File path="l_global_midnight_probe_cm_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

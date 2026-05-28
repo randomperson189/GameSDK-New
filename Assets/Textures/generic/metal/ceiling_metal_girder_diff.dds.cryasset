@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="f1f4b435-19bf-d8f3-060e-71f0fc2a7600">
+ <Files>
+  <File path="ceiling_metal_girder_diff.dds"/>
+  <File path="ceiling_metal_girder_diff.dds.1"/>
+  <File path="ceiling_metal_girder_diff.dds.2"/>
+  <File path="ceiling_metal_girder_diff.dds.3"/>
+  <File path="ceiling_metal_girder_diff.dds.4"/>
+  <File path="ceiling_metal_girder_diff.dds.5"/>
+  <File path="ceiling_metal_girder_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="f221c661-7a23-af71-9746-c36fef052bff">
+ <Files>
+  <File path="smoke_mask_displ.dds"/>
+  <File path="smoke_mask_displ.dds.1"/>
+  <File path="smoke_mask_displ.dds.2"/>
+  <File path="smoke_mask_displ.dds.3"/>
+  <File path="smoke_mask_displ.dds.4"/>
+  <File path="smoke_mask_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

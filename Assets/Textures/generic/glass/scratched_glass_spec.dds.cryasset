@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="4fd875b0-f76a-d3fb-a914-3b4e284fc4ac">
+ <Files>
+  <File path="scratched_glass_spec.dds"/>
+  <File path="scratched_glass_spec.dds.1"/>
+  <File path="scratched_glass_spec.dds.2"/>
+  <File path="scratched_glass_spec.dds.3"/>
+  <File path="scratched_glass_spec.dds.4"/>
+  <File path="scratched_glass_spec.dds.5"/>
+  <File path="scratched_glass_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Texture" guid="3f2aba70-a675-02da-d34f-258e5549e651">
+ <Files>
+  <File path="sand_white_stones_dry_a_ddna.dds"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.a"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.1"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.1a"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.2"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.2a"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.3"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.3a"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.4"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.4a"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.5"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.5a"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.6"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.6a"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.7"/>
+  <File path="sand_white_stones_dry_a_ddna.dds.7a"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

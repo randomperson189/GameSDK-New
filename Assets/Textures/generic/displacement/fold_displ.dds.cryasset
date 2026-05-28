@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="a14317d6-98d5-d1f5-47c4-4352d87f7282">
+ <Files>
+  <File path="fold_displ.dds"/>
+  <File path="fold_displ.dds.1"/>
+  <File path="fold_displ.dds.2"/>
+  <File path="fold_displ.dds.3"/>
+  <File path="fold_displ.dds.4"/>
+  <File path="fold_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

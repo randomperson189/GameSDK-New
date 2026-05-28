@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="46ac353b-4785-c806-3e38-4422e4ec89b9">
+ <Files>
+  <File path="grass_with_stones_displ.dds"/>
+  <File path="grass_with_stones_displ.dds.1"/>
+  <File path="grass_with_stones_displ.dds.2"/>
+  <File path="grass_with_stones_displ.dds.3"/>
+  <File path="grass_with_stones_displ.dds.4"/>
+  <File path="grass_with_stones_displ.dds.5"/>
+  <File path="grass_with_stones_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

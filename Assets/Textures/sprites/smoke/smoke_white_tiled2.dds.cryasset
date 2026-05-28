@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="b6aaa0be-c2a1-b91f-55a6-ced3a18d0cc5">
+ <Files>
+  <File path="smoke_white_tiled2.dds"/>
+  <File path="smoke_white_tiled2.dds.1"/>
+  <File path="smoke_white_tiled2.dds.2"/>
+  <File path="smoke_white_tiled2.dds.3"/>
+  <File path="smoke_white_tiled2.dds.4"/>
+  <File path="smoke_white_tiled2.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

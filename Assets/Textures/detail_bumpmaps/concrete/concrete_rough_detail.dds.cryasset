@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="243393f3-d526-2ea3-7cbe-ae00995b0a43">
+ <Files>
+  <File path="concrete_rough_detail.dds"/>
+  <File path="concrete_rough_detail.dds.1"/>
+  <File path="concrete_rough_detail.dds.2"/>
+  <File path="concrete_rough_detail.dds.3"/>
+  <File path="concrete_rough_detail.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

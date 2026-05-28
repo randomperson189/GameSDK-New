@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="109c5b0d-c6d4-c1b7-ef26-4852497e87ed">
+ <Files>
+  <File path="scales_lizzardbelly_ddn.dds"/>
+  <File path="scales_lizzardbelly_ddn.dds.1"/>
+  <File path="scales_lizzardbelly_ddn.dds.2"/>
+  <File path="scales_lizzardbelly_ddn.dds.3"/>
+  <File path="scales_lizzardbelly_ddn.dds.4"/>
+  <File path="scales_lizzardbelly_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Texture" guid="60e4a23d-528b-1855-9736-47f87e655f87">
+ <Files>
+  <File path="rough_sand_a_ddna.dds"/>
+  <File path="rough_sand_a_ddna.dds.a"/>
+  <File path="rough_sand_a_ddna.dds.1"/>
+  <File path="rough_sand_a_ddna.dds.1a"/>
+  <File path="rough_sand_a_ddna.dds.2"/>
+  <File path="rough_sand_a_ddna.dds.2a"/>
+  <File path="rough_sand_a_ddna.dds.3"/>
+  <File path="rough_sand_a_ddna.dds.3a"/>
+  <File path="rough_sand_a_ddna.dds.4"/>
+  <File path="rough_sand_a_ddna.dds.4a"/>
+  <File path="rough_sand_a_ddna.dds.5"/>
+  <File path="rough_sand_a_ddna.dds.5a"/>
+  <File path="rough_sand_a_ddna.dds.6"/>
+  <File path="rough_sand_a_ddna.dds.6a"/>
+  <File path="rough_sand_a_ddna.dds.7"/>
+  <File path="rough_sand_a_ddna.dds.7a"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

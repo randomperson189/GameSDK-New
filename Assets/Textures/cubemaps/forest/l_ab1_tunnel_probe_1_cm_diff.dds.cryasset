@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="2b820668-add7-6e44-845a-83deef43ae81">
+ <Files>
+  <File path="l_ab1_tunnel_probe_1_cm_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

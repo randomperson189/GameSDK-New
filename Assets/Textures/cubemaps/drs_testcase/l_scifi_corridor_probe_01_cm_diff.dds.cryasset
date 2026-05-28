@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="dcecf0cb-c636-316e-e970-1b424b7f8fc7">
+ <Files>
+  <File path="l_scifi_corridor_probe_01_cm_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

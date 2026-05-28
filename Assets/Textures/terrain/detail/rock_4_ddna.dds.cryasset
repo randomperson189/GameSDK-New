@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Texture" guid="fa83c961-92eb-a258-80d6-bf93bdc06c08">
+ <Files>
+  <File path="rock_4_ddna.dds"/>
+  <File path="rock_4_ddna.dds.a"/>
+  <File path="rock_4_ddna.dds.1"/>
+  <File path="rock_4_ddna.dds.1a"/>
+  <File path="rock_4_ddna.dds.2"/>
+  <File path="rock_4_ddna.dds.2a"/>
+  <File path="rock_4_ddna.dds.3"/>
+  <File path="rock_4_ddna.dds.3a"/>
+  <File path="rock_4_ddna.dds.4"/>
+  <File path="rock_4_ddna.dds.4a"/>
+  <File path="rock_4_ddna.dds.5"/>
+  <File path="rock_4_ddna.dds.5a"/>
+  <File path="rock_4_ddna.dds.6"/>
+  <File path="rock_4_ddna.dds.6a"/>
+  <File path="rock_4_ddna.dds.7"/>
+  <File path="rock_4_ddna.dds.7a"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

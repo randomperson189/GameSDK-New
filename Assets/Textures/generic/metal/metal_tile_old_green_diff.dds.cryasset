@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="31749dee-a8cc-c1a4-1767-3c0a2efec6ea">
+ <Files>
+  <File path="metal_tile_old_green_diff.dds"/>
+  <File path="metal_tile_old_green_diff.dds.1"/>
+  <File path="metal_tile_old_green_diff.dds.2"/>
+  <File path="metal_tile_old_green_diff.dds.3"/>
+  <File path="metal_tile_old_green_diff.dds.4"/>
+  <File path="metal_tile_old_green_diff.dds.5"/>
+  <File path="metal_tile_old_green_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

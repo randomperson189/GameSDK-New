@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="7123bfd7-0ae0-f973-b82b-785dad6e9d33">
+ <Files>
+  <File path="ship_hull_b_diff.dds"/>
+  <File path="ship_hull_b_diff.dds.1"/>
+  <File path="ship_hull_b_diff.dds.2"/>
+  <File path="ship_hull_b_diff.dds.3"/>
+  <File path="ship_hull_b_diff.dds.4"/>
+  <File path="ship_hull_b_diff.dds.5"/>
+  <File path="ship_hull_b_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

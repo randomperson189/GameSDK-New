@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="13882ed8-aa11-e58c-53d6-8f059b286f9e">
+ <Files>
+  <File path="tank_metal_panels_spec.dds"/>
+  <File path="tank_metal_panels_spec.dds.1"/>
+  <File path="tank_metal_panels_spec.dds.2"/>
+  <File path="tank_metal_panels_spec.dds.3"/>
+  <File path="tank_metal_panels_spec.dds.4"/>
+  <File path="tank_metal_panels_spec.dds.5"/>
+  <File path="tank_metal_panels_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

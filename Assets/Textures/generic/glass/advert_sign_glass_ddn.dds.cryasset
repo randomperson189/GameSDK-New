@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="cc3ccc13-a744-addd-7a14-b2c23845e013">
+ <Files>
+  <File path="advert_sign_glass_ddn.dds"/>
+  <File path="advert_sign_glass_ddn.dds.1"/>
+  <File path="advert_sign_glass_ddn.dds.2"/>
+  <File path="advert_sign_glass_ddn.dds.3"/>
+  <File path="advert_sign_glass_ddn.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="50a918f5-72ee-dab2-3b4e-36bcfebc3453">
+ <Files>
+  <File path="perlinnoise2d.dds"/>
+  <File path="perlinnoise2d.dds.1"/>
+  <File path="perlinnoise2d.dds.2"/>
+  <File path="perlinnoise2d.dds.3"/>
+  <File path="perlinnoise2d.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

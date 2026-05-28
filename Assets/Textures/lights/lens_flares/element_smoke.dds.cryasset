@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="916efb3b-69d2-1de3-6518-c02320b760d4">
+ <Files>
+  <File path="element_smoke.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

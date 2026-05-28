@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="5e2db32f-d54a-4461-6634-bf8902deb9a1">
+ <Files>
+  <File path="hull_cool_displ.dds"/>
+  <File path="hull_cool_displ.dds.1"/>
+  <File path="hull_cool_displ.dds.2"/>
+  <File path="hull_cool_displ.dds.3"/>
+  <File path="hull_cool_displ.dds.4"/>
+  <File path="hull_cool_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

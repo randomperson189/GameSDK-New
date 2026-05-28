@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ce8c5466-0ab3-4824-4b1d-092f84cdc0b7">
+ <Files>
+  <File path="sand_white_stones_wet_a_displ.dds"/>
+  <File path="sand_white_stones_wet_a_displ.dds.1"/>
+  <File path="sand_white_stones_wet_a_displ.dds.2"/>
+  <File path="sand_white_stones_wet_a_displ.dds.3"/>
+  <File path="sand_white_stones_wet_a_displ.dds.4"/>
+  <File path="sand_white_stones_wet_a_displ.dds.5"/>
+  <File path="sand_white_stones_wet_a_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

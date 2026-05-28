@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="7f2ba2c4-af17-f06c-8a5a-e53dd1c1cb06">
+ <Files>
+  <File path="snow_melt_spec.dds"/>
+  <File path="snow_melt_spec.dds.1"/>
+  <File path="snow_melt_spec.dds.2"/>
+  <File path="snow_melt_spec.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="a8329f1f-b66f-70cb-0605-29c20a9a2de3">
+ <Files>
+  <File path="circuit_ddn.dds"/>
+  <File path="circuit_ddn.dds.1"/>
+  <File path="circuit_ddn.dds.2"/>
+  <File path="circuit_ddn.dds.3"/>
+  <File path="circuit_ddn.dds.4"/>
+  <File path="circuit_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

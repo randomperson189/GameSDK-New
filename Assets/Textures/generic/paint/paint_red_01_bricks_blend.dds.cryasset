@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ed7ff72c-16ab-4831-ad0f-dccbe8203583">
+ <Files>
+  <File path="paint_red_01_bricks_blend.dds"/>
+  <File path="paint_red_01_bricks_blend.dds.1"/>
+  <File path="paint_red_01_bricks_blend.dds.2"/>
+  <File path="paint_red_01_bricks_blend.dds.3"/>
+  <File path="paint_red_01_bricks_blend.dds.4"/>
+  <File path="paint_red_01_bricks_blend.dds.5"/>
+  <File path="paint_red_01_bricks_blend.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="0c959e01-67d4-fba1-ca85-c77cf3c59187">
+ <Files>
+  <File path="human_body.dds"/>
+  <File path="human_body.dds.1"/>
+  <File path="human_body.dds.2"/>
+  <File path="human_body.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

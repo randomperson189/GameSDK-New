@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="747a5a92-c284-adb7-2b56-2d58185d0ba8">
+ <Files>
+  <File path="river_water_color.dds"/>
+  <File path="river_water_color.dds.1"/>
+  <File path="river_water_color.dds.2"/>
+  <File path="river_water_color.dds.3"/>
+  <File path="river_water_color.dds.4"/>
+  <File path="river_water_color.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

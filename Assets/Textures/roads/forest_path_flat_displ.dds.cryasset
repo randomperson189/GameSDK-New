@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="eb50ab3a-d887-2d39-383b-d8ba49224e98">
+ <Files>
+  <File path="forest_path_flat_displ.dds"/>
+  <File path="forest_path_flat_displ.dds.1"/>
+  <File path="forest_path_flat_displ.dds.2"/>
+  <File path="forest_path_flat_displ.dds.3"/>
+  <File path="forest_path_flat_displ.dds.4"/>
+  <File path="forest_path_flat_displ.dds.5"/>
+  <File path="forest_path_flat_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

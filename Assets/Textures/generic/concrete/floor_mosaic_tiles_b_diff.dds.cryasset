@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="bc9e0a30-bd3a-491a-4429-b70dabccad4a">
+ <Files>
+  <File path="floor_mosaic_tiles_b_diff.dds"/>
+  <File path="floor_mosaic_tiles_b_diff.dds.1"/>
+  <File path="floor_mosaic_tiles_b_diff.dds.2"/>
+  <File path="floor_mosaic_tiles_b_diff.dds.3"/>
+  <File path="floor_mosaic_tiles_b_diff.dds.4"/>
+  <File path="floor_mosaic_tiles_b_diff.dds.5"/>
+  <File path="floor_mosaic_tiles_b_diff.dds.6"/>
+  <File path="floor_mosaic_tiles_b_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

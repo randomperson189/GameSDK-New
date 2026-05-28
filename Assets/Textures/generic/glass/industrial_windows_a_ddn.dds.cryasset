@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="0586e973-31ee-7f34-8a2a-4cb8ff8f5885">
+ <Files>
+  <File path="industrial_windows_a_ddn.dds"/>
+  <File path="industrial_windows_a_ddn.dds.1"/>
+  <File path="industrial_windows_a_ddn.dds.2"/>
+  <File path="industrial_windows_a_ddn.dds.3"/>
+  <File path="industrial_windows_a_ddn.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

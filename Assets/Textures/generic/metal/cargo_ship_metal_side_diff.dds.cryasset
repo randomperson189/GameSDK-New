@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="9716840c-635d-517b-b6a3-ad7f1cc58b6b">
+ <Files>
+  <File path="cargo_ship_metal_side_diff.dds"/>
+  <File path="cargo_ship_metal_side_diff.dds.1"/>
+  <File path="cargo_ship_metal_side_diff.dds.2"/>
+  <File path="cargo_ship_metal_side_diff.dds.3"/>
+  <File path="cargo_ship_metal_side_diff.dds.4"/>
+  <File path="cargo_ship_metal_side_diff.dds.5"/>
+  <File path="cargo_ship_metal_side_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

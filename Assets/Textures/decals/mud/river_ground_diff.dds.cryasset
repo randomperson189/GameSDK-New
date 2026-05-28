@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="701b5169-4c87-50b6-ac37-ab6da1a7fcb6">
+ <Files>
+  <File path="river_ground_diff.dds"/>
+  <File path="river_ground_diff.dds.1"/>
+  <File path="river_ground_diff.dds.2"/>
+  <File path="river_ground_diff.dds.3"/>
+  <File path="river_ground_diff.dds.4"/>
+  <File path="river_ground_diff.dds.5"/>
+  <File path="river_ground_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

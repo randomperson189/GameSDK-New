@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="11f3d3ea-91c3-53ae-9045-1cee80604110">
+ <Files>
+  <File path="mud_h_diff.dds"/>
+  <File path="mud_h_diff.dds.1"/>
+  <File path="mud_h_diff.dds.2"/>
+  <File path="mud_h_diff.dds.3"/>
+  <File path="mud_h_diff.dds.4"/>
+  <File path="mud_h_diff.dds.5"/>
+  <File path="mud_h_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

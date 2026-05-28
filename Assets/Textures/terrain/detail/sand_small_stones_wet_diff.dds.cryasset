@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="0a2fc5ab-d4e4-4068-837d-7a81be32f391">
+ <Files>
+  <File path="sand_small_stones_wet_diff.dds"/>
+  <File path="sand_small_stones_wet_diff.dds.1"/>
+  <File path="sand_small_stones_wet_diff.dds.2"/>
+  <File path="sand_small_stones_wet_diff.dds.3"/>
+  <File path="sand_small_stones_wet_diff.dds.4"/>
+  <File path="sand_small_stones_wet_diff.dds.5"/>
+  <File path="sand_small_stones_wet_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

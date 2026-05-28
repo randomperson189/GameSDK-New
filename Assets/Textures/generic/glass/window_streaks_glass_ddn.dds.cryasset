@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ef7c657b-6249-8993-43c8-c8b413bf1780">
+ <Files>
+  <File path="window_streaks_glass_ddn.dds"/>
+  <File path="window_streaks_glass_ddn.dds.1"/>
+  <File path="window_streaks_glass_ddn.dds.2"/>
+  <File path="window_streaks_glass_ddn.dds.3"/>
+  <File path="window_streaks_glass_ddn.dds.4"/>
+  <File path="window_streaks_glass_ddn.dds.5"/>
+  <File path="window_streaks_glass_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

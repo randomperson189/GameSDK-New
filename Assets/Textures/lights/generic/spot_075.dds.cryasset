@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="5c40d69e-93cc-e0d7-d056-9b7baffafd1c">
+ <Files>
+  <File path="spot_075.dds"/>
+  <File path="spot_075.dds.1"/>
+  <File path="spot_075.dds.2"/>
+  <File path="spot_075.dds.3"/>
+  <File path="spot_075.dds.4"/>
+  <File path="spot_075.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="327ed172-25c0-42dd-063d-45b30c975d17">
+ <Files>
+  <File path="aqua_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4</Detail>
+  <Detail name="height">4</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

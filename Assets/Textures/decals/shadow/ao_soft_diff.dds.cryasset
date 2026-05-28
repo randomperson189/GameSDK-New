@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="6839c0c4-7264-ef21-7b73-ba6292303e84">
+ <Files>
+  <File path="ao_soft_diff.dds"/>
+  <File path="ao_soft_diff.dds.1"/>
+  <File path="ao_soft_diff.dds.2"/>
+  <File path="ao_soft_diff.dds.3"/>
+  <File path="ao_soft_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

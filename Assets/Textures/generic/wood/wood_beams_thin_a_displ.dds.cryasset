@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="92ca50ce-ba15-a0b6-e685-0fe523dc2385">
+ <Files>
+  <File path="wood_beams_thin_a_displ.dds"/>
+  <File path="wood_beams_thin_a_displ.dds.1"/>
+  <File path="wood_beams_thin_a_displ.dds.2"/>
+  <File path="wood_beams_thin_a_displ.dds.3"/>
+  <File path="wood_beams_thin_a_displ.dds.4"/>
+  <File path="wood_beams_thin_a_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

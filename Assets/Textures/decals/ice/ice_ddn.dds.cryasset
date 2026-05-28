@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="71f11011-84da-6610-a768-f76b5d235c21">
+ <Files>
+  <File path="ice_ddn.dds"/>
+  <File path="ice_ddn.dds.1"/>
+  <File path="ice_ddn.dds.2"/>
+  <File path="ice_ddn.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

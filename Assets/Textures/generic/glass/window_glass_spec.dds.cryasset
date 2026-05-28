@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="e351ec6a-7dd3-2bc6-4d12-dea5ba766ef2">
+ <Files>
+  <File path="window_glass_spec.dds"/>
+  <File path="window_glass_spec.dds.1"/>
+  <File path="window_glass_spec.dds.2"/>
+  <File path="window_glass_spec.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="7524d799-9a9e-4ca5-5b0f-93a3d9fec07d">
+ <Files>
+  <File path="evening_layer_cm_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

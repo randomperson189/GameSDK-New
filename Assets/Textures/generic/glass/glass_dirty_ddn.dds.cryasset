@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d9f7fe9d-a502-a791-6716-f3eb24e44b0f">
+ <Files>
+  <File path="glass_dirty_ddn.dds"/>
+  <File path="glass_dirty_ddn.dds.1"/>
+  <File path="glass_dirty_ddn.dds.2"/>
+  <File path="glass_dirty_ddn.dds.3"/>
+  <File path="glass_dirty_ddn.dds.4"/>
+  <File path="glass_dirty_ddn.dds.5"/>
+  <File path="glass_dirty_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

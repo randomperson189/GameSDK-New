@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="a928e5b6-0020-215b-a197-b224881f94fe">
+ <Files>
+  <File path="cloud_shadows_shore.dds"/>
+  <File path="cloud_shadows_shore.dds.1"/>
+  <File path="cloud_shadows_shore.dds.2"/>
+  <File path="cloud_shadows_shore.dds.3"/>
+  <File path="cloud_shadows_shore.dds.4"/>
+  <File path="cloud_shadows_shore.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

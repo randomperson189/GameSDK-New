@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="a8caf87d-4f62-2394-18f4-a30b0fbab206">
+ <Files>
+  <File path="set5_probe_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

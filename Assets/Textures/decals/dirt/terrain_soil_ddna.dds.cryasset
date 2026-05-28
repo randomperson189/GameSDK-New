@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="b82c43b1-cce4-b14e-287b-3b142a08f2e3">
+ <Files>
+  <File path="terrain_soil_ddna.dds"/>
+  <File path="terrain_soil_ddna.dds.a"/>
+  <File path="terrain_soil_ddna.dds.1"/>
+  <File path="terrain_soil_ddna.dds.1a"/>
+  <File path="terrain_soil_ddna.dds.2"/>
+  <File path="terrain_soil_ddna.dds.2a"/>
+  <File path="terrain_soil_ddna.dds.3"/>
+  <File path="terrain_soil_ddna.dds.3a"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

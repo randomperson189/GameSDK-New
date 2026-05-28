@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d49c99a8-db13-1327-6bf2-7b7b67c9026a">
+ <Files>
+  <File path="plywood_dark_diff.dds"/>
+  <File path="plywood_dark_diff.dds.1"/>
+  <File path="plywood_dark_diff.dds.2"/>
+  <File path="plywood_dark_diff.dds.3"/>
+  <File path="plywood_dark_diff.dds.4"/>
+  <File path="plywood_dark_diff.dds.5"/>
+  <File path="plywood_dark_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

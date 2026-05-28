@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="61290f76-280c-20d3-b335-2b64d2b6e69e">
+ <Files>
+  <File path="muddy_seaweed_ddn.dds"/>
+  <File path="muddy_seaweed_ddn.dds.1"/>
+  <File path="muddy_seaweed_ddn.dds.2"/>
+  <File path="muddy_seaweed_ddn.dds.3"/>
+  <File path="muddy_seaweed_ddn.dds.4"/>
+  <File path="muddy_seaweed_ddn.dds.5"/>
+  <File path="muddy_seaweed_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

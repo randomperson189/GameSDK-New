@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="0c812f53-bfa0-6eb7-26ec-6f50163d8a1c">
+ <Files>
+  <File path="rough_concrete_c_ddna.dds"/>
+  <File path="rough_concrete_c_ddna.dds.a"/>
+  <File path="rough_concrete_c_ddna.dds.1"/>
+  <File path="rough_concrete_c_ddna.dds.1a"/>
+  <File path="rough_concrete_c_ddna.dds.2"/>
+  <File path="rough_concrete_c_ddna.dds.2a"/>
+  <File path="rough_concrete_c_ddna.dds.3"/>
+  <File path="rough_concrete_c_ddna.dds.3a"/>
+  <File path="rough_concrete_c_ddna.dds.4"/>
+  <File path="rough_concrete_c_ddna.dds.4a"/>
+  <File path="rough_concrete_c_ddna.dds.5"/>
+  <File path="rough_concrete_c_ddna.dds.5a"/>
+  <File path="rough_concrete_c_ddna.dds.6"/>
+  <File path="rough_concrete_c_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

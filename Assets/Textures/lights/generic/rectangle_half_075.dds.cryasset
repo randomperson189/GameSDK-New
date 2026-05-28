@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="b152fc29-2899-9887-39cf-2a9e2229836d">
+ <Files>
+  <File path="rectangle_half_075.dds"/>
+  <File path="rectangle_half_075.dds.1"/>
+  <File path="rectangle_half_075.dds.2"/>
+  <File path="rectangle_half_075.dds.3"/>
+  <File path="rectangle_half_075.dds.4"/>
+  <File path="rectangle_half_075.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

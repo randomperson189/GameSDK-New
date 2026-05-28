@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ed46dc18-b6a2-9cf3-05e0-7328c4908b7f">
+ <Files>
+  <File path="explosionhighres.dds"/>
+  <File path="explosionhighres.dds.1"/>
+  <File path="explosionhighres.dds.2"/>
+  <File path="explosionhighres.dds.3"/>
+  <File path="explosionhighres.dds.4"/>
+  <File path="explosionhighres.dds.5"/>
+  <File path="explosionhighres.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="c64e608f-e600-adb3-0ffe-1675e0c36006">
+ <Files>
+  <File path="beach_white_sand_ddna.dds"/>
+  <File path="beach_white_sand_ddna.dds.a"/>
+  <File path="beach_white_sand_ddna.dds.1"/>
+  <File path="beach_white_sand_ddna.dds.1a"/>
+  <File path="beach_white_sand_ddna.dds.2"/>
+  <File path="beach_white_sand_ddna.dds.2a"/>
+  <File path="beach_white_sand_ddna.dds.3"/>
+  <File path="beach_white_sand_ddna.dds.3a"/>
+  <File path="beach_white_sand_ddna.dds.4"/>
+  <File path="beach_white_sand_ddna.dds.4a"/>
+  <File path="beach_white_sand_ddna.dds.5"/>
+  <File path="beach_white_sand_ddna.dds.5a"/>
+  <File path="beach_white_sand_ddna.dds.6"/>
+  <File path="beach_white_sand_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

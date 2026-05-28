@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="8994023c-9cc1-5706-dca6-658b41c78043">
+ <Files>
+  <File path="paint_blue_a_diff.dds"/>
+  <File path="paint_blue_a_diff.dds.1"/>
+  <File path="paint_blue_a_diff.dds.2"/>
+  <File path="paint_blue_a_diff.dds.3"/>
+  <File path="paint_blue_a_diff.dds.4"/>
+  <File path="paint_blue_a_diff.dds.5"/>
+  <File path="paint_blue_a_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

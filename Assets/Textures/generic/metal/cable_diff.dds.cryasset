@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="f61d75cd-fcca-4315-b449-59d8b4a403b1">
+ <Files>
+  <File path="cable_diff.dds"/>
+  <File path="cable_diff.dds.1"/>
+  <File path="cable_diff.dds.2"/>
+  <File path="cable_diff.dds.3"/>
+  <File path="cable_diff.dds.4"/>
+  <File path="cable_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

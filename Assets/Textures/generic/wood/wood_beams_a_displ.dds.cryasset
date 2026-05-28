@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="140122cd-d282-6c9d-8e46-3128c2743f6b">
+ <Files>
+  <File path="wood_beams_a_displ.dds"/>
+  <File path="wood_beams_a_displ.dds.1"/>
+  <File path="wood_beams_a_displ.dds.2"/>
+  <File path="wood_beams_a_displ.dds.3"/>
+  <File path="wood_beams_a_displ.dds.4"/>
+  <File path="wood_beams_a_displ.dds.5"/>
+  <File path="wood_beams_a_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="50ca82c6-8a28-6115-30ee-22927627cd23">
+ <Files>
+  <File path="wood_rough_b_diff.dds"/>
+  <File path="wood_rough_b_diff.dds.1"/>
+  <File path="wood_rough_b_diff.dds.2"/>
+  <File path="wood_rough_b_diff.dds.3"/>
+  <File path="wood_rough_b_diff.dds.4"/>
+  <File path="wood_rough_b_diff.dds.5"/>
+  <File path="wood_rough_b_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="2b6b0a20-b168-01cf-585e-82008357f675">
+ <Files>
+  <File path="glass_squares_rough_ddn.dds"/>
+  <File path="glass_squares_rough_ddn.dds.1"/>
+  <File path="glass_squares_rough_ddn.dds.2"/>
+  <File path="glass_squares_rough_ddn.dds.3"/>
+  <File path="glass_squares_rough_ddn.dds.4"/>
+  <File path="glass_squares_rough_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

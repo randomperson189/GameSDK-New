@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="362e91bb-1127-073b-885e-b90b026c232a">
+ <Files>
+  <File path="fire_torch01_8x8.dds"/>
+  <File path="fire_torch01_8x8.dds.1"/>
+  <File path="fire_torch01_8x8.dds.2"/>
+  <File path="fire_torch01_8x8.dds.3"/>
+  <File path="fire_torch01_8x8.dds.4"/>
+  <File path="fire_torch01_8x8.dds.5"/>
+  <File path="fire_torch01_8x8.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

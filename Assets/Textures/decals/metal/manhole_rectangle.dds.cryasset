@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="5bb7e41d-4dff-929e-f9f3-53ee7ffd6144">
+ <Files>
+  <File path="manhole_rectangle.dds"/>
+  <File path="manhole_rectangle.dds.1"/>
+  <File path="manhole_rectangle.dds.2"/>
+  <File path="manhole_rectangle.dds.3"/>
+  <File path="manhole_rectangle.dds.4"/>
+  <File path="manhole_rectangle.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

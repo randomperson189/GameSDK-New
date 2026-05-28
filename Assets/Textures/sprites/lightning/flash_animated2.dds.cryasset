@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="2c1659eb-9f1c-0fa7-c733-dffdfea17a18">
+ <Files>
+  <File path="flash_animated2.dds"/>
+  <File path="flash_animated2.dds.1"/>
+  <File path="flash_animated2.dds.2"/>
+  <File path="flash_animated2.dds.3"/>
+  <File path="flash_animated2.dds.4"/>
+  <File path="flash_animated2.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

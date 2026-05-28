@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="084f77ab-a948-8c61-e611-e114e3be7964">
+ <Files>
+  <File path="assault_blurmask.dds"/>
+  <File path="assault_blurmask.dds.1"/>
+  <File path="assault_blurmask.dds.2"/>
+  <File path="assault_blurmask.dds.3"/>
+  <File path="assault_blurmask.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

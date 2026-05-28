@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="c43b0cb9-115c-b1f1-0a2e-9ce402f6ff52">
+ <Files>
+  <File path="lightning_tiled.dds"/>
+  <File path="lightning_tiled.dds.1"/>
+  <File path="lightning_tiled.dds.2"/>
+  <File path="lightning_tiled.dds.3"/>
+  <File path="lightning_tiled.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

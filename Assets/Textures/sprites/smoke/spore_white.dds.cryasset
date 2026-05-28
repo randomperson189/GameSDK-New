@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="215dd82b-82ba-3873-f838-5c9157833f95">
+ <Files>
+  <File path="spore_white.dds"/>
+  <File path="spore_white.dds.1"/>
+  <File path="spore_white.dds.2"/>
+  <File path="spore_white.dds.3"/>
+  <File path="spore_white.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

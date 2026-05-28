@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="4d949bda-844d-fb3c-3b56-b19085819ce7">
+ <Files>
+  <File path="basemetalbolts_displ.dds"/>
+  <File path="basemetalbolts_displ.dds.1"/>
+  <File path="basemetalbolts_displ.dds.2"/>
+  <File path="basemetalbolts_displ.dds.3"/>
+  <File path="basemetalbolts_displ.dds.4"/>
+  <File path="basemetalbolts_displ.dds.5"/>
+  <File path="basemetalbolts_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

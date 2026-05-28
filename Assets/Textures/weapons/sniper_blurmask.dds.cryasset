@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="f4987d08-00fa-390d-99fd-c078982b4896">
+ <Files>
+  <File path="sniper_blurmask.dds"/>
+  <File path="sniper_blurmask.dds.1"/>
+  <File path="sniper_blurmask.dds.2"/>
+  <File path="sniper_blurmask.dds.3"/>
+  <File path="sniper_blurmask.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

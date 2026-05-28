@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d05354f2-1752-3637-a218-8823827ea39c">
+ <Files>
+  <File path="interlace_displ.dds"/>
+  <File path="interlace_displ.dds.1"/>
+  <File path="interlace_displ.dds.2"/>
+  <File path="interlace_displ.dds.3"/>
+  <File path="interlace_displ.dds.4"/>
+  <File path="interlace_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

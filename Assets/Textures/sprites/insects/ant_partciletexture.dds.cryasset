@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="f35ad8d7-2078-b21a-3ccc-bc4142901f41">
+ <Files>
+  <File path="ant_partciletexture.dds"/>
+  <File path="ant_partciletexture.dds.1"/>
+  <File path="ant_partciletexture.dds.2"/>
+  <File path="ant_partciletexture.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

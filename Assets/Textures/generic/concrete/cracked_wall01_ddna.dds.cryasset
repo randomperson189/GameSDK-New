@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="61f02870-c44d-d318-1689-ba46bc6a9dbf">
+ <Files>
+  <File path="cracked_wall01_ddna.dds"/>
+  <File path="cracked_wall01_ddna.dds.a"/>
+  <File path="cracked_wall01_ddna.dds.1"/>
+  <File path="cracked_wall01_ddna.dds.1a"/>
+  <File path="cracked_wall01_ddna.dds.2"/>
+  <File path="cracked_wall01_ddna.dds.2a"/>
+  <File path="cracked_wall01_ddna.dds.3"/>
+  <File path="cracked_wall01_ddna.dds.3a"/>
+  <File path="cracked_wall01_ddna.dds.4"/>
+  <File path="cracked_wall01_ddna.dds.4a"/>
+  <File path="cracked_wall01_ddna.dds.5"/>
+  <File path="cracked_wall01_ddna.dds.5a"/>
+  <File path="cracked_wall01_ddna.dds.6"/>
+  <File path="cracked_wall01_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

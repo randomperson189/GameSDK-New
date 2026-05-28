@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="2855e932-05de-5b67-6b42-d235b9661c41">
+ <Files>
+  <File path="iris_shaft.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

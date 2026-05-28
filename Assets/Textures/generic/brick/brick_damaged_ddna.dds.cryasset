@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="72330a28-9a76-2ed0-3678-9bc6f3aa7835">
+ <Files>
+  <File path="brick_damaged_ddna.dds"/>
+  <File path="brick_damaged_ddna.dds.a"/>
+  <File path="brick_damaged_ddna.dds.1"/>
+  <File path="brick_damaged_ddna.dds.1a"/>
+  <File path="brick_damaged_ddna.dds.2"/>
+  <File path="brick_damaged_ddna.dds.2a"/>
+  <File path="brick_damaged_ddna.dds.3"/>
+  <File path="brick_damaged_ddna.dds.3a"/>
+  <File path="brick_damaged_ddna.dds.4"/>
+  <File path="brick_damaged_ddna.dds.4a"/>
+  <File path="brick_damaged_ddna.dds.5"/>
+  <File path="brick_damaged_ddna.dds.5a"/>
+  <File path="brick_damaged_ddna.dds.6"/>
+  <File path="brick_damaged_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

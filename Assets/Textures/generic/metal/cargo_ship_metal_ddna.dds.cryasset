@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="08b03e0a-2b89-872b-0ac3-36403019b4ef">
+ <Files>
+  <File path="cargo_ship_metal_ddna.dds"/>
+  <File path="cargo_ship_metal_ddna.dds.a"/>
+  <File path="cargo_ship_metal_ddna.dds.1"/>
+  <File path="cargo_ship_metal_ddna.dds.1a"/>
+  <File path="cargo_ship_metal_ddna.dds.2"/>
+  <File path="cargo_ship_metal_ddna.dds.2a"/>
+  <File path="cargo_ship_metal_ddna.dds.3"/>
+  <File path="cargo_ship_metal_ddna.dds.3a"/>
+  <File path="cargo_ship_metal_ddna.dds.4"/>
+  <File path="cargo_ship_metal_ddna.dds.4a"/>
+  <File path="cargo_ship_metal_ddna.dds.5"/>
+  <File path="cargo_ship_metal_ddna.dds.5a"/>
+  <File path="cargo_ship_metal_ddna.dds.6"/>
+  <File path="cargo_ship_metal_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="4b1bed40-f52d-3986-e7e4-787877f44ae5">
+ <Files>
+  <File path="cliff_more_pieces.dds"/>
+  <File path="cliff_more_pieces.dds.1"/>
+  <File path="cliff_more_pieces.dds.2"/>
+  <File path="cliff_more_pieces.dds.3"/>
+  <File path="cliff_more_pieces.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

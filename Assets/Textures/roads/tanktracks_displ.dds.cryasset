@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="3afd47ae-d4ea-72d2-45bd-11d5801f8995">
+ <Files>
+  <File path="tanktracks_displ.dds"/>
+  <File path="tanktracks_displ.dds.1"/>
+  <File path="tanktracks_displ.dds.2"/>
+  <File path="tanktracks_displ.dds.3"/>
+  <File path="tanktracks_displ.dds.4"/>
+  <File path="tanktracks_displ.dds.5"/>
+  <File path="tanktracks_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

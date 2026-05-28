@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="7068acf5-ac32-7853-aead-f2ee0fca5fcd">
+ <Files>
+  <File path="l_ab2_caveentrance_probe_1_cm_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="aaff7421-105f-618b-dcc4-261af921d436">
+ <Files>
+  <File path="pine_needles4_decal_diff.dds"/>
+  <File path="pine_needles4_decal_diff.dds.1"/>
+  <File path="pine_needles4_decal_diff.dds.2"/>
+  <File path="pine_needles4_decal_diff.dds.3"/>
+  <File path="pine_needles4_decal_diff.dds.4"/>
+  <File path="pine_needles4_decal_diff.dds.5"/>
+  <File path="pine_needles4_decal_diff.dds.6"/>
+  <File path="pine_needles4_decal_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

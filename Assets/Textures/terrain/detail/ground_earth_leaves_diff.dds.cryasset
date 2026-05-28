@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="dd70c0fc-30fd-a118-d682-683088d2af2a">
+ <Files>
+  <File path="ground_earth_leaves_diff.dds"/>
+  <File path="ground_earth_leaves_diff.dds.1"/>
+  <File path="ground_earth_leaves_diff.dds.2"/>
+  <File path="ground_earth_leaves_diff.dds.3"/>
+  <File path="ground_earth_leaves_diff.dds.4"/>
+  <File path="ground_earth_leaves_diff.dds.5"/>
+  <File path="ground_earth_leaves_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

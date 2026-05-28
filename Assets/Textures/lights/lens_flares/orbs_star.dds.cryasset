@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="ec64982f-5479-8fd6-6744-0b7e0d3f771b">
+ <Files>
+  <File path="orbs_star.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

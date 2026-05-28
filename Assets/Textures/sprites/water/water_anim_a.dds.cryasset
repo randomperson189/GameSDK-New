@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="b898dee7-ef0f-2d27-2673-dca49d6387fa">
+ <Files>
+  <File path="water_anim_a.dds"/>
+  <File path="water_anim_a.dds.1"/>
+  <File path="water_anim_a.dds.2"/>
+  <File path="water_anim_a.dds.3"/>
+  <File path="water_anim_a.dds.4"/>
+  <File path="water_anim_a.dds.5"/>
+  <File path="water_anim_a.dds.6"/>
+  <File path="water_anim_a.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="e994c8b0-f8b9-7843-cfd2-feaa5a384cea">
+ <Files>
+  <File path="orange_desat_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4</Detail>
+  <Detail name="height">4</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

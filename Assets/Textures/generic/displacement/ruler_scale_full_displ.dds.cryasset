@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="af65b7b7-f592-208e-632f-09048a2920d4">
+ <Files>
+  <File path="ruler_scale_full_displ.dds"/>
+  <File path="ruler_scale_full_displ.dds.1"/>
+  <File path="ruler_scale_full_displ.dds.2"/>
+  <File path="ruler_scale_full_displ.dds.3"/>
+  <File path="ruler_scale_full_displ.dds.4"/>
+  <File path="ruler_scale_full_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

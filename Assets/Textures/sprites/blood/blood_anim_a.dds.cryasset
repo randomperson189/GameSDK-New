@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="c7c5ddaf-3a93-2e45-472f-96737d0b0aae">
+ <Files>
+  <File path="blood_anim_a.dds"/>
+  <File path="blood_anim_a.dds.1"/>
+  <File path="blood_anim_a.dds.2"/>
+  <File path="blood_anim_a.dds.3"/>
+  <File path="blood_anim_a.dds.4"/>
+  <File path="blood_anim_a.dds.5"/>
+  <File path="blood_anim_a.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

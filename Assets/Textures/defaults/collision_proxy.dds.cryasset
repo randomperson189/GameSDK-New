@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Texture" guid="1effb6bf-d167-acab-7b39-144e3245ca16">
+ <Files>
+  <File path="collision_proxy.dds"/>
+  <File path="collision_proxy.dds.1"/>
+  <File path="collision_proxy.dds.2"/>
+ </Files>
+ <Details>
+  <Detail name="width">64</Detail>
+  <Detail name="height">64</Detail>
+  <Detail name="mipCount">5</Detail>
+ </Details>
+</AssetMetadata>

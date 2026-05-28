@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="2c12a67b-0e4c-5178-4a0d-7903f250125d">
+ <Files>
+  <File path="explosion_add.dds"/>
+  <File path="explosion_add.dds.1"/>
+  <File path="explosion_add.dds.2"/>
+  <File path="explosion_add.dds.3"/>
+  <File path="explosion_add.dds.4"/>
+  <File path="explosion_add.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

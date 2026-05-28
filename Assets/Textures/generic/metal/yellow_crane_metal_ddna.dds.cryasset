@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="0b04f6c3-31d2-1f71-a323-a1c8a7709f83">
+ <Files>
+  <File path="yellow_crane_metal_ddna.dds"/>
+  <File path="yellow_crane_metal_ddna.dds.a"/>
+  <File path="yellow_crane_metal_ddna.dds.1"/>
+  <File path="yellow_crane_metal_ddna.dds.1a"/>
+  <File path="yellow_crane_metal_ddna.dds.2"/>
+  <File path="yellow_crane_metal_ddna.dds.2a"/>
+  <File path="yellow_crane_metal_ddna.dds.3"/>
+  <File path="yellow_crane_metal_ddna.dds.3a"/>
+  <File path="yellow_crane_metal_ddna.dds.4"/>
+  <File path="yellow_crane_metal_ddna.dds.4a"/>
+  <File path="yellow_crane_metal_ddna.dds.5"/>
+  <File path="yellow_crane_metal_ddna.dds.5a"/>
+  <File path="yellow_crane_metal_ddna.dds.6"/>
+  <File path="yellow_crane_metal_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

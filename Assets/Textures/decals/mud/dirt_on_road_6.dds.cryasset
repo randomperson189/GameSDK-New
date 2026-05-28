@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="1cef5c2d-df6f-615b-557d-39741deefa39">
+ <Files>
+  <File path="dirt_on_road_6.dds"/>
+  <File path="dirt_on_road_6.dds.1"/>
+  <File path="dirt_on_road_6.dds.2"/>
+  <File path="dirt_on_road_6.dds.3"/>
+  <File path="dirt_on_road_6.dds.4"/>
+  <File path="dirt_on_road_6.dds.5"/>
+  <File path="dirt_on_road_6.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

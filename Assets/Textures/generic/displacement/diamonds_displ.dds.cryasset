@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="60fcb352-6f23-a1df-2b7b-d6ae88eafa89">
+ <Files>
+  <File path="diamonds_displ.dds"/>
+  <File path="diamonds_displ.dds.1"/>
+  <File path="diamonds_displ.dds.2"/>
+  <File path="diamonds_displ.dds.3"/>
+  <File path="diamonds_displ.dds.4"/>
+  <File path="diamonds_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="e71055cd-2a95-bcf3-1cdf-66d1e6b2cc2d">
+ <Files>
+  <File path="road_pebbles_industrial_displ.dds"/>
+  <File path="road_pebbles_industrial_displ.dds.1"/>
+  <File path="road_pebbles_industrial_displ.dds.2"/>
+  <File path="road_pebbles_industrial_displ.dds.3"/>
+  <File path="road_pebbles_industrial_displ.dds.4"/>
+  <File path="road_pebbles_industrial_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

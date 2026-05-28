@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="64c16a87-b9aa-6755-368a-ac6704023443">
+ <Files>
+  <File path="floor_tile_dirty_diff.dds"/>
+  <File path="floor_tile_dirty_diff.dds.1"/>
+  <File path="floor_tile_dirty_diff.dds.2"/>
+  <File path="floor_tile_dirty_diff.dds.3"/>
+  <File path="floor_tile_dirty_diff.dds.4"/>
+  <File path="floor_tile_dirty_diff.dds.5"/>
+  <File path="floor_tile_dirty_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

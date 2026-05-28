@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="47c1f948-b78a-76b4-3e70-d2cef1de4817">
+ <Files>
+  <File path="itotra_displ.dds"/>
+  <File path="itotra_displ.dds.1"/>
+  <File path="itotra_displ.dds.2"/>
+  <File path="itotra_displ.dds.3"/>
+  <File path="itotra_displ.dds.4"/>
+  <File path="itotra_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

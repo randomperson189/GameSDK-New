@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="9b4eaa4d-415c-aba2-a901-e230435b46d8">
+ <Files>
+  <File path="wood_bark_detail.dds"/>
+  <File path="wood_bark_detail.dds.1"/>
+  <File path="wood_bark_detail.dds.2"/>
+  <File path="wood_bark_detail.dds.3"/>
+  <File path="wood_bark_detail.dds.4"/>
+  <File path="wood_bark_detail.dds.5"/>
+  <File path="wood_bark_detail.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

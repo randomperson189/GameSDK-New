@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="f90457ba-9fea-92f9-2557-73e72242f952">
+ <Files>
+  <File path="logpath_displ.dds"/>
+  <File path="logpath_displ.dds.1"/>
+  <File path="logpath_displ.dds.2"/>
+  <File path="logpath_displ.dds.3"/>
+  <File path="logpath_displ.dds.4"/>
+  <File path="logpath_displ.dds.5"/>
+  <File path="logpath_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

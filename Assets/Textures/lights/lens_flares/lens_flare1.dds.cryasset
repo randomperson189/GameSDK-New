@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d7353536-b61f-f18f-fc7e-6c15886ad712">
+ <Files>
+  <File path="lens_flare1.dds"/>
+  <File path="lens_flare1.dds.1"/>
+  <File path="lens_flare1.dds.2"/>
+  <File path="lens_flare1.dds.3"/>
+  <File path="lens_flare1.dds.4"/>
+  <File path="lens_flare1.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

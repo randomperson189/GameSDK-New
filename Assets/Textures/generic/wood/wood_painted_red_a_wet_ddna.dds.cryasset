@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="211e9a8c-353d-fa2b-1d28-6469921a60c9">
+ <Files>
+  <File path="wood_painted_red_a_wet_ddna.dds"/>
+  <File path="wood_painted_red_a_wet_ddna.dds.a"/>
+  <File path="wood_painted_red_a_wet_ddna.dds.1"/>
+  <File path="wood_painted_red_a_wet_ddna.dds.1a"/>
+  <File path="wood_painted_red_a_wet_ddna.dds.2"/>
+  <File path="wood_painted_red_a_wet_ddna.dds.2a"/>
+  <File path="wood_painted_red_a_wet_ddna.dds.3"/>
+  <File path="wood_painted_red_a_wet_ddna.dds.3a"/>
+  <File path="wood_painted_red_a_wet_ddna.dds.4"/>
+  <File path="wood_painted_red_a_wet_ddna.dds.4a"/>
+  <File path="wood_painted_red_a_wet_ddna.dds.5"/>
+  <File path="wood_painted_red_a_wet_ddna.dds.5a"/>
+  <File path="wood_painted_red_a_wet_ddna.dds.6"/>
+  <File path="wood_painted_red_a_wet_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

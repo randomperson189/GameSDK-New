@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="4baf8a03-8e89-878e-8d39-61b68bc946c6">
+ <Files>
+  <File path="boiler_metal_a_ddna.dds"/>
+  <File path="boiler_metal_a_ddna.dds.a"/>
+  <File path="boiler_metal_a_ddna.dds.1"/>
+  <File path="boiler_metal_a_ddna.dds.1a"/>
+  <File path="boiler_metal_a_ddna.dds.2"/>
+  <File path="boiler_metal_a_ddna.dds.2a"/>
+  <File path="boiler_metal_a_ddna.dds.3"/>
+  <File path="boiler_metal_a_ddna.dds.3a"/>
+  <File path="boiler_metal_a_ddna.dds.4"/>
+  <File path="boiler_metal_a_ddna.dds.4a"/>
+  <File path="boiler_metal_a_ddna.dds.5"/>
+  <File path="boiler_metal_a_ddna.dds.5a"/>
+  <File path="boiler_metal_a_ddna.dds.6"/>
+  <File path="boiler_metal_a_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

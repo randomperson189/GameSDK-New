@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="eddd8a49-ef89-3c05-5c09-00df56b1697d">
+ <Files>
+  <File path="l_ab3_camping_probe_1_cm.dds"/>
+  <File path="l_ab3_camping_probe_1_cm.dds.1"/>
+  <File path="l_ab3_camping_probe_1_cm.dds.2"/>
+  <File path="l_ab3_camping_probe_1_cm.dds.3"/>
+  <File path="l_ab3_camping_probe_1_cm.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">1536</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

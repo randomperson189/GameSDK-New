@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="5638d941-2f5b-de2d-5f37-d1a6fbe6d1b2">
+ <Files>
+  <File path="dirt_11_ddna.dds"/>
+  <File path="dirt_11_ddna.dds.a"/>
+  <File path="dirt_11_ddna.dds.1"/>
+  <File path="dirt_11_ddna.dds.1a"/>
+  <File path="dirt_11_ddna.dds.2"/>
+  <File path="dirt_11_ddna.dds.2a"/>
+  <File path="dirt_11_ddna.dds.3"/>
+  <File path="dirt_11_ddna.dds.3a"/>
+  <File path="dirt_11_ddna.dds.4"/>
+  <File path="dirt_11_ddna.dds.4a"/>
+  <File path="dirt_11_ddna.dds.5"/>
+  <File path="dirt_11_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

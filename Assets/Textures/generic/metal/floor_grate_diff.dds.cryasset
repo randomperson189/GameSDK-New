@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="7939dd90-3e2c-d9e1-85b9-38df673bd5fd">
+ <Files>
+  <File path="floor_grate_diff.dds"/>
+  <File path="floor_grate_diff.dds.1"/>
+  <File path="floor_grate_diff.dds.2"/>
+  <File path="floor_grate_diff.dds.3"/>
+  <File path="floor_grate_diff.dds.4"/>
+  <File path="floor_grate_diff.dds.5"/>
+  <File path="floor_grate_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="c3289d92-9b55-d0db-1171-3025596faa6e">
+ <Files>
+  <File path="grey_noalpha.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4</Detail>
+  <Detail name="height">4</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

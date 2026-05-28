@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="7c9047a9-adde-8618-6142-960c8a3203bf">
+ <Files>
+  <File path="mud_c_blend.dds"/>
+  <File path="mud_c_blend.dds.1"/>
+  <File path="mud_c_blend.dds.2"/>
+  <File path="mud_c_blend.dds.3"/>
+  <File path="mud_c_blend.dds.4"/>
+  <File path="mud_c_blend.dds.5"/>
+  <File path="mud_c_blend.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

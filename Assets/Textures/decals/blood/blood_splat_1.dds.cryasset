@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="4081a582-c333-344e-8687-37976a44adf1">
+ <Files>
+  <File path="blood_splat_1.dds"/>
+  <File path="blood_splat_1.dds.1"/>
+  <File path="blood_splat_1.dds.2"/>
+  <File path="blood_splat_1.dds.3"/>
+  <File path="blood_splat_1.dds.4"/>
+  <File path="blood_splat_1.dds.5"/>
+  <File path="blood_splat_1.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

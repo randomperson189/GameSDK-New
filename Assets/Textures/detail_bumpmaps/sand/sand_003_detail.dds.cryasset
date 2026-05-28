@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="a1817180-7aca-c567-8c76-9ff656157712">
+ <Files>
+  <File path="sand_003_detail.dds"/>
+  <File path="sand_003_detail.dds.1"/>
+  <File path="sand_003_detail.dds.2"/>
+  <File path="sand_003_detail.dds.3"/>
+  <File path="sand_003_detail.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

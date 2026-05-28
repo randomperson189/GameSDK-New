@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="8a2c3186-e129-9df4-6c30-f7a94e276c47">
+ <Files>
+  <File path="eroded_concrete_diff.dds"/>
+  <File path="eroded_concrete_diff.dds.1"/>
+  <File path="eroded_concrete_diff.dds.2"/>
+  <File path="eroded_concrete_diff.dds.3"/>
+  <File path="eroded_concrete_diff.dds.4"/>
+  <File path="eroded_concrete_diff.dds.5"/>
+  <File path="eroded_concrete_diff.dds.6"/>
+  <File path="eroded_concrete_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

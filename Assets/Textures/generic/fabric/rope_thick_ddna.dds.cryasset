@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="263f2b75-e24f-02e8-df55-8fe490274c24">
+ <Files>
+  <File path="rope_thick_ddna.dds"/>
+  <File path="rope_thick_ddna.dds.a"/>
+  <File path="rope_thick_ddna.dds.1"/>
+  <File path="rope_thick_ddna.dds.1a"/>
+  <File path="rope_thick_ddna.dds.2"/>
+  <File path="rope_thick_ddna.dds.2a"/>
+  <File path="rope_thick_ddna.dds.3"/>
+  <File path="rope_thick_ddna.dds.3a"/>
+  <File path="rope_thick_ddna.dds.4"/>
+  <File path="rope_thick_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

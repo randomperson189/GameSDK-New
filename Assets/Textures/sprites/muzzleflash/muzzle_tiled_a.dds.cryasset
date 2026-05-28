@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="4287a0af-b5d8-bcdb-b70b-93ec35e2ff74">
+ <Files>
+  <File path="muzzle_tiled_a.dds"/>
+  <File path="muzzle_tiled_a.dds.1"/>
+  <File path="muzzle_tiled_a.dds.2"/>
+  <File path="muzzle_tiled_a.dds.3"/>
+  <File path="muzzle_tiled_a.dds.4"/>
+  <File path="muzzle_tiled_a.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

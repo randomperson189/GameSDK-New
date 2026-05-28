@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="4b1fc53b-2183-8925-3f88-dd455ee91b53">
+ <Files>
+  <File path="hull_blend_a_ddna.dds"/>
+  <File path="hull_blend_a_ddna.dds.a"/>
+  <File path="hull_blend_a_ddna.dds.1"/>
+  <File path="hull_blend_a_ddna.dds.1a"/>
+  <File path="hull_blend_a_ddna.dds.2"/>
+  <File path="hull_blend_a_ddna.dds.2a"/>
+  <File path="hull_blend_a_ddna.dds.3"/>
+  <File path="hull_blend_a_ddna.dds.3a"/>
+  <File path="hull_blend_a_ddna.dds.4"/>
+  <File path="hull_blend_a_ddna.dds.4a"/>
+  <File path="hull_blend_a_ddna.dds.5"/>
+  <File path="hull_blend_a_ddna.dds.5a"/>
+  <File path="hull_blend_a_ddna.dds.6"/>
+  <File path="hull_blend_a_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

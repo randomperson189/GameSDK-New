@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="301c2903-1672-7abf-c26d-240b12322be6">
+ <Files>
+  <File path="alien_ringlight.dds"/>
+  <File path="alien_ringlight.dds.1"/>
+  <File path="alien_ringlight.dds.2"/>
+  <File path="alien_ringlight.dds.3"/>
+  <File path="alien_ringlight.dds.4"/>
+  <File path="alien_ringlight.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

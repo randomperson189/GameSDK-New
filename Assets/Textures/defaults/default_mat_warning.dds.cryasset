@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="3e9191a2-4d5c-0dd4-17e1-b9c37a24e9b7">
+ <Files>
+  <File path="default_mat_warning.dds"/>
+  <File path="default_mat_warning.dds.1"/>
+  <File path="default_mat_warning.dds.2"/>
+  <File path="default_mat_warning.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

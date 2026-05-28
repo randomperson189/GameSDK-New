@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="2cfdd575-87ec-72c3-ae26-d609e71431a5">
+ <Files>
+  <File path="wood_planks_square_diff.dds"/>
+  <File path="wood_planks_square_diff.dds.1"/>
+  <File path="wood_planks_square_diff.dds.2"/>
+  <File path="wood_planks_square_diff.dds.3"/>
+  <File path="wood_planks_square_diff.dds.4"/>
+  <File path="wood_planks_square_diff.dds.5"/>
+  <File path="wood_planks_square_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

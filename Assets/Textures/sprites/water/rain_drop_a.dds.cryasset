@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="00b75ad2-57fb-3cd4-2a89-de1a086b4431">
+ <Files>
+  <File path="rain_drop_a.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">32</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">4</Detail>
+ </Details>
+</AssetMetadata>

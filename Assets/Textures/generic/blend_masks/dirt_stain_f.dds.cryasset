@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="1e9fbe78-a019-d5a8-5169-83cb8278be76">
+ <Files>
+  <File path="dirt_stain_f.dds"/>
+  <File path="dirt_stain_f.dds.1"/>
+  <File path="dirt_stain_f.dds.2"/>
+  <File path="dirt_stain_f.dds.3"/>
+  <File path="dirt_stain_f.dds.4"/>
+  <File path="dirt_stain_f.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

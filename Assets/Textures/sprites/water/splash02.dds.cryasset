@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="4c76bd63-364d-3e77-bd97-392a22db022e">
+ <Files>
+  <File path="splash02.dds"/>
+  <File path="splash02.dds.1"/>
+  <File path="splash02.dds.2"/>
+  <File path="splash02.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

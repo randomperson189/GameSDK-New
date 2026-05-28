@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="f90be843-11fc-b7f7-b534-1ee6267d8064">
+ <Files>
+  <File path="inside_wall_ddna.dds"/>
+  <File path="inside_wall_ddna.dds.a"/>
+  <File path="inside_wall_ddna.dds.1"/>
+  <File path="inside_wall_ddna.dds.1a"/>
+  <File path="inside_wall_ddna.dds.2"/>
+  <File path="inside_wall_ddna.dds.2a"/>
+  <File path="inside_wall_ddna.dds.3"/>
+  <File path="inside_wall_ddna.dds.3a"/>
+  <File path="inside_wall_ddna.dds.4"/>
+  <File path="inside_wall_ddna.dds.4a"/>
+  <File path="inside_wall_ddna.dds.5"/>
+  <File path="inside_wall_ddna.dds.5a"/>
+  <File path="inside_wall_ddna.dds.6"/>
+  <File path="inside_wall_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

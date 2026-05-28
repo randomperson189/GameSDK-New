@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="2ebec22a-38b7-4127-7c27-561440480eb8">
+ <Files>
+  <File path="concrete_curbs_diff.dds"/>
+  <File path="concrete_curbs_diff.dds.1"/>
+  <File path="concrete_curbs_diff.dds.2"/>
+  <File path="concrete_curbs_diff.dds.3"/>
+  <File path="concrete_curbs_diff.dds.4"/>
+  <File path="concrete_curbs_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

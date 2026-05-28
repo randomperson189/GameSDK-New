@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="41b2ab31-b8f0-9d5b-347a-c8a2a66a52e0">
+ <Files>
+  <File path="scales_circles_displ.dds"/>
+  <File path="scales_circles_displ.dds.1"/>
+  <File path="scales_circles_displ.dds.2"/>
+  <File path="scales_circles_displ.dds.3"/>
+  <File path="scales_circles_displ.dds.4"/>
+  <File path="scales_circles_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

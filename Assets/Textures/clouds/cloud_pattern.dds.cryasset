@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="01e7d59a-ff7f-b466-26cc-621e69fa7e12">
+ <Files>
+  <File path="cloud_pattern.dds"/>
+  <File path="cloud_pattern.dds.1"/>
+  <File path="cloud_pattern.dds.2"/>
+  <File path="cloud_pattern.dds.3"/>
+  <File path="cloud_pattern.dds.4"/>
+  <File path="cloud_pattern.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

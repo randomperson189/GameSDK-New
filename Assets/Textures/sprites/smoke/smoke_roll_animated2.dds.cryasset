@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="e43088bd-966a-0867-408f-0c98a6a7714a">
+ <Files>
+  <File path="smoke_roll_animated2.dds"/>
+  <File path="smoke_roll_animated2.dds.1"/>
+  <File path="smoke_roll_animated2.dds.2"/>
+  <File path="smoke_roll_animated2.dds.3"/>
+  <File path="smoke_roll_animated2.dds.4"/>
+  <File path="smoke_roll_animated2.dds.5"/>
+  <File path="smoke_roll_animated2.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

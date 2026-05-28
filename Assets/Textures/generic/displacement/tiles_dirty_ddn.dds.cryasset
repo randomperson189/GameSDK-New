@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="c9243cf5-13ac-1252-43ff-d5f415fe5241">
+ <Files>
+  <File path="tiles_dirty_ddn.dds"/>
+  <File path="tiles_dirty_ddn.dds.1"/>
+  <File path="tiles_dirty_ddn.dds.2"/>
+  <File path="tiles_dirty_ddn.dds.3"/>
+  <File path="tiles_dirty_ddn.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

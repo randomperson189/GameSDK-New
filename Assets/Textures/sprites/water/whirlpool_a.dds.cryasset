@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="baf1230b-8dde-45f9-5c79-6b129b42baf4">
+ <Files>
+  <File path="whirlpool_a.dds"/>
+  <File path="whirlpool_a.dds.1"/>
+  <File path="whirlpool_a.dds.2"/>
+  <File path="whirlpool_a.dds.3"/>
+  <File path="whirlpool_a.dds.4"/>
+  <File path="whirlpool_a.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

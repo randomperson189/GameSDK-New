@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="e5ce55d5-c204-ad20-67e4-554855da47a4">
+ <Files>
+  <File path="metal_grill_moss_spec.dds"/>
+  <File path="metal_grill_moss_spec.dds.1"/>
+  <File path="metal_grill_moss_spec.dds.2"/>
+  <File path="metal_grill_moss_spec.dds.3"/>
+  <File path="metal_grill_moss_spec.dds.4"/>
+  <File path="metal_grill_moss_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

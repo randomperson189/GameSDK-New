@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="47293b46-09ad-639b-61b2-55b1e6771c88">
+ <Files>
+  <File path="wood_planks_lrg_c_dmg_wet_diff.dds"/>
+  <File path="wood_planks_lrg_c_dmg_wet_diff.dds.1"/>
+  <File path="wood_planks_lrg_c_dmg_wet_diff.dds.2"/>
+  <File path="wood_planks_lrg_c_dmg_wet_diff.dds.3"/>
+  <File path="wood_planks_lrg_c_dmg_wet_diff.dds.4"/>
+  <File path="wood_planks_lrg_c_dmg_wet_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

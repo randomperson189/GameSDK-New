@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="2c2b36cf-85c7-4e32-a1dc-5693943758a4">
+ <Files>
+  <File path="road_muddy_off_21_decal_displ.dds"/>
+  <File path="road_muddy_off_21_decal_displ.dds.1"/>
+  <File path="road_muddy_off_21_decal_displ.dds.2"/>
+  <File path="road_muddy_off_21_decal_displ.dds.3"/>
+  <File path="road_muddy_off_21_decal_displ.dds.4"/>
+  <File path="road_muddy_off_21_decal_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

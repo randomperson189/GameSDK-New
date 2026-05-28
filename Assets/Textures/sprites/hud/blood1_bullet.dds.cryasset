@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a1d05cb7-edcb-078e-4176-18d62c5f8d31">
+ <Files>
+  <File path="blood1_bullet.dds"/>
+  <File path="blood1_bullet.dds.1"/>
+  <File path="blood1_bullet.dds.2"/>
+  <File path="blood1_bullet.dds.3"/>
+  <File path="blood1_bullet.dds.4"/>
+  <File path="blood1_bullet.dds.5"/>
+  <File path="blood1_bullet.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

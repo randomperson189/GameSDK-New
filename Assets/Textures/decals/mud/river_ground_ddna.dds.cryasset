@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="acf6b0b1-17aa-a961-abdc-7a84cc82a79a">
+ <Files>
+  <File path="river_ground_ddna.dds"/>
+  <File path="river_ground_ddna.dds.a"/>
+  <File path="river_ground_ddna.dds.1"/>
+  <File path="river_ground_ddna.dds.1a"/>
+  <File path="river_ground_ddna.dds.2"/>
+  <File path="river_ground_ddna.dds.2a"/>
+  <File path="river_ground_ddna.dds.3"/>
+  <File path="river_ground_ddna.dds.3a"/>
+  <File path="river_ground_ddna.dds.4"/>
+  <File path="river_ground_ddna.dds.4a"/>
+  <File path="river_ground_ddna.dds.5"/>
+  <File path="river_ground_ddna.dds.5a"/>
+  <File path="river_ground_ddna.dds.6"/>
+  <File path="river_ground_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

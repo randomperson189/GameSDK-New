@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="bee58171-6da8-9d16-2593-3d71f46d8438">
+ <Files>
+  <File path="cloth_fine_dirty_diff.dds"/>
+  <File path="cloth_fine_dirty_diff.dds.1"/>
+  <File path="cloth_fine_dirty_diff.dds.2"/>
+  <File path="cloth_fine_dirty_diff.dds.3"/>
+  <File path="cloth_fine_dirty_diff.dds.4"/>
+  <File path="cloth_fine_dirty_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

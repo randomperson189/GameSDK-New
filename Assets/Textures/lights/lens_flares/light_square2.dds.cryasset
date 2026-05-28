@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="94111aa3-40c2-e398-ca2b-394ad1606118">
+ <Files>
+  <File path="light_square2.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

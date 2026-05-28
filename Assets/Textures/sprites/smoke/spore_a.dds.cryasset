@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="3e05a187-2e02-35ef-36b4-f95a637ebf3d">
+ <Files>
+  <File path="spore_a.dds"/>
+  <File path="spore_a.dds.1"/>
+  <File path="spore_a.dds.2"/>
+  <File path="spore_a.dds.3"/>
+  <File path="spore_a.dds.4"/>
+  <File path="spore_a.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

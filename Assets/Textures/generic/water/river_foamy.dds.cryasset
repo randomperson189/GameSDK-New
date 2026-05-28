@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="98965055-2abf-3664-c757-c7b83f2d5ade">
+ <Files>
+  <File path="river_foamy.dds"/>
+  <File path="river_foamy.dds.1"/>
+  <File path="river_foamy.dds.2"/>
+  <File path="river_foamy.dds.3"/>
+  <File path="river_foamy.dds.4"/>
+  <File path="river_foamy.dds.5"/>
+  <File path="river_foamy.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="1b67f9c9-52d6-ce0b-3782-6fc85dce3c40">
+ <Files>
+  <File path="dots_random_ddn.dds"/>
+  <File path="dots_random_ddn.dds.1"/>
+  <File path="dots_random_ddn.dds.2"/>
+  <File path="dots_random_ddn.dds.3"/>
+  <File path="dots_random_ddn.dds.4"/>
+  <File path="dots_random_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

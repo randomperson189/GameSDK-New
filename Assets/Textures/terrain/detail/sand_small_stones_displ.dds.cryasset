@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="9064f06a-89a2-9e30-6538-7eb2357197f5">
+ <Files>
+  <File path="sand_small_stones_displ.dds"/>
+  <File path="sand_small_stones_displ.dds.1"/>
+  <File path="sand_small_stones_displ.dds.2"/>
+  <File path="sand_small_stones_displ.dds.3"/>
+  <File path="sand_small_stones_displ.dds.4"/>
+  <File path="sand_small_stones_displ.dds.5"/>
+  <File path="sand_small_stones_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

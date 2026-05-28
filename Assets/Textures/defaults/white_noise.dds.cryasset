@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="9159cba1-21e1-a31c-2284-bd4a79418eb9">
+ <Files>
+  <File path="white_noise.dds"/>
+  <File path="white_noise.dds.1"/>
+  <File path="white_noise.dds.2"/>
+  <File path="white_noise.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

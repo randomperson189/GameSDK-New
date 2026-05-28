@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="57c5a300-46d1-d613-0461-68d6d7ed009a">
+ <Files>
+  <File path="dirty_blend.dds"/>
+  <File path="dirty_blend.dds.1"/>
+  <File path="dirty_blend.dds.2"/>
+  <File path="dirty_blend.dds.3"/>
+  <File path="dirty_blend.dds.4"/>
+  <File path="dirty_blend.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

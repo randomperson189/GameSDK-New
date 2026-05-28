@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="3f20119b-4c38-62ba-62ba-d72277dc747a">
+ <Files>
+  <File path="concrete_diff.dds"/>
+  <File path="concrete_diff.dds.1"/>
+  <File path="concrete_diff.dds.2"/>
+  <File path="concrete_diff.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

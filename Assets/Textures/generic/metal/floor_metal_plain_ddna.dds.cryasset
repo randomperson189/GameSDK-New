@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="dc0e09d8-385d-5a09-fcfd-283f7d660a99">
+ <Files>
+  <File path="floor_metal_plain_ddna.dds"/>
+  <File path="floor_metal_plain_ddna.dds.a"/>
+  <File path="floor_metal_plain_ddna.dds.1"/>
+  <File path="floor_metal_plain_ddna.dds.1a"/>
+  <File path="floor_metal_plain_ddna.dds.2"/>
+  <File path="floor_metal_plain_ddna.dds.2a"/>
+  <File path="floor_metal_plain_ddna.dds.3"/>
+  <File path="floor_metal_plain_ddna.dds.3a"/>
+  <File path="floor_metal_plain_ddna.dds.4"/>
+  <File path="floor_metal_plain_ddna.dds.4a"/>
+  <File path="floor_metal_plain_ddna.dds.5"/>
+  <File path="floor_metal_plain_ddna.dds.5a"/>
+  <File path="floor_metal_plain_ddna.dds.6"/>
+  <File path="floor_metal_plain_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

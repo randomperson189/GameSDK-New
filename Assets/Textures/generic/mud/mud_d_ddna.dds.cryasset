@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="dcf9c128-725f-ea2c-ddd6-d0227a78fecd">
+ <Files>
+  <File path="mud_d_ddna.dds"/>
+  <File path="mud_d_ddna.dds.a"/>
+  <File path="mud_d_ddna.dds.1"/>
+  <File path="mud_d_ddna.dds.1a"/>
+  <File path="mud_d_ddna.dds.2"/>
+  <File path="mud_d_ddna.dds.2a"/>
+  <File path="mud_d_ddna.dds.3"/>
+  <File path="mud_d_ddna.dds.3a"/>
+  <File path="mud_d_ddna.dds.4"/>
+  <File path="mud_d_ddna.dds.4a"/>
+  <File path="mud_d_ddna.dds.5"/>
+  <File path="mud_d_ddna.dds.5a"/>
+  <File path="mud_d_ddna.dds.6"/>
+  <File path="mud_d_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

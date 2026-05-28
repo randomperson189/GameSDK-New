@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="e07d79f9-2590-b0d2-ed95-b72567bf4a9e">
+ <Files>
+  <File path="walkways_plain_metal_spec.dds"/>
+  <File path="walkways_plain_metal_spec.dds.1"/>
+  <File path="walkways_plain_metal_spec.dds.2"/>
+  <File path="walkways_plain_metal_spec.dds.3"/>
+  <File path="walkways_plain_metal_spec.dds.4"/>
+  <File path="walkways_plain_metal_spec.dds.5"/>
+  <File path="walkways_plain_metal_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

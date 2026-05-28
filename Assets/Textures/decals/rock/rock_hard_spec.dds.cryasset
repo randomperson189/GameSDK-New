@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="2880fee3-17f0-91b5-fb1a-931ff6d606fa">
+ <Files>
+  <File path="rock_hard_spec.dds"/>
+  <File path="rock_hard_spec.dds.1"/>
+  <File path="rock_hard_spec.dds.2"/>
+  <File path="rock_hard_spec.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

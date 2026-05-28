@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="b79cf4bb-c7b4-5907-36c3-309ca8848c8b">
+ <Files>
+  <File path="brick_smooth_moss_diff.dds"/>
+  <File path="brick_smooth_moss_diff.dds.1"/>
+  <File path="brick_smooth_moss_diff.dds.2"/>
+  <File path="brick_smooth_moss_diff.dds.3"/>
+  <File path="brick_smooth_moss_diff.dds.4"/>
+  <File path="brick_smooth_moss_diff.dds.5"/>
+  <File path="brick_smooth_moss_diff.dds.6"/>
+  <File path="brick_smooth_moss_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

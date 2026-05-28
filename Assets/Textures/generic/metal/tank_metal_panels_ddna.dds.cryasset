@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="80722901-ae6d-a4ac-eed3-9788c0630ff8">
+ <Files>
+  <File path="tank_metal_panels_ddna.dds"/>
+  <File path="tank_metal_panels_ddna.dds.a"/>
+  <File path="tank_metal_panels_ddna.dds.1"/>
+  <File path="tank_metal_panels_ddna.dds.1a"/>
+  <File path="tank_metal_panels_ddna.dds.2"/>
+  <File path="tank_metal_panels_ddna.dds.2a"/>
+  <File path="tank_metal_panels_ddna.dds.3"/>
+  <File path="tank_metal_panels_ddna.dds.3a"/>
+  <File path="tank_metal_panels_ddna.dds.4"/>
+  <File path="tank_metal_panels_ddna.dds.4a"/>
+  <File path="tank_metal_panels_ddna.dds.5"/>
+  <File path="tank_metal_panels_ddna.dds.5a"/>
+  <File path="tank_metal_panels_ddna.dds.6"/>
+  <File path="tank_metal_panels_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

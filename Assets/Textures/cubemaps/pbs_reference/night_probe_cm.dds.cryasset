@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="ba7d5ac0-1833-87e7-dde9-72b6daf940af">
+ <Files>
+  <File path="night_probe_cm.dds"/>
+  <File path="night_probe_cm.dds.1"/>
+  <File path="night_probe_cm.dds.2"/>
+  <File path="night_probe_cm.dds.3"/>
+  <File path="night_probe_cm.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">1536</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

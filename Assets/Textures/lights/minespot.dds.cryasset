@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="dff1446f-8658-f0eb-1213-d5ca7ca440ef">
+ <Files>
+  <File path="minespot.dds"/>
+  <File path="minespot.dds.1"/>
+  <File path="minespot.dds.2"/>
+  <File path="minespot.dds.3"/>
+  <File path="minespot.dds.4"/>
+  <File path="minespot.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

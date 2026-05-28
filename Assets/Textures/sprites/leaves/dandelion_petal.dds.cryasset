@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="94696544-9806-9999-11d1-050808ac53ab">
+ <Files>
+  <File path="dandelion_petal.dds"/>
+  <File path="dandelion_petal.dds.1"/>
+  <File path="dandelion_petal.dds.2"/>
+  <File path="dandelion_petal.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

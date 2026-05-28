@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="72c90657-6c14-c8d4-8090-4a5523356077">
+ <Files>
+  <File path="metal_bronze_plain_a_diff.dds"/>
+  <File path="metal_bronze_plain_a_diff.dds.1"/>
+  <File path="metal_bronze_plain_a_diff.dds.2"/>
+  <File path="metal_bronze_plain_a_diff.dds.3"/>
+  <File path="metal_bronze_plain_a_diff.dds.4"/>
+  <File path="metal_bronze_plain_a_diff.dds.5"/>
+  <File path="metal_bronze_plain_a_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

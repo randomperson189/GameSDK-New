@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="3af38ef0-9390-8c0f-6eac-9fb539587083">
+ <Files>
+  <File path="mud_wet_grassy_displ.dds"/>
+  <File path="mud_wet_grassy_displ.dds.1"/>
+  <File path="mud_wet_grassy_displ.dds.2"/>
+  <File path="mud_wet_grassy_displ.dds.3"/>
+  <File path="mud_wet_grassy_displ.dds.4"/>
+  <File path="mud_wet_grassy_displ.dds.5"/>
+  <File path="mud_wet_grassy_displ.dds.6"/>
+  <File path="mud_wet_grassy_displ.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="6c48ea47-64d1-728e-a07e-3b5978f2ff05">
+ <Files>
+  <File path="anm_smoke_desat.dds"/>
+  <File path="anm_smoke_desat.dds.1"/>
+  <File path="anm_smoke_desat.dds.2"/>
+  <File path="anm_smoke_desat.dds.3"/>
+  <File path="anm_smoke_desat.dds.4"/>
+  <File path="anm_smoke_desat.dds.5"/>
+  <File path="anm_smoke_desat.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

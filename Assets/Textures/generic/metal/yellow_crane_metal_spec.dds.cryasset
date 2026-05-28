@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="2b3ad93a-ef2e-e83a-20ab-5fb7868572cd">
+ <Files>
+  <File path="yellow_crane_metal_spec.dds"/>
+  <File path="yellow_crane_metal_spec.dds.1"/>
+  <File path="yellow_crane_metal_spec.dds.2"/>
+  <File path="yellow_crane_metal_spec.dds.3"/>
+  <File path="yellow_crane_metal_spec.dds.4"/>
+  <File path="yellow_crane_metal_spec.dds.5"/>
+  <File path="yellow_crane_metal_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

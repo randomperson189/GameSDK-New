@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="22351d09-a614-90fb-734e-fdd26d0708de">
+ <Files>
+  <File path="glassblocks_spec.dds"/>
+  <File path="glassblocks_spec.dds.1"/>
+  <File path="glassblocks_spec.dds.2"/>
+  <File path="glassblocks_spec.dds.3"/>
+  <File path="glassblocks_spec.dds.4"/>
+  <File path="glassblocks_spec.dds.5"/>
+  <File path="glassblocks_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

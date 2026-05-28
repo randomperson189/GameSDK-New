@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="6ba92782-2d6e-9fd9-33e4-ce821e500379">
+ <Files>
+  <File path="beach_white_sand_diff.dds"/>
+  <File path="beach_white_sand_diff.dds.1"/>
+  <File path="beach_white_sand_diff.dds.2"/>
+  <File path="beach_white_sand_diff.dds.3"/>
+  <File path="beach_white_sand_diff.dds.4"/>
+  <File path="beach_white_sand_diff.dds.5"/>
+  <File path="beach_white_sand_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

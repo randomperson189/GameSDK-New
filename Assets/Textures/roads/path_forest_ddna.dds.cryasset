@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="65226dcf-d012-0ee8-62ae-32d5f3137b88">
+ <Files>
+  <File path="path_forest_ddna.dds"/>
+  <File path="path_forest_ddna.dds.a"/>
+  <File path="path_forest_ddna.dds.1"/>
+  <File path="path_forest_ddna.dds.1a"/>
+  <File path="path_forest_ddna.dds.2"/>
+  <File path="path_forest_ddna.dds.2a"/>
+  <File path="path_forest_ddna.dds.3"/>
+  <File path="path_forest_ddna.dds.3a"/>
+  <File path="path_forest_ddna.dds.4"/>
+  <File path="path_forest_ddna.dds.4a"/>
+  <File path="path_forest_ddna.dds.5"/>
+  <File path="path_forest_ddna.dds.5a"/>
+  <File path="path_forest_ddna.dds.6"/>
+  <File path="path_forest_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

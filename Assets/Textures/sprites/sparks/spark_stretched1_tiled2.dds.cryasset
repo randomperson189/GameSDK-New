@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="478dc326-2233-4b2c-2cc8-60abf232c7d9">
+ <Files>
+  <File path="spark_stretched1_tiled2.dds"/>
+  <File path="spark_stretched1_tiled2.dds.1"/>
+  <File path="spark_stretched1_tiled2.dds.2"/>
+  <File path="spark_stretched1_tiled2.dds.3"/>
+  <File path="spark_stretched1_tiled2.dds.4"/>
+  <File path="spark_stretched1_tiled2.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

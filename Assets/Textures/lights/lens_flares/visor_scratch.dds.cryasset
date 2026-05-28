@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f8bdc2ba-c672-2cae-8c12-cb128d9e523e">
+ <Files>
+  <File path="visor_scratch.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

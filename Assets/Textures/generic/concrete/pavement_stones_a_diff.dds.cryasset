@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="204f1958-110b-08af-8b8d-aaf5229b23c7">
+ <Files>
+  <File path="pavement_stones_a_diff.dds"/>
+  <File path="pavement_stones_a_diff.dds.1"/>
+  <File path="pavement_stones_a_diff.dds.2"/>
+  <File path="pavement_stones_a_diff.dds.3"/>
+  <File path="pavement_stones_a_diff.dds.4"/>
+  <File path="pavement_stones_a_diff.dds.5"/>
+  <File path="pavement_stones_a_diff.dds.6"/>
+  <File path="pavement_stones_a_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

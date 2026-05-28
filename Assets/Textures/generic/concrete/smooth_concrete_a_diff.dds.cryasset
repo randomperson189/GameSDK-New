@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="e2fe0d4c-5944-1ee3-525e-4dd5a7672934">
+ <Files>
+  <File path="smooth_concrete_a_diff.dds"/>
+  <File path="smooth_concrete_a_diff.dds.1"/>
+  <File path="smooth_concrete_a_diff.dds.2"/>
+  <File path="smooth_concrete_a_diff.dds.3"/>
+  <File path="smooth_concrete_a_diff.dds.4"/>
+  <File path="smooth_concrete_a_diff.dds.5"/>
+  <File path="smooth_concrete_a_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

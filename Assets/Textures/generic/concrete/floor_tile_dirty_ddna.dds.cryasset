@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="d709f870-63c1-119e-68ce-63ed858c3f07">
+ <Files>
+  <File path="floor_tile_dirty_ddna.dds"/>
+  <File path="floor_tile_dirty_ddna.dds.a"/>
+  <File path="floor_tile_dirty_ddna.dds.1"/>
+  <File path="floor_tile_dirty_ddna.dds.1a"/>
+  <File path="floor_tile_dirty_ddna.dds.2"/>
+  <File path="floor_tile_dirty_ddna.dds.2a"/>
+  <File path="floor_tile_dirty_ddna.dds.3"/>
+  <File path="floor_tile_dirty_ddna.dds.3a"/>
+  <File path="floor_tile_dirty_ddna.dds.4"/>
+  <File path="floor_tile_dirty_ddna.dds.4a"/>
+  <File path="floor_tile_dirty_ddna.dds.5"/>
+  <File path="floor_tile_dirty_ddna.dds.5a"/>
+  <File path="floor_tile_dirty_ddna.dds.6"/>
+  <File path="floor_tile_dirty_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

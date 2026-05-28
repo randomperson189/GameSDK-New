@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="6855d1f7-d27a-1784-34c8-0317bb5afc98">
+ <Files>
+  <File path="grey_metal_paint_diff.dds"/>
+  <File path="grey_metal_paint_diff.dds.1"/>
+  <File path="grey_metal_paint_diff.dds.2"/>
+  <File path="grey_metal_paint_diff.dds.3"/>
+  <File path="grey_metal_paint_diff.dds.4"/>
+  <File path="grey_metal_paint_diff.dds.5"/>
+  <File path="grey_metal_paint_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

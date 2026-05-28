@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="0aa10d5d-2511-54c4-ada2-78f049091bde">
+ <Files>
+  <File path="metalbar_ddna.dds"/>
+  <File path="metalbar_ddna.dds.a"/>
+  <File path="metalbar_ddna.dds.1"/>
+  <File path="metalbar_ddna.dds.1a"/>
+  <File path="metalbar_ddna.dds.2"/>
+  <File path="metalbar_ddna.dds.2a"/>
+  <File path="metalbar_ddna.dds.3"/>
+  <File path="metalbar_ddna.dds.3a"/>
+  <File path="metalbar_ddna.dds.4"/>
+  <File path="metalbar_ddna.dds.4a"/>
+  <File path="metalbar_ddna.dds.5"/>
+  <File path="metalbar_ddna.dds.5a"/>
+  <File path="metalbar_ddna.dds.6"/>
+  <File path="metalbar_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

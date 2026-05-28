@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="5345bbe3-088b-d60e-bbe5-4bdf5c6732bc">
+ <Files>
+  <File path="road_park_footsteps_diff.dds"/>
+  <File path="road_park_footsteps_diff.dds.1"/>
+  <File path="road_park_footsteps_diff.dds.2"/>
+  <File path="road_park_footsteps_diff.dds.3"/>
+  <File path="road_park_footsteps_diff.dds.4"/>
+  <File path="road_park_footsteps_diff.dds.5"/>
+  <File path="road_park_footsteps_diff.dds.6"/>
+  <File path="road_park_footsteps_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

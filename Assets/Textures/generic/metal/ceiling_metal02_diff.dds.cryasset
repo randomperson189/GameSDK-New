@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d61d383f-014c-9376-5113-2ecd7c9b11d0">
+ <Files>
+  <File path="ceiling_metal02_diff.dds"/>
+  <File path="ceiling_metal02_diff.dds.1"/>
+  <File path="ceiling_metal02_diff.dds.2"/>
+  <File path="ceiling_metal02_diff.dds.3"/>
+  <File path="ceiling_metal02_diff.dds.4"/>
+  <File path="ceiling_metal02_diff.dds.5"/>
+  <File path="ceiling_metal02_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

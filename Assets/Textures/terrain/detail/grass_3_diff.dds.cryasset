@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="fa6da4e6-e5bc-7b74-1b9f-47ab33ed67d1">
+ <Files>
+  <File path="grass_3_diff.dds"/>
+  <File path="grass_3_diff.dds.1"/>
+  <File path="grass_3_diff.dds.2"/>
+  <File path="grass_3_diff.dds.3"/>
+  <File path="grass_3_diff.dds.4"/>
+  <File path="grass_3_diff.dds.5"/>
+  <File path="grass_3_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

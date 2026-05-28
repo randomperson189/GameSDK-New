@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="194fda34-b6dd-46f9-6971-e81639a975a7">
+ <Files>
+  <File path="terrain_soil_spec.dds"/>
+  <File path="terrain_soil_spec.dds.1"/>
+  <File path="terrain_soil_spec.dds.2"/>
+  <File path="terrain_soil_spec.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

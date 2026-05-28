@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="06642050-3e27-5e4b-f992-4ac4be9aeffb">
+ <Files>
+  <File path="brick_rough01_displ.dds"/>
+  <File path="brick_rough01_displ.dds.1"/>
+  <File path="brick_rough01_displ.dds.2"/>
+  <File path="brick_rough01_displ.dds.3"/>
+  <File path="brick_rough01_displ.dds.4"/>
+  <File path="brick_rough01_displ.dds.5"/>
+  <File path="brick_rough01_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

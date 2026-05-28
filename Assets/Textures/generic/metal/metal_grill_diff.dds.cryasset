@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="026a1521-684c-a544-6329-ec9cc1a57a2c">
+ <Files>
+  <File path="metal_grill_diff.dds"/>
+  <File path="metal_grill_diff.dds.1"/>
+  <File path="metal_grill_diff.dds.2"/>
+  <File path="metal_grill_diff.dds.3"/>
+  <File path="metal_grill_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

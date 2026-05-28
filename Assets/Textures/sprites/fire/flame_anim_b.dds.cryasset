@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="173c5c36-afe9-d4ae-51f1-665ce0c7f221">
+ <Files>
+  <File path="flame_anim_b.dds"/>
+  <File path="flame_anim_b.dds.1"/>
+  <File path="flame_anim_b.dds.2"/>
+  <File path="flame_anim_b.dds.3"/>
+  <File path="flame_anim_b.dds.4"/>
+  <File path="flame_anim_b.dds.5"/>
+  <File path="flame_anim_b.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

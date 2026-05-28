@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="b9f4f2c9-5343-439f-6994-8ddfd13beec5">
+ <Files>
+  <File path="wood_beams_a_diff.dds"/>
+  <File path="wood_beams_a_diff.dds.1"/>
+  <File path="wood_beams_a_diff.dds.2"/>
+  <File path="wood_beams_a_diff.dds.3"/>
+  <File path="wood_beams_a_diff.dds.4"/>
+  <File path="wood_beams_a_diff.dds.5"/>
+  <File path="wood_beams_a_diff.dds.6"/>
+  <File path="wood_beams_a_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

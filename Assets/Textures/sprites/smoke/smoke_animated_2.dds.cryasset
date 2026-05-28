@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="66332be9-295a-698b-3cac-171af4ed9e86">
+ <Files>
+  <File path="smoke_animated_2.dds"/>
+  <File path="smoke_animated_2.dds.1"/>
+  <File path="smoke_animated_2.dds.2"/>
+  <File path="smoke_animated_2.dds.3"/>
+  <File path="smoke_animated_2.dds.4"/>
+  <File path="smoke_animated_2.dds.5"/>
+  <File path="smoke_animated_2.dds.6"/>
+  <File path="smoke_animated_2.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

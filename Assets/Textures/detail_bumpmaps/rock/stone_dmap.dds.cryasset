@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="1ba2e66d-a3e8-4cad-80c5-20da3ec38b55">
+ <Files>
+  <File path="stone_dmap.dds"/>
+  <File path="stone_dmap.dds.1"/>
+  <File path="stone_dmap.dds.2"/>
+  <File path="stone_dmap.dds.3"/>
+  <File path="stone_dmap.dds.4"/>
+  <File path="stone_dmap.dds.5"/>
+  <File path="stone_dmap.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="d10e9fcc-67e8-3b59-352e-361eae3dde2b">
+ <Files>
+  <File path="eroded_concrete_ddna.dds"/>
+  <File path="eroded_concrete_ddna.dds.a"/>
+  <File path="eroded_concrete_ddna.dds.1"/>
+  <File path="eroded_concrete_ddna.dds.1a"/>
+  <File path="eroded_concrete_ddna.dds.2"/>
+  <File path="eroded_concrete_ddna.dds.2a"/>
+  <File path="eroded_concrete_ddna.dds.3"/>
+  <File path="eroded_concrete_ddna.dds.3a"/>
+  <File path="eroded_concrete_ddna.dds.4"/>
+  <File path="eroded_concrete_ddna.dds.4a"/>
+  <File path="eroded_concrete_ddna.dds.5"/>
+  <File path="eroded_concrete_ddna.dds.5a"/>
+  <File path="eroded_concrete_ddna.dds.6"/>
+  <File path="eroded_concrete_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

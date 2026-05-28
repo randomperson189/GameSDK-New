@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="52a7ee96-9abb-b131-a771-bbb6ca6b4b8b">
+ <Files>
+  <File path="water_splash6.dds"/>
+  <File path="water_splash6.dds.1"/>
+  <File path="water_splash6.dds.2"/>
+  <File path="water_splash6.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

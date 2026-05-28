@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="b8b1d709-c7e9-3c6c-ebeb-af204059f1df">
+ <Files>
+  <File path="water_splash_ddn.dds"/>
+  <File path="water_splash_ddn.dds.1"/>
+  <File path="water_splash_ddn.dds.2"/>
+  <File path="water_splash_ddn.dds.3"/>
+  <File path="water_splash_ddn.dds.4"/>
+  <File path="water_splash_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="2eedb1ec-53a4-0fb5-66d0-ff98e052971a">
+ <Files>
+  <File path="plaster_white_d_ddna.dds"/>
+  <File path="plaster_white_d_ddna.dds.a"/>
+  <File path="plaster_white_d_ddna.dds.1"/>
+  <File path="plaster_white_d_ddna.dds.1a"/>
+  <File path="plaster_white_d_ddna.dds.2"/>
+  <File path="plaster_white_d_ddna.dds.2a"/>
+  <File path="plaster_white_d_ddna.dds.3"/>
+  <File path="plaster_white_d_ddna.dds.3a"/>
+  <File path="plaster_white_d_ddna.dds.4"/>
+  <File path="plaster_white_d_ddna.dds.4a"/>
+  <File path="plaster_white_d_ddna.dds.5"/>
+  <File path="plaster_white_d_ddna.dds.5a"/>
+  <File path="plaster_white_d_ddna.dds.6"/>
+  <File path="plaster_white_d_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

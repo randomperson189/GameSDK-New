@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="e86e1b3c-8373-e9a2-56e0-fce8838d929a">
+ <Files>
+  <File path="eroded_concrete_light_displ.dds"/>
+  <File path="eroded_concrete_light_displ.dds.1"/>
+  <File path="eroded_concrete_light_displ.dds.2"/>
+  <File path="eroded_concrete_light_displ.dds.3"/>
+  <File path="eroded_concrete_light_displ.dds.4"/>
+  <File path="eroded_concrete_light_displ.dds.5"/>
+  <File path="eroded_concrete_light_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

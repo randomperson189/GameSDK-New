@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="f2f74525-3c7a-1653-f1c8-0f7f5766a4ca">
+ <Files>
+  <File path="attach_zoom_blurmask.dds"/>
+  <File path="attach_zoom_blurmask.dds.1"/>
+  <File path="attach_zoom_blurmask.dds.2"/>
+  <File path="attach_zoom_blurmask.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

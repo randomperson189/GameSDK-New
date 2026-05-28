@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="8d445a5a-a7fc-5549-a974-e34ebeb93a47">
+ <Files>
+  <File path="thin_brick_displ.dds"/>
+  <File path="thin_brick_displ.dds.1"/>
+  <File path="thin_brick_displ.dds.2"/>
+  <File path="thin_brick_displ.dds.3"/>
+  <File path="thin_brick_displ.dds.4"/>
+  <File path="thin_brick_displ.dds.5"/>
+  <File path="thin_brick_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

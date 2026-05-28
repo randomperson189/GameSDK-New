@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ce92cbad-6df1-b4a3-a07c-a316a863201e">
+ <Files>
+  <File path="sand_lots_stones_dry_a_displ.dds"/>
+  <File path="sand_lots_stones_dry_a_displ.dds.1"/>
+  <File path="sand_lots_stones_dry_a_displ.dds.2"/>
+  <File path="sand_lots_stones_dry_a_displ.dds.3"/>
+  <File path="sand_lots_stones_dry_a_displ.dds.4"/>
+  <File path="sand_lots_stones_dry_a_displ.dds.5"/>
+  <File path="sand_lots_stones_dry_a_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

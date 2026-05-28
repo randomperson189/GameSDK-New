@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="fcfdb465-30ac-d57b-e2c2-25db854e8c0a">
+ <Files>
+  <File path="burned_ash_tile_displ.dds"/>
+  <File path="burned_ash_tile_displ.dds.1"/>
+  <File path="burned_ash_tile_displ.dds.2"/>
+  <File path="burned_ash_tile_displ.dds.3"/>
+  <File path="burned_ash_tile_displ.dds.4"/>
+  <File path="burned_ash_tile_displ.dds.5"/>
+  <File path="burned_ash_tile_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

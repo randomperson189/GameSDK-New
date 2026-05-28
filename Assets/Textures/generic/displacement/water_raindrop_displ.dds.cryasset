@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="1b3b0768-5121-20cf-d71a-826741de610f">
+ <Files>
+  <File path="water_raindrop_displ.dds"/>
+  <File path="water_raindrop_displ.dds.1"/>
+  <File path="water_raindrop_displ.dds.2"/>
+  <File path="water_raindrop_displ.dds.3"/>
+  <File path="water_raindrop_displ.dds.4"/>
+  <File path="water_raindrop_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

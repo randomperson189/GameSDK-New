@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d46a95cb-d284-e557-ae52-d4ca57a2b1bd">
+ <Files>
+  <File path="crosswalk_diff.dds"/>
+  <File path="crosswalk_diff.dds.1"/>
+  <File path="crosswalk_diff.dds.2"/>
+  <File path="crosswalk_diff.dds.3"/>
+  <File path="crosswalk_diff.dds.4"/>
+  <File path="crosswalk_diff.dds.5"/>
+  <File path="crosswalk_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="13a3bdf3-8fee-9bf3-c295-4b01f0a5f310">
+ <Files>
+  <File path="broken_glass_diff.dds"/>
+  <File path="broken_glass_diff.dds.1"/>
+  <File path="broken_glass_diff.dds.2"/>
+  <File path="broken_glass_diff.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

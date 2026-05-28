@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="6ac1e747-df61-c44b-dd77-aea7486fa8eb">
+ <Files>
+  <File path="around.dds"/>
+  <File path="around.dds.1"/>
+  <File path="around.dds.2"/>
+  <File path="around.dds.3"/>
+  <File path="around.dds.4"/>
+  <File path="around.dds.5"/>
+  <File path="around.dds.6"/>
+  <File path="around.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="f4c6a73b-81fb-b5af-accd-ea26b3ded9e2">
+ <Files>
+  <File path="electric_radial1.dds"/>
+  <File path="electric_radial1.dds.1"/>
+  <File path="electric_radial1.dds.2"/>
+  <File path="electric_radial1.dds.3"/>
+  <File path="electric_radial1.dds.4"/>
+  <File path="electric_radial1.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

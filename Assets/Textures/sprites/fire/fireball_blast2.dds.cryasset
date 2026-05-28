@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="bb21cf49-1454-0cda-855e-420e2b343784">
+ <Files>
+  <File path="fireball_blast2.dds"/>
+  <File path="fireball_blast2.dds.1"/>
+  <File path="fireball_blast2.dds.2"/>
+  <File path="fireball_blast2.dds.3"/>
+  <File path="fireball_blast2.dds.4"/>
+  <File path="fireball_blast2.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="ac843cbf-1ceb-b864-c2b1-012b88f75f4b">
+ <Files>
+  <File path="damage_blurmask.dds"/>
+  <File path="damage_blurmask.dds.1"/>
+  <File path="damage_blurmask.dds.2"/>
+  <File path="damage_blurmask.dds.3"/>
+  <File path="damage_blurmask.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

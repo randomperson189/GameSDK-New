@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="4a026c89-2791-bcdd-513a-3b816514f908">
+ <Files>
+  <File path="dirt3_bullet.dds"/>
+  <File path="dirt3_bullet.dds.1"/>
+  <File path="dirt3_bullet.dds.2"/>
+  <File path="dirt3_bullet.dds.3"/>
+  <File path="dirt3_bullet.dds.4"/>
+  <File path="dirt3_bullet.dds.5"/>
+  <File path="dirt3_bullet.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

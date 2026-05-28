@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="07bac5a9-40ac-4444-404a-968fa3cd0ea1">
+ <Files>
+  <File path="plastic_tarp_diff.dds"/>
+  <File path="plastic_tarp_diff.dds.1"/>
+  <File path="plastic_tarp_diff.dds.2"/>
+  <File path="plastic_tarp_diff.dds.3"/>
+  <File path="plastic_tarp_diff.dds.4"/>
+  <File path="plastic_tarp_diff.dds.5"/>
+  <File path="plastic_tarp_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="cf335326-942f-4d7b-71dd-18d3038a3965">
+ <Files>
+  <File path="macbeth.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

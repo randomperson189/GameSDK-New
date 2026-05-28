@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="1ab6e990-5934-071e-f102-7b16d38bb7bb">
+ <Files>
+  <File path="yellow_crane_metal_diff.dds"/>
+  <File path="yellow_crane_metal_diff.dds.1"/>
+  <File path="yellow_crane_metal_diff.dds.2"/>
+  <File path="yellow_crane_metal_diff.dds.3"/>
+  <File path="yellow_crane_metal_diff.dds.4"/>
+  <File path="yellow_crane_metal_diff.dds.5"/>
+  <File path="yellow_crane_metal_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

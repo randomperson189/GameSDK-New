@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="50588aa4-6c05-2a3a-783b-fa35bf843923">
+ <Files>
+  <File path="brown_brick_large_diff.dds"/>
+  <File path="brown_brick_large_diff.dds.1"/>
+  <File path="brown_brick_large_diff.dds.2"/>
+  <File path="brown_brick_large_diff.dds.3"/>
+  <File path="brown_brick_large_diff.dds.4"/>
+  <File path="brown_brick_large_diff.dds.5"/>
+  <File path="brown_brick_large_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

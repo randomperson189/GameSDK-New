@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="4245e820-31bb-ae07-2fe2-fabe34696278">
+ <Files>
+  <File path="orb_color3.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

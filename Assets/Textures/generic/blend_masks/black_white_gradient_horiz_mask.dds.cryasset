@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="6a1b5839-ded4-6018-2b78-0b01d479f35a">
+ <Files>
+  <File path="black_white_gradient_horiz_mask.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4</Detail>
+  <Detail name="height">4</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

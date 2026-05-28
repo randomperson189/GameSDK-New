@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="8deadf15-f71d-a860-a263-ee10aa40e9ed">
+ <Files>
+  <File path="industrial_windows_b_diff.dds"/>
+  <File path="industrial_windows_b_diff.dds.1"/>
+  <File path="industrial_windows_b_diff.dds.2"/>
+  <File path="industrial_windows_b_diff.dds.3"/>
+  <File path="industrial_windows_b_diff.dds.4"/>
+  <File path="industrial_windows_b_diff.dds.5"/>
+  <File path="industrial_windows_b_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

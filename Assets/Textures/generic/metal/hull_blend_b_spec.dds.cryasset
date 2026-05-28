@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="0f4a2a22-b67d-da3f-14ac-091deb25a28c">
+ <Files>
+  <File path="hull_blend_b_spec.dds"/>
+  <File path="hull_blend_b_spec.dds.1"/>
+  <File path="hull_blend_b_spec.dds.2"/>
+  <File path="hull_blend_b_spec.dds.3"/>
+  <File path="hull_blend_b_spec.dds.4"/>
+  <File path="hull_blend_b_spec.dds.5"/>
+  <File path="hull_blend_b_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

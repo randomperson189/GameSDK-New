@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="cbc91107-970a-e380-abb7-38393b172356">
+ <Files>
+  <File path="flamethrower.dds"/>
+  <File path="flamethrower.dds.1"/>
+  <File path="flamethrower.dds.2"/>
+  <File path="flamethrower.dds.3"/>
+  <File path="flamethrower.dds.4"/>
+  <File path="flamethrower.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

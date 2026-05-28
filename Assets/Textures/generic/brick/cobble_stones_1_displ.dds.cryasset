@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="b8bfa1e0-2c95-1e58-e18d-6c2713971acf">
+ <Files>
+  <File path="cobble_stones_1_displ.dds"/>
+  <File path="cobble_stones_1_displ.dds.1"/>
+  <File path="cobble_stones_1_displ.dds.2"/>
+  <File path="cobble_stones_1_displ.dds.3"/>
+  <File path="cobble_stones_1_displ.dds.4"/>
+  <File path="cobble_stones_1_displ.dds.5"/>
+  <File path="cobble_stones_1_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

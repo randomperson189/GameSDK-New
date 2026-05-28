@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="86b7298f-6347-3106-db6d-431c52608931">
+ <Files>
+  <File path="ground_crack_a.dds"/>
+  <File path="ground_crack_a.dds.1"/>
+  <File path="ground_crack_a.dds.2"/>
+  <File path="ground_crack_a.dds.3"/>
+  <File path="ground_crack_a.dds.4"/>
+  <File path="ground_crack_a.dds.5"/>
+  <File path="ground_crack_a.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

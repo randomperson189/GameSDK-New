@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="de60566d-1d23-3cdf-9219-e2f6b3fbadf4">
+ <Files>
+  <File path="brick_raw_displ.dds"/>
+  <File path="brick_raw_displ.dds.1"/>
+  <File path="brick_raw_displ.dds.2"/>
+  <File path="brick_raw_displ.dds.3"/>
+  <File path="brick_raw_displ.dds.4"/>
+  <File path="brick_raw_displ.dds.5"/>
+  <File path="brick_raw_displ.dds.6"/>
+  <File path="brick_raw_displ.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

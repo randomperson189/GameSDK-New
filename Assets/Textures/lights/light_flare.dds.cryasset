@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="e075d1bc-35ed-f076-08ee-360e27beb2a6">
+ <Files>
+  <File path="light_flare.dds"/>
+  <File path="light_flare.dds.1"/>
+  <File path="light_flare.dds.2"/>
+  <File path="light_flare.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

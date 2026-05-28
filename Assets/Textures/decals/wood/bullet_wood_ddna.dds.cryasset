@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="337d3f83-9885-74be-a738-22758c6950b7">
+ <Files>
+  <File path="bullet_wood_ddna.dds"/>
+  <File path="bullet_wood_ddna.dds.a"/>
+  <File path="bullet_wood_ddna.dds.1"/>
+  <File path="bullet_wood_ddna.dds.1a"/>
+  <File path="bullet_wood_ddna.dds.2"/>
+  <File path="bullet_wood_ddna.dds.2a"/>
+  <File path="bullet_wood_ddna.dds.3"/>
+  <File path="bullet_wood_ddna.dds.3a"/>
+  <File path="bullet_wood_ddna.dds.4"/>
+  <File path="bullet_wood_ddna.dds.4a"/>
+  <File path="bullet_wood_ddna.dds.5"/>
+  <File path="bullet_wood_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

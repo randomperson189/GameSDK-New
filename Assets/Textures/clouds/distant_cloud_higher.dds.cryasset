@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="f86f743c-f693-d69e-93f7-eedbd7bffd11">
+ <Files>
+  <File path="distant_cloud_higher.dds"/>
+  <File path="distant_cloud_higher.dds.1"/>
+  <File path="distant_cloud_higher.dds.2"/>
+  <File path="distant_cloud_higher.dds.3"/>
+  <File path="distant_cloud_higher.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

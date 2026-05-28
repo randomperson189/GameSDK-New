@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="ead74d69-cfad-80d6-3624-4eae5b6fa758">
+ <Files>
+  <File path="wood_rough_b_wet_ddna.dds"/>
+  <File path="wood_rough_b_wet_ddna.dds.a"/>
+  <File path="wood_rough_b_wet_ddna.dds.1"/>
+  <File path="wood_rough_b_wet_ddna.dds.1a"/>
+  <File path="wood_rough_b_wet_ddna.dds.2"/>
+  <File path="wood_rough_b_wet_ddna.dds.2a"/>
+  <File path="wood_rough_b_wet_ddna.dds.3"/>
+  <File path="wood_rough_b_wet_ddna.dds.3a"/>
+  <File path="wood_rough_b_wet_ddna.dds.4"/>
+  <File path="wood_rough_b_wet_ddna.dds.4a"/>
+  <File path="wood_rough_b_wet_ddna.dds.5"/>
+  <File path="wood_rough_b_wet_ddna.dds.5a"/>
+  <File path="wood_rough_b_wet_ddna.dds.6"/>
+  <File path="wood_rough_b_wet_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="586def23-a2cd-7d45-604f-51725419b2c3">
+ <Files>
+  <File path="bumps_ddn.dds"/>
+  <File path="bumps_ddn.dds.1"/>
+  <File path="bumps_ddn.dds.2"/>
+  <File path="bumps_ddn.dds.3"/>
+  <File path="bumps_ddn.dds.4"/>
+  <File path="bumps_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

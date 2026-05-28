@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="263eb160-19a9-f870-54a5-c43f7d7d3890">
+ <Files>
+  <File path="glow_tiled.dds"/>
+  <File path="glow_tiled.dds.1"/>
+  <File path="glow_tiled.dds.2"/>
+  <File path="glow_tiled.dds.3"/>
+  <File path="glow_tiled.dds.4"/>
+  <File path="glow_tiled.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

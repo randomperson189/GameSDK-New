@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="6d1b0088-6c94-1a5f-32a6-e202a176c28f">
+ <Files>
+  <File path="grunge_dirt_a_diff.dds"/>
+  <File path="grunge_dirt_a_diff.dds.1"/>
+  <File path="grunge_dirt_a_diff.dds.2"/>
+  <File path="grunge_dirt_a_diff.dds.3"/>
+  <File path="grunge_dirt_a_diff.dds.4"/>
+  <File path="grunge_dirt_a_diff.dds.5"/>
+  <File path="grunge_dirt_a_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="884bae55-03cd-9edb-ca67-a05673cec58c">
+ <Files>
+  <File path="metal_gate_a_diff.dds"/>
+  <File path="metal_gate_a_diff.dds.1"/>
+  <File path="metal_gate_a_diff.dds.2"/>
+  <File path="metal_gate_a_diff.dds.3"/>
+  <File path="metal_gate_a_diff.dds.4"/>
+  <File path="metal_gate_a_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

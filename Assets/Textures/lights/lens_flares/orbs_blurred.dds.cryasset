@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="31258668-a232-27cf-856b-410a903f77e2">
+ <Files>
+  <File path="orbs_blurred.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

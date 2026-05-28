@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="f88659a7-06c7-fe94-37d1-6206dbfb5f92">
+ <Files>
+  <File path="wood_planks_spec.dds"/>
+  <File path="wood_planks_spec.dds.1"/>
+  <File path="wood_planks_spec.dds.2"/>
+  <File path="wood_planks_spec.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

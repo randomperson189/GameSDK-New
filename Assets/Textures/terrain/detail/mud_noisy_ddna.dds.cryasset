@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Texture" guid="b55d5235-fc5b-401d-73b9-108b0f2c5598">
+ <Files>
+  <File path="mud_noisy_ddna.dds"/>
+  <File path="mud_noisy_ddna.dds.a"/>
+  <File path="mud_noisy_ddna.dds.1"/>
+  <File path="mud_noisy_ddna.dds.1a"/>
+  <File path="mud_noisy_ddna.dds.2"/>
+  <File path="mud_noisy_ddna.dds.2a"/>
+  <File path="mud_noisy_ddna.dds.3"/>
+  <File path="mud_noisy_ddna.dds.3a"/>
+  <File path="mud_noisy_ddna.dds.4"/>
+  <File path="mud_noisy_ddna.dds.4a"/>
+  <File path="mud_noisy_ddna.dds.5"/>
+  <File path="mud_noisy_ddna.dds.5a"/>
+  <File path="mud_noisy_ddna.dds.6"/>
+  <File path="mud_noisy_ddna.dds.6a"/>
+  <File path="mud_noisy_ddna.dds.7"/>
+  <File path="mud_noisy_ddna.dds.7a"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

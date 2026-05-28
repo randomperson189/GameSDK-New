@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="3b663041-6504-0b6d-5cbf-fb3a0d70128d">
+ <Files>
+  <File path="metal_door_a_ddna.dds"/>
+  <File path="metal_door_a_ddna.dds.a"/>
+  <File path="metal_door_a_ddna.dds.1"/>
+  <File path="metal_door_a_ddna.dds.1a"/>
+  <File path="metal_door_a_ddna.dds.2"/>
+  <File path="metal_door_a_ddna.dds.2a"/>
+  <File path="metal_door_a_ddna.dds.3"/>
+  <File path="metal_door_a_ddna.dds.3a"/>
+  <File path="metal_door_a_ddna.dds.4"/>
+  <File path="metal_door_a_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

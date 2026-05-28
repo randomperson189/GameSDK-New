@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="42bad6d3-9a48-bb6b-661f-afb3645d23d9">
+ <Files>
+  <File path="metal_beams_rusty_diff.dds"/>
+  <File path="metal_beams_rusty_diff.dds.1"/>
+  <File path="metal_beams_rusty_diff.dds.2"/>
+  <File path="metal_beams_rusty_diff.dds.3"/>
+  <File path="metal_beams_rusty_diff.dds.4"/>
+  <File path="metal_beams_rusty_diff.dds.5"/>
+  <File path="metal_beams_rusty_diff.dds.6"/>
+  <File path="metal_beams_rusty_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

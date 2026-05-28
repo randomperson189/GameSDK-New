@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ff38315e-b132-0379-dc3d-6f426f69fe48">
+ <Files>
+  <File path="forest_trail_diff.dds"/>
+  <File path="forest_trail_diff.dds.1"/>
+  <File path="forest_trail_diff.dds.2"/>
+  <File path="forest_trail_diff.dds.3"/>
+  <File path="forest_trail_diff.dds.4"/>
+  <File path="forest_trail_diff.dds.5"/>
+  <File path="forest_trail_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

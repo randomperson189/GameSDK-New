@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="f50f3248-3780-d9cc-ca56-d79700bd45fe">
+ <Files>
+  <File path="cloud_shadows_woodland.dds"/>
+  <File path="cloud_shadows_woodland.dds.1"/>
+  <File path="cloud_shadows_woodland.dds.2"/>
+  <File path="cloud_shadows_woodland.dds.3"/>
+  <File path="cloud_shadows_woodland.dds.4"/>
+  <File path="cloud_shadows_woodland.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

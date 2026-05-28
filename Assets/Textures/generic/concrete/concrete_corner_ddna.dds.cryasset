@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="2abed8b9-dd2f-02e2-4566-b055b34ed254">
+ <Files>
+  <File path="concrete_corner_ddna.dds"/>
+  <File path="concrete_corner_ddna.dds.a"/>
+  <File path="concrete_corner_ddna.dds.1"/>
+  <File path="concrete_corner_ddna.dds.1a"/>
+  <File path="concrete_corner_ddna.dds.2"/>
+  <File path="concrete_corner_ddna.dds.2a"/>
+  <File path="concrete_corner_ddna.dds.3"/>
+  <File path="concrete_corner_ddna.dds.3a"/>
+  <File path="concrete_corner_ddna.dds.4"/>
+  <File path="concrete_corner_ddna.dds.4a"/>
+  <File path="concrete_corner_ddna.dds.5"/>
+  <File path="concrete_corner_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

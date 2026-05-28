@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="7ae23113-59ae-da25-dd55-497eae07be8e">
+ <Files>
+  <File path="debug_white_black_clipping_cch.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">16</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

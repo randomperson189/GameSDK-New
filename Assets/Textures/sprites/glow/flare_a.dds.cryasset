@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="c509b318-ccf7-12c6-4118-298d3b09e79d">
+ <Files>
+  <File path="flare_a.dds"/>
+  <File path="flare_a.dds.1"/>
+  <File path="flare_a.dds.2"/>
+  <File path="flare_a.dds.3"/>
+  <File path="flare_a.dds.4"/>
+  <File path="flare_a.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

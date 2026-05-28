@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="ee18894e-16b9-4051-852d-7d4d01c78393">
+ <Files>
+  <File path="metal_bronze_oxidized_mask.dds"/>
+  <File path="metal_bronze_oxidized_mask.dds.1"/>
+  <File path="metal_bronze_oxidized_mask.dds.2"/>
+  <File path="metal_bronze_oxidized_mask.dds.3"/>
+  <File path="metal_bronze_oxidized_mask.dds.4"/>
+  <File path="metal_bronze_oxidized_mask.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

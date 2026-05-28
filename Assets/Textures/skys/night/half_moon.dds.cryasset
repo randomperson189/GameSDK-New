@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d9d03147-d88f-ce71-b523-cf37615e5be2">
+ <Files>
+  <File path="half_moon.dds"/>
+  <File path="half_moon.dds.1"/>
+  <File path="half_moon.dds.2"/>
+  <File path="half_moon.dds.3"/>
+  <File path="half_moon.dds.4"/>
+  <File path="half_moon.dds.5"/>
+  <File path="half_moon.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

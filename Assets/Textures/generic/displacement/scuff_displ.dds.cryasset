@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="9d9e6ace-e17a-f985-4dca-ec8965f0e44b">
+ <Files>
+  <File path="scuff_displ.dds"/>
+  <File path="scuff_displ.dds.1"/>
+  <File path="scuff_displ.dds.2"/>
+  <File path="scuff_displ.dds.3"/>
+  <File path="scuff_displ.dds.4"/>
+  <File path="scuff_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

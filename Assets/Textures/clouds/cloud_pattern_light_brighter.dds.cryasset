@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="9cebb975-7865-b4c7-a735-8c3d54fa44f9">
+ <Files>
+  <File path="cloud_pattern_light_brighter.dds"/>
+  <File path="cloud_pattern_light_brighter.dds.1"/>
+  <File path="cloud_pattern_light_brighter.dds.2"/>
+  <File path="cloud_pattern_light_brighter.dds.3"/>
+  <File path="cloud_pattern_light_brighter.dds.4"/>
+  <File path="cloud_pattern_light_brighter.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="cbf1e058-184d-7bc7-46d4-14a59a364a18">
+ <Files>
+  <File path="rust.dds"/>
+  <File path="rust.dds.1"/>
+  <File path="rust.dds.2"/>
+  <File path="rust.dds.3"/>
+  <File path="rust.dds.4"/>
+  <File path="rust.dds.5"/>
+  <File path="rust.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

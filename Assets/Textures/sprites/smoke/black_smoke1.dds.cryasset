@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="ffc66ef6-b002-1257-b1f6-07338b29b327">
+ <Files>
+  <File path="black_smoke1.dds"/>
+  <File path="black_smoke1.dds.1"/>
+  <File path="black_smoke1.dds.2"/>
+  <File path="black_smoke1.dds.3"/>
+  <File path="black_smoke1.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>
