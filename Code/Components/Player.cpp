@@ -60,6 +60,16 @@ namespace
 				componentScope.Register(pFunction);
 			}
 
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::QueueFragmentOnScope, "{4553E0A4-F1BA-4B45-ACD7-C2671B7F05D3}"_cry_guid, "Queue Fragment On Scope");
+				pFunction->SetDescription("Queues a Mannequin fragment on a scope for playback");
+				pFunction->SetFlags(Schematyc::EEnvFunctionFlags::Construction);
+				pFunction->BindInput(1, 'frag', "Fragment Name");
+				pFunction->BindInput(2, 'scop', "Scope");
+				pFunction->BindInput(3, 'tp', "Thirdperson");
+				componentScope.Register(pFunction);
+			}
+
 			// These are here just for reference since you can get reflected component variables in Schematyc by default
 			/*{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetMoveSpeed, "{0761CED9-067F-4C04-8E7F-170E0F5CFE66}"_cry_guid, "Get Move Speed");
@@ -181,6 +191,10 @@ void CPlayerComponent::InitializeLocalPlayer()
 	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 1, 0.0f);
 	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 2, 0.0f);
 	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 3, 0.0f);
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 4, 0.0f);
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 5, 0.0f);
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 6, 0.0f);
+	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 7, 0.0f);
 
 	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 0, 0.0f);
 	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 1, 0.0f);
@@ -578,6 +592,50 @@ void CPlayerComponent::GetRotationLimits(float& minPitch, float& maxPitch)
 float CPlayerComponent::GetJumpHeight()
 {
 	return m_jumpHeight;
+}
+
+void CPlayerComponent::QueueFragmentOnScope(Schematyc::CSharedString fragment, const EPlayerScopes& scope, bool thirdperson)
+{
+	IActionPtr& actionRef = [&]() -> IActionPtr&
+	{
+		switch (scope)
+		{
+		case EPlayerScopes::Scope_1:
+			return m_pFullBody1PAction;
+
+		case EPlayerScopes::Scope_3:
+			return m_pMotion1PAction;
+
+		case EPlayerScopes::Scope_6:
+			return m_pFullBody3PAction;
+
+		default:
+			return m_pFullBody1PAction; // fallback
+		}
+	}();
+
+	Cry::DefaultComponents::CAdvancedAnimationComponent* myComponent;
+
+	if (thirdperson)
+	{	
+		myComponent = m_pAnimationComponent;
+	}
+	else
+	{
+		myComponent = m_pAnimationComponent2;
+	}
+
+	if (actionRef)
+	{
+		actionRef->Stop();
+		actionRef = nullptr;
+	}
+
+
+
+	actionRef = new TAction<SAnimationContext>(1, myComponent->GetFragmentId(fragment.c_str()), TAG_STATE_EMPTY, 0U, scope);
+
+	myComponent->QueueCustomFragment(*actionRef);
 }
 
 void CPlayerComponent::SetAttachmentOpacity(ICharacterInstance* character, Schematyc::CSharedString attachmentName, int materialIndex, float opacity)

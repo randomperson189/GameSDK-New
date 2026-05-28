@@ -28,5 +28,19 @@
     </AnimLayer>
    </Fragment>
   </IdlePose>
+  <FPIdle>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol+iron">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_idlePose_pistol_iron_1p_01" flags="Loop"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_idle_pistol_shoulder_add_1p_01" flags="Loop"/>
+    </AnimLayer>
+   </Fragment>
+  </FPIdle>
  </FragmentList>
 </AnimDB>

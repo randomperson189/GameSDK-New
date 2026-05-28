@@ -15,6 +15,73 @@
 #include <DefaultComponents/Geometry/AdvancedAnimationComponent.h>
 #include <DefaultComponents/Input/InputComponent.h>
 #include <DefaultComponents/Audio/ListenerComponent.h>
+#include <CrySchematyc/Reflection/TypeDesc.h>
+
+enum EPlayerScopes : uint32
+{
+	Scope_1 = BIT(0),
+	Scope_2 = BIT(1),
+	Scope_3 = BIT(2),
+	Scope_4 = BIT(3),
+	Scope_5 = BIT(4),
+	Scope_6 = BIT(5),
+	Scope_7 = BIT(6),
+	Scope_8 = BIT(7),
+	Scope_9 = BIT(8),
+	Scope_10 = BIT(9),
+	Scope_11 = BIT(10),
+	Scope_12 = BIT(11),
+	Scope_13 = BIT(12),
+	Scope_14 = BIT(13),
+	Scope_15 = BIT(14),
+	Scope_16 = BIT(15),
+	Scope_17 = BIT(16),
+	Scope_18 = BIT(17),
+	Scope_19 = BIT(18),
+	Scope_20 = BIT(19),
+	Scope_21 = BIT(20),
+	Scope_22 = BIT(21),
+	Scope_23 = BIT(22),
+	Scope_24 = BIT(23),
+	Scope_25 = BIT(24),
+	Scope_26 = BIT(25),
+	Scope_27 = BIT(26),
+	Scope_28 = BIT(27),
+	Scope_29 = BIT(28),
+	Scope_30 = BIT(29),
+	Scope_31 = BIT(30),
+	Scope_32 = BIT(31)
+};
+
+typedef CEnumFlags<EPlayerScopes> EPlayerScopeMask;
+
+static void ReflectType(Schematyc::CTypeDesc<EPlayerScopes>& desc)
+{
+	desc.SetGUID("{9BB5DD42-7B9E-473E-9B3C-56680D0E971B}"_cry_guid);
+	desc.SetLabel("Player Animation Scopes");
+	desc.AddConstant(EPlayerScopes::Scope_1, "FullBody1P", "FullBody1P");
+	desc.AddConstant(EPlayerScopes::Scope_2, "Torso1P", "Torso1P");
+	desc.AddConstant(EPlayerScopes::Scope_3, "Motion1P", "Motion1P");
+	desc.AddConstant(EPlayerScopes::Scope_4, "Sway1P", "Sway1P");
+	desc.AddConstant(EPlayerScopes::Scope_5, "GroundAlignment1P", "GroundAlignment1P");
+
+	desc.AddConstant(EPlayerScopes::Scope_6, "FullBody3P", "FullBody3P");
+	desc.AddConstant(EPlayerScopes::Scope_7, "AimPose", "AimPose");
+	desc.AddConstant(EPlayerScopes::Scope_8, "Torso3P", "Torso3P");
+	desc.AddConstant(EPlayerScopes::Scope_9, "GroundAlignment3P", "GroundAlignment3P");
+
+	desc.AddConstant(EPlayerScopes::Scope_10, "Weapon", "Weapon");
+	desc.AddConstant(EPlayerScopes::Scope_11, "WeaponForceFeedback", "WeaponForceFeedback");
+
+	desc.AddConstant(EPlayerScopes::Scope_12, "Audio1", "Audio1");
+	desc.AddConstant(EPlayerScopes::Scope_13, "Audio2", "Audio2");
+
+	desc.AddConstant(EPlayerScopes::Scope_14, "AttachmentTop", "AttachmentTop");
+	desc.AddConstant(EPlayerScopes::Scope_15, "AttachmentBottom", "AttachmentBottom");
+
+	desc.AddConstant(EPlayerScopes::Scope_16, "SlaveChar", "SlaveChar");
+	desc.AddConstant(EPlayerScopes::Scope_17, "SlaveObject", "SlaveObject");
+}
 
 ////////////////////////////////////////////////////////
 // Represents a player participating in gameplay
@@ -27,7 +94,7 @@ class CPlayerComponent final : public IEntityComponent
 		Toggle
 	};
 
-	enum class EInputFlag : uint8
+	enum class EInputFlag : uint32
 	{
 		MoveLeft = 1 << 0,
 		MoveRight = 1 << 1,
@@ -199,6 +266,13 @@ protected:
 
 	FragmentID m_activeFragmentId;
 
+
+	IActionPtr m_pFullBody1PAction;
+	IActionPtr m_pTorso1PAction;
+	IActionPtr m_pMotion1PAction;
+
+	IActionPtr m_pFullBody3PAction;
+
 	Quat m_lookOrientation; //!< Should translate to head orientation in the future
 	float m_horizontalAngularVelocity;
 	MovingAverage<float, 10> m_averagedHorizontalAngularVelocity;
@@ -224,6 +298,8 @@ public:
 	float GetRotationSpeed();
 	void GetRotationLimits(float& minPitch, float& maxPitch);
 	float GetJumpHeight();
+
+	void QueueFragmentOnScope(Schematyc::CSharedString fragment, const EPlayerScopes& scope, bool thirdperson);
 
 	struct SInitializeLocalPlayer
 	{
