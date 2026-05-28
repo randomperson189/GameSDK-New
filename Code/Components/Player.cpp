@@ -486,9 +486,9 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 	Vec3 up = test.GetColumn2();
 	Vec3 forward = test.GetColumn1();
 	Vec3 right = test.GetColumn0();
-	float testOffset = -1.6125f;
+	float testOffset = -1.61f;
 
-	Vec3 finalOffset = test.GetTranslation() + (up * testOffset) + (forward * -0.2f) + (right * -0.0425f);
+	Vec3 finalOffset = test.GetTranslation() + (up * testOffset) + (forward * -0.275f) + (right * -0.046f);
 	test.SetTranslation(finalOffset);
 
 	if (m_pAnimationComponent2)
