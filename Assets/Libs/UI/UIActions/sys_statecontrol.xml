@@ -36,9 +36,13 @@
   <Node Id="17" Class="UI:Display:Display" pos="396,792,0">
    <Inputs uiElements_Element="MainMenu" instanceID="-1"/>
   </Node>
+  <Node Id="18" Class="Debug:ExecuteString" pos="90,-252,0">
+   <Inputs String="map example s" NextFrame="1"/>
+  </Node>
  </Nodes>
  <Edges>
   <Edge nodeIn="4" nodeOut="1" portIn="in1" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="1" portIn="Set" portOut="onEvent" enabled="1"/>
   <Edge nodeIn="3" nodeOut="4" portIn="show" portOut="out" enabled="1"/>
   <Edge nodeIn="4" nodeOut="5" portIn="in2" portOut="onEvent" enabled="1"/>
   <Edge nodeIn="4" nodeOut="6" portIn="in3" portOut="onEvent" enabled="1"/>
