@@ -61,12 +61,26 @@ namespace
 			}
 
 			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::IsServer, "{63088B52-55E6-4779-9ACB-B39349BC9EC0}"_cry_guid, "Is Server");
+				pFunction->BindOutput(0, 'isrv', "Is Server", "Is Server");
+				componentScope.Register(pFunction);
+			}
+
+			{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::QueueFragmentOnScope, "{4553E0A4-F1BA-4B45-ACD7-C2671B7F05D3}"_cry_guid, "Queue Fragment On Scope");
 				pFunction->SetDescription("Queues a Mannequin fragment on a scope for playback");
 				pFunction->SetFlags(Schematyc::EEnvFunctionFlags::Construction);
 				pFunction->BindInput(1, 'frag', "Fragment Name");
 				pFunction->BindInput(2, 'scop', "Scope");
 				pFunction->BindInput(3, 'tp', "Thirdperson");
+				componentScope.Register(pFunction);
+			}
+
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::LogConsole, "{AC0A012F-C3E7-45B9-AEBD-73BE6C89200E}"_cry_guid, "Log Console");
+				pFunction->SetDescription("Logs to the console");
+				pFunction->SetFlags(Schematyc::EEnvFunctionFlags::Construction);
+				pFunction->BindInput(1, 'str', "String");
 				componentScope.Register(pFunction);
 			}
 
@@ -628,7 +642,7 @@ void CPlayerComponent::QueueFragmentOnScope(Schematyc::CSharedString fragment, c
 	if (actionRef)
 	{
 		actionRef->Stop();
-		actionRef = nullptr;
+		//actionRef = nullptr;
 	}
 
 
@@ -661,6 +675,11 @@ void CPlayerComponent::SetAttachmentOpacity(ICharacterInstance* character, Schem
 	m_pMaterial->GetSubMtl(materialIndex)->SetGetMaterialParamFloat("opacity", newAlpha, false);
 
 	character->GetIAttachmentManager()->GetInterfaceByName(attachmentName.c_str())->GetIAttachmentObject()->SetReplacementMaterial(m_pMaterial);
+}
+
+void CPlayerComponent::LogConsole(Schematyc::CSharedString string)
+{
+	CryLogAlways(string.c_str());
 }
 
 void CPlayerComponent::OnReadyForGameplayOnServer()
@@ -752,7 +771,9 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 
 	m_mouseDeltaSmoothingFilter.Reset();
 
-	m_activeFragmentId = FRAGMENT_ID_INVALID;
+	/*m_pFullBody1PAction = nullptr;
+	m_pTorso1PAction = nullptr;
+	m_pFullBody3PAction = nullptr;*/
 
 	m_horizontalAngularVelocity = 0.0f;
 	m_averagedHorizontalAngularVelocity.Reset();
@@ -765,9 +786,14 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
-		// Our player has revived, call the Schematyc signal for it now
-		m_pEntity->GetSchematycObject()->ProcessSignal(SRevive(), GetGUID());
+		//if (!test)
+		//{
+			// Our player has revived, call the Schematyc signal for it now
+			m_pEntity->GetSchematycObject()->ProcessSignal(SRevive(), GetGUID());
+		//}
 	}
+
+	test = true;
 }
 
 void CPlayerComponent::HandleInputFlagChange(const CEnumFlags<EInputFlag> flags, const CEnumFlags<EActionActivationMode> activationMode, const EInputFlagType type)

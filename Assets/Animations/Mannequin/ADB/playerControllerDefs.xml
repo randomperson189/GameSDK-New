@@ -3,7 +3,7 @@
  <Fragments filename="Animations/Mannequin/ADB/playerActions.xml"/>
  <FragmentDefs>
   <FPMovement scopes="Motion1P"/>
-  <IdlePose scopes="FullBody1P"/>
+  <idlePose scopes="FullBody1P"/>
   <FPIdle scopes="Motion1P"/>
   <MotionIdle scopes="FullBody3P"/>
   <MotionMovement scopes="FullBody3P"/>

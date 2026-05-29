@@ -1,7 +1,7 @@
 <TagDefinition version="2">
  <Tags>
   <Tag name="FPMovement"/>
-  <Tag name="IdlePose"/>
+  <Tag name="idlePose"/>
   <Tag name="FPIdle"/>
   <Tag name="MotionIdle"/>
   <Tag name="MotionMovement"/>

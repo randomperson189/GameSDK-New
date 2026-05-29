@@ -264,8 +264,7 @@ protected:
 
 	int m_cameraJointId = -1;
 
-	FragmentID m_activeFragmentId;
-
+	bool test = false;
 
 	IActionPtr m_pFullBody1PAction;
 	IActionPtr m_pTorso1PAction;
@@ -284,7 +283,9 @@ public:
 	void Jump();
 	void Shoot();
 	void SetAttachmentOpacity(ICharacterInstance* character, Schematyc::CSharedString attachmentName, int materialIndex, float opacity);
+	void LogConsole(Schematyc::CSharedString string);
 
+	bool IsServer() { return gEnv->bServer; }
 	bool IsSwimming();
 
 	// Set functions for reflected component values
