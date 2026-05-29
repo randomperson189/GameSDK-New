@@ -181,16 +181,6 @@ void CPlayerComponent::InitializeLocalPlayer()
 		}
 	}
 
-	if (ICharacterInstance* pCharInstance = m_pAnimationComponent->GetCharacter())
-	{
-		if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
-		{
-			/*pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
-			pAttachmentMgr->GetInterfaceByName("jacket")->HideAttachment(1);
-			pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(1);*/
-			pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(1);
-		}
-	}
 	if (ICharacterInstance* pCharInstance = m_pAnimationComponent2->GetCharacter())
 	{
 		if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
@@ -200,25 +190,6 @@ void CPlayerComponent::InitializeLocalPlayer()
 			pAttachmentMgr->GetInterfaceByName("shoes")->HideAttachment(1);
 		}
 	}
-
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 0, 0.0f);
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 1, 0.0f);
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 2, 0.0f);
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 3, 0.0f);
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 4, 0.0f);
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 5, 0.0f);
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 6, 0.0f);
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 7, 0.0f);
-
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 0, 0.0f);
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 1, 0.0f);
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 2, 0.0f);
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 3, 0.0f);
-
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 0, 0.0f);
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 1, 0.0f);
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 2, 0.0f);
-	SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 3, 0.0f);
 
 	// Create the camera component, will automatically update the viewport every frame
 	m_pCameraComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CCameraComponent>();
@@ -256,6 +227,38 @@ void CPlayerComponent::InitializeLocalPlayer()
 
 	m_pInputComponent->RegisterAction("player", "mouse_rotatepitch", [this](int activationMode, float value) { m_mouseDeltaRotation.y -= value; HandleInputFlagChange(EInputFlag::MouseMoved, (EActionActivationMode)activationMode); });
 	m_pInputComponent->BindAction("player", "mouse_rotatepitch", eAID_KeyboardMouse, EKeyId::eKI_MouseY);
+
+	m_pInputComponent->RegisterAction("player", "toggleperspective", [this](int activationMode, float value) 
+	{
+		if (activationMode == eAAM_OnPress)
+		{
+			m_bIsThirdPersonCamera = !m_bIsThirdPersonCamera;
+
+			if (!IsRagdoll())
+				SetCharacterThirdPerson(m_bIsThirdPersonCamera);
+		}
+	});
+	m_pInputComponent->BindAction("player", "toggleperspective", eAID_KeyboardMouse, eKI_C);
+
+	m_pInputComponent->RegisterAction("player", "suicide", [this](int activationMode, float value)
+	{
+		if (activationMode == eAAM_OnPress)
+		{
+			if (!IsRagdoll())
+				Ragdollize();
+		}
+	});
+	m_pInputComponent->BindAction("player", "suicide", eAID_KeyboardMouse, eKI_L);
+
+	m_pInputComponent->RegisterAction("player", "respawn", [this](int activationMode, float value)
+	{
+		if (activationMode == eAAM_OnPress)
+		{
+			if (IsRagdoll())
+				OnReadyForGameplayOnServer();
+		}
+	});
+	m_pInputComponent->BindAction("player", "respawn", eAID_KeyboardMouse, eKI_P);
 
 	// Our local player has initialized, now call the Schematyc signal for it
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
@@ -452,7 +455,7 @@ void CPlayerComponent::UpdateAnimation(float frameTime)
 
 	// Send updated transform to the entity, only orientation changes
 	//GetEntity()->SetPosRotScale(GetEntity()->GetWorldPos(), correctedOrientation, Vec3(1, 1, 1));
-	//if (!m_pEntity->GetComponent<CRagdollHelperComponent>()->IsRagdoll())
+	if (!IsRagdoll())
 		m_pEntity->SetRotation(correctedOrientation);
 
 	if (m_pEntity->GetSlotFlags(m_pAnimationComponent2->GetEntitySlotId()) & ENTITY_FLAG_CASTSHADOW)
@@ -473,11 +476,11 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 	// Start with getting look orientation from the latest input
 	Ang3 ypr = CCamera::CreateAnglesYPR(Matrix33(m_lookOrientation));
 
-	//if (!m_pEntity->GetComponent<CRagdollHelperComponent>()->IsRagdoll())
-	//{
+	if (!IsRagdoll())
+	{
 		ypr.x = 0;
 		ypr.z = 0;
-	//}
+	}
 
 	// Start with changing view rotation to the requested mouse look orientation
 	Matrix34 localTransform = IDENTITY;
@@ -486,20 +489,30 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 	float viewOffsetForward;
 	float viewOffsetUp;
 
-	if (!m_bIsThirdPerson)
+	if (!m_bIsThirdPersonCamera)
 	{
-		//if (!m_pEntity->GetComponent<CRagdollHelperComponent>()->IsRagdoll())
-		//{
+		if (!IsRagdoll())
+		{
 			Vec3 finalOffset = Vec3(0, 0, m_baseHeight) + (localTransform.GetColumn2() * m_torsoHeight);
 			localTransform.SetTranslation(finalOffset);
-		//}
+		}
+		else
+		{
+			if (ICharacterInstance *pCharacter = m_pAnimationComponent->GetCharacter())
+			{
+				// Get the local space orientation of the camera joint
+				const QuatT &cameraOrientation = pCharacter->GetISkeletonPose()->GetAbsJointByID(m_cameraJointId);
+				// Apply the offset to the camera
+				localTransform.SetTranslation(cameraOrientation.t/* + Vec3(0, viewOffsetForward, viewOffsetUp)*/);
+			}
+		}
 	}
 	else
 	{
 		// Offset the player along the forward axis (normally back)
 		// Also offset upwards
-		viewOffsetForward = -1.5f;
-		viewOffsetUp = 2.f;
+		viewOffsetForward = -2.0f;
+		viewOffsetUp = 2.0f;
 
 		localTransform.SetTranslation(Vec3(0, viewOffsetForward, viewOffsetUp));
 	}
@@ -567,6 +580,18 @@ bool CPlayerComponent::IsSwimming()
 				return dyn.bSwimming;
 			}
 		}
+	}
+
+	return false;
+}
+
+bool CPlayerComponent::IsRagdoll()
+{
+	if (IPhysicalEntity* pPhys = m_pEntity->GetPhysicalEntity())
+	{
+		//CryLogAlways("%i", pPhys->GetType() == PE_ARTICULATED);
+
+		return pPhys->GetType() == PE_ARTICULATED;
 	}
 
 	return false;
@@ -652,6 +677,59 @@ void CPlayerComponent::QueueFragmentOnScope(Schematyc::CSharedString fragment, c
 	myComponent->QueueCustomFragment(*actionRef);
 }
 
+void CPlayerComponent::Ragdollize()
+{
+	if (IsRagdoll())
+		return;
+
+	if (!m_bIsThirdPersonCamera)
+		SetCharacterThirdPerson(true);
+
+	Vec3 linearVelocity;
+	Vec3 angularVelocity;
+
+	// Copy velocity values from player
+	if (IPhysicalEntity* pPhys = m_pEntity->GetPhysicalEntity())
+	{
+		pe_status_dynamics dynStatus;
+		if (pPhys->GetStatus(&dynStatus))
+		{
+			linearVelocity = dynStatus.v;
+			angularVelocity = dynStatus.w;
+		}
+	}
+
+	SEntityPhysicalizeParams physParams;
+	physParams.type = PE_ARTICULATED;
+	physParams.nSlot = GetOrMakeEntitySlotId();
+	physParams.mass = 80.0f;
+	physParams.bCopyJointVelocities = true;
+	physParams.fStiffnessScale = 0.5f;
+
+	// Have to run this twice for some reason or else it won't work
+	m_pEntity->Physicalize(physParams);
+	m_pEntity->Physicalize(physParams);
+
+	m_pEntity->UpdateComponentEventMask(this);
+
+	pe_params_buoyancy buoyancyParams;
+	buoyancyParams.waterDensity = 40.0f;
+	buoyancyParams.waterResistance = 10.0f;
+	buoyancyParams.waterDamping = 0.0f;
+
+	m_pEntity->GetPhysicalEntity()->SetParams(&buoyancyParams);
+
+	// Set velocity values on ragdoll
+	if (IPhysicalEntity* pPhys = m_pEntity->GetPhysicalEntity())
+	{
+		pe_action_set_velocity setVel;
+		setVel.v = linearVelocity;
+		setVel.w = angularVelocity;
+
+		pPhys->Action(&setVel);
+	}
+}
+
 void CPlayerComponent::SetAttachmentOpacity(ICharacterInstance* character, Schematyc::CSharedString attachmentName, int materialIndex, float opacity)
 {
 	IMaterial* m_pMaterial;
@@ -675,6 +753,78 @@ void CPlayerComponent::SetAttachmentOpacity(ICharacterInstance* character, Schem
 	m_pMaterial->GetSubMtl(materialIndex)->SetGetMaterialParamFloat("opacity", newAlpha, false);
 
 	character->GetIAttachmentManager()->GetInterfaceByName(attachmentName.c_str())->GetIAttachmentObject()->SetReplacementMaterial(m_pMaterial);
+}
+
+void CPlayerComponent::SetCharacterThirdPerson(bool thirdperson)
+{
+	if (!thirdperson)
+	{
+		if (ICharacterInstance* pCharInstance = m_pAnimationComponent->GetCharacter())
+		{
+			if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+			{
+				/*pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("jacket")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(1);*/
+				pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(1);
+			}
+		}
+
+		m_pAnimationComponent2->SetType(Cry::DefaultComponents::EMeshType::Render);
+
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 0, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 1, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 2, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 3, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 4, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 5, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 6, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 7, 0.0f);
+
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 0, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 1, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 2, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 3, 0.0f);
+
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 0, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 1, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 2, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 3, 0.0f);
+	}
+	else
+	{
+		if (ICharacterInstance* pCharInstance = m_pAnimationComponent->GetCharacter())
+		{
+			if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+			{
+				/*pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("jacket")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(1);*/
+				pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(0);
+			}
+		}
+
+		m_pAnimationComponent2->SetType(Cry::DefaultComponents::EMeshType::None);
+
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 0, 1.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 1, 1.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 2, 1.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 3, 1.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 4, 1.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 5, 1.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 6, 0.99f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "head", 7, 0.99f);
+
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 0, 1.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 1, 1.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 2, 1.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "jacket", 3, 1.0f);
+
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 0, 1.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 1, 1.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 2, 1.0f);
+		SetAttachmentOpacity(m_pAnimationComponent->GetCharacter(), "upperbody", 3, 1.0f);
+	}
 }
 
 void CPlayerComponent::LogConsole(Schematyc::CSharedString string)
@@ -778,22 +928,24 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 	m_horizontalAngularVelocity = 0.0f;
 	m_averagedHorizontalAngularVelocity.Reset();
 
+	m_bIsThirdPersonCamera = false;
+
+	if (IsLocalClient())
+	{
+		SetCharacterThirdPerson(m_bIsThirdPersonCamera);
+	}
+
 	if (ICharacterInstance *pCharacter = m_pAnimationComponent->GetCharacter())
 	{
 		// Cache the camera joint id so that we don't need to look it up every frame in UpdateView
-		m_cameraJointId = pCharacter->GetIDefaultSkeleton().GetJointIDByName("head");
+		m_cameraJointId = pCharacter->GetIDefaultSkeleton().GetJointIDByName("Bip01 Camera");
 	}
 
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
-		//if (!test)
-		//{
-			// Our player has revived, call the Schematyc signal for it now
-			m_pEntity->GetSchematycObject()->ProcessSignal(SRevive(), GetGUID());
-		//}
+		// Our player has revived, call the Schematyc signal for it now
+		m_pEntity->GetSchematycObject()->ProcessSignal(SRevive(), GetGUID());
 	}
-
-	test = true;
 }
 
 void CPlayerComponent::HandleInputFlagChange(const CEnumFlags<EInputFlag> flags, const CEnumFlags<EActionActivationMode> activationMode, const EInputFlagType type)

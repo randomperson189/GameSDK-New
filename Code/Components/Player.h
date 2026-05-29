@@ -260,11 +260,9 @@ protected:
 	float m_baseHeight = 1.375f;
 	float m_torsoHeight = 0.375f;
 
-	bool m_bIsThirdPerson = false;
+	bool m_bIsThirdPersonCamera = false;
 
 	int m_cameraJointId = -1;
-
-	bool test = false;
 
 	IActionPtr m_pFullBody1PAction;
 	IActionPtr m_pTorso1PAction;
@@ -287,6 +285,7 @@ public:
 
 	bool IsServer() { return gEnv->bServer; }
 	bool IsSwimming();
+	bool IsRagdoll();
 
 	// Set functions for reflected component values
 	void SetMoveSpeed(float moveSpeed);
@@ -301,6 +300,8 @@ public:
 	float GetJumpHeight();
 
 	void QueueFragmentOnScope(Schematyc::CSharedString fragment, const EPlayerScopes& scope, bool thirdperson);
+	void Ragdollize();
+	void SetCharacterThirdPerson(bool thirdperson);
 
 	struct SInitializeLocalPlayer
 	{
