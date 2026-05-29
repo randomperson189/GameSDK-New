@@ -1,0 +1,52 @@
+<AudioSystemData name="l_vr_demo" version="5" triggers="13" preloads="1">
+ <ImplData events="26"/>
+ <Triggers>
+  <Trigger name="Play_l_vr_demo_sce_door_closed">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sce_door_opened">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_energy_sphere">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_power_sparks">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_ventilation_fan">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_growing_chamber">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_energy_fx_03">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_energy_fx_02">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_energy_fx_01">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sce_door_open">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sce_door_close">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_amb_hallway">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_amb_room_01">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+ </Triggers>
+ <Preloads>
+  <PreloadRequest name="l_vr_demo" type="autoload"/>
+ </Preloads>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

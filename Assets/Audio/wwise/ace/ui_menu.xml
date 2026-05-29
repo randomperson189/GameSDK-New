@@ -1,0 +1,34 @@
+<AudioSystemData name="ui_menu" version="5" triggers="8">
+ <ImplData events="8"/>
+ <Triggers>
+  <Trigger name="Play_ui_menu_cancel">
+   <Event name="Play_ui_menu_cancel"/>
+  </Trigger>
+  <Trigger name="Play_ui_menu_confirm">
+   <Event name="Play_ui_menu_confirm"/>
+  </Trigger>
+  <Trigger name="Play_ui_menu_roll_over">
+   <Event name="Play_ui_menu_roll_over"/>
+  </Trigger>
+  <Trigger name="Play_ui_menu_screen_close">
+   <Event name="Play_ui_menu_screen_close"/>
+  </Trigger>
+  <Trigger name="Play_ui_menu_screen_open">
+   <Event name="Play_ui_menu_screen_open"/>
+  </Trigger>
+  <Trigger name="Stop_ui_menu_all">
+   <Event name="Stop_ui_menu_all"/>
+  </Trigger>
+  <Trigger name="Play_ui_menu_ambience">
+   <Event name="Play_ui_menu_ambience"/>
+  </Trigger>
+  <Trigger name="Play_ui_menu_controls">
+   <Event name="Play_ui_menu_controls"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

@@ -1,0 +1,16 @@
+<AudioSystemData name="l_atl_preloads" version="5" preloads="1" files="4">
+ <ImplData soundbanks="8"/>
+ <Preloads>
+  <PreloadRequest name="l_airfield" type="autoload">
+   <File name="l_airfield_a.bnk"/>
+   <File name="l_airfield_d.bnk"/>
+   <File name="cr_hangar_ad.bnk"/>
+   <File name="cr_openground_ad.bnk"/>
+  </PreloadRequest>
+ </Preloads>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

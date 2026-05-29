@@ -1,0 +1,40 @@
+<AudioSystemData name="ui_menu" version="5" triggers="8">
+ <ImplData events="14"/>
+ <Triggers>
+  <Trigger name="Play_ui_menu_cancel">
+   <Event name="ui_menu/ui_menu_cancel"/>
+  </Trigger>
+  <Trigger name="Play_ui_menu_confirm">
+   <Event name="ui_menu/ui_menu_confirm"/>
+  </Trigger>
+  <Trigger name="Play_ui_menu_roll_over">
+   <Event name="ui_menu/ui_menu_roll_over"/>
+  </Trigger>
+  <Trigger name="Play_ui_menu_screen_close">
+   <Event name="ui_menu/ui_menu_screen_close"/>
+  </Trigger>
+  <Trigger name="Play_ui_menu_screen_open">
+   <Event name="ui_menu/ui_menu_screen_open"/>
+  </Trigger>
+  <Trigger name="Stop_ui_menu_all">
+   <Event name="ui_menu/ui_menu_ambience" type="stop"/>
+   <Event name="ui_menu/ui_menu_cancel" type="stop"/>
+   <Event name="ui_menu/ui_menu_confirm" type="stop"/>
+   <Event name="ui_menu/ui_menu_controls" type="stop"/>
+   <Event name="ui_menu/ui_menu_roll_over" type="stop"/>
+   <Event name="ui_menu/ui_menu_screen_close" type="stop"/>
+   <Event name="ui_menu/ui_menu_screen_open" type="stop"/>
+  </Trigger>
+  <Trigger name="Play_ui_menu_ambience">
+   <Event name="ui_menu/ui_menu_ambience"/>
+  </Trigger>
+  <Trigger name="Play_ui_menu_controls">
+   <Event name="ui_menu/ui_menu_controls"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

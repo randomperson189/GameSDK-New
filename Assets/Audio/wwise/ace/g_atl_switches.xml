@@ -1,0 +1,241 @@
+<AudioSystemData name="g_atl_switches" version="5" switches="8" states="43">
+ <ImplData states="6" switches="37"/>
+ <Switches>
+  <Switch name="mixing_state_underwater">
+   <State name="active">
+    <StateGroup name="mixing_state_underwater">
+     <Value name="active"/>
+    </StateGroup>
+   </State>
+   <State name="inactive">
+    <StateGroup name="mixing_state_underwater">
+     <Value name="inactive"/>
+    </StateGroup>
+   </State>
+  </Switch>
+  <Switch name="1stOr3rdP">
+   <State name="1stP">
+    <SwitchGroup name="switch_firstperson_thirdperson">
+     <Value name="first_person"/>
+    </SwitchGroup>
+   </State>
+   <State name="3rdP">
+    <SwitchGroup name="switch_firstperson_thirdperson">
+     <Value name="third_person"/>
+    </SwitchGroup>
+   </State>
+  </Switch>
+  <Switch name="SurfaceType">
+   <State name="concrete">
+    <SwitchGroup name="switch_surface">
+     <Value name="concrete"/>
+    </SwitchGroup>
+   </State>
+   <State name="default">
+    <SwitchGroup name="switch_surface">
+     <Value name="concrete"/>
+    </SwitchGroup>
+   </State>
+   <State name="dirt">
+    <SwitchGroup name="switch_surface">
+     <Value name="dirt"/>
+    </SwitchGroup>
+   </State>
+   <State name="fabric">
+    <SwitchGroup name="switch_surface">
+     <Value name="fabric"/>
+    </SwitchGroup>
+   </State>
+   <State name="grass">
+    <SwitchGroup name="switch_surface">
+     <Value name="grass"/>
+    </SwitchGroup>
+   </State>
+   <State name="grass_tall">
+    <SwitchGroup name="switch_surface">
+     <Value name="grass_tall"/>
+    </SwitchGroup>
+   </State>
+   <State name="gravel">
+    <SwitchGroup name="switch_surface">
+     <Value name="gravel"/>
+    </SwitchGroup>
+   </State>
+   <State name="ice">
+    <SwitchGroup name="switch_surface">
+     <Value name="ice"/>
+    </SwitchGroup>
+   </State>
+   <State name="leaves">
+    <SwitchGroup name="switch_surface">
+     <Value name="leaves"/>
+    </SwitchGroup>
+   </State>
+   <State name="metal">
+    <SwitchGroup name="switch_surface">
+     <Value name="metal"/>
+    </SwitchGroup>
+   </State>
+   <State name="metal_chainlink">
+    <SwitchGroup name="switch_surface">
+     <Value name="metal_chainlink"/>
+    </SwitchGroup>
+   </State>
+   <State name="metal_grate">
+    <SwitchGroup name="switch_surface">
+     <Value name="metal_grate"/>
+    </SwitchGroup>
+   </State>
+   <State name="metal_sheet">
+    <SwitchGroup name="switch_surface">
+     <Value name="metal_sheet"/>
+    </SwitchGroup>
+   </State>
+   <State name="metal_thick">
+    <SwitchGroup name="switch_surface">
+     <Value name="metal_thick"/>
+    </SwitchGroup>
+   </State>
+   <State name="mud">
+    <SwitchGroup name="switch_surface">
+     <Value name="mud"/>
+    </SwitchGroup>
+   </State>
+   <State name="pebble">
+    <SwitchGroup name="switch_surface">
+     <Value name="pebble"/>
+    </SwitchGroup>
+   </State>
+   <State name="plastic">
+    <SwitchGroup name="switch_surface">
+     <Value name="plastic"/>
+    </SwitchGroup>
+   </State>
+   <State name="rock">
+    <SwitchGroup name="switch_surface">
+     <Value name="concrete"/>
+    </SwitchGroup>
+   </State>
+   <State name="sand_dry">
+    <SwitchGroup name="switch_surface">
+     <Value name="sand_dry"/>
+    </SwitchGroup>
+   </State>
+   <State name="soil">
+    <SwitchGroup name="switch_surface">
+     <Value name="soil"/>
+    </SwitchGroup>
+   </State>
+   <State name="vegetation">
+    <SwitchGroup name="switch_surface">
+     <Value name="vegetation"/>
+    </SwitchGroup>
+   </State>
+   <State name="water">
+    <SwitchGroup name="switch_surface">
+     <Value name="water"/>
+    </SwitchGroup>
+   </State>
+   <State name="water_deep">
+    <SwitchGroup name="switch_surface">
+     <Value name="water_deep"/>
+    </SwitchGroup>
+   </State>
+   <State name="water_shallow">
+    <SwitchGroup name="switch_surface">
+     <Value name="water_shallow"/>
+    </SwitchGroup>
+   </State>
+   <State name="wood_hollow">
+    <SwitchGroup name="switch_surface">
+     <Value name="wood_hollow"/>
+    </SwitchGroup>
+   </State>
+   <State name="wood_solid">
+    <SwitchGroup name="switch_surface">
+     <Value name="wood_solid"/>
+    </SwitchGroup>
+   </State>
+  </Switch>
+  <Switch name="in_out">
+   <State name="inside">
+    <SwitchGroup name="switch_v_listener">
+     <Value name="inside"/>
+    </SwitchGroup>
+   </State>
+   <State name="outside">
+    <SwitchGroup name="switch_v_listener">
+     <Value name="outside"/>
+    </SwitchGroup>
+   </State>
+  </Switch>
+  <Switch name="menu_ingame">
+   <State name="enter_menu">
+    <StateGroup name="state_global_menu">
+     <Value name="enter_menu"/>
+    </StateGroup>
+   </State>
+   <State name="none_menu_ingame">
+    <StateGroup name="state_l_woodland_mixing">
+     <Value name="None"/>
+    </StateGroup>
+   </State>
+  </Switch>
+  <Switch name="vegetation_type">
+   <State name="banana_leaves">
+    <SwitchGroup name="switch_vegetation_type">
+     <Value name="banana_leaves"/>
+    </SwitchGroup>
+   </State>
+   <State name="dry_leaves">
+    <SwitchGroup name="switch_vegetation_type">
+     <Value name="dry_leaves"/>
+    </SwitchGroup>
+   </State>
+   <State name="dry_leaves_big">
+    <SwitchGroup name="switch_vegetation_type">
+     <Value name="dry_leaves_big"/>
+    </SwitchGroup>
+   </State>
+   <State name="leaves_long">
+    <SwitchGroup name="switch_vegetation_type">
+     <Value name="leaves_long"/>
+    </SwitchGroup>
+   </State>
+   <State name="palm_leaves">
+    <SwitchGroup name="switch_vegetation_type">
+     <Value name="palm_leaves"/>
+    </SwitchGroup>
+   </State>
+  </Switch>
+  <Switch name="weather">
+   <State name="clear">
+    <StateGroup name="state_global_weather">
+     <Value name="clear"/>
+    </StateGroup>
+   </State>
+   <State name="rain">
+    <StateGroup name="state_global_weather">
+     <Value name="rain"/>
+    </StateGroup>
+   </State>
+  </Switch>
+  <Switch name="character">
+   <State name="ai_01">
+    <SwitchGroup name="switch_character_type">
+     <Value name="ai_npc_01"/>
+    </SwitchGroup>
+   </State>
+   <State name="ai_02">
+    <SwitchGroup name="switch_character_type">
+     <Value name="ai_npc_02"/>
+    </SwitchGroup>
+   </State>
+  </Switch>
+ </Switches>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

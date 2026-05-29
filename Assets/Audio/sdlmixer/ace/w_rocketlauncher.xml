@@ -1,0 +1,39 @@
+<AudioSystemData name="w_rocketlauncher" version="5" triggers="8">
+ <ImplData events="8"/>
+ <Triggers>
+  <Trigger name="Play_w_rocketlauncher_dryfire_3p" path="w_rocketlauncher_fire_3p">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_w_rocketlauncher_fire_3p" path="w_rocketlauncher_fire_3p">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_w_rocketlauncher_fire_fp" path="w_rocketlauncher_fire_fp">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_w_rocketlauncher_dryfire_fp" path="w_rocketlauncher_fire_fp">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_w_rocketlauncher_deselect_3p" path="w_rocketlauncher_handling_fp">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_w_rocketlauncher_select_3p" path="w_rocketlauncher_handling_fp">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_w_rocketlauncher_deselect_fp" path="w_rocketlauncher_handling_3p">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_w_rocketlauncher_select_fp" path="w_rocketlauncher_handling_3p">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="w_rocketlauncher_fire_3p"/>
+   <Folder name="w_rocketlauncher_fire_fp"/>
+   <Folder name="w_rocketlauncher_handling_fp"/>
+   <Folder name="w_rocketlauncher_handling_3p"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

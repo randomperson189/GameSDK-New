@@ -1,0 +1,31 @@
+<AudioSystemData name="v_global" version="5" triggers="7">
+ <ImplData events="7"/>
+ <Triggers>
+  <Trigger name="Play_v_global_beep_boat">
+   <Event name="Play_v_global_beep_boat"/>
+  </Trigger>
+  <Trigger name="Play_v_global_beep_air">
+   <Event name="Play_v_global_beep_air"/>
+  </Trigger>
+  <Trigger name="Play_v_global_light">
+   <Event name="Play_v_global_light"/>
+  </Trigger>
+  <Trigger name="Play_v_global_spotlight">
+   <Event name="Play_v_global_spotlight"/>
+  </Trigger>
+  <Trigger name="Play_v_global_beep_tank">
+   <Event name="Play_v_global_beep_tank"/>
+  </Trigger>
+  <Trigger name="Play_v_global_flashlight">
+   <Event name="Play_v_global_flashlight"/>
+  </Trigger>
+  <Trigger name="Play_v_global_beep_wheeled">
+   <Event name="Play_v_global_beep_wheeled"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

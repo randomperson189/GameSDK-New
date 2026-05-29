@@ -1,0 +1,25 @@
+<AudioSystemData name="l_airfield" version="5" triggers="4">
+ <ImplData events="8"/>
+ <Triggers>
+  <Trigger name="Play_l_airfield_sfx_jet_engine_idle_loop" path="l_airfield_sfx">
+   <Event name="Play_l_airfield_sfx_jet_engine_idle_loop"/>
+  </Trigger>
+  <Trigger name="Play_l_airfield_amb_hangar" path="l_airfield_amb">
+   <Event name="Play_l_airfield_amb_hangar"/>
+  </Trigger>
+  <Trigger name="Play_l_airfield_amb_rain_corridor" path="l_airfield_amb">
+   <Event name="Play_l_airfield_amb_rain_corridor"/>
+  </Trigger>
+  <Trigger name="Play_l_airfield_amb_runway" path="l_airfield_amb">
+   <Event name="Play_l_airfield_amb_runway"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="l_airfield_sfx"/>
+   <Folder name="l_airfield_amb"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

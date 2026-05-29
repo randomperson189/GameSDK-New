@@ -1,0 +1,222 @@
+<AudioSystemData name="c_player" version="5" triggers="69">
+ <ImplData events="70"/>
+ <Triggers>
+  <Trigger name="Play_c_player_fts_dirt" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_dirt"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_concrete" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_concrete"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_fabric" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_fabric"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_wood_solid" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_wood_solid"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_grass" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_grass"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_grass_tall" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_grass_tall"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_gravel" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_gravel"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_leaves" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_leaves"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_metal_chainlink" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_metal_chainlink"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_metal_grate" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_metal_grate"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_metal_sheet" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_metal_sheet"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_pebble" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_pebble"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_plastic" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_plastic"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_sand_dry" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_sand_dry"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_vegetation" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_vegetation"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_water_deep" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_water_deep"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_water_shallow" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_water_shallow"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_wood_hollow" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_wood_hollow"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_metal_thick" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_metal_thick"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fts_mud" path="c_player_fts">
+   <Event name="c_player/c_player_fts/c_player_fts_mud"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_bodyfall" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_bodyfall"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_bag_movement" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_turn"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_climb_ladder" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_throw"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_bush_movement" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_crouch"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_crouch_on" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_crouch"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_dive_out" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_dive_out"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_dive_in" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_dive_in"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_crouch_off" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_crouch"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_gear" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_sneak"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_jump_off" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_jump"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_bodyhit" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_bodyfall"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_slide_bodyfall" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_bodyfall"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_slide_gear" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_throw"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_jump_on" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_land"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_throw_generic" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_throw"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_turn" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_crouch"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_slide_loop" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_slide_loop"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_slide_start" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_slide_start"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_slide_stop" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_slide_loop" type="stop"/>
+   <Event name="c_player/c_player_fol/c_player_fol_slide_stop"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_gear_fast" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_run"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_gear_medium" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_walk"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_gear_slow" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_sneak"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_grab_generic" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_melee"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_swim" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_swim"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_swim_idle" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_swim"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fol_swim_sprint" path="c_player_fol">
+   <Event name="c_player/c_player_fol/c_player_fol_swim"/>
+  </Trigger>
+  <Trigger name="Stop_c_player_fbk_underwater_ambience" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_amb_underwater" type="stop"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_underwater_ambience" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_amb_underwater"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_effect_health_low" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_health_low"/>
+  </Trigger>
+  <Trigger name="Stop_c_player_fbk_effect_health_low" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_health_low" type="stop"/>
+  </Trigger>
+  <Trigger name="Stop_c_player_fbk_effect_focus" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_focus" type="stop"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_effect_focus" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_focus"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_breath_idle" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_breath_idle"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_breath_focus" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_breath_focus_in"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_breath_run" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_breath_run"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_breath_swim" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_breath_swim"/>
+  </Trigger>
+  <Trigger name="Stop_c_player_fbk_breath_run" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_breath_run" type="stop"/>
+  </Trigger>
+  <Trigger name="Stop_c_player_fbk_breath_swim" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_breath_swim" type="stop"/>
+  </Trigger>
+  <Trigger name="Stop_c_player_fbk_breath_idle" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_breath_idle" type="stop"/>
+  </Trigger>
+  <Trigger name="Stop_c_player_fbk_breath_focus" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_breath_focus_out" type="stop"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_breath_low_health" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_breath_idle"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_death" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_death"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_effect_heartbeat" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_heartbeat"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_effort" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_effort"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_jump" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_jump"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_melee" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_melee"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_pain" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_pain"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_throw" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_throw"/>
+  </Trigger>
+  <Trigger name="Play_c_player_fbk_land" path="c_player_fbk">
+   <Event name="c_player/c_player_fbk/c_player_fbk_land"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="c_player_fts"/>
+   <Folder name="c_player_fol"/>
+   <Folder name="c_player_fbk"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

@@ -1,0 +1,115 @@
+<AudioSystemData name="w_rifle" version="5" triggers="32">
+ <ImplData events="36"/>
+ <Triggers>
+  <Trigger name="Play_w_rifle_clip_in_3p" path="w_rifle_handling_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_handling_clip_in_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_clip_out_3p" path="w_rifle_handling_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_handling_clip_out_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_cock_back_3p" path="w_rifle_handling_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_handling_cock_back_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_cock_forward_3p" path="w_rifle_handling_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_handling_cock_forward_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_deselect_3p" path="w_rifle_handling_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_handling_holster_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_grab_clip_3p" path="w_rifle_handling_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_handling_grab_clip_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_hand_on_gun_3p" path="w_rifle_handling_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_handling_grab_barrel_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_select_3p" path="w_rifle_handling_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_handling_draw_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_switch_firemode_3p" path="w_rifle_handling_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_handling_firemode_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_clip_in_fp" path="w_rifle_handling_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_handling_clip_in_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_clip_out_fp" path="w_rifle_handling_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_handling_clip_out_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_cock_back_fp" path="w_rifle_handling_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_handling_cock_back_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_cock_forward_fp" path="w_rifle_handling_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_handling_cock_forward_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_deselect_fp" path="w_rifle_handling_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_handling_holster_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_grab_clip_fp" path="w_rifle_handling_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_handling_grab_clip_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_hand_on_gun_fp" path="w_rifle_handling_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_handling_grab_barrel_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_select_fp" path="w_rifle_handling_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_handling_draw_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_switch_firemode_fp" path="w_rifle_handling_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_handling_firemode_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_dryfire_3p" path="w_rifle_fire_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_fire_dry_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_fire_loop_3p" path="w_rifle_fire_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_fire_auto_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_fire_single_3p" path="w_rifle_fire_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_fire_single_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_fire_loop_tail_3p" path="w_rifle_fire_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_fire_tail_3p"/>
+   <Event name="w_rifle/w_rifle_3p/w_rifle_fire_auto_3p" type="stop"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_silencer_loop_3p" path="w_rifle_fire_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_fire_silence_auto_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_silencer_loop_tail_3p" path="w_rifle_fire_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_fire_silence_tail_3p"/>
+   <Event name="w_rifle/w_rifle_3p/w_rifle_fire_silence_auto_3p" type="stop"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_silencer_single_3p" path="w_rifle_fire_3p">
+   <Event name="w_rifle/w_rifle_3p/w_rifle_fire_silence_single_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_dryfire_fp" path="w_rifle_fire_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_fire_dry_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_fire_single_fp" path="w_rifle_fire_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_fire_single_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_fire_loop_fp" path="w_rifle_fire_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_fire_auto_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_fire_loop_tail_fp" path="w_rifle_fire_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_fire_tail_fp"/>
+   <Event name="w_rifle/w_rifle_fp/w_rifle_fire_auto_fp" type="stop"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_silencer_loop_fp" path="w_rifle_fire_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_fire_silence_auto_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_silencer_loop_tail_fp" path="w_rifle_fire_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_fire_silence_tail_fp"/>
+   <Event name="w_rifle/w_rifle_fp/w_rifle_fire_silence_auto_fp" type="stop"/>
+  </Trigger>
+  <Trigger name="Play_w_rifle_silencer_single_fp" path="w_rifle_fire_fp">
+   <Event name="w_rifle/w_rifle_fp/w_rifle_fire_silence_single_fp"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="w_rifle_handling_3p"/>
+   <Folder name="w_rifle_handling_fp"/>
+   <Folder name="w_rifle_fire_3p"/>
+   <Folder name="w_rifle_fire_fp"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

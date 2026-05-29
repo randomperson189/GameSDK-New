@@ -1,0 +1,178 @@
+<AudioSystemData name="l_global" version="5" triggers="53">
+ <ImplData events="53"/>
+ <Triggers>
+  <Trigger name="Play_l_global_amb_rain_exterior" path="l_global_amb">
+   <Event name="Play_l_global_amb_rain_exterior"/>
+  </Trigger>
+  <Trigger name="Play_l_global_amb_rain_interior" path="l_global_amb">
+   <Event name="Play_l_global_amb_rain_interior"/>
+  </Trigger>
+  <Trigger name="Play_l_global_amb_cicadas_night" path="l_global_amb">
+   <Event name="Play_l_global_amb_cicadas_night"/>
+  </Trigger>
+  <Trigger name="Play_l_global_amb_wind_spooky" path="l_global_amb">
+   <Event name="Play_l_global_amb_wind_spooky"/>
+  </Trigger>
+  <Trigger name="Play_l_global_amb_cicadas_day" path="l_global_amb">
+   <Event name="Play_l_global_amb_cicadas_day"/>
+  </Trigger>
+  <Trigger name="Play_l_global_amb_cave_mysterious" path="l_global_amb">
+   <Event name="Play_l_global_amb_cave_mysterious"/>
+  </Trigger>
+  <Trigger name="Play_l_global_amb_wind_light" path="l_global_amb">
+   <Event name="Play_l_global_amb_wind_light"/>
+  </Trigger>
+  <Trigger name="Play_l_global_amb_open_ground" path="l_global_amb">
+   <Event name="Play_l_global_amb_open_ground"/>
+  </Trigger>
+  <Trigger name="Play_l_global_amb_wind_cold" path="l_global_amb">
+   <Event name="Play_l_global_amb_wind_cold"/>
+  </Trigger>
+  <Trigger name="Play_l_global_amb_trees_mixed" path="l_global_amb">
+   <Event name="Play_l_global_amb_trees_mixed"/>
+  </Trigger>
+  <Trigger name="Play_l_global_amb_wind_storm" path="l_global_amb">
+   <Event name="Play_l_global_amb_wind_storm"/>
+  </Trigger>
+  <Trigger name="Play_death_chicken" path="l_global_boids/chicken">
+   <Event name="Play_l_global_boids_chicken_death"/>
+  </Trigger>
+  <Trigger name="Play_idle_chicken" path="l_global_boids/chicken">
+   <Event name="Play_l_global_boids_chicken_idle"/>
+  </Trigger>
+  <Trigger name="Play_scared_chicken" path="l_global_boids/chicken">
+   <Event name="Play_l_global_boids_chicken_scared"/>
+  </Trigger>
+  <Trigger name="Play_death_frog" path="l_global_boids/frog">
+   <Event name="Play_l_global_boids_frog_death"/>
+  </Trigger>
+  <Trigger name="Play_idle_frog" path="l_global_boids/frog">
+   <Event name="Play_l_global_boids_frog_idle"/>
+  </Trigger>
+  <Trigger name="Play_scared_frog" path="l_global_boids/frog">
+   <Event name="Play_l_global_boids_frog_scared"/>
+  </Trigger>
+  <Trigger name="Play_death_turtle" path="l_global_boids/turtle">
+   <Event name="Play_l_global_boids_turtle_death"/>
+  </Trigger>
+  <Trigger name="Play_idle_turtle" path="l_global_boids/turtle">
+   <Event name="Play_l_global_boids_turtle_idle"/>
+  </Trigger>
+  <Trigger name="Play_scared_turtle" path="l_global_boids/turtle">
+   <Event name="Play_l_global_boids_turtle_scared"/>
+  </Trigger>
+  <Trigger name="Play_door_wood_solid_open" path="l_global_sce">
+   <Event name="Play_l_global_sce_door_wood_solid_open"/>
+  </Trigger>
+  <Trigger name="Play_door_wood_old_closed" path="l_global_sce">
+   <Event name="Play_l_global_sce_door_wood_old_close"/>
+  </Trigger>
+  <Trigger name="Play_door_metal_solid_closed" path="l_global_sce">
+   <Event name="Play_l_global_sce_door_metal_solid_close"/>
+  </Trigger>
+  <Trigger name="Play_door_metal_solid_close" path="l_global_sce">
+   <Event name="Play_l_global_sce_door_metal_solid_move"/>
+  </Trigger>
+  <Trigger name="Play_door_metal_solid_open" path="l_global_sce">
+   <Event name="Play_l_global_sce_door_metal_solid_open"/>
+  </Trigger>
+  <Trigger name="Play_door_wood_solid_close" path="l_global_sce">
+   <Event name="Play_l_global_sce_door_wood_solid_move"/>
+  </Trigger>
+  <Trigger name="Play_door_wood_solid_closed" path="l_global_sce">
+   <Event name="Play_l_global_sce_door_wood_solid_close"/>
+  </Trigger>
+  <Trigger name="Play_door_wood_old_open" path="l_global_sce">
+   <Event name="Play_l_global_sce_door_wood_old_open"/>
+  </Trigger>
+  <Trigger name="Play_door_wood_old_close" path="l_global_sce">
+   <Event name="Play_l_global_sce_door_wood_old_move"/>
+  </Trigger>
+  <Trigger name="Stop_door_metal_solid_open" path="l_global_sce">
+   <Event name="Stop_l_global_sce_door_metal_solid_open"/>
+  </Trigger>
+  <Trigger name="Stop_door_wood_old_open" path="l_global_sce">
+   <Event name="Stop_l_global_sce_door_wood_old_open"/>
+  </Trigger>
+  <Trigger name="Stop_door_wood_solid_open" path="l_global_sce">
+   <Event name="Stop_l_global_sce_door_wood_solid_open"/>
+  </Trigger>
+  <Trigger name="Play_l_global_waterfall_small_splashes" path="l_global_sfx">
+   <Event name="Play_l_global_waterfall_small_splashes"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_wind_gust" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_wind_gust"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_vegetation_stick_crack" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_vegetation_stick_crack"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_waterfall_medium_loop" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_waterfall_medium_loop"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_vegetation_stick_dropping" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_vegetation_stick_dropping"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_water_rain_drops_wind" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_water_rain_drops_wind"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_water_dripping" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_water_dripping"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_waterfall_large_loop" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_waterfall_large_loop"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_bird_woodpecker" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_bird_woodpecker"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_vegetation_log_creak" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_vegetation_log_creak"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_bush_leaves" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_bush_leaves"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_crow" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_crow"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_creaks_metal" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_creaks_metal"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_thunder" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_thunder"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_bird_fly_off" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_bird_fly_off"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_bird_chirping" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_bird_chirping"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_bird_fly_off_calm" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_bird_fly_off_calm"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_flies" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_flies"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_metal_creaks" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_metal_creaks"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_vegetation_bush_movement" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_vegetation_bush_movement"/>
+  </Trigger>
+  <Trigger name="Play_l_global_sfx_waterfall_small_loop" path="l_global_sfx">
+   <Event name="Play_l_global_sfx_waterfall_small_loop"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="l_global_amb"/>
+   <Folder name="l_global_boids">
+    <Folder name="chicken"/>
+    <Folder name="frog"/>
+    <Folder name="turtle"/>
+   </Folder>
+   <Folder name="l_global_sce"/>
+   <Folder name="l_global_sfx"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

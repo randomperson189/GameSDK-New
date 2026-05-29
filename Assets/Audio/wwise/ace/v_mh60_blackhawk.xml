@@ -1,0 +1,22 @@
+<AudioSystemData name="v_mh60_blackhawk" version="5" triggers="4">
+ <ImplData events="4"/>
+ <Triggers>
+  <Trigger name="Play_mh60_blackhawk_acceleration">
+   <Event name="Play_v_mh60_blackhawk_acceleration"/>
+  </Trigger>
+  <Trigger name="Play_mh60_blackhawk_stop">
+   <Event name="Play_v_mh60_blackhawk_stop"/>
+  </Trigger>
+  <Trigger name="Play_mh60_blackhawk_start">
+   <Event name="Play_v_mh60_blackhawk_start"/>
+  </Trigger>
+  <Trigger name="Play_mh60_blackhawk_boost">
+   <Event name="Play_v_mh60_blackhawk_boost"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

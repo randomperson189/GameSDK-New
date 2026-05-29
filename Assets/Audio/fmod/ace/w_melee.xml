@@ -1,0 +1,19 @@
+<AudioSystemData name="w_melee" version="5" triggers="2">
+ <ImplData events="2"/>
+ <Triggers>
+  <Trigger name="Play_w_melee_fire_3p" path="w_melee_fire_3p">
+   <Event name="w_melee/w_melee_fire_3p/w_melee_fire_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_melee_fire_fp" path="w_melee_fire_fp">
+   <Event name="w_melee/w_melee_fire_fp/w_melee_fire_fp"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="w_melee_fire_3p"/>
+   <Folder name="w_melee_fire_fp"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

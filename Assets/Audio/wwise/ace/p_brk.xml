@@ -1,0 +1,40 @@
+<AudioSystemData name="p_brk" version="5" triggers="10">
+ <ImplData events="10"/>
+ <Triggers>
+  <Trigger name="Play_p_brk_stone_shatter">
+   <Event name="Play_p_brk_stone_shatter"/>
+  </Trigger>
+  <Trigger name="Play_p_brk_metal_shatter">
+   <Event name="Play_p_brk_metal_shatter"/>
+  </Trigger>
+  <Trigger name="Play_p_brk_tree_falling">
+   <Event name="Play_p_brk_tree_falling"/>
+  </Trigger>
+  <Trigger name="Play_p_brk_cliff_break">
+   <Event name="Play_p_brk_cliff_break"/>
+  </Trigger>
+  <Trigger name="Play_p_brk_glass_shatter">
+   <Event name="Play_p_brk_glass_shatter"/>
+  </Trigger>
+  <Trigger name="Play_p_brk_ice_shatter">
+   <Event name="Play_p_brk_ice_shatter"/>
+  </Trigger>
+  <Trigger name="Play_p_brk_vehicle_window">
+   <Event name="Play_p_brk_vehicle_window"/>
+  </Trigger>
+  <Trigger name="Play_p_brk_wood_shatter">
+   <Event name="Play_p_brk_wood_shatter"/>
+  </Trigger>
+  <Trigger name="Play_p_brk_body_shatter">
+   <Event name="Play_p_brk_stone_shatter"/>
+  </Trigger>
+  <Trigger name="Play_p_brk_flesh_shatter">
+   <Event name="Play_p_brk_stone_shatter"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

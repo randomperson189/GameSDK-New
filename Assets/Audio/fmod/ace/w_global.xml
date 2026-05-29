@@ -1,0 +1,57 @@
+<AudioSystemData name="w_global" version="5" triggers="16">
+ <ImplData events="14"/>
+ <Triggers>
+  <Trigger name="Play_w_global_ironsight_lean_3p" path="w_global_handling_3p"/>
+  <Trigger name="Play_w_global_ironsight_off_3p" path="w_global_handling_3p">
+   <Event name="w_global/w_global_3p/w_global_ironsight_off_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_global_ironsight_on_3p" path="w_global_handling_3p">
+   <Event name="w_global/w_global_3p/w_global_ironsight_on_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_global_pickup_ammo_large_3p" path="w_global_handling_3p">
+   <Event name="w_global/w_global_3p/w_global_pickup_ammo_large_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_global_pickup_ammo_medium_3p" path="w_global_handling_3p">
+   <Event name="w_global/w_global_3p/w_global_pickup_ammo_medium_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_global_pickup_ammo_small_3p" path="w_global_handling_3p">
+   <Event name="w_global/w_global_3p/w_global_pickup_ammo_small_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_global_pickup_explosive_3p" path="w_global_handling_3p">
+   <Event name="w_global/w_global_3p/w_global_pickup_explosive_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_global_pickup_weapon_3p" path="w_global_handling_3p">
+   <Event name="w_global/w_global_3p/w_global_pickup_weapon_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_global_ironsight_lean_fp" path="w_global_handling_fp"/>
+  <Trigger name="Play_w_global_ironsight_off_fp" path="w_global_handling_fp">
+   <Event name="w_global/w_global_fp/w_global_ironsight_off_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_global_ironsight_on_fp" path="w_global_handling_fp">
+   <Event name="w_global/w_global_fp/w_global_ironsight_on_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_global_pickup_ammo_large_fp" path="w_global_handling_fp">
+   <Event name="w_global/w_global_fp/w_global_pickup_ammo_large_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_global_pickup_ammo_medium_fp" path="w_global_handling_fp">
+   <Event name="w_global/w_global_fp/w_global_pickup_ammo_medium_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_global_pickup_ammo_small_fp" path="w_global_handling_fp">
+   <Event name="w_global/w_global_fp/w_global_pickup_ammo_small_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_global_pickup_explosive_fp" path="w_global_handling_fp">
+   <Event name="w_global/w_global_fp/w_global_pickup_explosive_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_global_pickup_weapon_fp" path="w_global_handling_fp">
+   <Event name="w_global/w_global_fp/w_global_pickup_weapon_fp"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="w_global_handling_3p"/>
+   <Folder name="w_global_handling_fp"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

@@ -1,0 +1,19 @@
+<AudioSystemData name="p_col_veg" version="5" triggers="3">
+ <ImplData events="3"/>
+ <Triggers>
+  <Trigger name="Play_p_col_veg_mm_vegetation">
+   <Event name="Play_p_col_veg_mm_vegetation"/>
+  </Trigger>
+  <Trigger name="Play_p_col_veg_mm_grass">
+   <Event name="Play_p_col_veg_mm_grass"/>
+  </Trigger>
+  <Trigger name="Play_p_col_veg_mfx">
+   <Event name="Play_p_col_veg_mfx"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

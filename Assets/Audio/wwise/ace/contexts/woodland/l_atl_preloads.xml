@@ -1,0 +1,15 @@
+<AudioSystemData name="l_atl_preloads" version="5" preloads="1" files="3">
+ <ImplData soundbanks="6"/>
+ <Preloads>
+  <PreloadRequest name="l_woodland" type="autoload">
+   <File name="l_woodland_a.bnk"/>
+   <File name="l_woodland_d.bnk"/>
+   <File name="cr_openground_ad.bnk"/>
+  </PreloadRequest>
+ </Preloads>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

@@ -1,0 +1,69 @@
+<AudioSystemData name="w_pistol" version="5" triggers="18">
+ <ImplData events="18"/>
+ <Triggers>
+  <Trigger name="Play_w_pistol_cock_slide_3p" path="w_pistol_handling_3p">
+   <Event name="Play_w_pistol_cock_slide_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_cocking_3p" path="w_pistol_handling_3p">
+   <Event name="Play_w_pistol_cocking_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_deselect_3p" path="w_pistol_handling_3p">
+   <Event name="Play_w_pistol_deselect_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_mag_in_3p" path="w_pistol_handling_3p">
+   <Event name="Play_w_pistol_mag_in_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_mag_out_3p" path="w_pistol_handling_3p">
+   <Event name="Play_w_pistol_mag_out_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_select_3p" path="w_pistol_handling_3p">
+   <Event name="Play_w_pistol_select_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_cock_slide_fp" path="w_pistol_handling_fp">
+   <Event name="Play_w_pistol_cock_slide_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_cocking_fp" path="w_pistol_handling_fp">
+   <Event name="Play_w_pistol_cocking_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_deselect_fp" path="w_pistol_handling_fp">
+   <Event name="Play_w_pistol_deselect_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_mag_in_fp" path="w_pistol_handling_fp">
+   <Event name="Play_w_pistol_mag_in_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_mag_out_fp" path="w_pistol_handling_fp">
+   <Event name="Play_w_pistol_mag_out_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_select_fp" path="w_pistol_handling_fp">
+   <Event name="Play_w_pistol_select_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_dryfire_3p" path="w_pistol_fire_3p">
+   <Event name="Play_w_pistol_dryfire_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_fire_3p" path="w_pistol_fire_3p">
+   <Event name="Play_w_pistol_fire_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_silencer_3p" path="w_pistol_fire_3p">
+   <Event name="Play_w_pistol_fire_silencer_3p"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_dryfire_fp" path="w_pistol_fire_fp">
+   <Event name="Play_w_pistol_dryfire_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_fire_fp" path="w_pistol_fire_fp">
+   <Event name="Play_w_pistol_fire_fp"/>
+  </Trigger>
+  <Trigger name="Play_w_pistol_silencer_fp" path="w_pistol_fire_fp">
+   <Event name="Play_w_pistol_fire_silencer_fp"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="w_pistol_handling_3p"/>
+   <Folder name="w_pistol_handling_fp"/>
+   <Folder name="w_pistol_fire_3p"/>
+   <Folder name="w_pistol_fire_fp"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

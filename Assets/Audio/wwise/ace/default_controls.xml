@@ -1,0 +1,20 @@
+<AudioSystemData name="default_controls" version="5" triggers="6">
+ <ImplData events="2"/>
+ <Triggers>
+  <Trigger name="get_focus">
+   <Event name="unmute_all"/>
+  </Trigger>
+  <Trigger name="lose_focus">
+   <Event name="mute_all"/>
+  </Trigger>
+  <Trigger name="mute_all"/>
+  <Trigger name="unmute_all"/>
+  <Trigger name="pause_all"/>
+  <Trigger name="resume_all"/>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

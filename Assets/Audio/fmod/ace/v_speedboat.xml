@@ -1,0 +1,28 @@
+<AudioSystemData name="v_speedboat" version="5" triggers="6">
+ <ImplData events="6"/>
+ <Triggers>
+  <Trigger name="Play_speedboat_boost">
+   <Event name="v_speedboat/v_speedboat_engine_boost"/>
+  </Trigger>
+  <Trigger name="Play_speedboat_horn">
+   <Event name="v_speedboat/v_speedboat_horn"/>
+  </Trigger>
+  <Trigger name="Play_speedboat_run">
+   <Event name="v_speedboat/v_speedboat_engine_run"/>
+  </Trigger>
+  <Trigger name="Play_speedboat_splash">
+   <Event name="v_speedboat/v_speedboat_splash"/>
+  </Trigger>
+  <Trigger name="Play_speedboat_start">
+   <Event name="v_speedboat/v_speedboat_engine_start"/>
+  </Trigger>
+  <Trigger name="Play_speedboat_stop">
+   <Event name="v_speedboat/v_speedboat_engine_stop"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

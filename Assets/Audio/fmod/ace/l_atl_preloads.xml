@@ -1,0 +1,13 @@
+<AudioSystemData name="l_atl_preloads" version="5" preloads="1" files="1">
+ <ImplData banks="1"/>
+ <Preloads>
+  <PreloadRequest name="c_player" type="autoload">
+   <File name="c_player.bank"/>
+  </PreloadRequest>
+ </Preloads>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

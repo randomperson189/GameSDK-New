@@ -1,0 +1,148 @@
+<AudioSystemData name="p_pfx" version="5" triggers="44">
+ <ImplData events="44"/>
+ <Triggers>
+  <Trigger name="Play_p_pfx_debris_ceiling" path="p_pfx_debris">
+   <Event name="Play_p_pfx_debris_ceiling"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_debris_forest" path="p_pfx_debris">
+   <Event name="Play_p_pfx_debris_forest"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_debris_glass" path="p_pfx_debris">
+   <Event name="Play_p_pfx_debris_glass"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_debris_gravel" path="p_pfx_debris">
+   <Event name="Play_p_pfx_debris_gravel"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_debris_metal" path="p_pfx_debris">
+   <Event name="Play_p_pfx_debris_metal"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_debris_rock" path="p_pfx_debris">
+   <Event name="Play_p_pfx_debris_rock"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_debris_rock_small" path="p_pfx_debris">
+   <Event name="Play_p_pfx_debris_rock_small"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_debris_sand" path="p_pfx_debris">
+   <Event name="Play_p_pfx_debris_sand"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_debris_soil" path="p_pfx_debris">
+   <Event name="Play_p_pfx_debris_soil"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_debris_tree" path="p_pfx_debris">
+   <Event name="Play_p_pfx_debris_tree"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_debris_water" path="p_pfx_debris">
+   <Event name="Play_p_pfx_debris_water"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_debris_wood" path="p_pfx_debris">
+   <Event name="Play_p_pfx_debris_wood"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_electric_spark_medium" path="p_pfx_electric">
+   <Event name="Play_p_pfx_electric_spark_medium"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_env_insect_dragonfly_swarm" path="p_pfx_environment">
+   <Event name="Play_p_pfx_env_insect_dragonfly_swarm"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_env_insect_fly_swarm" path="p_pfx_environment">
+   <Event name="Play_p_pfx_env_insect_fly_swarm"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_abrams" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_abrams"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_barrel" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_barrel"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_blackhawk_mh60" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_blackhawk_mh60"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_c4" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_c4"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_civ" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_civ"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_claymore" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_claymore"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_flare_signal" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_flare_signal"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_flashbang" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_flashbang"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_frog_mine" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_frog_mine"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_generator" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_generator"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_generic_large" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_generic_large"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_generic_medium" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_generic_medium"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_generic_small" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_generic_small"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_grenade" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_grenade"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_grenade_water" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_grenade_water"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_hmmwv" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_hmmwv"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_rocketlauncher" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_rocketlauncher"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_speedboat" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_speedboat"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_vehicle_big" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_vehicle_big"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_expl_vehicle_smal" path="p_pfx_explosions">
+   <Event name="Play_p_pfx_expl_vehicle_smal"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_fire_barrel_small" path="p_pfx_fire">
+   <Event name="Play_p_pfx_fire_barrel_small"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_fire_campfire" path="p_pfx_fire">
+   <Event name="Play_p_pfx_fire_campfire"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_fire_generic_huge" path="p_pfx_fire">
+   <Event name="Play_p_pfx_fire_generic_huge"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_fire_generic_medium" path="p_pfx_fire">
+   <Event name="Play_p_pfx_fire_generic_medium"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_fire_generic_small" path="p_pfx_fire">
+   <Event name="Play_p_pfx_fire_generic_small"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_fire_speedboat" path="p_pfx_fire">
+   <Event name="Play_p_pfx_fire_speedboat"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_fire_hmmwv" path="p_pfx_fire">
+   <Event name="Play_p_pfx_fire_hmmwv"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_fire_blackhawk_mh60" path="p_pfx_fire">
+   <Event name="Play_p_pfx_fire_blackhawk_mh60"/>
+  </Trigger>
+  <Trigger name="Play_p_pfx_fire_abrams" path="p_pfx_fire">
+   <Event name="Play_p_pfx_fire_abrams"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="p_pfx_debris"/>
+   <Folder name="p_pfx_electric"/>
+   <Folder name="p_pfx_environment"/>
+   <Folder name="p_pfx_explosions"/>
+   <Folder name="p_pfx_fire"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

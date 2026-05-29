@@ -1,0 +1,97 @@
+<AudioSystemData name="g_atl_switches" version="5" switches="8" states="43">
+ <ImplData parameterstates="14"/>
+ <Switches>
+  <Switch name="mixing_state_underwater">
+   <State name="active"/>
+   <State name="inactive"/>
+  </Switch>
+  <Switch name="1stOr3rdP">
+   <State name="1stP">
+    <Parameter name="firstperson_thirdperson" value="0"/>
+   </State>
+   <State name="3rdP">
+    <Parameter name="firstperson_thirdperson" value="1"/>
+   </State>
+  </Switch>
+  <Switch name="SurfaceType">
+   <State name="concrete">
+    <Parameter name="surface" value="1"/>
+   </State>
+   <State name="default"/>
+   <State name="dirt"/>
+   <State name="fabric"/>
+   <State name="grass">
+    <Parameter name="surface" value="2"/>
+   </State>
+   <State name="grass_tall"/>
+   <State name="gravel"/>
+   <State name="ice"/>
+   <State name="leaves"/>
+   <State name="metal"/>
+   <State name="metal_chainlink"/>
+   <State name="metal_grate"/>
+   <State name="metal_sheet"/>
+   <State name="metal_thick"/>
+   <State name="mud"/>
+   <State name="pebble"/>
+   <State name="plastic"/>
+   <State name="rock"/>
+   <State name="sand_dry"/>
+   <State name="soil"/>
+   <State name="vegetation"/>
+   <State name="water">
+    <Parameter name="surface" value="3"/>
+   </State>
+   <State name="water_deep">
+    <Parameter name="surface" value="3"/>
+   </State>
+   <State name="water_shallow">
+    <Parameter name="surface" value="3"/>
+   </State>
+   <State name="wood_hollow"/>
+   <State name="wood_solid"/>
+  </Switch>
+  <Switch name="in_out">
+   <State name="inside"/>
+   <State name="outside"/>
+  </Switch>
+  <Switch name="menu_ingame">
+   <State name="enter_menu"/>
+   <State name="none_menu_ingame"/>
+  </Switch>
+  <Switch name="vegetation_type">
+   <State name="banana_leaves">
+    <Parameter name="vegetation_type" value="2"/>
+   </State>
+   <State name="dry_leaves">
+    <Parameter name="vegetation_type" value="3"/>
+   </State>
+   <State name="dry_leaves_big">
+    <Parameter name="vegetation_type" value="3"/>
+   </State>
+   <State name="leaves_long">
+    <Parameter name="vegetation_type" value="1"/>
+   </State>
+   <State name="palm_leaves">
+    <Parameter name="vegetation_type" value="2"/>
+   </State>
+  </Switch>
+  <Switch name="weather">
+   <State name="clear"/>
+   <State name="rain"/>
+  </Switch>
+  <Switch name="character">
+   <State name="ai_01">
+    <Parameter name="ai_selector" value="0"/>
+   </State>
+   <State name="ai_02">
+    <Parameter name="ai_selector" value="0"/>
+   </State>
+  </Switch>
+ </Switches>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

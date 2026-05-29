@@ -1,0 +1,37 @@
+<AudioSystemData name="p_col_obj" version="5" triggers="9">
+ <ImplData events="9"/>
+ <Triggers>
+  <Trigger name="Play_p_col_obj_grenade_hit_mat_default">
+   <Event name="Play_p_col_obj_grenade_hit_mat_default"/>
+  </Trigger>
+  <Trigger name="Play_p_col_obj_grenade_hit_mat_grass">
+   <Event name="Play_p_col_obj_grenade_hit_mat_grass"/>
+  </Trigger>
+  <Trigger name="Play_p_col_obj_grenade_hit_mat_water">
+   <Event name="Play_p_col_obj_grenade_hit_mat_water"/>
+  </Trigger>
+  <Trigger name="Play_p_col_obj_grenade_hit_mat_soil">
+   <Event name="Play_p_col_obj_grenade_hit_mat_soil"/>
+  </Trigger>
+  <Trigger name="Play_p_col_obj_grenade_hit_mat_rock">
+   <Event name="Play_p_col_obj_grenade_hit_mat_rock"/>
+  </Trigger>
+  <Trigger name="Play_p_col_obj_grenade_hit_mat_wood">
+   <Event name="Play_p_col_obj_grenade_hit_mat_wood"/>
+  </Trigger>
+  <Trigger name="Play_p_col_obj_weapon_medium_on_ground">
+   <Event name="Play_p_col_obj_weapon_medium_on_ground"/>
+  </Trigger>
+  <Trigger name="Play_p_col_obj_weapon_small_on_ground">
+   <Event name="Play_p_col_obj_weapon_small_on_ground"/>
+  </Trigger>
+  <Trigger name="Play_p_col_obj_rope_oil_lamp">
+   <Event name="Play_p_col_obj_rope_oil_lamp"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

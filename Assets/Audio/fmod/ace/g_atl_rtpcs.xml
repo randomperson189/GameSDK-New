@@ -1,0 +1,78 @@
+<AudioSystemData name="g_atl_rtpcs" version="5" parameters="27">
+ <ImplData parameters="13" vcas="4"/>
+ <Parameters>
+  <Parameter name="character_health" path="character"/>
+  <Parameter name="character_stamina" path="character">
+   <Parameter name="stamina"/>
+  </Parameter>
+  <Parameter name="water_in_out_speed" path="environment"/>
+  <Parameter name="submersion_depth" path="environment"/>
+  <Parameter name="area_fade_distance" path="environment">
+   <Parameter name="area_fade_distance"/>
+  </Parameter>
+  <Parameter name="environment_listener" path="environment">
+   <Parameter name="environment_listener"/>
+  </Parameter>
+  <Parameter name="environment_sound" path="environment">
+   <Parameter name="environment_sound"/>
+  </Parameter>
+  <Parameter name="time_of_day" path="environment">
+   <Parameter name="time_of_day"/>
+  </Parameter>
+  <Parameter name="volume_master" path="menu">
+   <VCA name="vca_master"/>
+  </Parameter>
+  <Parameter name="volume_dialog" path="menu">
+   <VCA name="vca_dialog"/>
+  </Parameter>
+  <Parameter name="volume_music" path="menu">
+   <VCA name="vca_music"/>
+  </Parameter>
+  <Parameter name="volume_sfx" path="menu">
+   <VCA name="vca_sfx"/>
+  </Parameter>
+  <Parameter name="speed" path="physics">
+   <Parameter name="speed"/>
+  </Parameter>
+  <Parameter name="mass" path="physics">
+   <Parameter name="mass"/>
+  </Parameter>
+  <Parameter name="object_sliding" path="physics"/>
+  <Parameter name="object_rolling" path="physics"/>
+  <Parameter name="particlefx" path="physics">
+   <Parameter name="particlefx"/>
+  </Parameter>
+  <Parameter name="mm_vegetation_density" path="vegetation"/>
+  <Parameter name="mm_grass_density" path="vegetation"/>
+  <Parameter name="mm_default_density" path="vegetation"/>
+  <Parameter name="vehicle_rotation_speed" path="vehicles"/>
+  <Parameter name="vehicle_damage" path="vehicles">
+   <Parameter name="v_damage"/>
+  </Parameter>
+  <Parameter name="vehicle_rpm" path="vehicles">
+   <Parameter name="v_rpm"/>
+  </Parameter>
+  <Parameter name="vehicle_scratch" path="vehicles"/>
+  <Parameter name="vehicle_slip" path="vehicles">
+   <Parameter name="v_slip"/>
+  </Parameter>
+  <Parameter name="vehicle_speed" path="vehicles">
+   <Parameter name="v_speed"/>
+  </Parameter>
+  <Parameter name="vehicle_stroke" path="vehicles">
+   <Parameter name="v_stroke"/>
+  </Parameter>
+ </Parameters>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="character"/>
+   <Folder name="environment"/>
+   <Folder name="menu"/>
+   <Folder name="physics"/>
+   <Folder name="vegetation"/>
+   <Folder name="vehicles"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

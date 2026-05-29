@@ -1,0 +1,130 @@
+<AudioSystemData name="l_woodland" version="5" triggers="38">
+ <ImplData events="38"/>
+ <Triggers>
+  <Trigger name="Play_l_woodland_mus_trackview" path="l_woodland_mus">
+   <Event name="Play_l_woodland_mus_trackview"/>
+  </Trigger>
+  <Trigger name="Stop_l_woodland_mus_trackview" path="l_woodland_mus">
+   <Event name="Stop_l_woodland_mus_trackview"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_mus_stinger_rifle_pickup" path="l_woodland_mus">
+   <Event name="Play_l_woodland_mus_stinger_rifle_pickup"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_insects_pond" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_insects_pond"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_lake_calm" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_lake_calm"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_river_calm" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_river_calm"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_river_fast" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_river_fast"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab1_waterfall_large" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab1_waterfall_large"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab1_waterfall_small" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab1_waterfall_small"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab4_waterfall_small" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab4_waterfall_small"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab5_waterfall_medium" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab5_waterfall_medium"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab6_waterfall_small" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab6_waterfall_small"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab1_cave" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab1_cave"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab1_crash_site" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab1_crash_site"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab1_forest" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab1_forest"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab1_open_ground" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab1_open_ground"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab2_forest" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab2_forest"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab3_village" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab3_village"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab4_forest" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab4_forest"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab5_lake" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab5_lake"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab6_forest" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab6_forest"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_amb_ab6_lake" path="l_woodland_amb">
+   <Event name="Play_l_woodland_amb_ab6_lake"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sfx_bird_nighthawk" path="l_woodland_sfx">
+   <Event name="Play_l_woodland_sfx_bird_nighthawk"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sfx_wind_gust" path="l_woodland_sfx">
+   <Event name="Play_l_woodland_sfx_wind_gust"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sfx_metal_creak" path="l_woodland_sfx">
+   <Event name="Play_l_woodland_sfx_metal_creak"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sfx_log_creak" path="l_woodland_sfx">
+   <Event name="Play_l_woodland_sfx_log_creak"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sfx_vegetation_rustle" path="l_woodland_sfx">
+   <Event name="Play_l_woodland_sfx_vegetation_rustle"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sfx_frog" path="l_woodland_sfx">
+   <Event name="Play_l_woodland_sfx_frog"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sfx_leaves_rustling_loop" path="l_woodland_sfx">
+   <Event name="Play_l_woodland_sfx_vegetation_rustle"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sfx_bird_chirping" path="l_woodland_sfx">
+   <Event name="Play_l_woodland_sfx_bird_chirping"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sfx_bird_crow" path="l_woodland_sfx">
+   <Event name="Play_l_woodland_sfx_bird_crow"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sfx_bird_woodpecker" path="l_woodland_sfx">
+   <Event name="Play_l_woodland_sfx_bird_woodpecker"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sfx_water_dripping" path="l_woodland_sfx">
+   <Event name="Play_l_woodland_sfx_water_dripping"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sfx_bird_owl" path="l_woodland_sfx">
+   <Event name="Play_l_woodland_sfx_bird_owl"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_cin_toad_rockimpact_01" path="l_woodland_cin">
+   <Event name="Play_l_woodland_cin_toad_rockimpact_01"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_cin_toad_rockimpact_02" path="l_woodland_cin">
+   <Event name="Play_l_woodland_cin_toad_rockimpact_02"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sce_bird_fly_off" path="l_woodland_sce">
+   <Event name="Play_l_woodland_sce_bird_fly_off"/>
+  </Trigger>
+  <Trigger name="Play_l_woodland_sce_entering_ravine" path="l_woodland_sce">
+   <Event name="Play_l_woodland_sce_entering_ravine"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="l_woodland_mus"/>
+   <Folder name="l_woodland_amb"/>
+   <Folder name="l_woodland_sfx"/>
+   <Folder name="l_woodland_cin"/>
+   <Folder name="l_woodland_sce"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

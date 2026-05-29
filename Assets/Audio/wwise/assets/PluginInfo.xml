@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Project="GameSDK_2019.1.7" Platform="Windows" BasePlatform="Windows">
+	<Plugins>
+		<Plugin Name="Wwise Silence" ID="6619138" DLL="AkSilenceGenerator"/>
+		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ"/>
+		<Plugin Name="Wwise Delay" ID="6946819" DLL="AkDelay"/>
+		<Plugin Name="Wwise Peak Limiter" ID="7208963" DLL="AkPeakLimiter"/>
+		<Plugin Name="Wwise Matrix Reverb" ID="7536643" DLL="AkMatrixReverb"/>
+		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb"/>
+		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
+		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
+		<Plugin Name="CrySpatial" ID="65537030" DLL="CrySpatial"/>
+	</Plugins>
+</PluginInfo>

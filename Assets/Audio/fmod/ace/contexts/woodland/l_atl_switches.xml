@@ -1,0 +1,15 @@
+<AudioSystemData name="l_atl_switches" version="5" switches="1" states="4">
+ <Switches>
+  <Switch name="l_woodland_mixing">
+   <State name="l_woodland_ravine"/>
+   <State name="l_woodland_riverbed"/>
+   <State name="l_woodland_cave"/>
+   <State name="l_woodland_none"/>
+  </Switch>
+ </Switches>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

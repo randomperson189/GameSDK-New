@@ -1,0 +1,13 @@
+<AudioSystemData name="l_atl_rtpcs" version="5" parameters="1">
+ <ImplData parameters="1"/>
+ <Parameters>
+  <Parameter name="l_airfield_wind_intensity">
+   <Parameter name="l_airfield_wind_intensity"/>
+  </Parameter>
+ </Parameters>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

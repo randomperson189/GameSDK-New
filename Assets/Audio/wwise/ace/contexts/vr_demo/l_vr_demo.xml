@@ -1,0 +1,55 @@
+<AudioSystemData name="l_vr_demo" version="5" triggers="13" preloads="1" files="2">
+ <ImplData events="26" soundbanks="4"/>
+ <Triggers>
+  <Trigger name="Play_l_vr_demo_sce_door_closed">
+   <Event name="Play_l_vr_demo_sce_door_closed"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sce_door_opened">
+   <Event name="Play_l_vr_demo_sce_door_opened"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_energy_sphere">
+   <Event name="Play_l_vr_demo_sfx_energy_sphere"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_power_sparks">
+   <Event name="Play_l_vr_demo_sfx_power_sparks"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_ventilation_fan">
+   <Event name="Play_l_vr_demo_sfx_ventilation_fan"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_growing_chamber">
+   <Event name="Play_l_vr_demo_sfx_growing_chamber"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_energy_fx_03">
+   <Event name="Play_l_vr_demo_sfx_energy_fx_03"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_energy_fx_02">
+   <Event name="Play_l_vr_demo_sfx_energy_fx_02"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sfx_energy_fx_01">
+   <Event name="Play_l_vr_demo_sfx_energy_fx_01"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sce_door_open">
+   <Event name="Play_l_vr_demo_sce_door_open"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_sce_door_close">
+   <Event name="Play_l_vr_demo_sce_door_close"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_amb_hallway">
+   <Event name="Play_l_vr_demo_amb_hallway"/>
+  </Trigger>
+  <Trigger name="Play_l_vr_demo_amb_room_01">
+   <Event name="Play_l_vr_demo_amb_room_01"/>
+  </Trigger>
+ </Triggers>
+ <Preloads>
+  <PreloadRequest name="l_vr_demo" type="autoload">
+   <File name="l_vr_demo_a.bnk"/>
+   <File name="l_vr_demo_d.bnk"/>
+  </PreloadRequest>
+ </Preloads>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

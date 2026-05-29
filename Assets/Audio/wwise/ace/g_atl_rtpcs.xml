@@ -1,0 +1,98 @@
+<AudioSystemData name="g_atl_rtpcs" version="5" parameters="27">
+ <ImplData parameters="27"/>
+ <Parameters>
+  <Parameter name="character_health" path="character">
+   <Parameter name="character_health"/>
+  </Parameter>
+  <Parameter name="character_stamina" path="character">
+   <Parameter name="character_stamina"/>
+  </Parameter>
+  <Parameter name="water_in_out_speed" path="environment">
+   <Parameter name="water_in_out_speed"/>
+  </Parameter>
+  <Parameter name="submersion_depth" path="environment">
+   <Parameter name="submersion_depth"/>
+  </Parameter>
+  <Parameter name="area_fade_distance" path="environment">
+   <Parameter name="area_fade_distance"/>
+  </Parameter>
+  <Parameter name="environment_listener" path="environment">
+   <Parameter name="environment_listener"/>
+  </Parameter>
+  <Parameter name="environment_sound" path="environment">
+   <Parameter name="environment_sound"/>
+  </Parameter>
+  <Parameter name="time_of_day" path="environment">
+   <Parameter name="time_of_day"/>
+  </Parameter>
+  <Parameter name="volume_master" path="menu">
+   <Parameter name="volume_master"/>
+  </Parameter>
+  <Parameter name="volume_dialog" path="menu">
+   <Parameter name="volume_dialog"/>
+  </Parameter>
+  <Parameter name="volume_music" path="menu">
+   <Parameter name="volume_music"/>
+  </Parameter>
+  <Parameter name="volume_sfx" path="menu">
+   <Parameter name="volume_sfx"/>
+  </Parameter>
+  <Parameter name="speed" path="physics">
+   <Parameter name="speed"/>
+  </Parameter>
+  <Parameter name="mass" path="physics">
+   <Parameter name="mass"/>
+  </Parameter>
+  <Parameter name="object_sliding" path="physics">
+   <Parameter name="object_sliding"/>
+  </Parameter>
+  <Parameter name="object_rolling" path="physics">
+   <Parameter name="object_rolling"/>
+  </Parameter>
+  <Parameter name="particlefx" path="physics">
+   <Parameter name="particlefx"/>
+  </Parameter>
+  <Parameter name="mm_vegetation_density" path="vegetation">
+   <Parameter name="mm_vegetation_density"/>
+  </Parameter>
+  <Parameter name="mm_grass_density" path="vegetation">
+   <Parameter name="mm_grass_density"/>
+  </Parameter>
+  <Parameter name="mm_default_density" path="vegetation">
+   <Parameter name="mm_default_density"/>
+  </Parameter>
+  <Parameter name="vehicle_rotation_speed" path="vehicles">
+   <Parameter name="v_rotation_speed"/>
+  </Parameter>
+  <Parameter name="vehicle_damage" path="vehicles">
+   <Parameter name="v_damage"/>
+  </Parameter>
+  <Parameter name="vehicle_rpm" path="vehicles">
+   <Parameter name="v_rpm"/>
+  </Parameter>
+  <Parameter name="vehicle_scratch" path="vehicles">
+   <Parameter name="v_scratch"/>
+  </Parameter>
+  <Parameter name="vehicle_slip" path="vehicles">
+   <Parameter name="v_slip"/>
+  </Parameter>
+  <Parameter name="vehicle_speed" path="vehicles">
+   <Parameter name="v_speed"/>
+  </Parameter>
+  <Parameter name="vehicle_stroke" path="vehicles">
+   <Parameter name="v_stroke"/>
+  </Parameter>
+ </Parameters>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="character"/>
+   <Folder name="environment"/>
+   <Folder name="menu"/>
+   <Folder name="physics"/>
+   <Folder name="vegetation"/>
+   <Folder name="vehicles"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

@@ -1,0 +1,25 @@
+<AudioSystemData name="m_global" version="5" triggers="5">
+ <ImplData events="5"/>
+ <Triggers>
+  <Trigger name="Play_m_global_feedback_player_death">
+   <Event name="Play_m_global_feedback_player_death"/>
+  </Trigger>
+  <Trigger name="Play_m_global_menu_loading_screen">
+   <Event name="Play_m_global_menu_loading_screen"/>
+  </Trigger>
+  <Trigger name="Stop_m_global_menu_loading_screen">
+   <Event name="Stop_m_global_menu_loading_screen"/>
+  </Trigger>
+  <Trigger name="Play_m_global_menu_ingame">
+   <Event name="Play_m_global_menu_ingame"/>
+  </Trigger>
+  <Trigger name="Stop_m_global_menu_ingame">
+   <Event name="Stop_m_global_menu_ingame"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>

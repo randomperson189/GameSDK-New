@@ -1,0 +1,18 @@
+<AudioSystemData name="w_hmg" version="5" triggers="6">
+ <Triggers>
+  <Trigger name="Play_w_hmg_fire_dryfire_fp" path="w_hmg_fire_fp"/>
+  <Trigger name="Play_w_hmg_fire_fire_loop_fp" path="w_hmg_fire_fp"/>
+  <Trigger name="Play_w_hmg_fire_fire_tail_fp" path="w_hmg_fire_fp"/>
+  <Trigger name="Play_w_hmg_fire_fire_tail_3p" path="w_hmg_fire_3p"/>
+  <Trigger name="Play_w_hmg_fire_dryfire_3p" path="w_hmg_fire_3p"/>
+  <Trigger name="Play_w_hmg_fire_fire_loop_3p" path="w_hmg_fire_3p"/>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="w_hmg_fire_fp"/>
+   <Folder name="w_hmg_fire_3p"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

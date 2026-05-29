@@ -1,0 +1,25 @@
+<AudioSystemData name="l_airfield" version="5" triggers="4">
+ <ImplData events="8"/>
+ <Triggers>
+  <Trigger name="Play_l_airfield_sfx_jet_engine_idle_loop" path="l_airfield_sfx">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_airfield_amb_hangar" path="l_airfield_amb">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_airfield_amb_rain_corridor" path="l_airfield_amb">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+  <Trigger name="Play_l_airfield_amb_runway" path="l_airfield_amb">
+   <Event name="do_nothing.ogg" type="start" volume="-14" enable_panning="true" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="100" loop_count="1"/>
+  </Trigger>
+ </Triggers>
+ <EditorData>
+  <Library />
+  <Folders>
+   <Folder name="l_airfield_sfx"/>
+   <Folder name="l_airfield_amb"/>
+  </Folders>
+  <Controls />
+ </EditorData>
+</AudioSystemData>

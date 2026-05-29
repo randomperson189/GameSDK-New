@@ -1,0 +1,32 @@
+<AudioSystemData name="l_atl_switches" version="5" switches="1" states="4">
+ <ImplData states="8"/>
+ <Switches>
+  <Switch name="l_woodland_mixing">
+   <State name="l_woodland_ravine">
+    <StateGroup name="state_l_woodland_mixing">
+     <Value name="l_woodland_ravine"/>
+    </StateGroup>
+   </State>
+   <State name="l_woodland_riverbed">
+    <StateGroup name="state_l_woodland_mixing">
+     <Value name="l_woodland_riverbed"/>
+    </StateGroup>
+   </State>
+   <State name="l_woodland_cave">
+    <StateGroup name="state_l_woodland_mixing">
+     <Value name="l_woodland_cave"/>
+    </StateGroup>
+   </State>
+   <State name="l_woodland_none">
+    <StateGroup name="state_l_woodland_mixing">
+     <Value name="None"/>
+    </StateGroup>
+   </State>
+  </Switch>
+ </Switches>
+ <EditorData>
+  <Library />
+  <Folders />
+  <Controls />
+ </EditorData>
+</AudioSystemData>
