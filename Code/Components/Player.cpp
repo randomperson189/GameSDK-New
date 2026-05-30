@@ -701,7 +701,7 @@ void CPlayerComponent::Ragdollize()
 
 	SEntityPhysicalizeParams physParams;
 	physParams.type = PE_ARTICULATED;
-	physParams.nSlot = GetOrMakeEntitySlotId();
+	physParams.nSlot = m_pEntity->GetComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>()->GetEntitySlotId();
 	physParams.mass = 80.0f;
 	physParams.bCopyJointVelocities = true;
 	physParams.fStiffnessScale = 0.5f;

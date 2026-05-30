@@ -28,7 +28,7 @@
       <nodes>
        <element key="5f7f04a0-1fea-4004-990e-01f11d8fd0c9" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="5f7f04a0-1fea-4004-990e-01f11d8fd0c9" objectGUID="89784630-c3af-4a6f-bdb3-7f72a04626b2">
-         <pos x="1088.7145" y="-872.5"/>
+         <pos x="1087" y="-1012"/>
          <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
          <inputs>
           <element value="false">
@@ -53,7 +53,7 @@
        </element>
        <element key="c70bb574-7cfa-4058-9fb5-029d300524aa" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="c70bb574-7cfa-4058-9fb5-029d300524aa" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
-         <pos x="527" y="-172"/>
+         <pos x="526" y="-312"/>
          <functionId domain="Env" guid="c882d81e-1c87-428f-8418-b6896a85577b"/>
          <inputs>
           <element value="10">
@@ -106,7 +106,7 @@
        </element>
        <element key="92d2d9e2-95f0-41ed-9749-250e54ace00a" typeGUID="1d081133-e900-4244-add5-f0831d27b16f">
         <value guid="92d2d9e2-95f0-41ed-9749-250e54ace00a">
-         <pos x="247" y="-594"/>
+         <pos x="246" y="-734"/>
          <typeId domain="Env" guid="02b79308-c51c-4841-99ec-c887577217a7"/>
          <cases>
           <element value="jump"/>
@@ -149,7 +149,7 @@
        </element>
        <element key="ba08fc1d-89a2-42b7-b84f-540f17e1523a" typeGUID="23145b7a-4ce3-45b8-a34b-1c997ea6448f">
         <value guid="ba08fc1d-89a2-42b7-b84f-540f17e1523a" referenceGUID="8d5e9684-a94e-43b3-8a13-c74a7e6aeae1">
-         <pos x="950" y="1088"/>
+         <pos x="948" y="1087"/>
          <inputs>
           <element value="FPMovement">
            <key type="Idx" value="1"/>
@@ -219,7 +219,7 @@
        </element>
        <element key="bb50bac5-83aa-4400-b37d-74f5304ec2f8" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="bb50bac5-83aa-4400-b37d-74f5304ec2f8" objectGUID="89784630-c3af-4a6f-bdb3-7f72a04626b2">
-         <pos x="808" y="-312"/>
+         <pos x="807" y="-452"/>
          <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
          <inputs>
           <element value="true">
@@ -243,7 +243,7 @@
        </element>
        <element key="acb777bd-236b-44db-95cb-24c92766e287" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="acb777bd-236b-44db-95cb-24c92766e287" objectGUID="be818e39-4e83-4160-9e1b-54e9ded4ef74">
-         <pos x="528" y="-312"/>
+         <pos x="527" y="-452"/>
          <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
          <inputs>
           <element value="true">
@@ -257,19 +257,19 @@
        </element>
        <element key="fec91df6-18ab-461d-985a-cfb70a0586c4" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="fec91df6-18ab-461d-985a-cfb70a0586c4" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
-         <pos x="528" y="-452"/>
+         <pos x="527" y="-592"/>
          <functionId domain="Env" guid="899ade13-94b7-417c-8f41-1b4d69f93904"/>
         </value>
        </element>
        <element key="c86ca48e-f5bc-4641-8e69-7d6c1246e79e" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="c86ca48e-f5bc-4641-8e69-7d6c1246e79e" objectGUID="dd099b13-0e5a-48d3-979f-4d0e30295e81">
-         <pos x="383" y="1259"/>
+         <pos x="382" y="1241"/>
          <functionId domain="Env" guid="c41a9117-0292-4ff6-978a-f433345841b3"/>
         </value>
        </element>
        <element key="645970c0-47bd-46b3-b78b-1e67cfe835e8" typeGUID="b30f637b-555a-4e2e-8558-87fa49d470c1">
         <value guid="645970c0-47bd-46b3-b78b-1e67cfe835e8">
-         <pos x="809" y="-591"/>
+         <pos x="808" y="-731"/>
          <inputs>
           <element value="false">
            <key type="Idx" value="1"/>
@@ -279,19 +279,19 @@
        </element>
        <element key="8601a295-36b4-46ce-ba9b-dfa0130eb8cb" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="8601a295-36b4-46ce-ba9b-dfa0130eb8cb" objectGUID="">
-         <pos x="1369.7144" y="-875.5"/>
+         <pos x="1368" y="-1015"/>
          <functionId domain="Script" guid="7e0fd6c7-3a2e-4c74-a6af-19564a34a05c"/>
         </value>
        </element>
        <element key="e35b18dc-5107-46ee-badf-ae8f7e43a6da" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="e35b18dc-5107-46ee-badf-ae8f7e43a6da" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
-         <pos x="1089" y="-592"/>
+         <pos x="1088" y="-732"/>
          <functionId domain="Env" guid="df2a9ae7-7724-4684-89f6-9df336f61ac2"/>
         </value>
        </element>
        <element key="f5771729-8953-4739-b663-eb4b7eb2c4ea" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="f5771729-8953-4739-b663-eb4b7eb2c4ea" objectGUID="89784630-c3af-4a6f-bdb3-7f72a04626b2">
-         <pos x="809" y="-1015"/>
+         <pos x="808" y="-1155"/>
          <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
          <inputs>
           <element value="false">
@@ -334,7 +334,7 @@
        </element>
        <element key="d557e8a9-2de0-48ce-a0e4-adb6e0ec3815" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="d557e8a9-2de0-48ce-a0e4-adb6e0ec3815" objectGUID="be818e39-4e83-4160-9e1b-54e9ded4ef74">
-         <pos x="528" y="-1013"/>
+         <pos x="527" y="-1153"/>
          <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
          <inputs>
           <element value="false">
@@ -348,7 +348,7 @@
        </element>
        <element key="e510adcf-d837-4914-a147-85c16f8343de" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="e510adcf-d837-4914-a147-85c16f8343de" objectGUID="">
-         <pos x="390" y="1088"/>
+         <pos x="667" y="1163"/>
          <functionId domain="Env" guid="87d62e0c-d32f-4ea7-aa5c-22aeeb1c9cd5"/>
          <inputs>
           <element value="false">
@@ -362,7 +362,7 @@
        </element>
        <element key="ec16c64b-21d5-496d-9911-47d104938a44" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="ec16c64b-21d5-496d-9911-47d104938a44" objectGUID="be818e39-4e83-4160-9e1b-54e9ded4ef74">
-         <pos x="808.42847" y="-171.57143"/>
+         <pos x="807" y="-311"/>
          <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
          <inputs>
           <element value="true">
@@ -392,7 +392,7 @@
        </element>
        <element key="b7dc5b8d-bb54-4a28-8c2d-7bbce46ce1de" typeGUID="23145b7a-4ce3-45b8-a34b-1c997ea6448f">
         <value guid="b7dc5b8d-bb54-4a28-8c2d-7bbce46ce1de" referenceGUID="1ee2cc8a-d254-4e1d-a4ba-86cbf28865bc">
-         <pos x="1228" y="1228"/>
+         <pos x="1226" y="1227"/>
          <inputs>
           <element value="MotionIdle">
            <key type="Idx" value="1"/>
@@ -402,7 +402,7 @@
        </element>
        <element key="8a8a4750-d6f1-4a2b-9d45-ab3b51956c70" typeGUID="23145b7a-4ce3-45b8-a34b-1c997ea6448f">
         <value guid="8a8a4750-d6f1-4a2b-9d45-ab3b51956c70" referenceGUID="8d5e9684-a94e-43b3-8a13-c74a7e6aeae1">
-         <pos x="948" y="1228"/>
+         <pos x="946" y="1227"/>
          <inputs>
           <element value="FPIdle">
            <key type="Idx" value="1"/>
@@ -412,7 +412,7 @@
        </element>
        <element key="a679069a-1d4b-4a33-828c-768a3abf7d8b" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="a679069a-1d4b-4a33-828c-768a3abf7d8b" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
-         <pos x="527.28577" y="-872.92859"/>
+         <pos x="526" y="-1012"/>
          <functionId domain="Env" guid="c882d81e-1c87-428f-8418-b6896a85577b"/>
          <inputs>
           <element value="5">
@@ -423,7 +423,7 @@
        </element>
        <element key="60450c9f-9c7f-4a37-99f0-352ce3fe183f" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="60450c9f-9c7f-4a37-99f0-352ce3fe183f" objectGUID="be818e39-4e83-4160-9e1b-54e9ded4ef74">
-         <pos x="808.71423" y="-872.5"/>
+         <pos x="807" y="-1012"/>
          <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
          <inputs>
           <element value="false">
@@ -437,7 +437,7 @@
        </element>
        <element key="63c171a1-177e-4a4c-9592-f6f7bef8caa3" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="63c171a1-177e-4a4c-9592-f6f7bef8caa3" objectGUID="">
-         <pos x="1089" y="-315"/>
+         <pos x="1088" y="-455"/>
          <functionId domain="Script" guid="7e0fd6c7-3a2e-4c74-a6af-19564a34a05c"/>
         </value>
        </element>
@@ -469,7 +469,7 @@
        </element>
        <element key="ef18035a-9059-4b48-8184-f811d22fdf2b" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="ef18035a-9059-4b48-8184-f811d22fdf2b" objectGUID="">
-         <pos x="1087" y="-1015"/>
+         <pos x="1086" y="-1155"/>
          <functionId domain="Script" guid="7e0fd6c7-3a2e-4c74-a6af-19564a34a05c"/>
         </value>
        </element>
@@ -511,7 +511,7 @@
        </element>
        <element key="fc153179-9944-4be9-8c74-77422d59ec79" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="fc153179-9944-4be9-8c74-77422d59ec79" objectGUID="6e8bcb28-b9ef-4197-a29e-59136d644858">
-         <pos x="-31" y="-1012"/>
+         <pos x="-32" y="-1152"/>
          <signalId domain="Env" guid="cb22a659-40ad-4cf0-ad07-42dccea24f44"/>
         </value>
        </element>
@@ -528,13 +528,13 @@
        </element>
        <element key="6a8e6b85-4a9a-4cf8-965f-d81e28b6dc7c" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="6a8e6b85-4a9a-4cf8-965f-d81e28b6dc7c" objectGUID="">
-         <pos x="1369.4286" y="-174.57143"/>
+         <pos x="1368" y="-314"/>
          <functionId domain="Script" guid="7e0fd6c7-3a2e-4c74-a6af-19564a34a05c"/>
         </value>
        </element>
        <element key="50ca8286-6371-4d2e-acdc-05d9b18ea281" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="50ca8286-6371-4d2e-acdc-05d9b18ea281" objectGUID="6e8bcb28-b9ef-4197-a29e-59136d644858">
-         <pos x="-32" y="-593"/>
+         <pos x="-33" y="-733"/>
          <signalId domain="Env" guid="603771b5-6321-4113-82fb-b839f1be7f64"/>
         </value>
        </element>
@@ -550,7 +550,7 @@
        </element>
        <element key="0362d584-546e-4e5c-a784-2a027423bc42" typeGUID="b30f637b-555a-4e2e-8558-87fa49d470c1">
         <value guid="0362d584-546e-4e5c-a784-2a027423bc42">
-         <pos x="670" y="1088"/>
+         <pos x="668" y="1087"/>
          <inputs>
           <element value="false">
            <key type="Idx" value="1"/>
@@ -560,7 +560,7 @@
        </element>
        <element key="c9e9a677-05f6-4e82-8da2-8349d7578c11" typeGUID="23145b7a-4ce3-45b8-a34b-1c997ea6448f">
         <value guid="c9e9a677-05f6-4e82-8da2-8349d7578c11" referenceGUID="1ee2cc8a-d254-4e1d-a4ba-86cbf28865bc">
-         <pos x="1228" y="1087"/>
+         <pos x="1226" y="1086"/>
          <inputs>
           <element value="MotionMovement">
            <key type="Idx" value="1"/>
@@ -576,7 +576,7 @@
        </element>
        <element key="3d219134-e9e0-4ea6-965c-d39ef63af91f" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="3d219134-e9e0-4ea6-965c-d39ef63af91f" objectGUID="dd099b13-0e5a-48d3-979f-4d0e30295e81">
-         <pos x="527" y="-591"/>
+         <pos x="526" y="-731"/>
          <functionId domain="Env" guid="c41a9117-0292-4ff6-978a-f433345841b3"/>
         </value>
        </element>
@@ -591,7 +591,7 @@
        </element>
        <element key="1b24d4bd-f4e4-4f1c-82e1-a08a2941899f" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="1b24d4bd-f4e4-4f1c-82e1-a08a2941899f" objectGUID="89784630-c3af-4a6f-bdb3-7f72a04626b2">
-         <pos x="1088.4287" y="-171.57143"/>
+         <pos x="1087" y="-311"/>
          <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
          <inputs>
           <element value="true">
@@ -611,7 +611,7 @@
        </element>
        <element key="9a7765b8-c902-4f8f-9507-3021148c3ea9" typeGUID="1d081133-e900-4244-add5-f0831d27b16f">
         <value guid="9a7765b8-c902-4f8f-9507-3021148c3ea9">
-         <pos x="249" y="-1011"/>
+         <pos x="248" y="-1151"/>
          <typeId domain="Env" guid="02b79308-c51c-4841-99ec-c887577217a7"/>
          <cases>
           <element value="shoot2"/>
@@ -632,7 +632,7 @@
        </element>
        <element key="312c298d-b5a9-4fa9-ac61-9b33cedf0797" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="312c298d-b5a9-4fa9-ac61-9b33cedf0797" objectGUID="dd099b13-0e5a-48d3-979f-4d0e30295e81">
-         <pos x="387" y="1181"/>
+         <pos x="386" y="1163"/>
          <functionId domain="Env" guid="80796905-ac9e-4c0f-a1f1-4cbe0b0807c3"/>
         </value>
        </element>
@@ -946,7 +946,7 @@
        <element element="1.7497571"/>
       </position>
      </translation>
-     <rotation x="-2.0626957" y="-0" z="-0"/>
+     <rotation x="-2.0626955" y="-0" z="-0"/>
      <scale>
       <element element="1"/>
       <element element="1"/>
@@ -1003,7 +1003,7 @@
        <element element="0.15069833"/>
       </position>
      </translation>
-     <rotation x="-2.0626957" y="-0" z="-0"/>
+     <rotation x="-2.0626955" y="-0" z="-0"/>
      <scale>
       <element element="1"/>
       <element element="1"/>
