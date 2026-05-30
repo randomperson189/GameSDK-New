@@ -31,11 +31,18 @@ add_sources("Components_uber.cpp"
     PROJECTS GameSDK-New
     SOURCE_GROUP "Components"
 		"Components/Bullet.cpp"
+		"Components/NPC.cpp"
 		"Components/Player.cpp"
 		"Components/SpawnPoint.cpp"
 		"Components/Bullet.h"
+		"Components/NPC.h"
 		"Components/Player.h"
 		"Components/SpawnPoint.h"
+)
+add_sources("Schematyc_uber.cpp"
+    PROJECTS GameSDK-New
+    SOURCE_GROUP "Schematyc"
+		"Schematyc/CustomSchematycFunctions.cpp"
 )
 
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/CVarOverrides.h")
