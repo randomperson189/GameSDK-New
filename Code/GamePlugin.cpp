@@ -41,6 +41,7 @@ bool CGamePlugin::Initialize(SSystemGlobalEnvironment& env, const SSystemInitPar
 	m_pCVars = new SCVars();
 	g_pGameCVars = m_pCVars;
 	m_pCVars->InitCVars(gEnv->pConsole);
+	m_pCVars->InitCCmds(gEnv->pConsole);
 	
 	return true;
 }
@@ -148,7 +149,7 @@ bool CGamePlugin::OnClientReadyForGameplay(int channelId, bool bIsReset)
 		{
 			if (CPlayerComponent* pPlayer = pPlayerEntity->GetComponent<CPlayerComponent>())
 			{
-				pPlayer->OnReadyForGameplayOnServer();
+				pPlayer->OnReadyForGameplayOnServer(true);
 			}
 		}
 	}

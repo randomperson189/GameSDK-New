@@ -8,4 +8,8 @@ struct SCVars
 
 public:
 	void InitCVars(IConsole *pConsole);
+	void InitCCmds(IConsole *pConsole);
+
+protected:
+	static void CmdKill(IConsoleCmdArgs* pArgs);
 };

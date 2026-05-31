@@ -156,7 +156,12 @@ void CPlayerComponent::Initialize()
 	
 	// Register the RemoteReviveOnClient function as a Remote Method Invocation (RMI) that can be executed by the server on clients
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteShootOnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteDieOnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteDieOnClients)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
 }
 
 void CPlayerComponent::InitializeLocalPlayer()
@@ -244,8 +249,9 @@ void CPlayerComponent::InitializeLocalPlayer()
 	{
 		if (activationMode == eAAM_OnPress)
 		{
-			if (!IsRagdoll())
-				Ragdollize();
+			RemoteBlankParams params;
+
+			SRmi<RMI_WRAP(&CPlayerComponent::RemoteDieOnServer)>::InvokeOnServer(this, std::move(params));
 		}
 	});
 	m_pInputComponent->BindAction("player", "suicide", eAID_KeyboardMouse, eKI_L);
@@ -254,8 +260,9 @@ void CPlayerComponent::InitializeLocalPlayer()
 	{
 		if (activationMode == eAAM_OnPress)
 		{
-			if (IsRagdoll())
-				OnReadyForGameplayOnServer();
+			RemoteBlankParams params;
+
+			SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnServer)>::InvokeOnServer(this, std::move(params));
 		}
 	});
 	m_pInputComponent->BindAction("player", "respawn", eAID_KeyboardMouse, eKI_P);
@@ -320,7 +327,7 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 		if (event.nParam[0] != 0)
 		{
 			// Reset player when entering game mode
-			OnReadyForGameplayOnServer();
+			OnReadyForGameplayOnServer(true);
 		}
 	}
 	break;
@@ -832,7 +839,7 @@ void CPlayerComponent::LogConsole(Schematyc::CSharedString string)
 	CryLogAlways(string.c_str());
 }
 
-void CPlayerComponent::OnReadyForGameplayOnServer()
+void CPlayerComponent::OnReadyForGameplayOnServer(bool firstSpawn)
 {
 	CRY_ASSERT(gEnv->bServer, "This function should only be called on the server!");
 
@@ -843,22 +850,40 @@ void CPlayerComponent::OnReadyForGameplayOnServer()
 	// Invoke the RemoteReviveOnClient function on all remote clients, to ensure that Revive is called across the network
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::InvokeOnOtherClients(this, RemoteReviveParams{ newTransform.GetTranslation(), Quat(newTransform) });
 
-	// Go through all other players, and send the RemoteReviveOnClient on their instances to the new player that is ready for gameplay
-	const int channelId = m_pEntity->GetNetEntity()->GetChannelId();
-	CGamePlugin::GetInstance()->IterateOverPlayers([this, channelId](CPlayerComponent& player)
+	if (firstSpawn)
 	{
-		// Don't send the event for the player itself (handled in the RemoteReviveOnClient event above sent to all clients)
-		if (player.GetEntityId() == GetEntityId())
-			return;
+		// Go through all other players, and send the RemoteReviveOnClient on their instances to the new player that is ready for gameplay
+		const int channelId = m_pEntity->GetNetEntity()->GetChannelId();
+		CGamePlugin::GetInstance()->IterateOverPlayers([this, channelId](CPlayerComponent& player)
+		{
+			// Don't send the event for the player itself (handled in the RemoteReviveOnClient event above sent to all clients)
+			if (player.GetEntityId() == GetEntityId())
+				return;
 
-		// Only send the Revive event to players that have already respawned on the server
-		if (!player.m_isAlive)
-			return;
+			// Only send the Revive event to players that have already respawned on the server
+			if (!player.m_isAlive)
+				return;
 
-		// Revive this player on the new player's machine, on the location the existing player was currently at
-		const QuatT currentOrientation = QuatT(player.GetEntity()->GetWorldTM());
-		SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::InvokeOnClient(&player, RemoteReviveParams{ currentOrientation.t, currentOrientation.q }, channelId);
-	});
+			// Revive this player on the new player's machine, on the location the existing player was currently at
+			const QuatT currentOrientation = QuatT(player.GetEntity()->GetWorldTM());
+			SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::InvokeOnClient(&player, RemoteReviveParams{ currentOrientation.t, currentOrientation.q }, channelId);
+		});
+	}
+}
+
+bool CPlayerComponent::RemoteDieOnServer(RemoteBlankParams&& params, INetChannel* pNetChannel)
+{
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteDieOnClients)>::InvokeOnAllClients(this, std::move(params));
+
+	return true;
+}
+
+bool CPlayerComponent::RemoteDieOnClients(RemoteBlankParams&& params, INetChannel* pNetChannel)
+{
+	if (!IsRagdoll())
+		Ragdollize();
+
+	return true;
 }
 
 bool CPlayerComponent::RemoteShootOnServer(RemoteShootParams&& params, INetChannel* pNetChannel)
@@ -886,6 +911,14 @@ bool CPlayerComponent::RemoteReviveOnClient(RemoteReviveParams&& params, INetCha
 {
 	// Call the Revive function on this client
 	Revive(Matrix34::Create(Vec3(1.f), params.rotation, params.position));
+
+	return true;
+}
+
+bool CPlayerComponent::RemoteReviveOnServer(RemoteBlankParams && params, INetChannel * pNetChannel)
+{
+	if (!IsRagdoll())
+		OnReadyForGameplayOnServer(false);
 
 	return true;
 }

@@ -182,7 +182,7 @@ public:
 		desc.AddMember(&CPlayerComponent::m_jumpHeight, 'jhgt', "JumpHeight", "Jump Height", "Height at which the player jumps", 5.0f);
 	}
 
-	void OnReadyForGameplayOnServer();
+	void OnReadyForGameplayOnServer(bool firstSpawn);
 	bool IsLocalClient() const { return (m_pEntity->GetFlags() & ENTITY_FLAG_LOCAL_PLAYER) != 0; }
 
 protected:
@@ -216,9 +216,7 @@ protected:
 		Vec3 position;
 		Quat rotation;
 	};
-	// Remote method intended to be called on all remote clients when a player spawns on the server
-	bool RemoteReviveOnClient(RemoteReviveParams&& params, INetChannel* pNetChannel);
-	
+
 	struct RemoteShootParams
 	{
 		Vec3 position;
@@ -231,7 +229,21 @@ protected:
 		}
 	};
 
+	struct RemoteBlankParams
+	{
+		void SerializeWith(TSerialize ser)
+		{
+		}
+	};
+
+	// Remote method intended to be called on all remote clients when a player spawns on the server
+	bool RemoteReviveOnClient(RemoteReviveParams&& params, INetChannel* pNetChannel);
+	bool RemoteReviveOnServer(RemoteBlankParams&& params, INetChannel* pNetChannel);
+
 	bool RemoteShootOnServer(RemoteShootParams&& params, INetChannel* pNetChannel);
+
+	bool RemoteDieOnServer(RemoteBlankParams&& params, INetChannel* pNetChannel);
+	bool RemoteDieOnClients(RemoteBlankParams&& params, INetChannel* pNetChannel);
 
 protected:
 	bool m_isAlive = false;
