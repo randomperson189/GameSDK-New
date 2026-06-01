@@ -1,0 +1,131 @@
+<CrySchematyc CryXmlVersion="2" version="105" guid="ac9a9597-c21b-4ccd-b5e0-be477b156bab" scope="">
+ <root elementType="Class" guid="c1a70ee0-7ece-4781-9c99-19acb76e2f06" name="npc" Schematyc::EMPEnv="clientserver">
+  <userDocumentation author="User" description=""/>
+  <extensions />
+  <children>
+   <element elementType="Constructor" guid="9212b29e-9927-4526-a980-dad54e026d45" name="ConstructionGraph" Schematyc::EMPEnv="clientserver">
+    <userDocumentation author="User" description=""/>
+    <extensions>
+     <Graph>
+      <pos x="0" y="0"/>
+      <nodes>
+       <element key="cc7aa54e-2711-4345-9648-9aa249b8208e" typeGUID="12bdfa06-ba95-4e48-bb2d-bb48a7080abc">
+        <value guid="cc7aa54e-2711-4345-9648-9aa249b8208e">
+         <pos x="0" y="0"/>
+        </value>
+       </element>
+      </nodes>
+      <links />
+     </Graph>
+    </extensions>
+    <children />
+   </element>
+   <element elementType="SignalReceiver" guid="7c85f699-6576-4b97-a97d-abdfc8f4775e" name="SignalGraph" Schematyc::EMPEnv="clientserver" type="Universal" signalGUID="">
+    <userDocumentation author="User" description=""/>
+    <extensions>
+     <Graph>
+      <pos x="0" y="0"/>
+      <nodes>
+       <element key="f74d12fb-9a2e-466c-8e95-e3e7e0541091" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="f74d12fb-9a2e-466c-8e95-e3e7e0541091" objectGUID="">
+         <pos x="0" y="200"/>
+         <signalId domain="Env" guid="b2561caa-0753-458b-a91f-e8e38b0f0cdf"/>
+        </value>
+       </element>
+       <element key="a4958a20-3314-4cb2-b36b-82ccd4fae3a0" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="a4958a20-3314-4cb2-b36b-82ccd4fae3a0" objectGUID="">
+         <pos x="0" y="0"/>
+         <signalId domain="Env" guid="a9279137-7c66-491d-b9a0-8752c24c8979"/>
+        </value>
+       </element>
+       <element key="bb43033d-9fd4-4d9f-98c1-e2e3feca9222" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="bb43033d-9fd4-4d9f-98c1-e2e3feca9222" objectGUID="">
+         <pos x="0" y="100"/>
+         <signalId domain="Env" guid="52ad5add-7781-429b-b4a9-0cb6c905e353"/>
+        </value>
+       </element>
+      </nodes>
+      <links />
+     </Graph>
+    </extensions>
+    <children />
+   </element>
+   <element elementType="Base" guid="8c31ef03-ed41-4d35-bf29-328dfd5a2db3" name="Base [Entity]" Schematyc::EMPEnv="clientserver">
+    <classId domain="Env" guid="be845278-0dd2-409f-b8be-97895607c256"/>
+    <envClassProperties icon="%EDITOR%/objecticons/schematyc.bmp" bHideInEditor="false" bTriggerAreas="true" bCreatePerClient="false"/>
+    <extensions />
+    <children>
+     <element elementType="ComponentInstance" guid="91ab605c-9634-489c-b853-989ad76f6530" name="Entity" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="e88093df-904f-4c52-af38-911e26777cdc">
+      <properties />
+      <extensions />
+      <children />
+     </element>
+    </children>
+   </element>
+   <element elementType="ComponentInstance" guid="86403ccb-eeca-4a90-bce3-49e7a05634c3" name="Character Controller" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="98183f31-a685-43cd-92a9-815274f0a81c">
+    <transform>
+     <translation>
+      <position>
+       <element element="0"/>
+       <element element="0"/>
+       <element element="1"/>
+      </position>
+     </translation>
+     <rotation x="0" y="-0" z="0"/>
+     <scale>
+      <element element="1"/>
+      <element element="1"/>
+      <element element="1"/>
+     </scale>
+    </transform>
+    <properties Networked="false">
+     <Physics Mass="80" Radius="0.44999999" Height="0.935" Capsule="true" GroundContactEps="0.0040000002" SendCollisionSignal="false"/>
+     <Movement AirControl="0" AirResistance="0.2" Inertia="8" InertiaAcc="8" MaxClimb="0.87266463" MaxJump="0.87266463" MinSlide="1.2217305" MinFall="1.3962634" MaxGroundVelocity="16"/>
+    </properties>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="ComponentInstance" guid="26607c15-29af-4e5c-a5e7-f70db872678c" name="Advanced Animations" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="3cd5ddc5-ee15-437f-a997-79c2391537fe">
+    <transform>
+     <translation>
+      <position>
+       <element element="0"/>
+       <element element="0"/>
+       <element element="0"/>
+      </position>
+     </translation>
+     <rotation x="0" y="-0" z="0"/>
+     <scale>
+      <element element="1"/>
+      <element element="1"/>
+      <element element="1"/>
+     </scale>
+    </transform>
+    <properties Type="RenderAndCollider" Character="Objects/Characters/human/sdk_player/sdk_player.cdf" Material="" DatabasePath="" ControllerDefPath="" DefaultScope="" DefaultFragment="" AnimDriven="true" GroundAlign="true">
+     <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+     <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+    </properties>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="ComponentInstance" guid="a595a471-985b-4ac4-a6c4-38a0d504545f" name="AI Navigation Agent" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="1b988fa3-2cc8-4dfa-9107-a63aded77e91">
+    <properties agent="MediumSizedCharacters" updateTransf="false">
+     <movement normalSpeed="4" minSpeed="0" maxSpeed="6" maxAcceleration="4" maxDeceleration="6" lookAheadDistance="0.5" stopAtEnd="true"/>
+     <colavoid type="Active" radius="0.30000001" height="2"/>
+     <queryFilter AreasCount="1">
+      <AreaCost id="0" cost="1"/>
+      <IncludeFlags mask="3"/>
+      <ExcludeFlags mask="0"/>
+     </queryFilter>
+    </properties>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="ComponentInstance" guid="cb7a4361-28cd-4754-af33-77bc1e45ef9d" name="CNPCComponent" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="ed8dd598-40ff-4e9b-857d-16264cba5732">
+    <properties />
+    <extensions />
+    <children />
+   </element>
+  </children>
+ </root>
+</CrySchematyc>
