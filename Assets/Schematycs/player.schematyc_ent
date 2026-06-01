@@ -56,7 +56,7 @@
          <pos x="526" y="-312"/>
          <functionId domain="Env" guid="c882d81e-1c87-428f-8418-b6896a85577b"/>
          <inputs>
-          <element value="10">
+          <element value="8.4399996">
            <key type="UInt32" value="1836281956"/>
           </element>
          </inputs>
@@ -415,7 +415,7 @@
          <pos x="526" y="-1012"/>
          <functionId domain="Env" guid="c882d81e-1c87-428f-8418-b6896a85577b"/>
          <inputs>
-          <element value="5">
+          <element value="4">
            <key type="UInt32" value="1836281956"/>
           </element>
          </inputs>
@@ -910,7 +910,7 @@
     </children>
    </element>
    <element elementType="ComponentInstance" guid="49480795-1c51-4ee3-928f-e4678b5a9e5f" name="CPlayerComponent" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="63f4c0c6-32af-4acb-8fb0-57d45dd14725">
-    <properties MoveSpeed="5" RotationSpeed="0.0020000001" RotationLimitsMinPitch="-1.5" RotationLimitsMaxPitch="1.5" JumpHeight="5"/>
+    <properties MoveSpeed="4" RotationSpeed="0.0020000001" RotationLimitsMinPitch="-1.5" RotationLimitsMaxPitch="1.5" JumpHeight="5"/>
     <extensions />
     <children />
    </element>
@@ -942,11 +942,11 @@
      <translation>
       <position>
        <element element="0"/>
-       <element element="0.013497401"/>
-       <element element="1.7497571"/>
+       <element element="-2"/>
+       <element element="2"/>
       </position>
      </translation>
-     <rotation x="-2.0626955" y="-0" z="-0"/>
+     <rotation x="-14.667726" y="0" z="0"/>
      <scale>
       <element element="1"/>
       <element element="1"/>
@@ -980,7 +980,7 @@
     </transform>
     <properties Networked="false">
      <Physics Mass="80" Radius="1" Height="1.25" Capsule="true" GroundContactEps="0.0040000002" SendCollisionSignal="true"/>
-     <Movement AirControl="0" AirResistance="0.2" Inertia="8" InertiaAcc="8" MaxClimb="0.87266463" MaxJump="0.87266463" MinSlide="1.2217305" MinFall="1.3962634" MaxGroundVelocity="16"/>
+     <Movement AirControl="0.25" AirResistance="0.2" Inertia="8" InertiaAcc="8" MaxClimb="0.87266463" MaxJump="0.87266463" MinSlide="1.2217305" MinFall="1.3962634" MaxGroundVelocity="16"/>
     </properties>
     <extensions />
     <children />
@@ -999,11 +999,11 @@
      <translation>
       <position>
        <element element="-0.046"/>
-       <element element="-0.31927326"/>
-       <element element="0.15069833"/>
+       <element element="-2.6737111"/>
+       <element element="0.5121026"/>
       </position>
      </translation>
-     <rotation x="-2.0626955" y="-0" z="-0"/>
+     <rotation x="-14.667726" y="0" z="0"/>
      <scale>
       <element element="1"/>
       <element element="1"/>

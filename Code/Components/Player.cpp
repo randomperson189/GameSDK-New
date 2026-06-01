@@ -917,7 +917,7 @@ bool CPlayerComponent::RemoteReviveOnClient(RemoteReviveParams&& params, INetCha
 
 bool CPlayerComponent::RemoteReviveOnServer(RemoteBlankParams && params, INetChannel * pNetChannel)
 {
-	if (!IsRagdoll())
+	if (IsRagdoll())
 		OnReadyForGameplayOnServer(false);
 
 	return true;
