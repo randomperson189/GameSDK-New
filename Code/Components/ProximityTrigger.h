@@ -29,7 +29,7 @@ public:
 		desc.SetEditorCategory("Game");
 		desc.SetLabel("Proximity Trigger");
 		desc.SetDescription("Creates a simple proximity trigger for entities");
-		desc.SetComponentFlags({ IEntityComponent::EFlags::Transform, IEntityComponent::EFlags::Socket, IEntityComponent::EFlags::Attach/*, IEntityComponent::EFlags::HideFromInspector*/, IEntityComponent::EFlags::Singleton });
+		desc.SetComponentFlags({ IEntityComponent::EFlags::Transform, IEntityComponent::EFlags::Socket, IEntityComponent::EFlags::Attach/*, IEntityComponent::EFlags::HideFromInspector, IEntityComponent::EFlags::Singleton*/ });
 
 		desc.AddMember(&CProximityTriggerComponent::m_triggerBoxSize, 'bnds', "Bounds", "Bounds", "Bounds of the trigger box", Vec3(0, 0, 0));
 		desc.AddMember(&CProximityTriggerComponent::m_bActive, 'actv', "Active", "Active", "Is this trigger activated or not", true);
