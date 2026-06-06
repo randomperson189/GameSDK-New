@@ -1,0 +1,103 @@
+<CrySchematyc CryXmlVersion="2" version="105" guid="4fecce0a-d428-4fab-b7e9-6cd5c5e28354" scope="">
+ <root elementType="Class" guid="661ae2b4-8858-49f7-a48c-a9dc9671ae79" name="weapon" Schematyc::EMPEnv="clientserver">
+  <userDocumentation author="User" description=""/>
+  <extensions />
+  <children>
+   <element elementType="Constructor" guid="b6f0a0f5-a634-4fc5-b06d-1b3a04d6a7ea" name="ConstructionGraph" Schematyc::EMPEnv="clientserver">
+    <userDocumentation author="User" description=""/>
+    <extensions>
+     <Graph>
+      <pos x="0" y="0"/>
+      <nodes>
+       <element key="9bb2d831-8c62-4dc3-8299-3bbee5c404f7" typeGUID="12bdfa06-ba95-4e48-bb2d-bb48a7080abc">
+        <value guid="9bb2d831-8c62-4dc3-8299-3bbee5c404f7">
+         <pos x="0" y="0"/>
+        </value>
+       </element>
+      </nodes>
+      <links />
+     </Graph>
+    </extensions>
+    <children />
+   </element>
+   <element elementType="SignalReceiver" guid="77533ae0-0087-4500-b291-b6b6c2f0eb1d" name="SignalGraph" Schematyc::EMPEnv="clientserver" type="Universal" signalGUID="">
+    <userDocumentation author="User" description=""/>
+    <extensions>
+     <Graph>
+      <pos x="0" y="0"/>
+      <nodes>
+       <element key="dcbfc74b-a26c-4277-b293-a0d6ea2da3ac" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="dcbfc74b-a26c-4277-b293-a0d6ea2da3ac" objectGUID="">
+         <pos x="0" y="100"/>
+         <signalId domain="Env" guid="52ad5add-7781-429b-b4a9-0cb6c905e353"/>
+        </value>
+       </element>
+       <element key="a14c1a89-be7f-4398-b349-2738c6ac8694" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="a14c1a89-be7f-4398-b349-2738c6ac8694" objectGUID="">
+         <pos x="0" y="200"/>
+         <signalId domain="Env" guid="b2561caa-0753-458b-a91f-e8e38b0f0cdf"/>
+        </value>
+       </element>
+       <element key="2bed525f-0983-4f18-aaff-6000e3641deb" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="2bed525f-0983-4f18-aaff-6000e3641deb" objectGUID="">
+         <pos x="0" y="0"/>
+         <signalId domain="Env" guid="a9279137-7c66-491d-b9a0-8752c24c8979"/>
+        </value>
+       </element>
+      </nodes>
+      <links />
+     </Graph>
+    </extensions>
+    <children />
+   </element>
+   <element elementType="Base" guid="a3f6ffad-5e4e-42f6-b0c7-2d5a06b175a8" name="Base [Entity]" Schematyc::EMPEnv="clientserver">
+    <classId domain="Env" guid="be845278-0dd2-409f-b8be-97895607c256"/>
+    <envClassProperties icon="%EDITOR%/objecticons/schematyc.bmp" bHideInEditor="false" bTriggerAreas="true" bCreatePerClient="false"/>
+    <extensions />
+    <children>
+     <element elementType="ComponentInstance" guid="c054d5c3-4193-4bb8-aa98-ce9a0b1778ba" name="Entity" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="e88093df-904f-4c52-af38-911e26777cdc">
+      <properties />
+      <extensions />
+      <children />
+     </element>
+    </children>
+   </element>
+   <element elementType="ComponentInstance" guid="867e453d-ddaa-4bc3-95bb-fb8f43cd395e" name="Weapon Component" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="a7822024-0228-4d13-af99-043f418fa36d">
+    <properties Damage="5"/>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="ComponentInstance" guid="22bdce96-ee06-4852-a6c8-b68c989dc25a" name="Mesh" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29">
+    <transform>
+     <translation>
+      <position>
+       <element element="0"/>
+       <element element="0"/>
+       <element element="0"/>
+      </position>
+     </translation>
+     <rotation x="0" y="-0" z="0"/>
+     <scale>
+      <element element="1"/>
+      <element element="1"/>
+      <element element="1"/>
+     </scale>
+    </transform>
+    <properties Type="RenderAndCollider" FilePath="Objects/Weapons/pistol/pistol_tp.cgf" Material="">
+     <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+     <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+    </properties>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="ComponentInstance" guid="5a3dd836-5962-41d6-8f83-61b97e756d6e" name="Rigidbody" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6">
+    <properties Networked="false" EnabledByDefault="true" Resting="false" Type="Rigid" SendCollisionSignal="false">
+     <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
+     <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
+    </properties>
+    <extensions />
+    <children />
+   </element>
+  </children>
+ </root>
+</CrySchematyc>

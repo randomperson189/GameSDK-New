@@ -53,6 +53,15 @@ enum EPlayerScopes : uint32
 	Scope_32 = BIT(31)
 };
 
+struct SActionDef
+{
+	string group;
+	string name;
+	string key;
+	bool onPress;
+	bool onRelease;
+};
+
 typedef CEnumFlags<EPlayerScopes> EPlayerScopeMask;
 
 static void ReflectType(Schematyc::CTypeDesc<EPlayerScopes>& desc)
@@ -288,6 +297,8 @@ protected:
 
 	float m_moveSpeed = 5.0f;
 	Vec2 m_movementDelta = ZERO;
+
+	bool GetActionMapsFromProfile();
 
 public:
 	void Jump();

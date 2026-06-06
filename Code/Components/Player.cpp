@@ -11,6 +11,7 @@
 #include <CrySchematyc/Env/Elements/EnvSignal.h>
 #include <CryCore/StaticInstanceList.h>
 #include <CryNetwork/Rmi.h>
+#include <CryCore/Platform/IPlatformOS.h>
 
 #define MOUSE_DELTA_TRESHOLD 0.0001f
 
@@ -206,6 +207,8 @@ void CPlayerComponent::InitializeLocalPlayer()
 
 	// Get the input component, wraps access to action mapping so we can easily get callbacks when inputs are triggered
 	m_pInputComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CInputComponent>();
+
+	GetActionMapsFromProfile();
 
 	// Register an action, and the callback that will be sent when it's triggered
 	m_pInputComponent->RegisterAction("player", "moveleft", [this](int activationMode, float value) {m_movementDelta.x = -value; HandleInputFlagChange(EInputFlag::MoveLeft, (EActionActivationMode)activationMode); });
@@ -546,6 +549,49 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 	{
 		gEnv->pRenderer->GetIRenderAuxGeom()->Draw2dLabel(50.0f, 50.0f, 1.5f, Col_Orange, false, "Player Schematyc was edited, please reopen the level if player isn't working propely");
 	}
+}
+
+bool CPlayerComponent::GetActionMapsFromProfile()
+{
+	XmlNodeRef rootNode = GetISystem()->LoadXmlFromFile("libs/config/defaultProfile.xml");
+	if (rootNode)
+	{
+		int version = -1;
+		if (!rootNode->getAttr("version", version))
+		{
+			CryWarning(VALIDATOR_MODULE_GAME, VALIDATOR_WARNING, "Obsolete action map format - version info is missing");
+			return false;
+		}
+
+		//	get action map data
+		int nChildren = rootNode->getChildCount();
+		for (int i = 0; i < nChildren; ++i)
+		{
+			XmlNodeRef child = rootNode->getChild(i);
+			if (!strcmp(child->getTag(), "actionmap"))
+			{
+				const char* actionMapName = child->getAttr("name");
+
+				CryLogAlways("found action map: %s", actionMapName);
+
+				//	get action map data
+				int nChildren = child->getChildCount();
+				for (int i = 0; i < nChildren; ++i)
+				{
+					XmlNodeRef child2 = child->getChild(i);
+					if (!strcmp(child2->getTag(), "action"))
+					{
+						CryLogAlways("found action: %s", child2->getAttr("name"));
+					}
+				}
+			}
+		}
+	}
+	else
+	{
+		CryWarning(VALIDATOR_MODULE_GAME, VALIDATOR_WARNING, "GetActionMapsFromProfile: Failed to open %s, action mappings loading will fail", "libs/config/defaultProfile.xml");
+	}
+	return false;
 }
 
 void CPlayerComponent::Jump()
