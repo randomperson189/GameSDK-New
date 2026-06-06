@@ -114,6 +114,7 @@ class CPlayerComponent final : public IEntityComponent
 	};
 	
 	static constexpr EEntityAspects InputAspect = eEA_GameClientD;
+	static constexpr EEntityAspects WeaponAspect = eEA_GameClientA;
 
 	template<typename T, size_t SAMPLES_COUNT>
 	class MovingAverage
@@ -177,7 +178,7 @@ public:
 	virtual void ProcessEvent(const SEntityEvent& event) override;
 	
 	virtual bool NetSerialize(TSerialize ser, EEntityAspects aspect, uint8 profile, int flags) override;
-	virtual NetworkAspectType GetNetSerializeAspectMask() const override { return InputAspect; }
+	virtual NetworkAspectType GetNetSerializeAspectMask() const override { return InputAspect | WeaponAspect; }
 	// ~IEntityComponent
 
 	// Reflect type to set a unique identifier for this component
@@ -206,6 +207,8 @@ protected:
 
 	// Called when this entity becomes the local player, to create client specific setup such as the Camera
 	void InitializeLocalPlayer();
+
+	void SpawnDefaultWeapon();
 
 	// Start remote method declarations
 protected:
@@ -297,6 +300,8 @@ protected:
 
 	float m_moveSpeed = 5.0f;
 	Vec2 m_movementDelta = ZERO;
+
+	EntityId m_pActiveWeapon;
 
 	bool GetActionMapsFromProfile();
 

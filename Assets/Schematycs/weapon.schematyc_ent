@@ -62,11 +62,6 @@
      </element>
     </children>
    </element>
-   <element elementType="ComponentInstance" guid="867e453d-ddaa-4bc3-95bb-fb8f43cd395e" name="Weapon Component" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="a7822024-0228-4d13-af99-043f418fa36d">
-    <properties Damage="5"/>
-    <extensions />
-    <children />
-   </element>
    <element elementType="ComponentInstance" guid="22bdce96-ee06-4852-a6c8-b68c989dc25a" name="Mesh" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29">
     <transform>
      <translation>
@@ -90,11 +85,8 @@
     <extensions />
     <children />
    </element>
-   <element elementType="ComponentInstance" guid="5a3dd836-5962-41d6-8f83-61b97e756d6e" name="Rigidbody" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="912c6ce8-56f7-4ffa-9134-f98d4e307bd6">
-    <properties Networked="false" EnabledByDefault="true" Resting="false" Type="Rigid" SendCollisionSignal="false">
-     <Buoyancy Damping="0" Density="1000" Resistance="1000"/>
-     <Simulation MaxTimeStep="0.02" SleepSpeed="0.039999999" Damping="0"/>
-    </properties>
+   <element elementType="ComponentInstance" guid="1cd8a238-e1b7-4670-85b3-8cbd559d32e3" name="Weapon Component" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="a7822024-0228-4d13-af99-043f418fa36d">
+    <properties Damage="5"/>
     <extensions />
     <children />
    </element>

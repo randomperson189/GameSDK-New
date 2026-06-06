@@ -4,6 +4,7 @@
 #include "Bullet.h"
 #include "SpawnPoint.h"
 #include "GamePlugin.h"
+#include "Weapon.h"
 
 #include <CryRenderer/IRenderAuxGeom.h>
 #include <CrySchematyc/Env/Elements/EnvComponent.h>
@@ -282,6 +283,7 @@ Cry::Entity::EventFlags CPlayerComponent::GetEventMask() const
 	return
 		Cry::Entity::EEvent::BecomeLocalPlayer |
 		Cry::Entity::EEvent::Update |
+		Cry::Entity::EEvent::TimerExpired |
 		Cry::Entity::EEvent::Reset;
 }
 
@@ -319,6 +321,20 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 		{
 			// Update the camera component offset
 			UpdateCamera(frameTime);
+		}
+	}
+	break;
+	case Cry::Entity::EEvent::TimerExpired:
+	{
+		switch (event.nParam[0])
+		{
+		case 1:
+		{
+			SpawnDefaultWeapon();
+
+			NetMarkAspectsDirty(WeaponAspect);
+		}
+		break;
 		}
 	}
 	break;
@@ -366,6 +382,19 @@ bool CPlayerComponent::NetSerialize(TSerialize ser, EEntityAspects aspect, uint8
 
 		// Serialize the player look orientation
 		ser.Value("m_lookOrientation", m_lookOrientation, 'ori3');
+
+		ser.EndGroup();
+	}
+	else if (aspect == WeaponAspect)
+	{
+		ser.BeginGroup("WeaponAspect");
+
+		ser.Value("m_pActiveWeapon", m_pActiveWeapon);
+
+		if (ser.IsReading())
+		{
+			CryLogAlways("[WeaponAspect] received weapon entity id: %u", m_pActiveWeapon);
+		}
 
 		ser.EndGroup();
 	}
@@ -885,6 +914,62 @@ void CPlayerComponent::LogConsole(Schematyc::CSharedString string)
 	CryLogAlways(string.c_str());
 }
 
+void CPlayerComponent::SpawnDefaultWeapon()
+{
+	SEntitySpawnParams spawnParams;
+	spawnParams.pClass = gEnv->pEntitySystem->GetClassRegistry()->FindClass("schematyc::schematycs::weapon");
+	spawnParams.vPosition = GetWorldTransformMatrix().GetTranslation();
+
+	if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams))
+	{
+		pEntity->GetComponent<CWeaponComponent>()->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
+
+		m_pActiveWeapon = pEntity->GetId();
+
+		if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+		{
+			if (ICharacterInstance* pCharInstance = m_pAnimationComponent2->GetCharacter())
+			{
+				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+				{
+					/*CEntityAttachment* pEntityAttachment = new CEntityAttachment();
+					pEntityAttachment->SetEntityId(pEntity->GetId());
+					pEntityAttachment->SetScale(Vec3(1.f, 1.f, 1.f));
+
+					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pEntityAttachment);*/
+
+					CCGFAttachment* pCGFAttachment = new CCGFAttachment();
+					pCGFAttachment->pObj = pWeaponEntity->GetStatObj(0);
+
+					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
+				}
+			}
+
+			if (ICharacterInstance* pCharInstance = m_pAnimationComponent->GetCharacter())
+			{
+				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+				{
+					/*CEntityAttachment* pEntityAttachment = new CEntityAttachment();
+					pEntityAttachment->SetEntityId(pEntity->GetId());
+					pEntityAttachment->SetScale(Vec3(1.f, 1.f, 1.f));
+
+					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pEntityAttachment);*/
+
+					CCGFAttachment* pCGFAttachment = new CCGFAttachment();
+					pCGFAttachment->pObj = pWeaponEntity->GetStatObj(0);
+
+					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
+				}
+			}
+
+			if (auto* meshcomp = pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>())
+			{
+				meshcomp->SetMeshType(Cry::DefaultComponents::EMeshType::None);
+			}
+		}
+	}
+}
+
 void CPlayerComponent::OnReadyForGameplayOnServer(bool firstSpawn)
 {
 	CRY_ASSERT(gEnv->bServer, "This function should only be called on the server!");
@@ -915,10 +1000,25 @@ void CPlayerComponent::OnReadyForGameplayOnServer(bool firstSpawn)
 			SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::InvokeOnClient(&player, RemoteReviveParams{ currentOrientation.t, currentOrientation.q }, channelId);
 		});
 	}
+
+	if (gEnv->IsEditor())
+	{
+		if (gEnv->IsEditorGameMode())
+			SpawnDefaultWeapon();
+	}
+	else
+	{
+		SetTimer(1, 1);
+	}
 }
 
 bool CPlayerComponent::RemoteDieOnServer(RemoteBlankParams&& params, INetChannel* pNetChannel)
 {
+	if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+	{
+		gEnv->pEntitySystem->RemoveEntity(m_pActiveWeapon);
+	}
+
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteDieOnClients)>::InvokeOnAllClients(this, std::move(params));
 
 	return true;
