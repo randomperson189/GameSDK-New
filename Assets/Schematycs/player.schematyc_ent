@@ -1508,6 +1508,11 @@
     <extensions />
     <children />
    </element>
+   <element elementType="ComponentInstance" guid="ce9d0e4c-5eb2-4c06-b8eb-891ae23f675d" name="Trigger Areas" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="8a5bfbdb-958e-4287-bb7a-84b68aa84013">
+    <properties TriggerAreas="true"/>
+    <extensions />
+    <children />
+   </element>
   </children>
  </root>
 </CrySchematyc>

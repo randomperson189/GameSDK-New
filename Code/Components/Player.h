@@ -114,7 +114,7 @@ class CPlayerComponent final : public IEntityComponent
 	};
 	
 	static constexpr EEntityAspects InputAspect = eEA_GameClientD;
-	static constexpr EEntityAspects WeaponAspect = eEA_GameClientA;
+	static constexpr EEntityAspects WeaponAspect = eEA_GameServerA;
 
 	template<typename T, size_t SAMPLES_COUNT>
 	class MovingAverage

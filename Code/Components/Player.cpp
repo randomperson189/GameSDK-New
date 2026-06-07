@@ -335,6 +335,11 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 			NetMarkAspectsDirty(WeaponAspect);
 		}
 		break;
+		case 2:
+		{
+			
+		}
+		break;
 		}
 	}
 	break;
@@ -389,12 +394,56 @@ bool CPlayerComponent::NetSerialize(TSerialize ser, EEntityAspects aspect, uint8
 	{
 		ser.BeginGroup("WeaponAspect");
 
-		ser.Value("m_pActiveWeapon", m_pActiveWeapon);
+		ser.Value("m_pActiveWeapon", m_pActiveWeapon, 'eid');
 
-		if (ser.IsReading())
+		if (ser.IsReading() && m_pActiveWeapon != 0)
 		{
-			CryLogAlways("[WeaponAspect] received weapon entity id: %u", m_pActiveWeapon);
+			CryLogAlways("[WeaponAspect] %s received weapon entity id: %u", m_pEntity->GetName(), m_pActiveWeapon);
+
+			if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+			{
+				if (ICharacterInstance* pCharInstance = m_pAnimationComponent2->GetCharacter())
+				{
+					if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+					{
+						/*CEntityAttachment* pEntityAttachment = new CEntityAttachment();
+						pEntityAttachment->SetEntityId(pEntity->GetId());
+						pEntityAttachment->SetScale(Vec3(1.f, 1.f, 1.f));
+
+						pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pEntityAttachment);*/
+
+						CCGFAttachment* pCGFAttachment = new CCGFAttachment();
+						pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
+
+						pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
+					}
+				}
+
+				if (ICharacterInstance* pCharInstance = m_pAnimationComponent->GetCharacter())
+				{
+					if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+					{
+						/*CEntityAttachment* pEntityAttachment = new CEntityAttachment();
+						pEntityAttachment->SetEntityId(pEntity->GetId());
+						pEntityAttachment->SetScale(Vec3(1.f, 1.f, 1.f));
+
+						pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pEntityAttachment);*/
+
+						CCGFAttachment* pCGFAttachment = new CCGFAttachment();
+						pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
+
+						pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
+					}
+				}
+
+				if (auto* meshcomp = pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>())
+				{
+					meshcomp->SetMeshType(Cry::DefaultComponents::EMeshType::None);
+				}
+			}
 		}
+
+		//CryLogAlways("[WeaponAspect] received weapon entity id: %u", m_pActiveWeapon);
 
 		ser.EndGroup();
 	}
@@ -918,6 +967,7 @@ void CPlayerComponent::SpawnDefaultWeapon()
 {
 	SEntitySpawnParams spawnParams;
 	spawnParams.pClass = gEnv->pEntitySystem->GetClassRegistry()->FindClass("schematyc::schematycs::weapon");
+	spawnParams.sName = "schematyc::schematycs::weapon";
 	spawnParams.vPosition = GetWorldTransformMatrix().GetTranslation();
 
 	if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams))
@@ -925,6 +975,8 @@ void CPlayerComponent::SpawnDefaultWeapon()
 		pEntity->GetComponent<CWeaponComponent>()->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
 
 		m_pActiveWeapon = pEntity->GetId();
+
+		CryLogAlways("MY ENTITY SPAWNED ID %u", pEntity->GetId());
 
 		if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
 		{
@@ -939,7 +991,7 @@ void CPlayerComponent::SpawnDefaultWeapon()
 					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pEntityAttachment);*/
 
 					CCGFAttachment* pCGFAttachment = new CCGFAttachment();
-					pCGFAttachment->pObj = pWeaponEntity->GetStatObj(0);
+					pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
 
 					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
 				}
@@ -956,7 +1008,7 @@ void CPlayerComponent::SpawnDefaultWeapon()
 					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pEntityAttachment);*/
 
 					CCGFAttachment* pCGFAttachment = new CCGFAttachment();
-					pCGFAttachment->pObj = pWeaponEntity->GetStatObj(0);
+					pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
 
 					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
 				}
@@ -1034,20 +1086,9 @@ bool CPlayerComponent::RemoteDieOnClients(RemoteBlankParams&& params, INetChanne
 
 bool CPlayerComponent::RemoteShootOnServer(RemoteShootParams&& params, INetChannel* pNetChannel)
 {
-	SEntitySpawnParams spawnParams;
-	spawnParams.pClass = gEnv->pEntitySystem->GetClassRegistry()->FindClass("schematyc::schematycs::bullet");
-
-	spawnParams.vPosition = params.position;
-	spawnParams.qRotation = params.rotation;
-
-	const float bulletScale = 0.05f;
-	spawnParams.vScale = Vec3(bulletScale);
-
-	// Spawn the entity
-	if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams))
+	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
 	{
-		// See Bullet.cpp, bullet is propelled in  the rotation and position the entity was spawned with
-		//pEntity->CreateComponentClass<CBulletComponent>();
+		weapon->GetComponent<CWeaponComponent>()->Fire();
 	}
 
 	return true;
