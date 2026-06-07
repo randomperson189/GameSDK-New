@@ -185,7 +185,7 @@ public:
 	static void ReflectType(Schematyc::CTypeDesc<CPlayerComponent>& desc)
 	{
 		desc.SetGUID("{63F4C0C6-32AF-4ACB-8FB0-57D45DD14725}"_cry_guid);
-		desc.AddMember(&CPlayerComponent::m_moveSpeed, 'mspd', "MoveSpeed", "Move Speed", "Speed of the player", 5.0f);
+		desc.AddMember(&CPlayerComponent::m_moveSpeedWalking, 'mspw', "MoveSpeedWalking", "Move Speed Walking", "Speed of the player when walking", 4.0f);
 		desc.AddMember(&CPlayerComponent::m_moveSpeedCrouching, 'mspc', "MoveSpeedCrouching", "Move Speed Crouching", "Speed of the player when crouching", 2.0f);
 		desc.AddMember(&CPlayerComponent::m_moveSpeedSprinting, 'msps', "MoveSpeedSprinting", "Move Speed Sprinting", "Speed of the player when sprinting", 8.44f);
 		desc.AddMember(&CPlayerComponent::m_rotationSpeed, 'rspd', "RotationSpeed", "Rotation Speed", "Speed at which the player rotates", 0.002f);
@@ -286,10 +286,17 @@ protected:
 	float m_baseHeight = 1.375f;
 	float m_torsoHeight = 0.375f;
 
+	float m_baseHeightCrouching = 1.0f;
+
+
+	float m_currentBaseHeight = 0.0f;
+
 	bool m_bIsThirdPersonCamera = false;
 	bool m_bCrouching = false;
 
 	int m_cameraJointId = -1;
+
+	Vec3 m_smoothedOffset;
 
 	IActionPtr m_pFullBody1PAction;
 	IActionPtr m_pTorso1PAction;
@@ -301,7 +308,8 @@ protected:
 	float m_horizontalAngularVelocity;
 	MovingAverage<float, 10> m_averagedHorizontalAngularVelocity;
 
-	float m_moveSpeed = 4.0f;
+	float m_currentMoveSpeed;
+	float m_moveSpeedWalking = 4.0f;
 	float m_moveSpeedCrouching = 2.0f;
 	float m_moveSpeedSprinting = 8.44f;
 	Vec2 m_movementDelta = ZERO;

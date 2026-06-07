@@ -14,6 +14,8 @@
 #include <CryNetwork/Rmi.h>
 #include <CryCore/Platform/IPlatformOS.h>
 
+#include <cmath>
+
 #define MOUSE_DELTA_TRESHOLD 0.0001f
 
 namespace
@@ -83,6 +85,13 @@ namespace
 				pFunction->SetDescription("Logs to the console");
 				pFunction->SetFlags(Schematyc::EEnvFunctionFlags::Construction);
 				pFunction->BindInput(1, 'str', "String");
+				componentScope.Register(pFunction);
+			}
+
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetCrouching, "{C27EFC99-43AA-4AE6-A521-AF0BBC127D26}"_cry_guid, "Set Crouching");
+				pFunction->SetDescription("Sets crouching");
+				pFunction->BindInput(1, 'crch', "Crouching");
 				componentScope.Register(pFunction);
 			}
 
@@ -467,13 +476,13 @@ void CPlayerComponent::UpdateMovementRequest(float frameTime)
 		if (m_pCameraComponent)
 		{
 			// Rotate input by camera rotation (includes pitch) for 3D swimming
-			finalVelocity = m_pCameraComponent->GetCamera().GetMatrix().TransformVector(input) * m_moveSpeed;
+			finalVelocity = m_pCameraComponent->GetCamera().GetMatrix().TransformVector(input) * m_currentMoveSpeed;
 		}
 	}
 	else
 	{
 		// Land movement: rotate input by entity rotation (XY only)
-		finalVelocity = GetEntity()->GetWorldRotation() * input * m_moveSpeed;
+		finalVelocity = GetEntity()->GetWorldRotation() * input * m_currentMoveSpeed;
 	}
 
 	m_pCharacterController->SetVelocity(finalVelocity);
@@ -570,6 +579,18 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 		ypr.z = 0;
 	}
 
+
+	if (m_bCrouching)
+	{
+		//m_currentBaseHeight = m_baseHeightCrouching;
+
+		m_currentBaseHeight += (m_baseHeightCrouching - m_currentBaseHeight) * 10 * frameTime;
+	}
+	else
+	{
+		m_currentBaseHeight += (m_baseHeight - m_currentBaseHeight) * 10 * frameTime;
+	}
+
 	// Start with changing view rotation to the requested mouse look orientation
 	Matrix34 localTransform = IDENTITY;
 	localTransform.SetRotation33(CCamera::CreateOrientationYPR(ypr));
@@ -581,7 +602,7 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 	{
 		if (!IsRagdoll())
 		{
-			Vec3 finalOffset = Vec3(0, 0, m_baseHeight) + (localTransform.GetColumn2() * m_torsoHeight);
+			Vec3 finalOffset = Vec3(0, 0, m_currentBaseHeight) + (localTransform.GetColumn2() * m_torsoHeight);
 			localTransform.SetTranslation(finalOffset);
 		}
 		else
@@ -699,7 +720,7 @@ void CPlayerComponent::Shoot()
 
 void CPlayerComponent::SetCrouching(bool crouching)
 {
-	
+	m_bCrouching = crouching;
 }
 
 bool CPlayerComponent::IsSwimming()
@@ -735,7 +756,7 @@ bool CPlayerComponent::IsRagdoll()
 
 void CPlayerComponent::SetMoveSpeed(float moveSpeed)
 {
-	m_moveSpeed = moveSpeed;
+	m_currentMoveSpeed = moveSpeed;
 }
 void CPlayerComponent::SetRotationSpeed(float rotationSpeed)
 {
@@ -753,7 +774,7 @@ void CPlayerComponent::SetJumpHeight(float jumpHeight)
 
 float CPlayerComponent::GetMoveSpeed()
 {
-	return m_moveSpeed;
+	return m_currentMoveSpeed;
 }
 float CPlayerComponent::GetRotationSpeed()
 {
@@ -1154,6 +1175,8 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 	m_averagedHorizontalAngularVelocity.Reset();
 
 	m_bIsThirdPersonCamera = false;
+	m_currentMoveSpeed = m_moveSpeedWalking;
+	m_currentBaseHeight = m_baseHeight;
 
 	if (IsLocalClient())
 	{
