@@ -186,6 +186,8 @@ public:
 	{
 		desc.SetGUID("{63F4C0C6-32AF-4ACB-8FB0-57D45DD14725}"_cry_guid);
 		desc.AddMember(&CPlayerComponent::m_moveSpeed, 'mspd', "MoveSpeed", "Move Speed", "Speed of the player", 5.0f);
+		desc.AddMember(&CPlayerComponent::m_moveSpeedCrouching, 'mspc', "MoveSpeedCrouching", "Move Speed Crouching", "Speed of the player when crouching", 2.0f);
+		desc.AddMember(&CPlayerComponent::m_moveSpeedSprinting, 'msps', "MoveSpeedSprinting", "Move Speed Sprinting", "Speed of the player when sprinting", 8.44f);
 		desc.AddMember(&CPlayerComponent::m_rotationSpeed, 'rspd', "RotationSpeed", "Rotation Speed", "Speed at which the player rotates", 0.002f);
 		desc.AddMember(&CPlayerComponent::m_rotationLimitsMinPitch, 'minp', "RotationLimitsMinPitch", "Rotation Limits Min Pitch", "Minimum rotation pitch limit", -0.84f);
 		desc.AddMember(&CPlayerComponent::m_rotationLimitsMaxPitch, 'maxp', "RotationLimitsMaxPitch", "Rotation Limits Max Pitch", "Maximum rotation pitch limit", 1.5f);
@@ -285,6 +287,7 @@ protected:
 	float m_torsoHeight = 0.375f;
 
 	bool m_bIsThirdPersonCamera = false;
+	bool m_bCrouching = false;
 
 	int m_cameraJointId = -1;
 
@@ -298,7 +301,9 @@ protected:
 	float m_horizontalAngularVelocity;
 	MovingAverage<float, 10> m_averagedHorizontalAngularVelocity;
 
-	float m_moveSpeed = 5.0f;
+	float m_moveSpeed = 4.0f;
+	float m_moveSpeedCrouching = 2.0f;
+	float m_moveSpeedSprinting = 8.44f;
 	Vec2 m_movementDelta = ZERO;
 
 	EntityId m_pActiveWeapon;
@@ -308,6 +313,7 @@ protected:
 public:
 	void Jump();
 	void Shoot();
+	void SetCrouching(bool crouching);
 	void SetAttachmentOpacity(ICharacterInstance* character, Schematyc::CSharedString attachmentName, int materialIndex, float opacity);
 	void LogConsole(Schematyc::CSharedString string);
 

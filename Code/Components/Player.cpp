@@ -697,6 +697,11 @@ void CPlayerComponent::Shoot()
 	}
 }
 
+void CPlayerComponent::SetCrouching(bool crouching)
+{
+	
+}
+
 bool CPlayerComponent::IsSwimming()
 {
 	if (m_pCharacterController)

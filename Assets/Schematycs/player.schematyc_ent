@@ -24,7 +24,7 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="796" y="-833"/>
+      <pos x="610" y="-952"/>
       <nodes>
        <element key="5f7f04a0-1fea-4004-990e-01f11d8fd0c9" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="5f7f04a0-1fea-4004-990e-01f11d8fd0c9" objectGUID="89784630-c3af-4a6f-bdb3-7f72a04626b2">
@@ -515,6 +515,11 @@
          <signalId domain="Env" guid="cb22a659-40ad-4cf0-ad07-42dccea24f44"/>
         </value>
        </element>
+       <element key="b296241b-bbf6-4cbb-862c-a8bc79c4cbf9" typeGUID="a15c2533-d004-4266-b121-68404aa5e02f">
+        <value guid="b296241b-bbf6-4cbb-862c-a8bc79c4cbf9" referenceGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f" memberId="1836281956">
+         <pos x="525" y="-935"/>
+        </value>
+       </element>
        <element key="a7f36dfb-5667-4cee-ab37-5eab2d3a9d02" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="a7f36dfb-5667-4cee-ab37-5eab2d3a9d02" objectGUID="be818e39-4e83-4160-9e1b-54e9ded4ef74">
          <pos x="1089" y="390"/>
@@ -546,6 +551,11 @@
            <key type="Idx" value="1"/>
           </element>
          </inputs>
+        </value>
+       </element>
+       <element key="27db37b1-dbc2-4e55-8e15-b685c332e450" typeGUID="a15c2533-d004-4266-b121-68404aa5e02f">
+        <value guid="27db37b1-dbc2-4e55-8e15-b685c332e450" referenceGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f" memberId="1836281971">
+         <pos x="474" y="-236"/>
         </value>
        </element>
        <element key="0362d584-546e-4e5c-a784-2a027423bc42" typeGUID="b30f637b-555a-4e2e-8558-87fa49d470c1">
@@ -892,6 +902,14 @@
         <srcOutputId type="Idx" value="2"/>
         <dstInputId type="Idx" value="0"/>
        </element>
+       <element srcNodeGUID="b296241b-bbf6-4cbb-862c-a8bc79c4cbf9" dstNodeGUID="a679069a-1d4b-4a33-828c-768a3abf7d8b">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="UInt32" value="1836281956"/>
+       </element>
+       <element srcNodeGUID="27db37b1-dbc2-4e55-8e15-b685c332e450" dstNodeGUID="c70bb574-7cfa-4058-9fb5-029d300524aa">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="UInt32" value="1836281956"/>
+       </element>
       </links>
      </Graph>
     </extensions>
@@ -910,7 +928,7 @@
     </children>
    </element>
    <element elementType="ComponentInstance" guid="49480795-1c51-4ee3-928f-e4678b5a9e5f" name="CPlayerComponent" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="63f4c0c6-32af-4acb-8fb0-57d45dd14725">
-    <properties MoveSpeed="4" RotationSpeed="0.0020000001" RotationLimitsMinPitch="-1.5" RotationLimitsMaxPitch="1.5" JumpHeight="5"/>
+    <properties MoveSpeed="4" RotationSpeed="0.0020000001" RotationLimitsMinPitch="-1.5" RotationLimitsMaxPitch="1.5" JumpHeight="5" MoveSpeedCrouching="2" MoveSpeedSprinting="8.4399996"/>
     <extensions />
     <children />
    </element>
