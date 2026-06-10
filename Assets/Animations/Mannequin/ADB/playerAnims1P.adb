@@ -39,6 +39,12 @@
      <Animation name="stand_tac_idlePose_hammer_shoulder_1p_01" flags="Loop"/>
     </AnimLayer>
    </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="nw">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_idle_nw_3p_01" flags="Loop"/>
+    </AnimLayer>
+   </Fragment>
   </idlePose>
   <FPIdle>
    <Fragment BlendOutDuration="0.2" Tags="SDKPistol+iron">
@@ -54,5 +60,13 @@
     </AnimLayer>
    </Fragment>
   </FPIdle>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_selectFirst_hammer_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
  </FragmentList>
 </AnimDB>

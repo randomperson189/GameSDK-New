@@ -62,8 +62,16 @@ protected:
 	EntityId m_Owner;
 
 public:
+	void Equip();
+	//void Holster();
+
 	void Fire();
 	void AltFire();
+
+	struct SEquip
+	{
+		SEquip() = default;
+	};
 
 	struct SFire
 	{

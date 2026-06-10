@@ -38,6 +38,18 @@
          <signalId domain="Env" guid="b2561caa-0753-458b-a91f-e8e38b0f0cdf"/>
         </value>
        </element>
+       <element key="6d447c3e-16a1-4876-bf56-399d8740064c" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="6d447c3e-16a1-4876-bf56-399d8740064c" objectGUID="9531882a-7852-4ce7-9738-8f223de2e4d7">
+         <pos x="-33" y="-313"/>
+         <signalId domain="Env" guid="13c1835a-29cd-4e9a-bccd-537ed14c3b68"/>
+        </value>
+       </element>
+       <element key="a8a08c79-96e6-4d73-9c8b-dd0da5873692" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="a8a08c79-96e6-4d73-9c8b-dd0da5873692" objectGUID="9531882a-7852-4ce7-9738-8f223de2e4d7">
+         <pos x="-32" y="-593"/>
+         <signalId domain="Env" guid="2116c7ec-cbca-46a9-a4d9-68eb37dfef15"/>
+        </value>
+       </element>
        <element key="2bed525f-0983-4f18-aaff-6000e3641deb" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="2bed525f-0983-4f18-aaff-6000e3641deb" objectGUID="">
          <pos x="0" y="0"/>
@@ -85,7 +97,7 @@
     <extensions />
     <children />
    </element>
-   <element elementType="ComponentInstance" guid="1cd8a238-e1b7-4670-85b3-8cbd559d32e3" name="Weapon Component" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="a7822024-0228-4d13-af99-043f418fa36d">
+   <element elementType="ComponentInstance" guid="9531882a-7852-4ce7-9738-8f223de2e4d7" name="Weapon Component" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="a7822024-0228-4d13-af99-043f418fa36d">
     <properties Damage="5"/>
     <extensions />
     <children />

@@ -264,8 +264,8 @@ protected:
 
 	Cry::DefaultComponents::CCameraComponent* m_pCameraComponent = nullptr;
 	Cry::DefaultComponents::CCharacterControllerComponent* m_pCharacterController = nullptr;
-	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent = nullptr;
-	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent2 = nullptr;
+	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent1P = nullptr;
+	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent3P = nullptr;
 	Cry::DefaultComponents::CInputComponent* m_pInputComponent = nullptr;
 	Cry::Audio::DefaultComponents::CListenerComponent* m_pAudioListenerComponent = nullptr;
 
@@ -303,6 +303,7 @@ protected:
 	IActionPtr m_pMotion1PAction;
 
 	IActionPtr m_pFullBody3PAction;
+	IActionPtr m_pTorso3PAction;
 
 	Quat m_lookOrientation; //!< Should translate to head orientation in the future
 	float m_horizontalAngularVelocity;
@@ -318,16 +319,22 @@ protected:
 
 	bool GetActionMapsFromProfile();
 
+	std::string activeFragmentFullBody1P;
+	std::string activeFragmentTorso1P;
+	std::string activeFragmentMotion1P;
+	std::string activeFragmentFullBody3P;
+
 public:
 	void Jump();
 	void Shoot();
 	void SetCrouching(bool crouching);
 	void SetAttachmentOpacity(ICharacterInstance* character, Schematyc::CSharedString attachmentName, int materialIndex, float opacity);
-	void LogConsole(Schematyc::CSharedString string);
 
 	bool IsServer() { return gEnv->bServer; }
 	bool IsSwimming();
 	bool IsRagdoll();
+
+	Schematyc::ExplicitEntityId GetActiveWeapon();
 
 	// Set functions for reflected component values
 	void SetMoveSpeed(float moveSpeed);
@@ -341,7 +348,21 @@ public:
 	void GetRotationLimits(float& minPitch, float& maxPitch);
 	float GetJumpHeight();
 
-	void QueueFragmentOnScope(Schematyc::CSharedString fragment, const EPlayerScopes& scope, bool thirdperson);
+	void QueueFragmentOnScope(Schematyc::CSharedString fragment, const EPlayerScopes& scope, bool trumpPreviousFragment);
+	void SetDesiredFragmentOnScope(Schematyc::CSharedString fragment, const EPlayerScopes& scope, bool trumpPreviousFragment);
+	void RefreshFragmentsOnScopes(
+		bool Scope1,
+		bool Scope2,
+		bool Scope3,
+		bool Scope4,
+		bool Scope5,
+		bool Scope6/*,
+		bool Scope7,
+		bool Scope8,
+		bool Scope9,
+		bool Scope10*/
+	);
+
 	void Ragdollize();
 	void SetCharacterThirdPerson(bool thirdperson);
 

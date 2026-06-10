@@ -5,5 +5,6 @@
   <Tag name="FPIdle"/>
   <Tag name="MotionIdle"/>
   <Tag name="MotionMovement"/>
+  <Tag name="select" subTagDef="Animations/Mannequin/ADB/selectionTags.xml"/>
  </Tags>
 </TagDefinition>

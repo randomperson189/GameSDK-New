@@ -1,0 +1,46 @@
+<CrySchematyc CryXmlVersion="2" version="105" guid="61db7ac0-ca7f-4dcb-adc3-802538c553e1" scope="">
+ <root elementType="Module" guid="42228d27-e252-46ce-bc53-319eb1ebe753" name="playerlibrary" Schematyc::EMPEnv="clientserver">
+  <extensions />
+  <children>
+   <element elementType="Signal" guid="ce5c42e7-9976-4e0a-a1a0-8404c286db65" name="PlayerLibrary SetTag" Schematyc::EMPEnv="clientserver">
+    <inputs>
+     <element guid="e1a65530-c8e7-4048-a08c-983f0377e80d" name="Tag" value="">
+      <typeId domain="Env" guid="02b79308-c51c-4841-99ec-c887577217a7"/>
+     </element>
+     <element guid="bf3b4ccd-2d16-4ca6-83a6-0629675162a2" name="Value" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+    </inputs>
+    <userDocumentation author="User" description=""/>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="Signal" guid="0efcd728-f484-4d95-b9be-f9e1b357e728" name="PlayerLibrary RefreshFragments" Schematyc::EMPEnv="clientserver">
+    <inputs />
+    <userDocumentation author="User" description=""/>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="Signal" guid="62982118-5573-47ef-9001-f8b31e88d6c1" name="PlayerLibrary QueueFragmentOnScope" Schematyc::EMPEnv="clientserver">
+    <inputs>
+     <element guid="f5a950e5-122c-426b-8d22-f641ed39e6ee" name="">
+      <typeId domain="" guid=""/>
+     </element>
+    </inputs>
+    <userDocumentation author="User" description=""/>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="Signal" guid="eb81633f-7b68-44f4-9461-d5f7cabfa588" name="PlayerLibrary Set DesiredFragment_Torso1P" Schematyc::EMPEnv="clientserver">
+    <inputs>
+     <element guid="cec908d1-4960-4a5b-b3f6-a3ce2dbcbecb" name="Value" value="">
+      <typeId domain="Env" guid="02b79308-c51c-4841-99ec-c887577217a7"/>
+     </element>
+    </inputs>
+    <userDocumentation author="User" description=""/>
+    <extensions />
+    <children />
+   </element>
+  </children>
+ </root>
+</CrySchematyc>

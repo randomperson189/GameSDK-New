@@ -1,0 +1,88 @@
+<CrySchematyc CryXmlVersion="2" version="105" guid="5eec6a0e-b38b-49ca-82b2-81545181a315" scope="">
+ <root elementType="Class" guid="fd0a301a-1657-430f-bde8-e03d4cfed4ec" name="pistol" Schematyc::EMPEnv="clientserver">
+  <userDocumentation author="User" description=""/>
+  <extensions />
+  <children>
+   <element elementType="Constructor" guid="65900889-63ff-4d3d-ade0-1011cef4ba9b" name="ConstructionGraph" Schematyc::EMPEnv="clientserver">
+    <userDocumentation author="User" description=""/>
+    <extensions>
+     <Graph>
+      <pos x="0" y="0"/>
+      <nodes>
+       <element key="be588ea4-72ef-437a-95f2-97280eab207e" typeGUID="12bdfa06-ba95-4e48-bb2d-bb48a7080abc">
+        <value guid="be588ea4-72ef-437a-95f2-97280eab207e">
+         <pos x="0" y="0"/>
+        </value>
+       </element>
+      </nodes>
+      <links />
+     </Graph>
+    </extensions>
+    <children />
+   </element>
+   <element elementType="SignalReceiver" guid="8b03d850-7b85-42d7-a4e5-0a22ca31d783" name="SignalGraph" Schematyc::EMPEnv="clientserver" type="Universal" signalGUID="">
+    <userDocumentation author="User" description=""/>
+    <extensions>
+     <Graph>
+      <pos x="0" y="0"/>
+      <nodes>
+       <element key="9b18cea6-13f5-41af-801b-3e50d1a4c3a4" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="9b18cea6-13f5-41af-801b-3e50d1a4c3a4" objectGUID="">
+         <pos x="248" y="-593"/>
+         <functionId domain="Env" guid="97751a7e-d2a5-43c4-9e72-1008b1e864c1"/>
+         <inputs>
+          <element value="TEST!!!!!!!">
+           <key type="UInt32" value="7172967"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="c5f0943c-836f-45fa-b750-b0e68accdabf" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="c5f0943c-836f-45fa-b750-b0e68accdabf" objectGUID="">
+         <pos x="0" y="100"/>
+         <signalId domain="Env" guid="52ad5add-7781-429b-b4a9-0cb6c905e353"/>
+        </value>
+       </element>
+       <element key="a27fb8bd-93ba-475f-b2f9-a69174a5a081" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="a27fb8bd-93ba-475f-b2f9-a69174a5a081" objectGUID="">
+         <pos x="0" y="200"/>
+         <signalId domain="Env" guid="b2561caa-0753-458b-a91f-e8e38b0f0cdf"/>
+        </value>
+       </element>
+       <element key="329a0b1b-0eb7-49fa-a0f2-35e7ab74795d" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="329a0b1b-0eb7-49fa-a0f2-35e7ab74795d" objectGUID="9531882a-7852-4ce7-9738-8f223de2e4d7">
+         <pos x="-33" y="-1011"/>
+         <signalId domain="Env" guid="5f201f39-b6fe-434b-80a6-ed38896781de"/>
+        </value>
+       </element>
+       <element key="63d54162-8948-4e5d-9d92-7b1a3da6c54d" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="63d54162-8948-4e5d-9d92-7b1a3da6c54d" objectGUID="9531882a-7852-4ce7-9738-8f223de2e4d7">
+         <pos x="-32" y="-593"/>
+         <signalId domain="Env" guid="2116c7ec-cbca-46a9-a4d9-68eb37dfef15"/>
+        </value>
+       </element>
+       <element key="4d8def39-2417-4ebc-be45-6e141b218730" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="4d8def39-2417-4ebc-be45-6e141b218730" objectGUID="">
+         <pos x="0" y="0"/>
+         <signalId domain="Env" guid="a9279137-7c66-491d-b9a0-8752c24c8979"/>
+        </value>
+       </element>
+      </nodes>
+      <links>
+       <element srcNodeGUID="63d54162-8948-4e5d-9d92-7b1a3da6c54d" dstNodeGUID="9b18cea6-13f5-41af-801b-3e50d1a4c3a4">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+      </links>
+     </Graph>
+    </extensions>
+    <children />
+   </element>
+   <element elementType="Base" guid="d58869c0-c3a3-46c1-9183-b4c493fbcaf7" name="Base [weapon]" Schematyc::EMPEnv="clientserver">
+    <classId domain="Script" guid="661ae2b4-8858-49f7-a48c-a9dc9671ae79"/>
+    <extensions />
+    <children />
+   </element>
+  </children>
+ </root>
+</CrySchematyc>

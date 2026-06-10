@@ -68,10 +68,50 @@ namespace Schematyc
 		}
 	}
 
+	namespace Log
+	{
+		void Console(const CSharedString& message)
+		{
+			CryLogAlways(message.c_str());
+		}
+
+		static void RegisterFunctions(IEnvRegistrar& registrar)
+		{
+			CEnvRegistrationScope scope = registrar.Scope("a2cbae18-2114-4c0f-8fc0-58988affca7e"_cry_guid);
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&Console, "{97751A7E-D2A5-43C4-9E72-1008B1E864C1}"_cry_guid, "Console");
+				pFunction->BindInput(1, 'msg', "Message");
+				pFunction->SetDescription("Logs a message to the console");
+				scope.Register(pFunction);
+			}
+		}
+	}
+
+	namespace Entity
+	{
+		bool IsValid(ExplicitEntityId entityId)
+		{
+			return gEnv->pEntitySystem->GetEntity(static_cast<EntityId>(entityId)) != nullptr;
+		}
+
+		static void RegisterFunctions(IEnvRegistrar& registrar)
+		{
+			CEnvRegistrationScope scope = registrar.Scope(GetTypeDesc<ExplicitEntityId>().GetGUID());
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&IsValid, "{04BE5FFF-7268-4226-B2D3-7BEAE042C614}"_cry_guid, "IsValid");
+				pFunction->SetDescription("Check if this Entity is valid");
+				pFunction->BindOutput(0, 'vald', "IsValid");
+				pFunction->BindInput(1, 'ent', "Entity");
+				scope.Register(pFunction);
+			}
+		}
+	}
 
 	void RegisterCustomFunctions(IEnvRegistrar& registrar)
 	{
 		Raycast::RegisterFunctions(registrar);
+		Log::RegisterFunctions(registrar);
+		Entity::RegisterFunctions(registrar);
 	}
 }
 
