@@ -188,10 +188,14 @@ public:
 		desc.AddMember(&CPlayerComponent::m_moveSpeedWalking, 'mspw', "MoveSpeedWalking", "Move Speed Walking", "Speed of the player when walking", 4.0f);
 		desc.AddMember(&CPlayerComponent::m_moveSpeedCrouching, 'mspc', "MoveSpeedCrouching", "Move Speed Crouching", "Speed of the player when crouching", 2.0f);
 		desc.AddMember(&CPlayerComponent::m_moveSpeedSprinting, 'msps', "MoveSpeedSprinting", "Move Speed Sprinting", "Speed of the player when sprinting", 8.44f);
+
 		desc.AddMember(&CPlayerComponent::m_rotationSpeed, 'rspd', "RotationSpeed", "Rotation Speed", "Speed at which the player rotates", 0.002f);
 		desc.AddMember(&CPlayerComponent::m_rotationLimitsMinPitch, 'minp', "RotationLimitsMinPitch", "Rotation Limits Min Pitch", "Minimum rotation pitch limit", -0.84f);
 		desc.AddMember(&CPlayerComponent::m_rotationLimitsMaxPitch, 'maxp', "RotationLimitsMaxPitch", "Rotation Limits Max Pitch", "Maximum rotation pitch limit", 1.5f);
+
 		desc.AddMember(&CPlayerComponent::m_jumpHeight, 'jhgt', "JumpHeight", "Jump Height", "Height at which the player jumps", 5.0f);
+
+		desc.AddMember(&CPlayerComponent::m_defaultWeapon, 'dwep', "DefaultWeapon", "Default Weapon", "Weapon that the player spawns with", "");
 	}
 
 	void OnReadyForGameplayOnServer(bool firstSpawn);
@@ -316,6 +320,7 @@ protected:
 	Vec2 m_movementDelta = ZERO;
 
 	EntityId m_pActiveWeapon;
+	Schematyc::EntityClassName m_defaultWeapon;
 
 	bool GetActionMapsFromProfile();
 

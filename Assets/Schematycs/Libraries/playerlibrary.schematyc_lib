@@ -2,7 +2,7 @@
  <root elementType="Module" guid="42228d27-e252-46ce-bc53-319eb1ebe753" name="playerlibrary" Schematyc::EMPEnv="clientserver">
   <extensions />
   <children>
-   <element elementType="Signal" guid="ce5c42e7-9976-4e0a-a1a0-8404c286db65" name="PlayerLibrary SetTag" Schematyc::EMPEnv="clientserver">
+   <element elementType="Signal" guid="ce5c42e7-9976-4e0a-a1a0-8404c286db65" name="PlayerLibrary SetTag1P" Schematyc::EMPEnv="clientserver">
     <inputs>
      <element guid="e1a65530-c8e7-4048-a08c-983f0377e80d" name="Tag" value="">
       <typeId domain="Env" guid="02b79308-c51c-4841-99ec-c887577217a7"/>
@@ -15,8 +15,21 @@
     <extensions />
     <children />
    </element>
-   <element elementType="Signal" guid="0efcd728-f484-4d95-b9be-f9e1b357e728" name="PlayerLibrary RefreshFragments" Schematyc::EMPEnv="clientserver">
-    <inputs />
+   <element elementType="Signal" guid="0efcd728-f484-4d95-b9be-f9e1b357e728" name="PlayerLibrary RefreshFragmentsOnScopes" Schematyc::EMPEnv="clientserver">
+    <inputs>
+     <element guid="71e1a69e-53fd-4e0f-b0b4-2600ccbac0a5" name="FullBody1P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="e8e4ef29-4595-4dd7-a4dc-375f13cda11e" name="Torso1P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="4084bcf0-664b-4941-8be0-10e8fb9383d0" name="Motion1P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="3add9670-bae5-47fd-bc06-d6c7d77edb36" name="FullBody3P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+    </inputs>
     <userDocumentation author="User" description=""/>
     <extensions />
     <children />
@@ -31,10 +44,35 @@
     <extensions />
     <children />
    </element>
-   <element elementType="Signal" guid="eb81633f-7b68-44f4-9461-d5f7cabfa588" name="PlayerLibrary Set DesiredFragment_Torso1P" Schematyc::EMPEnv="clientserver">
+   <element elementType="Signal" guid="eb81633f-7b68-44f4-9461-d5f7cabfa588" name="PlayerLibrary Set DesiredFragmentOnScopes" Schematyc::EMPEnv="clientserver">
     <inputs>
-     <element guid="cec908d1-4960-4a5b-b3f6-a3ce2dbcbecb" name="Value" value="">
+     <element guid="cec908d1-4960-4a5b-b3f6-a3ce2dbcbecb" name="Fragment" value="">
       <typeId domain="Env" guid="02b79308-c51c-4841-99ec-c887577217a7"/>
+     </element>
+     <element guid="dfa89a60-44ae-40fb-b7ca-375f2461ae53" name="FullBody1P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="ba799a68-33e8-4744-9a9e-8c7d8a856a94" name="Torso1P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="5759dad7-aa61-4790-8529-32121ac628fc" name="Motion1P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="28bf7e63-20fc-405f-af8e-317e1b2aafb7" name="FullBody3P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+    </inputs>
+    <userDocumentation author="User" description=""/>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="Signal" guid="a3ba8d48-cca0-49d6-9990-e0d4b6578d39" name="PlayerLibrary SetTag3P" Schematyc::EMPEnv="clientserver">
+    <inputs>
+     <element guid="f6aa2f1e-7509-4ed4-828c-6cbdd1a42537" name="Tag" value="">
+      <typeId domain="Env" guid="02b79308-c51c-4841-99ec-c887577217a7"/>
+     </element>
+     <element guid="c4db97f9-2a89-4aa7-b748-b476dea50eca" name="Value" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
     </inputs>
     <userDocumentation author="User" description=""/>

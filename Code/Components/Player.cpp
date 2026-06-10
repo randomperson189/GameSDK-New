@@ -363,7 +363,44 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 		break;
 		case 2:
 		{
-			
+			CryLogAlways("[WeaponAspect] %s received weapon entity id: %u", m_pEntity->GetName(), m_pActiveWeapon);
+
+			if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+			{
+				pWeaponEntity->GetComponent<CWeaponComponent>()->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
+
+				if (ICharacterInstance* pCharInstance = m_pAnimationComponent1P->GetCharacter())
+				{
+					if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+					{
+						CCGFAttachment* pCGFAttachment = new CCGFAttachment();
+						pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
+
+						pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
+					}
+				}
+
+				if (ICharacterInstance* pCharInstance = m_pAnimationComponent3P->GetCharacter())
+				{
+					if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+					{
+						CCGFAttachment* pCGFAttachment = new CCGFAttachment();
+						pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
+
+						pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
+					}
+				}
+
+				if (auto* meshcomp = pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>())
+				{
+					meshcomp->SetMeshType(Cry::DefaultComponents::EMeshType::None);
+				}
+
+				if (auto* weaponcomp = pWeaponEntity->GetComponent<CWeaponComponent>())
+				{
+					weaponcomp->Equip();
+				}
+			}
 		}
 		break;
 		}
@@ -424,47 +461,8 @@ bool CPlayerComponent::NetSerialize(TSerialize ser, EEntityAspects aspect, uint8
 
 		if (ser.IsReading() && m_pActiveWeapon != 0)
 		{
-			CryLogAlways("[WeaponAspect] %s received weapon entity id: %u", m_pEntity->GetName(), m_pActiveWeapon);
-
-			if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
-			{
-				pWeaponEntity->GetComponent<CWeaponComponent>()->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
-
-				if (ICharacterInstance* pCharInstance = m_pAnimationComponent1P->GetCharacter())
-				{
-					if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
-					{
-						CCGFAttachment* pCGFAttachment = new CCGFAttachment();
-						pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
-
-						pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
-					}
-				}
-
-				if (ICharacterInstance* pCharInstance = m_pAnimationComponent3P->GetCharacter())
-				{
-					if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
-					{
-						CCGFAttachment* pCGFAttachment = new CCGFAttachment();
-						pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
-
-						pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
-					}
-				}
-
-				if (auto* meshcomp = pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>())
-				{
-					meshcomp->SetMeshType(Cry::DefaultComponents::EMeshType::None);
-				}
-
-				if (auto* weaponcomp = pWeaponEntity->GetComponent<CWeaponComponent>())
-				{
-					weaponcomp->Equip();
-				}
-			}
+			SetTimer(2, 10);
 		}
-
-		//CryLogAlways("[WeaponAspect] received weapon entity id: %u", m_pActiveWeapon);
 
 		ser.EndGroup();
 	}
@@ -1034,9 +1032,15 @@ void CPlayerComponent::SetCharacterThirdPerson(bool thirdperson)
 
 void CPlayerComponent::SpawnDefaultWeapon()
 {
+	IEntityClass* pClass = gEnv->pEntitySystem->GetClassRegistry()->FindClass(m_defaultWeapon.value);
+
+	// Don't try to spawn the weapon if we can't find the class
+	if (!pClass)
+		return;
+
 	SEntitySpawnParams spawnParams;
-	spawnParams.pClass = gEnv->pEntitySystem->GetClassRegistry()->FindClass("schematyc::schematycs::weapons::pistol");
-	spawnParams.sName = "pistol";
+	spawnParams.pClass = pClass;
+	spawnParams.sName = m_defaultWeapon.value;
 	spawnParams.vPosition = GetWorldTransformMatrix().GetTranslation();
 
 	if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams))
@@ -1047,6 +1051,8 @@ void CPlayerComponent::SpawnDefaultWeapon()
 
 		CryLogAlways("MY ENTITY SPAWNED ID %u", pEntity->GetId());
 
+		// Switch to the active weapon now
+		// TODO: Make this work with inventory component
 		if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
 		{
 			if (ICharacterInstance* pCharInstance = m_pAnimationComponent1P->GetCharacter())
@@ -1118,11 +1124,15 @@ void CPlayerComponent::OnReadyForGameplayOnServer(bool firstSpawn)
 	if (gEnv->IsEditor())
 	{
 		if (gEnv->IsEditorGameMode())
-			SetTimer(1, 1);
+		{
+			// Have to use delay or else animations won't play properly
+			SetTimer(1, 10);
+		}
 	}
 	else
 	{
-		SetTimer(1, 1);
+		// Have to use delay or else animations won't play properly
+		SetTimer(1, 10);
 	}
 }
 
