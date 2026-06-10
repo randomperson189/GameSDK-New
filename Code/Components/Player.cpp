@@ -32,7 +32,20 @@ namespace
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::Shoot, "{899ADE13-94B7-417C-8F41-1B4D69F93904}"_cry_guid, "Shoot");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::StartShoot, "{899ADE13-94B7-417C-8F41-1B4D69F93904}"_cry_guid, "StartShoot");
+				componentScope.Register(pFunction);
+			}
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::StopShoot, "{8718B792-ED67-48F7-9E5E-5D9C46F866AA}"_cry_guid, "StopShoot");
+				componentScope.Register(pFunction);
+			}
+
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::StartShoot2, "{ECF8D323-48BB-417C-AF3A-64116B86E331}"_cry_guid, "StartShoot2");
+				componentScope.Register(pFunction);
+			}
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::StopShoot2, "{4049AE0A-9CD8-4A74-B29C-951A3CDB3F76}"_cry_guid, "StopShoot2");
 				componentScope.Register(pFunction);
 			}
 
@@ -186,7 +199,11 @@ void CPlayerComponent::Initialize()
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
 
-	SRmi<RMI_WRAP(&CPlayerComponent::RemoteShootOnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShootOnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShootOnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShoot2OnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShoot2OnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
 
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteDieOnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteDieOnClients)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
@@ -707,12 +724,32 @@ void CPlayerComponent::Jump()
 	m_pCharacterController->AddVelocity(Vec3(0, 0, -m_pCharacterController->GetVelocity().z + m_jumpHeight));
 }
 
-void CPlayerComponent::Shoot()
+void CPlayerComponent::StartShoot()
 {
 	RemoteShootParams params;
 
-	// Tell server to spawn the bullet
-	SRmi<RMI_WRAP(&CPlayerComponent::RemoteShootOnServer)>::InvokeOnServer(this, std::move(params));
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShootOnServer)>::InvokeOnServer(this, std::move(params));
+}
+
+void CPlayerComponent::StopShoot()
+{
+	RemoteShootParams params;
+
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShootOnServer)>::InvokeOnServer(this, std::move(params));
+}
+
+void CPlayerComponent::StartShoot2()
+{
+	RemoteShootParams params;
+
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShoot2OnServer)>::InvokeOnServer(this, std::move(params));
+}
+
+void CPlayerComponent::StopShoot2()
+{
+	RemoteShootParams params;
+
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShoot2OnServer)>::InvokeOnServer(this, std::move(params));
 }
 
 void CPlayerComponent::SetCrouching(bool crouching)
@@ -1156,11 +1193,41 @@ bool CPlayerComponent::RemoteDieOnClients(RemoteBlankParams&& params, INetChanne
 	return true;
 }
 
-bool CPlayerComponent::RemoteShootOnServer(RemoteShootParams&& params, INetChannel* pNetChannel)
+bool CPlayerComponent::RemoteStartShootOnServer(RemoteShootParams&& params, INetChannel* pNetChannel)
 {
 	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
 	{
-		weapon->GetComponent<CWeaponComponent>()->Fire();
+		weapon->GetComponent<CWeaponComponent>()->StartFire();
+	}
+
+	return true;
+}
+
+bool CPlayerComponent::RemoteStopShootOnServer(RemoteShootParams&& params, INetChannel* pNetChannel)
+{
+	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+	{
+		weapon->GetComponent<CWeaponComponent>()->StopFire();
+	}
+
+	return true;
+}
+
+bool CPlayerComponent::RemoteStartShoot2OnServer(RemoteShootParams&& params, INetChannel* pNetChannel)
+{
+	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+	{
+		weapon->GetComponent<CWeaponComponent>()->StartAltFire();
+	}
+
+	return true;
+}
+
+bool CPlayerComponent::RemoteStopShoot2OnServer(RemoteShootParams&& params, INetChannel* pNetChannel)
+{
+	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+	{
+		weapon->GetComponent<CWeaponComponent>()->StopAltFire();
 	}
 
 	return true;

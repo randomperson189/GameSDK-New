@@ -102,6 +102,16 @@
     <extensions />
     <children />
    </element>
+   <element elementType="Variable" guid="56c23131-8985-4e2d-b1a0-fbcf213ae27c" name="Firing" Schematyc::EMPEnv="clientserver" accessor="Public" bIsArray="false" value="false" baseGUID="" overridePolicy="Default">
+    <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="Variable" guid="49b2c89d-912f-4c91-8787-f1f6b245b44d" name="Iron" Schematyc::EMPEnv="clientserver" accessor="Public" bIsArray="false" value="false" baseGUID="" overridePolicy="Default">
+    <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+    <extensions />
+    <children />
+   </element>
   </children>
  </root>
 </CrySchematyc>

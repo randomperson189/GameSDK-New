@@ -258,7 +258,11 @@ protected:
 	bool RemoteReviveOnClient(RemoteReviveParams&& params, INetChannel* pNetChannel);
 	bool RemoteReviveOnServer(RemoteBlankParams&& params, INetChannel* pNetChannel);
 
-	bool RemoteShootOnServer(RemoteShootParams&& params, INetChannel* pNetChannel);
+	bool RemoteStartShootOnServer(RemoteShootParams&& params, INetChannel* pNetChannel);
+	bool RemoteStopShootOnServer(RemoteShootParams&& params, INetChannel* pNetChannel);
+
+	bool RemoteStartShoot2OnServer(RemoteShootParams&& params, INetChannel* pNetChannel);
+	bool RemoteStopShoot2OnServer(RemoteShootParams&& params, INetChannel* pNetChannel);
 
 	bool RemoteDieOnServer(RemoteBlankParams&& params, INetChannel* pNetChannel);
 	bool RemoteDieOnClients(RemoteBlankParams&& params, INetChannel* pNetChannel);
@@ -331,7 +335,13 @@ protected:
 
 public:
 	void Jump();
-	void Shoot();
+
+	void StartShoot();
+	void StopShoot();
+
+	void StartShoot2();
+	void StopShoot2();
+
 	void SetCrouching(bool crouching);
 	void SetAttachmentOpacity(ICharacterInstance* character, Schematyc::CSharedString attachmentName, int materialIndex, float opacity);
 

@@ -65,20 +65,32 @@ public:
 	void Equip();
 	//void Holster();
 
-	void Fire();
-	void AltFire();
+	void StartFire();
+	void StopFire();
 
-	struct SEquip
+	void StartAltFire();
+	void StopAltFire();
+
+	struct SMulticastEquip
 	{
-		SEquip() = default;
+		SMulticastEquip() = default;
 	};
 
-	struct SFire
+	struct SServerStartFire
 	{
-		SFire() = default;
+		SServerStartFire() = default;
 	};
-	struct SAltFire
+	struct SServerStopFire
 	{
-		SAltFire() = default;
+		SServerStopFire() = default;
+	};
+
+	struct SServerStartAltFire
+	{
+		SServerStartAltFire() = default;
+	};
+	struct SServerStopAltFire
+	{
+		SServerStopAltFire() = default;
 	};
 };

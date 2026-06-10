@@ -33,9 +33,13 @@ namespace
 				componentScope.Register(pFunction);
 			}
 
-			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SEquip));
-			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SFire));
-			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SAltFire));
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SMulticastEquip));
+
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SServerStartFire));
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SServerStopFire));
+
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SServerStartAltFire));
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SServerStopAltFire));
 		}
 	}
 
@@ -52,22 +56,32 @@ CWeaponComponent::~CWeaponComponent()
 
 }
 
-static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SFire>& desc)
-{
-	desc.SetGUID("{2116C7EC-CBCA-46A9-A4D9-68EB37DFEF15}"_cry_guid);
-	desc.SetLabel("Server Fire");
-}
-
-static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SAltFire>& desc)
-{
-	desc.SetGUID("{13C1835A-29CD-4E9A-BCCD-537ED14C3B68}"_cry_guid);
-	desc.SetLabel("Server AltFire");
-}
-
-static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SEquip>& desc)
+static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SMulticastEquip>& desc)
 {
 	desc.SetGUID("{5F201F39-B6FE-434B-80A6-ED38896781DE}"_cry_guid);
 	desc.SetLabel("Multicast Equip");
+}
+
+static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SServerStartFire>& desc)
+{
+	desc.SetGUID("{2116C7EC-CBCA-46A9-A4D9-68EB37DFEF15}"_cry_guid);
+	desc.SetLabel("Server Start Fire");
+}
+static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SServerStopFire>& desc)
+{
+	desc.SetGUID("{0D1BA24E-E29D-4B4F-AA3B-1043E6CE6430}"_cry_guid);
+	desc.SetLabel("Server Stop Fire");
+}
+
+static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SServerStartAltFire>& desc)
+{
+	desc.SetGUID("{13C1835A-29CD-4E9A-BCCD-537ED14C3B68}"_cry_guid);
+	desc.SetLabel("Server Start AltFire");
+}
+static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SServerStopAltFire>& desc)
+{
+	desc.SetGUID("{51F0A319-4A79-4D9B-96ED-B8DD1C2EB365}"_cry_guid);
+	desc.SetLabel("Server Stop AltFire");
 }
 
 void CWeaponComponent::Initialize()
@@ -138,26 +152,44 @@ void CWeaponComponent::Equip()
 
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
-		pSchematycObject->ProcessSignal(SEquip(), GetGUID());
+		pSchematycObject->ProcessSignal(SMulticastEquip(), GetGUID());
 	}
 }
 
-void CWeaponComponent::Fire()
+void CWeaponComponent::StartFire()
 {
 	if (!m_pEntity)
 		return;
 
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
-		pSchematycObject->ProcessSignal(SFire(), GetGUID());
+		pSchematycObject->ProcessSignal(SServerStartFire(), GetGUID());
+	}
+}
+void CWeaponComponent::StopFire()
+{
+	if (!m_pEntity)
+		return;
+
+	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
+	{
+		pSchematycObject->ProcessSignal(SServerStopFire(), GetGUID());
 	}
 }
 
-void CWeaponComponent::AltFire()
+void CWeaponComponent::StartAltFire()
 {
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
-		pSchematycObject->ProcessSignal(SAltFire(), GetGUID());
+		pSchematycObject->ProcessSignal(SServerStartAltFire(), GetGUID());
+	}
+}
+
+void CWeaponComponent::StopAltFire()
+{
+	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
+	{
+		pSchematycObject->ProcessSignal(SServerStopAltFire(), GetGUID());
 	}
 }
 
