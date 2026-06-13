@@ -1,16 +1,16 @@
-<CrySchematyc CryXmlVersion="2" version="105" guid="4fecce0a-d428-4fab-b7e9-6cd5c5e28354" scope="">
- <root elementType="Class" guid="661ae2b4-8858-49f7-a48c-a9dc9671ae79" name="weapon" Schematyc::EMPEnv="clientserver">
+<CrySchematyc CryXmlVersion="2" version="105" guid="d00f1681-6573-4565-a3fd-0a3e059b8ac3" scope="">
+ <root elementType="Class" guid="a11ef44c-c0cb-4f51-b2c3-ccf65b9ce439" name="weapon" Schematyc::EMPEnv="clientserver">
   <userDocumentation author="User" description=""/>
   <extensions />
   <children>
-   <element elementType="Constructor" guid="b6f0a0f5-a634-4fc5-b06d-1b3a04d6a7ea" name="ConstructionGraph" Schematyc::EMPEnv="clientserver">
+   <element elementType="Constructor" guid="18d565c4-e162-4dd5-9a8c-a653cfaaf8f4" name="ConstructionGraph" Schematyc::EMPEnv="clientserver">
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
       <pos x="0" y="0"/>
       <nodes>
-       <element key="9bb2d831-8c62-4dc3-8299-3bbee5c404f7" typeGUID="12bdfa06-ba95-4e48-bb2d-bb48a7080abc">
-        <value guid="9bb2d831-8c62-4dc3-8299-3bbee5c404f7">
+       <element key="cebd5217-b6b9-44d5-b8e7-fbc80326407b" typeGUID="12bdfa06-ba95-4e48-bb2d-bb48a7080abc">
+        <value guid="cebd5217-b6b9-44d5-b8e7-fbc80326407b">
          <pos x="0" y="0"/>
         </value>
        </element>
@@ -20,40 +20,28 @@
     </extensions>
     <children />
    </element>
-   <element elementType="SignalReceiver" guid="77533ae0-0087-4500-b291-b6b6c2f0eb1d" name="SignalGraph" Schematyc::EMPEnv="clientserver" type="Universal" signalGUID="">
+   <element elementType="SignalReceiver" guid="e73f8eb6-018d-48d3-93cb-f62c2f99b116" name="SignalGraph" Schematyc::EMPEnv="clientserver" type="Universal" signalGUID="">
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
       <pos x="0" y="0"/>
       <nodes>
-       <element key="dcbfc74b-a26c-4277-b293-a0d6ea2da3ac" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
-        <value guid="dcbfc74b-a26c-4277-b293-a0d6ea2da3ac" objectGUID="">
-         <pos x="0" y="100"/>
-         <signalId domain="Env" guid="52ad5add-7781-429b-b4a9-0cb6c905e353"/>
-        </value>
-       </element>
-       <element key="a14c1a89-be7f-4398-b349-2738c6ac8694" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
-        <value guid="a14c1a89-be7f-4398-b349-2738c6ac8694" objectGUID="">
+       <element key="d54510eb-ae5b-4077-8244-6d80da855abf" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="d54510eb-ae5b-4077-8244-6d80da855abf" objectGUID="">
          <pos x="0" y="200"/>
          <signalId domain="Env" guid="b2561caa-0753-458b-a91f-e8e38b0f0cdf"/>
         </value>
        </element>
-       <element key="6d447c3e-16a1-4876-bf56-399d8740064c" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
-        <value guid="6d447c3e-16a1-4876-bf56-399d8740064c" objectGUID="9531882a-7852-4ce7-9738-8f223de2e4d7">
-         <pos x="-33" y="-313"/>
-         <signalId domain="Env" guid="13c1835a-29cd-4e9a-bccd-537ed14c3b68"/>
-        </value>
-       </element>
-       <element key="a8a08c79-96e6-4d73-9c8b-dd0da5873692" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
-        <value guid="a8a08c79-96e6-4d73-9c8b-dd0da5873692" objectGUID="9531882a-7852-4ce7-9738-8f223de2e4d7">
-         <pos x="-32" y="-593"/>
-         <signalId domain="Env" guid="2116c7ec-cbca-46a9-a4d9-68eb37dfef15"/>
-        </value>
-       </element>
-       <element key="2bed525f-0983-4f18-aaff-6000e3641deb" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
-        <value guid="2bed525f-0983-4f18-aaff-6000e3641deb" objectGUID="">
+       <element key="06a978f3-e971-4864-8ce6-89abca111a1b" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="06a978f3-e971-4864-8ce6-89abca111a1b" objectGUID="">
          <pos x="0" y="0"/>
          <signalId domain="Env" guid="a9279137-7c66-491d-b9a0-8752c24c8979"/>
+        </value>
+       </element>
+       <element key="50d8eca3-560e-49e9-b439-ea11e3ec2ca7" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="50d8eca3-560e-49e9-b439-ea11e3ec2ca7" objectGUID="">
+         <pos x="0" y="100"/>
+         <signalId domain="Env" guid="52ad5add-7781-429b-b4a9-0cb6c905e353"/>
         </value>
        </element>
       </nodes>
@@ -62,19 +50,17 @@
     </extensions>
     <children />
    </element>
-   <element elementType="Base" guid="a3f6ffad-5e4e-42f6-b0c7-2d5a06b175a8" name="Base [Entity]" Schematyc::EMPEnv="clientserver">
-    <classId domain="Env" guid="be845278-0dd2-409f-b8be-97895607c256"/>
-    <envClassProperties icon="%EDITOR%/objecticons/schematyc.bmp" bHideInEditor="false" bTriggerAreas="true" bCreatePerClient="false"/>
+   <element elementType="Base" guid="fb1572c4-804d-458a-95f2-e0d579743c3f" name="Base [item]" Schematyc::EMPEnv="clientserver">
+    <classId domain="Script" guid="d94ebb11-4542-42d8-b7f6-fd82054a2084"/>
     <extensions />
-    <children>
-     <element elementType="ComponentInstance" guid="c054d5c3-4193-4bb8-aa98-ce9a0b1778ba" name="Entity" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="e88093df-904f-4c52-af38-911e26777cdc">
-      <properties />
-      <extensions />
-      <children />
-     </element>
-    </children>
+    <children />
    </element>
-   <element elementType="ComponentInstance" guid="22bdce96-ee06-4852-a6c8-b68c989dc25a" name="Mesh" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29">
+   <element elementType="ComponentInstance" guid="a997f380-fa5d-4498-8712-f39e53184c63" name="Weapon Component" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="a7822024-0228-4d13-af99-043f418fa36d">
+    <properties Damage="5"/>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="ComponentInstance" guid="e620cbc9-4335-4a0e-bfa1-223fa90129c0" name="Mesh" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29">
     <transform>
      <translation>
       <position>
@@ -90,25 +76,43 @@
       <element element="1"/>
      </scale>
     </transform>
-    <properties Type="RenderAndCollider" FilePath="Objects/Weapons/pistol/pistol_tp.cgf" Material="">
+    <properties Type="None" FilePath="Objects/Weapons/pistol/pistol_tp.cgf" Material="">
      <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
      <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
     </properties>
     <extensions />
     <children />
    </element>
-   <element elementType="ComponentInstance" guid="9531882a-7852-4ce7-9738-8f223de2e4d7" name="Weapon Component" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="a7822024-0228-4d13-af99-043f418fa36d">
-    <properties Damage="5"/>
-    <extensions />
-    <children />
-   </element>
-   <element elementType="Variable" guid="56c23131-8985-4e2d-b1a0-fbcf213ae27c" name="Firing" Schematyc::EMPEnv="clientserver" accessor="Public" bIsArray="false" value="false" baseGUID="" overridePolicy="Default">
+   <element elementType="Variable" guid="84cf3bec-9655-4c74-afe6-f7e2c34d53fc" name="Firing" Schematyc::EMPEnv="clientserver" accessor="Public" bIsArray="false" value="false" baseGUID="" overridePolicy="Default">
     <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
     <extensions />
     <children />
    </element>
-   <element elementType="Variable" guid="49b2c89d-912f-4c91-8787-f1f6b245b44d" name="Iron" Schematyc::EMPEnv="clientserver" accessor="Public" bIsArray="false" value="false" baseGUID="" overridePolicy="Default">
+   <element elementType="Variable" guid="4ea88317-4a38-4d5d-8b89-11ef8b6244f6" name="Iron" Schematyc::EMPEnv="clientserver" accessor="Public" bIsArray="false" value="false" baseGUID="" overridePolicy="Default">
     <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="ComponentInstance" guid="ae0fa033-5649-46ac-88e3-535334fa6b69" name="Advanced Animations" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="3cd5ddc5-ee15-437f-a997-79c2391537fe">
+    <transform>
+     <translation>
+      <position>
+       <element element="0"/>
+       <element element="0"/>
+       <element element="0"/>
+      </position>
+     </translation>
+     <rotation x="0" y="-0" z="0"/>
+     <scale>
+      <element element="1"/>
+      <element element="1"/>
+      <element element="1"/>
+     </scale>
+    </transform>
+    <properties Type="None" Character="Objects/Weapons/pistol/pistol_fp.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/playerSounds.adb" ControllerDefPath="Animations/Mannequin/ADB/playerControllerDefs.xml" DefaultScope="Audio" DefaultFragment="" AnimDriven="true" GroundAlign="false">
+     <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+     <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+    </properties>
     <extensions />
     <children />
    </element>

@@ -2,6 +2,17 @@
  <controllerDef filename="Animations/Mannequin/ADB/playerControllerDefs.xml"/>
  <contexts>
   <contextData name="Player" enabled="1" database="Animations/Mannequin/ADB/playerAnims1P.adb" context="Char1P" model="objects/characters/human/sdk_player/sdk_player.cdf"/>
+  <contextData name="Audio" enabled="1" database="Animations/Mannequin/ADB/playerSounds.adb" context="Audio"/>
+  <contextData name="SlaveHuman" database="Animations/Mannequin/ADB/humanSlaveAnims3P.adb" context="SlaveChar" tags="slaveHuman" model="objects/characters/human/sdk_player/sdk_player.cdf" startPosition="0,2,0" startRotation="0,0,180"/>
+  <contextData name="Pistol" database="Animations/Mannequin/ADB/pistolWeaponAnims.adb" context="Weapon" tags="SDKPistol" model="objects/weapons/pistol/pistol_fp.cdf" attachment="weapon"/>
+  <contextData name="Rifle" database="Animations/Mannequin/ADB/rifleWeaponAnims.adb" context="Weapon" tags="SDKRifle" model="objects/weapons/rifle/rifle_fp.cdf" attachment="weapon"/>
+  <contextData name="Shotgun" database="Animations/Mannequin/ADB/shotgunWeaponAnims.adb" context="Weapon" tags="SDKShotgun" model="objects/weapons/shotgun/shotgun.cdf" attachment="weapon"/>
+  <contextData name="Grenade" database="Animations/Mannequin/ADB/grenadeWeaponAnims.adb" context="Weapon" tags="SDKGrenade" model="objects/weapons/frag_grenade/frag_grenade.cdf" attachment="weapon"/>
+  <contextData name="RocketLauncher" database="Animations/Mannequin/ADB/rocketlauncherWeaponAnims.adb" context="Weapon" tags="SDKRocketLauncher" model="objects/weapons/rocket_launcher/rocket_launcher_fp.cgf" attachment="Weapon"/>
+  <contextData name="HMG" database="Animations/Mannequin/ADB/heavyWeaponAnims.adb" context="Weapon" tags="SDKHMG" model="objects/weapons/mounted_gun/mounted_gun_fp.cdf" attachment="weapon"/>
+  <contextData name="C4" database="Animations/Mannequin/ADB/c4WeaponAnims.adb" context="Weapon" tags="SDKC4" model="objects/weapons/c4/c4.chr" attachment="weapon"/>
  </contexts>
- <History StartTime="0" EndTime="0"/>
+ <History StartTime="0" EndTime="0">
+  <FragmentID Time="0" FragmentID="idlePose"/>
+ </History>
 </MannequinPreview>

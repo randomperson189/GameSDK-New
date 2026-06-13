@@ -1107,10 +1107,15 @@ void CPlayerComponent::SpawnDefaultWeapon()
 			{
 				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 				{
-					CCGFAttachment* pCGFAttachment = new CCGFAttachment();
+					/*CCGFAttachment* pCGFAttachment = new CCGFAttachment();
 					pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
 
-					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
+					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);*/
+
+					CEntityAttachment* pEntityAttachment = new CEntityAttachment();
+					pEntityAttachment->SetEntityId(m_pActiveWeapon);
+
+					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pEntityAttachment);
 				}
 			}
 

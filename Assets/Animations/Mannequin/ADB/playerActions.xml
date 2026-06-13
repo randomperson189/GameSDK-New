@@ -5,6 +5,10 @@
   <Tag name="FPIdle"/>
   <Tag name="MotionIdle"/>
   <Tag name="MotionMovement"/>
-  <Tag name="select" subTagDef="Animations/Mannequin/ADB/selectionTags.xml"/>
+  <Tag name="select"/>
+  <Tag name="fire"/>
+  <Tag name="zoom_in"/>
+  <Tag name="zoom_out"/>
+  <Tag name="zoom_lean"/>
  </Tags>
 </TagDefinition>

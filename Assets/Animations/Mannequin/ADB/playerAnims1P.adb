@@ -61,12 +61,26 @@
    </Fragment>
   </FPIdle>
   <select>
-   <Fragment BlendOutDuration="0.2" Tags="">
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
     <AnimLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0"/>
      <Animation name="stand_tac_selectFirst_hammer_add_1p_01"/>
     </AnimLayer>
    </Fragment>
   </select>
+  <fire>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol+iron">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
+     <Animation name="stand_tac_recoil_pistol_iron_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_recoil_pistol_shoulder_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </fire>
  </FragmentList>
 </AnimDB>

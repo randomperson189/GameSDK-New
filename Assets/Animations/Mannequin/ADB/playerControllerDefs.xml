@@ -8,6 +8,10 @@
   <MotionIdle scopes="FullBody3P"/>
   <MotionMovement scopes="FullBody3P"/>
   <select scopes="Torso1P+Motion1P+Sway1P+Torso3P+Weapon+Audio1+AttachmentTop+AttachmentBottom"/>
+  <fire scopes="Torso1P+Torso3P+Weapon+WeaponForceFeedback+Audio1+AttachmentTop+AttachmentBottom"/>
+  <zoom_in scopes="Audio2"/>
+  <zoom_out scopes="Audio2"/>
+  <zoom_lean scopes="Audio2"/>
  </FragmentDefs>
  <ScopeContextDefs>
   <Char1P />
