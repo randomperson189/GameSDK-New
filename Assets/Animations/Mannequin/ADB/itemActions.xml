@@ -8,8 +8,6 @@
   <Tag name="melee_multipart" subTagDef="Animations/Mannequin/ADB/MeleeTags.xml"/>
   <Tag name="melee_weapon" subTagDef="animations/mannequin/adb/meleeweapontags.xml"/>
   <Tag name="melee_interact"/>
-  <Tag name="select" subTagDef="Animations/Mannequin/ADB/selectionTags.xml"/>
-  <Tag name="deselect" subTagDef="Animations/Mannequin/ADB/selectionTags.xml"/>
   <Tag name="idle" subTagDef="Animations/Mannequin/ADB/ammoCountTags.xml"/>
   <Tag name="idle_break"/>
   <Tag name="idle_lastGrenade"/>

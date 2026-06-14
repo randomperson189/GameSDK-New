@@ -1,23 +1,5 @@
 <AnimDB FragDef="Animations/Mannequin/ADB/PlayerActions.xml" TagDef="Animations/Mannequin/ADB/PlayerTags.xml">
  <FragmentList>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKGrenade+FP">
-    <ProcLayer>
-     <Blend ExitTime="0.044564486" StartTime="0" Duration="0.2"/>
-     <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_grenade_select_fp" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
-     </Procedural>
-    </ProcLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKGrenade">
-    <ProcLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_grenade_select_3p" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
-     </Procedural>
-    </ProcLayer>
-   </Fragment>
-  </select>
   <throw>
    <Fragment BlendOutDuration="0.2" Tags="SDKGrenade+FP">
     <ProcLayer>
@@ -90,5 +72,23 @@
     </ProcLayer>
    </Fragment>
   </pickedup>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKGrenade+FP">
+    <ProcLayer>
+     <Blend ExitTime="0.044564486" StartTime="0" Duration="0.2"/>
+     <Procedural type="Audio">
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_grenade_select_fp" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+     </Procedural>
+    </ProcLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKGrenade">
+    <ProcLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Procedural type="Audio">
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_grenade_select_3p" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+     </Procedural>
+    </ProcLayer>
+   </Fragment>
+  </select>
  </FragmentList>
 </AnimDB>

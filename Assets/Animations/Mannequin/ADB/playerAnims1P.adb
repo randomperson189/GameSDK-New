@@ -182,24 +182,6 @@
     </Fragment>
    </Variant>
   </Blend>
-  <Blend from="select" to="deselect">
-   <Variant from="" to="">
-    <Fragment BlendOutDuration="0.2" selectTime="0" enterTime="0">
-     <AnimLayer>
-      <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     </AnimLayer>
-    </Fragment>
-   </Variant>
-  </Blend>
-  <Blend from="deselect" to="select">
-   <Variant from="" to="">
-    <Fragment BlendOutDuration="0.2" selectTime="0" enterTime="0">
-     <AnimLayer>
-      <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     </AnimLayer>
-    </Fragment>
-   </Variant>
-  </Blend>
   <Blend from="idlePose" to="">
    <Variant from="" to="">
     <Fragment BlendOutDuration="0.2" selectTime="0" enterTime="0">
@@ -319,6 +301,24 @@
      <ProcLayer>
       <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      </ProcLayer>
+    </Fragment>
+   </Variant>
+  </Blend>
+  <Blend from="select" to="deselect">
+   <Variant from="" to="">
+    <Fragment BlendOutDuration="0.2" selectTime="0" enterTime="0">
+     <AnimLayer>
+      <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     </AnimLayer>
+    </Fragment>
+   </Variant>
+  </Blend>
+  <Blend from="deselect" to="select">
+   <Variant from="" to="">
+    <Fragment BlendOutDuration="0.2" selectTime="0" enterTime="0">
+     <AnimLayer>
+      <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     </AnimLayer>
     </Fragment>
    </Variant>
   </Blend>

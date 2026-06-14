@@ -54,42 +54,6 @@
     </ProcLayer>
    </Fragment>
   </melee>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher+FP">
-    <ProcLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rocketlauncher_select_fp" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
-     </Procedural>
-    </ProcLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher">
-    <ProcLayer>
-     <Blend ExitTime="0.099999905" StartTime="0" Duration="0.2"/>
-     <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rocketlauncher_select_3p" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
-     </Procedural>
-    </ProcLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher+FP">
-    <ProcLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_rocketlauncher_deselect_fp" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
-     </Procedural>
-    </ProcLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher">
-    <ProcLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rocketlauncher_deselect_fp" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
-     </Procedural>
-    </ProcLayer>
-   </Fragment>
-  </deselect>
   <fire>
    <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher+FP">
     <ProcLayer>
@@ -342,5 +306,41 @@
     </ProcLayer>
    </Fragment>
   </throwObjectSimple>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher+FP">
+    <ProcLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Procedural type="Audio">
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rocketlauncher_select_fp" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+     </Procedural>
+    </ProcLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher">
+    <ProcLayer>
+     <Blend ExitTime="0.099999905" StartTime="0" Duration="0.2"/>
+     <Procedural type="Audio">
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rocketlauncher_select_3p" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+     </Procedural>
+    </ProcLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher+FP">
+    <ProcLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Procedural type="Audio">
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_rocketlauncher_deselect_fp" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+     </Procedural>
+    </ProcLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher">
+    <ProcLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Procedural type="Audio">
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rocketlauncher_deselect_fp" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+     </Procedural>
+    </ProcLayer>
+   </Fragment>
+  </deselect>
  </FragmentList>
 </AnimDB>

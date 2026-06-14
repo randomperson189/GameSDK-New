@@ -8,14 +8,6 @@
     </AnimLayer>
    </Fragment>
   </melee>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKGrenade">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Animation name="stand_tac_select_gren_shoulder_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
   <throw>
    <Fragment BlendOutDuration="0.2" Tags="SDKGrenade">
     <AnimLayer>
@@ -148,5 +140,13 @@
     </ProcLayer>
    </Fragment>
   </slide>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKGrenade">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_select_gren_shoulder_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
  </FragmentList>
 </AnimDB>

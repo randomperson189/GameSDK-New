@@ -19,26 +19,6 @@
    <Fragment BlendOutDuration="0.2" Tags="SDKPistol" FragTags="hit"/>
    <Fragment BlendOutDuration="0.2" Tags="SDKPistol" FragTags="miss"/>
   </melee_multipart>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol+SP+FP" FragTags="first">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_select_pistol_weapon_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol" FragTags="ammo_empty">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Animation name="stand_tac_selectopen_pistol_weapon_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Animation name="stand_tac_selectclosed_pistol_weapon_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
   <idle>
    <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
     <AnimLayer>
@@ -99,5 +79,25 @@
     </AnimLayer>
    </Fragment>
   </reload>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol+SP+FP">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_select_pistol_weapon_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_selectopen_pistol_weapon_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_selectclosed_pistol_weapon_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
  </FragmentList>
 </AnimDB>

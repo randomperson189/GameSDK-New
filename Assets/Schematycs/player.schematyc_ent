@@ -142,7 +142,7 @@
        </element>
        <element key="12727469-af3f-41cf-9d70-153fe8c6919d" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="12727469-af3f-41cf-9d70-153fe8c6919d" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
-         <pos x="526.66675" y="-2413.9165"/>
+         <pos x="526" y="-2413"/>
          <functionId domain="Env" guid="8718b792-ed67-48f7-9e5e-5d9c46f866aa"/>
         </value>
        </element>
@@ -1050,15 +1050,15 @@
      <translation>
       <position>
        <element element="0"/>
-       <element element="0.05381377"/>
-       <element element="1.7461187"/>
+       <element element="0"/>
+       <element element="1.75"/>
       </position>
      </translation>
-     <rotation x="-8.2506218" y="0" z="0"/>
+     <rotation x="0" y="-0" z="0"/>
      <scale>
       <element element="1"/>
-      <element element="0.99999994"/>
-      <element element="0.99999994"/>
+      <element element="1"/>
+      <element element="1"/>
      </scale>
     </transform>
     <properties Type="Default" Active="false" NearPlane="0.1" FarPlane="8000" FieldOfView="1.2217305"/>
@@ -1107,15 +1107,15 @@
      <translation>
       <position>
        <element element="-0.046"/>
-       <element element="-0.4493804"/>
-       <element element="0.19224599"/>
+       <element element="-0.27500001"/>
+       <element element="0.13999999"/>
       </position>
      </translation>
-     <rotation x="-8.2506218" y="0" z="0"/>
+     <rotation x="0" y="-0" z="0"/>
      <scale>
       <element element="1"/>
-      <element element="0.99999994"/>
-      <element element="0.99999994"/>
+      <element element="1"/>
+      <element element="1"/>
      </scale>
     </transform>
     <properties Type="None" Character="Objects/Characters/human/sdk_player/sdk_player.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/playerAnims1P.adb" ControllerDefPath="Animations/Mannequin/ADB/playerControllerDefs.xml" DefaultScope="Char1P" DefaultFragment="" AnimDriven="true" GroundAlign="false">

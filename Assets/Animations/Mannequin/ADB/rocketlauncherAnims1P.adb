@@ -8,22 +8,6 @@
     </AnimLayer>
    </Fragment>
   </melee>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_select_jaw_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_deselect_rpg_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </deselect>
   <fire>
    <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher">
     <AnimLayer>
@@ -110,5 +94,21 @@
     </ProcLayer>
    </Fragment>
   </slide>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_select_jaw_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRocketLauncher">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_deselect_rpg_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </deselect>
  </FragmentList>
 </AnimDB>

@@ -5,18 +5,14 @@
     <AnimLayer />
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Procedural type="WeaponRecoil">
-      <ProceduralParams CryXmlVersion="2" DampStrength="7.5" FireRecoilTime="0.050000001" FireRecoilStrengthFirst="3" FireRecoilStrength="0.5" AngleRecoilStrength="0" Randomness="0"/>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
     <AnimLayer />
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.0099999998"/>
-     <Procedural type="WeaponRecoil">
-      <ProceduralParams CryXmlVersion="2" DampStrength="7.5" FireRecoilTime="0.050000001" FireRecoilStrengthFirst="0.5" FireRecoilStrength="0.1" AngleRecoilStrength="0" Randomness="0"/>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
   </rapid_fire>
@@ -54,22 +50,6 @@
     </AnimLayer>
    </Fragment>
   </melee>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Animation name="stand_tac_select_rifle_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_deselect_rifle_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </deselect>
   <idle>
    <Fragment BlendOutDuration="0.2" Tags="SDKRifle"/>
   </idle>
@@ -78,18 +58,14 @@
     <AnimLayer />
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Procedural type="WeaponRecoil">
-      <ProceduralParams CryXmlVersion="2" DampStrength="25" FireRecoilTime="0.050000001" FireRecoilStrengthFirst="2" FireRecoilStrength="0.5" AngleRecoilStrength="0" Randomness="0"/>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKRifle+iron">
     <AnimLayer />
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Procedural type="WeaponRecoil">
-      <ProceduralParams CryXmlVersion="2" DampStrength="7.5" FireRecoilTime="0.050000001" FireRecoilStrengthFirst="0.5" FireRecoilStrength="0.1" AngleRecoilStrength="0" Randomness="0"/>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
   </fire>
@@ -101,16 +77,7 @@
     </AnimLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.36000001"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="2" zoomTransitionAngle="0">
-       <Position x="0" y="0" z="0"/>
-       <Rotation>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
      <Blend ExitTime="3.01" StartTime="0" Duration="0.2"/>
      <Procedural type=""/>
     </ProcLayer>
@@ -122,16 +89,7 @@
     </AnimLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.32999998"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="2" zoomTransitionAngle="0">
-       <Position x="0" y="0" z="0"/>
-       <Rotation>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
      <Blend ExitTime="1.58" StartTime="0" Duration="0.34000003"/>
      <Procedural type=""/>
     </ProcLayer>
@@ -153,16 +111,7 @@
     </AnimLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.32999998"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="2" zoomTransitionAngle="0">
-       <Position x="0" y="0" z="0"/>
-       <Rotation>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
      <Blend ExitTime="0.88" StartTime="0" Duration="0.34000003"/>
      <Procedural type=""/>
     </ProcLayer>
@@ -176,16 +125,7 @@
     </AnimLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.32999998"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="2" zoomTransitionAngle="0">
-       <Position x="0" y="0" z="0"/>
-       <Rotation>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
      <Blend ExitTime="0.69999999" StartTime="0" Duration="0.34000003"/>
      <Procedural type=""/>
     </ProcLayer>
@@ -197,16 +137,7 @@
     </AnimLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.32999998"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="2" zoomTransitionAngle="0">
-       <Position x="0" y="0" z="0"/>
-       <Rotation>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
      <Blend ExitTime="0" StartTime="0" Duration="0.14000003"/>
      <Procedural type=""/>
     </ProcLayer>
@@ -217,29 +148,11 @@
     <AnimLayer />
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.30000001"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="0" zoomTransitionAngle="0">
-       <Position x="0.034076001" y="0.18106399" z="-0.0079739997"/>
-       <Rotation>
-        <element element="35.12455"/>
-        <element element="29.920429"/>
-        <element element="55.013981"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.31"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="2" zoomTransitionAngle="0">
-       <Position x="-0.050000001" y="-0.2" z="-0.5"/>
-       <Rotation>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
   </enter_modify>
@@ -259,45 +172,11 @@
     </AnimLayer>
     <ProcLayer>
      <Blend ExitTime="0.0051199999" StartTime="0" Duration="0.40000001"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="0" zoomTransitionAngle="0">
-       <Position x="0" y="0.15000001" z="-0.059999999"/>
-       <Rotation>
-        <element element="-11"/>
-        <element element="5"/>
-        <element element="20"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.21999997"/>
-     <Procedural type="WeaponSway">
-      <ProceduralParams CryXmlVersion="2" EaseFactorInc="5.25" EaseFactorDec="10" StrafeScopeFactor="0" RotateScopeFactor="0" VelocityInterpolationMultiplier="0" VelocityLowPassFilter="5" AccelerationSmoothing="1.2" AccelerationFrontAugmentation="6" VerticalVelocityScale="0.80000001" SprintCameraAnimation="0">
-       <LookOffset x="0" y="0"/>
-       <HorizLookRot>
-        <element element="0"/>
-        <element element="5"/>
-        <element element="0"/>
-       </HorizLookRot>
-       <VertLookRot>
-        <element element="0"/>
-        <element element="1"/>
-        <element element="1"/>
-       </VertLookRot>
-       <StrafeOffset x="0.5" y="0" z="6"/>
-       <SideStrafeRot>
-        <element element="0"/>
-        <element element="1.75"/>
-        <element element="0"/>
-       </SideStrafeRot>
-       <FrontStrafeRot>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </FrontStrafeRot>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKRifle+shoulder">
@@ -307,45 +186,11 @@
     </AnimLayer>
     <ProcLayer>
      <Blend ExitTime="0.0051199999" StartTime="0" Duration="0.2"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="0" zoomTransitionAngle="0">
-       <Position x="0.0075869998" y="0.0060669999" z="-0.0034950001"/>
-       <Rotation>
-        <element element="0.87414497"/>
-        <element element="-5.269012"/>
-        <element element="0.037645001"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.21999997"/>
-     <Procedural type="WeaponSway">
-      <ProceduralParams CryXmlVersion="2" EaseFactorInc="5.25" EaseFactorDec="10" StrafeScopeFactor="0" RotateScopeFactor="0" VelocityInterpolationMultiplier="0" VelocityLowPassFilter="5" AccelerationSmoothing="1.2" AccelerationFrontAugmentation="6" VerticalVelocityScale="0.80000001" SprintCameraAnimation="0">
-       <LookOffset x="0" y="0"/>
-       <HorizLookRot>
-        <element element="0"/>
-        <element element="5"/>
-        <element element="0"/>
-       </HorizLookRot>
-       <VertLookRot>
-        <element element="0"/>
-        <element element="1"/>
-        <element element="1"/>
-       </VertLookRot>
-       <StrafeOffset x="0.5" y="0" z="6"/>
-       <SideStrafeRot>
-        <element element="0"/>
-        <element element="1.75"/>
-        <element element="0"/>
-       </SideStrafeRot>
-       <FrontStrafeRot>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </FrontStrafeRot>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKRifle+iron">
@@ -355,45 +200,11 @@
     </AnimLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="1" zoomTransitionAngle="28.64789">
-       <Position x="-0.059959002" y="-0.044241" z="-0.000114"/>
-       <Rotation>
-        <element element="1.052796"/>
-        <element element="1.910136"/>
-        <element element="0.130417"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Procedural type="WeaponSway">
-      <ProceduralParams CryXmlVersion="2" EaseFactorInc="5.25" EaseFactorDec="10" StrafeScopeFactor="0" RotateScopeFactor="0" VelocityInterpolationMultiplier="0" VelocityLowPassFilter="5" AccelerationSmoothing="1.2" AccelerationFrontAugmentation="6" VerticalVelocityScale="0.80000001" SprintCameraAnimation="0">
-       <LookOffset x="0" y="0"/>
-       <HorizLookRot>
-        <element element="-1.5"/>
-        <element element="0.1"/>
-        <element element="0"/>
-       </HorizLookRot>
-       <VertLookRot>
-        <element element="0"/>
-        <element element="0.2"/>
-        <element element="0.2"/>
-       </VertLookRot>
-       <StrafeOffset x="0.1" y="0" z="0.5"/>
-       <SideStrafeRot>
-        <element element="0"/>
-        <element element="0.5"/>
-        <element element="0"/>
-       </SideStrafeRot>
-       <FrontStrafeRot>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </FrontStrafeRot>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKRifle+assault">
@@ -403,45 +214,11 @@
     </AnimLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="1" zoomTransitionAngle="0">
-       <Position x="-0.061000001" y="0" z="-0.0037499999"/>
-       <Rotation>
-        <element element="0"/>
-        <element element="2.25"/>
-        <element element="0.075000003"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Procedural type="WeaponSway">
-      <ProceduralParams CryXmlVersion="2" EaseFactorInc="0" EaseFactorDec="0" StrafeScopeFactor="0" RotateScopeFactor="0" VelocityInterpolationMultiplier="0" VelocityLowPassFilter="0" AccelerationSmoothing="0" AccelerationFrontAugmentation="0" VerticalVelocityScale="0" SprintCameraAnimation="0">
-       <LookOffset x="0" y="0"/>
-       <HorizLookRot>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </HorizLookRot>
-       <VertLookRot>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </VertLookRot>
-       <StrafeOffset x="0" y="0" z="0"/>
-       <SideStrafeRot>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </SideStrafeRot>
-       <FrontStrafeRot>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </FrontStrafeRot>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
    <Fragment BlendOutDuration="0.2" Tags="SDKRifle+sniper">
@@ -451,45 +228,11 @@
     </AnimLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="1" zoomTransitionAngle="0">
-       <Position x="-0.0612" y="-0.025" z="-0.0085000005"/>
-       <Rotation>
-        <element element="1"/>
-        <element element="2.25"/>
-        <element element="0.075000003"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Procedural type="WeaponSway">
-      <ProceduralParams CryXmlVersion="2" EaseFactorInc="0" EaseFactorDec="0" StrafeScopeFactor="0" RotateScopeFactor="0" VelocityInterpolationMultiplier="0" VelocityLowPassFilter="0" AccelerationSmoothing="0" AccelerationFrontAugmentation="0" VerticalVelocityScale="0" SprintCameraAnimation="0">
-       <LookOffset x="0" y="0"/>
-       <HorizLookRot>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </HorizLookRot>
-       <VertLookRot>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </VertLookRot>
-       <StrafeOffset x="0" y="0" z="0"/>
-       <SideStrafeRot>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </SideStrafeRot>
-       <FrontStrafeRot>
-        <element element="0"/>
-        <element element="0"/>
-        <element element="0"/>
-       </FrontStrafeRot>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
   </idlePose>
@@ -561,9 +304,7 @@
    <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.029999981"/>
-     <Procedural type="WeaponBump">
-      <ProceduralParams CryXmlVersion="2" Time="0.69999999" Shift="0.029999999" Rotation="3"/>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
   </bump>
@@ -572,16 +313,7 @@
     <AnimLayer />
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="0" zoomTransitionAngle="0">
-       <Position x="0.015" y="0" z="-0.029999999"/>
-       <Rotation>
-        <element element="-5.739583"/>
-        <element element="2.665035"/>
-        <element element="2.364306"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
   </friendly_enter>
@@ -590,16 +322,7 @@
     <AnimLayer />
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.55000001"/>
-     <Procedural type="WeaponPose">
-      <ProceduralParams CryXmlVersion="2" poseType="0" zoomTransitionAngle="0">
-       <Position x="0.136756" y="0.047456998" z="0.016938999"/>
-       <Rotation>
-        <element element="-24.560255"/>
-        <element element="-9.3542099"/>
-        <element element="54.48159"/>
-       </Rotation>
-      </ProceduralParams>
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
   </weapon_lower_enter>
@@ -697,6 +420,22 @@
     </ProcLayer>
    </Fragment>
   </ledgeGrab>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_select_rifle_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_deselect_rifle_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </deselect>
  </FragmentList>
  <FragmentBlendList>
   <Blend from="enter_modify" to="leave_modify">
