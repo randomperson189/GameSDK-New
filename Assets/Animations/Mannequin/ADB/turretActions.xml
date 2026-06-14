@@ -1,0 +1,9 @@
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="Idle"/>
+  <Tag name="Dead"/>
+  <Tag name="Undeployed"/>
+  <Tag name="PartiallyDeployed"/>
+  <Tag name="PrimaryWeapon"/>
+ </Tags>
+</TagDefinition>

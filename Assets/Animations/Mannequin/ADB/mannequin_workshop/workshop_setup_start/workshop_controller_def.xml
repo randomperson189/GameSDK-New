@@ -1,0 +1,14 @@
+<ControllerDef>
+ <Tags filename="animations/mannequin/adb/mannequin_workshop/workshop_setup_start/workshop_global_tags.xml"/>
+ <Fragments filename="animations/mannequin/adb/mannequin_workshop/workshop_setup_start/workshop_actions.xml"/>
+ <FragmentDefs/>
+ <ScopeContextDefs>
+  <Char3P />
+  <Slave tags="scope_slave"/>
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <FullBody layer="0" numLayers="3" context="Char3P"/>
+  <UpperBody layer="3" numLayers="2" context="Char3P" Tags="scope_upperbody"/>
+  <Slave layer="0" numLayers="3" context="Slave" Tags="scope_slave"/>
+ </ScopeDefs>
+</ControllerDef>

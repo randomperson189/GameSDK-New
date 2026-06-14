@@ -1,0 +1,10 @@
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="EnterDoorDriver"/>
+  <Tag name="EnterDoorPassenger2"/>
+  <Tag name="IdleDriver"/>
+  <Tag name="IdlePassenger2"/>
+  <Tag name="ExitDoorDriver"/>
+  <Tag name="ExitDoorPassenger2"/>
+ </Tags>
+</TagDefinition>

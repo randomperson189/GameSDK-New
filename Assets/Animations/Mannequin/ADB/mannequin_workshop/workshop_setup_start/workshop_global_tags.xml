@@ -1,0 +1,11 @@
+<TagDefinition version="2">
+ <Tags>
+  <Group name="scope">
+   <Tag name="scope_upperbody"/>
+   <Tag name="scope_slave"/>
+	</Group>
+  <Group name="context">
+   <Tag name="context_slave"/>
+	</Group>
+ </Tags>
+</TagDefinition>

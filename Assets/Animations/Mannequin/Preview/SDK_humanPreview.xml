@@ -1,0 +1,12 @@
+<MannequinPreview>
+ <controllerDef filename="Animations/Mannequin/ADB/humanControllerDefs.xml"/>
+ <contexts>
+  <contextData name="Human" enabled="1" database="Animations/Mannequin/ADB/human.adb" context="Char3P" model="objects/characters/human/sdk_player/sdk_player.cdf"/>
+  <contextData name="HumanAimPose" enabled="1" database="Animations/Mannequin/ADB/humanAimPose.adb" context="Char3P"/>
+  <contextData name="HumanAiming" enabled="1" database="Animations/Mannequin/ADB/humanAiming.adb" context="Char3P"/>
+  <contextData name="Audio" enabled="1" database="Animations/Mannequin/ADB/humanSounds.adb" context="Audio"/>
+ </contexts>
+ <History StartTime="0" EndTime="0">
+  <FragmentID Time="0" FragmentID="Motion_Idle"/>
+ </History>
+</MannequinPreview>

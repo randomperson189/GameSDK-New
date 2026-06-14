@@ -1,0 +1,38 @@
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/hmmwv_tags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/hmmwv_fragments.xml"/>
+ <FragmentDefs>
+  <EnterDoorDriver scopes="Driver+DoorDriver"/>
+  <EnterDoorPassenger1 scopes="Passenger1+DoorPassenger1"/>
+  <IdleDriver scopes="Driver+DrivingWheel"/>
+  <ExitDoorDriver scopes="Driver+DoorDriver"/>
+  <EnterDoorPassenger2 scopes="Passenger2+DoorPassenger2"/>
+  <EnterDoorPassenger3 scopes="Passenger3+DoorPassenger3"/>
+  <IdlePassenger1 scopes="Passenger1"/>
+  <IdlePassenger2 scopes="Passenger2"/>
+  <IdlePassenger3 scopes="Passenger3"/>
+  <ExitDoorPassenger1 scopes="Passenger1+DoorPassenger1"/>
+  <ExitDoorPassenger2 scopes="Passenger2+DoorPassenger2"/>
+  <ExitDoorPassenger3 scopes="Passenger3+DoorPassenger3"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <hull />
+  <Driver />
+  <Passenger1 />
+  <Passenger2 />
+  <Passenger3 />
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <Body layer="0" numLayers="3" context="hull"/>
+  <Driver layer="0" numLayers="3" context="Driver"/>
+  <Passenger1 layer="0" numLayers="3" context="Passenger1"/>
+  <Passenger2 layer="0" numLayers="3" context="Passenger2"/>
+  <Passenger3 layer="0" numLayers="3" context="Passenger3"/>
+  <DoorDriver layer="3" numLayers="1" context="hull"/>
+  <DoorPassenger1 layer="4" numLayers="1" context="hull"/>
+  <DoorPassenger2 layer="5" numLayers="1" context="hull"/>
+  <DoorPassenger3 layer="6" numLayers="1" context="hull"/>
+  <DoorGunner layer="7" numLayers="1" context="hull"/>
+  <DrivingWheel layer="8" numLayers="1" context="hull"/>
+ </ScopeDefs>
+</ControllerDef>

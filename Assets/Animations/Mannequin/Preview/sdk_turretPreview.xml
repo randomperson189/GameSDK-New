@@ -1,0 +1,8 @@
+<MannequinPreview>
+	<controllerDef filename="Animations/Mannequin/ADB/turretControllerDefs.xml"/>
+	<contexts>
+		<contextData name="Turret" enabled="1" context="TurretCharacter" model="Objects/weapons/turret/turret.cdf" database="Animations/Mannequin/ADB/turret.adb"/>
+	</contexts>
+	<History StartTime="135.32835" EndTime="235.32835">
+	</History>
+</MannequinPreview>

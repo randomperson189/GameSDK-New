@@ -1,0 +1,8 @@
+<MannequinPreview>
+ <controllerDef filename="animations/mannequin/adb/mannequin_workshop/workshop_setup_start/workshop_controller_def.xml"/>
+ <contexts>
+  <contextData name="Char3P" enabled="1" database="animations/mannequin/adb/mannequin_workshop/workshop_setup_start/workshop_adb.adb" context="Char3P" model="objects/characters/human/sdk_player/sdk_player.cdf"/>
+  <contextData name="Slave" database="animations/mannequin/adb/mannequin_workshop/workshop_setup_start/workshop_adb.adb" context="Slave" tags="context_slave" model="objects/characters/human/sdk_player/sdk_player.cdf"/>
+ </contexts>
+ <History StartTime="0" EndTime="0"/>
+</MannequinPreview>

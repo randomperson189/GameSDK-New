@@ -1,0 +1,18 @@
+<TagDefinition version="2">
+ <Tags>
+  <Group name="HackedState">
+   <Tag name="Hacked_No"/>
+   <Tag name="Hacked_Yes"/>
+   <Tag name="Hacked_InProgress"/>
+  </Group>
+  <Group name="PrimaryWeaponState">
+   <Tag name="PrimaryWeapon_Idle"/>
+   <Tag name="PrimaryWeapon_Firing"/>
+  </Group>  
+  <Tag name="Scope_TurretUpper"/>
+  <Tag name="Scope_TurretSound"/>
+  <Tag name="Scope_TurretAim"/>
+  <Tag name="Scope_TurretPrimaryWeapon"/>
+  <Tag name="Disabled"/>
+ </Tags>
+</TagDefinition>

@@ -1,0 +1,15 @@
+<TagDefinition version="2">
+ <Tags>
+  <Group name="PlayMode">
+   <Tag name="SP"/>
+   <Tag name="MP"/>
+  </Group>
+  <Group name="Vehicle">
+   <Tag name="MH60_Blackhawk"/>
+  </Group>
+  <Tag name="Pilot"/>
+  <Tag name="Driver"/>
+  <Tag name="Passenger"/>
+  <Tag name="Gunner"/>
+ </Tags>
+</TagDefinition>

@@ -1,0 +1,245 @@
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/humanTags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/humanActions.xml"/>
+ <FragmentDefs>
+  <burst_fire scopes="Torso3P+Weapon+Audio1"/>
+  <rapid_fire scopes="Torso3P+Weapon+Audio1" flags="Persistent"/>
+  <cock />
+  <stop_rapid_fire scopes="Torso3P+Weapon+Audio1">
+   <Override tags="SDKRifle" scopes="Torso3P+Weapon"/>
+  </stop_rapid_fire>
+  <melee scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <melee_multipart scopes="Torso3P+Weapon+Audio1"/>
+  <melee_weapon scopes="Torso3P+Weapon+Audio1"/>
+  <melee_interact scopes="Torso3P"/>
+  <select scopes="Torso3P+Weapon+Audio1"/>
+  <deselect scopes="Torso3P+Weapon+Audio1"/>
+  <idle scopes="Torso3P+Weapon+Audio1"/>
+  <idle_break scopes="Torso3P+Weapon+Audio1"/>
+  <idle_lastGrenade scopes="Torso3P+Weapon+Audio1"/>
+  <jump scopes="Torso3P+Weapon+Audio1"/>
+  <fire scopes="Torso3P+Weapon+Audio1">
+   <Override tags="rapid" scopes=""/>
+   <Override tags="burst" scopes=""/>
+  </fire>
+  <throw scopes="Torso3P+Weapon+Audio1"/>
+  <hold scopes="Torso3P+Weapon+Audio1"/>
+  <prime scopes="Torso3P+Weapon+Audio1"/>
+  <raise />
+  <lower />
+  <reload scopes="Torso3P+Weapon+Audio1"/>
+  <begin_reload scopes="Torso3P+Weapon+Audio1"/>
+  <reload_shell scopes="Torso3P+Weapon+Audio1"/>
+  <exit_reload scopes="Torso3P+Weapon+Audio1"/>
+  <enter_modify scopes="Torso3P+Weapon+Audio1" flags="Persistent"/>
+  <leave_modify scopes="Torso3P+Weapon+Audio1"/>
+  <change_firemode scopes="Torso3P+Weapon+Audio1"/>
+  <intoPlant scopes="Torso3P+Weapon+Audio1"/>
+  <fromPlant scopes="Torso3P+Weapon+Audio1"/>
+  <plant scopes="Torso3P+Weapon+Audio1"/>
+  <grab scopes="FullBody3P+Torso3P+Looking+Aiming+Weapon+Audio1"/>
+  <drop scopes="Torso3P+Weapon+Audio1"/>
+  <rip_off scopes="Torso3P+Weapon+Audio1"/>
+  <spin_down scopes="Audio1"/>
+  <spin_down_tail scopes="Audio1"/>
+  <hit scopes="Audio2"/>
+  <empty_clip scopes="Audio2"/>
+  <pickedup scopes="Audio2"/>
+  <pickedup_ammo scopes="Audio2"/>
+  <zoom_in scopes="Audio2"/>
+  <zoom_out scopes="Audio2"/>
+  <zoom_lean scopes="Audio2"/>
+  <shot_last_bullet scopes="Audio2"/>
+  <spin_up scopes="Torso3P+Weapon+Audio1"/>
+  <aimPose scopes="AimPose" flags="Persistent"/>
+  <unprime scopes="Torso3P+Weapon+Audio1"/>
+  <pre_fire scopes="FullBody3P+Torso3P+TorsoDetail+LookPose+Looking+AimPose+Aiming+Weapon+Audio1+Audio2"/>
+  <barrel_spin />
+  <AI_SearchLookAround scopes="FullBody3P+Torso3P+TorsoDetail+Weapon"/>
+  <fireFlare scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <ZZ_coverLft_AI_stepOutOfCover scopes="FullBody3P"/>
+  <ZZ_coverLftThrowGrenade scopes="FullBody3P+Torso3P+TorsoDetail+Weapon"/>
+  <Motion_Idle scopes="FullBody3P"/>
+  <MotionDetail_Idle scopes="TorsoDetail"/>
+  <ZZ_coverRgt_AI_stepOutOfCover scopes="FullBody3P"/>
+  <ZZ_coverRgtThrowGrenade scopes="FullBody3P+Torso3P+TorsoDetail+Weapon"/>
+  <Motion_Move scopes="FullBody3P+Weapon"/>
+  <MotionDetail_Move scopes="TorsoDetail">
+   <Override tags="Relaxed+Scope_TorsoDetail" scopes="Torso3P+TorsoDetail"/>
+   <Override tags="Scope_TorsoDetail" scopes="Torso3P+TorsoDetail"/>
+  </MotionDetail_Move>
+  <IA_deployBarrier scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_StandToAttention_01 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_checkWeapon scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_DeathPing_01 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_DeathPing_02 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_DeathPing_03 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_drink scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_InteractComm_01 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_lookaroundbehind01 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_lookaroundblinded01 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_lookarounddown01 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_lookaroundright01 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_reactPing_01 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_ReactToSuspiciousSound_01 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_saluteofficer01 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_Salute_01 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_talkBigGun1 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_talkBigGun2 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_talkFunny scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_talkIntense scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_talkLost scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_talkSports scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_talking_active scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_talking_passive scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_wavethrough01 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_yes1 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IA_yes2 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <IS_allQuiet scopes="FullBody3P"/>
+  <IS_areaSecure scopes="FullBody3P"/>
+  <IS_checkBody scopes="FullBody3P"/>
+  <IS_searchvehicle01 scopes="FullBody3P"/>
+  <CODE_MT_jukeBwdFwd scopes="FullBody3P"/>
+  <CODE_MT_jukeBwdLft scopes="FullBody3P"/>
+  <CODE_MT_jukeBwdRgt scopes="FullBody3P"/>
+  <CODE_MT_jukeFwdLft45 scopes="FullBody3P"/>
+  <CODE_MT_jukeFwdRgt45 scopes="FullBody3P"/>
+  <CODE_MT_jukeLftBwd scopes="FullBody3P"/>
+  <CODE_MT_jukeLftFwd scopes="FullBody3P"/>
+  <CODE_MT_jukeLftRgt scopes="FullBody3P"/>
+  <CODE_MT_jukeRgtBwd scopes="FullBody3P"/>
+  <CODE_MT_jukeRgtFwd scopes="FullBody3P"/>
+  <CODE_MT_jukeRgtLft scopes="FullBody3P"/>
+  <CODE_MT_jukeFwdBwd scopes="FullBody3P"/>
+  <CODE_MT_jukeFwdLft scopes="FullBody3P"/>
+  <CODE_MT_jukeFwdRgt scopes="FullBody3P"/>
+  <CODE_MT_jukeTurnFwdLft180 scopes="FullBody3P"/>
+  <CODE_MT_jukeTurnFwdLft45 scopes="FullBody3P"/>
+  <CODE_MT_jukeTurnFwdLft scopes="FullBody3P"/>
+  <CODE_MT_jukeTurnFwdRgt45 scopes="FullBody3P"/>
+  <CODE_MT_jukeTurnFwdRgt scopes="FullBody3P"/>
+  <falling scopes="FullBody3P"/>
+  <RA_audioclear scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <RA_heargunfire scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <RA_heargunfire1 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <RA_suspected scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <RA_suspected1 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <RA_hearunknown scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <RA_hearunknown1 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <RA_hearunknown2 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <RA_hearunknown3 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <RA_radio scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <RA_flinch scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <RA_signalstop scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <RA_surprised scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <ZZ_AI_idleBreakBored scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <ZZ_AI_idleBreak scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <CODE_MT_idleToMove scopes="FullBody3P">
+   <Override tags="nw+Relaxed" scopes="FullBody3P"/>
+  </CODE_MT_idleToMove>
+  <Motion_IdleTurn scopes="FullBody3P"/>
+  <Motion_IdleTurnBig scopes="FullBody3P"/>
+  <CODE_MT_walkToIdle scopes="FullBody3P"/>
+  <SO_jump150down scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <SO_jump150up scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <SO_duck125 scopes="FullBody3P"/>
+  <SO_kick_door scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <SO_raisingCover scopes="FullBody3P"/>
+  <SO_repel2600down scopes="FullBody3P"/>
+  <SO_repel800down scopes="FullBody3P"/>
+  <SO_vault125 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <ZZ_AI_SideStepLeft scopes="FullBody3P+Torso3P+TorsoDetail+Weapon"/>
+  <ZZ_AI_SideStepRight scopes="FullBody3P+Torso3P+TorsoDetail+Weapon"/>
+  <CODE_MT_slideIntoCoverLong scopes="FullBody3P+Looking+Aiming"/>
+  <CODE_MT_slideIntoCoverLongSide scopes="FullBody3P+Looking+Aiming"/>
+  <CODE_MT_slideIntoCoverShort scopes="FullBody3P+Looking+Aiming"/>
+  <CODE_MT_slideIntoCoverShortSide scopes="FullBody3P+Looking+Aiming"/>
+  <swim_idle_underwater_nw_01 scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <CODE_MT_idleToGrenadeDashBwd scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <CODE_MT_idleToGrenadeDashLft scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <CODE_MT_idleToGrenadeDashRgt scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <CODE_MT_runToIdle scopes="FullBody3P"/>
+  <grabNPC scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <grabKillNPC scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <throwNPC scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <struggleNPC scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <gunnerMountedHMG scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <callReinforcement scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <MotionDetail_Nothing scopes="TorsoDetail"/>
+  <RA_advanceleft_ub scopes="Torso3P+TorsoDetail+Weapon"/>
+  <RA_advanceright_ub scopes="Torso3P+TorsoDetail+Weapon"/>
+  <RA_cometome_ub scopes="Torso3P+TorsoDetail+Weapon"/>
+  <RA_fanout_ub scopes="Torso3P+TorsoDetail+Weapon"/>
+  <AI_SignalOthersToFollow_UB scopes="Torso3P+TorsoDetail+Weapon"/>
+  <AI_SignalOthersToStop_UB scopes="Torso3P+TorsoDetail+Weapon"/>
+  <RA_getdown_ub scopes="Torso3P+TorsoDetail+Weapon"/>
+  <RA_searcharound_ub scopes="Torso3P+TorsoDetail+Weapon"/>
+  <RA_stop_ub scopes="Torso3P+TorsoDetail+Weapon"/>
+  <RA_heargunfire_ub scopes="Torso3P+TorsoDetail+Weapon"/>
+  <hitDeath scopes="FullBody3P+Torso3P+TorsoDetail+Looking+AimPose+Aiming+Weapon">
+   <Override tags="" fragTags="detail" scopes="HitDeathDetail"/>
+  </hitDeath>
+  <SO_jump300down scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <SO_jump300up scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <SO_jump450down scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <SO_zip7500down scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <SO_repel900down scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <Motion_Step scopes="FullBody3P"/>
+  <CoverActionIn scopes="FullBody3P+Looking+AimPose+Aiming">
+   <Override tags="CoverLow+CoverLeft" fragTags="ToCoverMidPeek" scopes="FullBody3P+Looking+Aiming"/>
+   <Override tags="CoverLow+CoverRight" fragTags="ToCoverMidPeek" scopes="FullBody3P+Looking+Aiming"/>
+   <Override tags="CoverHigh" fragTags="ToCoverLftPeek" scopes="FullBody3P+Looking+Aiming"/>
+   <Override tags="CoverLow" fragTags="ToCoverLftPeek" scopes="FullBody3P+Looking+Aiming"/>
+   <Override tags="CoverHigh" fragTags="ToCoverRgtPeek" scopes="FullBody3P+Looking+Aiming"/>
+   <Override tags="CoverLow" fragTags="ToCoverRgtPeek" scopes="FullBody3P+Looking+Aiming"/>
+  </CoverActionIn>
+  <CoverActionOut scopes="FullBody3P"/>
+  <CoverAction scopes="FullBody3P+Looking+AimPose+Aiming">
+   <Override tags="CoverLow+CoverRight" fragTags="CoverMidPeek" scopes="FullBody3P+Looking+Aiming"/>
+   <Override tags="CoverLow+CoverLeft" fragTags="CoverMidPeek" scopes="FullBody3P+Looking+Aiming"/>
+   <Override tags="CoverLow" fragTags="CoverLftPeek" scopes="FullBody3P+Looking+Aiming"/>
+   <Override tags="CoverLow" fragTags="CoverRgtPeek" scopes="FullBody3P+Looking+Aiming"/>
+   <Override tags="CoverHigh" fragTags="CoverRgtPeek" scopes="FullBody3P+Looking+Aiming"/>
+   <Override tags="CoverHigh" fragTags="CoverLftPeek" scopes="FullBody3P+Looking+Aiming"/>
+  </CoverAction>
+  <CoverBodyDirectionChange scopes="FullBody3P+Looking+Aiming"/>
+  <ZZ_AI_BigFlinch scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <AI_NoticeDeadBodyAndTurn scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <AI_NoticeDeadBody scopes="FullBody3P+Torso3P+TorsoDetail+Weapon"/>
+  <AI_NoticeMateBeingKilled scopes="FullBody3P+Torso3P+TorsoDetail+Weapon"/>
+  <AI_NoticeSoundAndTurn scopes="FullBody3P+Torso3P+TorsoDetail+Aiming+Weapon"/>
+  <AI_NoticeSound scopes="FullBody3P+Torso3P+TorsoDetail+Weapon"/>
+  <AI_NoticeVisualThreatAndTurn scopes="FullBody3P+Torso3P+TorsoDetail+Aiming+Weapon"/>
+  <AI_NoticeGrenade scopes="FullBody3P+Torso3P+TorsoDetail+Weapon"/>
+  <AI_NoticeBulletRainAndTurn scopes="FullBody3P+Torso3P+TorsoDetail+Looking+Aiming+Weapon"/>
+  <RA_Despair scopes="FullBody3P+Torso3P+TorsoDetail+Weapon"/>
+  <Aiming scopes="Aiming"/>
+  <MotionMounted scopes="FullBody3P+AimPose"/>
+  <BlendRagdoll scopes="FullBody3P+Torso3P+TorsoDetail+HitDeathDetail+Looking+GroundAlignment+AimPose+Aiming+Weapon+Audio1+Audio2"/>
+  <AI_NoticeFarThreat scopes="FullBody3P+Torso3P+TorsoDetail+Looking+GroundAlignment+AimPose+Aiming+Weapon+Audio1+Audio2"/>
+  <AI_CheckDeadBody scopes="FullBody3P+Torso3P+TorsoDetail+Looking+GroundAlignment+AimPose+Aiming+Weapon+Audio1+Audio2"/>
+  <SO_CornerBreachRight scopes="FullBody3P+Torso3P+TorsoDetail+Looking+GroundAlignment+AimPose+Aiming+Weapon+Audio1+Audio2"/>
+  <SO_CornerBreachLeft scopes="FullBody3P+Torso3P+TorsoDetail+Looking+GroundAlignment+AimPose+Aiming+Weapon+Audio1+Audio2"/>
+  <LookPose scopes="LookPose"/>
+  <Looking scopes="Looking"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <Char3P />
+  <Weapon />
+  <Audio />
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <FullBody3P layer="0" numLayers="3" context="Char3P"/>
+  <Torso3P layer="5" numLayers="2" context="Char3P"/>
+  <TorsoDetail layer="7" numLayers="2" context="Char3P" Tags="Scope_TorsoDetail"/>
+  <HitDeathDetail layer="9" numLayers="2" context="Char3P" Tags="Scope_HitDeathDetail"/>
+  <LookPose layer="15" numLayers="1" context="Char3P" Tags="Scope_LookPose"/>
+  <Looking layer="15" numLayers="0" context="Char3P" Tags="Scope_Looking"/>
+  <GroundAlignment layer="13" numLayers="1" context="Char3P"/>
+  <AimPose layer="14" numLayers="1" context="Char3P" Tags="Scope_AimPose"/>
+  <Aiming layer="14" numLayers="0" context="Char3P" Tags="Scope_Aiming"/>
+  <Weapon layer="0" numLayers="3" context="Weapon"/>
+  <Audio1 layer="0" numLayers="0" context="Audio"/>
+  <Audio2 layer="0" numLayers="0" context="Audio"/>
+ </ScopeDefs>
+</ControllerDef>

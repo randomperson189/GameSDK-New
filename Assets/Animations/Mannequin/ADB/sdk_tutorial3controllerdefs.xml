@@ -1,0 +1,14 @@
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/sdk_tutorial3tags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/sdk_tutorial3fragmentids.xml"/>
+ <FragmentDefs>
+  <Idle scopes="FullBody"/>
+  <Move scopes="FullBody"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <MainCharacter />
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <FullBody layer="0" numLayers="3" context="MainCharacter"/>
+ </ScopeDefs>
+</ControllerDef>

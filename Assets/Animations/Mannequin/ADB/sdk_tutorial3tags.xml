@@ -1,0 +1,9 @@
+<TagDefinition version="2">
+ <Tags>
+  <Group name="stance">
+   <Tag name="kneeling" priority="1"/>
+   <Tag name="standing" priority="1"/>
+  </Group>
+  <Tag name="tired"/>
+ </Tags>
+</TagDefinition>

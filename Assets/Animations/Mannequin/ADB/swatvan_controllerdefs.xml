@@ -1,0 +1,25 @@
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/swatvan_tags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/swatvan_fragments.xml"/>
+ <FragmentDefs>
+  <EnterDoorDriver scopes="Driver+DoorDriver"/>
+  <EnterDoorPassenger2 scopes="Passenger2+DoorPassenger2"/>
+  <IdleDriver scopes="Driver+DrivingWheel"/>
+  <IdlePassenger2 scopes="Passenger2"/>
+  <ExitDoorDriver scopes="Driver+DoorDriver"/>
+  <ExitDoorPassenger2 scopes="Body+Driver+Passenger2+DoorDriver+DoorPassenger2+DrivingWheel"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <hull />
+  <Driver />
+  <Passenger2 />
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <Body layer="0" numLayers="3" context="hull"/>
+  <Driver layer="0" numLayers="3" context="Driver"/>
+  <Passenger2 layer="0" numLayers="3" context="Passenger2"/>
+  <DoorDriver layer="3" numLayers="1" context="hull"/>
+  <DoorPassenger2 layer="5" numLayers="1" context="hull"/>
+  <DrivingWheel layer="8" numLayers="1" context="hull"/>
+ </ScopeDefs>
+</ControllerDef>

@@ -1,0 +1,34 @@
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="EnterDoorPilot"/>
+  <Tag name="EnterDoorGunner"/>
+  <Tag name="EnterDoorPassenger1"/>
+  <Tag name="EnterDoorPassenger2"/>
+  <Tag name="EnterDoorPassenger3"/>
+  <Tag name="EnterDoorPassenger4"/>
+  <Tag name="EnterDoorPassenger5"/>
+  <Tag name="EnterDoorPassenger6"/>
+  <Tag name="EnterDoorPassenger7"/>
+  <Tag name="EnterDoorPassenger8"/>
+  <Tag name="IdlePilot"/>
+  <Tag name="IdleGunner"/>
+  <Tag name="IdlePassenger1"/>
+  <Tag name="IdlePassenger2"/>
+  <Tag name="IdlePassenger3"/>
+  <Tag name="IdlePassenger4"/>
+  <Tag name="IdlePassenger5"/>
+  <Tag name="IdlePassenger6"/>
+  <Tag name="IdlePassenger7"/>
+  <Tag name="IdlePassenger8"/>
+  <Tag name="ExitDoorPilot"/>
+  <Tag name="ExitDoorGunner"/>
+  <Tag name="ExitDoorPassenger1"/>
+  <Tag name="ExitDoorPassenger2"/>
+  <Tag name="ExitDoorPassenger3"/>
+  <Tag name="ExitDoorPassenger4"/>
+  <Tag name="ExitDoorPassenger5"/>
+  <Tag name="ExitDoorPassenger6"/>
+  <Tag name="ExitDoorPassenger7"/>
+  <Tag name="ExitDoorPassenger8"/>
+ </Tags>
+</TagDefinition>

@@ -1,0 +1,21 @@
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/turretTags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/turretActions.xml"/>
+ <FragmentDefs>
+  <Idle scopes="Turret+TurretAim+TurretUpper"/>
+  <Dead scopes="Turret+TurretAim+TurretUpper"/>
+  <Undeployed scopes="Turret+TurretAim+TurretUpper"/>
+  <PartiallyDeployed scopes="Turret+TurretAim+TurretUpper"/>
+  <PrimaryWeapon scopes="TurretPrimaryWeapon"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <TurretCharacter />
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <Turret layer="0" numLayers="3" context="TurretCharacter"/>
+  <TurretAim layer="4" numLayers="0" context="TurretCharacter" Tags="Scope_TurretAim"/>
+  <TurretUpper layer="7" numLayers="3" context="TurretCharacter" Tags="Scope_TurretUpper"/>
+  <TurretPrimaryWeapon layer="10" numLayers="3" context="TurretCharacter" Tags="Scope_TurretPrimaryWeapon"/>
+  <TurretSound layer="0" numLayers="0" context="TurretCharacter" Tags="Scope_TurretSound"/>
+ </ScopeDefs>
+</ControllerDef>

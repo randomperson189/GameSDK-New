@@ -1,0 +1,13 @@
+<TagDefinition version="2">
+ <Tags>
+  <Group name="PlayMode">
+   <Tag name="SP"/>
+   <Tag name="MP"/>
+  </Group>
+  <Group name="Vehicle">
+   <Tag name="SpeedBoat"/>
+  </Group>
+  <Tag name="Driver"/>
+  <Tag name="Passenger"/>
+ </Tags>
+</TagDefinition>

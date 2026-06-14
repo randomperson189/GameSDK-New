@@ -1,0 +1,74 @@
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/MH60_BlackhawkTags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/MH60_BlackhawkFragments.xml"/>
+ <FragmentDefs>
+  <EnterDoorPilot scopes="Pilot+DoorPilot"/>
+  <EnterDoorGunner scopes="Gunner+DoorGunner"/>
+  <EnterDoorPassenger1 scopes="Passenger1+DoorPassenger1"/>
+  <EnterDoorPassenger2 scopes="Passenger2+DoorPassenger2"/>
+  <EnterDoorPassenger3 scopes="Passenger3+DoorPassenger3"/>
+  <EnterDoorPassenger4 scopes="Passenger4+DoorPassenger4"/>
+  <EnterDoorPassenger5 scopes="Passenger5+DoorPassenger5"/>
+  <EnterDoorPassenger6 scopes="Passenger6+DoorPassenger6"/>
+  <EnterDoorPassenger7 scopes="Passenger7+DoorPassenger7"/>
+  <EnterDoorPassenger8 scopes="Passenger8+DoorPassenger8"/>
+  <IdlePilot scopes="Pilot+DrivingWheel"/>
+  <IdleGunner scopes="Gunner+DrivingWheel"/>
+  <IdlePassenger1 scopes="Passenger1"/>
+  <IdlePassenger2 scopes="Passenger2"/>
+  <IdlePassenger3 scopes="Passenger3"/>
+  <IdlePassenger4 scopes="Passenger4"/>
+  <IdlePassenger5 scopes="Passenger5"/>
+  <IdlePassenger6 scopes="Passenger6"/>
+  <IdlePassenger7 scopes="Passenger7"/>
+  <IdlePassenger8 scopes="Passenger8"/>
+  <ExitDoorPilot scopes="Pilot+DoorPilot"/>
+  <ExitDoorGunner scopes="Gunner+DoorGunner"/>
+  <ExitDoorPassenger1 scopes="Passenger1+DoorPassenger1"/>
+  <ExitDoorPassenger2 scopes="Passenger2+DoorPassenger2"/>
+  <ExitDoorPassenger3 scopes="Passenger3+DoorPassenger3"/>
+  <ExitDoorPassenger4 scopes="Passenger4+DoorPassenger4"/>
+  <ExitDoorPassenger5 scopes="Passenger5+DoorPassenger5"/>
+  <ExitDoorPassenger6 scopes="Passenger6+DoorPassenger6"/>
+  <ExitDoorPassenger7 scopes="Passenger7+DoorPassenger7"/>
+  <ExitDoorPassenger8 scopes="Passenger8+DoorPassenger8"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <hull />
+  <Driver />
+  <Gunner />
+  <Passenger1 />
+  <Passenger2 />
+  <Passenger3 />
+  <Passenger4 />
+  <Passenger5 />
+  <Passenger6 />
+  <Passenger7 />
+  <Passenger8 />
+  <Pilot />
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <Body layer="0" numLayers="3" context="hull"/>
+  <Pilot layer="0" numLayers="3" context="Pilot"/>
+  <Gunner layer="0" numLayers="3" context="Gunner"/>
+  <Passenger1 layer="0" numLayers="3" context="Passenger1"/>
+  <Passenger2 layer="0" numLayers="3" context="Passenger2"/>
+  <Passenger3 layer="0" numLayers="3" context="Passenger3"/>
+  <Passenger4 layer="0" numLayers="3" context="Passenger4"/>
+  <Passenger5 layer="0" numLayers="3" context="Passenger5"/>
+  <Passenger6 layer="0" numLayers="3" context="Passenger6"/>
+  <Passenger7 layer="0" numLayers="3" context="Passenger7"/>
+  <Passenger8 layer="0" numLayers="3" context="Passenger8"/>
+  <DoorPilot layer="3" numLayers="1" context="hull"/>
+  <DoorGunner layer="13" numLayers="1" context="hull"/>
+  <DoorPassenger1 layer="5" numLayers="1" context="hull"/>
+  <DoorPassenger2 layer="6" numLayers="1" context="hull"/>
+  <DoorPassenger3 layer="7" numLayers="1" context="hull"/>
+  <DoorPassenger4 layer="8" numLayers="1" context="hull"/>
+  <DoorPassenger5 layer="9" numLayers="1" context="hull"/>
+  <DoorPassenger6 layer="10" numLayers="1" context="hull"/>
+  <DoorPassenger7 layer="11" numLayers="1" context="hull"/>
+  <DoorPassenger8 layer="12" numLayers="1" context="hull"/>
+  <DrivingWheel layer="14" numLayers="1" context="hull"/>
+ </ScopeDefs>
+</ControllerDef>

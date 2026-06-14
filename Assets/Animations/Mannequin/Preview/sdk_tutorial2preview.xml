@@ -1,0 +1,7 @@
+<MannequinPreview>
+ <controllerDef filename="Animations/Mannequin/ADB/sdk_tutorial2controllerdefs.xml"/>
+ <contexts>
+  <contextData name="MainCharacter" enabled="1" database="Animations/Mannequin/ADB/sdk_tutorial2database.adb" context="MainCharacter" model="objects/characters/human/sdk_player/sdk_player.cdf"/>
+ </contexts>
+ <History StartTime="-4.3160208e+008" EndTime="-4.3160208e+008"/>
+</MannequinPreview>
