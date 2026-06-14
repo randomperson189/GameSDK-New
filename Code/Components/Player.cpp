@@ -89,7 +89,7 @@ namespace
 				pFunction->SetFlags(Schematyc::EEnvFunctionFlags::Construction);
 				pFunction->BindInput(1, 'frag', "Fragment Name");
 				pFunction->BindInput(2, 'scop', "Scope");
-				pFunction->BindInput(3, 'tru', "Trump Previous Fragment");
+				pFunction->BindInput(3, 'tru', "Override Previous Fragment");
 				componentScope.Register(pFunction);
 			}
 
@@ -97,18 +97,23 @@ namespace
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetDesiredFragmentOnScope, "{28BED6B2-A304-43AB-8854-95D28DEB7A0D}"_cry_guid, "Set Desired Fragment");
 				pFunction->BindInput(1, 'frag', "Fragment", "Fragment Name");
 				pFunction->BindInput(2, 'scop', "Scope");
-				pFunction->BindInput(3, 'tru', "Trump Previous Fragment");
+				pFunction->BindInput(3, 'tru', "Override Previous Fragment");
 				componentScope.Register(pFunction);
 			}
 
 			{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::RefreshFragmentsOnScopes, "{95E2CDF4-C429-46CD-8369-C594E2B82212}"_cry_guid, "Refresh Fragments On Scopes");
-				pFunction->BindInput(1, 'sco1', "FullBody1P");
-				pFunction->BindInput(2, 'sco2', "Torso1P");
-				pFunction->BindInput(3, 'sco3', "Motion1P");
-				pFunction->BindInput(4, 'sco4', "Sway1P");
-				pFunction->BindInput(5, 'sco5', "GroundAlignment1P");
-				pFunction->BindInput(6, 'sco6', "FullBody3P");
+				pFunction->BindInput(1, 'tpf', "Override Previous Fragment");
+				pFunction->BindInput(2, 'sc01', "FullBody1P");
+				pFunction->BindInput(3, 'sc02', "Torso1P");
+				pFunction->BindInput(4, 'sc03', "Motion1P");
+				pFunction->BindInput(5, 'sc04', "Sway1P");
+				pFunction->BindInput(6, 'sc05', "GroundAlignment1P");
+				pFunction->BindInput(7, 'sc06', "FullBody3P");
+				pFunction->BindInput(8, 'sc07', "AimPose");
+				pFunction->BindInput(9, 'sc08', "Torso3P");
+				pFunction->BindInput(10, 'sc09', "GroundAlignment3P");
+				pFunction->BindInput(11, 'sc10', "Weapon");
 				componentScope.Register(pFunction);
 			}
 
@@ -852,10 +857,43 @@ void CPlayerComponent::QueueFragmentOnScope(Schematyc::CSharedString fragment, c
 		case EPlayerScopes::Scope_6:
 			return m_pFullBody3PAction;
 
+		case EPlayerScopes::Scope_8:
+			return m_pTorso3PAction;
+
 		default:
 			return m_pFullBody1PAction; // fallback
 		}
 	}();
+
+	// Select the priority related to the scope
+	int& priority = [&]() -> int&
+	{
+		switch (scope)
+		{
+		case EPlayerScopes::Scope_1:
+			return m_pFullBody1PPriority;
+
+		case EPlayerScopes::Scope_2:
+			return m_pTorso1PPriority;
+
+		case EPlayerScopes::Scope_3:
+			return m_pMotion1PPriority;
+
+		case EPlayerScopes::Scope_6:
+			return m_pFullBody3PPriority;
+
+		case EPlayerScopes::Scope_8:
+			return m_pTorso3PPriority;
+
+		default:
+			return m_pFullBody1PPriority; // fallback
+		}
+	}();
+
+	if (trumpPreviousFragment)
+	{
+		priority++;
+	}
 
 	Cry::DefaultComponents::CAdvancedAnimationComponent* myComponent;
 
@@ -875,7 +913,7 @@ void CPlayerComponent::QueueFragmentOnScope(Schematyc::CSharedString fragment, c
 		//actionRef = nullptr;
 	}
 
-	actionRef = new TAction<SAnimationContext>(1, myComponent->GetFragmentId(fragment.c_str()), TAG_STATE_EMPTY, 0U, scope, 0U);
+	actionRef = new TAction<SAnimationContext>(priority, myComponent->GetFragmentId(fragment.c_str()), TAG_STATE_EMPTY, 0U, scope, 0U);
 
 	myComponent->QueueCustomFragment(*actionRef);
 }
@@ -887,38 +925,42 @@ void CPlayerComponent::SetDesiredFragmentOnScope(Schematyc::CSharedString fragme
 		switch (scope)
 		{
 		case EPlayerScopes::Scope_1:
-			return activeFragmentFullBody1P;
+			return m_pActiveFragmentFullBody1P;
 
 		case EPlayerScopes::Scope_2:
-			return activeFragmentTorso1P;
+			return m_pActiveFragmentTorso1P;
 
 		case EPlayerScopes::Scope_3:
-			return activeFragmentMotion1P;
+			return m_pActiveFragmentMotion1P;
 
 		case EPlayerScopes::Scope_6:
-			return activeFragmentFullBody3P;
+			return m_pActiveFragmentFullBody3P;
+
+		case EPlayerScopes::Scope_8:
+			return m_pActiveFragmentTorso3P;
 
 		default:
-			return activeFragmentFullBody1P; // fallback
+			return m_pActiveFragmentFullBody1P; // fallback
 		}
 	}();
 
 	if (activeFragment != fragment.c_str())
 	{
-		QueueFragmentOnScope(fragment.c_str(), scope, true);
+		QueueFragmentOnScope(fragment.c_str(), scope, trumpPreviousFragment);
 
 		activeFragment = fragment.c_str();
 	}
 }
 
-void CPlayerComponent::RefreshFragmentsOnScopes(bool Scope1, bool Scope2, bool Scope3, bool Scope4, bool Scope5, bool Scope6/*, bool Scope7, bool Scope8, bool Scope9, bool Scope10*/)
+void CPlayerComponent::RefreshFragmentsOnScopes(bool trumpPreviousFragment, bool Scope1, bool Scope2, bool Scope3, bool Scope4, bool Scope5, bool Scope6, bool Scope7, bool Scope8, bool Scope9, bool Scope10)
 {
-	if (Scope1) { QueueFragmentOnScope(activeFragmentFullBody1P.c_str(), EPlayerScopes::Scope_1, true); }
-	if (Scope2) { QueueFragmentOnScope(activeFragmentTorso1P.c_str(), EPlayerScopes::Scope_2, true); }
-	if (Scope3) { QueueFragmentOnScope(activeFragmentMotion1P.c_str(), EPlayerScopes::Scope_3, true); }
-	//if (Scope4) { QueueFragmentOnScope(activeFragmentSway1P.c_str(), EPlayerScopes::Scope_4, true); }
+	if (Scope1) { QueueFragmentOnScope(m_pActiveFragmentFullBody1P.c_str(), EPlayerScopes::Scope_1, trumpPreviousFragment); }
+	if (Scope2) { QueueFragmentOnScope(m_pActiveFragmentTorso1P.c_str(), EPlayerScopes::Scope_2, trumpPreviousFragment); }
+	if (Scope3) { QueueFragmentOnScope(m_pActiveFragmentMotion1P.c_str(), EPlayerScopes::Scope_3, trumpPreviousFragment); }
+	//if (Scope4) { QueueFragmentOnScope(activeFragmentSway1P.c_str(), EPlayerScopes::Scope_4, trumpPreviousFragment); }
 
-	if (Scope6) { QueueFragmentOnScope(activeFragmentFullBody3P.c_str(), EPlayerScopes::Scope_6, true); }
+	if (Scope6) { QueueFragmentOnScope(m_pActiveFragmentFullBody3P.c_str(), EPlayerScopes::Scope_6, trumpPreviousFragment); }
+	if (Scope8) { QueueFragmentOnScope(m_pActiveFragmentTorso3P.c_str(), EPlayerScopes::Scope_8, trumpPreviousFragment); }
 }
 
 void CPlayerComponent::Ragdollize()
@@ -1296,10 +1338,10 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 	m_pTorso1PAction = nullptr;
 	m_pFullBody3PAction = nullptr;*/
 
-	activeFragmentFullBody1P.clear();
-	activeFragmentTorso1P.clear();
-	activeFragmentMotion1P.clear();
-	activeFragmentFullBody3P.clear();
+	m_pActiveFragmentFullBody1P.clear();
+	m_pActiveFragmentTorso1P.clear();
+	m_pActiveFragmentMotion1P.clear();
+	m_pActiveFragmentFullBody3P.clear();
 
 	m_horizontalAngularVelocity = 0.0f;
 	m_averagedHorizontalAngularVelocity.Reset();

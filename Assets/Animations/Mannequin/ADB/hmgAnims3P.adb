@@ -24,22 +24,6 @@
     </AnimLayer>
    </Fragment>
   </melee_multipart>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKHMG">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
-     <Animation name="stand_tac_select_hmg_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKHMG">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_drop_hmg_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </deselect>
   <drop>
    <Fragment BlendOutDuration="0.2" Tags="SDKHMG">
     <AnimLayer>
@@ -73,34 +57,38 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0"/>
      <Procedural type="LayerManualUpdate">
-      <ProceduralParams>
-       <ParamName value="aimMovementParam"/>
-       <ScopeLayer value="0"/>
-       <Invert value="false"/>
-      </ProceduralParams>
+      <ProceduralParams CryXmlVersion="2" ParamName="aimMovementParam" ScopeLayer="0" Invert="false"/>
      </Procedural>
     </ProcLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0"/>
      <Procedural type="LayerWeight">
-      <ProceduralParams>
-       <LayerWeightParam value="aimUpParam"/>
-       <ScopeLayer value="1"/>
-       <Invert value="false"/>
-      </ProceduralParams>
+      <ProceduralParams CryXmlVersion="2" LayerWeightParam="aimUpParam" ScopeLayer="1" Invert="false"/>
      </Procedural>
     </ProcLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0"/>
      <Procedural type="LayerWeight">
-      <ProceduralParams>
-       <LayerWeightParam value="aimDownParam"/>
-       <ScopeLayer value="2"/>
-       <Invert value="false"/>
-      </ProceduralParams>
+      <ProceduralParams CryXmlVersion="2" LayerWeightParam="aimDownParam" ScopeLayer="2" Invert="false"/>
      </Procedural>
     </ProcLayer>
    </Fragment>
   </MotionMounted>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKHMG">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
+     <Animation name="stand_tac_select_hmg_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKHMG">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_drop_hmg_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </deselect>
  </FragmentList>
 </AnimDB>

@@ -17,16 +17,28 @@
    </element>
    <element elementType="Signal" guid="0efcd728-f484-4d95-b9be-f9e1b357e728" name="PlayerLibrary RefreshFragmentsOnScopes" Schematyc::EMPEnv="clientserver">
     <inputs>
-     <element guid="71e1a69e-53fd-4e0f-b0b4-2600ccbac0a5" name="FullBody1P" value="false">
+     <element guid="71e1a69e-53fd-4e0f-b0b4-2600ccbac0a5" name="Override Previous Fragment" value="false">
       <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
-     <element guid="e8e4ef29-4595-4dd7-a4dc-375f13cda11e" name="Torso1P" value="false">
+     <element guid="e8e4ef29-4595-4dd7-a4dc-375f13cda11e" name="FullBody1P" value="false">
       <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
-     <element guid="4084bcf0-664b-4941-8be0-10e8fb9383d0" name="Motion1P" value="false">
+     <element guid="4084bcf0-664b-4941-8be0-10e8fb9383d0" name="Torso1P" value="false">
       <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
-     <element guid="3add9670-bae5-47fd-bc06-d6c7d77edb36" name="FullBody3P" value="false">
+     <element guid="3add9670-bae5-47fd-bc06-d6c7d77edb36" name="Motion1P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="1c1525a6-7ae8-4c60-88c8-bead6443a5a3" name="Sway1P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="99bf9355-d69d-44cf-a055-006a12a35aa8" name="GroundAlignment1P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="685044d0-d84b-4efb-a630-1c753094db19" name="FullBody3P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="522a0e44-5eb3-404b-9bb8-e9bb218a3998" name="Torso3P" value="false">
       <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
     </inputs>
@@ -49,16 +61,28 @@
      <element guid="cec908d1-4960-4a5b-b3f6-a3ce2dbcbecb" name="Fragment" value="">
       <typeId domain="Env" guid="02b79308-c51c-4841-99ec-c887577217a7"/>
      </element>
-     <element guid="dfa89a60-44ae-40fb-b7ca-375f2461ae53" name="FullBody1P" value="false">
+     <element guid="dfa89a60-44ae-40fb-b7ca-375f2461ae53" name="Override Previous Fragment" value="false">
       <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
-     <element guid="ba799a68-33e8-4744-9a9e-8c7d8a856a94" name="Torso1P" value="false">
+     <element guid="ba799a68-33e8-4744-9a9e-8c7d8a856a94" name="FullBody1P" value="false">
       <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
-     <element guid="5759dad7-aa61-4790-8529-32121ac628fc" name="Motion1P" value="false">
+     <element guid="5759dad7-aa61-4790-8529-32121ac628fc" name="Torso1P" value="false">
       <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
-     <element guid="28bf7e63-20fc-405f-af8e-317e1b2aafb7" name="FullBody3P" value="false">
+     <element guid="28bf7e63-20fc-405f-af8e-317e1b2aafb7" name="Motion1P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="358d5087-0d3a-465c-8280-dc329486031d" name="Sway1P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="03059cec-4df5-4605-9ce0-e85b9f558474" name="GroundAlignment1P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="ce01c76c-ef49-43ee-a7da-46547498a738" name="FullBody3P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="ff00c1f3-2816-41d8-9c6c-6d9e76b81d59" name="Torso3P" value="false">
       <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
     </inputs>

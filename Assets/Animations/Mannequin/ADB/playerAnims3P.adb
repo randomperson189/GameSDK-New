@@ -324,18 +324,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.15000001"/>
      <Procedural type="PositionAdjustAnimPos">
-      <ProceduralParams>
-       <ParamName value=""/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
-       <CollisionCheck value="false"/>
-       <CollisionParams>
-        <MaxAdjustmentSpeed value="0"/>
-        <HeightOffset value="0"/>
-        <HeightMult value="0"/>
-        <WidthMult value="0"/>
-       </CollisionParams>
-       <UpdateLocation value="false"/>
+      <ProceduralParams CryXmlVersion="2" ParamName="" IgnoreRotation="false" IgnorePosition="false" CollisionCheck="false" UpdateLocation="false">
+       <CollisionParams MaxAdjustmentSpeed="0" HeightOffset="0" HeightMult="0" WidthMult="0"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -348,18 +338,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
      <Procedural type="PositionAdjustAnimPos">
-      <ProceduralParams>
-       <ParamName value=""/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
-       <CollisionCheck value="false"/>
-       <CollisionParams>
-        <MaxAdjustmentSpeed value="0"/>
-        <HeightOffset value="0"/>
-        <HeightMult value="0"/>
-        <WidthMult value="0"/>
-       </CollisionParams>
-       <UpdateLocation value="false"/>
+      <ProceduralParams CryXmlVersion="2" ParamName="" IgnoreRotation="false" IgnorePosition="false" CollisionCheck="false" UpdateLocation="false">
+       <CollisionParams MaxAdjustmentSpeed="0" HeightOffset="0" HeightMult="0" WidthMult="0"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -372,18 +352,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
      <Procedural type="PositionAdjustAnimPos">
-      <ProceduralParams>
-       <ParamName value=""/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
-       <CollisionCheck value="false"/>
-       <CollisionParams>
-        <MaxAdjustmentSpeed value="0"/>
-        <HeightOffset value="0"/>
-        <HeightMult value="0"/>
-        <WidthMult value="0"/>
-       </CollisionParams>
-       <UpdateLocation value="false"/>
+      <ProceduralParams CryXmlVersion="2" ParamName="" IgnoreRotation="false" IgnorePosition="false" CollisionCheck="false" UpdateLocation="false">
+       <CollisionParams MaxAdjustmentSpeed="0" HeightOffset="0" HeightMult="0" WidthMult="0"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -396,18 +366,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.15000001"/>
      <Procedural type="PositionAdjustAnimPos">
-      <ProceduralParams>
-       <ParamName value=""/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
-       <CollisionCheck value="false"/>
-       <CollisionParams>
-        <MaxAdjustmentSpeed value="0"/>
-        <HeightOffset value="0"/>
-        <HeightMult value="0"/>
-        <WidthMult value="0"/>
-       </CollisionParams>
-       <UpdateLocation value="false"/>
+      <ProceduralParams CryXmlVersion="2" ParamName="" IgnoreRotation="false" IgnorePosition="false" CollisionCheck="false" UpdateLocation="false">
+       <CollisionParams MaxAdjustmentSpeed="0" HeightOffset="0" HeightMult="0" WidthMult="0"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -420,18 +380,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
      <Procedural type="PositionAdjustAnimPos">
-      <ProceduralParams>
-       <ParamName value=""/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
-       <CollisionCheck value="false"/>
-       <CollisionParams>
-        <MaxAdjustmentSpeed value="0"/>
-        <HeightOffset value="0"/>
-        <HeightMult value="0"/>
-        <WidthMult value="0"/>
-       </CollisionParams>
-       <UpdateLocation value="false"/>
+      <ProceduralParams CryXmlVersion="2" ParamName="" IgnoreRotation="false" IgnorePosition="false" CollisionCheck="false" UpdateLocation="false">
+       <CollisionParams MaxAdjustmentSpeed="0" HeightOffset="0" HeightMult="0" WidthMult="0"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -444,18 +394,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
      <Procedural type="PositionAdjustAnimPos">
-      <ProceduralParams>
-       <ParamName value=""/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
-       <CollisionCheck value="false"/>
-       <CollisionParams>
-        <MaxAdjustmentSpeed value="0"/>
-        <HeightOffset value="0"/>
-        <HeightMult value="0"/>
-        <WidthMult value="0"/>
-       </CollisionParams>
-       <UpdateLocation value="false"/>
+      <ProceduralParams CryXmlVersion="2" ParamName="" IgnoreRotation="false" IgnorePosition="false" CollisionCheck="false" UpdateLocation="false">
+       <CollisionParams MaxAdjustmentSpeed="0" HeightOffset="0" HeightMult="0" WidthMult="0"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -468,18 +408,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.15000001"/>
      <Procedural type="PositionAdjustAnimPos">
-      <ProceduralParams>
-       <ParamName value=""/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
-       <CollisionCheck value="false"/>
-       <CollisionParams>
-        <MaxAdjustmentSpeed value="0"/>
-        <HeightOffset value="0"/>
-        <HeightMult value="0"/>
-        <WidthMult value="0"/>
-       </CollisionParams>
-       <UpdateLocation value="false"/>
+      <ProceduralParams CryXmlVersion="2" ParamName="" IgnoreRotation="false" IgnorePosition="false" CollisionCheck="false" UpdateLocation="false">
+       <CollisionParams MaxAdjustmentSpeed="0" HeightOffset="0" HeightMult="0" WidthMult="0"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -492,18 +422,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.15000001"/>
      <Procedural type="PositionAdjustAnimPos">
-      <ProceduralParams>
-       <ParamName value=""/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
-       <CollisionCheck value="false"/>
-       <CollisionParams>
-        <MaxAdjustmentSpeed value="0"/>
-        <HeightOffset value="0"/>
-        <HeightMult value="0"/>
-        <WidthMult value="0"/>
-       </CollisionParams>
-       <UpdateLocation value="false"/>
+      <ProceduralParams CryXmlVersion="2" ParamName="" IgnoreRotation="false" IgnorePosition="false" CollisionCheck="false" UpdateLocation="false">
+       <CollisionParams MaxAdjustmentSpeed="0" HeightOffset="0" HeightMult="0" WidthMult="0"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -516,15 +436,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Procedural type="PositionAdjust">
-      <ProceduralParams>
-       <Offset>
-        <Element value="0"/>
-        <Element value="0.55500001"/>
-        <Element value="1.835"/>
-       </Offset>
-       <Yaw value="0"/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
+      <ProceduralParams CryXmlVersion="2" Yaw="0" IgnoreRotation="false" IgnorePosition="false">
+       <Offset x="0" y="0.55500001" z="1.835"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -537,15 +450,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Procedural type="PositionAdjust">
-      <ProceduralParams>
-       <Offset>
-        <Element value="0"/>
-        <Element value="0.55500001"/>
-        <Element value="1.835"/>
-       </Offset>
-       <Yaw value="0"/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
+      <ProceduralParams CryXmlVersion="2" Yaw="0" IgnoreRotation="false" IgnorePosition="false">
+       <Offset x="0" y="0.55500001" z="1.835"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -560,11 +466,7 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Procedural type="PositionAdjustTargetLocator">
-      <ProceduralParams>
-       <TargetScopeName value="SlaveObject"/>
-       <TargetJointName value="player_align"/>
-       <TargetStateName value=""/>
-      </ProceduralParams>
+      <ProceduralParams CryXmlVersion="2" TargetScopeName="SlaveObject" TargetJointName="player_align" TargetStateName=""/>
      </Procedural>
     </ProcLayer>
    </Fragment>
@@ -576,11 +478,7 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Procedural type="PositionAdjustTargetLocator">
-      <ProceduralParams>
-       <TargetScopeName value="SlaveObject"/>
-       <TargetJointName value="player_align"/>
-       <TargetStateName value=""/>
-      </ProceduralParams>
+      <ProceduralParams CryXmlVersion="2" TargetScopeName="SlaveObject" TargetJointName="player_align" TargetStateName=""/>
      </Procedural>
     </ProcLayer>
    </Fragment>
@@ -618,11 +516,7 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
      <Procedural type="LayerManualUpdate">
-      <ProceduralParams>
-       <ParamName value="LadderFraction"/>
-       <ScopeLayer value="0"/>
-       <Invert value="false"/>
-      </ProceduralParams>
+      <ProceduralParams CryXmlVersion="2" ParamName="LadderFraction" ScopeLayer="0" Invert="false"/>
      </Procedural>
     </ProcLayer>
    </Fragment>
@@ -694,15 +588,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.30000001"/>
      <Procedural type="PositionAdjust">
-      <ProceduralParams>
-       <Offset>
-        <Element value="0"/>
-        <Element value="0"/>
-        <Element value="0"/>
-       </Offset>
-       <Yaw value="0"/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
+      <ProceduralParams CryXmlVersion="2" Yaw="0" IgnoreRotation="false" IgnorePosition="false">
+       <Offset x="0" y="0" z="0"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -965,10 +852,7 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0"/>
      <Procedural type="Ragdoll">
-      <ProceduralParams>
-       <Sleep value="0"/>
-       <Stiffness value="2"/>
-      </ProceduralParams>
+      <ProceduralParams CryXmlVersion="2" Sleep="0" Stiffness="2"/>
      </Procedural>
     </ProcLayer>
    </Fragment>

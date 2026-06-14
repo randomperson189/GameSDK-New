@@ -22,40 +22,6 @@
     </AnimLayer>
    </Fragment>
   </melee_multipart>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol" FragTags="first">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
-     <Animation name="stand_tac_selectfirst_pistol_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol" FragTags="primary">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
-     <Animation name="stand_tac_rgt_select_pistol_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol" FragTags="secondary">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
-     <Animation name="stand_tac_lft_select_pistol_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol" FragTags="primary">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_rgt_deselect_pistol_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol" FragTags="secondary">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_lft_deselect_pistol_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </deselect>
   <fire>
    <Fragment BlendOutDuration="0.2" Tags="SDKPistol+flag">
     <AnimLayer>
@@ -215,18 +181,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.15000001"/>
      <Procedural type="PositionAdjustAnimPos">
-      <ProceduralParams>
-       <ParamName value=""/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
-       <CollisionCheck value="false"/>
-       <CollisionParams>
-        <MaxAdjustmentSpeed value="0"/>
-        <HeightOffset value="0"/>
-        <HeightMult value="0"/>
-        <WidthMult value="0"/>
-       </CollisionParams>
-       <UpdateLocation value="false"/>
+      <ProceduralParams CryXmlVersion="2" ParamName="" IgnoreRotation="false" IgnorePosition="false" CollisionCheck="false" UpdateLocation="false">
+       <CollisionParams MaxAdjustmentSpeed="0" HeightOffset="0" HeightMult="0" WidthMult="0"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -239,18 +195,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.15000001"/>
      <Procedural type="PositionAdjustAnimPos">
-      <ProceduralParams>
-       <ParamName value=""/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
-       <CollisionCheck value="false"/>
-       <CollisionParams>
-        <MaxAdjustmentSpeed value="0"/>
-        <HeightOffset value="0"/>
-        <HeightMult value="0"/>
-        <WidthMult value="0"/>
-       </CollisionParams>
-       <UpdateLocation value="false"/>
+      <ProceduralParams CryXmlVersion="2" ParamName="" IgnoreRotation="false" IgnorePosition="false" CollisionCheck="false" UpdateLocation="false">
+       <CollisionParams MaxAdjustmentSpeed="0" HeightOffset="0" HeightMult="0" WidthMult="0"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -263,18 +209,8 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
      <Procedural type="PositionAdjustAnimPos">
-      <ProceduralParams>
-       <ParamName value=""/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
-       <CollisionCheck value="false"/>
-       <CollisionParams>
-        <MaxAdjustmentSpeed value="0"/>
-        <HeightOffset value="0"/>
-        <HeightMult value="0"/>
-        <WidthMult value="0"/>
-       </CollisionParams>
-       <UpdateLocation value="false"/>
+      <ProceduralParams CryXmlVersion="2" ParamName="" IgnoreRotation="false" IgnorePosition="false" CollisionCheck="false" UpdateLocation="false">
+       <CollisionParams MaxAdjustmentSpeed="0" HeightOffset="0" HeightMult="0" WidthMult="0"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
@@ -287,22 +223,46 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
      <Procedural type="PositionAdjustAnimPos">
-      <ProceduralParams>
-       <ParamName value=""/>
-       <IgnoreRotation value="false"/>
-       <IgnorePosition value="false"/>
-       <CollisionCheck value="false"/>
-       <CollisionParams>
-        <MaxAdjustmentSpeed value="0"/>
-        <HeightOffset value="0"/>
-        <HeightMult value="0"/>
-        <WidthMult value="0"/>
-       </CollisionParams>
-       <UpdateLocation value="false"/>
+      <ProceduralParams CryXmlVersion="2" ParamName="" IgnoreRotation="false" IgnorePosition="false" CollisionCheck="false" UpdateLocation="false">
+       <CollisionParams MaxAdjustmentSpeed="0" HeightOffset="0" HeightMult="0" WidthMult="0"/>
       </ProceduralParams>
      </Procedural>
     </ProcLayer>
    </Fragment>
   </ledgeGrab>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
+     <Animation name="stand_tac_selectfirst_pistol_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
+     <Animation name="stand_tac_rgt_select_pistol_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
+     <Animation name="stand_tac_lft_select_pistol_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_rgt_deselect_pistol_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_lft_deselect_pistol_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </deselect>
  </FragmentList>
 </AnimDB>

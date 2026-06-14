@@ -16,34 +16,6 @@
     </AnimLayer>
    </Fragment>
   </melee_multipart>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKShotgun" FragTags="primary">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_rgt_select_shotgun_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKShotgun" FragTags="secondary">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_lft_select_shotgun_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKShotgun" FragTags="primary">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_rgt_deselect_shotgun_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKShotgun" FragTags="secondary">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_lft_deselect_shotgun_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </deselect>
   <fire>
    <Fragment BlendOutDuration="0.2" Tags="SDKShotgun+iron">
     <AnimLayer>
@@ -66,9 +38,7 @@
     </AnimLayer>
     <ProcLayer>
      <Blend ExitTime="1" StartTime="0" Duration="0"/>
-     <Procedural type="SwapHand">
-      <ProceduralParams />
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
   </begin_reload>
@@ -80,9 +50,7 @@
     </AnimLayer>
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Procedural type="SwapHand">
-      <ProceduralParams />
-     </Procedural>
+     <Procedural type=""/>
     </ProcLayer>
    </Fragment>
   </reload_shell>
@@ -192,5 +160,33 @@
     </AnimLayer>
    </Fragment>
   </MotionMovement>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKShotgun">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_rgt_select_shotgun_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKShotgun">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_lft_select_shotgun_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKShotgun">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_rgt_deselect_shotgun_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKShotgun">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_lft_deselect_shotgun_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </deselect>
  </FragmentList>
 </AnimDB>

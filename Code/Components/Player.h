@@ -306,12 +306,28 @@ protected:
 
 	Vec3 m_smoothedOffset;
 
+	//------------------------------------
 	IActionPtr m_pFullBody1PAction;
 	IActionPtr m_pTorso1PAction;
 	IActionPtr m_pMotion1PAction;
 
 	IActionPtr m_pFullBody3PAction;
 	IActionPtr m_pTorso3PAction;
+	//------------------------------------
+	int m_pFullBody1PPriority = 1;
+	int m_pTorso1PPriority = 1;
+	int m_pMotion1PPriority = 1;
+
+	int m_pFullBody3PPriority = 1;
+	int m_pTorso3PPriority = 1;
+	//------------------------------------
+	std::string m_pActiveFragmentFullBody1P;
+	std::string m_pActiveFragmentTorso1P;
+	std::string m_pActiveFragmentMotion1P;
+
+	std::string m_pActiveFragmentFullBody3P;
+	std::string m_pActiveFragmentTorso3P;
+	//------------------------------------
 
 	Quat m_lookOrientation; //!< Should translate to head orientation in the future
 	float m_horizontalAngularVelocity;
@@ -327,11 +343,6 @@ protected:
 	Schematyc::EntityClassName m_defaultWeapon;
 
 	bool GetActionMapsFromProfile();
-
-	std::string activeFragmentFullBody1P;
-	std::string activeFragmentTorso1P;
-	std::string activeFragmentMotion1P;
-	std::string activeFragmentFullBody3P;
 
 public:
 	void Jump();
@@ -366,16 +377,17 @@ public:
 	void QueueFragmentOnScope(Schematyc::CSharedString fragment, const EPlayerScopes& scope, bool trumpPreviousFragment);
 	void SetDesiredFragmentOnScope(Schematyc::CSharedString fragment, const EPlayerScopes& scope, bool trumpPreviousFragment);
 	void RefreshFragmentsOnScopes(
+		bool trumpPreviousFragment,
 		bool Scope1,
 		bool Scope2,
 		bool Scope3,
 		bool Scope4,
 		bool Scope5,
-		bool Scope6/*,
+		bool Scope6,
 		bool Scope7,
 		bool Scope8,
 		bool Scope9,
-		bool Scope10*/
+		bool Scope10
 	);
 
 	void Ragdollize();
