@@ -433,6 +433,10 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 			// Reset player when entering game mode
 			OnReadyForGameplayOnServer(true);
 		}
+		else
+		{
+			m_pAnimationComponent1P->SetType(Cry::DefaultComponents::EMeshType::None);
+		}
 	}
 	break;
 	}
@@ -1281,6 +1285,8 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 	m_inputFlags.Clear();
 	NetMarkAspectsDirty(InputAspect);
 	
+	m_movementDelta = ZERO;
+
 	m_mouseDeltaRotation = ZERO;
 	m_lookOrientation = m_pEntity->GetRotation();
 
