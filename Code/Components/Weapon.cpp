@@ -99,25 +99,79 @@ Cry::Entity::EventFlags CWeaponComponent::GetEventMask() const
 
 void CWeaponComponent::ProcessEvent(const SEntityEvent& event) 
 {
-	/*{
-		// Handle the OnCollision event, in order to have the entity removed on collision
-		if (gEnv->bServer && event.event == Cry::Entity::EEvent::PhysicsCollision)
+}
+
+void CWeaponComponent::AttachToHand()
+{
+	// Switch to the active weapon now
+	// TODO: Make this work with inventory component
+	if (IEntity* pOwner = gEnv->pEntitySystem->GetEntity(m_Owner))
+	{
+		if (auto* pPlayerComponent = pOwner->GetComponent<CPlayerComponent>())
 		{
-			// Collision info can be retrieved using the event pointer
-			// EventPhysCollision* physCollision = reinterpret_cast<EventPhysCollision*>(event.nParam[0]);
+			// For firstperson character, attach a proxy CGF or CDF, depending on what weapon model it is
+			if (ICharacterInstance* pCharInstance = pPlayerComponent->m_pAnimationComponent1P->GetCharacter())
+			{
+				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+				{
+					/*CCGFAttachment* pCGFAttachment = new CCGFAttachment();
+					pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(m_pEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
 
-			// Queue removal of this entity, unless it has already been done
-			gEnv->pEntitySystem->RemoveEntity(GetEntityId());
+					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);*/
 
-			CryLog("Hit something");
+					CSKELAttachment* pSKELAttachment = new CSKELAttachment();
+					pSKELAttachment->m_pCharInstance = m_pEntity->GetComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>()->GetCharacter();
+
+					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pSKELAttachment);
+				}
+			}
+
+			// For thirdperson character, attach the actual weapon entity so sounds can play properly
+			if (ICharacterInstance* pCharInstance = pPlayerComponent->m_pAnimationComponent3P->GetCharacter())
+			{
+				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+				{
+					CEntityAttachment* pEntityAttachment = new CEntityAttachment();
+					pEntityAttachment->SetEntityId(GetEntityId());
+
+					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pEntityAttachment);
+				}
+			}
+
+			if (auto* meshcomp = m_pEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>())
+			{
+				if (gEnv->pEntitySystem->GetEntity(EntityId(GetOwner()))->GetComponent<CPlayerComponent>()->IsLocalClient())
+				{
+					meshcomp->SetMeshType(Cry::DefaultComponents::EMeshType::None);
+				}
+			}
+
+			if (auto* animcomp = m_pEntity->GetComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>())
+			{
+				// Detach weapon CDF from this entity because it's now attached to the player's firstperson arms
+				m_pEntity->SetCharacter(nullptr, animcomp->GetEntitySlotId(), false);
+
+				// Add the Audio context to the weapon
+				IMannequin &mannequinSys = gEnv->pGameFramework->GetMannequinInterface();
+				IAnimationDatabaseManager& animationDatabaseManager = mannequinSys.GetAnimationDatabaseManager();
+
+				const SControllerDef* pControllerDef = animationDatabaseManager.LoadControllerDef(animcomp->GetControllerDefinitionFile());
+
+				const IAnimationDatabase* pSoundDatabase = animationDatabaseManager.Load("Animations/Mannequin/ADB/playerSounds.adb");
+				const TagID scopeContextSound = pControllerDef->m_scopeContexts.Find("Audio");
+
+				animcomp->GetActionController()->SetScopeContext(scopeContextSound, *GetEntity(), animcomp->GetCharacter(), pSoundDatabase);
+			}
 		}
-	}*/
+	}
 }
 
 void CWeaponComponent::Equip()
 {
 	if (!m_pEntity)
 		return;
+	
+	AttachToHand();
 
 	/*if (IEntity* owner = gEnv->pEntitySystem->GetEntity(m_Owner))
 	{

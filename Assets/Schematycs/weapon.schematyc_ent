@@ -76,7 +76,7 @@
       <element element="1"/>
      </scale>
     </transform>
-    <properties Type="None" FilePath="Objects/Weapons/pistol/pistol_tp.cgf" Material="">
+    <properties Type="Render" FilePath="Objects/Weapons/pistol/pistol_tp.cgf" Material="">
      <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
      <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
     </properties>
@@ -109,7 +109,7 @@
       <element element="1"/>
      </scale>
     </transform>
-    <properties Type="None" Character="Objects/Weapons/pistol/pistol_fp.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/playerSounds.adb" ControllerDefPath="Animations/Mannequin/ADB/playerControllerDefs.xml" DefaultScope="Audio" DefaultFragment="" AnimDriven="true" GroundAlign="false">
+    <properties Type="None" Character="Objects/Weapons/pistol/pistol_fp.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/pistolWeaponAnims.adb" ControllerDefPath="Animations/Mannequin/ADB/playerControllerDefs.xml" DefaultScope="Weapon" DefaultFragment="" AnimDriven="true" GroundAlign="false">
      <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
      <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
     </properties>

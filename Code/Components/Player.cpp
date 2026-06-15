@@ -331,6 +331,7 @@ Cry::Entity::EventFlags CPlayerComponent::GetEventMask() const
 	return
 		Cry::Entity::EEvent::BecomeLocalPlayer |
 		Cry::Entity::EEvent::Update |
+		Cry::Entity::EEvent::Remove |
 		Cry::Entity::EEvent::TimerExpired |
 		Cry::Entity::EEvent::Reset;
 }
@@ -372,6 +373,14 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 		}
 	}
 	break;
+	case Cry::Entity::EEvent::Remove:
+	{
+		if (gEnv->bServer)
+		{
+			gEnv->pEntitySystem->RemoveEntity(m_pActiveWeapon);
+		}
+	}
+	break;
 	case Cry::Entity::EEvent::TimerExpired:
 	{
 		switch (event.nParam[0])
@@ -389,39 +398,7 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 
 			if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
 			{
-				pWeaponEntity->GetComponent<CWeaponComponent>()->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
-
-				if (ICharacterInstance* pCharInstance = m_pAnimationComponent1P->GetCharacter())
-				{
-					if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
-					{
-						CCGFAttachment* pCGFAttachment = new CCGFAttachment();
-						pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
-
-						pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
-					}
-				}
-
-				if (ICharacterInstance* pCharInstance = m_pAnimationComponent3P->GetCharacter())
-				{
-					if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
-					{
-						CCGFAttachment* pCGFAttachment = new CCGFAttachment();
-						pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
-
-						pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
-					}
-				}
-
-				if (auto* meshcomp = pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>())
-				{
-					meshcomp->SetMeshType(Cry::DefaultComponents::EMeshType::None);
-				}
-
-				if (auto* weaponcomp = pWeaponEntity->GetComponent<CWeaponComponent>())
-				{
-					weaponcomp->Equip();
-				}
+				pWeaponEntity->GetComponent<CWeaponComponent>()->Equip();
 			}
 		}
 		break;
@@ -483,10 +460,15 @@ bool CPlayerComponent::NetSerialize(TSerialize ser, EEntityAspects aspect, uint8
 	{
 		ser.BeginGroup("WeaponAspect");
 
+		// Set the new value from server
 		ser.Value("m_pActiveWeapon", m_pActiveWeapon, 'eid');
 
 		if (ser.IsReading() && m_pActiveWeapon != 0)
 		{
+			gEnv->pEntitySystem->GetEntity(m_pActiveWeapon)->GetComponent<CWeaponComponent>()->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
+
+			// Attach the weapon to player's hand on client side (using delay for now to fix timing issues)
+			// TODO: Make this only delay upon first spawn as it works fine without delay afterwards
 			SetTimer(2, 10);
 		}
 
@@ -1051,8 +1033,8 @@ void CPlayerComponent::SetCharacterThirdPerson(bool thirdperson)
 			{
 				/*pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
 				pAttachmentMgr->GetInterfaceByName("jacket")->HideAttachment(1);
-				pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(1);*/
-				pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(1);*/
 			}
 		}
 
@@ -1126,54 +1108,19 @@ void CPlayerComponent::SpawnDefaultWeapon()
 	spawnParams.sName = m_defaultWeapon.value;
 	spawnParams.vPosition = GetWorldTransformMatrix().GetTranslation();
 
+	// Spawn the weapon on the server
 	if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams))
 	{
+		// Set the weapon's owner and player's activeweapon value on the server
 		pEntity->GetComponent<CWeaponComponent>()->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
-
 		m_pActiveWeapon = pEntity->GetId();
 
 		CryLogAlways("MY ENTITY SPAWNED ID %u", pEntity->GetId());
 
-		// Switch to the active weapon now
-		// TODO: Make this work with inventory component
+		// Attach weapon to the player's hand on the server
 		if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
 		{
-			if (ICharacterInstance* pCharInstance = m_pAnimationComponent1P->GetCharacter())
-			{
-				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
-				{
-					CCGFAttachment* pCGFAttachment = new CCGFAttachment();
-					pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
-
-					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);
-				}
-			}
-
-			if (ICharacterInstance* pCharInstance = m_pAnimationComponent3P->GetCharacter())
-			{
-				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
-				{
-					/*CCGFAttachment* pCGFAttachment = new CCGFAttachment();
-					pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
-
-					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);*/
-
-					CEntityAttachment* pEntityAttachment = new CEntityAttachment();
-					pEntityAttachment->SetEntityId(m_pActiveWeapon);
-
-					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pEntityAttachment);
-				}
-			}
-
-			if (auto* meshcomp = pWeaponEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>())
-			{
-				meshcomp->SetMeshType(Cry::DefaultComponents::EMeshType::None);
-			}
-
-			if (auto* weaponcomp = pWeaponEntity->GetComponent<CWeaponComponent>())
-			{
-				weaponcomp->Equip();
-			}
+			pWeaponEntity->GetComponent<CWeaponComponent>()->Equip();
 		}
 	}
 }
@@ -1228,6 +1175,22 @@ bool CPlayerComponent::RemoteDieOnServer(RemoteBlankParams&& params, INetChannel
 {
 	if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
 	{
+		if (ICharacterInstance* pCharInstance = m_pAnimationComponent1P->GetCharacter())
+		{
+			if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+			{
+				IMannequin &mannequinSys = gEnv->pGameFramework->GetMannequinInterface();
+				IAnimationDatabaseManager& animationDatabaseManager = mannequinSys.GetAnimationDatabaseManager();
+
+				const SControllerDef* pControllerDef = animationDatabaseManager.LoadControllerDef(pWeaponEntity->GetComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>()->GetControllerDefinitionFile());
+				const TagID scopeContextSound = pControllerDef->m_scopeContexts.Find("Audio");
+
+				pWeaponEntity->GetComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>()->GetActionController()->ClearScopeContext(scopeContextSound, true);
+
+				pAttachmentMgr->GetInterfaceByName("weapon")->ClearBinding();
+			}
+		}
+
 		gEnv->pEntitySystem->RemoveEntity(m_pActiveWeapon);
 	}
 

@@ -62,6 +62,8 @@ protected:
 	EntityId m_Owner;
 
 public:
+	void AttachToHand();
+
 	void Equip();
 	//void Holster();
 
