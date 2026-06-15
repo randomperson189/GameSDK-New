@@ -398,6 +398,7 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 
 			if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
 			{
+				pWeaponEntity->GetComponent<CWeaponComponent>()->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
 				pWeaponEntity->GetComponent<CWeaponComponent>()->Equip();
 			}
 		}
@@ -465,8 +466,6 @@ bool CPlayerComponent::NetSerialize(TSerialize ser, EEntityAspects aspect, uint8
 
 		if (ser.IsReading() && m_pActiveWeapon != 0)
 		{
-			gEnv->pEntitySystem->GetEntity(m_pActiveWeapon)->GetComponent<CWeaponComponent>()->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
-
 			// Attach the weapon to player's hand on client side (using delay for now to fix timing issues)
 			// TODO: Make this only delay upon first spawn as it works fine without delay afterwards
 			SetTimer(2, 10);
