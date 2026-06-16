@@ -4,9 +4,6 @@
 #include <CryEntitySystem/IEntitySystem.h>
 #include <CrySchematyc/Utils/SharedString.h>
 
-////////////////////////////////////////////////////////
-// Physicalized bullet shot from weaponry, expires on collision with another object
-////////////////////////////////////////////////////////
 class CGameRulesComponent final : public IEntityComponent
 {
 public:

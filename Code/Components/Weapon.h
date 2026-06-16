@@ -2,6 +2,7 @@
 #pragma once
 
 #include "StdAfx.h"
+#include "Player.h"
 
 #include <CrySchematyc/Env/Elements/EnvComponent.h>
 #include <CryCore/StaticInstanceList.h>
@@ -13,9 +14,6 @@
 
 #include <DefaultComponents/Geometry/StaticMeshComponent.h>
 
-////////////////////////////////////////////////////////
-// Physicalized bullet shot from weaponry, expires on collision with another object
-////////////////////////////////////////////////////////
 class CWeaponComponent final : public IEntityComponent
 {
 public:
@@ -57,11 +55,18 @@ public:
 
 protected:
 	Cry::DefaultComponents::CStaticMeshComponent* m_pMeshComponent = nullptr;
+	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent = nullptr;
 	int m_Damage;
 
 	EntityId m_Owner;
 
+	IActionPtr m_pWeaponAction;
+
+	int m_pWeaponPriority = 1;
+
 public:
+	void QueueFragmentOnScopes(Schematyc::CSharedString fragment, bool trumpPreviousFragment);
+
 	void AttachToHand();
 
 	void Equip();
@@ -73,26 +78,26 @@ public:
 	void StartAltFire();
 	void StopAltFire();
 
-	struct SMulticastEquip
+	struct SEquip
 	{
-		SMulticastEquip() = default;
+		SEquip() = default;
 	};
 
-	struct SServerStartFire
+	struct SStartFire
 	{
-		SServerStartFire() = default;
+		SStartFire() = default;
 	};
-	struct SServerStopFire
+	struct SStopFire
 	{
-		SServerStopFire() = default;
+		SStopFire() = default;
 	};
 
-	struct SServerStartAltFire
+	struct SStartAltFire
 	{
-		SServerStartAltFire() = default;
+		SStartAltFire() = default;
 	};
-	struct SServerStopAltFire
+	struct SStopAltFire
 	{
-		SServerStopAltFire() = default;
+		SStopAltFire() = default;
 	};
 };

@@ -9,9 +9,6 @@
 #include <CryPhysics/physinterface.h>
 #include <CryEntitySystem/IEntitySystem.h>
 
-////////////////////////////////////////////////////////
-// Physicalized bullet shot from Healthry, expires on collision with another object
-////////////////////////////////////////////////////////
 class CHealthComponent final : public IEntityComponent
 {
 public:

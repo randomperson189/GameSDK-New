@@ -62,7 +62,12 @@
      </element>
     </children>
    </element>
-   <element elementType="ComponentInstance" guid="a7ece2f5-5c60-48a6-9e7a-c1eb6360f864" name="Item" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="6ee9fd37-426a-46cb-8397-7afe1a604e4b">
+   <element elementType="ComponentInstance" guid="a7ece2f5-5c60-48a6-9e7a-c1eb6360f864" name="Item" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="6ee9fd37-426a-46cb-8397-7afe1a604e4b">
+    <properties />
+    <extensions />
+    <children />
+   </element>
+   <element elementType="ComponentInstance" guid="43e62a32-b333-460d-bc09-1e4c0224ecd6" name="Network Helper" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="b65f8780-fd47-49d7-ad6f-02df006f322a">
     <properties />
     <extensions />
     <children />

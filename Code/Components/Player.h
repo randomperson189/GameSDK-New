@@ -258,11 +258,11 @@ protected:
 	bool RemoteReviveOnClient(RemoteReviveParams&& params, INetChannel* pNetChannel);
 	bool RemoteReviveOnServer(RemoteBlankParams&& params, INetChannel* pNetChannel);
 
-	bool RemoteStartShootOnServer(RemoteShootParams&& params, INetChannel* pNetChannel);
-	bool RemoteStopShootOnServer(RemoteShootParams&& params, INetChannel* pNetChannel);
+	bool RemoteStartShoot(RemoteShootParams&& params, INetChannel* pNetChannel);
+	bool RemoteStopShoot(RemoteShootParams&& params, INetChannel* pNetChannel);
 
-	bool RemoteStartShoot2OnServer(RemoteShootParams&& params, INetChannel* pNetChannel);
-	bool RemoteStopShoot2OnServer(RemoteShootParams&& params, INetChannel* pNetChannel);
+	bool RemoteStartShoot2(RemoteShootParams&& params, INetChannel* pNetChannel);
+	bool RemoteStopShoot2(RemoteShootParams&& params, INetChannel* pNetChannel);
 
 	bool RemoteDieOnServer(RemoteBlankParams&& params, INetChannel* pNetChannel);
 	bool RemoteDieOnClients(RemoteBlankParams&& params, INetChannel* pNetChannel);

@@ -33,13 +33,21 @@ namespace
 				componentScope.Register(pFunction);
 			}
 
-			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SMulticastEquip));
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::QueueFragmentOnScopes, "{2AF3E2BA-93E9-423C-A6C9-73909BF9CDF6}"_cry_guid, "Queue Fragment On Scopes");
+				pFunction->BindInput(1, 'frag', "Fragment Name");
+				pFunction->BindInput(2, 'tru', "Override Previous Fragment");
+				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
+				componentScope.Register(pFunction);
+			}
 
-			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SServerStartFire));
-			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SServerStopFire));
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SEquip));
 
-			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SServerStartAltFire));
-			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SServerStopAltFire));
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SStartFire));
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SStopFire));
+
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SStartAltFire));
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SStopAltFire));
 		}
 	}
 
@@ -56,37 +64,38 @@ CWeaponComponent::~CWeaponComponent()
 
 }
 
-static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SMulticastEquip>& desc)
+static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SEquip>& desc)
 {
 	desc.SetGUID("{5F201F39-B6FE-434B-80A6-ED38896781DE}"_cry_guid);
-	desc.SetLabel("Multicast Equip");
+	desc.SetLabel("Equip");
 }
 
-static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SServerStartFire>& desc)
+static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SStartFire>& desc)
 {
 	desc.SetGUID("{2116C7EC-CBCA-46A9-A4D9-68EB37DFEF15}"_cry_guid);
-	desc.SetLabel("Server Start Fire");
+	desc.SetLabel("Start Fire");
 }
-static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SServerStopFire>& desc)
+static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SStopFire>& desc)
 {
 	desc.SetGUID("{0D1BA24E-E29D-4B4F-AA3B-1043E6CE6430}"_cry_guid);
-	desc.SetLabel("Server Stop Fire");
+	desc.SetLabel("Stop Fire");
 }
 
-static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SServerStartAltFire>& desc)
+static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SStartAltFire>& desc)
 {
 	desc.SetGUID("{13C1835A-29CD-4E9A-BCCD-537ED14C3B68}"_cry_guid);
-	desc.SetLabel("Server Start AltFire");
+	desc.SetLabel("Start AltFire");
 }
-static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SServerStopAltFire>& desc)
+static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SStopAltFire>& desc)
 {
 	desc.SetGUID("{51F0A319-4A79-4D9B-96ED-B8DD1C2EB365}"_cry_guid);
-	desc.SetLabel("Server Stop AltFire");
+	desc.SetLabel("Stop AltFire");
 }
 
 void CWeaponComponent::Initialize()
 {
 	m_pMeshComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CStaticMeshComponent>();
+	m_pAnimationComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>();
 
 	// Mark the entity to be replicated over the network
 	m_pEntity->GetNetEntity()->BindToNetwork();
@@ -99,6 +108,23 @@ Cry::Entity::EventFlags CWeaponComponent::GetEventMask() const
 
 void CWeaponComponent::ProcessEvent(const SEntityEvent& event) 
 {
+}
+
+void CWeaponComponent::QueueFragmentOnScopes(Schematyc::CSharedString fragment, bool trumpPreviousFragment)
+{
+	if (trumpPreviousFragment)
+	{
+		m_pWeaponPriority++;
+	}
+
+	if (m_pWeaponAction) 
+	{ 
+		m_pWeaponAction->Stop(); 
+	}
+
+	m_pWeaponAction = new TAction<SAnimationContext>(m_pWeaponPriority, m_pAnimationComponent->GetFragmentId(fragment.c_str()), TAG_STATE_EMPTY, 0U, EPlayerScopes::Scope_10, 0U);
+
+	m_pAnimationComponent->QueueCustomFragment(*m_pWeaponAction);
 }
 
 void CWeaponComponent::AttachToHand()
@@ -206,7 +232,7 @@ void CWeaponComponent::Equip()
 
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
-		pSchematycObject->ProcessSignal(SMulticastEquip(), GetGUID());
+		pSchematycObject->ProcessSignal(SEquip(), GetGUID());
 	}
 }
 
@@ -217,7 +243,7 @@ void CWeaponComponent::StartFire()
 
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
-		pSchematycObject->ProcessSignal(SServerStartFire(), GetGUID());
+		pSchematycObject->ProcessSignal(SStartFire(), GetGUID());
 	}
 }
 void CWeaponComponent::StopFire()
@@ -227,7 +253,7 @@ void CWeaponComponent::StopFire()
 
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
-		pSchematycObject->ProcessSignal(SServerStopFire(), GetGUID());
+		pSchematycObject->ProcessSignal(SStopFire(), GetGUID());
 	}
 }
 
@@ -235,7 +261,7 @@ void CWeaponComponent::StartAltFire()
 {
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
-		pSchematycObject->ProcessSignal(SServerStartAltFire(), GetGUID());
+		pSchematycObject->ProcessSignal(SStartAltFire(), GetGUID());
 	}
 }
 
@@ -243,7 +269,7 @@ void CWeaponComponent::StopAltFire()
 {
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
-		pSchematycObject->ProcessSignal(SServerStopAltFire(), GetGUID());
+		pSchematycObject->ProcessSignal(SStopAltFire(), GetGUID());
 	}
 }
 

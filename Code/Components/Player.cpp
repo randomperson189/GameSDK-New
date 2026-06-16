@@ -204,11 +204,11 @@ void CPlayerComponent::Initialize()
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
 
-	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShootOnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
-	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShootOnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShoot)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShoot)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
 
-	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShoot2OnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
-	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShoot2OnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShoot2)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShoot2)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
 
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteDieOnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteDieOnClients)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
@@ -398,8 +398,11 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 
 			if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
 			{
-				pWeaponEntity->GetComponent<CWeaponComponent>()->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
-				pWeaponEntity->GetComponent<CWeaponComponent>()->Equip();
+				if (auto* pWeaponComp = pWeaponEntity->GetComponent<CWeaponComponent>())
+				{
+					pWeaponComp->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
+					pWeaponComp->Equip();
+				}
 			}
 		}
 		break;
@@ -466,9 +469,9 @@ bool CPlayerComponent::NetSerialize(TSerialize ser, EEntityAspects aspect, uint8
 
 		if (ser.IsReading() && m_pActiveWeapon != 0)
 		{
-			// Attach the weapon to player's hand on client side (using delay for now to fix timing issues)
-			// TODO: Make this only delay upon first spawn as it works fine without delay afterwards
-			SetTimer(2, 10);
+			// Attach the weapon to player's hand on client side (using delay for now to fix timing issues on spawn)
+			// TODO: Make this only delay upon spawn as it works fine without delay afterwards
+			SetTimer(2, 50);
 		}
 
 		ser.EndGroup();
@@ -716,30 +719,50 @@ void CPlayerComponent::Jump()
 
 void CPlayerComponent::StartShoot()
 {
+	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+	{
+		weapon->GetComponent<CWeaponComponent>()->StartFire();
+	}
+
 	RemoteShootParams params;
 
-	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShootOnServer)>::InvokeOnServer(this, std::move(params));
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShoot)>::InvokeOnServer(this, std::move(params));
 }
 
 void CPlayerComponent::StopShoot()
 {
+	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+	{
+		weapon->GetComponent<CWeaponComponent>()->StopFire();
+	}
+
 	RemoteShootParams params;
 
-	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShootOnServer)>::InvokeOnServer(this, std::move(params));
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShoot)>::InvokeOnServer(this, std::move(params));
 }
 
 void CPlayerComponent::StartShoot2()
 {
+	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+	{
+		weapon->GetComponent<CWeaponComponent>()->StartAltFire();
+	}
+
 	RemoteShootParams params;
 
-	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShoot2OnServer)>::InvokeOnServer(this, std::move(params));
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShoot2)>::InvokeOnServer(this, std::move(params));
 }
 
 void CPlayerComponent::StopShoot2()
 {
+	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+	{
+		weapon->GetComponent<CWeaponComponent>()->StopAltFire();
+	}
+
 	RemoteShootParams params;
 
-	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShoot2OnServer)>::InvokeOnServer(this, std::move(params));
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShoot2)>::InvokeOnServer(this, std::move(params));
 }
 
 void CPlayerComponent::SetCrouching(bool crouching)
@@ -1206,41 +1229,73 @@ bool CPlayerComponent::RemoteDieOnClients(RemoteBlankParams&& params, INetChanne
 	return true;
 }
 
-bool CPlayerComponent::RemoteStartShootOnServer(RemoteShootParams&& params, INetChannel* pNetChannel)
+bool CPlayerComponent::RemoteStartShoot(RemoteShootParams&& params, INetChannel* pNetChannel)
 {
-	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+	if (!IsLocalClient())
 	{
-		weapon->GetComponent<CWeaponComponent>()->StartFire();
+		if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+		{
+			weapon->GetComponent<CWeaponComponent>()->StartFire();
+		}
+	}
+
+	if (gEnv->bServer)
+	{
+		SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShoot)>::InvokeOnRemoteClients(this, std::move(params), GetEntityId());
 	}
 
 	return true;
 }
 
-bool CPlayerComponent::RemoteStopShootOnServer(RemoteShootParams&& params, INetChannel* pNetChannel)
+bool CPlayerComponent::RemoteStopShoot(RemoteShootParams&& params, INetChannel* pNetChannel)
 {
-	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+	if (!IsLocalClient())
 	{
-		weapon->GetComponent<CWeaponComponent>()->StopFire();
+		if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+		{
+			weapon->GetComponent<CWeaponComponent>()->StopFire();
+		}
+	}
+
+	if (gEnv->bServer)
+	{
+		SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShoot)>::InvokeOnRemoteClients(this, std::move(params), GetEntityId());
 	}
 
 	return true;
 }
 
-bool CPlayerComponent::RemoteStartShoot2OnServer(RemoteShootParams&& params, INetChannel* pNetChannel)
+bool CPlayerComponent::RemoteStartShoot2(RemoteShootParams&& params, INetChannel* pNetChannel)
 {
-	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+	if (!IsLocalClient())
 	{
-		weapon->GetComponent<CWeaponComponent>()->StartAltFire();
+		if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+		{
+			weapon->GetComponent<CWeaponComponent>()->StartAltFire();
+		}
+	}
+
+	if (gEnv->bServer)
+	{
+		SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShoot2)>::InvokeOnRemoteClients(this, std::move(params), GetEntityId());
 	}
 
 	return true;
 }
 
-bool CPlayerComponent::RemoteStopShoot2OnServer(RemoteShootParams&& params, INetChannel* pNetChannel)
+bool CPlayerComponent::RemoteStopShoot2(RemoteShootParams&& params, INetChannel* pNetChannel)
 {
-	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+	if (!IsLocalClient())
 	{
-		weapon->GetComponent<CWeaponComponent>()->StopAltFire();
+		if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+		{
+			weapon->GetComponent<CWeaponComponent>()->StopAltFire();
+		}
+	}
+
+	if (gEnv->bServer)
+	{
+		SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShoot2)>::InvokeOnRemoteClients(this, std::move(params), GetEntityId());
 	}
 
 	return true;
