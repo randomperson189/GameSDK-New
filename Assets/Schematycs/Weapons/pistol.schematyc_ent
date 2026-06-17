@@ -67,7 +67,7 @@
           <element value="true">
            <key type="GUID" value="e8e4ef29-4595-4dd7-a4dc-375f13cda11e"/>
           </element>
-          <element value="true">
+          <element value="false">
            <key type="GUID" value="71e1a69e-53fd-4e0f-b0b4-2600ccbac0a5"/>
           </element>
           <element value="true">
@@ -101,7 +101,7 @@
           <element value="true">
            <key type="GUID" value="e8e4ef29-4595-4dd7-a4dc-375f13cda11e"/>
           </element>
-          <element value="true">
+          <element value="false">
            <key type="GUID" value="71e1a69e-53fd-4e0f-b0b4-2600ccbac0a5"/>
           </element>
           <element value="true">
