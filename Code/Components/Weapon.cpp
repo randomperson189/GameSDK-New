@@ -16,8 +16,20 @@ namespace
 				componentScope.Register(pFunction);
 			}
 			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetAnimationMesh, "{029F2E59-04B7-4388-864D-C5F1B84217AA}"_cry_guid, "Set Animated Mesh");
+				pFunction->BindInput(1, 'fpth', "FilePath", "Animation Mesh File Path");
+				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
+				componentScope.Register(pFunction);
+			}
+			/*{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetMeshTransform, "{BEB132ED-EC95-49C3-9D07-931F509DF270}"_cry_guid, "Set Mesh Transform");
 				pFunction->BindInput(1, 'tr', "Transform", "Transform");
+				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
+				componentScope.Register(pFunction);
+			}*/
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetAnimationDatabase, "{9B3D2F78-4B00-438C-830D-7626E471554F}"_cry_guid, "Set Animation Database");
+				pFunction->BindInput(1, 'fpth', "FilePath", "Animation Database File Path");
 				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
 				componentScope.Register(pFunction);
 			}
@@ -30,6 +42,19 @@ namespace
 			{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::GetOwner, "{883C8332-E98D-4370-BB70-E74BAEA1C2D9}"_cry_guid, "Get Owner");
 				pFunction->BindOutput(0, 'own', "Owner", "Owner");
+				componentScope.Register(pFunction);
+			}
+
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetDisplayName, "{E12F467B-7380-4EAA-A642-0300462643B2}"_cry_guid, "Set Display Name");
+				pFunction->BindInput(1, 'name', "Name", "Name");
+				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
+				componentScope.Register(pFunction);
+			}
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetAnimationCodeName, "{BBEB37A5-138A-44FB-B86F-BBE7DF6EFCB2}"_cry_guid, "Set Animation Code Name");
+				pFunction->BindInput(1, 'name', "Name", "Name");
+				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
 				componentScope.Register(pFunction);
 			}
 
@@ -131,7 +156,7 @@ void CWeaponComponent::AttachToHand()
 {
 	// Switch to the active weapon now
 	// TODO: Make this work with inventory component
-	if (IEntity* pOwner = gEnv->pEntitySystem->GetEntity(m_Owner))
+	if (IEntity* pOwner = gEnv->pEntitySystem->GetEntity(m_pOwner))
 	{
 		if (auto* pPlayerComponent = pOwner->GetComponent<CPlayerComponent>())
 		{
@@ -275,31 +300,63 @@ void CWeaponComponent::StopAltFire()
 
 void CWeaponComponent::SetMesh(Schematyc::GeomFileName FilePath)
 {
-	if (Cry::DefaultComponents::CStaticMeshComponent* meshComponent = m_pEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>())
+	if (m_pMeshComponent)
 	{
 		if (FilePath.value != "")
 		{
-			meshComponent->SetFilePath(FilePath.value);
-			meshComponent->LoadFromDisk();
-			meshComponent->SetObject(FilePath.value);
+			m_pMeshComponent->SetFilePath(FilePath.value);
+			m_pMeshComponent->LoadFromDisk();
+			m_pMeshComponent->ResetObject();
 		}
 	}
 }
 
-void CWeaponComponent::SetMeshTransform(CryTransform::CTransform transform)
+void CWeaponComponent::SetAnimationMesh(Schematyc::CharacterFileName FilePath)
+{
+	if (m_pAnimationComponent)
+	{
+		if (FilePath.value != "")
+		{
+			m_pAnimationComponent->SetCharacterFile(FilePath.value);
+			m_pAnimationComponent->LoadFromDisk();
+			m_pAnimationComponent->ResetCharacter();
+		}
+	}
+}
+
+// Might add this later
+/*void CWeaponComponent::SetMeshTransform(CryTransform::CTransform transform)
 {
 	if (Cry::DefaultComponents::CStaticMeshComponent* meshComponent = m_pEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>())
 	{
 		meshComponent->SetTransformMatrix(transform.ToMatrix34());
 	}
-}
+}*/
 
 void CWeaponComponent::SetOwner(Schematyc::ExplicitEntityId entityId)
 {
-	m_Owner = static_cast<EntityId>(entityId);
+	m_pOwner = static_cast<EntityId>(entityId);
 }
 
 Schematyc::ExplicitEntityId CWeaponComponent::GetOwner()
 {
-	return Schematyc::ExplicitEntityId(m_Owner);
+	return Schematyc::ExplicitEntityId(m_pOwner);
 }
+
+void CWeaponComponent::SetDisplayName(Schematyc::CSharedString name)
+{
+	m_pDisplayName = name;
+}
+
+void CWeaponComponent::SetAnimationCodeName(Schematyc::CSharedString name)
+{
+	m_pAnimCodeName = name;
+}
+
+void CWeaponComponent::SetAnimationDatabase(Schematyc::MannequinAnimationDatabasePath FilePath)
+{
+	m_pAnimationComponent->SetMannequinAnimationDatabaseFile(FilePath.value);
+	m_pAnimationComponent->LoadFromDisk();
+	m_pAnimationComponent->ResetCharacter();
+}
+

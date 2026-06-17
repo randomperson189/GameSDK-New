@@ -39,7 +39,9 @@ public:
 		desc.SetDescription("Component for a weapon");
 		desc.SetComponentFlags({ IEntityComponent::EFlags::HideFromInspector });
 
-		desc.AddMember(&CWeaponComponent::m_Damage, 'dmg', "Damage", "Damage", "Damage of the weapon", 5);
+		desc.AddMember(&CWeaponComponent::m_pDisplayName, 'dsn', "DisplayName", "Display Name", "Weapon display name", "Weapon Name");
+		desc.AddMember(&CWeaponComponent::m_pAnimCodeName, 'acn', "AnimCodeName", "Animation Code Name", "Weapon name in animation code (e.g. Mannequin tags and fragments)", "Weapon Code Name");
+		desc.AddMember(&CWeaponComponent::m_pDamage, 'dmg', "Damage", "Damage", "Damage of the weapon", 5);
 	}
 
 	virtual Cry::Entity::EventFlags GetEventMask() const override;
@@ -47,8 +49,13 @@ public:
 	virtual void ProcessEvent(const SEntityEvent& event) override;
 	// ~IEntityComponent
 
-	void SetMesh(Schematyc::GeomFileName szPath);
-	void SetMeshTransform(CryTransform::CTransform transform);
+	void SetMesh(Schematyc::GeomFileName FilePath);
+	void SetAnimationMesh(Schematyc::CharacterFileName FilePath);
+	//void SetMeshTransform(CryTransform::CTransform transform);
+
+	void SetDisplayName(Schematyc::CSharedString name);
+	void SetAnimationCodeName(Schematyc::CSharedString name);
+	void SetAnimationDatabase(Schematyc::MannequinAnimationDatabasePath FilePath);
 
 	Schematyc::ExplicitEntityId GetOwner();
 	void SetOwner(Schematyc::ExplicitEntityId entityId);
@@ -56,9 +63,13 @@ public:
 protected:
 	Cry::DefaultComponents::CStaticMeshComponent* m_pMeshComponent = nullptr;
 	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent = nullptr;
-	int m_Damage;
 
-	EntityId m_Owner;
+	Schematyc::CSharedString m_pDisplayName;
+	Schematyc::CSharedString m_pAnimCodeName;
+
+	int m_pDamage;
+
+	EntityId m_pOwner;
 
 	IActionPtr m_pWeaponAction;
 

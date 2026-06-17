@@ -1,0 +1,281 @@
+<CrySchematyc CryXmlVersion="2" version="105" guid="4d0fa140-c4ff-45f6-bc98-7903f1e4ad6f" scope="">
+ <root elementType="Class" guid="bb9c6eba-cb70-4338-9111-cd741c8ae1a3" name="shotgun" Schematyc::EMPEnv="clientserver">
+  <userDocumentation author="User" description=""/>
+  <extensions />
+  <children>
+   <element elementType="Constructor" guid="ff5f5619-82f0-4add-b662-dce9bdb63044" name="ConstructionGraph" Schematyc::EMPEnv="clientserver">
+    <userDocumentation author="User" description=""/>
+    <extensions>
+     <Graph>
+      <pos x="0" y="0"/>
+      <nodes>
+       <element key="bb3188be-5400-43d9-854d-b1970506581f" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="bb3188be-5400-43d9-854d-b1970506581f" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
+         <pos x="107" y="44"/>
+         <functionId domain="Env" guid="029f2e59-04b7-4388-864d-c5f1b84217aa"/>
+         <inputs>
+          <element value="Objects/Weapons/shotgun/shotgun.cdf">
+           <key type="UInt32" value="1718645864"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="ef5f74d9-01d8-444d-9371-9839c9c8117b" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="ef5f74d9-01d8-444d-9371-9839c9c8117b" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
+         <pos x="104" y="270"/>
+         <functionId domain="Env" guid="9b3d2f78-4b00-438c-830d-7626e471554f"/>
+         <inputs>
+          <element value="Animations/Mannequin/ADB/shotgunWeaponAnims.adb">
+           <key type="UInt32" value="1718645864"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="3636c0d4-2f1d-472b-ba8e-fb5c9ced968e" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="3636c0d4-2f1d-472b-ba8e-fb5c9ced968e" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
+         <pos x="106" y="119"/>
+         <functionId domain="Env" guid="e12f467b-7380-4eaa-a642-0300462643b2"/>
+         <inputs>
+          <element value="Shotgun">
+           <key type="UInt32" value="1851878757"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="78ff3ee9-c679-478f-9e3e-50c5dcceee80" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="78ff3ee9-c679-478f-9e3e-50c5dcceee80" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
+         <pos x="105" y="195"/>
+         <functionId domain="Env" guid="bbeb37a5-138a-44fb-b86f-bbe7df6efcb2"/>
+         <inputs>
+          <element value="SDKShotgun">
+           <key type="UInt32" value="1851878757"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="eaefe1c3-6738-4e25-8d6b-df6e4797e5e8" typeGUID="12bdfa06-ba95-4e48-bb2d-bb48a7080abc">
+        <value guid="eaefe1c3-6738-4e25-8d6b-df6e4797e5e8">
+         <pos x="-32" y="-32"/>
+        </value>
+       </element>
+       <element key="49fba4e9-70a6-4f13-9442-6a364f49ed84" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="49fba4e9-70a6-4f13-9442-6a364f49ed84" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
+         <pos x="107" y="-33"/>
+         <functionId domain="Env" guid="92a2650a-0917-45d0-aab1-50180c4facd7"/>
+         <inputs>
+          <element value="Objects/Weapons/shotgun/shotgun_tp.cgf">
+           <key type="UInt32" value="1718645864"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+      </nodes>
+      <links>
+       <element srcNodeGUID="eaefe1c3-6738-4e25-8d6b-df6e4797e5e8" dstNodeGUID="49fba4e9-70a6-4f13-9442-6a364f49ed84">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="49fba4e9-70a6-4f13-9442-6a364f49ed84" dstNodeGUID="bb3188be-5400-43d9-854d-b1970506581f">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="bb3188be-5400-43d9-854d-b1970506581f" dstNodeGUID="3636c0d4-2f1d-472b-ba8e-fb5c9ced968e">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="3636c0d4-2f1d-472b-ba8e-fb5c9ced968e" dstNodeGUID="78ff3ee9-c679-478f-9e3e-50c5dcceee80">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="78ff3ee9-c679-478f-9e3e-50c5dcceee80" dstNodeGUID="ef5f74d9-01d8-444d-9371-9839c9c8117b">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+      </links>
+     </Graph>
+    </extensions>
+    <children />
+   </element>
+   <element elementType="SignalReceiver" guid="cecbdad6-9210-4a5e-9014-1044d6cafcdc" name="SignalGraph" Schematyc::EMPEnv="clientserver" type="Universal" signalGUID="">
+    <userDocumentation author="User" description=""/>
+    <extensions>
+     <Graph>
+      <pos x="213" y="-445"/>
+      <nodes>
+       <element key="c97b257f-1269-409d-b615-4b6764e20958" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="c97b257f-1269-409d-b615-4b6764e20958" objectGUID="">
+         <pos x="245" y="-591"/>
+         <functionId domain="Script" guid="e40aecc6-e8f0-4576-999c-121877d37541"/>
+         <inputs>
+          <element value="true">
+           <key type="GUID" value="da9fdd8a-593c-4567-8410-28395a96654d"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="0a6b3fd4-327d-4496-b229-99789ecb3bb2" typeGUID="b30f637b-555a-4e2e-8558-87fa49d470c1">
+        <value guid="0a6b3fd4-327d-4496-b229-99789ecb3bb2">
+         <pos x="525" y="-873"/>
+         <inputs>
+          <element value="false">
+           <key type="Idx" value="1"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="154458b5-251f-455b-86ef-a302e7005cca" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="154458b5-251f-455b-86ef-a302e7005cca" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
+         <pos x="-33" y="-592"/>
+         <signalId domain="Env" guid="13c1835a-29cd-4e9a-bccd-537ed14c3b68"/>
+        </value>
+       </element>
+       <element key="8cbef31f-37b7-46f4-8886-b1ca5501bd60" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="8cbef31f-37b7-46f4-8886-b1ca5501bd60" objectGUID="">
+         <pos x="526" y="-1014"/>
+         <functionId domain="Script" guid="741e005c-b659-4f43-8b1d-7c589b24ef11"/>
+        </value>
+       </element>
+       <element key="e0314d7d-e8e0-485f-8b61-6b82cdc3a90a" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="e0314d7d-e8e0-485f-8b61-6b82cdc3a90a" objectGUID="">
+         <pos x="246" y="-311"/>
+         <functionId domain="Script" guid="e40aecc6-e8f0-4576-999c-121877d37541"/>
+         <inputs>
+          <element value="false">
+           <key type="GUID" value="da9fdd8a-593c-4567-8410-28395a96654d"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="2b5693ec-add0-4948-b876-0058d8e2de78" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="2b5693ec-add0-4948-b876-0058d8e2de78" objectGUID="">
+         <pos x="0" y="0"/>
+         <signalId domain="Env" guid="a9279137-7c66-491d-b9a0-8752c24c8979"/>
+        </value>
+       </element>
+       <element key="8946296e-344c-4986-977f-b10fc61ff355" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="8946296e-344c-4986-977f-b10fc61ff355" objectGUID="">
+         <pos x="0" y="100"/>
+         <signalId domain="Env" guid="52ad5add-7781-429b-b4a9-0cb6c905e353"/>
+        </value>
+       </element>
+       <element key="90659bb6-a2ed-4ab5-adba-0fda36da0e25" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="90659bb6-a2ed-4ab5-adba-0fda36da0e25" objectGUID="">
+         <pos x="246" y="-1293"/>
+         <functionId domain="Script" guid="185feab2-96ab-47c4-a961-b31b1095fcfd"/>
+        </value>
+       </element>
+       <element key="49be1f07-5c2d-4b0b-92bb-af8a3faad313" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="49be1f07-5c2d-4b0b-92bb-af8a3faad313" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
+         <pos x="-33" y="-1293"/>
+         <signalId domain="Env" guid="5f201f39-b6fe-434b-80a6-ed38896781de"/>
+        </value>
+       </element>
+       <element key="2d165380-e02d-4b28-a898-4f51f2d1c271" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="2d165380-e02d-4b28-a898-4f51f2d1c271" objectGUID="43e62a32-b333-460d-bc09-1e4c0224ecd6">
+         <pos x="446" y="-794"/>
+         <functionId domain="Env" guid="24648b9e-0859-4e36-bdc2-657a043989bb"/>
+        </value>
+       </element>
+       <element key="9b9b6caf-07f5-4cb5-b194-e9a8870cf3e4" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="9b9b6caf-07f5-4cb5-b194-e9a8870cf3e4" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
+         <pos x="-32" y="-312"/>
+         <signalId domain="Env" guid="51f0a319-4a79-4d9b-96ed-b8dd1c2eb365"/>
+        </value>
+       </element>
+       <element key="67d05579-b1ba-4cb5-b09b-313a129b15c4" typeGUID="87aa640f-b8c6-449f-bc37-2d5400009290">
+        <value guid="67d05579-b1ba-4cb5-b09b-313a129b15c4">
+         <pos x="246" y="-1013"/>
+         <outputs>
+          <element name="1"/>
+          <element name="2"/>
+         </outputs>
+        </value>
+       </element>
+       <element key="2bfc53c3-f343-4e0e-a226-8a3744fcc97d" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="2bfc53c3-f343-4e0e-a226-8a3744fcc97d" objectGUID="">
+         <pos x="689" y="-771"/>
+         <functionId domain="Env" guid="71c2cf50-8bbb-4d35-ba71-f6ffa895141d"/>
+         <inputs>
+          <element value="Weapon fire code goes here!">
+           <key type="UInt32" value="7172967"/>
+          </element>
+          <element value="Default">
+           <key type="UInt32" value="7566450"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="ba824d91-fed8-4e85-84a1-df125996552f" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="ba824d91-fed8-4e85-84a1-df125996552f" objectGUID="">
+         <pos x="666" y="-872"/>
+         <functionId domain="Env" guid="97751a7e-d2a5-43c4-9e72-1008b1e864c1"/>
+         <inputs>
+          <element value="FIRED WEAPON ON SERVER!!!!">
+           <key type="UInt32" value="7172967"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="99b2ffbe-1994-4ef9-a171-363b63bfdfda" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="99b2ffbe-1994-4ef9-a171-363b63bfdfda" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
+         <pos x="-33" y="-1012"/>
+         <signalId domain="Env" guid="2116c7ec-cbca-46a9-a4d9-68eb37dfef15"/>
+        </value>
+       </element>
+       <element key="d7522b0d-8c26-4fba-afdc-d4a1ea1acaa5" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="d7522b0d-8c26-4fba-afdc-d4a1ea1acaa5" objectGUID="">
+         <pos x="0" y="200"/>
+         <signalId domain="Env" guid="b2561caa-0753-458b-a91f-e8e38b0f0cdf"/>
+        </value>
+       </element>
+      </nodes>
+      <links>
+       <element srcNodeGUID="2d165380-e02d-4b28-a898-4f51f2d1c271" dstNodeGUID="0a6b3fd4-327d-4496-b229-99789ecb3bb2">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="2d165380-e02d-4b28-a898-4f51f2d1c271" dstNodeGUID="0a6b3fd4-327d-4496-b229-99789ecb3bb2">
+        <srcOutputId type="UInt32" value="7565942"/>
+        <dstInputId type="Idx" value="1"/>
+       </element>
+       <element srcNodeGUID="67d05579-b1ba-4cb5-b09b-313a129b15c4" dstNodeGUID="2d165380-e02d-4b28-a898-4f51f2d1c271">
+        <srcOutputId type="Idx" value="1"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="0a6b3fd4-327d-4496-b229-99789ecb3bb2" dstNodeGUID="ba824d91-fed8-4e85-84a1-df125996552f">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="49be1f07-5c2d-4b0b-92bb-af8a3faad313" dstNodeGUID="90659bb6-a2ed-4ab5-adba-0fda36da0e25">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="154458b5-251f-455b-86ef-a302e7005cca" dstNodeGUID="c97b257f-1269-409d-b615-4b6764e20958">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="9b9b6caf-07f5-4cb5-b194-e9a8870cf3e4" dstNodeGUID="e0314d7d-e8e0-485f-8b61-6b82cdc3a90a">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="99b2ffbe-1994-4ef9-a171-363b63bfdfda" dstNodeGUID="67d05579-b1ba-4cb5-b09b-313a129b15c4">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="67d05579-b1ba-4cb5-b09b-313a129b15c4" dstNodeGUID="8cbef31f-37b7-46f4-8886-b1ca5501bd60">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+      </links>
+     </Graph>
+    </extensions>
+    <children />
+   </element>
+   <element elementType="Base" guid="64f4f729-4427-4661-8281-097ec24d85a5" name="Base [weapon]" Schematyc::EMPEnv="clientserver">
+    <classId domain="Script" guid="a11ef44c-c0cb-4f51-b2c3-ccf65b9ce439"/>
+    <extensions />
+    <children />
+   </element>
+  </children>
+ </root>
+</CrySchematyc>

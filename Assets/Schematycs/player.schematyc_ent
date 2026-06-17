@@ -24,7 +24,7 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="501" y="545"/>
+      <pos x="498" y="542"/>
       <nodes>
        <element key="5f7f04a0-1fea-4004-990e-01f11d8fd0c9" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="5f7f04a0-1fea-4004-990e-01f11d8fd0c9" objectGUID="89784630-c3af-4a6f-bdb3-7f72a04626b2">
@@ -342,7 +342,7 @@
        </element>
        <element key="d18dc8d7-a903-4676-82fe-16a2dfb42f5b" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="d18dc8d7-a903-4676-82fe-16a2dfb42f5b" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
-         <pos x="1087.5" y="1365.5"/>
+         <pos x="1087" y="1365"/>
          <functionId domain="Env" guid="28bed6b2-a304-43ab-8854-95d28deb7a0d"/>
          <inputs>
           <element value="false">
@@ -1165,15 +1165,15 @@
      <translation>
       <position>
        <element element="0"/>
-       <element element="-2"/>
-       <element element="2"/>
+       <element element="0.00074999628"/>
+       <element element="1.7499993"/>
       </position>
      </translation>
-     <rotation x="-8.2510099" y="0" z="0"/>
+     <rotation x="-0.11459105" y="0" z="0"/>
      <scale>
       <element element="1"/>
-      <element element="0.99999994"/>
-      <element element="0.99999994"/>
+      <element element="1"/>
+      <element element="1"/>
      </scale>
     </transform>
     <properties Type="Default" Active="false" NearPlane="0.1" FarPlane="8000" FieldOfView="1.2217305"/>
@@ -1222,15 +1222,15 @@
      <translation>
       <position>
        <element element="-0.046"/>
-       <element element="-2.5032046"/>
-       <element element="0.44613072"/>
+       <element element="-0.27746946"/>
+       <element element="0.14055249"/>
       </position>
      </translation>
-     <rotation x="-8.2510099" y="0" z="0"/>
+     <rotation x="-0.11459105" y="0" z="0"/>
      <scale>
       <element element="1"/>
-      <element element="0.99999994"/>
-      <element element="0.99999994"/>
+      <element element="1"/>
+      <element element="1"/>
      </scale>
     </transform>
     <properties Type="None" Character="Objects/Characters/human/sdk_player/sdk_player.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/playerAnims1P.adb" ControllerDefPath="Animations/Mannequin/ADB/playerControllerDefs.xml" DefaultScope="Char1P" DefaultFragment="" AnimDriven="true" GroundAlign="false">
