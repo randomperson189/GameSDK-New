@@ -34,6 +34,28 @@
     </AnimLayer>
    </Fragment>
   </melee_multipart>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol+SP" FragTags="first">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_selectFirst_hammer_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_select_hammer_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_deselect_pistol_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </deselect>
   <idle>
    <Fragment BlendOutDuration="0.2" Tags="SDKPistol"/>
   </idle>
@@ -433,28 +455,6 @@
     </ProcLayer>
    </Fragment>
   </ledgeGrab>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol+SP">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Animation name="stand_tac_selectFirst_hammer_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Animation name="stand_tac_select_hammer_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_deselect_pistol_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </deselect>
  </FragmentList>
  <FragmentBlendList>
   <Blend from="MotionMovement" to="MotionMovement">

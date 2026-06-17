@@ -46,6 +46,28 @@
     </AnimLayer>
    </Fragment>
   </melee_multipart>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKC4+outOfAmmo">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_select_c4_empty_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKC4">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_select_c4_shoulder_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKC4">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_deselect_c4_shoulder_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </deselect>
   <fire>
    <Fragment BlendOutDuration="0.2" Tags="SDKC4">
     <AnimLayer>
@@ -250,27 +272,5 @@
     </ProcLayer>
    </Fragment>
   </ledgeGrab>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKC4+outOfAmmo">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Animation name="stand_tac_select_c4_empty_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKC4">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Animation name="stand_tac_select_c4_shoulder_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKC4">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_deselect_c4_shoulder_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </deselect>
  </FragmentList>
 </AnimDB>

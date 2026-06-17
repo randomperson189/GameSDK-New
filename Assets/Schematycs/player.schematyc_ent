@@ -1165,11 +1165,11 @@
      <translation>
       <position>
        <element element="0"/>
-       <element element="0.00074999628"/>
-       <element element="1.7499993"/>
+       <element element="-2"/>
+       <element element="2"/>
       </position>
      </translation>
-     <rotation x="-0.11459105" y="0" z="0"/>
+     <rotation x="0" y="-0" z="0"/>
      <scale>
       <element element="1"/>
       <element element="1"/>
@@ -1222,11 +1222,11 @@
      <translation>
       <position>
        <element element="-0.046"/>
-       <element element="-0.27746946"/>
-       <element element="0.14055249"/>
+       <element element="-2.2750001"/>
+       <element element="0.38999999"/>
       </position>
      </translation>
-     <rotation x="-0.11459105" y="0" z="0"/>
+     <rotation x="0" y="-0" z="0"/>
      <scale>
       <element element="1"/>
       <element element="1"/>
@@ -1385,6 +1385,20 @@
          </inputs>
         </value>
        </element>
+       <element key="7bbe8b2e-4074-4c06-9aaa-e56ee9407054" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="7bbe8b2e-4074-4c06-9aaa-e56ee9407054" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
+         <pos x="246" y="-873"/>
+         <functionId domain="Env" guid="92f752ea-99e2-4127-a6bd-a2fe10c31b5f"/>
+         <inputs>
+          <element value="">
+           <key type="UInt32" value="7627111"/>
+          </element>
+          <element value="false">
+           <key type="UInt32" value="7758188"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
        <element key="7f4d7d33-3e30-4c09-bc0c-fbde0ca5bd2a" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="7f4d7d33-3e30-4c09-bc0c-fbde0ca5bd2a" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
          <pos x="945" y="666"/>
@@ -1400,6 +1414,12 @@
            <key type="UInt32" value="1935896432"/>
           </element>
          </inputs>
+        </value>
+       </element>
+       <element key="07901bc5-afe8-4c44-af09-3092d8ae544a" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="07901bc5-afe8-4c44-af09-3092d8ae544a" objectGUID="">
+         <pos x="-31" y="-873"/>
+         <signalId domain="Script" guid="1006dac0-6f62-4ada-a75e-927d00472549"/>
         </value>
        </element>
        <element key="c1c69545-6dc7-4ceb-a692-965fc906885f" typeGUID="b30f637b-555a-4e2e-8558-87fa49d470c1">
@@ -1667,6 +1687,18 @@
        <element srcNodeGUID="52f06c8d-d0b0-48fc-9afd-86721ece8b14" dstNodeGUID="c2a6dcd6-1db4-491a-9eef-1f5358f58e01">
         <srcOutputId type="GUID" value="dfa89a60-44ae-40fb-b7ca-375f2461ae53"/>
         <dstInputId type="UInt32" value="7631477"/>
+       </element>
+       <element srcNodeGUID="07901bc5-afe8-4c44-af09-3092d8ae544a" dstNodeGUID="7bbe8b2e-4074-4c06-9aaa-e56ee9407054">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="07901bc5-afe8-4c44-af09-3092d8ae544a" dstNodeGUID="7bbe8b2e-4074-4c06-9aaa-e56ee9407054">
+        <srcOutputId type="GUID" value="41b50137-2f9e-44ee-af91-3c0b5d1ac796"/>
+        <dstInputId type="UInt32" value="7627111"/>
+       </element>
+       <element srcNodeGUID="07901bc5-afe8-4c44-af09-3092d8ae544a" dstNodeGUID="7bbe8b2e-4074-4c06-9aaa-e56ee9407054">
+        <srcOutputId type="GUID" value="0e9a4a2d-2b0d-4622-ba5a-2766abcaf7a6"/>
+        <dstInputId type="UInt32" value="7758188"/>
        </element>
       </links>
      </Graph>

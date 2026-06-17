@@ -301,7 +301,9 @@ protected:
 
 	float m_currentBaseHeight = 0.0f;
 
+public:
 	bool m_bIsThirdPersonCamera = false;
+protected:
 	bool m_bCrouching = false;
 
 	int m_cameraJointId = -1;
@@ -331,6 +333,8 @@ protected:
 	std::string m_pActiveFragmentTorso3P;
 	//------------------------------------
 
+	std::vector<std::string> m_pSubTags;
+
 	Quat m_lookOrientation; //!< Should translate to head orientation in the future
 	float m_horizontalAngularVelocity;
 	MovingAverage<float, 10> m_averagedHorizontalAngularVelocity;
@@ -357,6 +361,8 @@ public:
 
 	void SetCrouching(bool crouching);
 	void SetAttachmentOpacity(ICharacterInstance* character, Schematyc::CSharedString attachmentName, int materialIndex, float opacity);
+
+	void SetSubTag(Schematyc::CSharedString tag, bool set);
 
 	bool IsServer() { return gEnv->bServer; }
 	bool IsSwimming();

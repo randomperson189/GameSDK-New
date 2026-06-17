@@ -62,6 +62,22 @@
     </AnimLayer>
    </Fragment>
   </melee_multipart>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKHMG">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_select_hmg_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKHMG">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_drop_hmg_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </deselect>
   <fire>
    <Fragment BlendOutDuration="0.2" Tags="SDKHMG+localClient"/>
   </fire>
@@ -211,21 +227,5 @@
     </ProcLayer>
    </Fragment>
   </ledgeGrab>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKHMG">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Animation name="stand_tac_select_hmg_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKHMG">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_drop_hmg_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </deselect>
  </FragmentList>
 </AnimDB>

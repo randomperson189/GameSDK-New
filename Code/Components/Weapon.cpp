@@ -147,7 +147,13 @@ void CWeaponComponent::QueueFragmentOnScopes(Schematyc::CSharedString fragment, 
 		m_pWeaponAction->Stop(); 
 	}
 
-	m_pWeaponAction = new TAction<SAnimationContext>(m_pWeaponPriority, m_pAnimationComponent->GetFragmentId(fragment.c_str()), TAG_STATE_EMPTY, 0U, EPlayerScopes::Scope_10, 0U);
+	TagState fragTags;
+	if (const CTagDefinition* pFragTagDef = m_pAnimationComponent->GetActionController()->GetTagDefinition(m_pAnimationComponent->GetFragmentId(fragment.c_str())))
+	{
+		pFragTagDef->Set(fragTags, pFragTagDef->Find("first"), true);
+	}
+
+	m_pWeaponAction = new TAction<SAnimationContext>(m_pWeaponPriority, m_pAnimationComponent->GetFragmentId(fragment.c_str()), fragTags, 0U, EPlayerScopes::Scope_10, 0U);
 
 	m_pAnimationComponent->QueueCustomFragment(*m_pWeaponAction);
 }
@@ -191,9 +197,14 @@ void CWeaponComponent::AttachToHand()
 
 			if (auto* meshcomp = m_pEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>())
 			{
-				if (gEnv->pEntitySystem->GetEntity(EntityId(GetOwner()))->GetComponent<CPlayerComponent>()->IsLocalClient())
+				/*if (gEnv->pEntitySystem->GetEntity(EntityId(GetOwner()))->GetComponent<CPlayerComponent>()->IsLocalClient())
 				{
 					meshcomp->SetMeshType(Cry::DefaultComponents::EMeshType::None);
+				}*/
+
+				if (!pPlayerComponent->m_bIsThirdPersonCamera)
+				{
+					SetShadowsOnly(true);
 				}
 			}
 
@@ -289,7 +300,6 @@ void CWeaponComponent::StartAltFire()
 		pSchematycObject->ProcessSignal(SStartAltFire(), GetGUID());
 	}
 }
-
 void CWeaponComponent::StopAltFire()
 {
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
@@ -310,7 +320,6 @@ void CWeaponComponent::SetMesh(Schematyc::GeomFileName FilePath)
 		}
 	}
 }
-
 void CWeaponComponent::SetAnimationMesh(Schematyc::CharacterFileName FilePath)
 {
 	if (m_pAnimationComponent)
@@ -360,3 +369,41 @@ void CWeaponComponent::SetAnimationDatabase(Schematyc::MannequinAnimationDatabas
 	m_pAnimationComponent->ResetCharacter();
 }
 
+void CWeaponComponent::SetShadowsOnly(bool shadowsOnly)
+{
+		if (IStatObj* statObj = m_pEntity->GetStatObj(m_pMeshComponent->GetEntitySlotId()))
+		{
+			if (IMaterial* material = statObj->GetMaterial())
+			{
+				int subMatCount = material->GetSubMtlCount();
+
+				for (int i = 0; i < subMatCount; i++)
+				{
+					SetMaterialOpacity(statObj, i, shadowsOnly ? 0.0f : 1.0f);
+				}
+			}
+		}
+}
+
+void CWeaponComponent::SetMaterialOpacity(IStatObj* obj, int materialIndex, float opacity)
+{
+	IMaterial* currentMaterial;
+	IMaterial* newMaterial;
+
+	// Try to get replacement material first (defined in cdf), if it doesn't exist then get the model's one
+	if (IMaterial* tempMaterial = obj->GetMaterial())
+		newMaterial = tempMaterial;
+
+	//CryLogAlways("Material is %s", newMaterial->GetName());
+
+	currentMaterial = gEnv->p3DEngine->GetMaterialManager()->CloneMaterial(newMaterial); // One way of doing it
+
+	gEnv->p3DEngine->GetMaterialManager()->CopyMaterial(newMaterial, currentMaterial, EMaterialCopyFlags::MTL_COPY_DEFAULT); // We can also copy the material and store it, newMaterial is material we want to copy, and currentMaterial is now the copy of it
+
+	float newAlpha = opacity;
+
+	// apply changes
+	currentMaterial->GetSubMtl(materialIndex)->SetGetMaterialParamFloat("opacity", newAlpha, false);
+
+	obj->SetMaterial(currentMaterial);
+}

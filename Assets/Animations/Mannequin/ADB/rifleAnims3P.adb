@@ -16,6 +16,34 @@
     </AnimLayer>
    </Fragment>
   </melee_multipart>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRifle" FragTags="primary">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
+     <Animation name="stand_tac_rgt_select_rifle_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRifle" FragTags="secondary">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
+     <Animation name="stand_tac_lft_select_rifle_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRifle" FragTags="primary">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_rgt_deselect_rifle_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRifle" FragTags="secondary">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_lft_deselect_rifle_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </deselect>
   <reload>
    <Fragment BlendOutDuration="0.2" Tags="SDKRifle" FragTags="ammo_empty">
     <AnimLayer>
@@ -210,34 +238,6 @@
     </AnimLayer>
    </Fragment>
   </MotionMovement>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
-     <Animation name="stand_tac_rgt_select_rifle_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
-     <Animation name="stand_tac_lft_select_rifle_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_rgt_deselect_rifle_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_lft_deselect_rifle_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </deselect>
  </FragmentList>
  <FragmentBlendList>
   <Blend from="MotionMovement" to="slide">

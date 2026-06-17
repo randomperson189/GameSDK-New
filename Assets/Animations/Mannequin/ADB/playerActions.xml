@@ -21,7 +21,5 @@
   <Tag name="dropObjectSimple"/>
   <Tag name="throwObjectSimple"/>
   <Tag name="grabNPCKill"/>
-  <Tag name="select"/>
-  <Tag name="deselect"/>
  </Tags>
 </TagDefinition>

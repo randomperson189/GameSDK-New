@@ -130,6 +130,13 @@ namespace
 				componentScope.Register(pFunction);
 			}
 
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetSubTag, "{92F752EA-99E2-4127-A6BD-A2FE10C31B5F}"_cry_guid, "Set SubTag");
+				pFunction->BindInput(1, 'tag', "Tag", "Tag");
+				pFunction->BindInput(2, 'val', "Value", "Value");
+				componentScope.Register(pFunction);
+			}
+
 			// These are here just for reference since you can get reflected component variables in Schematyc by default
 			/*{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetMoveSpeed, "{0761CED9-067F-4C04-8E7F-170E0F5CFE66}"_cry_guid, "Get Move Speed");
@@ -292,7 +299,17 @@ void CPlayerComponent::InitializeLocalPlayer()
 			m_bIsThirdPersonCamera = !m_bIsThirdPersonCamera;
 
 			if (!IsRagdoll())
+			{
 				SetCharacterThirdPerson(m_bIsThirdPersonCamera);
+
+				if (IEntity* pWeapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+				{
+					if (auto* pWeaponComp = pWeapon->GetComponent<CWeaponComponent>())
+					{
+						pWeaponComp->SetShadowsOnly(!m_bIsThirdPersonCamera);
+					}
+				}
+			}
 		}
 	});
 	m_pInputComponent->BindAction("player", "toggleperspective", eAID_KeyboardMouse, eKI_C);
@@ -806,6 +823,30 @@ Schematyc::ExplicitEntityId CPlayerComponent::GetActiveWeapon()
 	return Schematyc::ExplicitEntityId(m_pActiveWeapon);
 }
 
+void CPlayerComponent::SetSubTag(Schematyc::CSharedString tag, bool set)
+{
+	const std::string tagStr = tag.c_str();
+
+	auto it = std::find(m_pSubTags.begin(), m_pSubTags.end(), tagStr);
+
+	if (set)
+	{
+		// Add only if it doesn't already exist
+		if (it == m_pSubTags.end())
+		{
+			m_pSubTags.push_back(tagStr);
+		}
+	}
+	else
+	{
+		// Remove only if it exists
+		if (it != m_pSubTags.end())
+		{
+			m_pSubTags.erase(it);
+		}
+	}
+}
+
 void CPlayerComponent::SetMoveSpeed(float moveSpeed)
 {
 	m_currentMoveSpeed = moveSpeed;
@@ -917,7 +958,26 @@ void CPlayerComponent::QueueFragmentOnScope(Schematyc::CSharedString fragment, c
 		//actionRef = nullptr;
 	}
 
-	actionRef = new TAction<SAnimationContext>(priority, myComponent->GetFragmentId(fragment.c_str()), TAG_STATE_EMPTY, 0U, scope, 0U);
+	TagState fragTags;
+	/*if (const CTagDefinition* pFragTagDef = myComponent->GetActionController()->GetTagDefinition(myComponent->GetFragmentId(fragment.c_str())))
+	{
+		pFragTagDef->Set(fragTags, pFragTagDef->Find("first"), true);
+	}*/
+
+	if (const CTagDefinition* pFragTagDef = myComponent->GetActionController()->GetTagDefinition(myComponent->GetFragmentId(fragment.c_str())))
+	{
+		for (const std::string& subTag : m_pSubTags)
+		{
+			TagID tagId = pFragTagDef->Find(subTag.c_str());
+
+			if (tagId != TAG_ID_INVALID)
+			{
+				pFragTagDef->Set(fragTags, tagId, true);
+			}
+		}
+	}
+
+	actionRef = new TAction<SAnimationContext>(priority, myComponent->GetFragmentId(fragment.c_str()), fragTags, 0U, scope, 0U);
 
 	myComponent->QueueCustomFragment(*actionRef);
 }
@@ -973,7 +1033,17 @@ void CPlayerComponent::Ragdollize()
 		return;
 
 	if (!m_bIsThirdPersonCamera)
+	{
 		SetCharacterThirdPerson(true);
+		
+		if (IEntity* pWeapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+		{
+			if (auto* pWeaponComp = pWeapon->GetComponent<CWeaponComponent>())
+			{
+				pWeaponComp->SetShadowsOnly(false);
+			}
+		}
+	}
 
 	Vec3 linearVelocity;
 	Vec3 angularVelocity;
@@ -1022,27 +1092,27 @@ void CPlayerComponent::Ragdollize()
 
 void CPlayerComponent::SetAttachmentOpacity(ICharacterInstance* character, Schematyc::CSharedString attachmentName, int materialIndex, float opacity)
 {
-	IMaterial* m_pMaterial;
-	IMaterial* pMaterial;
+	IMaterial* currentMaterial;
+	IMaterial* newMaterial;
 
 	// Try to get replacement material first (defined in cdf), if it doesn't exist then get the model's one
-	if (IMaterial* test = character->GetIAttachmentManager()->GetInterfaceByName(attachmentName.c_str())->GetIAttachmentObject()->GetReplacementMaterial())
-		pMaterial = test;
-	else if (IMaterial* test = character->GetIAttachmentManager()->GetInterfaceByName(attachmentName.c_str())->GetIAttachmentSkin()->GetISkin()->GetIMaterial(0))
-		pMaterial = test;
+	if (IMaterial* tempMaterial = character->GetIAttachmentManager()->GetInterfaceByName(attachmentName.c_str())->GetIAttachmentObject()->GetReplacementMaterial())
+		newMaterial = tempMaterial;
+	else if (IMaterial* tempMaterial = character->GetIAttachmentManager()->GetInterfaceByName(attachmentName.c_str())->GetIAttachmentSkin()->GetISkin()->GetIMaterial(0))
+		newMaterial = tempMaterial;
 
-	//CryLogAlways("Material is %s", pMaterial->GetName());
+	//CryLogAlways("Material is %s", newMaterial->GetName());
 
-	m_pMaterial = gEnv->p3DEngine->GetMaterialManager()->CloneMaterial(pMaterial); // One way of doing it
+	currentMaterial = gEnv->p3DEngine->GetMaterialManager()->CloneMaterial(newMaterial); // One way of doing it
 
-	gEnv->p3DEngine->GetMaterialManager()->CopyMaterial(pMaterial, m_pMaterial, EMaterialCopyFlags::MTL_COPY_DEFAULT); // We can also copy the material and store it, pMaterial is material we want to copy, and m_pMaterial is now the copy of it
+	gEnv->p3DEngine->GetMaterialManager()->CopyMaterial(newMaterial, currentMaterial, EMaterialCopyFlags::MTL_COPY_DEFAULT); // We can also copy the material and store it, newMaterial is material we want to copy, and currentMaterial is now the copy of it
 
 	float newAlpha = opacity;
 
 	// apply changes
-	m_pMaterial->GetSubMtl(materialIndex)->SetGetMaterialParamFloat("opacity", newAlpha, false);
+	currentMaterial->GetSubMtl(materialIndex)->SetGetMaterialParamFloat("opacity", newAlpha, false);
 
-	character->GetIAttachmentManager()->GetInterfaceByName(attachmentName.c_str())->GetIAttachmentObject()->SetReplacementMaterial(m_pMaterial);
+	character->GetIAttachmentManager()->GetInterfaceByName(attachmentName.c_str())->GetIAttachmentObject()->SetReplacementMaterial(currentMaterial);
 }
 
 void CPlayerComponent::SetCharacterThirdPerson(bool thirdperson)
@@ -1220,7 +1290,6 @@ bool CPlayerComponent::RemoteDieOnServer(RemoteBlankParams&& params, INetChannel
 
 	return true;
 }
-
 bool CPlayerComponent::RemoteDieOnClients(RemoteBlankParams&& params, INetChannel* pNetChannel)
 {
 	if (!IsRagdoll())
@@ -1246,7 +1315,6 @@ bool CPlayerComponent::RemoteStartShoot(RemoteShootParams&& params, INetChannel*
 
 	return true;
 }
-
 bool CPlayerComponent::RemoteStopShoot(RemoteShootParams&& params, INetChannel* pNetChannel)
 {
 	if (!IsLocalClient())
@@ -1282,7 +1350,6 @@ bool CPlayerComponent::RemoteStartShoot2(RemoteShootParams&& params, INetChannel
 
 	return true;
 }
-
 bool CPlayerComponent::RemoteStopShoot2(RemoteShootParams&& params, INetChannel* pNetChannel)
 {
 	if (!IsLocalClient())
@@ -1301,18 +1368,17 @@ bool CPlayerComponent::RemoteStopShoot2(RemoteShootParams&& params, INetChannel*
 	return true;
 }
 
-bool CPlayerComponent::RemoteReviveOnClient(RemoteReviveParams&& params, INetChannel* pNetChannel)
-{
-	// Call the Revive function on this client
-	Revive(Matrix34::Create(Vec3(1.f), params.rotation, params.position));
-
-	return true;
-}
-
 bool CPlayerComponent::RemoteReviveOnServer(RemoteBlankParams && params, INetChannel * pNetChannel)
 {
 	if (IsRagdoll())
 		OnReadyForGameplayOnServer(false);
+
+	return true;
+}
+bool CPlayerComponent::RemoteReviveOnClient(RemoteReviveParams&& params, INetChannel* pNetChannel)
+{
+	// Call the Revive function on this client
+	Revive(Matrix34::Create(Vec3(1.f), params.rotation, params.position));
 
 	return true;
 }

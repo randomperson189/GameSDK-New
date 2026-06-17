@@ -103,6 +103,19 @@
     <extensions />
     <children />
    </element>
+   <element elementType="Signal" guid="1006dac0-6f62-4ada-a75e-927d00472549" name="PlayerLibrary SetSubTag" Schematyc::EMPEnv="clientserver">
+    <inputs>
+     <element guid="41b50137-2f9e-44ee-af91-3c0b5d1ac796" name="Tag" value="">
+      <typeId domain="Env" guid="02b79308-c51c-4841-99ec-c887577217a7"/>
+     </element>
+     <element guid="0e9a4a2d-2b0d-4622-ba5a-2766abcaf7a6" name="Value" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+    </inputs>
+    <userDocumentation author="User" description=""/>
+    <extensions />
+    <children />
+   </element>
   </children>
  </root>
 </CrySchematyc>

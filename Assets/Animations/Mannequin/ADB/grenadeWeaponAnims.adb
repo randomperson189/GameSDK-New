@@ -1,5 +1,13 @@
 <AnimDB FragDef="Animations/Mannequin/ADB/PlayerActions.xml" TagDef="Animations/Mannequin/ADB/PlayerTags.xml">
  <FragmentList>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKGrenade">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_select_gren_weapon_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
   <idle>
    <Fragment BlendOutDuration="0.2" Tags="SDKGrenade+move">
     <AnimLayer>
@@ -28,13 +36,5 @@
     </AnimLayer>
    </Fragment>
   </prime>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKGrenade">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Animation name="stand_tac_select_gren_weapon_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
  </FragmentList>
 </AnimDB>

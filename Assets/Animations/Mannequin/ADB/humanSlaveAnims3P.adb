@@ -1,5 +1,13 @@
 <AnimDB FragDef="Animations/Mannequin/ADB/PlayerActions.xml" TagDef="Animations/Mannequin/ADB/PlayerTags.xml">
  <FragmentList>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="slave+slaveHuman">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_grab_front_outof_human_01"/>
+    </AnimLayer>
+   </Fragment>
+  </deselect>
   <idle>
    <Fragment BlendOutDuration="0.2" Tags="slave+slaveHuman">
     <AnimLayer>
@@ -216,13 +224,5 @@
     </AnimLayer>
    </Fragment>
   </grabNPCKill>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="slave+slaveHuman">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_grab_front_outof_human_01"/>
-    </AnimLayer>
-   </Fragment>
-  </deselect>
  </FragmentList>
 </AnimDB>

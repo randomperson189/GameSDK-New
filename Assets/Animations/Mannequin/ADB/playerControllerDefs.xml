@@ -14,6 +14,8 @@
   <melee_multipart scopes="Torso1P+Motion1P+Sway1P+Torso3P+Weapon+Audio1+AttachmentTop+AttachmentBottom"/>
   <melee_weapon scopes="Torso1P+Motion1P+Sway1P+Torso3P+Weapon+Audio1+AttachmentTop+AttachmentBottom"/>
   <melee_interact scopes="Torso1P+Torso3P"/>
+  <select scopes="Torso1P+Motion1P+Sway1P+Torso3P+Weapon+Audio1+AttachmentTop+AttachmentBottom"/>
+  <deselect scopes="Torso1P+Motion1P+Sway1P+Torso3P+Weapon+Audio1+AttachmentTop+AttachmentBottom"/>
   <idle scopes="Torso1P+Torso3P+Weapon+AttachmentTop+AttachmentBottom+SlaveChar+SlaveObject"/>
   <idle_break scopes="Torso1P+Torso3P+Weapon+Audio1+AttachmentTop+AttachmentBottom"/>
   <idle_lastGrenade scopes="Weapon"/>
@@ -149,8 +151,6 @@
   <dropObjectSimple scopes="Torso1P+Motion1P+Sway1P+Torso3P+Weapon+Audio1+AttachmentTop+AttachmentBottom"/>
   <throwObjectSimple scopes="Torso1P+Motion1P+Sway1P+Torso3P+Weapon+Audio2+AttachmentTop+AttachmentBottom"/>
   <grabNPCKill scopes="Torso1P+Motion1P+Sway1P+Torso3P+Weapon+Audio1+AttachmentTop+AttachmentBottom+SlaveChar"/>
-  <select scopes="Torso1P+Motion1P+Sway1P+Torso3P+Weapon+Audio1+AttachmentTop+AttachmentBottom"/>
-  <deselect scopes="Torso1P+Motion1P+Sway1P+Torso3P+Weapon+Audio1+AttachmentTop+AttachmentBottom"/>
  </FragmentDefs>
  <ScopeContextDefs>
   <Char1P />

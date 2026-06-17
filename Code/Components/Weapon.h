@@ -60,6 +60,9 @@ public:
 	Schematyc::ExplicitEntityId GetOwner();
 	void SetOwner(Schematyc::ExplicitEntityId entityId);
 
+	void SetShadowsOnly(bool shadowOnly);
+	void SetMaterialOpacity(IStatObj* obj, int materialIndex, float opacity);
+
 protected:
 	Cry::DefaultComponents::CStaticMeshComponent* m_pMeshComponent = nullptr;
 	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent = nullptr;

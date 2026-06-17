@@ -16,6 +16,20 @@
     </AnimLayer>
    </Fragment>
   </melee_multipart>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKGrenade" FragTags="primary">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
+     <Animation name="stand_tac_rgt_select_grenade_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKGrenade">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
+     <Animation name="stand_tac_lft_select_grenade_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
   <throw>
    <Fragment BlendOutDuration="0.2" Tags="SDKGrenade">
     <AnimLayer>
@@ -76,19 +90,5 @@
     </AnimLayer>
    </Fragment>
   </MotionTurn>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKGrenade">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
-     <Animation name="stand_tac_rgt_select_grenade_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKGrenade">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
-     <Animation name="stand_tac_lft_select_grenade_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
  </FragmentList>
 </AnimDB>

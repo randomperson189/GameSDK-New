@@ -22,6 +22,40 @@
     </AnimLayer>
    </Fragment>
   </melee_multipart>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol" FragTags="first">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
+     <Animation name="stand_tac_selectfirst_pistol_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol" FragTags="primary">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
+     <Animation name="stand_tac_rgt_select_pistol_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol" FragTags="secondary">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
+     <Animation name="stand_tac_lft_select_pistol_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol" FragTags="primary">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_rgt_deselect_pistol_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKPistol" FragTags="secondary">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_lft_deselect_pistol_stowing_add_3p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </deselect>
   <fire>
    <Fragment BlendOutDuration="0.2" Tags="SDKPistol+flag">
     <AnimLayer>
@@ -230,39 +264,5 @@
     </ProcLayer>
    </Fragment>
   </ledgeGrab>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
-     <Animation name="stand_tac_selectfirst_pistol_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
-     <Animation name="stand_tac_rgt_select_pistol_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.1"/>
-     <Animation name="stand_tac_lft_select_pistol_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_rgt_deselect_pistol_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKPistol">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_lft_deselect_pistol_stowing_add_3p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </deselect>
  </FragmentList>
 </AnimDB>

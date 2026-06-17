@@ -34,6 +34,54 @@
     </ProcLayer>
    </Fragment>
   </rapid_fire>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRifle+FP">
+    <ProcLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Procedural type="Audio">
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rifle_select_fp" StopTrigger="do_nothing" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="1" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+     </Procedural>
+    </ProcLayer>
+    <ProcLayer>
+     <Blend ExitTime="0.5" StartTime="0" Duration="0.2"/>
+     <Procedural type="Audio">
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rifle_hand_on_gun_fp" StopTrigger="do_nothing" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+     </Procedural>
+    </ProcLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
+    <ProcLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Procedural type="Audio">
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rifle_select_3p" StopTrigger="do_nothing" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="1" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+     </Procedural>
+    </ProcLayer>
+    <ProcLayer>
+     <Blend ExitTime="0.5" StartTime="0" Duration="0.2"/>
+     <Procedural type="Audio">
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rifle_hand_on_gun_3p" StopTrigger="do_nothing" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+     </Procedural>
+    </ProcLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRifle+FP">
+    <ProcLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Procedural type="Audio">
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rifle_select_fp" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="1" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+     </Procedural>
+    </ProcLayer>
+   </Fragment>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
+    <ProcLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Procedural type="Audio">
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rifle_deselect_3p" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="1" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+     </Procedural>
+    </ProcLayer>
+   </Fragment>
+  </deselect>
   <fire>
    <Fragment BlendOutDuration="0.2" Tags="SDKRifle+single+silencer+FP">
     <ProcLayer>
@@ -240,53 +288,5 @@
     </ProcLayer>
    </Fragment>
   </shot_last_bullet>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRifle+FP">
-    <ProcLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rifle_select_fp" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="1" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
-     </Procedural>
-    </ProcLayer>
-    <ProcLayer>
-     <Blend ExitTime="0.5" StartTime="0" Duration="0.2"/>
-     <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rifle_hand_on_gun_fp" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
-     </Procedural>
-    </ProcLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
-    <ProcLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rifle_select_3p" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="1" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
-     </Procedural>
-    </ProcLayer>
-    <ProcLayer>
-     <Blend ExitTime="0.5" StartTime="0" Duration="0.2"/>
-     <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rifle_hand_on_gun_3p" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="0" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
-     </Procedural>
-    </ProcLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRifle+FP">
-    <ProcLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rifle_select_fp" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="1" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
-     </Procedural>
-    </ProcLayer>
-   </Fragment>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
-    <ProcLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_rifle_deselect_3p" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="1" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
-     </Procedural>
-    </ProcLayer>
-   </Fragment>
-  </deselect>
  </FragmentList>
 </AnimDB>

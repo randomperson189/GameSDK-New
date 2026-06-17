@@ -50,6 +50,22 @@
     </AnimLayer>
    </Fragment>
   </melee>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_select_rifle_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_deselect_rifle_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </deselect>
   <idle>
    <Fragment BlendOutDuration="0.2" Tags="SDKRifle"/>
   </idle>
@@ -420,22 +436,6 @@
     </ProcLayer>
    </Fragment>
   </ledgeGrab>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Animation name="stand_tac_select_rifle_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKRifle">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_deselect_rifle_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </deselect>
  </FragmentList>
  <FragmentBlendList>
   <Blend from="enter_modify" to="leave_modify">

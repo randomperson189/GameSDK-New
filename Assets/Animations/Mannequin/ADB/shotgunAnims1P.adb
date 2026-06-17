@@ -8,6 +8,22 @@
     </AnimLayer>
    </Fragment>
   </melee>
+  <select>
+   <Fragment BlendOutDuration="0.2" Tags="SDKShotgun">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0"/>
+     <Animation name="stand_tac_select_marshall_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </select>
+  <deselect>
+   <Fragment BlendOutDuration="0.2" Tags="SDKShotgun">
+    <AnimLayer>
+     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
+     <Animation name="stand_tac_deselect_shotgun_add_1p_01"/>
+    </AnimLayer>
+   </Fragment>
+  </deselect>
   <idle>
    <Fragment BlendOutDuration="0.2" Tags="SDKShotgun"/>
   </idle>
@@ -221,21 +237,5 @@
     </ProcLayer>
    </Fragment>
   </slide>
-  <select>
-   <Fragment BlendOutDuration="0.2" Tags="SDKShotgun">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0"/>
-     <Animation name="stand_tac_select_marshall_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </select>
-  <deselect>
-   <Fragment BlendOutDuration="0.2" Tags="SDKShotgun">
-    <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2"/>
-     <Animation name="stand_tac_deselect_shotgun_add_1p_01"/>
-    </AnimLayer>
-   </Fragment>
-  </deselect>
  </FragmentList>
 </AnimDB>
