@@ -1,0 +1,482 @@
+<FXLib>
+
+<!-- START blank_event and mat_default START -->
+	<Effect name="blank_event">
+	</Effect>
+
+	<Effect name="mat_default" delay="0.05">
+		<Audio trigger="Play_p_pro_hit_mat_default">
+		</Audio>
+		<Particle>
+			<Name>bullet.hit_default.a</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale="0.04" maxscale="0.06">
+				<Material>materials/decals/dirt/ground</Material>
+			</Decal>
+		</RandEffect>
+	</Effect>
+<!-- END blank_event and default_mat END -->
+
+
+<!-- START   mat_metal   START -->
+	<Effect name="metal_metal">
+		<Audio trigger="Play_p_col_mat_metal_thick_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_glass">
+		<Audio trigger="Play_p_col_mat_metal_thick_on_glass_thick">
+		</Audio>
+	</Effect>
+	<Effect name="metal_wood">
+		<Audio trigger="Play_p_col_mat_metal_thick_on_wood_solid">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_snow">
+		<Audio trigger="Play_p_col_mat_metal_grate_on_snow">
+		</Audio>
+	</Effect>
+	<Effect name="metal_ice">
+		<Audio trigger="Play_p_col_mat_metal_grate_on_ice">
+		</Audio>
+	</Effect>
+	<Effect name="metal_rock">
+		<Audio trigger="Play_p_col_mat_metal_thick_on_pebble">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_grass">
+		<Audio trigger="Play_p_col_mat_metal_thick_on_grass">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_vegetation">
+		<Audio trigger="Play_p_col_mat_metal_thick_on_canopy">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_default">
+		<Audio trigger="Play_p_col_mat_metal_thick_on_dirt">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+<!-- END   mat_metal   END -->
+
+
+<!-- START   mat_metal_RayProxy   START -->
+	<Effect name="metal_rayproxy_metal">
+		<Audio trigger="Play_p_col_mat_metal_chainlink_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_rayproxy_glass">
+		<Audio trigger="Play_p_col_mat_metal_chainlink_on_glass_thick">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.glass</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_rayproxy_wood">
+		<Audio trigger="Play_p_col_mat_metal_chainlink_on_wood_solid">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_rayproxy_snow">
+		<Audio trigger="Play_p_col_mat_metal_chainlink_on_snow">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_rayproxy_ice">
+		<Audio trigger="Play_p_col_mat_metal_chainlink_on_ice">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_chainlink_rock">
+		<Audio trigger="Play_p_col_mat_metal_chainlink_on_pebble">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_rayproxy_soil">
+		<Audio trigger="Play_p_col_mat_metal_chainlink_on_dirt">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_rayproxy_default">
+		<Audio trigger="Play_p_col_mat_metal_chainlink_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+<!-- END   mat_metal_RayProxy   END -->
+
+
+<!-- START   mat_metal_shell   START -->
+	<Effect name="metal_shell_metal">
+		<Audio trigger="Play_p_pro_casing_bullet_metal_thick">
+		</Audio>
+	</Effect>
+	<Effect name="metal_shell_glass">
+		<Audio trigger="Play_p_pro_casing_bullet_metal_thick">
+		</Audio>
+	</Effect>
+	<Effect name="metal_shell_wood">
+		<Audio trigger="Play_p_pro_casing_bullet_wood_hollow">
+		</Audio>
+	</Effect>
+	<Effect name="metal_shell_water">
+		<Audio trigger="Play_p_pro_casing_bullet_water">
+		</Audio>
+		<Particle>
+			<Name>collisions.shells.water</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_shell_rock">
+		<Audio trigger="Play_p_pro_casing_bullet_concrete">
+		</Audio>
+	</Effect>
+	<Effect name="metal_shell_grass">
+		<Audio trigger="Play_p_pro_casing_bullet_grass">
+		</Audio>
+	</Effect>
+	<Effect name="metal_shell_default">
+		<Audio trigger="Play_p_pro_casing_bullet_gravel">
+		</Audio>
+	</Effect>
+<!-- END   mat_metal_shell   END -->
+
+
+<!-- START   mat_glass   START -->
+	<Effect name="glass_metal">
+		<Audio trigger="Play_p_col_mat_glass_thin_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.glass</Name>
+		</Particle>
+	</Effect>
+	<Effect name="glass_wood">
+		<Audio trigger="Play_p_col_mat_glass_thin_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.glass</Name>
+		</Particle>
+	</Effect>
+	<Effect name="glass_glass">
+		<Audio trigger="Play_p_col_mat_glass_thin_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.glass</Name>
+		</Particle>
+	</Effect>
+<!-- END   mat_glass   END -->
+
+
+<!-- START   mat_wood   START -->
+	<Effect name="wood_metal">
+		<Audio trigger="Play_p_col_mat_wood_solid_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	<Effect name="wood_glass">
+		<Audio trigger="Play_p_col_mat_wood_solid_on_glass_thick">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.glass</Name>
+		</Particle>
+	</Effect>
+	<Effect name="wood_wood">
+		<Audio trigger="Play_p_col_mat_wood_solid_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	<Effect name="wood_snow">
+		<Audio trigger="Play_p_col_mat_wood_solid_on_snow">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+	<Effect name="wood_ice">
+		<Audio trigger="Play_p_col_mat_wood_solid_on_ice">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+	<Effect name="wood_rock">
+		<Audio trigger="Play_p_col_mat_wood_solid_on_dirt">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+	<Effect name="wood_soil">
+		<Audio trigger="Play_p_col_mat_wood_solid_on_dirt">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+	<Effect name="wood_grass">
+		<Audio trigger="Play_p_col_mat_wood_solid_on_grass">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+	<Effect name="wood_vegetation">
+		<Audio trigger="Play_p_col_mat_wood_solid_on_canopy">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+	<Effect name="wood_default">
+		<Audio trigger="Play_p_col_mat_wood_solid_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+<!-- END   mat_wood   END -->
+
+
+<!-- START   mat_snow   START -->
+	<Effect name="snow_default">
+		<Audio trigger="Play_p_col_mat_rock_on_snow">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+<!-- END   mat_snow   END -->
+
+
+<!-- START   mat_ice   START -->
+	<Effect name="ice_default">
+		<Audio trigger="Play_p_col_mat_metal_thick_on_ice">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+<!-- END   mat_ice   END -->
+
+
+<!-- START   mat_water   START -->
+	<Effect name="water_default">
+		<Audio trigger="Play_p_col_mat_water">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.water</Name>
+		</Particle>
+	</Effect>
+<!-- END   mat_water   END -->
+
+
+<!-- START   mat_rock   START -->
+	<Effect name="rock_metal">
+		<Audio trigger="Play_p_col_mat_rock_on_metal_thick">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.metal_concrete</Name>
+		</Particle>
+	</Effect>
+	<Effect name="rock_metal_rayproxy">
+		<Audio trigger="Play_p_col_mat_rock_on_metal_sheet">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.metal_concrete</Name>
+		</Particle>
+	</Effect>
+	<Effect name="rock_glass">
+		<Audio trigger="Play_p_col_mat_rock_on_glass_thick">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.glass</Name>
+		</Particle>
+	</Effect>
+	<Effect name="rock_wood">
+		<Audio trigger="Play_p_col_mat_rock_on_wood_solid">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	<Effect name="rock_rock">
+		<Audio trigger="Play_p_col_mat_rock_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.rock</Name>
+		</Particle>
+	</Effect>
+	<Effect name="rock_soil">
+		<Audio trigger="Play_p_col_mat_rock_on_soil">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+	<Effect name="rock_grass">
+		<Audio trigger="Play_p_col_mat_rock_on_grass_tall">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+	<Effect name="rock_vegetation">
+		<Audio trigger="Play_p_col_mat_rock_on_canopy">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+	<Effect name="rock_default">
+		<Audio trigger="Play_p_col_mat_rock_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.rock</Name>
+		</Particle>
+	</Effect>
+<!-- END   mat_rock   END -->
+
+
+<!-- START   mat_soil   START -->
+	<Effect name="soil_default">
+		<Audio trigger="Play_p_col_mat_dirt_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+<!-- END   mat_soil   END -->
+
+
+<!-- START   mat_grass   START -->
+	<Effect name="grass_default">
+		<Audio trigger="Play_p_col_mat_grass_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+<!-- END   mat_grass   END -->
+
+
+<!-- START   mat_vegetation   START -->
+	<Effect name="vegetation_default">
+		<Audio trigger="Play_p_col_mat_canopy_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+<!-- END   mat_vegetation   END -->
+
+
+<!-- START   mat_fabric   START -->
+	<Effect name="fabric_default">
+	</Effect>
+<!-- END   mat_fabric   END -->
+
+
+<!-- START   mat_plastic   START -->
+	<Effect name="plastic_default">
+		<Audio trigger="Play_p_col_mat_plastic_on_ground">
+		</Audio>
+	</Effect>
+<!-- END   mat_plastic   END -->
+
+
+<!-- START   mat_rubber   START -->
+	<Effect name="rubber_default">
+		<Audio trigger="Play_p_col_mat_rubber_on_ground">
+		</Audio>
+	</Effect>
+<!-- END   mat_rubber   END -->
+
+
+<!-- START   mat_flesh   START -->
+	<Effect name="flesh_default">
+		<Audio trigger="Play_p_col_mat_flesh_on_ground">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+	</Effect>
+<!-- END   mat_flesh   END -->
+
+
+<!-- START   SCAR   START -->
+	<Effect name="weapon_medium_drop">
+		<Audio trigger="Play_p_col_obj_weapon_medium_on_ground">
+		</Audio>
+	</Effect>
+	<Effect name="medium_weapon_metal">
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+		<Audio trigger="Play_p_col_obj_weapon_medium_on_ground">
+		</Audio>
+	</Effect>
+	<Effect name="medium_weapon_wood">
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+		<Audio trigger="Play_p_col_obj_weapon_medium_on_ground">
+		</Audio>
+	</Effect>
+	<Effect name="medium_weapon_water">
+		<Particle>
+			<Name>collisions.small.water</Name>
+		</Particle>
+		<Audio trigger="Play_p_col_obj_weapon_medium_on_ground">
+		</Audio>
+	</Effect>
+	<Effect name="medium_weapon_vegetation">
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+		<Audio trigger="Play_p_col_obj_weapon_medium_on_ground">
+		</Audio>
+	</Effect>
+	<Effect name="medium_weapon_default">
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+		<Audio trigger="Play_p_col_obj_weapon_medium_on_ground">
+		</Audio>
+	</Effect>
+<!-- END   SCAR   END -->
+
+</FXLib>

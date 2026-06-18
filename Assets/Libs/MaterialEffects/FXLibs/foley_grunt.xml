@@ -1,0 +1,73 @@
+<FXLib>
+
+	<Effect name="crouch_on">
+		<Audio trigger="Play_c_npc_fol_crouch_on">
+		</Audio>
+	</Effect>
+
+	<Effect name="crouch_off">
+		<Audio trigger="Play_c_npc_fol_crouch_off">
+		</Audio>
+	</Effect>
+
+	<Effect name="jump_on">
+		<Audio trigger="Play_c_npc_fol_jump_on">
+		</Audio>
+	</Effect>
+
+	<Effect name="jump_off">
+		<Audio trigger="Play_c_npc_fol_jump_off">
+		</Audio>
+	</Effect>
+
+	<Effect name="gear">
+		<Audio trigger="Play_c_npc_fol_gear">
+		</Audio>
+	</Effect>
+
+	<Effect name="slow">
+		<Audio trigger="Play_c_npc_fol_gear_slow">
+		</Audio>
+	</Effect>
+
+	<Effect name="medium">
+		<Audio trigger="Play_c_npc_fol_gear_medium">
+		</Audio>
+	</Effect>
+
+	<Effect name="fast">
+		<Audio trigger="Play_c_npc_fol_gear_fast">
+		</Audio>
+	</Effect>
+
+	<Effect name="turn">
+		<Audio trigger="Play_c_npc_fol_turn">
+		</Audio>
+	</Effect>
+
+	<Effect name="bodyhit">
+		<Audio trigger="Play_c_npc_fol_bodyhit">
+		</Audio>
+	</Effect>
+
+	<Effect name="throw">
+		<Audio trigger="Play_c_npc_fol_throw_generic">
+		</Audio>
+	</Effect>
+
+	<Effect name="grab">
+		<Audio trigger="Play_c_npc_fol_grab_generic">
+		</Audio>
+	</Effect>
+
+	<Effect name="bag_movement">
+		<Audio trigger="Play_c_npc_fol_bag_movement">
+		</Audio>
+	</Effect>
+
+	<Effect name="default">
+		<Audio trigger="Play_c_npc_fol_gear">
+		</Audio>
+	</Effect>
+
+</FXLib>

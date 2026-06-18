@@ -1,0 +1,101 @@
+<FXLib>
+
+	<!-- START   Melee impacts (melee)   START -->
+	<Effect name="melee_metal" delay="0.05">
+		<Audio trigger="Play_p_pro_impact_melee_hit_mat_wood">
+		</Audio>
+		<Particle>
+			<Name>melee.hit_metal.hit</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="melee_glass" delay="0.05">
+		<Audio trigger="Play_p_pro_impact_melee_hit_mat_glass">
+		</Audio>
+		<Particle>
+			<Name>melee.hit_glass.hit</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale="0.06" maxscale="0.1">
+				<Material>materials/decals/glass/glass</Material>
+			</Decal>
+			<Decal minscale="0.06" maxscale="0.1">
+				<Material>materials/decals/glass/glass_b</Material>
+			</Decal>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="melee_wood" delay="0.05">
+		<Audio trigger="Play_p_pro_impact_melee_hit_mat_wood">
+		</Audio>
+		<RandEffect>
+			<Particle>
+				<Name>melee.hit_wood.hit</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="melee_water" delay="0.05">
+		<Audio trigger="Play_p_pro_impact_melee_hit_mat_water">
+		</Audio>
+		<RandEffect>
+			<Particle>
+				<Name>melee.hit_water.hit</Name>
+			</Particle>
+		</RandEffect>
+		<FlowGraph name="water_bullet_hit" maxdist="2"/>
+	</Effect>
+
+	<Effect name="melee_concrete" delay="0.05">
+		<Audio trigger="Play_p_pro_impact_melee_hit_mat_concrete">
+		</Audio>
+		<RandEffect>
+			<Particle>
+				<Name>melee.hit_concrete.hit</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="melee_soil" delay="0.05">
+		<Audio trigger="Play_p_pro_impact_melee_hit_mat_soil">
+		</Audio>
+		<RandEffect>
+			<Particle>
+				<Name>melee.hit_soil.hit</Name>
+			</Particle>
+		</RandEffect>
+		<RandEffect>
+			<Decal minscale="0.05" maxscale="0.1">
+				<Material>materials/decals/dirt/terrain_soil</Material>
+			</Decal>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="melee_flesh" delay="0.05">
+		<Audio trigger="Play_p_pro_impact_melee_hit_mat_flesh">
+		</Audio>
+		<Particle>
+			<Name>melee.hit_flesh.hit</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale="0.1" maxscale="0.15" lifetime="5.0">
+				<Material>materials/decals/blood/human_body</Material>
+			</Decal>
+		</RandEffect>
+		<FlowGraph name="blood_bullet_hit" maxdist="2"/>
+	</Effect>
+
+	<Effect name="melee_default" delay="0.05">
+		<Audio trigger="Play_p_pro_impact_melee_hit_mat_default">
+		</Audio>
+		<Particle>
+			<Name>melee.hit_default.hit</Name>
+		</Particle>
+	</Effect>
+	<!-- END   Melee impacts (melee)   END -->
+	 
+</FXLib>
+
+
+
+

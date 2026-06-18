@@ -1,0 +1,81 @@
+{
+	"BaseSegment": {
+		"name": "reacts to player leaves hut",
+		"SegmentConditions": { "Conditions": [ ], "Negated": false },
+		"Actions": [ ],
+		"ChildSegments": [
+			{
+				"name": "(AUTO) DO Speak Line: 'li_npc_generator_01_0004_reminder_outside' IF EqualCheck: Is 'Local(Heinz)::IsTalking' EQUAL to 'FALSE' [+2 conditions]",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "Local",
+								"variable": "IsTalking",
+								"compareValue": { "value": false, "Type": "boolean" }} },
+							"Negated": false
+						},
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "Local",
+								"variable": "LastSpokenLine",
+								"compareValue": {
+									"value": "li_npc_generator_01_0004_reminder_outside",
+									"Type": "string"
+								}} },
+							"Negated": true
+						},
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "LEVEL_audio_demo",
+								"variable": "UsedTheGenerator",
+								"compareValue": { "value": "Undefined", "Type": "undefined" }} },
+							"Negated": false
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": {
+							"lineToSpeak": "li_npc_generator_01_0004_reminder_outside",
+							"speakerOverride": ""} },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			},
+			{
+				"name": "(AUTO) DO Do Nothing: 0.330000s IF GameTokenCheck: Token: 'Level.generator.needsRepair' EQUALS 'FALSE'",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "GameToken": {
+								"Token": "Level.generator.needsRepair",
+								"MinVal": { "value": false, "Type": "boolean" },
+								"MaxVal": { "value": false, "Type": "boolean" }} },
+							"Negated": false
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [ { "Action": { "Wait": { "Time": 0.33 } }, "Delay": 0.0 } ],
+				"ChildSegments": [
+					{
+						"name": "(AUTO) DO Cancel Signal: sg_audio_demo_player_enters_hut', [no conditions]",
+						"SegmentConditions": { "Conditions": [ ], "Negated": false },
+						"Actions": [
+							{
+								"Action": { "CancelSignal": {
+									"signal": "sg_audio_demo_player_enters_hut",
+									"OnAllActors": false} },
+								"Delay": 0.0
+							}
+						],
+						"ChildSegments": [ ]
+					}
+				]
+			}
+		]
+	}
+}

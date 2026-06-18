@@ -1,0 +1,53 @@
+<FXLib>
+
+	<Effect name="body_shatter">
+		<Audio trigger="Play_p_brk_body_shatter">
+		</Audio>
+	</Effect>
+
+	<Effect name="glass_shatter">
+		<Audio trigger="Play_p_brk_glass_shatter">
+		</Audio>
+	</Effect>
+
+	<Effect name="tree_falling">
+		<Audio trigger="Play_p_brk_tree_falling">
+		</Audio>
+	</Effect>
+
+	<Effect name="vehicle_shatter">
+		<Audio trigger="Play_p_brk_metal_shatter">
+		</Audio>
+	</Effect>
+
+	<Effect name="vehicle_window">
+		<Audio trigger="Play_p_brk_vehicle_window">
+		</Audio>
+	</Effect>
+
+	<Effect name="wood_shatter">
+		<Audio trigger="Play_p_brk_wood_shatter">
+		</Audio>
+	</Effect>
+
+	<Effect name="metal_shatter">
+		<Audio trigger="Play_p_brk_metal_shatter">
+		</Audio>
+	</Effect>
+
+	<Effect name="stone_shatter">
+		<Audio trigger="Play_p_brk_stone_shatter">
+		</Audio>
+	</Effect>
+
+	<Effect name="ice_shatter">
+		<Audio trigger="Play_p_brk_ice_shatter">
+		</Audio>
+	</Effect>
+
+	<Effect name="flesh_shatter">
+		<Audio trigger="Play_p_brk_flesh_shatter">
+		</Audio>
+	</Effect>
+
+</FXLib>

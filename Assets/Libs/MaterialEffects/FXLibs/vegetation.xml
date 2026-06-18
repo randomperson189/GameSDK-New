@@ -1,0 +1,1030 @@
+<FXLib>
+
+	<!-- Dry leaves -->
+	<Effect name="big_leave_plant_med_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="big_leave_plant_med_flower_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="big_leave_plant_small_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="cabbage_pattern_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="cabbage_pattern_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="cabbage_pattern_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="cabbage_single_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="cabbage_single_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="cabbage_single_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="rl_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="rl_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="rl_big_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="rl_big_d">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="rl_big_e">
+			<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="rl_bush_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="rl_bush_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="tl_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="tl_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="tl_big_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="tl_bush_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="tl_bush_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="flower_fern_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="flower_fern_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="flower_fern_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="small_leaves_yellow_bunch_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="small_leaves_yellow_bunch_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="small_leaves_yellow_bunch_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="small_leaves_yellow_bunch_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="marshgrass_med_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="marshgrass_med_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves" />
+		</Audio>
+	</Effect>
+
+	<!-- Dry leaves big -->
+	<Effect name="beach_bush_big_expl_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="beach_bush_big_expl_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="beach_bush_big_expl_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="beach_bush_big_expl_d">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="beach_bush_big_expl_e">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="tl_big_d">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="tl_big_e">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="tomato_bush_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="tomato_bush_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="tomato_bush_small_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="palm_tree_short_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="palm_tree_short_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="palm_tree_short_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="marshgrass_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+	<Effect name="marshgrass_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="dry_leaves_big" />
+		</Audio>
+	</Effect>
+
+
+	<!-- Banana -->
+	<Effect name="green_fern_bush_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="green_fern_bush_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="green_fern_bush_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="green_fern_bush_d">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="ground_fern_bush_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="ground_fern_bush_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="ground_cover_fernbush_large_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="ground_cover_fernbush_large_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="ground_cover_fernbush_dry_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="ground_cover_fernbush_dry_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="ground_fern_bush_med_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="ground_fern_bush_small_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="beach_bush_small_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="beach_bush_small_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="beach_bush_small_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="beach_bush_small_d">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="beach_bush_small_e">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="beach_bush_small_f">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="junglebush_deko_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="junglebush_deko_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="junglebush_deko_fl_red_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="junglebush_deko_fl_red_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="junglebush_deko_fl_yellow_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="junglebush_deko_fl_yellow_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="junglebush_small_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="junglebush_small_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="junglebush_small_fl_white_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="junglebush_small_fl_white_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>
+	</Effect>
+	<Effect name="round_leaf_bush_med_bright_green">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="round_leaf_bush_med_grey_green">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="round_leaf_bush_med_yellow">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="round_leaf_bush_small_bright_green">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="round_leaf_bush_small_grey_green">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="round_leaf_bush_small_yellow">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="tall_fern_bush_med_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="tall_fern_bush_med_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="tall_fern_bush_pattern_med_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="tall_fern_bush_pattern_med_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="tall_fern_bush_dry_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="tall_fern_bush_dry_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="rice_1m">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="rice_3m">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="rice_med_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="rice_med_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="rice_med_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="rice_med_d">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="rice_med_e">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="bananatree_babay_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="bananatree_babay_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="bananatree_small_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="bananatree_small_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="banana_leaves" />
+		</Audio>	
+	</Effect>
+
+	
+	<!-- Palm -->
+	<Effect name="tall_bush_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="tall_bush_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="tall_bush_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="tall_bush_d">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="beach_bush_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="beach_bush_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="beach_bush_big_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="junglebush_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="junglebush_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="junglebush_big_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="junglebush_big_fl_pink_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="junglebush_big_fl_red_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="round_leaf_bush_big_bright_green">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="round_leaf_bush_big_grey_green">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="round_leaf_bush_big_yellow">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="tall_fern_bush_pattern_small_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="tall_fern_bush_pattern_small_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="tall_fern_bush_small_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="tall_fern_bush_small_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="tall_fern_bush_small_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="thin_leaves_bush_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="thin_leaves_bush_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="thin_leaves_bush_big_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="thin_leaves_bush_big_d">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="thin_leaves_bush_big_e">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="thin_leaves_bush_small_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="thin_leaves_bush_small_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="thin_leaves_bush_small_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="thin_leaves_bush_small_d">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="thin_leaves_bush_small_e">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="palmbush_small_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="palmbush_small_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="palmbush_med_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="palmbush_med_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="small_leaves_bunch_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="small_leaves_bunch_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="small_leaves_yellow_flat_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="small_leaves_yellow_flat_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="small_leaves_yellow_flat_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="cliff_bush_yellow_small">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="cliff_bush_yellow_mini">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="cliff_bush_yellow_big">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="cliff_bush_grey_small">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="cliff_bush_grey_mini">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="cliff_bush_grey_big">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="cliff_bush_green_small">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="cliff_bush_green_mini">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="cliff_bush_green_big">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="junglegrass_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="junglegrass_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="junglegrass_med_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="junglegrass_med_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="junglegrass_small_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="junglegrass_small_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="palm_tree_large_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="palm_tree_large_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="palm_tree_massiv_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="palm_tree_massiv_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="grpl_fern_flat_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="grpl_fern_flat_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="grpl_fern_flat_big_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="grpl_fern_flat_med_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>		
+	</Effect>
+	<Effect name="grpl_fern_flat_med_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="grpl_fern_flat_med_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="grpl_fern_flat_med_d">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="grpl_fern_flat_small_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="grpl_fern_flat_small_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="grpl_fern_flat_small_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+	<Effect name="grpl_fern_flat_small_d">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="palm_leaves" />
+		</Audio>	
+	</Effect>
+
+
+	<!-- Tree -->
+	<Effect name="tall_fern_bush_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="tall_fern_bush_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>		
+	</Effect>
+	<Effect name="tall_fern_bush_big_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="tall_fern_bush_pattern_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="tall_fern_bush_pattern_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="round_leaf_bush_tree">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="palmbush_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="palmbush_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_big_30_e">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_big_30_n">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_big_30_s">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_big_30_w">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_big_70_e">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_big_70_n">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_big_70_s">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_big_70_w">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_big_70_w_roots_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>		
+	</Effect>
+	<Effect name="small_leaves_big_70_w_roots_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_bunch_big_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_bunch_big_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_bunch_big_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_flat_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_flat_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="small_leaves_flat_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="river_tree_a_broken">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="river_tree_b_broken">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="river_tree_c_broken">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="thin_leave_tree_big_grey_green_120_deg">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="thin_leave_tree_big_grey_green_240_deg">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="thin_leave_tree_big_grey_green_360_deg">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="jungle_tree_large_big_bright_green_fallen_a">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="jungle_tree_large_big_bright_green_fallen_b">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+	<Effect name="jungle_tree_large_big_bright_green_fallen_c">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>		
+	</Effect>
+	<Effect name="jungle_tree_large_big_bright_green_fallen_d">
+		<Audio trigger="Play_p_col_veg_mfx">
+			<Switch name="vegetation_type" state="leaves_long" />
+		</Audio>	
+	</Effect>
+
+
+	<Effect name="tree_impact">
+		<Audio trigger="Play_p_col_mat_wood_hollow_on_ground">
+		</Audio>	
+	</Effect>
+
+	<Effect name="tree_falling">
+		<Audio trigger="Play_p_brk_tree_falling">
+		</Audio>
+	</Effect>
+
+	<Effect name="tree_break">
+		<Audio trigger="Play_p_brk_wood_shatter">
+		</Audio>
+		<Particle>
+			<Name>breakable_objects.tree_break.small</Name>
+		</Particle>
+	</Effect>
+
+</FXLib>

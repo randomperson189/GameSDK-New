@@ -1,0 +1,274 @@
+{
+	"BaseSegment": {
+		"name": "comment on rpm",
+		"SegmentConditions": {
+			"Conditions": [
+				{
+					"Condition": { "Variable equal to ": {
+						"collection": "Local",
+						"variable": "IsTalking",
+						"compareValue": { "value": false, "Type": "boolean" }} },
+					"Negated": false
+				},
+				{
+					"Condition": { "GameToken": {
+						"Token": "Level.generator.explode",
+						"MinVal": { "value": "false", "Type": "string" },
+						"MaxVal": { "value": "false", "Type": "string" }} },
+					"Negated": false
+				},
+				{
+					"Condition": { "TimeSince": {
+						"collection": "LEVEL_audio_demo",
+						"variable": "TimeOfLastRpmComment",
+						"compareValue": 1.0} },
+					"Negated": false
+				}
+			],
+			"Negated": false
+		},
+		"Actions": [
+			{
+				"Action": { "ResetTimerVariable": {
+					"collection": "LEVEL_audio_demo",
+					"variable": "TimeOfLastRpmComment"} },
+				"Delay": 0.0
+			},
+			{
+				"Action": { "ChangeVariable": {
+					"collection": "LEVEL_audio_demo",
+					"variable": "UsedTheGenerator",
+					"Operation": "Set",
+					"Value": { "value": true, "Type": "boolean" },
+					"Cooldown": 0.0} },
+				"Delay": 0.0
+			}
+		],
+		"ChildSegments": [
+			{
+				"name": "Very High",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "Variable in range ": {
+								"collection": "Context",
+								"variable": "NewRpm",
+								"compareValue": { "value": 3300, "Type": "int" },
+								"compareValue2": { "value": 9999, "Type": "int" }} },
+							"Negated": false
+						},
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "Local",
+								"variable": "LastSpokenLine",
+								"compareValue": {
+									"value": "li_npc_generator_01_0020_rpm_very_high",
+									"Type": "string"
+								}} },
+							"Negated": true
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": {
+							"lineToSpeak": "li_npc_generator_01_0020_rpm_very_high",
+							"speakerOverride": ""} },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			},
+			{
+				"name": "High",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "Variable in range ": {
+								"collection": "Context",
+								"variable": "NewRpm",
+								"compareValue": { "value": 2500, "Type": "int" },
+								"compareValue2": { "value": 3200, "Type": "int" }} },
+							"Negated": false
+						},
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "Local",
+								"variable": "LastSpokenLine",
+								"compareValue": {
+									"value": "li_npc_generator_01_0019_rpm_high",
+									"Type": "string"
+								}} },
+							"Negated": true
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": {
+							"lineToSpeak": "li_npc_generator_01_0019_rpm_high",
+							"speakerOverride": ""} },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			},
+			{
+				"name": "Medium",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "Variable in range ": {
+								"collection": "Context",
+								"variable": "NewRpm",
+								"compareValue": { "value": 1800, "Type": "int" },
+								"compareValue2": { "value": 2400, "Type": "int" }} },
+							"Negated": false
+						},
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "Local",
+								"variable": "LastSpokenLine",
+								"compareValue": {
+									"value": "li_npc_generator_01_0015_rpm_medium",
+									"Type": "string"
+								}} },
+							"Negated": true
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": {
+							"lineToSpeak": "li_npc_generator_01_0015_rpm_medium",
+							"speakerOverride": ""} },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			},
+			{
+				"name": "Low",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "Variable in range ": {
+								"collection": "Context",
+								"variable": "NewRpm",
+								"compareValue": { "value": 150, "Type": "int" },
+								"compareValue2": { "value": 1700, "Type": "int" }} },
+							"Negated": false
+						},
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "Local",
+								"variable": "LastSpokenLine",
+								"compareValue": {
+									"value": "li_npc_generator_01_0014_rpm_low",
+									"Type": "string"
+								}} },
+							"Negated": true
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": {
+							"lineToSpeak": "li_npc_generator_01_0014_rpm_low",
+							"speakerOverride": ""} },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			},
+			{
+				"name": "Just started",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "Context",
+								"variable": "NewRpm",
+								"compareValue": { "value": 50, "Type": "int" }} },
+							"Negated": false
+						},
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "Local",
+								"variable": "LastSpokenLine",
+								"compareValue": {
+									"value": "li_npc_generator_01_0009_needs_more_juice",
+									"Type": "string"
+								}} },
+							"Negated": true
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [ { "Action": { "Wait": { "Time": 1.0 } }, "Delay": 0.0 } ],
+				"ChildSegments": [
+					{
+						"name": "(AUTO) DO Speak Line: 'li_npc_generator_01_0009_needs_more_juice' IF GameTokenCheck: Token: 'Level.generator.rpm' is BETWEEN '1' AND '99'",
+						"SegmentConditions": {
+							"Conditions": [
+								{
+									"Condition": { "GameToken": {
+										"Token": "Level.generator.rpm",
+										"MinVal": { "value": 1, "Type": "int" },
+										"MaxVal": { "value": 99, "Type": "int" }} },
+									"Negated": false
+								}
+							],
+							"Negated": false
+						},
+						"Actions": [
+							{
+								"Action": { "SpeakLine": {
+									"lineToSpeak": "li_npc_generator_01_0009_needs_more_juice",
+									"speakerOverride": ""} },
+								"Delay": 0.0
+							}
+						],
+						"ChildSegments": [
+							{
+								"name": "(AUTO) DO Do Nothing: 1.500000s, [no conditions]",
+								"SegmentConditions": { "Conditions": [ ], "Negated": false },
+								"Actions": [ { "Action": { "Wait": { "Time": 1.5 } }, "Delay": 0.0 } ],
+								"ChildSegments": [
+									{
+										"name": "(AUTO) DO Speak Line: 'li_npc_generator_01_0010_make_it_run_faster' IF GameTokenCheck: Token: 'Level.generator.rpm' is BETWEEN '1' AND '100'",
+										"SegmentConditions": {
+											"Conditions": [
+												{
+													"Condition": { "GameToken": {
+														"Token": "Level.generator.rpm",
+														"MinVal": { "value": 1, "Type": "int" },
+														"MaxVal": { "value": 100, "Type": "int" }} },
+													"Negated": false
+												}
+											],
+											"Negated": false
+										},
+										"Actions": [
+											{
+												"Action": { "SpeakLine": {
+													"lineToSpeak": "li_npc_generator_01_0010_make_it_run_faster",
+													"speakerOverride": ""} },
+												"Delay": 0.0
+											}
+										],
+										"ChildSegments": [ ]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

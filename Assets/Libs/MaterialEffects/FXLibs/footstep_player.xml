@@ -1,0 +1,114 @@
+<FXLib>
+
+	<Effect name="concrete">
+		<Audio trigger="Play_c_player_fts_concrete">
+		</Audio>
+	</Effect>
+	
+	<Effect name="default">
+		<Audio trigger="Play_c_player_fts_concrete">
+		</Audio>
+	</Effect>
+
+	<Effect name="dirt">
+		<Audio trigger="Play_c_player_fts_dirt">
+		</Audio>
+		<Particle>
+			<Name minscale="0.9" maxscale="0.9" maxscaledist="100">collisions.footsteps.dirt</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale="0.15" maxscale="0.15" lifetime="20">
+				<Material>Materials/decals/footsteps/footstep_dirt</Material>
+			</Decal>
+		</RandEffect>
+	</Effect>
+	
+	<Effect name="fabric">
+		<Audio trigger="Play_c_player_fts_fabric">
+		</Audio>
+	</Effect>
+
+	<Effect name="grass">
+		<Audio trigger="Play_c_player_fts_grass">
+		</Audio>
+	</Effect>
+
+	<Effect name="grass_tall">
+		<Audio trigger="Play_c_player_fts_grass_tall">
+		</Audio>
+	</Effect>
+
+	<Effect name="gravel">
+		<Audio trigger="Play_c_player_fts_gravel">
+		</Audio>
+	</Effect>
+
+	<Effect name="metal_chainlink">
+		<Audio trigger="Play_c_player_fts_metal_chainlink">
+		</Audio>
+	</Effect>
+
+	<Effect name="metal_grate">
+		<Audio trigger="Play_c_player_fts_metal_grate">
+		</Audio>
+	</Effect>
+
+	<Effect name="metal_thick">
+		<Audio trigger="Play_c_player_fts_metal_thick">
+		</Audio>
+	</Effect>
+	
+	<Effect name="metal_thin">
+		<Audio trigger="Play_c_player_fts_metal_thick">
+		</Audio>
+	</Effect>
+
+	<Effect name="mud">
+		<Audio trigger="Play_c_player_fts_mud">
+		</Audio>
+	</Effect>
+	
+	<Effect name="pebble">
+		<Audio trigger="Play_c_player_fts_pebble">
+		</Audio>
+	</Effect>
+
+	<Effect name="plastic">
+		<Audio trigger="Play_c_player_fts_plastic">
+		</Audio>
+	</Effect>
+
+	<Effect name="vegetation">
+		<Audio trigger="Play_c_player_fts_vegetation">
+		</Audio>
+	</Effect>
+
+	<Effect name="wood_hollow">
+		<Audio trigger="Play_c_player_fts_wood_hollow">
+		</Audio>
+	</Effect>
+	
+	<Effect name="wood_solid">
+		<Audio trigger="Play_c_player_fts_wood_solid">
+		</Audio>
+	</Effect>
+
+	<!--water_shallow & water_deep required by game code-->
+	<Effect name="water_shallow">
+		<Audio trigger="Play_c_player_fts_water_shallow">
+		</Audio>
+		<Particle>
+			<Name minscale="0.2" maxscale="0.2" maxscaledist="1">collisions.footsteps.water</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="water_deep">
+		<Audio trigger="Play_c_player_fts_water_deep">`
+		</Audio>
+		<Particle>
+			<Name minscale="0.5" maxscale="0.5" maxscaledist="1">collisions.footsteps.water</Name>
+		</Particle>
+	</Effect>
+	<!--End-->
+
+</FXLib>

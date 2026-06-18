@@ -1,0 +1,51 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="28" Class="Time:Delay" pos="380,560,0" flags="0">
+   <Inputs delay="4" resetOnInput="0"/>
+  </Node>
+  <Node Id="81" Class="Logic:RandomSelect" pos="80,800,0" flags="0" InHideMask="7" OutHideMask="1023">
+   <Inputs outMin="1" outMax="1"/>
+  </Node>
+  <Node Id="82" Class="Time:Delay" pos="380,800,0" flags="0">
+   <Inputs delay="4" resetOnInput="0"/>
+  </Node>
+  <Node Id="84" Class="Time:Delay" pos="380,1040,0" flags="0">
+   <Inputs delay="4" resetOnInput="0"/>
+  </Node>
+  <Node Id="187" Class="MaterialFX:HUDStartFX" pos="-180,800,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="188" Class="MaterialFX:HUDEndFX" pos="1400,800,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="189" Class="Logic:Any" pos="1240,800,0" flags="0" InHideMask="1023" OutHideMask="1">
+   <Inputs />
+  </Node>
+  <Node Id="190" Class="Image:ScreenFader" pos="640,1040,0" flags="0">
+   <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="2" FadeOutTime="2" color_FadeColor="1,1,1" tex_TextureName="textures/sprites/hud/dirt3_bullet.tif" UpdateAlways="0"/>
+  </Node>
+  <Node Id="191" Class="Image:ScreenFader" pos="640,800,0" flags="0">
+   <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="2" FadeOutTime="2" color_FadeColor="1,1,1" tex_TextureName="textures/sprites/hud/dirt2_bullet.tif" UpdateAlways="0"/>
+  </Node>
+  <Node Id="192" Class="Image:ScreenFader" pos="640,560,0" flags="0">
+   <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="2" FadeOutTime="2" color_FadeColor="1,1,1" tex_TextureName="textures/sprites/hud/dirt1_bullet.tif" UpdateAlways="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="192" nodeOut="28" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="28" nodeOut="81" portIn="in" portOut="Out1" enabled="1"/>
+  <Edge nodeIn="82" nodeOut="81" portIn="in" portOut="Out2" enabled="1"/>
+  <Edge nodeIn="84" nodeOut="81" portIn="in" portOut="Out3" enabled="1"/>
+  <Edge nodeIn="190" nodeOut="81" portIn="FadeOut" portOut="Out3" enabled="1"/>
+  <Edge nodeIn="191" nodeOut="81" portIn="FadeOut" portOut="Out2" enabled="1"/>
+  <Edge nodeIn="192" nodeOut="81" portIn="FadeOut" portOut="Out1" enabled="1"/>
+  <Edge nodeIn="191" nodeOut="82" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="190" nodeOut="84" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="81" nodeOut="187" portIn="In" portOut="Started" enabled="1"/>
+  <Edge nodeIn="188" nodeOut="189" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="189" nodeOut="190" portIn="in3" portOut="FadedIn" enabled="1"/>
+  <Edge nodeIn="189" nodeOut="191" portIn="in2" portOut="FadedIn" enabled="1"/>
+  <Edge nodeIn="189" nodeOut="192" portIn="in1" portOut="FadedIn" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>

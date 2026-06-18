@@ -1,0 +1,15 @@
+{
+	"BaseSegment": {
+		"name": "(AUTO) DO Speak Line: 'li_npc_generator_01_0021_explodes', [no conditions]",
+		"SegmentConditions": { "Conditions": [ ], "Negated": false },
+		"Actions": [
+			{
+				"Action": { "SpeakLine": {
+					"lineToSpeak": "li_npc_generator_01_0021_explodes",
+					"speakerOverride": ""} },
+				"Delay": 3.0
+			}
+		],
+		"ChildSegments": [ ]
+	}
+}

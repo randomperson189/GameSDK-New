@@ -1,0 +1,134 @@
+{
+	"BaseSegment": {
+		"name": "comment on reduced rpm",
+		"SegmentConditions": {
+			"Conditions": [
+				{
+					"Condition": { "GameToken": {
+						"Token": "Level.generator.explode",
+						"MinVal": { "value": "false", "Type": "string" },
+						"MaxVal": { "value": "false", "Type": "string" }} },
+					"Negated": false
+				},
+				{
+					"Condition": { "TimeSince": {
+						"collection": "LEVEL_audio_demo",
+						"variable": "TimeOfLastRpmComment",
+						"compareValue": 1.0} },
+					"Negated": false
+				}
+			],
+			"Negated": false
+		},
+		"Actions": [
+			{
+				"Action": { "ResetTimerVariable": {
+					"collection": "LEVEL_audio_demo",
+					"variable": "TimeOfLastRpmComment"} },
+				"Delay": 0.0
+			},
+			{
+				"Action": { "ChangeVariable": {
+					"collection": "LEVEL_audio_demo",
+					"variable": "UsedTheGenerator",
+					"Operation": "Set",
+					"Value": { "value": true, "Type": "boolean" },
+					"Cooldown": 0.0} },
+				"Delay": 0.0
+			}
+		],
+		"ChildSegments": [
+			{
+				"name": "decrease when in red area",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "Variable greater than ": {
+								"collection": "Context",
+								"variable": "NewRpm",
+								"compareValue": { "value": 2800, "Type": "int" }} },
+							"Negated": false
+						},
+						{
+							"Condition": { "Placeholder": {
+								"Label": "Comment: We dont want to comment on decreasing the pressure in this area."} },
+							"Negated": false
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [ ],
+				"ChildSegments": [ ]
+			},
+			{
+				"name": "decrease close to max",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "Variable in range ": {
+								"collection": "Context",
+								"variable": "NewRpm",
+								"compareValue": { "value": 2000, "Type": "int" },
+								"compareValue2": { "value": 2800, "Type": "int" }} },
+							"Negated": false
+						},
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "Local",
+								"variable": "LastSpokenLine",
+								"compareValue": {
+									"value": "li_dg_npc_generator_01_0016_you_were_so_close",
+									"Type": "string"
+								}} },
+							"Negated": true
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": {
+							"lineToSpeak": "li_dg_npc_generator_01_0016_you_were_so_close",
+							"speakerOverride": ""} },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			},
+			{
+				"name": "decrease in lower area",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "Local",
+								"variable": "LastSpokenLine",
+								"compareValue": {
+									"value": "li_npc_generator_01_0011_got_a_problem?",
+									"Type": "string"
+								}} },
+							"Negated": true
+						},
+						{
+							"Condition": { "Variable less than ": {
+								"collection": "Context",
+								"variable": "NewRpm",
+								"compareValue": { "value": 2000, "Type": "int" }} },
+							"Negated": false
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": {
+							"lineToSpeak": "li_npc_generator_01_0011_got_a_problem?",
+							"speakerOverride": ""} },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			}
+		]
+	}
+}

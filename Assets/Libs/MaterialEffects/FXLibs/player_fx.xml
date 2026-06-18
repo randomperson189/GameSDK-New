@@ -1,0 +1,35 @@
+<FXLib>
+
+	<Effect name="playerdeath_generic">
+		<FlowGraph name="generic_death_fx" maxdist="1"/>
+	</Effect>
+
+	<Effect name="playerdeath_headshot">
+		<FlowGraph name="headshot_death_fx" maxdist="1"/>
+	</Effect>
+
+	<Effect name="playerdeath_melee">
+		<FlowGraph name="melee_death_fx" maxdist="1"/>
+	</Effect>
+
+	<Effect name="playerdeath_freeze">
+		<FlowGraph name="freeze_death_fx" maxdist="1"/>
+	</Effect>
+
+	<Effect name="player_damage">
+		<FlowGraph name="player_damage" maxdist="1"/>
+	</Effect>
+
+	<Effect name="player_death">
+		<FlowGraph name="player_death" maxdist="1"/>
+	</Effect>
+
+	<Effect name="player_boundry_damage">
+		<FlowGraph name="player_boundry_damage" maxdist="1"/>
+	</Effect>
+
+	<Effect name="player_damage_armormode">
+		<FlowGraph name="player_damage_armormode" maxdist="1"/>
+	</Effect>
+
+</FXLib>

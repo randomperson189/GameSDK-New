@@ -1,0 +1,57 @@
+{
+	"BaseSegment": {
+		"name": "(AUTO) [no actions], [no conditions]",
+		"SegmentConditions": { "Conditions": [ ], "Negated": false },
+		"Actions": [ ],
+		"ChildSegments": [
+			{
+				"name": "player broke the generator",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "GameToken": {
+								"Token": "Level.generator.explode",
+								"MinVal": { "value": "true", "Type": "string" },
+								"MaxVal": { "value": "true", "Type": "string" }} },
+							"Negated": false
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": {
+							"lineToSpeak": "li_npc_generator_01_0023_thanks_for_nothing",
+							"speakerOverride": ""} },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			},
+			{
+				"name": "player leaves without starting the generator",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "GameToken": {
+								"Token": "Level.generator.needsRepair",
+								"MinVal": { "value": true, "Type": "boolean" },
+								"MaxVal": { "value": true, "Type": "boolean" }} },
+							"Negated": false
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": {
+							"lineToSpeak": "li_npc_generator_01_0005_forgot_something?",
+							"speakerOverride": ""} },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			}
+		]
+	}
+}

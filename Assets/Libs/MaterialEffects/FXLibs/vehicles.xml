@@ -1,0 +1,428 @@
+<FXLib>
+
+<!-- START   heavy   START -->
+	<Effect name="heavy_road">
+		<Particle>
+			<Name>vehicles.Common.Ground.Heavy.Road</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="slip">vehicles.Common.Ground.Slip_Road</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>concrete</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="heavy_mud">
+		<Particle>
+			<Name>vehicles.Common.Ground.Heavy.Mud</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="slip">vehicles.Common.Ground.Slip_Mud</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="heavy_soil">
+		<Particle>
+			<Name>vehicles.Common.Ground.Heavy.Soil</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="heavy_grass">
+		<Particle>
+			<Name>vehicles.Common.Ground.Heavy.Grass</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="heavy_rock">
+		<Particle>
+			<Name>vehicles.Common.Ground.Heavy.Rock</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>gravel</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="heavy_water">
+		<Particle>
+			<Name>vehicles.Common.Ground.Heavy.Water</Name>
+		</Particle>
+		<Sound>
+			<Name>water</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="heavy_sand">
+		<Particle>
+			<Name>vehicles.Common.Ground.Heavy.Sand</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="heavy_leaves">
+		<Particle>
+			<Name>vehicles.Common.Ground.Heavy.Leaves</Name>
+		</Particle>
+		<Sound>
+			<Name>vegetation</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="heavy_snow">
+		<Particle>
+			<Name>vehicles.Common.Ground.Heavy.Snow</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="heavy_metal">
+		<Particle>
+			<Name>vehicles.Common.Ground.Heavy.Road</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>metal</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="heavy_concrete">
+		<Particle>
+			<Name>vehicles.Common.Ground.Heavy.Rock</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="slip">vehicles.Common.Ground.Slip_Road</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>concrete</Name>
+		</Sound>
+	</Effect>
+	<!-- END   heavy   END -->
+
+
+	<!-- START   light   START -->
+	<Effect name="light_concrete">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.rock</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="slip">vehicles.Common.Ground.Slip_Road</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>concrete</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_default">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Default</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_flesh">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Flesh</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_grass">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Grass</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_ice">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Ice</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_leaves">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Leaves</Name>
+		</Particle>
+		<Sound>
+			<Name>vegetation</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_metal">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Metal</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>metal</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_mud">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Mud</Name>
+		</Particle>
+		<Particle>
+		<Name userdata="slip">vehicles.Common.Ground.Slip_Mud</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_rock">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Rock</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>gravel</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_rock_dusty">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Rock_Dusty</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>gravel</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_road">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Road</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="slip">vehicles.Common.Ground.Slip_Road</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>concrete</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_sand">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Sand</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_soil">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Soil</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_snow">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Snow</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_water">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Water</Name>
+		</Particle>
+		<Sound>
+			<Name>water</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="light_wood">
+		<Particle>
+			<Name>vehicles.Common.Ground.Light.Wood</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>gravel</Name>
+		</Sound>
+	</Effect>
+	<!-- END   light   END -->
+
+
+	<!-- START   helicopter   START -->
+	<Effect name="helicopter_road">
+		<Particle>
+			<Name>vehicles.Common.Air.Helicopter.Road</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="slip">vehicles.Common.Ground.Slip_Road</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>concrete</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="helicopter_mud">
+		<Particle>
+			<Name>vehicles.Common.Air.Helicopter.Mud</Name>
+		</Particle>
+		<Particle>
+		<Name userdata="slip">vehicles.Common.Ground.Slip_Mud</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="helicopter_soil">
+		<Particle>
+			<Name>vehicles.Common.Air.Helicopter.Soil</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="helicopter_grass">
+		<Particle>
+			<Name>vehicles.Common.Air.Helicopter.Grass</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="helicopter_rock">
+		<Particle>
+			<Name>vehicles.Common.Air.Helicopter.Rock</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>gravel</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="helicopter_water">
+		<Particle>
+			<Name>vehicles.Common.Air.Helicopter.Water</Name>
+		</Particle>
+		<Sound>
+			<Name>water</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="helicopter_sand">
+		<Particle>
+			<Name>vehicles.Common.Air.Helicopter.Sand</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="helicopter_leaves">
+		<Particle>
+			<Name>vehicles.Common.Air.Helicopter.Leaves</Name>
+		</Particle>
+		<Sound>
+			<Name>vegetation</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="helicopter_snow">
+		<Particle>
+			<Name>vehicles.Common.Air.Helicopter.Snow</Name>
+		</Particle>
+		<Sound>
+			<Name>soil</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="helicopter_metal">
+		<Particle>
+			<Name>vehicles.Common.Air.Helicopter.Road</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>metal</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="helicopter_concrete">
+		<Particle>
+			<Name>vehicles.Common.Air.Helicopter.rock</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="slip">vehicles.Common.Ground.Slip_Road</Name>
+		</Particle>
+		<Particle>
+			<Name userdata="rims">vehicles.Common.Ground.Rim_Sparks</Name>
+		</Particle>
+		<Sound>
+			<Name>concrete</Name>
+		</Sound>
+	</Effect>
+	<!-- END   helicopter   END -->
+
+	<Effect name="us_ltv_impact_rattle">
+		<Sound>
+			<Name>sounds/vehicles:hmmwv:bump_on_road</Name>
+		</Sound>
+	</Effect>
+
+</FXLib>

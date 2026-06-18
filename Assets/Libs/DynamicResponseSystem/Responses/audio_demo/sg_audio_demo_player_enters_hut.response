@@ -1,0 +1,273 @@
+{
+	"BaseSegment": {
+		"name": "comment on player enters hut",
+		"SegmentConditions": { "Conditions": [ ], "Negated": false },
+		"Actions": [
+			{
+				"Action": { "ChangeVariable": {
+					"collection": "LEVEL_audio_demo",
+					"variable": "PlayerWasInHutCounter",
+					"Operation": "Increment",
+					"Value": { "value": 1, "Type": "int" },
+					"Cooldown": 0.0} },
+				"Delay": 0.0
+			}
+		],
+		"ChildSegments": [
+			{
+				"name": "generator exploded",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "GameToken": {
+								"Token": "Level.generator.explode",
+								"MinVal": { "value": "true", "Type": "string" },
+								"MaxVal": { "value": "true", "Type": "string" }} },
+							"Negated": false
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": {
+							"lineToSpeak": "li_npc_generator_01_0022_you_broke_it",
+							"speakerOverride": ""} },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			},
+			{
+				"name": "generator not exploded",
+				"SegmentConditions": { "Conditions": [ ], "Negated": false },
+				"Actions": [ ],
+				"ChildSegments": [
+					{
+						"name": "asks the player to start the generator",
+						"SegmentConditions": {
+							"Conditions": [
+								{
+									"Condition": { "GameToken": {
+										"Token": "Level.generator.needsRepair",
+										"MinVal": { "value": false, "Type": "boolean" },
+										"MaxVal": { "value": false, "Type": "boolean" }} },
+									"Negated": false
+								},
+								{
+									"Condition": { "Variable equal to ": {
+										"collection": "LEVEL_audio_demo",
+										"variable": "PlayerWasInHutCounter",
+										"compareValue": { "value": 1, "Type": "int" }} },
+									"Negated": false
+								},
+								{
+									"Condition": { "Variable equal to ": {
+										"collection": "LEVEL_audio_demo",
+										"variable": "UsedTheGenerator",
+										"compareValue": { "value": false, "Type": "boolean" }} },
+									"Negated": false
+								}
+							],
+							"Negated": false
+						},
+						"Actions": [
+							{
+								"Action": { "SpeakLine": {
+									"lineToSpeak": "li_npc_generator_01_greetings",
+									"speakerOverride": ""} },
+								"Delay": 0.0
+							}
+						],
+						"ChildSegments": [
+							{
+								"name": "(AUTO) DO Speak Line: 'li_npc_generator_01_can_you_fix_it', [no conditions]",
+								"SegmentConditions": { "Conditions": [ ], "Negated": false },
+								"Actions": [
+									{
+										"Action": { "SpeakLine": {
+											"lineToSpeak": "li_npc_generator_01_can_you_fix_it",
+											"speakerOverride": ""} },
+										"Delay": 0.0
+									}
+								],
+								"ChildSegments": [
+									{
+										"name": "(AUTO) DO Set GameToken Value: Token: 'Level.generator.needsRepair' to value 'true', [no conditions]",
+										"SegmentConditions": { "Conditions": [ ], "Negated": false },
+										"Actions": [
+											{
+												"Action": { "SetGameToken": {
+													"tokenname": "Level.generator.needsRepair",
+													"stringValue": "true",
+													"create": false} },
+												"Delay": 0.0
+											}
+										],
+										"ChildSegments": [ ]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "asks the player to start the generator (after he was interrupted the last time)",
+						"SegmentConditions": {
+							"Conditions": [
+								{
+									"Condition": { "GameToken": {
+										"Token": "Level.generator.needsRepair",
+										"MinVal": { "value": false, "Type": "boolean" },
+										"MaxVal": { "value": false, "Type": "boolean" }} },
+									"Negated": false
+								},
+								{
+									"Condition": { "Variable greater than ": {
+										"collection": "LEVEL_audio_demo",
+										"variable": "PlayerWasInHutCounter",
+										"compareValue": { "value": 1, "Type": "int" }} },
+									"Negated": false
+								},
+								{
+									"Condition": { "Variable equal to ": {
+										"collection": "LEVEL_audio_demo",
+										"variable": "UsedTheGenerator",
+										"compareValue": { "value": false, "Type": "boolean" }} },
+									"Negated": false
+								}
+							],
+							"Negated": false
+						},
+						"Actions": [
+							{
+								"Action": { "SpeakLine": {
+									"lineToSpeak": "li_npc_generator_01_0006_you_are_back",
+									"speakerOverride": ""} },
+								"Delay": 0.0
+							}
+						],
+						"ChildSegments": [
+							{
+								"name": "(AUTO) DO Speak Line: 'li_npc_generator_01_can_you_fix_it', [no conditions]",
+								"SegmentConditions": { "Conditions": [ ], "Negated": false },
+								"Actions": [
+									{
+										"Action": { "SpeakLine": {
+											"lineToSpeak": "li_npc_generator_01_can_you_fix_it",
+											"speakerOverride": ""} },
+										"Delay": 0.0
+									}
+								],
+								"ChildSegments": [
+									{
+										"name": "(AUTO) DO Set GameToken Value: Token: 'Level.generator.needsRepair' to value 'true', [no conditions]",
+										"SegmentConditions": { "Conditions": [ ], "Negated": false },
+										"Actions": [
+											{
+												"Action": { "SetGameToken": {
+													"tokenname": "Level.generator.needsRepair",
+													"stringValue": "true",
+													"create": false} },
+												"Delay": 0.0
+											}
+										],
+										"ChildSegments": [ ]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "asks the player to turn it on again",
+						"SegmentConditions": {
+							"Conditions": [
+								{
+									"Condition": { "Variable equal to ": {
+										"collection": "LEVEL_audio_demo",
+										"variable": "UsedTheGenerator",
+										"compareValue": { "value": true, "Type": "boolean" }} },
+									"Negated": false
+								},
+								{
+									"Condition": { "GameToken": {
+										"Token": "Level.generator.rpm",
+										"MinVal": { "value": "NegInfinite", "Type": "negInfinite" },
+										"MaxVal": { "value": 0, "Type": "int" }} },
+									"Negated": false
+								}
+							],
+							"Negated": false
+						},
+						"Actions": [
+							{
+								"Action": { "SpeakLine": {
+									"lineToSpeak": "li_npc_generator_01_0012_get_it_running",
+									"speakerOverride": ""} },
+								"Delay": 0.0
+							}
+						],
+						"ChildSegments": [ ]
+					},
+					{
+						"name": "asks the player to increase the RPM",
+						"SegmentConditions": {
+							"Conditions": [
+								{
+									"Condition": { "GameToken": {
+										"Token": "Level.generator.rpm",
+										"MinVal": { "value": 1, "Type": "int" },
+										"MaxVal": { "value": 9999, "Type": "int" }} },
+									"Negated": false
+								},
+								{
+									"Condition": { "Variable equal to ": {
+										"collection": "Local",
+										"variable": "LastSpokenLine",
+										"compareValue": {
+											"value": "li_npc_generator_01_0009_needs_more_juice",
+											"Type": "string"
+										}} },
+									"Negated": true
+								}
+							],
+							"Negated": false
+						},
+						"Actions": [
+							{
+								"Action": { "SpeakLine": {
+									"lineToSpeak": "li_npc_generator_01_0009_needs_more_juice",
+									"speakerOverride": ""} },
+								"Delay": 0.0
+							}
+						],
+						"ChildSegments": [ ]
+					},
+					{
+						"name": "reminds the player to start the generator",
+						"SegmentConditions": {
+							"Conditions": [
+								{
+									"Condition": { "GameToken": {
+										"Token": "Level.generator.needsRepair",
+										"MinVal": { "value": true, "Type": "boolean" },
+										"MaxVal": { "value": true, "Type": "boolean" }} },
+									"Negated": false
+								}
+							],
+							"Negated": false
+						},
+						"Actions": [
+							{
+								"Action": { "SpeakLine": {
+									"lineToSpeak": "li_npc_generator_01_0003_reminder_inside",
+									"speakerOverride": ""} },
+								"Delay": 0.0
+							}
+						],
+						"ChildSegments": [ ]
+					}
+				]
+			}
+		]
+	}
+}

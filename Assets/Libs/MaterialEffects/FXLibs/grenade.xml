@@ -1,0 +1,65 @@
+<FXLib>
+
+	<!-- START   Grenade explosions(grenade)   START -->
+	<Effect name="explosion_default" delay="0.05">
+		<Audio trigger="Play_p_pfx_expl_grenade">
+		</Audio>
+		<Particle>
+			<Name minscale="0.95" maxscale="1.3" maxscaledist="80">weapon_fx.grenade.explosion_default</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale="1.2" maxscale="1.6" lifetime="5.0">
+				<Material>materials/decals/default_blast</Material>
+			</Decal>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="explosion_water" delay="0.05">
+		<Audio trigger="Play_p_pfx_expl_grenade_water">
+		</Audio>
+		<Particle>
+			<Name minscale="0.75" maxscale="1.3" maxscaledist="80">weapon_fx.grenade.explosion_water</Name>
+		</Particle>
+	</Effect>
+	<!-- END   Grenade explosions(grenade)   END -->
+	
+	<!-- START   Grenade impacts(grenade)   START -->
+	<Effect name="grenade_default">
+		<Audio trigger="Play_p_col_obj_grenade_hit_mat_default">
+		</Audio>
+	</Effect>
+	
+	<Effect name="grenade_soil">
+		<Audio trigger="Play_p_col_obj_grenade_hit_mat_soil">
+		</Audio>
+	</Effect>
+	
+	<Effect name="grenade_grass">
+		<Audio trigger="Play_p_col_obj_grenade_hit_mat_grass">
+		</Audio>
+	</Effect>
+	
+	<Effect name="grenade_wood">
+		<Audio trigger="Play_p_col_obj_grenade_hit_mat_wood">
+		</Audio>
+	</Effect>
+	
+	<Effect name="grenade_rock">
+		<Audio trigger="Play_p_col_obj_grenade_hit_mat_rock">
+		</Audio>
+	</Effect>
+	
+	<Effect name="grenade_water">
+		<Audio trigger="Play_p_col_obj_grenade_hit_mat_water">
+		</Audio>
+		<Particle>
+			<Name>collisions.small.water</Name>
+		</Particle>
+	</Effect>
+<!-- END   Grenade impacts(grenade)   END -->
+	 
+</FXLib>
+
+
+
+

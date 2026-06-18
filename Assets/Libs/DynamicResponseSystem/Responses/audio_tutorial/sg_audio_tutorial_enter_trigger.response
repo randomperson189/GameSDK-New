@@ -1,0 +1,107 @@
+{
+	"BaseSegment": {
+		"name": "(AUTO) DO Change Variable: Increment ''LEVEL_audio_tutorial::PlayerEntersTriggerCounter'' by '1' (type:Integer), [no conditions]",
+		"SegmentConditions": { "Conditions": [ ], "Negated": false },
+		"Actions": [
+			{
+				"Action": { "ChangeVariable": {
+					"collection": "LEVEL_audio_tutorial",
+					"variable": "PlayerEntersTriggerCounter",
+					"Operation": "Increment",
+					"Value": { "value": 1, "Type": "int" },
+					"Cooldown": 0.0} },
+				"Delay": 0.0
+			}
+		],
+		"ChildSegments": [
+			{
+				"name": "(AUTO) DO Speak Line: 'li_dg_tutorial_dia_01' IF EqualCheck: Is 'LEVEL_audio_tutorial::PlayerEntersTriggerCounter' EQUAL to '1'",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "LEVEL_audio_tutorial",
+								"variable": "PlayerEntersTriggerCounter",
+								"compareValue": { "value": 1, "Type": "int" }} },
+							"Negated": false
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": { "lineToSpeak": "li_dg_tutorial_dia_01", "speakerOverride": "" } },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			},
+			{
+				"name": "(AUTO) DO Speak Line: 'li_dg_tutorial_dia_02' IF EqualCheck: Is 'LEVEL_audio_tutorial::PlayerEntersTriggerCounter' EQUAL to '2'",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "LEVEL_audio_tutorial",
+								"variable": "PlayerEntersTriggerCounter",
+								"compareValue": { "value": 2, "Type": "int" }} },
+							"Negated": false
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": { "lineToSpeak": "li_dg_tutorial_dia_02", "speakerOverride": "" } },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			},
+			{
+				"name": "(AUTO) DO Speak Line: 'li_dg_tutorial_dia_03' IF EqualCheck: Is 'LEVEL_audio_tutorial::PlayerEntersTriggerCounter' EQUAL to '3'",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "LEVEL_audio_tutorial",
+								"variable": "PlayerEntersTriggerCounter",
+								"compareValue": { "value": 3, "Type": "int" }} },
+							"Negated": false
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": { "lineToSpeak": "li_dg_tutorial_dia_03", "speakerOverride": "" } },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			},
+			{
+				"name": "(AUTO) DO Speak Line: 'li_dg_tutorial_dia_04' IF EqualCheck: Is 'LEVEL_audio_tutorial::PlayerEntersTriggerCounter' EQUAL to '4'",
+				"SegmentConditions": {
+					"Conditions": [
+						{
+							"Condition": { "Variable equal to ": {
+								"collection": "LEVEL_audio_tutorial",
+								"variable": "PlayerEntersTriggerCounter",
+								"compareValue": { "value": 4, "Type": "int" }} },
+							"Negated": false
+						}
+					],
+					"Negated": false
+				},
+				"Actions": [
+					{
+						"Action": { "SpeakLine": { "lineToSpeak": "li_dg_tutorial_dia_04", "speakerOverride": "" } },
+						"Delay": 0.0
+					}
+				],
+				"ChildSegments": [ ]
+			}
+		]
+	}
+}

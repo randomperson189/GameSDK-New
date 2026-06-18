@@ -1,0 +1,402 @@
+{
+	"lineSets": [
+		{
+			"lineID": "li_npc_generator_01_greetings",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 1,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0001",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "relaxed_tac_salute_nw_3p_01",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_can_you_fix_it",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 2,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0002",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0003_reminder_inside",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 3,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0003",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0004_reminder_outside",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 4,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0004",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "default",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0022_you_broke_it",
+			"priority": 55,
+			"lastPicked": 0,
+			"flags": 2,
+			"lineVariations": [
+				{
+					"subtitleID": 5,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0022",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "default",
+					"pauseLength": -1.0,
+					"customData": ""
+				},
+				{
+					"subtitleID": 6,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0024",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0009_needs_more_juice",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 7,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0009",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0014_rpm_low",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 8,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0014",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0015_rpm_medium",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 9,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0015",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0019_rpm_high",
+			"priority": 55,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 4,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0004",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0020_rpm_very_high",
+			"priority": 60,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 11,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0020",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0021_explodes",
+			"priority": 70,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 12,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0021",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0023_thanks_for_nothing",
+			"priority": 60,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 13,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0023",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0005_forgot_something?",
+			"priority": 60,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 14,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0005",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "default",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0006_you_are_back",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 15,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0006",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0010_make_it_run_faster",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 16,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0010",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0012_get_it_running",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 2,
+			"lineVariations": [
+				{
+					"subtitleID": 17,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0012",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				},
+				{
+					"subtitleID": 14,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0008",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				},
+				{
+					"subtitleID": 15,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0018",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_npc_generator_01_0011_got_a_problem?",
+			"priority": 55,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 20,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0011",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_dg_npc_generator_01_0017_right_on",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 22,
+					"audioStartTrigger": "Play_dg_npc_generator_01_0017",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_dg_tutorial_dia_01",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 23,
+					"audioStartTrigger": "Play_l_audio_tutorial_dia_01",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_dg_tutorial_dia_02",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 24,
+					"audioStartTrigger": "Play_l_audio_tutorial_dia_02",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_dg_tutorial_dia_03",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 25,
+					"audioStartTrigger": "Play_l_audio_tutorial_dia_03",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		},
+		{
+			"lineID": "li_dg_tutorial_dia_04",
+			"priority": 50,
+			"lastPicked": 0,
+			"flags": 1,
+			"lineVariations": [
+				{
+					"subtitleID": 26,
+					"audioStartTrigger": "Play_l_audio_tutorial_dia_04",
+					"audioStopTrigger": "",
+					"lipsyncAnim": "",
+					"pauseLength": -1.0,
+					"customData": ""
+				}
+			],
+			"maxQueuingDuration": -1.0
+		}
+	]
+}
