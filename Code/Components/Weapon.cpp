@@ -128,11 +128,34 @@ void CWeaponComponent::Initialize()
 
 Cry::Entity::EventFlags CWeaponComponent::GetEventMask() const 
 {
-	return Cry::Entity::EEvent::Reset;
+	return
+		Cry::Entity::EEvent::TimerExpired |
+		Cry::Entity::EEvent::Reset;
 }
 
 void CWeaponComponent::ProcessEvent(const SEntityEvent& event) 
 {
+	switch (event.event)
+	{
+	case Cry::Entity::EEvent::TimerExpired:
+	{
+		switch (event.nParam[0])
+		{
+		case 1:
+		{
+			if (IEntity* pOwner = gEnv->pEntitySystem->GetEntity(m_pOwner))
+			{
+				if (auto* pPlayerComponent = pOwner->GetComponent<CPlayerComponent>())
+				{
+					SetShadowsOnly(!pPlayerComponent->m_bIsThirdPersonCamera);
+				}
+			}
+		}
+		break;
+		}
+	}
+	break;
+	}
 }
 
 void CWeaponComponent::QueueFragmentOnScopes(Schematyc::CSharedString fragment, bool trumpPreviousFragment)
@@ -195,34 +218,25 @@ void CWeaponComponent::AttachToHand()
 				}
 			}
 
-			if (auto* meshcomp = m_pEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>())
-			{
-				/*if (gEnv->pEntitySystem->GetEntity(EntityId(GetOwner()))->GetComponent<CPlayerComponent>()->IsLocalClient())
-				{
-					meshcomp->SetMeshType(Cry::DefaultComponents::EMeshType::None);
-				}*/
+			// Set the 3P weapon mesh to shadows only based on player thirdperson camera parameter
+			// Have to use delay here to fix it not working properly upon respawn
+			SetTimer(1, 1);
 
-				if (!pPlayerComponent->m_bIsThirdPersonCamera)
-				{
-					SetShadowsOnly(true);
-				}
-			}
-
-			if (auto* animcomp = m_pEntity->GetComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>())
+			if (m_pAnimationComponent)
 			{
 				// Detach weapon CDF from this entity because it's now attached to the player's firstperson arms
-				m_pEntity->SetCharacter(nullptr, animcomp->GetEntitySlotId(), false);
+				m_pEntity->SetCharacter(nullptr, m_pAnimationComponent->GetEntitySlotId(), false);
 
 				// Add the Audio context to the weapon
 				IMannequin &mannequinSys = gEnv->pGameFramework->GetMannequinInterface();
 				IAnimationDatabaseManager& animationDatabaseManager = mannequinSys.GetAnimationDatabaseManager();
 
-				const SControllerDef* pControllerDef = animationDatabaseManager.LoadControllerDef(animcomp->GetControllerDefinitionFile());
+				const SControllerDef* pControllerDef = animationDatabaseManager.LoadControllerDef(m_pAnimationComponent->GetControllerDefinitionFile());
 
 				const IAnimationDatabase* pSoundDatabase = animationDatabaseManager.Load("Animations/Mannequin/ADB/playerSounds.adb");
 				const TagID scopeContextSound = pControllerDef->m_scopeContexts.Find("Audio");
 
-				animcomp->GetActionController()->SetScopeContext(scopeContextSound, *GetEntity(), animcomp->GetCharacter(), pSoundDatabase);
+				m_pAnimationComponent->GetActionController()->SetScopeContext(scopeContextSound, *GetEntity(), m_pAnimationComponent->GetCharacter(), pSoundDatabase);
 			}
 		}
 	}
@@ -371,18 +385,18 @@ void CWeaponComponent::SetAnimationDatabase(Schematyc::MannequinAnimationDatabas
 
 void CWeaponComponent::SetShadowsOnly(bool shadowsOnly)
 {
-		if (IStatObj* statObj = m_pEntity->GetStatObj(m_pMeshComponent->GetEntitySlotId()))
+	if (IStatObj* statObj = m_pEntity->GetStatObj(m_pMeshComponent->GetEntitySlotId()))
+	{
+		if (IMaterial* material = statObj->GetMaterial())
 		{
-			if (IMaterial* material = statObj->GetMaterial())
-			{
-				int subMatCount = material->GetSubMtlCount();
+			int subMatCount = material->GetSubMtlCount();
 
-				for (int i = 0; i < subMatCount; i++)
-				{
-					SetMaterialOpacity(statObj, i, shadowsOnly ? 0.0f : 1.0f);
-				}
+			for (int i = 0; i < subMatCount; i++)
+			{
+				SetMaterialOpacity(statObj, i, shadowsOnly ? 0.0f : 1.0f);
 			}
 		}
+	}
 }
 
 void CWeaponComponent::SetMaterialOpacity(IStatObj* obj, int materialIndex, float opacity)

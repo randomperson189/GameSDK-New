@@ -1159,8 +1159,8 @@ void CPlayerComponent::SetCharacterThirdPerson(bool thirdperson)
 			{
 				/*pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
 				pAttachmentMgr->GetInterfaceByName("jacket")->HideAttachment(1);
-				pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(1);*/
-				pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(0);
+				pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(0);*/
 			}
 		}
 
