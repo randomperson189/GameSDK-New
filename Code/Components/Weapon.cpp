@@ -86,7 +86,14 @@ CWeaponComponent::CWeaponComponent()
 
 CWeaponComponent::~CWeaponComponent() 
 {
+	// Remove the Audio context to the weapon
+	/*IMannequin &mannequinSys = gEnv->pGameFramework->GetMannequinInterface();
+	IAnimationDatabaseManager& animationDatabaseManager = mannequinSys.GetAnimationDatabaseManager();
 
+	const SControllerDef* pControllerDef = animationDatabaseManager.LoadControllerDef(m_pAnimationComponent->GetControllerDefinitionFile());
+	const TagID scopeContextSound = pControllerDef->m_scopeContexts.Find("Audio");
+
+	m_pAnimationComponent->GetActionController()->ClearScopeContext(scopeContextSound);*/
 }
 
 static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SEquip>& desc)
@@ -130,7 +137,8 @@ Cry::Entity::EventFlags CWeaponComponent::GetEventMask() const
 {
 	return
 		Cry::Entity::EEvent::TimerExpired |
-		Cry::Entity::EEvent::Reset;
+		Cry::Entity::EEvent::Reset |
+		Cry::Entity::EEvent::Remove;
 }
 
 void CWeaponComponent::ProcessEvent(const SEntityEvent& event) 
@@ -153,6 +161,18 @@ void CWeaponComponent::ProcessEvent(const SEntityEvent& event)
 		}
 		break;
 		}
+	}
+	break;
+	case Cry::Entity::EEvent::Remove:
+	{
+		// Remove the Audio context from the weapon
+		IMannequin &mannequinSys = gEnv->pGameFramework->GetMannequinInterface();
+		IAnimationDatabaseManager& animationDatabaseManager = mannequinSys.GetAnimationDatabaseManager();
+
+		const SControllerDef* pControllerDef = animationDatabaseManager.LoadControllerDef(m_pAnimationComponent->GetControllerDefinitionFile());
+		const TagID scopeContextSound = pControllerDef->m_scopeContexts.Find("Audio");
+
+		m_pAnimationComponent->GetActionController()->ClearScopeContext(scopeContextSound);
 	}
 	break;
 	}

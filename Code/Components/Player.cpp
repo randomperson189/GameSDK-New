@@ -1253,13 +1253,13 @@ void CPlayerComponent::OnReadyForGameplayOnServer(bool firstSpawn)
 		if (gEnv->IsEditorGameMode())
 		{
 			// Have to use delay or else animations won't play properly
-			SetTimer(1, 10);
+			SetTimer(1, 50);
 		}
 	}
 	else
 	{
 		// Have to use delay or else animations won't play properly
-		SetTimer(1, 10);
+		SetTimer(1, 50);
 	}
 }
 
