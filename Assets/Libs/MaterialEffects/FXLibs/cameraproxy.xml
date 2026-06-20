@@ -1,0 +1,7 @@
+<FXLib>
+
+	<Effect name="setviewproxy">
+		<FlowGraph name="setviewproxy"/>
+	</Effect>
+
+</FXLib>

@@ -13,6 +13,7 @@
 #include <CryCore/StaticInstanceList.h>
 #include <CryNetwork/Rmi.h>
 #include <CryCore/Platform/IPlatformOS.h>
+#include <CryAction/IMaterialEffects.h>
 
 #include <cmath>
 
@@ -662,10 +663,19 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 		localTransform.SetTranslation(Vec3(0, viewOffsetForward, viewOffsetUp));
 	}
 
-	if (m_pCameraComponent)
+	if (m_pCameraComponent) 
+	{
 		m_pCameraComponent->SetTransformMatrix(localTransform);
+
+		if (IEntity* pViewProxyEntity = gEnv->pEntitySystem->GetEntity(m_pViewProxy))
+		{
+			pViewProxyEntity->SetPosRotScale(m_pCameraComponent->GetWorldTransformMatrix().GetTranslation(), (Quat)m_pCameraComponent->GetWorldTransformMatrix(), Vec3(1, 1, 1), EntityTransformationFlagsMask());
+		}
+	}
 	if (m_pAudioListenerComponent)
+	{
 		m_pAudioListenerComponent->SetOffset(localTransform.GetTranslation());
+	}
 
 	Matrix34 test = localTransform;
 
@@ -1260,6 +1270,34 @@ void CPlayerComponent::OnReadyForGameplayOnServer(bool firstSpawn)
 	{
 		// Have to use delay or else animations won't play properly
 		SetTimer(1, 50);
+	}
+
+	if (IsLocalClient())
+	{
+		// Create the view proxy entity
+		if (!gEnv->pEntitySystem->GetEntity(m_pViewProxy))
+		{
+			SEntitySpawnParams spawnParams;
+			spawnParams.pClass = gEnv->pEntitySystem->GetClassRegistry()->GetDefaultClass();
+			spawnParams.sName = "ViewProxy";
+			spawnParams.vPosition = m_pCameraComponent->GetWorldTransformMatrix().GetTranslation();
+			spawnParams.qRotation = (Quat)m_pCameraComponent->GetWorldTransformMatrix();
+
+			// Spawn the weapon on the server
+			if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams))
+			{
+				m_pViewProxy = pEntity->GetId();
+			}
+		}
+
+		// Use a material effect FlowGraph to set view to the proxy entity
+		TMFXEffectId fx = gEnv->pMaterialEffects->GetEffectIdByName("cameraproxy", "setviewproxy");
+
+		SMFXRunTimeEffectParams fxParams;
+		fxParams.playflags |= eMFXPF_Disable_Delay;
+		fxParams.pos = m_pCameraComponent->GetWorldTransformMatrix().GetTranslation();
+
+		gEnv->pMaterialEffects->ExecuteEffect(fx, fxParams);
 	}
 }
 

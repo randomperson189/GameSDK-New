@@ -350,6 +350,8 @@ protected:
 
 	bool GetActionMapsFromProfile();
 
+	EntityId m_pViewProxy;
+
 public:
 	void Jump();
 

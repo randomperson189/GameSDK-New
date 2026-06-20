@@ -1,0 +1,27 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="1" Class="MaterialFX:HUDStartFX" pos="72,18,0">
+   <Inputs />
+  </Node>
+  <Node Id="2" Class="MaterialFX:HUDEndFX" pos="1116,18,0">
+   <Inputs />
+  </Node>
+  <Node Id="9" Class="Entity:FindEntityByName" pos="414,108,0">
+   <Inputs Name="ViewProxy"/>
+  </Node>
+  <Node Id="11" Class="Camera:View" pos="792,108,0">
+   <Inputs entityId="0" Enable="1" Disable="0" FOV="70" Blend="0" BlendFOVSpeed="999999" BlendFOVOffset="0" BlendPosSpeed="999999" BlendPosOffset="0,0,0" BlendRotSpeed="999999" BlendRotOffset="0,0,0"/>
+  </Node>
+  <Node Id="12" Class="Game:Start" pos="-180,18,0">
+   <Inputs InGame="1" InEditor="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2" nodeOut="1" portIn="Trigger" portOut="Started" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="1" portIn="Set" portOut="Started" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="9" portIn="Enable" portOut="EntityId" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="9" portIn="entityId" portOut="EntityId" enabled="1"/>
+  <Edge nodeIn="1" nodeOut="12" portIn="Start" portOut="output" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>
