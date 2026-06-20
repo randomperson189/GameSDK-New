@@ -1133,16 +1133,20 @@ void CPlayerComponent::SetCharacterThirdPerson(bool thirdperson)
 		{
 			if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 			{
-				/*pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("head")->HideInShadow(0);
 				pAttachmentMgr->GetInterfaceByName("jacket")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("jacket")->HideInShadow(0);
 				pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(1);
-				pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(1);*/
+				pAttachmentMgr->GetInterfaceByName("upperbody")->HideInShadow(0);
+				pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("weapon")->HideInShadow(0);
 			}
 		}
 
 		m_pAnimationComponent1P->SetType(Cry::DefaultComponents::EMeshType::Render);
 
-		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "head", 0, 0.0f);
+		/*SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "head", 0, 0.0f);
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "head", 1, 0.0f);
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "head", 2, 0.0f);
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "head", 3, 0.0f);
@@ -1159,7 +1163,7 @@ void CPlayerComponent::SetCharacterThirdPerson(bool thirdperson)
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "upperbody", 0, 0.0f);
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "upperbody", 1, 0.0f);
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "upperbody", 2, 0.0f);
-		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "upperbody", 3, 0.0f);
+		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "upperbody", 3, 0.0f);*/
 	}
 	else
 	{
@@ -1167,16 +1171,16 @@ void CPlayerComponent::SetCharacterThirdPerson(bool thirdperson)
 		{
 			if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 			{
-				/*pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
-				pAttachmentMgr->GetInterfaceByName("jacket")->HideAttachment(1);
-				pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(1);
-				pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(0);*/
+				pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(0);
+				pAttachmentMgr->GetInterfaceByName("jacket")->HideAttachment(0);
+				pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(0);
+				pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(0);
 			}
 		}
 
 		m_pAnimationComponent1P->SetType(Cry::DefaultComponents::EMeshType::None);
 
-		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "head", 0, 1.0f);
+		/*SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "head", 0, 1.0f);
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "head", 1, 1.0f);
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "head", 2, 1.0f);
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "head", 3, 1.0f);
@@ -1193,7 +1197,7 @@ void CPlayerComponent::SetCharacterThirdPerson(bool thirdperson)
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "upperbody", 0, 1.0f);
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "upperbody", 1, 1.0f);
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "upperbody", 2, 1.0f);
-		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "upperbody", 3, 1.0f);
+		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "upperbody", 3, 1.0f);*/
 	}
 }
 
