@@ -26,26 +26,335 @@
      <Graph>
       <pos x="0" y="0"/>
       <nodes>
+       <element key="05671bbb-aa79-4404-bb65-fa71cfa26cc9" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="05671bbb-aa79-4404-bb65-fa71cfa26cc9" objectGUID="86403ccb-eeca-4a90-bce3-49e7a05634c3">
+         <pos x="107" y="247"/>
+         <functionId domain="Env" guid="bf80d631-05d3-4571-a51d-e0af6a252f91"/>
+        </value>
+       </element>
+       <element key="5331cfd3-de15-4420-9c44-90a449bf5f9b" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="5331cfd3-de15-4420-9c44-90a449bf5f9b" objectGUID="">
+         <pos x="107" y="-32"/>
+         <functionId domain="Env" guid="823518d1-6fe9-49da-a522-c1483385b70d"/>
+         <inputs>
+          <element value="PathDestination">
+           <key type="UInt32" value="1851878757"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="e011b41f-5176-4499-a8ca-8f70743f4868" typeGUID="29c4ec3a-8e27-4d95-9c6d-8b3a19865fc2">
+        <value guid="e011b41f-5176-4499-a8ca-8f70743f4868">
+         <pos x="1083" y="331"/>
+        </value>
+       </element>
        <element key="f74d12fb-9a2e-466c-8e95-e3e7e0541091" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="f74d12fb-9a2e-466c-8e95-e3e7e0541091" objectGUID="">
-         <pos x="0" y="200"/>
+         <pos x="-34" y="246"/>
          <signalId domain="Env" guid="b2561caa-0753-458b-a91f-e8e38b0f0cdf"/>
+        </value>
+       </element>
+       <element key="bded8f04-87b7-46da-9d84-dcbd6882a34c" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="bded8f04-87b7-46da-9d84-dcbd6882a34c" objectGUID="">
+         <pos x="526" y="320"/>
+         <functionId domain="Env" guid="dbf69a60-658d-48a8-802e-2eb6220ed60b"/>
+         <inputs>
+          <element value="0">
+           <key type="UInt32" value="97"/>
+          </element>
+          <element value="0">
+           <key type="UInt32" value="98"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="1a9202ba-30a6-4786-a5db-5a89d4a3c6ec" typeGUID="b30f637b-555a-4e2e-8558-87fa49d470c1">
+        <value guid="1a9202ba-30a6-4786-a5db-5a89d4a3c6ec">
+         <pos x="528" y="246"/>
+         <inputs>
+          <element value="false">
+           <key type="Idx" value="1"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="b1cbaeda-48fa-4848-9c21-12a54f794ca6" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="b1cbaeda-48fa-4848-9c21-12a54f794ca6" objectGUID="">
+         <pos x="223" y="610"/>
+         <functionId domain="Env" guid="e8020fdb-a227-4431-b888-816ba10b6bcf"/>
+         <inputs>
+          <element>
+           <key type="UInt32" value="7758188"/>
+           <value x="0" y="0" z="0"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="6a3279dc-4c12-4879-a295-c2f532c29d30" typeGUID="23145b7a-4ce3-45b8-a34b-1c997ea6448f">
+        <value guid="6a3279dc-4c12-4879-a295-c2f532c29d30" referenceGUID="31e2e4d0-365f-4dfe-9daf-dd96a62a2129">
+         <pos x="249" y="-32"/>
+         <inputs>
+          <element value="0">
+           <key type="Idx" value="1"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="d88b1318-cf8f-489f-b6b3-a88eef9f6631" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="d88b1318-cf8f-489f-b6b3-a88eef9f6631" objectGUID="">
+         <pos x="387" y="-316"/>
+         <functionId domain="Env" guid="0a70c719-9e3b-4fac-a47b-468ecabe9b56"/>
+         <inputs>
+          <element>
+           <key type="UInt32" value="7758188"/>
+           <value>
+                        <translation>
+                          <position>
+                            <element element="0"/>
+                            <element element="0"/>
+                            <element element="0"/>
+                          </position>
+                        </translation>
+                        <rotation x="0" y="-0" z="0"/>
+                        <scale>
+                          <element element="1"/>
+                          <element element="1"/>
+                          <element element="1"/>
+                        </scale>
+           </value>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="0eae60dc-255b-4924-9c2c-2127f7aa0274" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="0eae60dc-255b-4924-9c2c-2127f7aa0274" objectGUID="">
+         <pos x="107" y="-315"/>
+         <functionId domain="Env" guid="8a99e1ba-a5cd-4de8-a19f-d07df5d3b245"/>
+         <inputs>
+          <element value="0">
+           <key type="UInt32" value="6647412"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="6284ce8f-205d-4a56-b97a-f76d7b82e193" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="6284ce8f-205d-4a56-b97a-f76d7b82e193" objectGUID="a595a471-985b-4ac4-a6c4-38a0d504545f">
+         <pos x="667" y="-315"/>
+         <functionId domain="Env" guid="d7ef4d30-dc99-41df-a0b5-eb21760b84a3"/>
+         <inputs>
+          <element>
+           <key type="UInt32" value="7368563"/>
+           <value x="0" y="0" z="0"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="ec7e340f-f329-4b68-8e52-ab3d8c053da7" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="ec7e340f-f329-4b68-8e52-ab3d8c053da7" objectGUID="">
+         <pos x="806" y="245"/>
+         <functionId domain="Env" guid="56797261-f891-449d-a21a-90e5091ab5a0"/>
+         <inputs>
+          <element>
+           <key type="UInt32" value="7759203"/>
+           <value x="0" y="0" z="0"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="687cf463-71c3-4bd0-ae83-cd287f71e6ff" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="687cf463-71c3-4bd0-ae83-cd287f71e6ff" objectGUID="">
+         <pos x="-34" y="-315"/>
+         <signalId domain="Script" guid="82f229ac-8bd0-41fc-9574-c8018dc0aac7"/>
         </value>
        </element>
        <element key="a4958a20-3314-4cb2-b36b-82ccd4fae3a0" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="a4958a20-3314-4cb2-b36b-82ccd4fae3a0" objectGUID="">
-         <pos x="0" y="0"/>
+         <pos x="-32" y="-32"/>
          <signalId domain="Env" guid="a9279137-7c66-491d-b9a0-8752c24c8979"/>
+        </value>
+       </element>
+       <element key="f2d5d1f1-c25c-4cd3-b44b-e21a93260837" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="f2d5d1f1-c25c-4cd3-b44b-e21a93260837" objectGUID="">
+         <pos x="1085" y="244"/>
+         <functionId domain="Env" guid="53fdfffb-a216-4001-ba26-9e81a7d2160d"/>
+         <inputs>
+          <element value="0">
+           <key type="UInt32" value="6647412"/>
+          </element>
+          <element>
+           <key type="UInt32" value="7499636"/>
+           <value x="0" y="-0" z="0"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="c0d7423f-fc01-4d42-b110-ab31191b9183" typeGUID="a15c2533-d004-4266-b121-68404aa5e02f">
+        <value guid="c0d7423f-fc01-4d42-b110-ab31191b9183" referenceGUID="31e2e4d0-365f-4dfe-9daf-dd96a62a2129" memberId="0">
+         <pos x="106" y="-239"/>
         </value>
        </element>
        <element key="bb43033d-9fd4-4d9f-98c1-e2e3feca9222" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="bb43033d-9fd4-4d9f-98c1-e2e3feca9222" objectGUID="">
-         <pos x="0" y="100"/>
+         <pos x="-33" y="106"/>
          <signalId domain="Env" guid="52ad5add-7781-429b-b4a9-0cb6c905e353"/>
         </value>
        </element>
+       <element key="1129a614-8e8b-4e4b-9c71-6101c6469968" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="1129a614-8e8b-4e4b-9c71-6101c6469968" objectGUID="">
+         <pos x="240" y="395"/>
+         <functionId domain="Env" guid="e0170ced-db1d-4438-ba58-02fa2b713f59"/>
+         <inputs>
+          <element>
+           <key type="UInt32" value="7758188"/>
+           <value x="0" y="0" z="0"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="c5b1d242-0f79-4e82-8f91-cd4d99cee3f0" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="c5b1d242-0f79-4e82-8f91-cd4d99cee3f0" objectGUID="">
+         <pos x="222" y="321"/>
+         <functionId domain="Env" guid="d953506a-6710-472d-9017-5a969f936b19"/>
+         <inputs>
+          <element>
+           <key type="UInt32" value="7758188"/>
+           <value x="0" y="0" z="0"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="d02ae55c-f213-4f8c-9875-9ef01d55c25e" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="d02ae55c-f213-4f8c-9875-9ef01d55c25e" objectGUID="">
+         <pos x="239" y="502"/>
+         <functionId domain="Env" guid="3496016c-8092-4a63-9198-9adce657fd1a"/>
+         <inputs>
+          <element value="0">
+           <key type="UInt32" value="120"/>
+          </element>
+          <element value="0">
+           <key type="UInt32" value="121"/>
+          </element>
+          <element value="0">
+           <key type="UInt32" value="122"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
       </nodes>
-      <links />
+      <links>
+       <element srcNodeGUID="a4958a20-3314-4cb2-b36b-82ccd4fae3a0" dstNodeGUID="5331cfd3-de15-4420-9c44-90a449bf5f9b">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="5331cfd3-de15-4420-9c44-90a449bf5f9b" dstNodeGUID="6a3279dc-4c12-4879-a295-c2f532c29d30">
+        <srcOutputId type="UInt32" value="6647412"/>
+        <dstInputId type="Idx" value="1"/>
+       </element>
+       <element srcNodeGUID="0eae60dc-255b-4924-9c2c-2127f7aa0274" dstNodeGUID="d88b1318-cf8f-489f-b6b3-a88eef9f6631">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="0eae60dc-255b-4924-9c2c-2127f7aa0274" dstNodeGUID="d88b1318-cf8f-489f-b6b3-a88eef9f6631">
+        <srcOutputId type="UInt32" value="29810"/>
+        <dstInputId type="UInt32" value="7758188"/>
+       </element>
+       <element srcNodeGUID="687cf463-71c3-4bd0-ae83-cd287f71e6ff" dstNodeGUID="0eae60dc-255b-4924-9c2c-2127f7aa0274">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="c0d7423f-fc01-4d42-b110-ab31191b9183" dstNodeGUID="0eae60dc-255b-4924-9c2c-2127f7aa0274">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="UInt32" value="6647412"/>
+       </element>
+       <element srcNodeGUID="d88b1318-cf8f-489f-b6b3-a88eef9f6631" dstNodeGUID="6284ce8f-205d-4a56-b97a-f76d7b82e193">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="d88b1318-cf8f-489f-b6b3-a88eef9f6631" dstNodeGUID="6284ce8f-205d-4a56-b97a-f76d7b82e193">
+        <srcOutputId type="UInt32" value="7631470"/>
+        <dstInputId type="UInt32" value="7368563"/>
+       </element>
+       <element srcNodeGUID="5331cfd3-de15-4420-9c44-90a449bf5f9b" dstNodeGUID="6a3279dc-4c12-4879-a295-c2f532c29d30">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="e011b41f-5176-4499-a8ca-8f70743f4868" dstNodeGUID="f2d5d1f1-c25c-4cd3-b44b-e21a93260837">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="UInt32" value="6647412"/>
+       </element>
+       <element srcNodeGUID="ec7e340f-f329-4b68-8e52-ab3d8c053da7" dstNodeGUID="f2d5d1f1-c25c-4cd3-b44b-e21a93260837">
+        <srcOutputId type="UInt32" value="7497075"/>
+        <dstInputId type="UInt32" value="7499636"/>
+       </element>
+       <element srcNodeGUID="c5b1d242-0f79-4e82-8f91-cd4d99cee3f0" dstNodeGUID="b1cbaeda-48fa-4848-9c21-12a54f794ca6">
+        <srcOutputId type="UInt32" value="7497075"/>
+        <dstInputId type="UInt32" value="7758188"/>
+       </element>
+       <element srcNodeGUID="b1cbaeda-48fa-4848-9c21-12a54f794ca6" dstNodeGUID="bded8f04-87b7-46da-9d84-dcbd6882a34c">
+        <srcOutputId type="UInt32" value="7497075"/>
+        <dstInputId type="UInt32" value="97"/>
+       </element>
+       <element srcNodeGUID="b1cbaeda-48fa-4848-9c21-12a54f794ca6" dstNodeGUID="bded8f04-87b7-46da-9d84-dcbd6882a34c">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="bded8f04-87b7-46da-9d84-dcbd6882a34c" dstNodeGUID="1a9202ba-30a6-4786-a5db-5a89d4a3c6ec">
+        <srcOutputId type="UInt32" value="7497075"/>
+        <dstInputId type="Idx" value="1"/>
+       </element>
+       <element srcNodeGUID="bded8f04-87b7-46da-9d84-dcbd6882a34c" dstNodeGUID="1a9202ba-30a6-4786-a5db-5a89d4a3c6ec">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="1a9202ba-30a6-4786-a5db-5a89d4a3c6ec" dstNodeGUID="ec7e340f-f329-4b68-8e52-ab3d8c053da7">
+        <srcOutputId type="Idx" value="1"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="ec7e340f-f329-4b68-8e52-ab3d8c053da7" dstNodeGUID="f2d5d1f1-c25c-4cd3-b44b-e21a93260837">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="f74d12fb-9a2e-466c-8e95-e3e7e0541091" dstNodeGUID="05671bbb-aa79-4404-bb65-fa71cfa26cc9">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="05671bbb-aa79-4404-bb65-fa71cfa26cc9" dstNodeGUID="c5b1d242-0f79-4e82-8f91-cd4d99cee3f0">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="05671bbb-aa79-4404-bb65-fa71cfa26cc9" dstNodeGUID="c5b1d242-0f79-4e82-8f91-cd4d99cee3f0">
+        <srcOutputId type="UInt32" value="7759212"/>
+        <dstInputId type="UInt32" value="7758188"/>
+       </element>
+       <element srcNodeGUID="c5b1d242-0f79-4e82-8f91-cd4d99cee3f0" dstNodeGUID="1129a614-8e8b-4e4b-9c71-6101c6469968">
+        <srcOutputId type="UInt32" value="7497075"/>
+        <dstInputId type="UInt32" value="7758188"/>
+       </element>
+       <element srcNodeGUID="1129a614-8e8b-4e4b-9c71-6101c6469968" dstNodeGUID="d02ae55c-f213-4f8c-9875-9ef01d55c25e">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="1129a614-8e8b-4e4b-9c71-6101c6469968" dstNodeGUID="d02ae55c-f213-4f8c-9875-9ef01d55c25e">
+        <srcOutputId type="UInt32" value="120"/>
+        <dstInputId type="UInt32" value="120"/>
+       </element>
+       <element srcNodeGUID="1129a614-8e8b-4e4b-9c71-6101c6469968" dstNodeGUID="d02ae55c-f213-4f8c-9875-9ef01d55c25e">
+        <srcOutputId type="UInt32" value="121"/>
+        <dstInputId type="UInt32" value="121"/>
+       </element>
+       <element srcNodeGUID="c5b1d242-0f79-4e82-8f91-cd4d99cee3f0" dstNodeGUID="1129a614-8e8b-4e4b-9c71-6101c6469968">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="d02ae55c-f213-4f8c-9875-9ef01d55c25e" dstNodeGUID="b1cbaeda-48fa-4848-9c21-12a54f794ca6">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="d02ae55c-f213-4f8c-9875-9ef01d55c25e" dstNodeGUID="ec7e340f-f329-4b68-8e52-ab3d8c053da7">
+        <srcOutputId type="UInt32" value="7497075"/>
+        <dstInputId type="UInt32" value="7759203"/>
+       </element>
+      </links>
      </Graph>
     </extensions>
     <children />
@@ -68,7 +377,7 @@
       <position>
        <element element="0"/>
        <element element="0"/>
-       <element element="1"/>
+       <element element="1.175"/>
       </position>
      </translation>
      <rotation x="0" y="-0" z="0"/>
@@ -78,9 +387,9 @@
       <element element="1"/>
      </scale>
     </transform>
-    <properties Networked="false">
-     <Physics Mass="80" Radius="0.44999999" Height="0.935" Capsule="true" GroundContactEps="0.0040000002" SendCollisionSignal="false"/>
-     <Movement AirControl="0" AirResistance="0.2" Inertia="8" InertiaAcc="8" MaxClimb="0.87266463" MaxJump="0.87266463" MinSlide="1.2217305" MinFall="1.3962634" MaxGroundVelocity="16"/>
+    <properties Networked="true">
+     <Physics Mass="80" Radius="1" Height="1.25" Capsule="true" GroundContactEps="0.0040000002" SendCollisionSignal="true"/>
+     <Movement AirControl="0.25" AirResistance="0.2" Inertia="8" InertiaAcc="8" MaxClimb="0.87266463" MaxJump="0.87266463" MinSlide="1.2217305" MinFall="1.3962634" MaxGroundVelocity="16"/>
     </properties>
     <extensions />
     <children />
@@ -110,7 +419,7 @@
    </element>
    <element elementType="ComponentInstance" guid="a595a471-985b-4ac4-a6c4-38a0d504545f" name="AI Navigation Agent" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="1b988fa3-2cc8-4dfa-9107-a63aded77e91">
     <properties agent="MediumSizedCharacters" updateTransf="false">
-     <movement normalSpeed="4" minSpeed="0" maxSpeed="6" maxAcceleration="4" maxDeceleration="6" lookAheadDistance="0.5" stopAtEnd="true"/>
+     <movement normalSpeed="4" minSpeed="0" maxSpeed="4" maxAcceleration="4" maxDeceleration="6" lookAheadDistance="0.5" stopAtEnd="true"/>
      <colavoid type="Active" radius="0.30000001" height="2"/>
      <queryFilter AreasCount="1">
       <AreaCost id="0" cost="1"/>
@@ -122,7 +431,33 @@
     <children />
    </element>
    <element elementType="ComponentInstance" guid="cb7a4361-28cd-4754-af33-77bc1e45ef9d" name="CNPCComponent" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="ed8dd598-40ff-4e9b-857d-16264cba5732">
+    <transform>
+     <translation>
+      <position>
+       <element element="0"/>
+       <element element="0"/>
+       <element element="0"/>
+      </position>
+     </translation>
+     <rotation x="0" y="-0" z="0"/>
+     <scale>
+      <element element="1"/>
+      <element element="1"/>
+      <element element="1"/>
+     </scale>
+    </transform>
     <properties />
+    <extensions />
+    <children />
+   </element>
+   <element elementType="Timer" guid="82f229ac-8bd0-41fc-9574-c8018dc0aac7" name="PathTimer" Schematyc::EMPEnv="clientserver" units="Seconds" seconds="1">
+    <flags AutoStart="true" Repeat="true"/>
+    <userDocumentation author="User" description=""/>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="Variable" guid="31e2e4d0-365f-4dfe-9daf-dd96a62a2129" name="TargetEntity" Schematyc::EMPEnv="clientserver" accessor="Public" bIsArray="false" value="0" baseGUID="" overridePolicy="Default">
+    <typeId domain="Env" guid="00782e22-3188-4538-b4f2-8749b8a9dc48"/>
     <extensions />
     <children />
    </element>

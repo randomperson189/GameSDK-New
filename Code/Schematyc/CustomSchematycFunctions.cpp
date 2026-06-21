@@ -1,12 +1,15 @@
 #include "StdAfx.h"
 
 #include <CrySerialization/Forward.h>
+#include <CrySerialization/Math.h>
 #include <CryMath/Cry_Math.h>
 #include <CryMath/Random.h>
 #include <CryMath/Angle.h>
+#include <CryMath/Rotation.h>
 
 #include <CrySchematyc/CoreAPI.h>
 #include <CrySchematyc/Env/IEnvRegistrar.h>
+#include <CrySchematyc/Utils/Transform.h>
 #include <CryPhysics/physinterface.h>
 #include <CryCore/StaticInstanceList.h>
 
@@ -107,11 +110,32 @@ namespace Schematyc
 		}
 	}
 
+	namespace Rotation
+	{
+		CRotation CreateFromVector(Vec3 vector)
+		{
+			return CRotation(Quat::CreateRotationVDir(vector));
+		}
+
+		static void RegisterFunctions(Schematyc::IEnvRegistrar& registrar)
+		{
+			Schematyc::CEnvRegistrationScope scope = registrar.Scope(GetTypeDesc<CRotation>().GetGUID());
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CreateFromVector, "{56797261-F891-449D-A21A-90E5091AB5A0}"_cry_guid, "CreateFromVector");
+				pFunction->SetDescription("Create rotation");
+				pFunction->BindInput(1, 'vec', "Vector", nullptr, Vec3(ZERO));
+				pFunction->BindOutput(0, 'res', "Result");
+				scope.Register(pFunction);
+			}
+		}
+	}
+
 	void RegisterCustomFunctions(IEnvRegistrar& registrar)
 	{
 		Raycast::RegisterFunctions(registrar);
 		Log::RegisterFunctions(registrar);
 		Entity::RegisterFunctions(registrar);
+		Rotation::RegisterFunctions(registrar);
 	}
 }
 
