@@ -155,7 +155,10 @@ void CWeaponComponent::ProcessEvent(const SEntityEvent& event)
 			{
 				if (auto* pPlayerComponent = pOwner->GetComponent<CPlayerComponent>())
 				{
-					SetShadowsOnly(!pPlayerComponent->m_bIsThirdPersonCamera);
+					if (pPlayerComponent->IsLocalClient())
+					{
+						SetShadowsOnly(!pPlayerComponent->m_bIsThirdPersonCamera);
+					}
 				}
 			}
 		}
@@ -407,37 +410,22 @@ void CWeaponComponent::SetShadowsOnly(bool shadowsOnly)
 {
 	if (IStatObj* statObj = m_pEntity->GetStatObj(m_pMeshComponent->GetEntitySlotId()))
 	{
-		if (IMaterial* material = statObj->GetMaterial())
-		{
-			int subMatCount = material->GetSubMtlCount();
-
-			for (int i = 0; i < subMatCount; i++)
-			{
-				SetMaterialOpacity(statObj, i, shadowsOnly ? 0.0f : 1.0f);
-			}
-		}
+		SetMaterialOpacity(statObj, 1, shadowsOnly ? 0.0f : 1.0f);
 	}
 }
 
 void CWeaponComponent::SetMaterialOpacity(IStatObj* obj, int materialIndex, float opacity)
 {
-	IMaterial* currentMaterial;
-	IMaterial* newMaterial;
+	IMaterial* original = obj->GetMaterial();
 
-	// Try to get replacement material first (defined in cdf), if it doesn't exist then get the model's one
-	if (IMaterial* tempMaterial = obj->GetMaterial())
-		newMaterial = tempMaterial;
+	IMaterial* clone = gEnv->p3DEngine->GetMaterialManager()->CloneMaterial(original);
 
-	//CryLogAlways("Material is %s", newMaterial->GetName());
+	gEnv->p3DEngine->GetMaterialManager()->CopyMaterial(original, clone, MTL_COPY_DEFAULT);
 
-	currentMaterial = gEnv->p3DEngine->GetMaterialManager()->CloneMaterial(newMaterial); // One way of doing it
+	for (int i = 0; i < clone->GetSubMtlCount(); ++i)
+	{
+		clone->GetSubMtl(i)->SetGetMaterialParamFloat("opacity", opacity, false);
+	}
 
-	gEnv->p3DEngine->GetMaterialManager()->CopyMaterial(newMaterial, currentMaterial, EMaterialCopyFlags::MTL_COPY_DEFAULT); // We can also copy the material and store it, newMaterial is material we want to copy, and currentMaterial is now the copy of it
-
-	float newAlpha = opacity;
-
-	// apply changes
-	currentMaterial->GetSubMtl(materialIndex)->SetGetMaterialParamFloat("opacity", newAlpha, false);
-
-	obj->SetMaterial(currentMaterial);
+	m_pEntity->SetSlotMaterial(m_pMeshComponent->GetEntitySlotId(), clone);
 }
