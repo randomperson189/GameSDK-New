@@ -21,9 +21,9 @@ public:
 	{
 		desc.SetGUID("{896B01FF-0F83-4477-A02C-B6DB4A4F67BC}"_cry_guid);
 
-		desc.SetEditorCategory("Utilities");
-		desc.SetLabel("CVar Helper");
-		desc.SetDescription("Component to access CVars");
+		desc.SetEditorCategory("Audio");
+		desc.SetLabel("Advanced Audio");
+		desc.SetDescription("Component for advanced audio");
 	}
 	// ~IEntityComponent
 
