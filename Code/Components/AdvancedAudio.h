@@ -16,7 +16,15 @@ public:
 	// IEntityComponent
 	virtual void Initialize() override;
 
-	static void ReflectType(Schematyc::CTypeDesc<CAdvancedAudioComponent>& desc);
+	// Reflect type to set a unique identifier for this component
+	static void ReflectType(Schematyc::CTypeDesc<CAdvancedAudioComponent>& desc)
+	{
+		desc.SetGUID("{896B01FF-0F83-4477-A02C-B6DB4A4F67BC}"_cry_guid);
+
+		desc.SetEditorCategory("Utilities");
+		desc.SetLabel("CVar Helper");
+		desc.SetDescription("Component to access CVars");
+	}
 	// ~IEntityComponent
 
 	void ExecuteConsoleCommand(Schematyc::CSharedString command, bool bSilentMode = false, bool bDeferExecution = false);

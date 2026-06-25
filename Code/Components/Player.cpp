@@ -5,6 +5,7 @@
 #include "SpawnPoint.h"
 #include "GamePlugin.h"
 #include "Weapon.h"
+#include "Item.h"
 
 #include <CryRenderer/IRenderAuxGeom.h>
 #include <CrySchematyc/Env/Elements/EnvComponent.h>
@@ -163,6 +164,7 @@ namespace
 
 			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CPlayerComponent::SInitializeLocalPlayer));
 			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CPlayerComponent::SRevive));
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CPlayerComponent::SNoWeapons));
 		}
 	}
 
@@ -179,6 +181,13 @@ static void ReflectType(Schematyc::CTypeDesc<CPlayerComponent::SRevive>& desc)
 {
 	desc.SetGUID("{7297C852-9EB8-4530-A7AD-E81D1BBFA16A}"_cry_guid);
 	desc.SetLabel("Revive");
+}
+
+static void ReflectType(Schematyc::CTypeDesc<CPlayerComponent::SNoWeapons>& desc)
+{
+	desc.SetGUID("{E3D134B9-7FE1-4EE0-B488-48264518A169}"_cry_guid);
+	desc.SetLabel("No Weapons");
+	desc.AddMember(&CPlayerComponent::SNoWeapons::pWeaponAnimCodeName, 'acn', "AnimCodeName", "Animation Code Name", "Weapon name in animation code (e.g. Mannequin tags and fragments)", "Weapon Code Name");
 }
 
 void CPlayerComponent::Initialize()
@@ -371,14 +380,9 @@ void CPlayerComponent::InitializeLocalPlayer()
 	{
 		if (activationMode == eAAM_OnPress)
 		{
-			auto it = std::find(m_pInventoryComponent->m_pItems.begin(), m_pInventoryComponent->m_pItems.end(), m_pActiveWeapon);
-
-			if (it != m_pInventoryComponent->m_pItems.end())
+			if (m_pActiveWeapon == 0)
 			{
-				size_t currentIndex = std::distance(m_pInventoryComponent->m_pItems.begin(), it);
-				size_t nextIndex = (currentIndex + 1) % m_pInventoryComponent->m_pItems.size();
-
-				m_pActiveWeapon = m_pInventoryComponent->m_pItems[nextIndex];
+				m_pActiveWeapon = m_pInventoryComponent->m_pItems[0];
 
 				if (IEntity* pWeapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
 				{
@@ -387,9 +391,50 @@ void CPlayerComponent::InitializeLocalPlayer()
 					pWeapon->GetComponent<CWeaponComponent>()->Equip();
 				}
 			}
+			else
+			{
+				auto it = std::find(m_pInventoryComponent->m_pItems.begin(), m_pInventoryComponent->m_pItems.end(), m_pActiveWeapon);
+
+				if (it != m_pInventoryComponent->m_pItems.end())
+				{
+					size_t currentIndex = std::distance(m_pInventoryComponent->m_pItems.begin(), it);
+					size_t nextIndex = (currentIndex + 1) % m_pInventoryComponent->m_pItems.size();
+
+					m_pActiveWeapon = m_pInventoryComponent->m_pItems[nextIndex];
+
+					if (IEntity* pWeapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+					{
+						CryLogAlways("Switched ActiveWeapon to %s", gEnv->pEntitySystem->GetEntity(m_pActiveWeapon)->GetName());
+
+						pWeapon->GetComponent<CWeaponComponent>()->Equip();
+					}
+				}
+			}
 		}
 	});
 	m_pInputComponent->BindAction("player", "switchweapon2", eAID_KeyboardMouse, EKeyId::eKI_2);
+
+	m_pInputComponent->RegisterAction("player", "switchweapon3", [this](int activationMode, float value)
+	{
+		if (activationMode == eAAM_OnPress)
+		{
+			if (m_pActiveWeapon != 0)
+			{
+				if (IEntity* pWeapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+				{
+					if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
+					{
+						m_pEntity->GetSchematycObject()->ProcessSignal(SNoWeapons(pWeapon->GetComponent<CWeaponComponent>()->m_pAnimCodeName), GetGUID());
+					}
+
+					pWeapon->GetComponent<CWeaponComponent>()->AttachToNone();
+				}
+
+				m_pActiveWeapon = 0;
+			}
+		}
+	});
+	m_pInputComponent->BindAction("player", "switchweapon3", eAID_KeyboardMouse, EKeyId::eKI_3);
 
 	// Our local player has initialized, now call the Schematyc signal for it
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
@@ -449,7 +494,13 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 	{
 		if (gEnv->bServer)
 		{
-			gEnv->pEntitySystem->RemoveEntity(m_pActiveWeapon);
+			for (EntityId id : m_pInventoryComponent->m_pItems)
+			{
+				if (gEnv->pEntitySystem->GetEntity(id))
+				{
+					gEnv->pEntitySystem->RemoveEntity(id);
+				}
+			}
 		}
 	}
 	break;
@@ -1395,20 +1446,22 @@ bool CPlayerComponent::RemoteDieOnServer(RemoteBlankParams&& params, INetChannel
 		{
 			if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 			{
-				IMannequin &mannequinSys = gEnv->pGameFramework->GetMannequinInterface();
-				IAnimationDatabaseManager& animationDatabaseManager = mannequinSys.GetAnimationDatabaseManager();
-
-				const SControllerDef* pControllerDef = animationDatabaseManager.LoadControllerDef(pWeaponEntity->GetComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>()->GetControllerDefinitionFile());
-				const TagID scopeContextSound = pControllerDef->m_scopeContexts.Find("Audio");
-
-				pWeaponEntity->GetComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>()->GetActionController()->ClearScopeContext(scopeContextSound, true);
-
 				pAttachmentMgr->GetInterfaceByName("weapon")->ClearBinding();
 			}
 		}
-
-		gEnv->pEntitySystem->RemoveEntity(m_pActiveWeapon);
 	}
+
+	for (EntityId id : m_pInventoryComponent->m_pItems)
+	{
+		if (gEnv->pEntitySystem->GetEntity(id))
+		{
+			gEnv->pEntitySystem->RemoveEntity(id);
+
+			CryLogAlways("REMOVED ALL WEAPONS");
+		}
+	}
+
+	m_pInventoryComponent->m_pItems.clear();
 
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteDieOnClients)>::InvokeOnAllClients(this, std::move(params));
 

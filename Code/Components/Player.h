@@ -419,4 +419,12 @@ public:
 	{
 		SRevive() = default;
 	};
+
+	struct SNoWeapons
+	{
+		SNoWeapons() = default;
+		SNoWeapons(Schematyc::CSharedString weaponanimcodename) : pWeaponAnimCodeName(Schematyc::CSharedString(weaponanimcodename)) {}
+
+		Schematyc::CSharedString pWeaponAnimCodeName;
+	};
 };

@@ -116,6 +116,16 @@
     <extensions />
     <children />
    </element>
+   <element elementType="Signal" guid="f76b3376-2b25-4d10-a89f-54d6aecebf09" name="WeaponLibrary ReceiveAnimCodeName" Schematyc::EMPEnv="clientserver">
+    <inputs>
+     <element guid="59d8f136-2a01-4c9f-84c6-292eecfed1c8" name="Name" value="">
+      <typeId domain="Env" guid="02b79308-c51c-4841-99ec-c887577217a7"/>
+     </element>
+    </inputs>
+    <userDocumentation author="User" description=""/>
+    <extensions />
+    <children />
+   </element>
   </children>
  </root>
 </CrySchematyc>

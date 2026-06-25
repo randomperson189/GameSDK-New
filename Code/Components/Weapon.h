@@ -64,8 +64,10 @@ protected:
 	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent = nullptr;
 	CItemComponent* m_pItemComponent = nullptr;
 
+public:
 	Schematyc::CSharedString m_pDisplayName;
 	Schematyc::CSharedString m_pAnimCodeName;
+protected:
 
 	int m_pDamage;
 
@@ -77,6 +79,7 @@ public:
 	void QueueFragmentOnScopes(Schematyc::CSharedString fragment, bool trumpPreviousFragment);
 
 	void AttachToHand();
+	void AttachToNone();
 
 	void Equip();
 	void Holster();

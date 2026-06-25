@@ -271,6 +271,31 @@ void CWeaponComponent::AttachToHand()
 	}
 }
 
+void CWeaponComponent::AttachToNone()
+{
+	if (IEntity* pOwner = gEnv->pEntitySystem->GetEntity((EntityId)m_pItemComponent->GetOwner()))
+	{
+		if (auto* pPlayerComponent = pOwner->GetComponent<CPlayerComponent>())
+		{
+			if (ICharacterInstance* pCharInstance = pPlayerComponent->m_pAnimationComponent1P->GetCharacter())
+			{
+				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+				{
+					pAttachmentMgr->GetInterfaceByName("weapon")->ClearBinding();
+				}
+			}
+
+			if (ICharacterInstance* pCharInstance = pPlayerComponent->m_pAnimationComponent3P->GetCharacter())
+			{
+				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+				{
+					pAttachmentMgr->GetInterfaceByName("weapon")->ClearBinding();
+				}
+			}
+		}
+	}
+}
+
 void CWeaponComponent::Equip()
 {
 	if (!m_pEntity)

@@ -24,7 +24,7 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="192" y="59"/>
+      <pos x="502" y="-184"/>
       <nodes>
        <element key="d54510eb-ae5b-4077-8244-6d80da855abf" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="d54510eb-ae5b-4077-8244-6d80da855abf" objectGUID="">
@@ -45,7 +45,12 @@
         </value>
        </element>
       </nodes>
-      <links />
+      <links>
+       <element srcNodeGUID="733f76a9-a711-4626-ae71-044985cd7710" dstNodeGUID="4011fd3a-3ba1-4dc9-bc80-7f927a9638e8">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+      </links>
      </Graph>
     </extensions>
     <children />

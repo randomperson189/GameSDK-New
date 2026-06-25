@@ -24,7 +24,7 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="498" y="542"/>
+      <pos x="292" y="2222"/>
       <nodes>
        <element key="5f7f04a0-1fea-4004-990e-01f11d8fd0c9" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="5f7f04a0-1fea-4004-990e-01f11d8fd0c9" objectGUID="89784630-c3af-4a6f-bdb3-7f72a04626b2">
@@ -334,6 +334,20 @@
          </inputs>
         </value>
        </element>
+       <element key="b4188380-6dcf-4596-8880-f0d940c1f37c" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="b4188380-6dcf-4596-8880-f0d940c1f37c" objectGUID="89784630-c3af-4a6f-bdb3-7f72a04626b2">
+         <pos x="525" y="2067"/>
+         <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
+         <inputs>
+          <element value="true">
+           <key type="UInt32" value="7562612"/>
+          </element>
+          <element value="nw">
+           <key type="UInt32" value="1952540526"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
        <element key="fec91df6-18ab-461d-985a-cfb70a0586c4" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="fec91df6-18ab-461d-985a-cfb70a0586c4" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
          <pos x="527" y="-1291"/>
@@ -588,6 +602,20 @@
          </inputs>
         </value>
        </element>
+       <element key="2631a451-c3dd-4b38-a696-3518854f7324" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="2631a451-c3dd-4b38-a696-3518854f7324" objectGUID="89784630-c3af-4a6f-bdb3-7f72a04626b2">
+         <pos x="527" y="1926"/>
+         <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
+         <inputs>
+          <element value="false">
+           <key type="UInt32" value="7562612"/>
+          </element>
+          <element value="SDKPistol">
+           <key type="UInt32" value="1952540526"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
        <element key="cef81c0f-29f6-4b39-9547-d79bf7219ccb" typeGUID="b30f637b-555a-4e2e-8558-87fa49d470c1">
         <value guid="cef81c0f-29f6-4b39-9547-d79bf7219ccb">
          <pos x="808" y="1087"/>
@@ -622,6 +650,12 @@
            <key type="UInt32" value="1919249509"/>
           </element>
          </inputs>
+        </value>
+       </element>
+       <element key="9256fb53-28c0-4b97-8074-b49d3519cae8" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
+        <value guid="9256fb53-28c0-4b97-8074-b49d3519cae8" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
+         <pos x="-34" y="1926"/>
+         <signalId domain="Env" guid="e3d134b9-7fe1-4ee0-b488-48264518a169"/>
         </value>
        </element>
        <element key="fc153179-9944-4be9-8c74-77422d59ec79" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
@@ -671,9 +705,64 @@
          </inputs>
         </value>
        </element>
+       <element key="8d2aa83b-08bf-4c45-8618-5245f02c7713" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="8d2aa83b-08bf-4c45-8618-5245f02c7713" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
+         <pos x="806" y="1926"/>
+         <functionId domain="Env" guid="95e2cdf4-c429-46cd-8369-c594e2b82212"/>
+         <inputs>
+          <element value="true">
+           <key type="UInt32" value="7630950"/>
+          </element>
+          <element value="true">
+           <key type="UInt32" value="1935880241"/>
+          </element>
+          <element value="true">
+           <key type="UInt32" value="1935880242"/>
+          </element>
+          <element value="false">
+           <key type="UInt32" value="1935880243"/>
+          </element>
+          <element value="false">
+           <key type="UInt32" value="1935880244"/>
+          </element>
+          <element value="false">
+           <key type="UInt32" value="1935880245"/>
+          </element>
+          <element value="true">
+           <key type="UInt32" value="1935880246"/>
+          </element>
+          <element value="false">
+           <key type="UInt32" value="1935880247"/>
+          </element>
+          <element value="true">
+           <key type="UInt32" value="1935880248"/>
+          </element>
+          <element value="false">
+           <key type="UInt32" value="1935880249"/>
+          </element>
+          <element value="false">
+           <key type="UInt32" value="1935880496"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
        <element key="4e18c060-93d5-4c7a-80b6-157c693eddc8" typeGUID="a15c2533-d004-4266-b121-68404aa5e02f">
         <value guid="4e18c060-93d5-4c7a-80b6-157c693eddc8" referenceGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f" memberId="1836281955">
          <pos x="467" y="-656"/>
+        </value>
+       </element>
+       <element key="58857bf1-14ae-4ca7-a21f-7e33dba43a65" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="58857bf1-14ae-4ca7-a21f-7e33dba43a65" objectGUID="be818e39-4e83-4160-9e1b-54e9ded4ef74">
+         <pos x="243" y="2067"/>
+         <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
+         <inputs>
+          <element value="true">
+           <key type="UInt32" value="7562612"/>
+          </element>
+          <element value="nw">
+           <key type="UInt32" value="1952540526"/>
+          </element>
+         </inputs>
         </value>
        </element>
        <element key="a7f36dfb-5667-4cee-ab37-5eab2d3a9d02" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
@@ -764,6 +853,20 @@
        <element key="6cf74e81-562d-4dc0-926e-85302f703603" typeGUID="a15c2533-d004-4266-b121-68404aa5e02f">
         <value guid="6cf74e81-562d-4dc0-926e-85302f703603" referenceGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f" memberId="1836281975">
          <pos x="478" y="-2059"/>
+        </value>
+       </element>
+       <element key="822d8771-cd97-4e41-bd77-1b5557538178" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="822d8771-cd97-4e41-bd77-1b5557538178" objectGUID="be818e39-4e83-4160-9e1b-54e9ded4ef74">
+         <pos x="247" y="1926"/>
+         <functionId domain="Env" guid="04768686-96df-4f82-8cc8-109522a9f2e0"/>
+         <inputs>
+          <element value="false">
+           <key type="UInt32" value="7562612"/>
+          </element>
+          <element value="SDKPistol">
+           <key type="UInt32" value="1952540526"/>
+          </element>
+         </inputs>
         </value>
        </element>
        <element key="24b1c33d-dbc2-4e47-b8b6-f1fe0d86fc38" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
@@ -1115,6 +1218,34 @@
         <srcOutputId type="Idx" value="0"/>
         <dstInputId type="Idx" value="0"/>
        </element>
+       <element srcNodeGUID="822d8771-cd97-4e41-bd77-1b5557538178" dstNodeGUID="58857bf1-14ae-4ca7-a21f-7e33dba43a65">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="58857bf1-14ae-4ca7-a21f-7e33dba43a65" dstNodeGUID="2631a451-c3dd-4b38-a696-3518854f7324">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="2631a451-c3dd-4b38-a696-3518854f7324" dstNodeGUID="b4188380-6dcf-4596-8880-f0d940c1f37c">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="b4188380-6dcf-4596-8880-f0d940c1f37c" dstNodeGUID="8d2aa83b-08bf-4c45-8618-5245f02c7713">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="9256fb53-28c0-4b97-8074-b49d3519cae8" dstNodeGUID="822d8771-cd97-4e41-bd77-1b5557538178">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="9256fb53-28c0-4b97-8074-b49d3519cae8" dstNodeGUID="822d8771-cd97-4e41-bd77-1b5557538178">
+        <srcOutputId type="UInt32" value="6382446"/>
+        <dstInputId type="UInt32" value="1952540526"/>
+       </element>
+       <element srcNodeGUID="9256fb53-28c0-4b97-8074-b49d3519cae8" dstNodeGUID="2631a451-c3dd-4b38-a696-3518854f7324">
+        <srcOutputId type="UInt32" value="6382446"/>
+        <dstInputId type="UInt32" value="1952540526"/>
+       </element>
       </links>
      </Graph>
     </extensions>
@@ -1165,11 +1296,11 @@
      <translation>
       <position>
        <element element="0"/>
-       <element element="-2"/>
-       <element element="2"/>
+       <element element="0.12222844"/>
+       <element element="1.729521"/>
       </position>
      </translation>
-     <rotation x="0" y="-0" z="0"/>
+     <rotation x="-19.022684" y="0" z="0"/>
      <scale>
       <element element="1"/>
       <element element="1"/>
@@ -1222,11 +1353,11 @@
      <translation>
       <position>
        <element element="-0.046"/>
-       <element element="-2.2750001"/>
-       <element element="0.38999999"/>
+       <element element="-0.66252112"/>
+       <element element="0.29707789"/>
       </position>
      </translation>
-     <rotation x="0" y="-0" z="0"/>
+     <rotation x="-19.022684" y="0" z="0"/>
      <scale>
       <element element="1"/>
       <element element="1"/>
@@ -1237,12 +1368,6 @@
      <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
      <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
     </properties>
-    <extensions />
-    <children />
-   </element>
-   <element elementType="Timer" guid="56c2ac68-9894-40ff-b282-f15ce366f808" name="TestTimer" Schematyc::EMPEnv="clientserver" units="Seconds" seconds="3">
-    <flags AutoStart="true" Repeat="false"/>
-    <userDocumentation author="User" description=""/>
     <extensions />
     <children />
    </element>

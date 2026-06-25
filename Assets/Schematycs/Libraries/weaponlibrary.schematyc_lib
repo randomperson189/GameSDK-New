@@ -1,0 +1,6 @@
+<CrySchematyc CryXmlVersion="2" version="105" guid="0f1e7895-a266-4dc0-b746-33e8be98ce89" scope="">
+ <root elementType="Module" guid="3cf6e129-481e-4cd2-8e48-1d3bf21e9c02" name="weaponlibrary" Schematyc::EMPEnv="clientserver">
+  <extensions />
+  <children />
+ </root>
+</CrySchematyc>

@@ -32,6 +32,31 @@ void CInventoryComponent::Initialize()
 {
 }
 
+Cry::Entity::EventFlags CInventoryComponent::GetEventMask() const
+{
+	return
+		Cry::Entity::EEvent::Reset;
+}
+
+void CInventoryComponent::ProcessEvent(const SEntityEvent& event)
+{
+	switch (event.event)
+	{
+	case Cry::Entity::EEvent::Reset:
+	{
+		if (event.nParam[0] != 0)
+		{
+
+		}
+		else
+		{
+			m_pItems.clear();
+		}
+	}
+	break;
+	}
+}
+
 void CInventoryComponent::AddItem(Schematyc::ExplicitEntityId entityId)
 {
 	if (IEntity* myEntity = gEnv->pEntitySystem->GetEntity((EntityId)entityId))
