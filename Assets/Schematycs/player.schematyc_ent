@@ -1133,7 +1133,7 @@
     </children>
    </element>
    <element elementType="ComponentInstance" guid="49480795-1c51-4ee3-928f-e4678b5a9e5f" name="CPlayerComponent" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="63f4c0c6-32af-4acb-8fb0-57d45dd14725">
-    <properties MoveSpeedWalking="4" MoveSpeedCrouching="2.5" MoveSpeedSprinting="8.4399996" RotationSpeed="0.0020000001" RotationLimitsMinPitch="-1.5" RotationLimitsMaxPitch="1.5" JumpHeight="5" DefaultWeapon="schematyc::schematycs::weapons::pistol"/>
+    <properties MoveSpeedWalking="4" MoveSpeedCrouching="2.5" MoveSpeedSprinting="8.4399996" RotationSpeed="0.0020000001" RotationLimitsMinPitch="-1.5" RotationLimitsMaxPitch="1.5" JumpHeight="5" DefaultWeapon="schematyc::schematycs::weapons::pistol" DefaultWeapon2="schematyc::schematycs::weapons::shotgun"/>
     <extensions />
     <children />
    </element>

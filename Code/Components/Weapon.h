@@ -1,7 +1,6 @@
 // Copyright 2016-2019 Crytek GmbH / Crytek Group. All rights reserved.
 #pragma once
 
-#include "StdAfx.h"
 #include "Player.h"
 
 #include <CrySchematyc/Env/Elements/EnvComponent.h>
@@ -57,22 +56,18 @@ public:
 	void SetAnimationCodeName(Schematyc::CSharedString name);
 	void SetAnimationDatabase(Schematyc::MannequinAnimationDatabasePath FilePath);
 
-	Schematyc::ExplicitEntityId GetOwner();
-	void SetOwner(Schematyc::ExplicitEntityId entityId);
-
 	void SetShadowsOnly(bool shadowOnly);
 	void SetMaterialOpacity(IStatObj* obj, int materialIndex, float opacity);
 
 protected:
 	Cry::DefaultComponents::CStaticMeshComponent* m_pMeshComponent = nullptr;
 	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent = nullptr;
+	CItemComponent* m_pItemComponent = nullptr;
 
 	Schematyc::CSharedString m_pDisplayName;
 	Schematyc::CSharedString m_pAnimCodeName;
 
 	int m_pDamage;
-
-	EntityId m_pOwner;
 
 	IActionPtr m_pWeaponAction;
 
@@ -84,7 +79,7 @@ public:
 	void AttachToHand();
 
 	void Equip();
-	//void Holster();
+	void Holster();
 
 	void StartFire();
 	void StopFire();
@@ -95,6 +90,10 @@ public:
 	struct SEquip
 	{
 		SEquip() = default;
+	};
+	struct SHolster
+	{
+		SHolster() = default;
 	};
 
 	struct SStartFire

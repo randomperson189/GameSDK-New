@@ -43,7 +43,7 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0"/>
      <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_pistol_select_fp" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="1" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_pistol_select_fp" StopTrigger="do_nothing" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="1" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
      </Procedural>
     </ProcLayer>
    </Fragment>
@@ -51,7 +51,7 @@
     <ProcLayer>
      <Blend ExitTime="0" StartTime="0" Duration="0"/>
      <Procedural type="Audio">
-      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_pistol_deselect_3p" StopTrigger="" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="1" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
+      <ProceduralParams CryXmlVersion="2" StartTrigger="Play_w_pistol_deselect_3p" StopTrigger="do_nothing" AudioParameter="" AudioParameterValue="0" OcclusionType="ignore_state_name" AttachmentJoint="" Radius="1" IsVoice="false" PlayFacial="false" SoundFlags="0"/>
      </Procedural>
     </ProcLayer>
    </Fragment>

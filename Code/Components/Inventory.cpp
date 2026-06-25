@@ -1,5 +1,6 @@
 #include "StdAfx.h"
 #include "Inventory.h"
+#include "Item.h"
 
 #include <CrySchematyc/Env/Elements/EnvComponent.h>
 #include <CrySchematyc/Env/Elements/EnvFunction.h>
@@ -28,5 +29,22 @@ CInventoryComponent::~CInventoryComponent()
 }
 
 void CInventoryComponent::Initialize()
+{
+}
+
+void CInventoryComponent::AddItem(Schematyc::ExplicitEntityId entityId)
+{
+	if (IEntity* myEntity = gEnv->pEntitySystem->GetEntity((EntityId)entityId))
+	{
+		if (CItemComponent* myItem = myEntity->GetComponent<CItemComponent>())
+		{
+			m_pItems.push_back((EntityId)entityId);
+
+			myItem->SetOwner(Schematyc::ExplicitEntityId(m_pEntity->GetId()));
+		}
+	}
+}
+
+void CInventoryComponent::CreateItem(Schematyc::EntityClassName className)
 {
 }

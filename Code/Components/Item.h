@@ -6,6 +6,8 @@
 
 class CItemComponent final : public IEntityComponent
 {
+	static constexpr EEntityAspects ItemAspect = eEA_GameServerB;
+
 public:
 	CItemComponent();
 	virtual ~CItemComponent();
@@ -22,8 +24,17 @@ public:
 		desc.SetLabel("Item");
 		desc.SetDescription("This makes attached entities behave like an item");
 	}
+
+	virtual bool NetSerialize(TSerialize ser, EEntityAspects aspect, uint8 profile, int flags) override;
+	virtual NetworkAspectType GetNetSerializeAspectMask() const override { return ItemAspect; }
 	// ~IEntityComponent
 
 	void OnAdded();
 	void OnRemoved();
+
+	Schematyc::ExplicitEntityId GetOwner();
+	void SetOwner(Schematyc::ExplicitEntityId entityId);
+
+protected:
+	EntityId m_pOwner;
 };

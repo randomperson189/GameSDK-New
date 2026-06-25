@@ -1,8 +1,11 @@
 #pragma once
 
+#include "Item.h"
+
 #include <CryCore/StaticInstanceList.h>
 #include <CryEntitySystem/IEntitySystem.h>
 #include <CrySchematyc/Utils/SharedString.h>
+#include <CrySchematyc/ResourceTypes.h>
 
 class CInventoryComponent final : public IEntityComponent
 {
@@ -24,6 +27,12 @@ public:
 	}
 	// ~IEntityComponent
 
-protected:
-	std::vector<EntityId> m_pWeapons;
+//protected:
+public:
+	std::vector<EntityId> m_pItems;
+
+public:
+	void AddItem(Schematyc::ExplicitEntityId entityId);
+
+	void CreateItem(Schematyc::EntityClassName className);
 };

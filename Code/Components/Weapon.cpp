@@ -35,17 +35,6 @@ namespace
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetOwner, "{164C0A28-46C2-495E-8CBF-3FAFA1395E2E}"_cry_guid, "Set Owner");
-				pFunction->BindInput(1, 'own', "Owner", "Owner");
-				componentScope.Register(pFunction);
-			}
-			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::GetOwner, "{883C8332-E98D-4370-BB70-E74BAEA1C2D9}"_cry_guid, "Get Owner");
-				pFunction->BindOutput(0, 'own', "Owner", "Owner");
-				componentScope.Register(pFunction);
-			}
-
-			{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetDisplayName, "{E12F467B-7380-4EAA-A642-0300462643B2}"_cry_guid, "Set Display Name");
 				pFunction->BindInput(1, 'name', "Name", "Name");
 				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
@@ -67,6 +56,7 @@ namespace
 			}
 
 			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SEquip));
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SHolster));
 
 			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SStartFire));
 			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SStopFire));
@@ -94,6 +84,12 @@ CWeaponComponent::~CWeaponComponent()
 	const TagID scopeContextSound = pControllerDef->m_scopeContexts.Find("Audio");
 
 	m_pAnimationComponent->GetActionController()->ClearScopeContext(scopeContextSound);*/
+}
+
+static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SHolster>& desc)
+{
+	desc.SetGUID("{BCF9AA3F-8FD1-4F8C-A66B-B73C6E23F19B}"_cry_guid);
+	desc.SetLabel("Holster");
 }
 
 static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SEquip>& desc)
@@ -128,6 +124,7 @@ void CWeaponComponent::Initialize()
 {
 	m_pMeshComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CStaticMeshComponent>();
 	m_pAnimationComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>();
+	m_pItemComponent = m_pEntity->GetOrCreateComponent<CItemComponent>();
 
 	// Mark the entity to be replicated over the network
 	m_pEntity->GetNetEntity()->BindToNetwork();
@@ -151,16 +148,7 @@ void CWeaponComponent::ProcessEvent(const SEntityEvent& event)
 		{
 		case 1:
 		{
-			if (IEntity* pOwner = gEnv->pEntitySystem->GetEntity(m_pOwner))
-			{
-				if (auto* pPlayerComponent = pOwner->GetComponent<CPlayerComponent>())
-				{
-					if (pPlayerComponent->IsLocalClient())
-					{
-						SetShadowsOnly(!pPlayerComponent->m_bIsThirdPersonCamera);
-					}
-				}
-			}
+			
 		}
 		break;
 		}
@@ -175,7 +163,13 @@ void CWeaponComponent::ProcessEvent(const SEntityEvent& event)
 		const SControllerDef* pControllerDef = animationDatabaseManager.LoadControllerDef(m_pAnimationComponent->GetControllerDefinitionFile());
 		const TagID scopeContextSound = pControllerDef->m_scopeContexts.Find("Audio");
 
-		m_pAnimationComponent->GetActionController()->ClearScopeContext(scopeContextSound);
+		if (m_pAnimationComponent)
+		{
+			if (IActionController* pActionController = m_pAnimationComponent->GetActionController())
+			{
+				pActionController->ClearScopeContext(scopeContextSound);
+			}
+		}
 	}
 	break;
 	}
@@ -208,7 +202,7 @@ void CWeaponComponent::AttachToHand()
 {
 	// Switch to the active weapon now
 	// TODO: Make this work with inventory component
-	if (IEntity* pOwner = gEnv->pEntitySystem->GetEntity(m_pOwner))
+	if (IEntity* pOwner = gEnv->pEntitySystem->GetEntity((EntityId)m_pItemComponent->GetOwner()))
 	{
 		if (auto* pPlayerComponent = pOwner->GetComponent<CPlayerComponent>())
 		{
@@ -217,6 +211,8 @@ void CWeaponComponent::AttachToHand()
 			{
 				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 				{
+					pAttachmentMgr->GetInterfaceByName("weapon")->ClearBinding();
+
 					/*CCGFAttachment* pCGFAttachment = new CCGFAttachment();
 					pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(m_pEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
 
@@ -234,6 +230,8 @@ void CWeaponComponent::AttachToHand()
 			{
 				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 				{
+					pAttachmentMgr->GetInterfaceByName("weapon")->ClearBinding();
+
 					CEntityAttachment* pEntityAttachment = new CEntityAttachment();
 					pEntityAttachment->SetEntityId(GetEntityId());
 
@@ -242,8 +240,16 @@ void CWeaponComponent::AttachToHand()
 			}
 
 			// Set the 3P weapon mesh to shadows only based on player thirdperson camera parameter
-			// Have to use delay here to fix it not working properly upon respawn
-			SetTimer(1, 1);
+			if (IEntity* pOwner = gEnv->pEntitySystem->GetEntity((EntityId)m_pItemComponent->GetOwner()))
+			{
+				if (auto* pPlayerComponent = pOwner->GetComponent<CPlayerComponent>())
+				{
+					if (pPlayerComponent->IsLocalClient())
+					{
+						SetShadowsOnly(!pPlayerComponent->m_bIsThirdPersonCamera);
+					}
+				}
+			}
 
 			if (m_pAnimationComponent)
 			{
@@ -306,6 +312,14 @@ void CWeaponComponent::Equip()
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
 		pSchematycObject->ProcessSignal(SEquip(), GetGUID());
+	}
+}
+
+void CWeaponComponent::Holster()
+{
+	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
+	{
+		pSchematycObject->ProcessSignal(SHolster(), GetGUID());
 	}
 }
 
@@ -378,16 +392,6 @@ void CWeaponComponent::SetAnimationMesh(Schematyc::CharacterFileName FilePath)
 		meshComponent->SetTransformMatrix(transform.ToMatrix34());
 	}
 }*/
-
-void CWeaponComponent::SetOwner(Schematyc::ExplicitEntityId entityId)
-{
-	m_pOwner = static_cast<EntityId>(entityId);
-}
-
-Schematyc::ExplicitEntityId CWeaponComponent::GetOwner()
-{
-	return Schematyc::ExplicitEntityId(m_pOwner);
-}
 
 void CWeaponComponent::SetDisplayName(Schematyc::CSharedString name)
 {

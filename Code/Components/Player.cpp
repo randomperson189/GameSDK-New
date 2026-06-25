@@ -203,10 +203,7 @@ void CPlayerComponent::Initialize()
 	// Load the character and Mannequin data from file
 	m_pAnimationComponent3P->LoadFromDisk();
 
-	// Acquire fragment and tag identifiers to avoid doing so each update
-	m_idleFragmentId = m_pAnimationComponent3P->GetFragmentId("Idle");
-	m_walkFragmentId = m_pAnimationComponent3P->GetFragmentId("Walk");
-	m_rotateTagId = m_pAnimationComponent3P->GetTagId("Rotate");
+	m_pInventoryComponent = m_pEntity->GetOrCreateComponent<CInventoryComponent>();
 	
 	// Register the RemoteReviveOnClient function as a Remote Method Invocation (RMI) that can be executed by the server on clients
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
@@ -337,6 +334,63 @@ void CPlayerComponent::InitializeLocalPlayer()
 	});
 	m_pInputComponent->BindAction("player", "respawn", eAID_KeyboardMouse, eKI_P);
 
+	m_pInputComponent->RegisterAction("player", "switchweapon", [this](int activationMode, float value)
+	{
+		if (activationMode == eAAM_OnPress)
+		{
+			if (!m_pInventoryComponent->m_pItems.empty())
+			{
+				if (IEntity* pWeapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+				{
+					CryLogAlways("Current weapon is %s", gEnv->pEntitySystem->GetEntity(m_pActiveWeapon)->GetName());
+
+					pWeapon->GetComponent<CWeaponComponent>()->Holster();
+				}
+
+
+				/*if (it != m_pInventoryComponent->m_pItems.end())
+				{
+					size_t currentIndex = std::distance(m_pInventoryComponent->m_pItems.begin(), it);
+					size_t nextIndex = (currentIndex + 1) % m_pInventoryComponent->m_pItems.size();
+
+					m_pActiveWeapon = m_pInventoryComponent->m_pItems[nextIndex];
+
+					if (IEntity* pWeapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+					{
+						CryLogAlways("Switched ActiveWeapon to %s", gEnv->pEntitySystem->GetEntity(m_pActiveWeapon)->GetName());
+
+						pWeapon->GetComponent<CWeaponComponent>()->Equip();
+					}
+				}*/
+			}
+		}
+	});
+	m_pInputComponent->BindAction("player", "switchweapon", eAID_KeyboardMouse, EKeyId::eKI_1);
+
+	m_pInputComponent->RegisterAction("player", "switchweapon2", [this](int activationMode, float value)
+	{
+		if (activationMode == eAAM_OnPress)
+		{
+			auto it = std::find(m_pInventoryComponent->m_pItems.begin(), m_pInventoryComponent->m_pItems.end(), m_pActiveWeapon);
+
+			if (it != m_pInventoryComponent->m_pItems.end())
+			{
+				size_t currentIndex = std::distance(m_pInventoryComponent->m_pItems.begin(), it);
+				size_t nextIndex = (currentIndex + 1) % m_pInventoryComponent->m_pItems.size();
+
+				m_pActiveWeapon = m_pInventoryComponent->m_pItems[nextIndex];
+
+				if (IEntity* pWeapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+				{
+					CryLogAlways("Switched ActiveWeapon to %s", gEnv->pEntitySystem->GetEntity(m_pActiveWeapon)->GetName());
+
+					pWeapon->GetComponent<CWeaponComponent>()->Equip();
+				}
+			}
+		}
+	});
+	m_pInputComponent->BindAction("player", "switchweapon2", eAID_KeyboardMouse, EKeyId::eKI_2);
+
 	// Our local player has initialized, now call the Schematyc signal for it
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
@@ -416,10 +470,14 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 
 			if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
 			{
-				if (auto* pWeaponComp = pWeaponEntity->GetComponent<CWeaponComponent>())
+				if (auto* pItemComp = pWeaponEntity->GetComponent<CItemComponent>())
 				{
-					pWeaponComp->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
-					pWeaponComp->Equip();
+					pItemComp->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
+
+					if (auto* pWeaponComp = pWeaponEntity->GetComponent<CWeaponComponent>())
+					{
+						pWeaponComp->Equip();
+					}
 				}
 			}
 		}
@@ -480,7 +538,7 @@ bool CPlayerComponent::NetSerialize(TSerialize ser, EEntityAspects aspect, uint8
 	}
 	else if (aspect == WeaponAspect)
 	{
-		ser.BeginGroup("WeaponAspect");
+		ser.BeginGroup("ActiveWeapon");
 
 		// Set the new value from server
 		ser.Value("m_pActiveWeapon", m_pActiveWeapon, 'eid');
@@ -1217,17 +1275,41 @@ void CPlayerComponent::SpawnDefaultWeapon()
 	// Spawn the weapon on the server
 	if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams))
 	{
-		// Set the weapon's owner and player's activeweapon value on the server
-		pEntity->GetComponent<CWeaponComponent>()->SetOwner(Schematyc::ExplicitEntityId(GetEntityId()));
+		m_pInventoryComponent->AddItem(Schematyc::ExplicitEntityId(pEntity->GetId()));
+
+		// Tell other clients to add the item to inventory
+		if (auto* pWeaponComponent = pEntity->GetComponent<CWeaponComponent>())
+		{
+			pWeaponComponent->NetMarkAspectsDirty(CItemComponent::ItemAspect);
+		}
+
 		m_pActiveWeapon = pEntity->GetId();
 
 		CryLogAlways("MY ENTITY SPAWNED ID %u", pEntity->GetId());
 
-		// Attach weapon to the player's hand on the server
+		// Equip the player's weapon on the server, NetSerialize will handle it for clients
 		if (IEntity* pWeaponEntity = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
 		{
 			pWeaponEntity->GetComponent<CWeaponComponent>()->Equip();
 		}
+	}
+
+	IEntityClass* pClass2 = gEnv->pEntitySystem->GetClassRegistry()->FindClass(m_defaultWeapon2.value);
+
+	if (!pClass2)
+		return;
+
+	SEntitySpawnParams spawnParams2;
+	spawnParams2.pClass = pClass2;
+	spawnParams2.sName = m_defaultWeapon2.value;
+	spawnParams2.vPosition = GetWorldTransformMatrix().GetTranslation();
+
+	// Spawn the weapon on the server
+	if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams2))
+	{
+		m_pInventoryComponent->AddItem(Schematyc::ExplicitEntityId(pEntity->GetId()));
+
+		CryLogAlways("MY SECOND ENTITY SPAWNED ID %u", pEntity->GetId());
 	}
 }
 

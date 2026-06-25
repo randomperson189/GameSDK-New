@@ -1,6 +1,8 @@
 // Copyright 2017-2019 Crytek GmbH / Crytek Group. All rights reserved.
 #pragma once
 
+#include "Inventory.h"
+
 #include <array>
 #include <numeric>
 
@@ -196,6 +198,7 @@ public:
 		desc.AddMember(&CPlayerComponent::m_jumpHeight, 'jhgt', "JumpHeight", "Jump Height", "Height at which the player jumps", 5.0f);
 
 		desc.AddMember(&CPlayerComponent::m_defaultWeapon, 'dwep', "DefaultWeapon", "Default Weapon", "Weapon that the player spawns with", "");
+		desc.AddMember(&CPlayerComponent::m_defaultWeapon2, 'dwp2', "DefaultWeapon2", "Default Weapon 2", "Second weapon that the player spawns with", "");
 	}
 
 	void OnReadyForGameplayOnServer(bool firstSpawn);
@@ -258,6 +261,8 @@ protected:
 	bool RemoteReviveOnClient(RemoteReviveParams&& params, INetChannel* pNetChannel);
 	bool RemoteReviveOnServer(RemoteBlankParams&& params, INetChannel* pNetChannel);
 
+	//bool RemoteHolster(RemoteShootParams&& params, INetChannel* pNetChannel);
+
 	bool RemoteStartShoot(RemoteShootParams&& params, INetChannel* pNetChannel);
 	bool RemoteStopShoot(RemoteShootParams&& params, INetChannel* pNetChannel);
 
@@ -275,6 +280,7 @@ protected:
 public:
 	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent1P = nullptr;
 	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent3P = nullptr;
+	CInventoryComponent* m_pInventoryComponent = nullptr;
 protected:
 	Cry::DefaultComponents::CInputComponent* m_pInputComponent = nullptr;
 	Cry::Audio::DefaultComponents::CListenerComponent* m_pAudioListenerComponent = nullptr;
@@ -347,6 +353,7 @@ protected:
 
 	EntityId m_pActiveWeapon;
 	Schematyc::EntityClassName m_defaultWeapon;
+	Schematyc::EntityClassName m_defaultWeapon2;
 
 	bool GetActionMapsFromProfile();
 
