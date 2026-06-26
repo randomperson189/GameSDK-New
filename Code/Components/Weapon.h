@@ -19,12 +19,6 @@ public:
 	CWeaponComponent();
 	virtual ~CWeaponComponent();
 
-	static constexpr EEntityAspects PhysicsAspect = eEA_GameClientA;
-
-	//virtual NetworkAspectType GetNetSerializeAspectMask() const override { return PhysicsAspect; }
-
-	//virtual bool NetSerialize(TSerialize ser, EEntityAspects aspect, uint8, int flags) override;
-
 	// IEntityComponent
 	virtual void Initialize() override;
 

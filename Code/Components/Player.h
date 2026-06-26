@@ -368,7 +368,9 @@ public:
 	void StartShoot2();
 	void StopShoot2();
 
-	void SetCrouching(bool crouching);
+	void SetCrouching(bool crouching) { m_bCrouching = crouching; };
+	bool GetCrouching() { return m_bCrouching; };
+
 	void SetAttachmentOpacity(ICharacterInstance* character, Schematyc::CSharedString attachmentName, int materialIndex, float opacity);
 
 	void SetSubTag(Schematyc::CSharedString tag, bool set);

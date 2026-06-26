@@ -125,6 +125,12 @@ namespace
 				pFunction->BindInput(1, 'crch', "Crouching");
 				componentScope.Register(pFunction);
 			}
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetCrouching, "{81AD4871-5E02-4FDE-A263-9BDDF8B4BA0D}"_cry_guid, "Get Crouching");
+				pFunction->SetDescription("Gets crouching");
+				pFunction->BindOutput(0, 'crch', "Crouching");
+				componentScope.Register(pFunction);
+			}
 
 			{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetActiveWeapon, "{EEC48135-FBA0-40E2-9DDD-E076DABE5966}"_cry_guid, "Get Active Weapon");
@@ -488,6 +494,41 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 			// Update the camera component offset
 			UpdateCamera(frameTime);
 		}
+
+		// Water detection
+		// Adjustable blend factor: 
+		// 0.0f = feet height, 1.0f = camera height, 0.5f = halfway
+		// TODO: Maybe move this to UpdateMovementRequest
+		const float swimBlend = 0.8f;
+
+		// Feet and camera positions
+		Vec3 feetPos = m_pEntity->GetWorldPos();
+		Vec3 camPos = gEnv->pSystem->GetViewCamera().GetPosition();
+
+		// Water surface height at player's XY
+		float waterHeight = gEnv->p3DEngine->GetWaterLevel(&feetPos, nullptr, true);
+
+		// Blend between feet and camera
+		float blendedZ = feetPos.z * (1.0f - swimBlend) + camPos.z * swimBlend;
+
+		const float swimOffset = 0.0f; //0.1f; // small buffer, maybe tweak this later
+
+		IPhysicalEntity* pPhysEnt = m_pCharacterController->GetEntity()->GetPhysicalEntity();
+		pe_player_dynamics dynamics;
+		pPhysEnt->GetParams(&dynamics);
+
+		if (waterHeight > blendedZ + swimOffset)
+			dynamics.bSwimming = 1;
+		else if (waterHeight < blendedZ - swimOffset)
+			dynamics.bSwimming = 0;
+
+		pPhysEnt->SetParams(&dynamics);
+
+		// Debug log
+		/*CryLogAlways(
+			"WaterHeight=%.2f | FeetZ=%.2f | CamZ=%.2f | BlendZ=%.2f (Blend=%.2f) | Swimming=%d",
+			waterHeight, feetPos.z, camPos.z, blendedZ, swimBlend, dynamics.bSwimming
+		);*/
 	}
 	break;
 	case Cry::Entity::EEvent::Remove:
@@ -899,11 +940,6 @@ void CPlayerComponent::StopShoot2()
 	RemoteShootParams params;
 
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShoot2)>::InvokeOnServer(this, std::move(params));
-}
-
-void CPlayerComponent::SetCrouching(bool crouching)
-{
-	m_bCrouching = crouching;
 }
 
 bool CPlayerComponent::IsSwimming()
