@@ -125,9 +125,6 @@ void CWeaponComponent::Initialize()
 	m_pMeshComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CStaticMeshComponent>();
 	m_pAnimationComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>();
 	m_pItemComponent = m_pEntity->GetOrCreateComponent<CItemComponent>();
-
-	// Mark the entity to be replicated over the network
-	m_pEntity->GetNetEntity()->BindToNetwork();
 }
 
 Cry::Entity::EventFlags CWeaponComponent::GetEventMask() const 

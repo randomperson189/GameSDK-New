@@ -1506,7 +1506,11 @@ bool CPlayerComponent::RemoteDieOnServer(RemoteBlankParams&& params, INetChannel
 bool CPlayerComponent::RemoteDieOnClients(RemoteBlankParams&& params, INetChannel* pNetChannel)
 {
 	if (!IsRagdoll())
+	{
 		Ragdollize();
+
+		m_pInventoryComponent->m_pItems.clear();
+	}
 
 	return true;
 }

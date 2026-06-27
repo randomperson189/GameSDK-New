@@ -461,6 +461,11 @@
     <extensions />
     <children />
    </element>
+   <element elementType="ComponentInstance" guid="165f09be-76c3-4ad6-b210-576cb7647d7c" name="Network Helper" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="b65f8780-fd47-49d7-ad6f-02df006f322a">
+    <properties Networked="true"/>
+    <extensions />
+    <children />
+   </element>
   </children>
  </root>
 </CrySchematyc>

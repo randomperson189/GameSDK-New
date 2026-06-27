@@ -1888,8 +1888,8 @@
     </extensions>
     <children />
    </element>
-   <element elementType="ComponentInstance" guid="f3890ff3-a009-4f19-89b1-1fdb7d772dba" name="Network Helper" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="b65f8780-fd47-49d7-ad6f-02df006f322a">
-    <properties />
+   <element elementType="ComponentInstance" guid="f3890ff3-a009-4f19-89b1-1fdb7d772dba" name="Network Helper" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="b65f8780-fd47-49d7-ad6f-02df006f322a">
+    <properties Networked="false"/>
     <extensions />
     <children />
    </element>

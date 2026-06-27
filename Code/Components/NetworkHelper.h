@@ -27,6 +27,8 @@ public:
 		desc.SetEditorCategory("Utilities");
 		desc.SetLabel("Network Helper");
 		desc.SetDescription("Component to help with networking");
+
+		desc.AddMember(&CNetworkHelperComponent::m_bIsNetworked, 'netw', "Networked", "Network Synced", "Syncs the entity over the network, and keeps it in sync with the server", true);
 	}
 
 	virtual NetworkAspectType GetNetSerializeAspectMask() const override { return NetworkServerAspect | NetworkClientAspect; }
@@ -85,6 +87,8 @@ public:
 		bool bPrevClientBool1;
 	};
 protected:
+	bool m_bIsNetworked;
+
 	// RMI Functions
 	struct RemoteParams
 	{

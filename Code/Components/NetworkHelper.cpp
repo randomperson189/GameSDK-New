@@ -89,6 +89,10 @@ CNetworkHelperComponent::~CNetworkHelperComponent()
 
 void CNetworkHelperComponent::Initialize()
 {
+	if (m_bIsNetworked)
+	{
+		m_pEntity->GetNetEntity()->BindToNetwork();
+	}
 }
 
 bool CNetworkHelperComponent::NetSerialize(TSerialize ser, EEntityAspects aspect, uint8 profile, int flags)

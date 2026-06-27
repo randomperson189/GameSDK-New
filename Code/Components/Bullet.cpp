@@ -60,7 +60,7 @@ void CBulletComponent::Initialize()
 	}
 
 	// Mark the entity to be replicated over the network
-	m_pEntity->GetNetEntity()->BindToNetwork();
+	//m_pEntity->GetNetEntity()->BindToNetwork();
 }
 
 Cry::Entity::EventFlags CBulletComponent::GetEventMask() const 

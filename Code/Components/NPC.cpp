@@ -59,7 +59,7 @@ void CNPCComponent::Initialize()
 	m_pCharacterController->Physicalize();
 
 	// Mark the entity to be replicated over the network
-	m_pEntity->GetNetEntity()->BindToNetwork();
+	//m_pEntity->GetNetEntity()->BindToNetwork();
 }
 
 Cry::Entity::EventFlags CNPCComponent::GetEventMask() const
