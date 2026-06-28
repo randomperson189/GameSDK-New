@@ -22,7 +22,12 @@ namespace
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CNetworkHelperComponent::SendToServer, "{6EAEF9E3-48D9-42CA-AFDB-1872D811A83E}"_cry_guid, "Send To Server");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CNetworkHelperComponent::SendToServer, "{6EAEF9E3-48D9-42CA-AFDB-1872D811A83E}"_cry_guid, "Send Remote Event To Server");
+				pFunction->BindInput(1, 'enam', "Event Name");
+				componentScope.Register(pFunction);
+			}
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CNetworkHelperComponent::SendToClients, "{DBE8F0EA-F6C6-4FF5-AC14-97A0571AC3EC}"_cry_guid, "Send Remote Event To Clients");
 				pFunction->BindInput(1, 'enam', "Event Name");
 				componentScope.Register(pFunction);
 			}
@@ -93,6 +98,10 @@ void CNetworkHelperComponent::Initialize()
 	{
 		m_pEntity->GetNetEntity()->BindToNetwork();
 	}
+
+	SRmi<RMI_WRAP(&CNetworkHelperComponent::RemoteSendToServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+	SRmi<RMI_WRAP(&CNetworkHelperComponent::RemoteSendToClients)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+	// TODO: Maybe add reliability options instead of just eNRT_ReliableOrdered
 }
 
 bool CNetworkHelperComponent::NetSerialize(TSerialize ser, EEntityAspects aspect, uint8 profile, int flags)

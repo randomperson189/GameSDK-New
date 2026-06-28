@@ -32,8 +32,8 @@ public:
 	void OnAdded();
 	void OnRemoved();
 
-	Schematyc::ExplicitEntityId GetOwner();
-	void SetOwner(Schematyc::ExplicitEntityId entityId);
+	Schematyc::ExplicitEntityId GetOwner() { return Schematyc::ExplicitEntityId(m_pOwner); };
+	void SetOwner(Schematyc::ExplicitEntityId entityId) { m_pOwner = static_cast<EntityId>(entityId); };
 
 protected:
 	EntityId m_pOwner;

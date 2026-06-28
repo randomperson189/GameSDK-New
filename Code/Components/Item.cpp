@@ -67,13 +67,3 @@ bool CItemComponent::NetSerialize(TSerialize ser, EEntityAspects aspect, uint8 p
 
 	return true;
 }
-
-void CItemComponent::SetOwner(Schematyc::ExplicitEntityId entityId)
-{
-	m_pOwner = static_cast<EntityId>(entityId);
-}
-
-Schematyc::ExplicitEntityId CItemComponent::GetOwner()
-{
-	return Schematyc::ExplicitEntityId(m_pOwner);
-}
