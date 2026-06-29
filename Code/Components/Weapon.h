@@ -34,6 +34,7 @@ public:
 
 		desc.AddMember(&CWeaponComponent::m_pDisplayName, 'dsn', "DisplayName", "Display Name", "Weapon display name", "Weapon Name");
 		desc.AddMember(&CWeaponComponent::m_pAnimCodeName, 'acn', "AnimCodeName", "Animation Code Name", "Weapon name in animation code (e.g. Mannequin tags and fragments)", "Weapon Code Name");
+		desc.AddMember(&CWeaponComponent::m_pWeaponType, 'wpt', "WeaponType", "Weapon Type", "Weapon type in animation code (e.g. AimPose)", "Weapon Type");
 		desc.AddMember(&CWeaponComponent::m_pDamage, 'dmg', "Damage", "Damage", "Damage of the weapon", 5);
 	}
 
@@ -47,6 +48,7 @@ public:
 	//void SetMeshTransform(CryTransform::CTransform transform);
 
 	void SetDisplayName(Schematyc::CSharedString name);
+	void SetWeaponType(Schematyc::CSharedString name);
 	void SetAnimationCodeName(Schematyc::CSharedString name);
 	void SetAnimationDatabase(Schematyc::MannequinAnimationDatabasePath FilePath);
 
@@ -61,6 +63,7 @@ protected:
 public:
 	Schematyc::CSharedString m_pDisplayName;
 	Schematyc::CSharedString m_pAnimCodeName;
+	Schematyc::CSharedString m_pWeaponType;
 protected:
 
 	int m_pDamage;

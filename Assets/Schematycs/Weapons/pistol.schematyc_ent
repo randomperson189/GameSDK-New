@@ -20,6 +20,17 @@
          </inputs>
         </value>
        </element>
+       <element key="8e43b95e-823a-4074-80f6-925c7e91b527" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="8e43b95e-823a-4074-80f6-925c7e91b527" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
+         <pos x="95" y="349"/>
+         <functionId domain="Env" guid="3b1864ec-427a-4e58-b5a1-c6adb3540746"/>
+         <inputs>
+          <element value="pistol">
+           <key type="UInt32" value="1851878757"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
        <element key="be588ea4-72ef-437a-95f2-97280eab207e" typeGUID="12bdfa06-ba95-4e48-bb2d-bb48a7080abc">
         <value guid="be588ea4-72ef-437a-95f2-97280eab207e">
          <pos x="-32" y="-32"/>
@@ -88,6 +99,10 @@
         <dstInputId type="Idx" value="0"/>
        </element>
        <element srcNodeGUID="6c673241-dc66-4707-994b-3911c007c947" dstNodeGUID="f04aca2e-b59c-43f2-9a65-b4ccc5804b78">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
+       <element srcNodeGUID="f04aca2e-b59c-43f2-9a65-b4ccc5804b78" dstNodeGUID="8e43b95e-823a-4074-80f6-925c7e91b527">
         <srcOutputId type="Idx" value="0"/>
         <dstInputId type="Idx" value="0"/>
        </element>

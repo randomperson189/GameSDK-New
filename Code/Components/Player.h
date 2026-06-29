@@ -322,6 +322,7 @@ protected:
 	IActionPtr m_pMotion1PAction;
 
 	IActionPtr m_pFullBody3PAction;
+	IActionPtr m_pAimPoseAction;
 	IActionPtr m_pTorso3PAction;
 	//------------------------------------
 	int m_pFullBody1PPriority = 1;
@@ -329,6 +330,7 @@ protected:
 	int m_pMotion1PPriority = 1;
 
 	int m_pFullBody3PPriority = 1;
+	int m_pAimPosePriority = 1;
 	int m_pTorso3PPriority = 1;
 	//------------------------------------
 	std::string m_pActiveFragmentFullBody1P;
@@ -336,6 +338,7 @@ protected:
 	std::string m_pActiveFragmentMotion1P;
 
 	std::string m_pActiveFragmentFullBody3P;
+	std::string m_pActiveFragmentAimPose;
 	std::string m_pActiveFragmentTorso3P;
 	//------------------------------------
 

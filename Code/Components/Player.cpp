@@ -218,6 +218,9 @@ void CPlayerComponent::Initialize()
 	// Load the character and Mannequin data from file
 	m_pAnimationComponent3P->LoadFromDisk();
 
+	// Create the camera component, will automatically update the viewport every frame
+	m_pCameraComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CCameraComponent>();
+	
 	m_pInventoryComponent = m_pEntity->GetOrCreateComponent<CInventoryComponent>();
 	
 	// Register the RemoteReviveOnClient function as a Remote Method Invocation (RMI) that can be executed by the server on clients
@@ -265,9 +268,6 @@ void CPlayerComponent::InitializeLocalPlayer()
 			pAttachmentMgr->GetInterfaceByName("shoes")->HideAttachment(1);
 		}
 	}
-
-	// Create the camera component, will automatically update the viewport every frame
-	m_pCameraComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CCameraComponent>();
 
 	m_pCameraComponent->Activate();
 
@@ -754,6 +754,26 @@ void CPlayerComponent::UpdateAnimation(float frameTime)
 			m_pEntity->SetSlotFlags(m_pAnimationComponent1P->GetEntitySlotId(), slotFlags);
 		}
 	}
+
+	// Update AimPose Target Position
+	// TODO: Organise this better, maybe also expose to Schematyc
+	if (m_pCameraComponent)
+	{
+		if (ICharacterInstance* pCharacter = m_pAnimationComponent3P->GetCharacter())
+		{
+			if (IAnimationPoseBlenderDir* pAim = pCharacter->GetISkeletonPose()->GetIPoseBlenderAim())
+			{
+				Matrix34 cameraTM = m_pCameraComponent->GetWorldTransformMatrix();
+
+				Vec3 cameraPos = cameraTM.GetTranslation();
+				Vec3 forward = m_lookOrientation.GetColumn1();
+
+				Vec3 target = cameraPos + forward * 100.0f;
+
+				pAim->SetTarget(target);
+			}
+		}
+	}
 }
 
 void CPlayerComponent::UpdateCamera(float frameTime)
@@ -1057,6 +1077,9 @@ void CPlayerComponent::QueueFragmentOnScope(Schematyc::CSharedString fragment, c
 		case EPlayerScopes::Scope_6:
 			return m_pFullBody3PAction;
 
+		case EPlayerScopes::Scope_7:
+			return m_pAimPoseAction;
+
 		case EPlayerScopes::Scope_8:
 			return m_pTorso3PAction;
 
@@ -1081,6 +1104,9 @@ void CPlayerComponent::QueueFragmentOnScope(Schematyc::CSharedString fragment, c
 
 		case EPlayerScopes::Scope_6:
 			return m_pFullBody3PPriority;
+
+		case EPlayerScopes::Scope_7:
+			return m_pAimPosePriority;
 
 		case EPlayerScopes::Scope_8:
 			return m_pTorso3PPriority;
@@ -1155,6 +1181,9 @@ void CPlayerComponent::SetDesiredFragmentOnScope(Schematyc::CSharedString fragme
 		case EPlayerScopes::Scope_6:
 			return m_pActiveFragmentFullBody3P;
 
+		case EPlayerScopes::Scope_7:
+			return m_pActiveFragmentAimPose;
+
 		case EPlayerScopes::Scope_8:
 			return m_pActiveFragmentTorso3P;
 
@@ -1179,6 +1208,7 @@ void CPlayerComponent::RefreshFragmentsOnScopes(bool trumpPreviousFragment, bool
 	//if (Scope4) { QueueFragmentOnScope(activeFragmentSway1P.c_str(), EPlayerScopes::Scope_4, trumpPreviousFragment); }
 
 	if (Scope6) { QueueFragmentOnScope(m_pActiveFragmentFullBody3P.c_str(), EPlayerScopes::Scope_6, trumpPreviousFragment); }
+	if (Scope7) { QueueFragmentOnScope(m_pActiveFragmentAimPose.c_str(), EPlayerScopes::Scope_7, trumpPreviousFragment); }
 	if (Scope8) { QueueFragmentOnScope(m_pActiveFragmentTorso3P.c_str(), EPlayerScopes::Scope_8, trumpPreviousFragment); }
 }
 
@@ -1642,6 +1672,8 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 	m_pActiveFragmentTorso1P.clear();
 	m_pActiveFragmentMotion1P.clear();
 	m_pActiveFragmentFullBody3P.clear();
+	m_pActiveFragmentAimPose.clear();
+	m_pActiveFragmentTorso3P.clear();
 
 	m_horizontalAngularVelocity = 0.0f;
 	m_averagedHorizontalAngularVelocity.Reset();

@@ -38,18 +38,11 @@
      <element guid="685044d0-d84b-4efb-a630-1c753094db19" name="FullBody3P" value="false">
       <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
-     <element guid="522a0e44-5eb3-404b-9bb8-e9bb218a3998" name="Torso3P" value="false">
+     <element guid="522a0e44-5eb3-404b-9bb8-e9bb218a3998" name="AimPose" value="false">
       <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
-    </inputs>
-    <userDocumentation author="User" description=""/>
-    <extensions />
-    <children />
-   </element>
-   <element elementType="Signal" guid="62982118-5573-47ef-9001-f8b31e88d6c1" name="PlayerLibrary QueueFragmentOnScope" Schematyc::EMPEnv="clientserver">
-    <inputs>
-     <element guid="f5a950e5-122c-426b-8d22-f641ed39e6ee" name="">
-      <typeId domain="" guid=""/>
+     <element guid="76379229-6add-4a30-892c-97b7b9663cf9" name="Torso3P" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
     </inputs>
     <userDocumentation author="User" description=""/>
@@ -82,7 +75,10 @@
      <element guid="ce01c76c-ef49-43ee-a7da-46547498a738" name="FullBody3P" value="false">
       <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
-     <element guid="ff00c1f3-2816-41d8-9c6c-6d9e76b81d59" name="Torso3P" value="false">
+     <element guid="ff00c1f3-2816-41d8-9c6c-6d9e76b81d59" name="AimPose" value="false">
+      <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
+     </element>
+     <element guid="70386362-c6df-48f9-b238-5ce86b7a125a" name="Torso3P" value="false">
       <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
      </element>
     </inputs>
@@ -110,16 +106,6 @@
      </element>
      <element guid="0e9a4a2d-2b0d-4622-ba5a-2766abcaf7a6" name="Value" value="false">
       <typeId domain="Env" guid="03211ee1-b8d3-42a5-bfdc-296fc535fe43"/>
-     </element>
-    </inputs>
-    <userDocumentation author="User" description=""/>
-    <extensions />
-    <children />
-   </element>
-   <element elementType="Signal" guid="f76b3376-2b25-4d10-a89f-54d6aecebf09" name="WeaponLibrary ReceiveAnimCodeName" Schematyc::EMPEnv="clientserver">
-    <inputs>
-     <element guid="59d8f136-2a01-4c9f-84c6-292eecfed1c8" name="Name" value="">
-      <typeId domain="Env" guid="02b79308-c51c-4841-99ec-c887577217a7"/>
      </element>
     </inputs>
     <userDocumentation author="User" description=""/>

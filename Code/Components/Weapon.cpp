@@ -41,6 +41,12 @@ namespace
 				componentScope.Register(pFunction);
 			}
 			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetWeaponType, "{3B1864EC-427A-4E58-B5A1-C6ADB3540746}"_cry_guid, "Set Weapon Type");
+				pFunction->BindInput(1, 'name', "Name", "Name");
+				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
+				componentScope.Register(pFunction);
+			}
+			{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetAnimationCodeName, "{BBEB37A5-138A-44FB-B86F-BBE7DF6EFCB2}"_cry_guid, "Set Animation Code Name");
 				pFunction->BindInput(1, 'name', "Name", "Name");
 				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
@@ -418,6 +424,11 @@ void CWeaponComponent::SetAnimationMesh(Schematyc::CharacterFileName FilePath)
 void CWeaponComponent::SetDisplayName(Schematyc::CSharedString name)
 {
 	m_pDisplayName = name;
+}
+
+void CWeaponComponent::SetWeaponType(Schematyc::CSharedString name)
+{
+	m_pWeaponType = name;
 }
 
 void CWeaponComponent::SetAnimationCodeName(Schematyc::CSharedString name)
