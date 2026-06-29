@@ -323,6 +323,24 @@ void CPlayerComponent::InitializeLocalPlayer()
 					}
 				}
 			}
+			else
+			{
+				if (ICharacterInstance* pCharInstance = m_pAnimationComponent3P->GetCharacter())
+				{
+					if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+					{
+						if (m_bIsThirdPersonCamera)
+						{
+							pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(0);
+						}
+						else
+						{
+							pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
+							pAttachmentMgr->GetInterfaceByName("head")->HideInShadow(0);
+						}
+					}
+				}
+			}
 		}
 	});
 	m_pInputComponent->BindAction("player", "toggleperspective", eAID_KeyboardMouse, eKI_C);
@@ -1226,6 +1244,15 @@ void CPlayerComponent::Ragdollize()
 			if (auto* pWeaponComp = pWeapon->GetComponent<CWeaponComponent>())
 			{
 				pWeaponComp->SetShadowsOnly(false);
+			}
+		}
+
+		if (ICharacterInstance* pCharInstance = m_pAnimationComponent3P->GetCharacter())
+		{
+			if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+			{
+				pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("head")->HideInShadow(0);
 			}
 		}
 	}
