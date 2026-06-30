@@ -794,6 +794,7 @@ void CPlayerComponent::UpdateAnimation(float frameTime)
 				Vec3 target = cameraPos + forward * 1000.0f;
 
 				pAim->SetTarget(target);
+				pAim->SetPolarCoordinatesSmoothTimeSeconds(0.0f);
 			}
 		}
 	}
