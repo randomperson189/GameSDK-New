@@ -299,8 +299,8 @@ protected:
 
 	float m_jumpHeight = 5.0f;
 
-	float m_baseHeight = 1.375f;
-	float m_torsoHeight = 0.375f;
+	float m_baseHeight = 1.40f;
+	float m_torsoHeight = 0.35f;
 
 	float m_baseHeightCrouching = 0.875f;
 

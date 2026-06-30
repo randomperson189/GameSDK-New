@@ -280,17 +280,17 @@ void CPlayerComponent::InitializeLocalPlayer()
 	GetActionMapsFromProfile();
 
 	// Register an action, and the callback that will be sent when it's triggered
-	m_pInputComponent->RegisterAction("player", "moveleft", [this](int activationMode, float value) {m_movementDelta.x = -value; HandleInputFlagChange(EInputFlag::MoveLeft, (EActionActivationMode)activationMode); });
+	m_pInputComponent->RegisterAction("player", "moveleft", [this](int activationMode, float value) {m_movementDelta.x = -value; HandleInputFlagChange(EInputFlag::MoveLeft, (EActionActivationMode)activationMode); if (activationMode == eAAM_OnPress || activationMode == eAAM_OnRelease) { UpdateMovementRequest(0); }});
 	// Bind the 'A' key the "moveleft" action
 	m_pInputComponent->BindAction("player", "moveleft", eAID_KeyboardMouse, eKI_A);
 
-	m_pInputComponent->RegisterAction("player", "moveright", [this](int activationMode, float value) {m_movementDelta.x = value; HandleInputFlagChange(EInputFlag::MoveRight, (EActionActivationMode)activationMode); });
+	m_pInputComponent->RegisterAction("player", "moveright", [this](int activationMode, float value) {m_movementDelta.x = value; HandleInputFlagChange(EInputFlag::MoveRight, (EActionActivationMode)activationMode); if (activationMode == eAAM_OnPress || activationMode == eAAM_OnRelease) { UpdateMovementRequest(0); }});
 	m_pInputComponent->BindAction("player", "moveright", eAID_KeyboardMouse, eKI_D);
 
-	m_pInputComponent->RegisterAction("player", "moveforward", [this](int activationMode, float value) {m_movementDelta.y = value; HandleInputFlagChange(EInputFlag::MoveForward, (EActionActivationMode)activationMode); });
+	m_pInputComponent->RegisterAction("player", "moveforward", [this](int activationMode, float value) {m_movementDelta.y = value; HandleInputFlagChange(EInputFlag::MoveForward, (EActionActivationMode)activationMode); if (activationMode == eAAM_OnPress || activationMode == eAAM_OnRelease) { UpdateMovementRequest(0); }});
 	m_pInputComponent->BindAction("player", "moveforward", eAID_KeyboardMouse, eKI_W);
 
-	m_pInputComponent->RegisterAction("player", "moveback", [this](int activationMode, float value) {m_movementDelta.y = -value; HandleInputFlagChange(EInputFlag::MoveBack, (EActionActivationMode)activationMode); });
+	m_pInputComponent->RegisterAction("player", "moveback", [this](int activationMode, float value) {m_movementDelta.y = -value; HandleInputFlagChange(EInputFlag::MoveBack, (EActionActivationMode)activationMode); if (activationMode == eAAM_OnPress || activationMode == eAAM_OnRelease) { UpdateMovementRequest(0); }});
 	m_pInputComponent->BindAction("player", "moveback", eAID_KeyboardMouse, eKI_S);
 
 	m_pInputComponent->RegisterAction("player", "controllermove_x", [this](int activationMode, float value) {m_movementDelta.x = value; HandleInputFlagChange(EInputFlag::MoveLeft, (EActionActivationMode)activationMode); });
@@ -677,6 +677,12 @@ void CPlayerComponent::UpdateMovementRequest(float frameTime)
 
 	Vec3 finalVelocity = ZERO;
 
+	// Look direction
+	Ang3 ypr = CCamera::CreateAnglesYPR(Matrix33(m_lookOrientation));
+
+	ypr.y = 0;
+	ypr.z = 0;
+
 	if (IsSwimming())
 	{
 		if (m_pCameraComponent)
@@ -688,7 +694,7 @@ void CPlayerComponent::UpdateMovementRequest(float frameTime)
 	else
 	{
 		// Land movement: rotate input by entity rotation (XY only)
-		finalVelocity = GetEntity()->GetWorldRotation() * input * m_currentMoveSpeed;
+		finalVelocity = Quat(CCamera::CreateOrientationYPR(ypr)) * input * m_currentMoveSpeed;
 	}
 
 	m_pCharacterController->SetVelocity(finalVelocity);
@@ -757,7 +763,6 @@ void CPlayerComponent::UpdateAnimation(float frameTime)
 	const Quat correctedOrientation = Quat(CCamera::CreateOrientationYPR(ypr));
 
 	// Send updated transform to the entity, only orientation changes
-	//GetEntity()->SetPosRotScale(GetEntity()->GetWorldPos(), correctedOrientation, Vec3(1, 1, 1));
 	if (!IsRagdoll())
 		m_pEntity->SetRotation(correctedOrientation);
 
@@ -786,7 +791,7 @@ void CPlayerComponent::UpdateAnimation(float frameTime)
 				Vec3 cameraPos = cameraTM.GetTranslation();
 				Vec3 forward = m_lookOrientation.GetColumn1();
 
-				Vec3 target = cameraPos + forward * 100.0f;
+				Vec3 target = cameraPos + forward * 1000.0f;
 
 				pAim->SetTarget(target);
 			}
@@ -801,7 +806,6 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 
 	if (!IsRagdoll())
 	{
-		ypr.x = 0;
 		ypr.z = 0;
 	}
 
@@ -818,7 +822,7 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 
 	// Start with changing view rotation to the requested mouse look orientation
 	Matrix34 localTransform = IDENTITY;
-	localTransform.SetRotation33(CCamera::CreateOrientationYPR(ypr));
+	localTransform.SetRotation33(Matrix33(m_pEntity->GetWorldRotation().GetInverted()) * CCamera::CreateOrientationYPR(ypr));
 
 	float viewOffsetForward;
 	float viewOffsetUp;
@@ -845,10 +849,24 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 	{
 		// Offset the player along the forward axis (normally back)
 		// Also offset upwards
-		viewOffsetForward = -2.0f;
-		viewOffsetUp = 2.0f;
+		viewOffsetForward = -2.5f;
+		viewOffsetUp = 0.0f;
 
-		localTransform.SetTranslation(Vec3(0, viewOffsetForward, viewOffsetUp));
+		Matrix33 cameraRot = Matrix33(m_pEntity->GetWorldRotation().GetInverted()) * CCamera::CreateOrientationYPR(ypr);
+
+		Vec3 pivot(0, 0, m_currentBaseHeight + m_torsoHeight);
+		Vec3 localOffset(0, viewOffsetForward, viewOffsetUp);
+
+		/*if (IsRagdoll())
+		{
+			pivot = Vec3(0, 0, 1.375f);
+			viewOffsetUp = 0.0f;
+
+			localOffset = Vec3(0, viewOffsetForward, viewOffsetUp);
+		}*/
+
+		localTransform.SetRotation33(cameraRot);
+		localTransform.SetTranslation(pivot + cameraRot * localOffset);
 	}
 
 	if (m_pCameraComponent) 
@@ -1235,24 +1253,27 @@ void CPlayerComponent::Ragdollize()
 	if (IsRagdoll())
 		return;
 
-	if (!m_bIsThirdPersonCamera)
+	if (IsLocalClient())
 	{
-		SetCharacterThirdPerson(true);
-		
-		if (IEntity* pWeapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+		if (!m_bIsThirdPersonCamera)
 		{
-			if (auto* pWeaponComp = pWeapon->GetComponent<CWeaponComponent>())
-			{
-				pWeaponComp->SetShadowsOnly(false);
-			}
-		}
+			SetCharacterThirdPerson(true);
 
-		if (ICharacterInstance* pCharInstance = m_pAnimationComponent3P->GetCharacter())
-		{
-			if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+			if (IEntity* pWeapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
 			{
-				pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
-				pAttachmentMgr->GetInterfaceByName("head")->HideInShadow(0);
+				if (auto* pWeaponComp = pWeapon->GetComponent<CWeaponComponent>())
+				{
+					pWeaponComp->SetShadowsOnly(false);
+				}
+			}
+
+			if (ICharacterInstance* pCharInstance = m_pAnimationComponent3P->GetCharacter())
+			{
+				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+				{
+					pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
+					pAttachmentMgr->GetInterfaceByName("head")->HideInShadow(0);
+				}
 			}
 		}
 	}
