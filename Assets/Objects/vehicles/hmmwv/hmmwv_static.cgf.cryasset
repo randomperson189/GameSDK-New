@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Mesh" guid="48dec9ee-821d-f6fd-7dba-fcbb889897f8">
+ <Files>
+  <File path="hmmwv_static.cgf"/>
+  <File path="hmmwv_static_lod1.cgf"/>
+  <File path="hmmwv_static_lod2.cgf"/>
+  <File path="hmmwv_static_lod3.cgf"/>
+  <File path="hmmwv_static_lod4.cgf"/>
+  <File path="hmmwv_static_lod5.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">14</Detail>
+  <Detail name="triangleCount">36192</Detail>
+  <Detail name="vertexCount">39620</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./hmmwv.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="6ce85ff2-f9f1-e801-0486-6792c777f632">
+ <Files>
+  <File path="m1a1_tread.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">1816</Detail>
+  <Detail name="vertexCount">2420</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/vehicles/abrams/m1a1_desert.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

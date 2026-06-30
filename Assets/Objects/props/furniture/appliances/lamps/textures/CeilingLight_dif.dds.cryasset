@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="80946a8d-d742-45c9-f387-7d5719627d59">
+ <Files>
+  <File path="CeilingLight_dif.dds"/>
+  <File path="CeilingLight_dif.dds.1"/>
+  <File path="CeilingLight_dif.dds.2"/>
+  <File path="CeilingLight_dif.dds.3"/>
+  <File path="CeilingLight_dif.dds.4"/>
+  <File path="CeilingLight_dif.dds.5"/>
+  <File path="CeilingLight_dif.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

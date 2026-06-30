@@ -1,0 +1,30 @@
+<AssetMetadata version="0" type="Material" guid="9c3f7e7f-3273-c992-ca85-2d4feada17ef">
+ <Files>
+  <File path="lighthouse.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">10</Detail>
+  <Detail name="textureCount">19</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_decal_diff.dds</Path>
+  <Path usageCount="1">textures/defaults/white_noise.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_light_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_light_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_alpha_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_alpha_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_door_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_door_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_windows_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/ligthhouse_metal_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/ligthhouse_metal_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_trims_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_trims_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/concrete/concrete_new_detail.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_stucco_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_stucco_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_stucco_mask.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_stucco_blend_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_stucco_blend_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

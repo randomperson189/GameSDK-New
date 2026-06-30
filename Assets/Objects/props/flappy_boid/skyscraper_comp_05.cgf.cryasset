@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="85af3e07-0eaf-d5a0-2197-d9a5c3be8992">
+ <Files>
+  <File path="skyscraper_comp_05.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">22808</Detail>
+  <Detail name="vertexCount">48471</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./skyscrapper.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

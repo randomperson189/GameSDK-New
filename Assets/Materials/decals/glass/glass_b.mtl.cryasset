@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="c64efb80-74dc-91f5-21ef-062c79cffc51">
+ <Files>
+  <File path="glass_b.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/glass/glass_b.dds</Path>
+  <Path usageCount="1">textures/decals/glass/glass_b_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

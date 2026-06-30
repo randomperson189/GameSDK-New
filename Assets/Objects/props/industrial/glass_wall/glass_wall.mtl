@@ -1,0 +1,19 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="glass" MtlFlags="2623648" Shader="Glass" GenMask="50" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="objects/props/industrial/glass_wall/textures/glass_wall_ddn.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.46207702,0.51491767,0.53327644" BlurAmount="0.5" TintCloudiness="0.0099999998" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="grout" MtlFlags="524416" Shader="Illum" GenMask="2080000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/glass_wall/textures/grout.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

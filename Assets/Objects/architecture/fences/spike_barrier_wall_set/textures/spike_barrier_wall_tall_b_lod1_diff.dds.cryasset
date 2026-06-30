@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="cd91da58-d52a-6e2e-d51e-e9c04fbc9531">
+ <Files>
+  <File path="spike_barrier_wall_tall_b_lod1_diff.dds"/>
+  <File path="spike_barrier_wall_tall_b_lod1_diff.dds.1"/>
+  <File path="spike_barrier_wall_tall_b_lod1_diff.dds.2"/>
+  <File path="spike_barrier_wall_tall_b_lod1_diff.dds.3"/>
+  <File path="spike_barrier_wall_tall_b_lod1_diff.dds.4"/>
+  <File path="spike_barrier_wall_tall_b_lod1_diff.dds.5"/>
+  <File path="spike_barrier_wall_tall_b_lod1_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

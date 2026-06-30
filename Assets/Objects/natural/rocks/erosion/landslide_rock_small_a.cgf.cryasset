@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="0417270d-1aa9-d367-5ed5-343e15f05ecb">
+ <Files>
+  <File path="landslide_rock_small_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">68</Detail>
+  <Detail name="vertexCount">57</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./precipice.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

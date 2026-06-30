@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="15c1bfa0-fce6-50fa-3a29-a7a86a592128">
+ <Files>
+  <File path="soda_can_ddna.dds"/>
+  <File path="soda_can_ddna.dds.a"/>
+  <File path="soda_can_ddna.dds.1"/>
+  <File path="soda_can_ddna.dds.1a"/>
+  <File path="soda_can_ddna.dds.2"/>
+  <File path="soda_can_ddna.dds.2a"/>
+  <File path="soda_can_ddna.dds.3"/>
+  <File path="soda_can_ddna.dds.3a"/>
+  <File path="soda_can_ddna.dds.4"/>
+  <File path="soda_can_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

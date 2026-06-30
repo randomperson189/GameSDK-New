@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="bfdea966-b2d5-8450-e0f7-39703220b6b7">
+ <Files>
+  <File path="wood_table.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">100</Detail>
+  <Detail name="vertexCount">200</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/fishing_houses.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

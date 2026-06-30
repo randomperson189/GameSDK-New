@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="520d7116-3a6c-4415-8eb4-de036b331b88">
+ <Files>
+  <File path="window_grate_front.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">488</Detail>
+  <Detail name="vertexCount">610</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/vehicles/swat_van/swat_van.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

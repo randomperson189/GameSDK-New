@@ -1,0 +1,37 @@
+<AssetMetadata version="0" type="Material" guid="ee6fcce9-10b4-bbda-eee6-1ddb7adcbdd3">
+ <Files>
+  <File path="spike_barrier_wall_set_c.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">11</Detail>
+  <Detail name="textureCount">26</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_low_b_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_low_b_lod1_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_low_a_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_low_a_lod1_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_low_c_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_low_c_lod1_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_gate_wall_camp_a_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_gate_wall_camp_a_lod1_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_gate_camp_a_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_gate_camp_a_lod1_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_low_d_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_low_d_lod1_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_a_spec.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_cast_oxidized_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_cast_oxidized_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_cast_oxidized_a_mask.dds</Path>
+  <Path usageCount="1">textures/generic/fabric/rope_set_shipwreck_b_diff.dds</Path>
+  <Path usageCount="2">textures/generic/fabric/rope_set_shipwreck_b_ddna.dds</Path>
+  <Path usageCount="3">textures/generic/dirt/grime_a_diff.dds</Path>
+  <Path usageCount="3">textures/generic/dirt/grime_mask.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/spike_set_a_spike_tip_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spike_barrier_wall_set/spike_set_a_spike_tip_ddna.dds</Path>
+  <Path usageCount="3">textures/generic/wood/wood_bleached_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_bleached_a_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="5b373462-25bc-4935-5fc0-d97402be1157">
+ <Files>
+  <File path="floor_marbletiles_white.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/marble/floor_marbletiles_white_diff.dds</Path>
+  <Path usageCount="1">textures/generic/marble/floor_marbletiles_white_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

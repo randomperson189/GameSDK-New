@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="3cd31a29-20a8-cfd1-4b83-3ccc8ff84dfc">
+ <Files>
+  <File path="chimney_spec.dds"/>
+  <File path="chimney_spec.dds.1"/>
+  <File path="chimney_spec.dds.2"/>
+  <File path="chimney_spec.dds.3"/>
+  <File path="chimney_spec.dds.4"/>
+  <File path="chimney_spec.dds.5"/>
+  <File path="chimney_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

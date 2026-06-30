@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="320bf56f-127c-c972-3586-568ef31d868c">
+ <Files>
+  <File path="trophies.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/trophies/textures/warthog_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/trophies/textures/warthog_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/trophies/textures/warthog_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

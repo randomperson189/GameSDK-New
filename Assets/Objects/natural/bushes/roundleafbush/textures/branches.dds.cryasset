@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a5b8ab2b-37a5-7bcc-b500-6a37eee2a45d">
+ <Files>
+  <File path="branches.dds"/>
+  <File path="branches.dds.1"/>
+  <File path="branches.dds.2"/>
+  <File path="branches.dds.3"/>
+  <File path="branches.dds.4"/>
+  <File path="branches.dds.5"/>
+  <File path="branches.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

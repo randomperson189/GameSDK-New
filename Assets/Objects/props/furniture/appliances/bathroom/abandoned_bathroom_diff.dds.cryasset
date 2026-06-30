@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d6dbb04a-f081-9dcf-d344-3b9129eed36e">
+ <Files>
+  <File path="abandoned_bathroom_diff.dds"/>
+  <File path="abandoned_bathroom_diff.dds.1"/>
+  <File path="abandoned_bathroom_diff.dds.2"/>
+  <File path="abandoned_bathroom_diff.dds.3"/>
+  <File path="abandoned_bathroom_diff.dds.4"/>
+  <File path="abandoned_bathroom_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

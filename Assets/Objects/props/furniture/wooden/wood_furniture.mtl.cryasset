@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="40b4b4e4-7ae5-09ff-7751-4b26387fbcca">
+ <Files>
+  <File path="wood_furniture.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/plywood_dark_diff.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_b90_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

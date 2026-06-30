@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="564349e7-d0a9-fe19-9f6d-542737205a38">
+ <Files>
+  <File path="leaves2_dots_decal.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/vegetation/leaves2_decal_dots_diff.dds</Path>
+  <Path usageCount="1">textures/decals/vegetation/leaves2_decal_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

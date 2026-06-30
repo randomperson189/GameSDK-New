@@ -1,0 +1,42 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="leaf" MtlFlags="524416" Shader="Vegetation" GenMask="2400801080" StringGenMask="%BUMP_MAP%DETAIL_BENDING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="124" Opacity="1" AlphaTest="0.40000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/spruce_leaf_semi_snowy_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/rocky_ravine/textures/spruce_leaf_snowy_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/trees/rocky_ravine/textures/spruce_leaf_sss.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="0.17" bendDetailBranchAmplitude="0.2" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.117" BackDiffuseMultiplier="4" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="trunk" MtlFlags="524416" Shader="Vegetation" GenMask="2404000080" StringGenMask="%BUMP_MAP%MERGED_TEXTURES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood_breakable" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="5" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_ddna.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0" bendDetailFrequency="0" bendDetailBranchAmplitude="0" BlendTerrainCol="0" VertexAlphaBlendFactor="1" BlendMaskTiling="1" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_AI" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.58597302,0.58597302,0.58597302" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_phys" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0,0,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.2" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="trunk_dead" MtlFlags="524416" Shader="Illum" GenMask="20008080" StringGenMask="%BUMP_MAP%DISPLACEMENT_MAPPING%PHONG_TESSELLATION" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="76" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_ddna.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="1" TessellationDispBias="0.5" TessellationHeightScale="0.5" TessellationFactorMax="64" SubsurfaceScatteringAmount="0" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_bend" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="xshape" MtlFlags="524448" Shader="Vegetation" GenMask="2400800000" StringGenMask="%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0,0,0" Emissive="0,0,0" Shininess="5" Opacity="1" AlphaTest="0.5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/spruce_xtree_diff.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0" bendDetailFrequency="0" bendDetailBranchAmplitude="0" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.2" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

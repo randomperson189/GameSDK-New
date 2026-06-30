@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Material" guid="8c206e84-fdeb-9e87-2376-de82a5f45d5f">
+ <Files>
+  <File path="erosion_grass.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">8</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/natural/rocks/erosion/textures/soil_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/erosion/textures/grass_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/erosion/textures/grass_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/erosion/textures/roots_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/erosion/textures/roots_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/erosion/textures/soil_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

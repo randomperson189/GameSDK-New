@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="685afeb5-4809-b2fb-4aec-218fcb221c1c">
+ <Files>
+  <File path="marsh_plants.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/meadow/textures/marsh_plants_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/meadow/textures/marsh_plants_ddn.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/rock/detail_cliff_rock_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

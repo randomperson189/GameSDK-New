@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="e3d6ceee-5800-e84e-36f3-4316da02ab2b">
+ <Files>
+  <File path="moss_displ.dds"/>
+  <File path="moss_displ.dds.1"/>
+  <File path="moss_displ.dds.2"/>
+  <File path="moss_displ.dds.3"/>
+  <File path="moss_displ.dds.4"/>
+  <File path="moss_displ.dds.5"/>
+  <File path="moss_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

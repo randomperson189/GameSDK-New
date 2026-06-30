@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="0e3384c5-494f-9f7a-0fd4-a8c61e6938e7">
+ <Files>
+  <File path="wooden_shrine_b.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">572</Detail>
+  <Detail name="vertexCount">597</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wooden_shrine_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

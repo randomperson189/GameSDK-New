@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="f8e1a9d9-73d9-6677-cefb-8356e92742c3">
+ <Files>
+  <File path="na_tree_roots_detail.dds"/>
+  <File path="na_tree_roots_detail.dds.1"/>
+  <File path="na_tree_roots_detail.dds.2"/>
+  <File path="na_tree_roots_detail.dds.3"/>
+  <File path="na_tree_roots_detail.dds.4"/>
+  <File path="na_tree_roots_detail.dds.5"/>
+  <File path="na_tree_roots_detail.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

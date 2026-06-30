@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="4031c95a-c3ea-276e-6e23-3dc1e05f0ce9">
+ <Files>
+  <File path="tusk_armor_b_base.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">7424</Detail>
+  <Detail name="vertexCount">9216</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./m1a1_desert.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

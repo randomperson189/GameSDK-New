@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="1d074ff5-bbde-8e76-f878-686b10d05991">
+ <Files>
+  <File path="swat_van_c_diff.dds"/>
+  <File path="swat_van_c_diff.dds.1"/>
+  <File path="swat_van_c_diff.dds.2"/>
+  <File path="swat_van_c_diff.dds.3"/>
+  <File path="swat_van_c_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

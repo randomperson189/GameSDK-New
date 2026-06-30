@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="49e569fb-2ae0-23a3-115b-0d5ecccd2356">
+ <Files>
+  <File path="receptionliftdoor.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">312</Detail>
+  <Detail name="vertexCount">235</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./receptionlift.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

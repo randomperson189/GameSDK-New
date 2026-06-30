@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="AnimatedMesh" guid="22da7c1b-c9b3-714a-2f43-1069bc0e492f">
+ <Files>
+  <File path="wind_turbine_a_propeller.cga"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">280</Detail>
+  <Detail name="vertexCount">272</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wind_turbine.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

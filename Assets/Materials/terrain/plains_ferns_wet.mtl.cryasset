@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="8a3501fe-a58d-79f6-68d2-82f53f5d661e">
+ <Files>
+  <File path="plains_ferns_wet.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/terrain/detail/plains_ferns_wet_diff.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/plains_ferns_wet_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/plains_ferns_wet_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

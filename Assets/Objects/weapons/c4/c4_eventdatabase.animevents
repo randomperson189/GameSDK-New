@@ -1,0 +1,46 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="2.4970344e-027" parameter="" bone="" offset="2.4970344e-027,1.4321506e-038,1.43215e-038" dir="2.4970344e-027,1.4321506e-038,1.43215e-038"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/c4/deselect_01.caf">
+  <event name="sound" time="0.0099999998" parameter="sounds/weapons_old:c4:c4_foley" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.31220999" parameter="sounds/weapons_old:c4:c4_antenna" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.56410998" parameter="sounds/weapons_old:c4:deselect" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/c4/fire_01.caf">
+  <event name="sound" time="0.011000001" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.30805999" parameter="sounds/weapons_old:c4:pickedup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/c4/idle_to_zerog_right_01.caf">
+  <event name="sound" time="0.014" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.18400002" parameter="sounds/weapons_old:c4:c4_foley" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/c4/melee_01.caf">
+  <event name="sound" time="0.0099999998" parameter="sounds/weapons_old:melee:fire_fp_sw" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/c4/press_button_01.caf">
+  <event name="sound" time="0.0070000002" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.97400004" parameter="sounds/weapons_old:c4:c4_beep" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/c4/release_button_01.caf">
+  <event name="sound" time="0.0070000002" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/c4/select_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.35306999" parameter="sounds/weapons_old:c4:c4_antenna" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.49000001" parameter="sounds/weapons_old:c4:c4_beep" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.75599998" parameter="sounds/weapons_old:c4:c4_foley" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.95200002" parameter="sounds/weapons_old:c4:c4_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/c4/select_02.caf">
+  <event name="sound" time="0.01353" parameter="sounds/weapons_old:c4:c4_foley" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.27682999" parameter="sounds/weapons_old:c4:c4_antenna" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.49072" parameter="sounds/weapons_old:c4:c4_beep" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.69871998" parameter="sounds/weapons_old:c4:c4_beep" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.98285002" parameter="sounds/weapons_old:c4:c4_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/c4/zerog_to_idle_right_01.caf">
+  <event name="sound" time="0.022000002" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.671" parameter="sounds/weapons_old:c4:c4_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

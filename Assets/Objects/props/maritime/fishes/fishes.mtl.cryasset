@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="f812e9c6-3767-e404-847b-a01cc6206015">
+ <Files>
+  <File path="fishes.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/maritime/fishes/textures/fishes_diff.dds</Path>
+  <Path usageCount="1">objects/props/maritime/fishes/textures/fishes_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

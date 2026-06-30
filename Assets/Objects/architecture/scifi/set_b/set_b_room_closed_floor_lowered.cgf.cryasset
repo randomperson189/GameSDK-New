@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="42ee5c46-9bf9-b25d-4c40-da53180dae1f">
+ <Files>
+  <File path="set_b_room_closed_floor_lowered.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">42</Detail>
+  <Detail name="triangleCount">8290</Detail>
+  <Detail name="vertexCount">6024</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./set_b.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

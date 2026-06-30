@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="ffc9d252-7d0d-d196-5dc3-274dca52280b">
+ <Files>
+  <File path="pine_lights.cgf"/>
+  <File path="pine_lights_lod1.cgf"/>
+  <File path="pine_lights_lod2.cgf"/>
+  <File path="pine_lights_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">5264</Detail>
+  <Detail name="vertexCount">9395</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./pine_holiday.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

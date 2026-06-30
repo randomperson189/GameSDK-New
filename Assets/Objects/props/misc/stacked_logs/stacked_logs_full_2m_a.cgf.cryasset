@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="caa75fe7-c26f-6993-0b62-04ef9c3d920e">
+ <Files>
+  <File path="stacked_logs_full_2m_a.cgf"/>
+  <File path="stacked_logs_full_2m_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">2430</Detail>
+  <Detail name="vertexCount">2985</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./stacked_logs.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

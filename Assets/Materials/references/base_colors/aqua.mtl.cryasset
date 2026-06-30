@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="6095e312-2dc2-2944-3d87-51a8d8f48812">
+ <Files>
+  <File path="aqua.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/base_colors/aqua_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a8a4369e-60ec-27b2-51f3-5b5f9b062fd9">
+ <Files>
+  <File path="leaves_a_diff.dds"/>
+  <File path="leaves_a_diff.dds.1"/>
+  <File path="leaves_a_diff.dds.2"/>
+  <File path="leaves_a_diff.dds.3"/>
+  <File path="leaves_a_diff.dds.4"/>
+  <File path="leaves_a_diff.dds.5"/>
+  <File path="leaves_a_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

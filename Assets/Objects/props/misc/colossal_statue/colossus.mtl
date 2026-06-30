@@ -1,0 +1,52 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="copper" MtlFlags="524416" Shader="Illum" GenMask="D1008081" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%DISPLACEMENT_MAPPING%NORMAL_MAP%PN_TESSELLATION%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="140" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/colossal_statue/textures/colossus_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/colossal_statue/textures/colossus_ddna.tif"/>
+    <Texture Map="Specular" File="objects/props/misc/colossal_statue/textures/colossus_spec.tif"/>
+    <Texture Map="Detail" File="objects/props/misc/colossal_statue/textures/copper_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="12" TileV="12"/>
+    </Texture>
+    <Texture Map="Heightmap" File="objects/props/misc/colossal_statue/textures/colossus_displ.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="1" TessellationDispBias="0.5" TessellationHeightScale="0.2" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.15000001" TessellationFactorMax="64" DetailGlossScale="0.5" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="colossus_lod1" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="112" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/colossal_statue/textures/colossus_lod1_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/colossal_statue/textures/colossus_lod1_ddn.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Specular" File="objects/props/misc/colossal_statue/textures/colossus_lod1_spec.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="colossus_lod2" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="112" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/colossal_statue/textures/colossus_lod2_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/colossal_statue/textures/colossus_lod2_ddn.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Specular" File="objects/props/misc/colossal_statue/textures/colossus_lod2_spec.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="colossus_lod3" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="112" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/colossal_statue/textures/colossus_lod3_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/colossal_statue/textures/colossus_lod3_ddn.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Specular" File="objects/props/misc/colossal_statue/textures/colossus_lod3_spec.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="colossus_lod4" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="112" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/colossal_statue/textures/colossus_lod4_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/colossal_statue/textures/colossus_lod4_ddn.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Specular" File="objects/props/misc/colossal_statue/textures/colossus_lod4_spec.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="9ff35ff8-6fd5-0dc7-c329-0fa8ca7df4d2">
+ <Files>
+  <File path="chenyan_backwall_ddna.dds"/>
+  <File path="chenyan_backwall_ddna.dds.a"/>
+  <File path="chenyan_backwall_ddna.dds.1"/>
+  <File path="chenyan_backwall_ddna.dds.1a"/>
+  <File path="chenyan_backwall_ddna.dds.2"/>
+  <File path="chenyan_backwall_ddna.dds.2a"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">64</Detail>
+  <Detail name="mipCount">5</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="712c5334-b22a-55d7-2c02-b5b1a8c71866">
+ <Files>
+  <File path="abrams_glass.dds"/>
+  <File path="abrams_glass.dds.1"/>
+  <File path="abrams_glass.dds.2"/>
+  <File path="abrams_glass.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

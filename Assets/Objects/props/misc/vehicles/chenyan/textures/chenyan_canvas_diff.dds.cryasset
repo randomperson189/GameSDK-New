@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="aab4d0f6-642d-d38c-54e1-7f3d223e929a">
+ <Files>
+  <File path="chenyan_canvas_diff.dds"/>
+  <File path="chenyan_canvas_diff.dds.1"/>
+  <File path="chenyan_canvas_diff.dds.2"/>
+  <File path="chenyan_canvas_diff.dds.3"/>
+  <File path="chenyan_canvas_diff.dds.4"/>
+  <File path="chenyan_canvas_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

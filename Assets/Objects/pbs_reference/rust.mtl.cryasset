@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="c3e156e4-9b27-2fe2-48a7-0becf11ab0b2">
+ <Files>
+  <File path="rust.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/rust_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/rust_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

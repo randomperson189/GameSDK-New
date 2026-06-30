@@ -1,0 +1,16 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="main" MtlFlags="524416" Shader="Illum" GenMask="80080" StringGenMask="%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.57112485,0.57112485,0.57112485" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="70" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/ceiling_fan/textures/ceiling_fan_diff.tif"/>
+    <Texture Map="Specular" File="Objects/props/furniture/appliances/ceiling_fan/textures/ceiling_fan_spec.tif"/>
+    <Texture Map="Bumpmap" File="Objects/props/furniture/appliances/ceiling_fan/textures/ceiling_fan_ddna.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

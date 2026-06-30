@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="6479a354-b817-c4be-c062-65e38ab124cb">
+ <Files>
+  <File path="ice_shelf_mat.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/water/ice_shelf/textures/inner_ice_shelf_diff.dds</Path>
+  <Path usageCount="1">objects/natural/water/ice_shelf/textures/inner_ice_shelf_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/water/ice_shelf/textures/ice_shelf_diff.dds</Path>
+  <Path usageCount="1">objects/natural/water/ice_shelf/textures/ice_shelf_tint.dds</Path>
+  <Path usageCount="1">objects/natural/water/ice_shelf/textures/ice_shelf_ddna.dds</Path>
+  <Path usageCount="1">textures/cubemaps/generic_cubemap_day_cm.dds</Path>
+ </Dependencies>
+</AssetMetadata>

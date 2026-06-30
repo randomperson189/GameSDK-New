@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="2c0b8f78-c22f-1bca-e67b-2342d1166de8">
+ <Files>
+  <File path="camp_fire_c.cgf"/>
+  <File path="camp_fire_c_lod1.cgf"/>
+  <File path="camp_fire_c_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">13</Detail>
+  <Detail name="triangleCount">8629</Detail>
+  <Detail name="vertexCount">11383</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./camp_fire_set.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

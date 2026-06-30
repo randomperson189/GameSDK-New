@@ -1,0 +1,31 @@
+<AssetMetadata version="0" type="Material" guid="4e570607-64f1-bb58-49c9-39f89bd4b150">
+ <Files>
+  <File path="sawmill.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">11</Detail>
+  <Detail name="textureCount">20</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/dirt/dirt_2.dds</Path>
+  <Path usageCount="1">textures/decals/dirt/dirt_2_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/sawmill/textures/details_32_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/sawmill/textures/details_32_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/sawmill/textures/metal_fence_01_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/sawmill/textures/metal_fence_01_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/roof_metal_black_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/roof_metal_black_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/wall_metal_01_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/wall_metal_01_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_tile_rusty_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_tile_rusty_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wall_wood_03_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wall_wood_03_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/floor_wood_04_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/floor_wood_04_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/sawmill/textures/details_31_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/sawmill/textures/details_31_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/forest_cabin/textures/forest_cabin_details_a_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/forest_cabin/textures/forest_cabin_details_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="7881a9b3-7313-3b6f-cee9-376b234b0fac">
+ <Files>
+  <File path="bending_grass_normal_grp_c.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">234</Detail>
+  <Detail name="vertexCount">279</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./grass_tall.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

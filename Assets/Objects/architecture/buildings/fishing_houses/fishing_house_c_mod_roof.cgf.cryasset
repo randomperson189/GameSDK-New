@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="ea0c660c-a749-af05-ed29-41c815accbe2">
+ <Files>
+  <File path="fishing_house_c_mod_roof.cgf"/>
+  <File path="fishing_house_c_mod_roof_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">355</Detail>
+  <Detail name="vertexCount">531</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_house_c.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

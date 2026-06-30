@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="0d983bd3-28b9-87d3-df62-7ff7f2f85664">
+ <Files>
+  <File path="water_rough.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/cubemaps/generic_cubemap_day_cm.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="cloth_logo" MtlFlags="524418" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.012983033,0.012983033,0.012983033" Emissive="0,0,0" Opacity="1" Shininess="60" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/fabric/fabric_b_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="8" TileV="8"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.1" SSSIndex="0" DetailBumpScale="0.050000001" DetailGlossScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

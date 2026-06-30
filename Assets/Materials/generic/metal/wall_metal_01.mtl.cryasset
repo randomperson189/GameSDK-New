@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="12cfba40-da9c-0e8f-5d5c-3e3ef98bfcf8">
+ <Files>
+  <File path="wall_metal_01.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/wall_metal_01_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/wall_metal_01_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/wall_metal_01_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

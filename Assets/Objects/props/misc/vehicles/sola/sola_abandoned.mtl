@@ -1,0 +1,26 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="ARA550" MtlFlags="524416" Shader="Illum" GenMask="2000000100" StringGenMask="%DETAIL_MAPPING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/sola/textures/sola_abandoned_hull_diff.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_a_detail.tif">
+     <TexMod TileU="6" TileV="6"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="1" DetailBumpScale="1" SubsurfaceScatteringAmount="0" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="InteriorEngine" MtlFlags="524416" Shader="Illum" GenMask="2000000100" StringGenMask="%DETAIL_MAPPING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/sola/textures/sola_abandoned_interior_diff.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plastic/plastic_detail.tif">
+     <TexMod TileU="80" TileV="80"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0" DetailBumpScale="0.25" SubsurfaceScatteringAmount="0" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

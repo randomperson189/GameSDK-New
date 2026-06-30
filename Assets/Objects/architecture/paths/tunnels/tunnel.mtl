@@ -1,0 +1,31 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="concrete" MtlFlags="524416" Shader="Illum" GenMask="81000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/concrete/rough_concrete_a_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/concrete/rough_concrete_a_ddna.tif"/>
+    <Texture Map="Custom" File="textures/generic/concrete/plaster_grey_a_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/concrete/plaster_grey_a_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/concrete/plaster_rough_stones_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.5" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="0.25" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="brick" MtlFlags="524416" Shader="Illum" GenMask="2081000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/brick/brick_raw_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/brick/brick_raw_ddna.tif"/>
+    <Texture Map="Heightmap" File="textures/generic/brick/brick_raw_displ.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rocks/textures/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rocks/textures/moss_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/brick/brick_raw_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="2" BlendLayer2Tiling="2" SSSIndex="0" BlendMaskTiling="1" BlendFactor="0.60000002" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

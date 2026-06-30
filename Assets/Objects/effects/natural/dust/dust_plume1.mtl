@@ -1,0 +1,13 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="dust_plume" MtlFlags="524450" Shader="Illum" GenMask="2000000001" StringGenMask="%ALLOW_SILHOUETTE_POM%VERTCOLORS" SurfaceType="mat_rock_dusty" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/effects/natural/dust/dust_plume01.tif">
+     <TexMod TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.2" TexMod_UOscillatorPhase="0.80000001" TexMod_UOscillatorAmplitude="0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

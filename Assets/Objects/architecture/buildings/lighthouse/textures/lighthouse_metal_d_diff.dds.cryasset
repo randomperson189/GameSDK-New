@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="e9cf5d99-ade2-5869-8a38-61192eb8fd3c">
+ <Files>
+  <File path="lighthouse_metal_d_diff.dds"/>
+  <File path="lighthouse_metal_d_diff.dds.1"/>
+  <File path="lighthouse_metal_d_diff.dds.2"/>
+  <File path="lighthouse_metal_d_diff.dds.3"/>
+  <File path="lighthouse_metal_d_diff.dds.4"/>
+  <File path="lighthouse_metal_d_diff.dds.5"/>
+  <File path="lighthouse_metal_d_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="f1ce58e8-f2b1-8621-b79c-91a1f795d714">
+ <Files>
+  <File path="test_mat_vegetation.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/grey.dds</Path>
+  <Path usageCount="1">materials/references/surface_types/vegetation_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

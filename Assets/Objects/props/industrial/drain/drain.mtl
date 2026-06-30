@@ -1,0 +1,12 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="drain" MtlFlags="524416" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/drain/textures/drain_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/drain/textures/drain_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

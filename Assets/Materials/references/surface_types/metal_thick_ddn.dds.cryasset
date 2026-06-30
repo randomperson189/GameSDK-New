@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="8729f6f4-4fdd-1d11-444c-b6d2401a2291">
+ <Files>
+  <File path="metal_thick_ddn.dds"/>
+  <File path="metal_thick_ddn.dds.1"/>
+  <File path="metal_thick_ddn.dds.2"/>
+  <File path="metal_thick_ddn.dds.3"/>
+  <File path="metal_thick_ddn.dds.4"/>
+  <File path="metal_thick_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

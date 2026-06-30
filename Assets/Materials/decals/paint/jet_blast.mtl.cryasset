@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="52183dd7-54d1-e3a4-5298-fafb1355a9d4">
+ <Files>
+  <File path="jet_blast.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/paint/jetblast.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,19 @@
+<anim_event_list>
+ <animation name="animations/1st_person/equipment/medical_kit/apply_01.caf">
+  <event name="sound" time="0.014" parameter="Sounds/weapons:medicalkit:medicalkit_select" bone=""/>
+  <event name="sound" time="0.25400001" parameter="Sounds/weapons:medicalkit:medicalkit_apply" bone=""/>
+  <event name="sound" time="0.64899999" parameter="Sounds/weapons:medicalkit:medicalkit_deselect" bone=""/>
+ </animation>
+ <animation name="animations/1st_person/equipment/medical_kit/deselect_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:suit_movement" bone=""/>
+ </animation>
+ <animation name="animations/1st_person/equipment/medical_kit/select_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:suit_movement" bone=""/>
+ </animation>
+ <animation name="animations/1st_person/equipment/medical_kit/selfapply_01.caf">
+  <event name="sound" time="0.029000001" parameter="Sounds/physics:player_foley:suit_movement" bone=""/>
+  <event name="sound" time="0.35699999" parameter="Sounds/weapons:medicalkit:medicalkit_apply" bone=""/>
+  <event name="sound" time="0.63800001" parameter="Sounds/physics:player_foley:suit_movement" bone=""/>
+  <event name="sound" time="0.51999998" parameter="Sounds/weapons:medicalkit:medicalkit_selfapply" bone=""/>
+ </animation>
+</anim_event_list>

@@ -1,0 +1,8 @@
+<Material MtlFlags="524322" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.97430021,0.97430021,0.97430021" Emissive="1,1,1" Shininess="0.1" Opacity="0.99000001" GlowAmount="2" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/natural/snow/snow_wind/textures/snow_wind02.tif">
+   <TexMod TexMod_UOscillatorType="2" TexMod_UOscillatorRate="-0.89999998" TexMod_UOscillatorAmplitude="0.1" TexMod_VOscillatorAmplitude="0.1"/>
+  </Texture>
+ </Textures>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="0" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="7a22dc9c-3f0d-b184-146e-769aab9fdc81">
+ <Files>
+  <File path="hmmwv_a_grate_diff.dds"/>
+  <File path="hmmwv_a_grate_diff.dds.1"/>
+  <File path="hmmwv_a_grate_diff.dds.2"/>
+  <File path="hmmwv_a_grate_diff.dds.3"/>
+  <File path="hmmwv_a_grate_diff.dds.4"/>
+  <File path="hmmwv_a_grate_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

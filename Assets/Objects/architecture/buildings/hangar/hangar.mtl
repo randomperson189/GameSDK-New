@@ -1,0 +1,87 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="concrete_brick_wall" MtlFlags="524416" Shader="Illum" GenMask="89000081" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/brick/brick_clean_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="1.5" TileV="1.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/brick/brick_clean_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/concrete/gravel_1_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="12" TileV="12"/>
+    </Texture>
+    <Texture Map="Heightmap" File="textures/generic/brick/brick_clean_displ.tif"/>
+   </Textures>
+   <PublicParams PomDisplacement="0.0125" DetailDiffuseScale="0.15000001" SSSIndex="0" DetailBumpScale="0.5" SelfShadowStrength="3" HeightBias="0.5" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="tar_paper" MtlFlags="524416" Shader="Illum" GenMask="2081000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/wall_metal_01_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/metal/wall_metal_01_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_stribes" MtlFlags="524416" Shader="Illum" GenMask="2081000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/metal_stribes_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/metal/metal_stribes_a_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="2081000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/wood_sheets_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/wood/wood_sheets_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="concrete_blank" MtlFlags="524416" Shader="Illum" GenMask="2081000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/brick/brick_wall02_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/brick/brick_wall02_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="concrete_floor" MtlFlags="524416" Shader="Illum" GenMask="2081000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/concrete/plaster_wall03_dark_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/concrete/plaster_wall03_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wall_painted_decal" MtlFlags="524448" Shader="Illum" GenMask="2089000881" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%DETAIL_MAPPING%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/brick/brick_damaged_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="1.5" TileV="1.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/brick/brick_damaged_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/concrete/gravel_1_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="12" TileV="12"/>
+    </Texture>
+    <Texture Map="Heightmap" File="textures/generic/brick/brick_damaged_displ.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" PomDisplacement="0.025" DetailDiffuseScale="0.15000001" DecalFalloff="1" DetailBumpScale="0.5" SelfShadowStrength="3" HeightBias="0.5" DecalAlphaMult="1" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="526496" Shader="Glass" GenMask="100040000010" StringGenMask="%BILINEAR_FP16%SPECULAR_MAP%TINT_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0.042311415,0.042311415,0.042311415" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Specular" File="textures/generic/glass/glass_dirty_tint.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="1,1,1" CloudinessReducesGloss="0.5" TintCloudiness="0.050000001" BackLightScale="0.25" BumpScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="gate" MtlFlags="524416" Shader="Illum" GenMask="2081000081" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/metal_gate_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/metal/metal_gate_a_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="8" TileV="8"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.050000001" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

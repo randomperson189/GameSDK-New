@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="9e38e478-7651-82b1-bf63-3c6e111ca494">
+ <Files>
+  <File path="hmmwv_yellow_a_lod2_diff.dds"/>
+  <File path="hmmwv_yellow_a_lod2_diff.dds.1"/>
+  <File path="hmmwv_yellow_a_lod2_diff.dds.2"/>
+  <File path="hmmwv_yellow_a_lod2_diff.dds.3"/>
+  <File path="hmmwv_yellow_a_lod2_diff.dds.4"/>
+  <File path="hmmwv_yellow_a_lod2_diff.dds.5"/>
+  <File path="hmmwv_yellow_a_lod2_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

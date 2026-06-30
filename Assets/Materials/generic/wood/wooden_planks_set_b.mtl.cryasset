@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="6777aa42-7d83-bacd-9902-48de1e6b8d5b">
+ <Files>
+  <File path="wooden_planks_set_b.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wooden_planks_set_b_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wooden_planks_set_b_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wooden_planks_set_b_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

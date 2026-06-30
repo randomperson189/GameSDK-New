@@ -1,0 +1,35 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="trunk" MtlFlags="524416" Shader="Illum" GenMask="2114000121" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%PHONG_TESSELLATION%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.71569365,0.71569365,0.71569365" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="120" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/dead_tree/textures/dead_tree_trunk_diff.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/dead_tree/textures/dead_tree_trunk_ddna.tif" Filter="4"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_bark_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="16"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/trees/dead_tree/textures/dead_tree_moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/trees/dead_tree/textures/dead_tree_moss_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/trees/dead_tree/textures/dead_tree_moss_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.89999998" TessellationFaceCull="0.75" TessellationFactor="0.5" BlendLayer2Tiling="2" DetailDiffuseScale="0.60000002" SSSIndex="0" DetailBumpScale="0.89999998" BlendMaskTiling="1" TessellationFactorMax="8" BlendFactor="4.1599998" DetailGlossScale="0.5" BlendLayer2Specular="0.02" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="leaves" MtlFlags="524416" Shader="Vegetation" GenMask="2414800100" StringGenMask="%DETAIL_MAPPING%LEAVES%NORMAL_MAP%PHONG_TESSELLATION%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_canopy" MatTemplate="" Diffuse="0.49102089,0.56471163,0.42869052" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.5" vertModifType="2" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/dead_tree/textures/dead_tree_leaf_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/dead_tree/textures/dead_tree_leaf_ddna.tif"/>
+    <Texture Map="Specular" File="objects/natural/trees/dead_tree/textures/dead_tree_leaf_sss.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plants/plants_leaf_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="12" TileV="12"/>
+    </Texture>
+   </Textures>
+   <VertexDeform Type="2" DividerX="2" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.050000001" Level="0" Phase="0" Freq="1"/>
+   </VertexDeform>
+   <PublicParams bendDetailLeafAmplitude="0.2" TessellationFactor="0.60000002" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" DetailDiffuseScale="0.5" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" DetailBumpScale="0.40000001" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.5" TessellationFactorMax="8" BackDiffuseMultiplier="0.5" BlendTerrainColDist="0.5" DetailGlossScale="0.5" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

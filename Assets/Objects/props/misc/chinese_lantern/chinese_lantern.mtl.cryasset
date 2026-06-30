@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="93c7d144-83d7-4d55-c906-3d4e580a52b8">
+ <Files>
+  <File path="chinese_lantern.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="4">objects/props/misc/chinese_lantern/textures/chinese_lantern_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/chinese_lantern/textures/chinese_lantern_glow.dds</Path>
+  <Path usageCount="2">objects/props/misc/chinese_lantern/textures/chinese_lantern_ddna.dds</Path>
+  <Path usageCount="2">objects/props/misc/chinese_lantern/textures/chinese_lantern_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

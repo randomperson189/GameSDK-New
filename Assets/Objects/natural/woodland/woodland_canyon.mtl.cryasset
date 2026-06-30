@@ -1,0 +1,37 @@
+<AssetMetadata version="0" type="Material" guid="bb2b599b-dda8-700a-916b-f88da0792804">
+ <Files>
+  <File path="woodland_canyon.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">13</Detail>
+  <Detail name="textureCount">26</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_wall_up_diff.dds</Path>
+  <Path usageCount="5">objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_rock_c_detail.dds</Path>
+  <Path usageCount="7">objects/natural/rocks/canyon_rocks/canyon_rock_diff.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_rocks/canyon_rock_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_rock_b_detail.dds</Path>
+  <Path usageCount="6">objects/natural/woodland/moss_diff.dds</Path>
+  <Path usageCount="6">objects/natural/woodland/moss_ddna.dds</Path>
+  <Path usageCount="6">objects/natural/woodland/river_rock_blend.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_wall_river_a_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_wall_low_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_wall_low_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/rock_a_mask.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_rock_e_wall_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_rock_d_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_rock_a_detail.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_rocks/canyon_path_diff.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_rocks/canyon_path_ddna.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_rocks/canyon_path_a_detail.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_rocks/canyon_path_rock_diff.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_rocks/canyon_path_rock_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/rock_clean_ddna.dds</Path>
+  <Path usageCount="2">objects/natural/woodland/moss_blend.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_wall_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_monoliths/forest_monolith_new_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_wall_up_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

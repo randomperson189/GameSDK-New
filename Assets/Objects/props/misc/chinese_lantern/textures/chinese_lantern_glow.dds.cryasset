@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="747ab83b-07bb-d5da-092d-7f197fd6a5f7">
+ <Files>
+  <File path="chinese_lantern_glow.dds"/>
+  <File path="chinese_lantern_glow.dds.1"/>
+  <File path="chinese_lantern_glow.dds.2"/>
+  <File path="chinese_lantern_glow.dds.3"/>
+  <File path="chinese_lantern_glow.dds.4"/>
+  <File path="chinese_lantern_glow.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="8ee1f8d5-9a75-22a3-42cf-33496b4953be">
+ <Files>
+  <File path="ground_cover_grass_mp_a.cgf"/>
+  <File path="ground_cover_grass_mp_a_lod1.cgf"/>
+  <File path="ground_cover_grass_mp_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">1280</Detail>
+  <Detail name="vertexCount">1523</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ground_cover_mp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

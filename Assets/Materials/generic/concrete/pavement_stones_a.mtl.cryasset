@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="3a1a04f6-9b20-a9cc-3e5f-f564688d8680">
+ <Files>
+  <File path="pavement_stones_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/pavement_stones_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/pavement_stones_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/pavement_stones_a_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="86841db3-8eaa-4ed7-ee42-281766d40be5">
+ <Files>
+  <File path="concrete_ceiling.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/concrete_ceiling_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_ceiling_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

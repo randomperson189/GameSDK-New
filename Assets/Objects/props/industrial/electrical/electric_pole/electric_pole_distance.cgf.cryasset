@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="cfd74ff3-a50f-a847-d609-918d8a99a69d">
+ <Files>
+  <File path="electric_pole_distance.cgf"/>
+  <File path="electric_pole_distance_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">304</Detail>
+  <Detail name="vertexCount">468</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./electric_pole_distance.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

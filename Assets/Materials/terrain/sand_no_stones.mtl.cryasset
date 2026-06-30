@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="29d1b002-00ef-25a5-f32a-ce2e38780540">
+ <Files>
+  <File path="sand_no_stones.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/terrain/detail/sand_no_stones_diff.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/sand_no_stones_ddna.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/sand_no_stones_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

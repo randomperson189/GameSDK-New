@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="346b58d3-dd3a-38e5-6d16-bc2d9b7e6b31">
+ <Files>
+  <File path="round_leaf_bush_med_bright_green.cgf"/>
+  <File path="round_leaf_bush_med_bright_green_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">486</Detail>
+  <Detail name="vertexCount">580</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Round_Leaf_Bush_big_bright_green.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

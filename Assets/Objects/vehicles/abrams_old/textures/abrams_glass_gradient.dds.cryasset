@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="8b3fa7d7-826a-1034-e8c5-e4c7f292c5c4">
+ <Files>
+  <File path="abrams_glass_gradient.dds"/>
+  <File path="abrams_glass_gradient.dds.1"/>
+  <File path="abrams_glass_gradient.dds.2"/>
+  <File path="abrams_glass_gradient.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="8699af0e-2747-e0ca-45a1-b1be078f3ca0">
+ <Files>
+  <File path="shelf_standing.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/furniture/shelves/standing_a/textures/shelf_standing_b_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/props/furniture/shelves/standing_a/textures/shelf_standing_b_lod1_ddna.dds</Path>
+  <Path usageCount="1">objects/props/furniture/shelves/standing_a/textures/shelf_standing_a_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/props/furniture/shelves/standing_a/textures/shelf_standing_a_lod1_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/paint/paint_blue_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/paint/paint_blue_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_fine_b_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_fine_b_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/wood_fine_a_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

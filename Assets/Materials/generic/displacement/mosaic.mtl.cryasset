@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="7937a564-7c01-f6a5-6cb1-3fde0d629a32">
+ <Files>
+  <File path="mosaic.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/mosaic_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/mosaic_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="dda052a1-0ee5-988b-a4e3-0630e2f07cdb">
+ <Files>
+  <File path="test_mat_grass.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/grey.dds</Path>
+  <Path usageCount="1">materials/references/surface_types/grass_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

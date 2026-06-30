@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="88509938-adf7-96a1-3296-ae43318bb5fc">
+ <Files>
+  <File path="grass_3.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/terrain/detail/grass_3_diff.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/grass_3_ddna.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/grass_3_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

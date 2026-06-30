@@ -1,0 +1,35 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="chainlink" MtlFlags="524416" Shader="Illum" GenMask="2080000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal_barbwire" MatTemplate="" Diffuse="1,1,1" Specular="0.048171829,0.048171829,0.048171829" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.2" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/barbwire_fence/textures/chainlink_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/barbwire_fence/textures/chainlink_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="pole" MtlFlags="524416" Shader="Illum" GenMask="2080000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/metal_steelbar_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/metal/metal_steelbar_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_detail.tif">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_fence" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_barbwire" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_pole" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="chainlock" MtlFlags="524418" Shader="Illum" GenMask="2080000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.34999999" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/barbwire_fence/textures/chainlock_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/barbwire_fence/textures/chainlock_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

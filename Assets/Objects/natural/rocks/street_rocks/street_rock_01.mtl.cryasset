@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Material" guid="9e2354ff-115b-a36e-d525-c2e7fa99c8de">
+ <Files>
+  <File path="street_rock_01.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">12</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/rocks/street_rocks/textures/asphalt_edge_decal.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/street_rocks/textures/asphalt_edge_decal_ddn.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/street_rocks/textures/street_rock_asphalt.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/street_rocks/textures/street_rock_asphalt_ddna.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/street_rocks/textures/street_rock_01_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/ground_rocks/textures/ground_rock_tile.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/ground_rocks/textures/ground_rock_tile_mask.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/street_rocks/textures/street_rock_soil.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/street_rocks/textures/street_rock_soil_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/rock_base_tile_01.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/rock_base_tile_01_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/rock_base_tile_01_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

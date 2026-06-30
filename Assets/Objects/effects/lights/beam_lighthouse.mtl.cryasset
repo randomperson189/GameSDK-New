@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="c0730a9d-8666-85f8-2b0f-12432e2fe39b">
+ <Files>
+  <File path="beam_lighthouse.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/white_noise.dds</Path>
+ </Dependencies>
+</AssetMetadata>

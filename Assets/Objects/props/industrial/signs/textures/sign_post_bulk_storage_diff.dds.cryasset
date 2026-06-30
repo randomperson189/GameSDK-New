@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="b745034b-2831-baab-6ce5-4ab4151d0f7a">
+ <Files>
+  <File path="sign_post_bulk_storage_diff.dds"/>
+  <File path="sign_post_bulk_storage_diff.dds.1"/>
+  <File path="sign_post_bulk_storage_diff.dds.2"/>
+  <File path="sign_post_bulk_storage_diff.dds.3"/>
+  <File path="sign_post_bulk_storage_diff.dds.4"/>
+  <File path="sign_post_bulk_storage_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

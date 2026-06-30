@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="e6a3223f-2847-0178-ed48-65b18f1a8388">
+ <Files>
+  <File path="double_neon_light_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">252</Detail>
+  <Detail name="vertexCount">356</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./double_neon_light.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="aa4190ed-fa8f-241b-6628-a496410b9788">
+ <Files>
+  <File path="asphalt_edge_decal.dds"/>
+  <File path="asphalt_edge_decal.dds.1"/>
+  <File path="asphalt_edge_decal.dds.2"/>
+  <File path="asphalt_edge_decal.dds.3"/>
+  <File path="asphalt_edge_decal.dds.4"/>
+  <File path="asphalt_edge_decal.dds.5"/>
+  <File path="asphalt_edge_decal.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

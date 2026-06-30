@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="b3d0a545-479c-0c17-198a-1cbe1c295c1f">
+ <Files>
+  <File path="jetty_wood_fence_4m.cgf"/>
+  <File path="jetty_wood_fence_4m_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">1390</Detail>
+  <Detail name="vertexCount">1219</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./jetty_wood_old.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

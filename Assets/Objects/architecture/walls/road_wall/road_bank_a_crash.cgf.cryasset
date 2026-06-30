@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="5223f533-0ce0-b885-e2d4-8b4fd23ce94b">
+ <Files>
+  <File path="road_bank_a_crash.cgf"/>
+  <File path="road_bank_a_crash_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">583</Detail>
+  <Detail name="vertexCount">630</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./road_wall.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

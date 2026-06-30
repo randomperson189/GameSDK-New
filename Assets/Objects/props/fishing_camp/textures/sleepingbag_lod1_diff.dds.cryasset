@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="1a7c49b2-36e7-8a1c-11cc-8f2db45f49bc">
+ <Files>
+  <File path="sleepingbag_lod1_diff.dds"/>
+  <File path="sleepingbag_lod1_diff.dds.1"/>
+  <File path="sleepingbag_lod1_diff.dds.2"/>
+  <File path="sleepingbag_lod1_diff.dds.3"/>
+  <File path="sleepingbag_lod1_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

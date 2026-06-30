@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="8f60aad5-f9a7-1229-b49b-32c7970ba29a">
+ <Files>
+  <File path="camp_fire_c_lod1_diff.dds"/>
+  <File path="camp_fire_c_lod1_diff.dds.1"/>
+  <File path="camp_fire_c_lod1_diff.dds.2"/>
+  <File path="camp_fire_c_lod1_diff.dds.3"/>
+  <File path="camp_fire_c_lod1_diff.dds.4"/>
+  <File path="camp_fire_c_lod1_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

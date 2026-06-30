@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="7e3c2f77-ab68-bc2b-1ce5-b0cda3247c8a">
+ <Files>
+  <File path="tubs_set_wood_sml_a_dmg.cgf"/>
+  <File path="tubs_set_wood_sml_a_dmg_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">655</Detail>
+  <Detail name="vertexCount">746</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./tubs_set_wood_sml_ab.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

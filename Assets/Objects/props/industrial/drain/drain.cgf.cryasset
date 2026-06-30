@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="872133c5-1296-c7bb-cf16-10a9377368ba">
+ <Files>
+  <File path="drain.cgf"/>
+  <File path="drain_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">732</Detail>
+  <Detail name="vertexCount">463</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./drain.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

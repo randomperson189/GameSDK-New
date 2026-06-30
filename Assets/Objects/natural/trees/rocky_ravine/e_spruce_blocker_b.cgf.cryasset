@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="fa96145a-2efa-ebdf-78be-6c7c2809f1df">
+ <Files>
+  <File path="e_spruce_blocker_b.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">158</Detail>
+  <Detail name="vertexCount">230</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./spruce.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

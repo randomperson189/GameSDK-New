@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="69b82af3-333c-33c2-fe34-c19071738464">
+ <Files>
+  <File path="road_railing_yellow.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_iron_a_diff.dds</Path>
+  <Path usageCount="2">textures/generic/metal/metal_iron_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_a_spec.dds</Path>
+  <Path usageCount="1">textures/generic/base_colors/yellow_dark_diff.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/black_white_horiz_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

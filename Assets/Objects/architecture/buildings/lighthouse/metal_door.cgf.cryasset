@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="aab932bf-c71a-a615-b64c-24b9d6bfc89f">
+ <Files>
+  <File path="metal_door.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">12</Detail>
+  <Detail name="triangleCount">416</Detail>
+  <Detail name="vertexCount">419</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./lighthouse_interior.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

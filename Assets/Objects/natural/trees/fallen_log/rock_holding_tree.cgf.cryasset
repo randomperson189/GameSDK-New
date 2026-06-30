@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="cb47e5a9-85d7-89ed-44ac-89df7041915e">
+ <Files>
+  <File path="rock_holding_tree.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">223</Detail>
+  <Detail name="vertexCount">171</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fallen_log.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

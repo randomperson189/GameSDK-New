@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="65a438d0-9705-0ca6-50bf-a6a7cb1e035c">
+ <Files>
+  <File path="scales_tritilt.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/scales_tritilt_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/scales_tritilt_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="002caabd-dbfe-59f9-0339-0692dcf0f8ff">
+ <Files>
+  <File path="chainlink_ddna.dds"/>
+  <File path="chainlink_ddna.dds.a"/>
+  <File path="chainlink_ddna.dds.1"/>
+  <File path="chainlink_ddna.dds.1a"/>
+  <File path="chainlink_ddna.dds.2"/>
+  <File path="chainlink_ddna.dds.2a"/>
+  <File path="chainlink_ddna.dds.3"/>
+  <File path="chainlink_ddna.dds.3a"/>
+  <File path="chainlink_ddna.dds.4"/>
+  <File path="chainlink_ddna.dds.4a"/>
+  <File path="chainlink_ddna.dds.5"/>
+  <File path="chainlink_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

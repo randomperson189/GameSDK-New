@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="b0c861a0-8a86-28e1-3293-c86cb11ce9b1">
+ <Files>
+  <File path="pine_small_snowy.cgf"/>
+  <File path="pine_small_snowy_lod1.cgf"/>
+  <File path="pine_small_snowy_lod2.cgf"/>
+  <File path="pine_small_snowy_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">10</Detail>
+  <Detail name="triangleCount">3127</Detail>
+  <Detail name="vertexCount">4696</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./pine_snow.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

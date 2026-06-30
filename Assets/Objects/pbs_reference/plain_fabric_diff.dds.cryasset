@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="47afc3da-dbc5-0f22-84e8-cc66949a17b5">
+ <Files>
+  <File path="plain_fabric_diff.dds"/>
+  <File path="plain_fabric_diff.dds.1"/>
+  <File path="plain_fabric_diff.dds.2"/>
+  <File path="plain_fabric_diff.dds.3"/>
+  <File path="plain_fabric_diff.dds.4"/>
+  <File path="plain_fabric_diff.dds.5"/>
+  <File path="plain_fabric_diff.dds.6"/>
+  <File path="plain_fabric_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

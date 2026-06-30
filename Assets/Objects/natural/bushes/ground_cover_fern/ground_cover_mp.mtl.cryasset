@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="6e426923-2b3e-272f-c6fe-0adec51e0622">
+ <Files>
+  <File path="ground_cover_mp.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/bushes/ground_cover_fern/ground_cover_diff.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/ground_cover_fern/ground_cover_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/ground_cover_fern/ground_cover_sss.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="b2c82b74-29c5-5d04-048e-9649568e9646">
+ <Files>
+  <File path="advert_sign_glass.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/glass/advert_sign_glass_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/glass/advert_sign_glass_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

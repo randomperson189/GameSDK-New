@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="b246e2f8-39ab-812b-c3f3-3750cdbcff03">
+ <Files>
+  <File path="candle_holder_wall_a_ddna.dds"/>
+  <File path="candle_holder_wall_a_ddna.dds.a"/>
+  <File path="candle_holder_wall_a_ddna.dds.1"/>
+  <File path="candle_holder_wall_a_ddna.dds.1a"/>
+  <File path="candle_holder_wall_a_ddna.dds.2"/>
+  <File path="candle_holder_wall_a_ddna.dds.2a"/>
+  <File path="candle_holder_wall_a_ddna.dds.3"/>
+  <File path="candle_holder_wall_a_ddna.dds.3a"/>
+  <File path="candle_holder_wall_a_ddna.dds.4"/>
+  <File path="candle_holder_wall_a_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

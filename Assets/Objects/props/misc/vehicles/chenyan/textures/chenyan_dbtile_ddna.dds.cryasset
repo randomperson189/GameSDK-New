@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="8b7a7785-cf58-abfc-9f39-b03eeece2f61">
+ <Files>
+  <File path="chenyan_dbtile_ddna.dds"/>
+  <File path="chenyan_dbtile_ddna.dds.a"/>
+  <File path="chenyan_dbtile_ddna.dds.1"/>
+  <File path="chenyan_dbtile_ddna.dds.1a"/>
+  <File path="chenyan_dbtile_ddna.dds.2"/>
+  <File path="chenyan_dbtile_ddna.dds.2a"/>
+  <File path="chenyan_dbtile_ddna.dds.3"/>
+  <File path="chenyan_dbtile_ddna.dds.3a"/>
+  <File path="chenyan_dbtile_ddna.dds.4"/>
+  <File path="chenyan_dbtile_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

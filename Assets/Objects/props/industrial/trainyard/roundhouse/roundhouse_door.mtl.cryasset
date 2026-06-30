@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="580993ca-de3b-b4d5-5a2b-d19984e9bc79">
+ <Files>
+  <File path="roundhouse_door.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/trainyard/roundhouse/textures/metal_door_b_diff.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

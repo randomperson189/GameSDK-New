@@ -1,0 +1,26 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.24680044,0.24680044,0.24680044" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="20" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/maritime/lobster_cage/textures/frame_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/maritime/lobster_cage/textures/frame_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_horizontal_1_detail.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="1" DetailBumpScale="1" SubsurfaceScatteringAmount="0" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rope" MtlFlags="524418" Shader="Illum" GenMask="2000080080" StringGenMask="%BUMP_MAP%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0.11657578,0.11657578,0.11657578" Emissive="0,0,0" Shininess="80" Opacity="1" AlphaTest="0.40000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/maritime/lobster_cage/textures/rope_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/maritime/lobster_cage/textures/rope_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/maritime/lobster_cage/textures/rope_ddn.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

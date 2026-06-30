@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="7c58ffc2-87d6-d56e-eb75-b0b303ce422b">
+ <Files>
+  <File path="mushrooms_grey.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/ground/mushrooms/textures/mushrooms_diff.dds</Path>
+  <Path usageCount="1">objects/natural/ground/mushrooms/textures/mushrooms_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

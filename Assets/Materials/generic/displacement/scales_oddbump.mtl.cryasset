@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="1d7f23dd-5b25-275b-4a69-b6a9ad05f978">
+ <Files>
+  <File path="scales_oddbump.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/scales_oddbump_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/scales_oddbump_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

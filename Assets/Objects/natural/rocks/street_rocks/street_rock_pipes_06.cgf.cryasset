@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="8116efd0-be0a-dc3f-ea0d-ba600396fa1a">
+ <Files>
+  <File path="street_rock_pipes_06.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1096</Detail>
+  <Detail name="vertexCount">1167</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./street_rock_pipes.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

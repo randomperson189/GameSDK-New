@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="86bffbb8-855d-0984-35b9-d9badd0fd7c7">
+ <Files>
+  <File path="kitchen_lamp.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="4">Objects/props/furniture/appliances/lamps/textures/kitchenlamp_dif.dds</Path>
+  <Path usageCount="3">Objects/props/furniture/appliances/lamps/textures/kitchenlamp_ddna.dds</Path>
+  <Path usageCount="1">Objects/props/furniture/appliances/lamps/textures/glass_dif.dds</Path>
+  <Path usageCount="1">Objects/props/furniture/appliances/lamps/textures/glass_detailbump_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

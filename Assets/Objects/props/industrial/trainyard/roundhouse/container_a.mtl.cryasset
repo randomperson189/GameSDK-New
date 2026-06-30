@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="204d7bb9-b78e-9616-0952-dc07aa87124e">
+ <Files>
+  <File path="container_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/trainyard/roundhouse/textures/container_a_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/roundhouse/textures/container_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

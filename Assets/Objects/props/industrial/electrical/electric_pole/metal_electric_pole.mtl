@@ -1,0 +1,32 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="metal_bare" MtlFlags="524416" Shader="Illum" GenMask="2080000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/drain_pipe_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/metal/drain_pipe_ddna.tif"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="24.200001" DividerY="31" DividerZ="5.9000001" DividerW="0.0099999998" NoiseScale="1,1,35.869999">
+    <WaveZ Type="1" Amp="25.200001" Level="16.6" Phase="32.400002" Freq="28.700001"/>
+   </VertexDeform>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="details" MtlFlags="524448" Shader="Illum" GenMask="2080000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/electrical/electric_pole/textures/electric_pole_details_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/electrical/electric_pole/textures/electric_pole_details_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="concrete" MtlFlags="524416" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.012983033,0.012983033,0.012983033" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/concrete/concrete_corner_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/concrete/concrete_corner_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

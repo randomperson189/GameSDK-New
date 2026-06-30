@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="83e16e7e-b633-dae2-bfba-e88d0ce72e16">
+ <Files>
+  <File path="wood_fine_b_rotten.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_fine_b_rotten_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_fine_b_rotten_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

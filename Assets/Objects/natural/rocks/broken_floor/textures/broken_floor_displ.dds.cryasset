@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="86f222a9-e7e9-1042-f816-5fdd4881433c">
+ <Files>
+  <File path="broken_floor_displ.dds"/>
+  <File path="broken_floor_displ.dds.1"/>
+  <File path="broken_floor_displ.dds.2"/>
+  <File path="broken_floor_displ.dds.3"/>
+  <File path="broken_floor_displ.dds.4"/>
+  <File path="broken_floor_displ.dds.5"/>
+  <File path="broken_floor_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

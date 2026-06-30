@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="c5a797a6-ed5c-08d9-6ed0-cae9aa1cd27b">
+ <Files>
+  <File path="glow_ring.dds"/>
+  <File path="glow_ring.dds.1"/>
+  <File path="glow_ring.dds.2"/>
+  <File path="glow_ring.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

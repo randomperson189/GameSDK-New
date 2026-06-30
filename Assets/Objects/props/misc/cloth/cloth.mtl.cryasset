@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="5f2222be-bed4-662b-519e-54df13f20dba">
+ <Files>
+  <File path="cloth.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/plaster_wall03_diff.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/fabric/fabric_b_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

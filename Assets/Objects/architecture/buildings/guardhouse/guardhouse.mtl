@@ -1,0 +1,55 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="dirty_plaster_wall" MtlFlags="524416" Shader="Illum" GenMask="2089000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/brick/thin_brick_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/brick/thin_brick_ddna.tif"/>
+    <Texture Map="Heightmap" File="textures/generic/brick/thin_brick_displ.tif"/>
+   </Textures>
+   <PublicParams PomDisplacement="0.0049999999" SSSIndex="0" SelfShadowStrength="1" HeightBias="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="concrete_details" MtlFlags="524416" Shader="Illum" GenMask="2081000081" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="130" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/concrete/concrete_curbs_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/concrete/concrete_curbs_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/concrete/detail_concrete_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_stribes" MtlFlags="524416" Shader="Illum" GenMask="2081000081" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/metal_stribes_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/metal/metal_stribes_a_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.25" SSSIndex="0" DetailBumpScale="0.1" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="door" MtlFlags="524416" Shader="Illum" GenMask="2081000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/metal_door_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/metal/metal_door_a_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="2623648" Shader="Glass" GenMask="100040000010" StringGenMask="%BILINEAR_FP16%SPECULAR_MAP%TINT_MAP" SurfaceType="mat_glass" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="240" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Specular" File="textures/generic/glass/glass_dirty_tint.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="1,1,1" CloudinessReducesGloss="0.5" TintCloudiness="0.5" BackLightScale="0.5" BumpScale="2" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="_spare1" MtlFlags="525472" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="physic_concrete" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="physic_metal" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,48 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="leaf" MtlFlags="524416" Shader="Vegetation" GenMask="2400801080" StringGenMask="%BUMP_MAP%DETAIL_BENDING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.57758057,0.57758057,0.57758057" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="120" Opacity="1" AlphaTest="0.40000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/spruce_leaf_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/rocky_ravine/textures/spruce_leaf_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/trees/rocky_ravine/textures/spruce_leaf_sss.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="0.5" bendDetailBranchAmplitude="0.2" BlendTerrainCol="0.5" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.045000002" BackDiffuseMultiplier="0.5" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="trunk" MtlFlags="524416" Shader="Vegetation" GenMask="2410000180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%PN_TESSELLATION%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood_breakable" MatTemplate="" Diffuse="0.71569365,0.71569365,0.71569365" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="20" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/beech_trunk_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/rocky_ravine/textures/beech_trunk_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_fine_detail_horizontal.tif">
+     <TexMod TileU="4" TileV="2"/>
+    </Texture>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" bendDetailLeafAmplitude="0" TessellationFactor="1" bendDetailFrequency="0" bendDetailBranchAmplitude="0" BlendTerrainCol="0" DetailDiffuseScale="0.75" VertexAlphaBlendFactor="1" DetailBumpScale="0.5" BlendMaskTiling="1" TessellationFactorMax="32" BlendTerrainColDist="0.5" DetailGlossScale="0.5" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_AI" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_phys" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0,0,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="trunk_dead" MtlFlags="524416" Shader="Illum" GenMask="80040181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%DISPLACEMENT_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.57758057,0.57758057,0.57758057" Specular="0.012983033,0.012983033,0.012983033" Emissive="0,0,0" Shininess="20" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_ddna.tif"/>
+    <Texture Map="Heightmap" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_displ.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_fine_detail_horizontal.tif">
+     <TexMod TileU="4" TileV="2"/>
+    </Texture>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="2" TessellationDispBias="0.5" TessellationHeightScale="0.40000001" DetailDiffuseScale="1" SSSIndex="0" DetailBumpScale="0.75" TessellationFactorMax="32" DetailGlossScale="0.25" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_bend" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="xshape" MtlFlags="525472" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/spruce_xtree_diff.tif"/>
+   </Textures>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

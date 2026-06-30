@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Material" guid="16ea77d2-64dc-fa5f-6855-daf8343271d7">
+ <Files>
+  <File path="trash_combine.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">8</Detail>
+  <Detail name="textureCount">12</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/barrels/barrel_a/textures/barrel_a_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/barrels/barrel_a/textures/barrel_ddna.dds</Path>
+  <Path usageCount="2">objects/props/industrial/junk/garbage/textures/garbage_dec_diff.dds</Path>
+  <Path usageCount="2">objects/props/industrial/junk/garbage/textures/garbage_dec_ddna.dds</Path>
+  <Path usageCount="1">objects/props/industrial/junk/garbage/textures/garbage_bag_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/junk/garbage/textures/garbage_bag_ddna.dds</Path>
+  <Path usageCount="1">objects/props/industrial/boxes/cardboard_box/textures/cardboard_box_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/boxes/cardboard_box/textures/cardboard_box_dtl.dds</Path>
+  <Path usageCount="1">objects/props/industrial/palette/palette_a_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/palette/palette_a_ddna.dds</Path>
+  <Path usageCount="1">objects/props/industrial/junk/trash_container/textures/trash_container_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/junk/trash_container/textures/trash_container_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

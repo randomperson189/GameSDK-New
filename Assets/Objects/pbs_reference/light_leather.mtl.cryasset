@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="4bde5b4e-dec0-5025-31ca-213c69dd46e6">
+ <Files>
+  <File path="light_leather.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/light_leather_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/leather_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

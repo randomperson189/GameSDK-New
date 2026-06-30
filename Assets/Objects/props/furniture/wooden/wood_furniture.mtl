@@ -1,0 +1,17 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="2000000100" StringGenMask="%DETAIL_MAPPING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.43681276,0.43681276,0.43681276" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/plywood_dark_diff.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_fine_b90_detail.tif">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" DetailBumpScale="1" SubsurfaceScatteringAmount="0" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

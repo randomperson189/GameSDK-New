@@ -1,0 +1,14 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="main" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%PN_TESSELLATION" SurfaceType="mat_rubber" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="30" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/maritime/buoy/textures/buoy_diff.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="1" TessellationFactorMax="4" SubsurfaceScatteringAmount="0" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rubber" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

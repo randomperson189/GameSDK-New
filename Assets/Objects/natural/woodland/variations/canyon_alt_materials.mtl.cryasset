@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="da753c8c-8398-5323-fd64-3a4a06ac6b12">
+ <Files>
+  <File path="canyon_alt_materials.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_rock_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_rock_spec.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/river_rock_blend.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/moss_diff.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/moss_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

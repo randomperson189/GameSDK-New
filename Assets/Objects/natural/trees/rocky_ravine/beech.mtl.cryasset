@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Material" guid="dd51ff80-be84-88c6-aebc-830107de7392">
+ <Files>
+  <File path="beech.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">8</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/natural/trees/rocky_ravine/textures/beech_trunk_diff.dds</Path>
+  <Path usageCount="2">objects/natural/trees/rocky_ravine/textures/beech_trunk_ddna.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/wood/wood_b_detail.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/beech_tree_leaf_full_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/beech_tree_leaf_full_ddna.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/beech_leaf_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/beech_leaf_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

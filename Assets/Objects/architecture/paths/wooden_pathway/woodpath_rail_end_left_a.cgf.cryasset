@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="fd6c7a08-fa9c-c0f2-12e3-27cc1b8617a2">
+ <Files>
+  <File path="woodpath_rail_end_left_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">123</Detail>
+  <Detail name="vertexCount">210</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wooden_pathway.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="535d8a8d-93b5-fe81-63cf-90d9872fc915">
+ <Files>
+  <File path="outdoor_spotlight.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">7</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/props/furniture/appliances/lamps/textures/glass_detailbump_ddn.dds</Path>
+  <Path usageCount="2">Objects/props/furniture/appliances/lamps/textures/glass_dif.dds</Path>
+  <Path usageCount="2">Objects/props/furniture/appliances/lamps/textures/downlight_dif.dds</Path>
+  <Path usageCount="1">Objects/props/furniture/appliances/lamps/textures/outdoorspotlight_dif.dds</Path>
+  <Path usageCount="1">Objects/props/furniture/appliances/lamps/textures/outdoorspotlight_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

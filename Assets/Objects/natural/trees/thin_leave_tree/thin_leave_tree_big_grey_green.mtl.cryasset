@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="cb0c0514-9e88-762b-5f40-17e499e56621">
+ <Files>
+  <File path="thin_leave_tree_big_grey_green.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/leaves_branches_new_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/leaves_branches_new_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/leaves_branches_new_opac.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/trunk_pino_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/trunk_pino_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

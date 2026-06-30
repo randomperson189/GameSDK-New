@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="c8de12f1-b5d1-1fe4-2d2d-c381a8dd107e">
+ <Files>
+  <File path="floor_mosaic_tiles_b.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/floor_mosaic_tiles_b_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/floor_mosaic_tiles_b_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/floor_mosaic_tiles_b_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

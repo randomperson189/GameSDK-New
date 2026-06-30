@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="a3afb8d8-c38d-ebbd-bee7-a8bb3394db68">
+ <Files>
+  <File path="railroad_wood_ties_ddna.dds"/>
+  <File path="railroad_wood_ties_ddna.dds.a"/>
+  <File path="railroad_wood_ties_ddna.dds.1"/>
+  <File path="railroad_wood_ties_ddna.dds.1a"/>
+  <File path="railroad_wood_ties_ddna.dds.2"/>
+  <File path="railroad_wood_ties_ddna.dds.2a"/>
+  <File path="railroad_wood_ties_ddna.dds.3"/>
+  <File path="railroad_wood_ties_ddna.dds.3a"/>
+  <File path="railroad_wood_ties_ddna.dds.4"/>
+  <File path="railroad_wood_ties_ddna.dds.4a"/>
+  <File path="railroad_wood_ties_ddna.dds.5"/>
+  <File path="railroad_wood_ties_ddna.dds.5a"/>
+  <File path="railroad_wood_ties_ddna.dds.6"/>
+  <File path="railroad_wood_ties_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

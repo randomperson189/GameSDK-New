@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="0d21c24e-4483-f1b1-b8fb-413fc4a672d4">
+ <Files>
+  <File path="chenyan_main_ddna.dds"/>
+  <File path="chenyan_main_ddna.dds.a"/>
+  <File path="chenyan_main_ddna.dds.1"/>
+  <File path="chenyan_main_ddna.dds.1a"/>
+  <File path="chenyan_main_ddna.dds.2"/>
+  <File path="chenyan_main_ddna.dds.2a"/>
+  <File path="chenyan_main_ddna.dds.3"/>
+  <File path="chenyan_main_ddna.dds.3a"/>
+  <File path="chenyan_main_ddna.dds.4"/>
+  <File path="chenyan_main_ddna.dds.4a"/>
+  <File path="chenyan_main_ddna.dds.5"/>
+  <File path="chenyan_main_ddna.dds.5a"/>
+  <File path="chenyan_main_ddna.dds.6"/>
+  <File path="chenyan_main_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

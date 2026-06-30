@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="40fb18b0-8f7b-c38d-921b-423abe1f6100">
+ <Files>
+  <File path="mp_ladder1c.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">876</Detail>
+  <Detail name="vertexCount">1268</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./MP_ladder1.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

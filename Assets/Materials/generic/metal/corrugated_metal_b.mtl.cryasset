@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="d2479777-4a33-3064-a9e3-4c0278de7960">
+ <Files>
+  <File path="corrugated_metal_b.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/corrugated_metal_b_tile_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/corrugated_metal_b_tile_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+  <Path usageCount="1">textures/generic/metal/corrugated_metal_a_tile_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,11 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="trunk" MtlFlags="524416" Shader="Vegetation" GenMask="2400200000" StringGenMask="%GRASS%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.0047769537,0.0047769537,0.0047769537" Emissive="0,0,0" Shininess="10" Opacity="1" AlphaTest="0.5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/distance_trees/hill_trees_a_diff.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.079999998" bendDetailFrequency="5" bendDetailBranchAmplitude="0.2" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.15000001" BlendTerrainColDist="0.5" IndirectColor="0.5174014,0.5174014,0.5174014"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

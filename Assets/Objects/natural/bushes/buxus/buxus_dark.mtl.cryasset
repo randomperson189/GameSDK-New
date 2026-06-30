@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="dbf0c88c-9f07-cb19-8408-3f484e1fc891">
+ <Files>
+  <File path="buxus_dark.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/bushes/buxus/buxus_diff.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/buxus/buxus_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/buxus/buxus_sss.dds</Path>
+ </Dependencies>
+</AssetMetadata>

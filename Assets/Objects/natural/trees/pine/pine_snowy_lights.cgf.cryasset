@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="1f258ee7-c09a-ec0f-b3b0-d6f63aa17203">
+ <Files>
+  <File path="pine_snowy_lights.cgf"/>
+  <File path="pine_snowy_lights_lod1.cgf"/>
+  <File path="pine_snowy_lights_lod2.cgf"/>
+  <File path="pine_snowy_lights_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">7989</Detail>
+  <Detail name="vertexCount">11383</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./pine_snow_holiday.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

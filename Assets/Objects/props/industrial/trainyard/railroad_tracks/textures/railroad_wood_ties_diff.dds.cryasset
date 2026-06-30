@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="dec07e7a-a5a1-ff37-dd9b-b0a1d3a27574">
+ <Files>
+  <File path="railroad_wood_ties_diff.dds"/>
+  <File path="railroad_wood_ties_diff.dds.1"/>
+  <File path="railroad_wood_ties_diff.dds.2"/>
+  <File path="railroad_wood_ties_diff.dds.3"/>
+  <File path="railroad_wood_ties_diff.dds.4"/>
+  <File path="railroad_wood_ties_diff.dds.5"/>
+  <File path="railroad_wood_ties_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="3953aa66-5451-b325-7aa2-923a21a7b1aa">
+ <Files>
+  <File path="bullet_rockforest.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/rock/bullet_rockforest.dds</Path>
+  <Path usageCount="1">textures/decals/rock/rock_hard_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

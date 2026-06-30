@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="f79969c8-f31d-040f-7b06-5bb29cde442d">
+ <Files>
+  <File path="abrams_turret_spec.dds"/>
+  <File path="abrams_turret_spec.dds.1"/>
+  <File path="abrams_turret_spec.dds.2"/>
+  <File path="abrams_turret_spec.dds.3"/>
+  <File path="abrams_turret_spec.dds.4"/>
+  <File path="abrams_turret_spec.dds.5"/>
+  <File path="abrams_turret_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

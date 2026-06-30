@@ -1,0 +1,27 @@
+<AssetMetadata version="0" type="Material" guid="48ef06ec-466f-48a2-d4ae-706a32c64579">
+ <Files>
+  <File path="canyon_basewall.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">16</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/grey.dds</Path>
+  <Path usageCount="3">objects/natural/rocks/canyon_basewall/textures/rock_base_tile_01.dds</Path>
+  <Path usageCount="3">objects/natural/rocks/canyon_basewall/textures/rock_base_tile_01_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/basewall_03_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/basewall_03_detail_displ.dds</Path>
+  <Path usageCount="3">objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_gloss.dds</Path>
+  <Path usageCount="3">objects/natural/rocks/canyon_basewall/textures/moss_canyonrock.dds</Path>
+  <Path usageCount="3">objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_ddna.dds</Path>
+  <Path usageCount="3">objects/natural/rocks/canyon_basewall/textures/rock_base_tile_01_mask.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/basewall_02_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/basewall_02_detail_displ.dds</Path>
+  <Path usageCount="1">objects/natural/trees/dead_tree/textures/dead_tree_leaf_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/dead_tree/textures/dead_tree_leaf_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/basewall_01_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/basewall_01_detail_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

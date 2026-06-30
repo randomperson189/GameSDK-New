@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="09d88ea5-954f-e0e5-0bcd-7542b6326ce9">
+ <Files>
+  <File path="tiles_diff.dds"/>
+  <File path="tiles_diff.dds.1"/>
+  <File path="tiles_diff.dds.2"/>
+  <File path="tiles_diff.dds.3"/>
+  <File path="tiles_diff.dds.4"/>
+  <File path="tiles_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

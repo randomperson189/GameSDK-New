@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="26370763-c5b3-edd0-4d90-6f49c480e510">
+ <Files>
+  <File path="particle_green_leafs.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/effects/natural/particle_green_leafs.dds</Path>
+ </Dependencies>
+</AssetMetadata>

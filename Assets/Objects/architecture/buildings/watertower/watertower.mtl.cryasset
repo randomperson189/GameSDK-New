@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Material" guid="5e105f84-dc18-3f43-4865-ac1e77f6ddca">
+ <Files>
+  <File path="watertower.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">7</Detail>
+  <Detail name="textureCount">8</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/architecture/buildings/watertower/textures/tiles_diff.dds</Path>
+  <Path usageCount="3">objects/architecture/buildings/watertower/textures/metal_tile_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower/textures/rust_decal.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower/textures/girder_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower/textures/girder_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower/textures/alpha_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower/textures/alpha_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower/textures/metal_tile_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

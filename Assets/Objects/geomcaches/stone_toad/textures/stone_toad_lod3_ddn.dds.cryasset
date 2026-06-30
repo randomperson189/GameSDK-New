@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="f2ab5c11-b4ef-637f-3ce9-06706b896bd3">
+ <Files>
+  <File path="stone_toad_lod3_ddn.dds"/>
+  <File path="stone_toad_lod3_ddn.dds.1"/>
+  <File path="stone_toad_lod3_ddn.dds.2"/>
+  <File path="stone_toad_lod3_ddn.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

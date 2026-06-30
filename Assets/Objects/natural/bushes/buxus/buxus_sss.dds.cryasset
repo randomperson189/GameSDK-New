@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="91103659-31d2-1dce-2920-6d2a5d5dd184">
+ <Files>
+  <File path="buxus_sss.dds"/>
+  <File path="buxus_sss.dds.1"/>
+  <File path="buxus_sss.dds.2"/>
+  <File path="buxus_sss.dds.3"/>
+  <File path="buxus_sss.dds.4"/>
+  <File path="buxus_sss.dds.5"/>
+  <File path="buxus_sss.dds.6"/>
+  <File path="buxus_sss.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

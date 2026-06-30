@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="1b97e9f3-31b6-002c-3cf1-147d4d4b468c">
+ <Files>
+  <File path="lightswitch_local1_ddna.dds"/>
+  <File path="lightswitch_local1_ddna.dds.a"/>
+  <File path="lightswitch_local1_ddna.dds.1"/>
+  <File path="lightswitch_local1_ddna.dds.1a"/>
+  <File path="lightswitch_local1_ddna.dds.2"/>
+  <File path="lightswitch_local1_ddna.dds.2a"/>
+  <File path="lightswitch_local1_ddna.dds.3"/>
+  <File path="lightswitch_local1_ddna.dds.3a"/>
+  <File path="lightswitch_local1_ddna.dds.4"/>
+  <File path="lightswitch_local1_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

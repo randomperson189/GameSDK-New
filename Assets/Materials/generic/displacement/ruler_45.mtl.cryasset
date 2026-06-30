@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="b5bc34de-b0aa-a66d-05b8-b7474d806680">
+ <Files>
+  <File path="ruler_45.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/ruler_45_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/ruler_45_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

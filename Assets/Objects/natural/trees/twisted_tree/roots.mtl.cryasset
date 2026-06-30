@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="6e5684c5-19fe-8ebe-e889-f834a776695d">
+ <Files>
+  <File path="roots.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/twisted_tree/textures/cut_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/twisted_tree/textures/cut_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+  <Path usageCount="1">objects/natural/trees/twisted_tree/textures/trunk_dry_tree_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/twisted_tree/textures/trunk_dry_tree_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

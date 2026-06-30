@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="4bf2763f-d1a3-d3f5-1a12-84f0514e95e6">
+ <Files>
+  <File path="medium_grass_stalk.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">10</Detail>
+  <Detail name="vertexCount">12</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./field_grass.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

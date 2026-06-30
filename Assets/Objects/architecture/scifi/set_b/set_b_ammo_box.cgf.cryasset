@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="af5d1970-0d56-1625-8c8c-3816424d9090">
+ <Files>
+  <File path="set_b_ammo_box.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">21</Detail>
+  <Detail name="triangleCount">560</Detail>
+  <Detail name="vertexCount">1144</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./set_b.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

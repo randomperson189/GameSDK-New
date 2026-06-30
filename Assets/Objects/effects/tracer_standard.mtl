@@ -1,0 +1,23 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="long" MtlFlags="524450" Shader="Illum" GenMask="402000000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="" MatTemplate="" Diffuse="0.94060069,0.18014428,0.086901255" Specular="0,0,0" Emissive="0,0,0" Opacity="0.99000001" GlowAmount="1" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/effects/tracer_standard02.tif"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0" DividerY="0" DividerZ="0.0099999998" DividerW="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="8" Amp="0.039999999" Level="0" Phase="0" Freq="10"/>
+   </VertexDeform>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="small" MtlFlags="524450" Shader="Illum" GenMask="400000000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="1,1,1" Opacity="0.99000001" GlowAmount="100" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/effects/tracer_standard01.tif"/>
+   </Textures>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

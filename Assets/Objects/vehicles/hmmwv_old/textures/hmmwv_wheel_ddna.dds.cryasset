@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="fae79f45-fd52-9f30-7054-c4e79654603d">
+ <Files>
+  <File path="hmmwv_wheel_ddna.dds"/>
+  <File path="hmmwv_wheel_ddna.dds.a"/>
+  <File path="hmmwv_wheel_ddna.dds.1"/>
+  <File path="hmmwv_wheel_ddna.dds.1a"/>
+  <File path="hmmwv_wheel_ddna.dds.2"/>
+  <File path="hmmwv_wheel_ddna.dds.2a"/>
+  <File path="hmmwv_wheel_ddna.dds.3"/>
+  <File path="hmmwv_wheel_ddna.dds.3a"/>
+  <File path="hmmwv_wheel_ddna.dds.4"/>
+  <File path="hmmwv_wheel_ddna.dds.4a"/>
+  <File path="hmmwv_wheel_ddna.dds.5"/>
+  <File path="hmmwv_wheel_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

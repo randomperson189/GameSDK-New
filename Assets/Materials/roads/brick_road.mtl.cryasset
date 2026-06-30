@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="46642549-864b-a60b-7da0-e78abb3433bb">
+ <Files>
+  <File path="brick_road.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/roads/brickroad_diff.dds</Path>
+  <Path usageCount="1">textures/roads/brickroad_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

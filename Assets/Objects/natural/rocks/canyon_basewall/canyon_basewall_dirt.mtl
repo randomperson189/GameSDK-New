@@ -1,0 +1,85 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="dirt" MtlFlags="524448" Shader="Illum" GenMask="2081000881" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.051269464,0.033104774,0.019382363" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds" Filter="5">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="6" TileV="6"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_basewall/textures/rock_base_tile_01_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_basewall/textures/basewall_01_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.1666" TileV="0.1666"/>
+    </Texture>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DetailDiffuseScale="1" DecalFalloff="1" DetailBumpScale="1" DecalAlphaMult="1" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="dirt2" MtlFlags="524448" Shader="Illum" GenMask="2081000881" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.05284163,0.034230206,0.019917838" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds" Filter="5">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="6" TileV="6"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_basewall/textures/rock_base_tile_01_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_basewall/textures/basewall_02_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.1666" TileV="0.1666"/>
+    </Texture>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DetailDiffuseScale="1" DecalFalloff="1" DetailBumpScale="1" DecalAlphaMult="1" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="dirt3" MtlFlags="524448" Shader="Illum" GenMask="2081000881" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.05284163,0.034230206,0.019917838" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds" Filter="5">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="6" TileV="6"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_basewall/textures/rock_base_tile_01_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_basewall/textures/basewall_03_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.1666" TileV="0.1666"/>
+    </Texture>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DetailDiffuseScale="1" DecalFalloff="1" DetailBumpScale="1" DecalAlphaMult="1" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="dirt4" MtlFlags="524448" Shader="Illum" GenMask="2080000801" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds" Filter="5">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="dirt5" MtlFlags="524448" Shader="Illum" GenMask="2081000881" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.05284163,0.034230206,0.019917838" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds" Filter="5">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_basewall/textures/basewall_04_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.1" TileV="0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DetailDiffuseScale="1" DecalFalloff="1" DetailBumpScale="1" DecalAlphaMult="1" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="dirt6" MtlFlags="524448" Shader="Illum" GenMask="2081000881" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.05284163,0.034230206,0.019917838" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds" Filter="5">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="8" TileV="8"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_basewall/textures/basewall_06_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.125" TileV="0.125"/>
+    </Texture>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DetailDiffuseScale="1" DecalFalloff="1" DetailBumpScale="1" DecalAlphaMult="1" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="dirt7" MtlFlags="524448" Shader="Illum" GenMask="2081000881" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.05284163,0.034230206,0.019917838" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds" Filter="5">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="8" TileV="8"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_basewall/textures/basewall_07_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.125" TileV="0.125"/>
+    </Texture>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DetailDiffuseScale="1" DecalFalloff="1" DetailBumpScale="1" DecalAlphaMult="1" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

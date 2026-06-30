@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="06006554-9eb0-59d7-0217-3543852111ee">
+ <Files>
+  <File path="trash_container.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/junk/trash_container/textures/trash_container_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/junk/trash_container/textures/trash_container_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

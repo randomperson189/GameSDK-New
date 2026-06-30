@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="4fec8b12-53cd-870e-872b-476b99009be6">
+ <Files>
+  <File path="robinia_trunk_diff.dds"/>
+  <File path="robinia_trunk_diff.dds.1"/>
+  <File path="robinia_trunk_diff.dds.2"/>
+  <File path="robinia_trunk_diff.dds.3"/>
+  <File path="robinia_trunk_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

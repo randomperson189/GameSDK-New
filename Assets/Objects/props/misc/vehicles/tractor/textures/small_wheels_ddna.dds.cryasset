@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="1c61c556-86ee-9bf6-30c5-d3fe2f131106">
+ <Files>
+  <File path="small_wheels_ddna.dds"/>
+  <File path="small_wheels_ddna.dds.a"/>
+  <File path="small_wheels_ddna.dds.1"/>
+  <File path="small_wheels_ddna.dds.1a"/>
+  <File path="small_wheels_ddna.dds.2"/>
+  <File path="small_wheels_ddna.dds.2a"/>
+  <File path="small_wheels_ddna.dds.3"/>
+  <File path="small_wheels_ddna.dds.3a"/>
+  <File path="small_wheels_ddna.dds.4"/>
+  <File path="small_wheels_ddna.dds.4a"/>
+  <File path="small_wheels_ddna.dds.5"/>
+  <File path="small_wheels_ddna.dds.5a"/>
+  <File path="small_wheels_ddna.dds.6"/>
+  <File path="small_wheels_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="c3552206-f38b-dd29-7bc0-45e1176d2340">
+ <Files>
+  <File path="jungle_tree_large.cgf"/>
+  <File path="jungle_tree_large_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1343</Detail>
+  <Detail name="vertexCount">1898</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./jungle_tree.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

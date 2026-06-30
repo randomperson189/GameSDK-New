@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="25205fe7-88d1-5654-1f61-12f5d987b326">
+ <Files>
+  <File path="tubs_set_wood_sml_ab_spec.dds"/>
+  <File path="tubs_set_wood_sml_ab_spec.dds.1"/>
+  <File path="tubs_set_wood_sml_ab_spec.dds.2"/>
+  <File path="tubs_set_wood_sml_ab_spec.dds.3"/>
+  <File path="tubs_set_wood_sml_ab_spec.dds.4"/>
+  <File path="tubs_set_wood_sml_ab_spec.dds.5"/>
+  <File path="tubs_set_wood_sml_ab_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

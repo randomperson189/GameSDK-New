@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="7e79ab31-aba8-f884-3de3-abf1ab92f280">
+ <Files>
+  <File path="debris4.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">66</Detail>
+  <Detail name="vertexCount">85</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./debris.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

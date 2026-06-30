@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="7f7c3dfe-6155-f689-e44e-31510b3f8f96">
+ <Files>
+  <File path="warthog_diff.dds"/>
+  <File path="warthog_diff.dds.1"/>
+  <File path="warthog_diff.dds.2"/>
+  <File path="warthog_diff.dds.3"/>
+  <File path="warthog_diff.dds.4"/>
+  <File path="warthog_diff.dds.5"/>
+  <File path="warthog_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="910d25cd-f95f-99e2-5e2c-135d91f465ae">
+ <Files>
+  <File path="swat_van_attach_spec.dds"/>
+  <File path="swat_van_attach_spec.dds.1"/>
+  <File path="swat_van_attach_spec.dds.2"/>
+  <File path="swat_van_attach_spec.dds.3"/>
+  <File path="swat_van_attach_spec.dds.4"/>
+  <File path="swat_van_attach_spec.dds.5"/>
+  <File path="swat_van_attach_spec.dds.6"/>
+  <File path="swat_van_attach_spec.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

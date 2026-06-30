@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="e6b81bc2-dd52-4f42-411c-471fa7c2ca0f">
+ <Files>
+  <File path="bullrush.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/ground/bullrush/textures/bullrush_diff.dds</Path>
+  <Path usageCount="1">objects/natural/ground/bullrush/textures/bullrush_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

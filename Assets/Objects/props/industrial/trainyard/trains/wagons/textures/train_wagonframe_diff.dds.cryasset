@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="66162658-48ba-cc09-48ba-1b00204394a6">
+ <Files>
+  <File path="train_wagonframe_diff.dds"/>
+  <File path="train_wagonframe_diff.dds.1"/>
+  <File path="train_wagonframe_diff.dds.2"/>
+  <File path="train_wagonframe_diff.dds.3"/>
+  <File path="train_wagonframe_diff.dds.4"/>
+  <File path="train_wagonframe_diff.dds.5"/>
+  <File path="train_wagonframe_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

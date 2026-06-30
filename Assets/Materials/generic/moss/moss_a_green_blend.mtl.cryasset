@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="f109c07e-5e63-d77f-95eb-9c204c2f014e">
+ <Files>
+  <File path="moss_a_green_blend.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/moss/moss_green_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/moss/moss_green_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/mud/mud_b_diff.dds</Path>
+  <Path usageCount="1">textures/generic/mud/mud_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/moss/moss_green_a_blend.dds</Path>
+ </Dependencies>
+</AssetMetadata>

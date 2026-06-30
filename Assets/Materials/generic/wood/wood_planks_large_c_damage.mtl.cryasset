@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="fce25a04-6860-caaf-8a75-d5c9070a9551">
+ <Files>
+  <File path="wood_planks_large_c_damage.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_planks_lrg_c_dmg_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_planks_lrg_c_dmg_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

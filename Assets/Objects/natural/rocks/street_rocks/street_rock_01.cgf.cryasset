@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="62e5a58b-4453-d20e-c16c-42ae009d783c">
+ <Files>
+  <File path="street_rock_01.cgf"/>
+  <File path="street_rock_01_lod1.cgf"/>
+  <File path="street_rock_01_lod2.cgf"/>
+  <File path="street_rock_01_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1889</Detail>
+  <Detail name="vertexCount">1306</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./street_rock_01.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

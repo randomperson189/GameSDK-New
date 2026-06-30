@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d849a41b-4179-f70c-fe8a-ad8a9a8d64b8">
+ <Files>
+  <File path="gas_stove_diff.dds"/>
+  <File path="gas_stove_diff.dds.1"/>
+  <File path="gas_stove_diff.dds.2"/>
+  <File path="gas_stove_diff.dds.3"/>
+  <File path="gas_stove_diff.dds.4"/>
+  <File path="gas_stove_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

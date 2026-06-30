@@ -1,0 +1,24 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="deformable" MtlFlags="524416" Shader="Illum" GenMask="C1000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/metal_iron_cast_oxidized_a_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/metal/metal_iron_cast_oxidized_a_ddna.tif"/>
+    <Texture Map="Specular" File="textures/generic/metal/metal_iron_cast_oxidized_a_spec.tif"/>
+    <Texture Map="Custom" File="textures/generic/metal/metal_bronze_plain_b_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/metal/metal_bronze_plain_b_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/daub_rough_wood_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="4" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="1.5" BlendLayer2Specular="0.039999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="skeleton" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.047058828,0,1" Specular="0,0,0" Emissive="0,0,0" Opacity="0.30000001" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

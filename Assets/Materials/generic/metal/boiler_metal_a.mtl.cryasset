@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="94e5f227-703d-5916-6e63-ed845fcb393c">
+ <Files>
+  <File path="boiler_metal_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/boiler_metal_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/boiler_metal_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/boiler_metal_a_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

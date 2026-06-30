@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="c6345316-d306-12c3-d577-c1d9a9b60f18">
+ <Files>
+  <File path="roof_beam.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_steelbar_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_steelbar_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

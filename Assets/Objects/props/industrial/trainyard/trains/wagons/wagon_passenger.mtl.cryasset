@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="bd232bab-0af2-967d-8cd1-eeb6fc46e959">
+ <Files>
+  <File path="wagon_passenger.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/trainyard/trains/wagons/textures/train_wagon_dcal.dds</Path>
+  <Path usageCount="2">objects/props/industrial/trainyard/trains/wagons/textures/wagon_passenger_diff.dds</Path>
+  <Path usageCount="2">objects/props/industrial/trainyard/trains/wagons/textures/wagon_passenger_ddna.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="c1bf78b3-f616-57d7-d468-d5ff4c3e1c22">
+ <Files>
+  <File path="lamp_post_03a.cgf"/>
+  <File path="lamp_post_03a_lod1.cgf"/>
+  <File path="lamp_post_03a_lod2.cgf"/>
+  <File path="lamp_post_03a_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">7222</Detail>
+  <Detail name="vertexCount">6727</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./lamp_post.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

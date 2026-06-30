@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="937bfb2a-ce5f-c7f6-1fce-beebf950463a">
+ <Files>
+  <File path="stone_toad_mask.dds"/>
+  <File path="stone_toad_mask.dds.1"/>
+  <File path="stone_toad_mask.dds.2"/>
+  <File path="stone_toad_mask.dds.3"/>
+  <File path="stone_toad_mask.dds.4"/>
+  <File path="stone_toad_mask.dds.5"/>
+  <File path="stone_toad_mask.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

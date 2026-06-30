@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="56826406-778a-e366-54ab-3b5aa2d4e195">
+ <Files>
+  <File path="greenhouse.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1308</Detail>
+  <Detail name="vertexCount">2114</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./greenhouse.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

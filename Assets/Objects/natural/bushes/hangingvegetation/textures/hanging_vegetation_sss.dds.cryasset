@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="3ff5e7a8-1dc9-f1dd-98e2-17b1d34e56a4">
+ <Files>
+  <File path="hanging_vegetation_sss.dds"/>
+  <File path="hanging_vegetation_sss.dds.1"/>
+  <File path="hanging_vegetation_sss.dds.2"/>
+  <File path="hanging_vegetation_sss.dds.3"/>
+  <File path="hanging_vegetation_sss.dds.4"/>
+  <File path="hanging_vegetation_sss.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

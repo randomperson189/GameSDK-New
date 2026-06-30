@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="6328ce0a-0977-57d1-46d0-5e5114682942">
+ <Files>
+  <File path="generator_c.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/industrial/generators/textures/generator_c_rpm_diff.dds</Path>
+  <Path usageCount="2">objects/props/industrial/generators/textures/generator_diff.dds</Path>
+  <Path usageCount="2">objects/props/industrial/generators/textures/generator_ddna.dds</Path>
+  <Path usageCount="2">objects/props/industrial/generators/textures/generator_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

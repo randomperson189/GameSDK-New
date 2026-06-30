@@ -1,0 +1,18 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="frame1" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.71569353,0.71569353,0.71569353" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/plywood_dark_diff.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="526464" Shader="Glass" GenMask="10050" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%ENVIRONMENT_MAP" SurfaceType="mat_glass" MatTemplate="" Diffuse="0,0,0" Specular="0.49950528,0.49950528,0.49950528" Emissive="0,0,0" Shininess="220" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="textures/generic/glass/wet_glass01_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/generic_cubemap_day_cm.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="2" TintColor="0.21951973,0.21951973,0.21951973" BlurAmount="1" FresnelScale="1" FresnelBias="1" TintCloudiness="0.0099999998" BackLightScale="1" BumpScale="0.050000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

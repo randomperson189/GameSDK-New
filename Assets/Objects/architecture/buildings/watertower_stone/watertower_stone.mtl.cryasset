@@ -1,0 +1,32 @@
+<AssetMetadata version="0" type="Material" guid="af0b6427-8b76-caa9-8c48-0e949928ca69">
+ <Files>
+  <File path="watertower_stone.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">11</Detail>
+  <Detail name="textureCount">21</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/buildings/watertower_stone/textures/tiles_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower_stone/textures/tiles_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower_stone/textures/cement_decal.dds</Path>
+  <Path usageCount="2">objects/architecture/buildings/watertower_stone/textures/concrete_diff.dds</Path>
+  <Path usageCount="2">objects/architecture/buildings/watertower_stone/textures/concrete_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower_stone/textures/wood_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower_stone/textures/wood_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_detail.dds</Path>
+  <Path usageCount="1">textures/generic/glass/glass_clear_diff.dds</Path>
+  <Path usageCount="2">objects/architecture/buildings/watertower_stone/textures/metal_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower_stone/textures/metal_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower_stone/textures/metal_pipe_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower_stone/textures/roof_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower_stone/textures/roof_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower_stone/textures/brick_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/watertower_stone/textures/brick_ddna.dds</Path>
+  <Path usageCount="2">textures/generic/blend_masks/brick_blend.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/concrete_blend.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/eroded_concrete_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/eroded_concrete_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

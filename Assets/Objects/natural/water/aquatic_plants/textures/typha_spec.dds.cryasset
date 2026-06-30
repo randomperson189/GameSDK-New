@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="75bf2252-84a6-c7f6-32ea-70fa0ff3d892">
+ <Files>
+  <File path="typha_spec.dds"/>
+  <File path="typha_spec.dds.1"/>
+  <File path="typha_spec.dds.2"/>
+  <File path="typha_spec.dds.3"/>
+  <File path="typha_spec.dds.4"/>
+  <File path="typha_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

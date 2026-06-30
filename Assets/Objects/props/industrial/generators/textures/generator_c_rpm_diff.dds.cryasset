@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d6bfb76f-0b88-e9f8-561d-f785dfb263a5">
+ <Files>
+  <File path="generator_c_rpm_diff.dds"/>
+  <File path="generator_c_rpm_diff.dds.1"/>
+  <File path="generator_c_rpm_diff.dds.2"/>
+  <File path="generator_c_rpm_diff.dds.3"/>
+  <File path="generator_c_rpm_diff.dds.4"/>
+  <File path="generator_c_rpm_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

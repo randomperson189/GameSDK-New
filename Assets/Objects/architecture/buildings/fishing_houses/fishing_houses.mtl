@@ -1,0 +1,55 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="2081002020" StringGenMask="%BLENDLAYER%DIRTLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_planks_diff.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_planks_ddna.tif"/>
+    <Texture Map="Decal" File="textures/generic/blend_masks/dirty_blend.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rocks/textures/moss_diff.tif" Filter="4"/>
+    <Texture Map="[1] Custom" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_planks_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_planks_paint_diff.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="4" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="2" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="roof" MtlFlags="524416" Shader="Illum" GenMask="208B000000" StringGenMask="%NORMAL_MAP%OFFSET_BUMP_MAPPING%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_roof_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_roof_ddna.tif" Filter="4"/>
+    <Texture Map="Heightmap" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_roof_displ.tif"/>
+   </Textures>
+   <PublicParams PomDisplacement="0.0049999999" SSSIndex="0" SelfShadowStrength="5" ObmDisplacement="0.0040000002" HeightBias="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="specific" MtlFlags="524416" Shader="Illum" GenMask="20C1000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_specific_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_specific_ddna.tif"/>
+    <Texture Map="Specular" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_specific_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="beam" MtlFlags="524416" Shader="Illum" GenMask="2081000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_beam_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_beam_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="chimney" MtlFlags="524416" Shader="Illum" GenMask="2081000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_chimney_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_chimney_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="2623648" Shader="Glass" GenMask="40000010" StringGenMask="%BILINEAR_FP16%SPECULAR_MAP" SurfaceType="mat_glass" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="250" AlphaTest="0.1" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Specular" File="objects/architecture/buildings/fishing_houses/textures/glass_diff.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.18782079,0.23074007,0.23074007" TintCloudiness="0.050000001" BackLightScale="0.30000001" BumpScale="2" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

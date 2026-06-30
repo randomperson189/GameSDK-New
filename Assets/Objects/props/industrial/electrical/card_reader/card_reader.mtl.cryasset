@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="7fbe713f-454a-8899-38c4-2557e30c4fe0">
+ <Files>
+  <File path="card_reader.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/electrical/card_reader/textures/card_reader_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/electrical/card_reader/textures/card_reader_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

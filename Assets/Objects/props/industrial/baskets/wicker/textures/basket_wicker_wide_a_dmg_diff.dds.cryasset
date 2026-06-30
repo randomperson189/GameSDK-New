@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="67b38791-0ba2-52d0-ad9e-908774f5d3f6">
+ <Files>
+  <File path="basket_wicker_wide_a_dmg_diff.dds"/>
+  <File path="basket_wicker_wide_a_dmg_diff.dds.1"/>
+  <File path="basket_wicker_wide_a_dmg_diff.dds.2"/>
+  <File path="basket_wicker_wide_a_dmg_diff.dds.3"/>
+  <File path="basket_wicker_wide_a_dmg_diff.dds.4"/>
+  <File path="basket_wicker_wide_a_dmg_diff.dds.5"/>
+  <File path="basket_wicker_wide_a_dmg_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

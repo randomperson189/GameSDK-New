@@ -1,0 +1,32 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="9.999999" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="br_hay_bale_set_a_mesh" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,1,1" Specular="0.033104766,0.033104766,0.033104766" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/rural/hay_bale_set/textures/hay_bale_set_b_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/rural/hay_bale_set/textures/hay_bale_set_b_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="br_hay_bale_set_a_alpha" MtlFlags="524418" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,1,1" Specular="0.034230206,0.034230206,0.034230206" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.44999999" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/rural/hay_bale_set/textures/hay_bale_set_b_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/rural/hay_bale_set/textures/hay_bale_set_b_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="planks" MtlFlags="524416" Shader="Illum" GenMask="2081000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.031896032,0.031896032,0.031896032" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/wood_planks_flat_tiled_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/wood/wood_planks_flat_tiled_ddna.tif"/>
+    <Texture Map="Custom" File="textures/generic/wood/trunk_dead_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/wood/trunk_dead_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/wood/trunk_dead_diff.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.30000001" BlendLayer2Tiling="4" SSSIndex="0" BlendMaskTiling="3" BlendFactor="16" BlendLayer2Specular="0.02" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

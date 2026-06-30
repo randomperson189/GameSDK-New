@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="5983d379-5013-b3ed-53a8-10e2858aa27a">
+ <Files>
+  <File path="hmmwv_a_lod3_diff.dds"/>
+  <File path="hmmwv_a_lod3_diff.dds.1"/>
+  <File path="hmmwv_a_lod3_diff.dds.2"/>
+  <File path="hmmwv_a_lod3_diff.dds.3"/>
+  <File path="hmmwv_a_lod3_diff.dds.4"/>
+  <File path="hmmwv_a_lod3_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

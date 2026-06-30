@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="18a80cf3-5066-fc00-279b-a5a61d5dba8a">
+ <Files>
+  <File path="waterfall_cxp_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1687</Detail>
+  <Detail name="vertexCount">1190</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./waterfall.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

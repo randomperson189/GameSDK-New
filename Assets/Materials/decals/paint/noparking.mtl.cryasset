@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="89c421cc-abfd-7ea6-0d0e-385a5d8b25db">
+ <Files>
+  <File path="noparking.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/paint/noparking.dds</Path>
+ </Dependencies>
+</AssetMetadata>

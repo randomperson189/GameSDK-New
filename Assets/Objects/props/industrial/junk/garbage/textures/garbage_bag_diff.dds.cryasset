@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="ee663775-505a-fa84-e014-ec6affac771e">
+ <Files>
+  <File path="garbage_bag_diff.dds"/>
+  <File path="garbage_bag_diff.dds.1"/>
+  <File path="garbage_bag_diff.dds.2"/>
+  <File path="garbage_bag_diff.dds.3"/>
+  <File path="garbage_bag_diff.dds.4"/>
+  <File path="garbage_bag_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

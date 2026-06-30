@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="d7534abc-61b0-e10c-4861-2dd2c223da42">
+ <Files>
+  <File path="green_fern_bush_leaf_a_trans.dds"/>
+  <File path="green_fern_bush_leaf_a_trans.dds.1"/>
+  <File path="green_fern_bush_leaf_a_trans.dds.2"/>
+  <File path="green_fern_bush_leaf_a_trans.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

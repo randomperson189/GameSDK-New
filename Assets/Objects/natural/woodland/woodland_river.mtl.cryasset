@@ -1,0 +1,35 @@
+<AssetMetadata version="0" type="Material" guid="38d2f060-3b70-fcfd-eac4-2ced03afd93d">
+ <Files>
+  <File path="woodland_river.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">13</Detail>
+  <Detail name="textureCount">24</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/woodland/decal_moss_a.dds</Path>
+  <Path usageCount="1">textures/generic/moss/moss_green_a_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/moss_rock_mask.dds</Path>
+  <Path usageCount="4">objects/natural/rocks/canyon_rocks/canyon_wall_up_river_wet_diff.dds</Path>
+  <Path usageCount="4">objects/natural/rocks/canyon_rocks/canyon_wall_up_river_wet_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_rock_d_detail.dds</Path>
+  <Path usageCount="4">objects/natural/rocks/canyon_rocks/canyon_river_rock_diff.dds</Path>
+  <Path usageCount="3">objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.dds</Path>
+  <Path usageCount="4">objects/natural/woodland/river_rock_blend.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_rock_c_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_river_rock_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_rock_b_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_rock_a_detail.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/na_scots_pine_tree_trunk_rotten_diff.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/na_scots_pine_tree_trunk_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/dead_wood_detail.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/wood_dead_bark_diff.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/wood_dead_bark_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/pine_trunk_blend.dds</Path>
+  <Path usageCount="2">objects/natural/woodland/river_foam_diff.dds</Path>
+  <Path usageCount="2">textures/generic/water/river_foam_ddn.dds</Path>
+  <Path usageCount="2">textures/generic/water/river_foam_spec.dds</Path>
+  <Path usageCount="2">textures/generic/water/river_foam_displ.dds</Path>
+  <Path usageCount="2">textures/generic/water/river_foam.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="0ce46c56-79ea-7d2f-a905-b7cdca1f1ca5">
+ <Files>
+  <File path="window.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/glass/industrial_windows_b_ddn.dds</Path>
+  <Path usageCount="1">textures/cubemaps/generic_cubemap_day_cm.dds</Path>
+  <Path usageCount="1">textures/generic/wood/plywood_dark_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

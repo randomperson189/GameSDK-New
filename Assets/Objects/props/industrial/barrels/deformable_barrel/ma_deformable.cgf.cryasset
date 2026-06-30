@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d084c207-68cb-5394-6693-6408f0d84e5b">
+ <Files>
+  <File path="ma_deformable.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1368</Detail>
+  <Detail name="vertexCount">819</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./deformable_barrel.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

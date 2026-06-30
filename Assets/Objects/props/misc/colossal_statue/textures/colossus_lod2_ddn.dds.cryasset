@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="9c916491-2e35-d503-0ff8-d179474cc5bb">
+ <Files>
+  <File path="colossus_lod2_ddn.dds"/>
+  <File path="colossus_lod2_ddn.dds.1"/>
+  <File path="colossus_lod2_ddn.dds.2"/>
+  <File path="colossus_lod2_ddn.dds.3"/>
+  <File path="colossus_lod2_ddn.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

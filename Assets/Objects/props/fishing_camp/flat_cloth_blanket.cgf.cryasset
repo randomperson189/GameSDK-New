@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ecd9ad50-0219-7044-37b7-f57bcc0c2964">
+ <Files>
+  <File path="flat_cloth_blanket.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">80</Detail>
+  <Detail name="vertexCount">55</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_camp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

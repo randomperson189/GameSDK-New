@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="56c84ba1-d7d1-5a39-08f2-1a8938483220">
+ <Files>
+  <File path="rock_cave_a.cgf"/>
+  <File path="rock_cave_a_lod1.cgf"/>
+  <File path="rock_cave_a_lod2.cgf"/>
+  <File path="rock_cave_a_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">428</Detail>
+  <Detail name="vertexCount">347</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cliff_rock_neutral_con.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

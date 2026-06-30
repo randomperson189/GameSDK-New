@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="6bf27d33-7e04-fa9c-b8a2-d0a602f6964b">
+ <Files>
+  <File path="frozen_snow_patch.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/snow/frozen_snow_patch.dds</Path>
+  <Path usageCount="1">textures/decals/snow/frozen_snow_patch_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

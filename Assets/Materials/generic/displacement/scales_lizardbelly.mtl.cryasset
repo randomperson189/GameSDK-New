@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="f79890ba-f641-2c6b-fecb-60bcddbdcd3c">
+ <Files>
+  <File path="scales_lizardbelly.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/scales_lizzardbelly_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/scales_lizzardbelly_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="a13f19e4-b1e7-2084-4b9c-9ba4ca89f894">
+ <Files>
+  <File path="jetty_wood_damaged_b.cgf"/>
+  <File path="jetty_wood_damaged_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">8875</Detail>
+  <Detail name="vertexCount">5937</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./jetty_wood_old.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

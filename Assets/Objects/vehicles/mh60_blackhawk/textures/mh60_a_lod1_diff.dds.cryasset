@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="cd22b45c-83e3-d5d8-2309-3025ca2ae38b">
+ <Files>
+  <File path="mh60_a_lod1_diff.dds"/>
+  <File path="mh60_a_lod1_diff.dds.1"/>
+  <File path="mh60_a_lod1_diff.dds.2"/>
+  <File path="mh60_a_lod1_diff.dds.3"/>
+  <File path="mh60_a_lod1_diff.dds.4"/>
+  <File path="mh60_a_lod1_diff.dds.5"/>
+  <File path="mh60_a_lod1_diff.dds.6"/>
+  <File path="mh60_a_lod1_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

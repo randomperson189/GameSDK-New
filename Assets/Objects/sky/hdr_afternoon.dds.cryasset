@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="20aca301-31ae-9e8f-bbdd-ea4adfd560f6">
+ <Files>
+  <File path="hdr_afternoon.dds"/>
+  <File path="hdr_afternoon.dds.1"/>
+  <File path="hdr_afternoon.dds.2"/>
+  <File path="hdr_afternoon.dds.3"/>
+  <File path="hdr_afternoon.dds.4"/>
+  <File path="hdr_afternoon.dds.5"/>
+  <File path="hdr_afternoon.dds.6"/>
+  <File path="hdr_afternoon.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">8192</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

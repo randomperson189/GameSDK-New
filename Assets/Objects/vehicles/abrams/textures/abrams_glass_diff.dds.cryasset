@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="28ccc230-739d-4516-2894-9ac0d3d87638">
+ <Files>
+  <File path="abrams_glass_diff.dds"/>
+  <File path="abrams_glass_diff.dds.1"/>
+  <File path="abrams_glass_diff.dds.2"/>
+  <File path="abrams_glass_diff.dds.3"/>
+  <File path="abrams_glass_diff.dds.4"/>
+  <File path="abrams_glass_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

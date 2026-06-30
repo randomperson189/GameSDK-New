@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="b2d338a6-0338-9ff6-82e2-abc0af4d9af0">
+ <Files>
+  <File path="debug_contrast_veryhigh_cch.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">16</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="d9883dd2-f284-77ba-de5b-daa1909b029b">
+ <Files>
+  <File path="grass_normal_grp_trampled_b.cgf"/>
+  <File path="grass_normal_grp_trampled_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">528</Detail>
+  <Detail name="vertexCount">609</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./grass_tall.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

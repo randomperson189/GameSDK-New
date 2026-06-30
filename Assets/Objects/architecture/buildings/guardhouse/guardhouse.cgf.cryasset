@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="c4ff2a22-9975-8f13-e148-174d7243e7fd">
+ <Files>
+  <File path="guardhouse.cgf"/>
+  <File path="guardhouse_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">9</Detail>
+  <Detail name="triangleCount">2324</Detail>
+  <Detail name="vertexCount">3321</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Guardhouse.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

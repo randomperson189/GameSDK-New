@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="54a40cf7-8a4b-cdd3-2558-dfc612a886f3">
+ <Files>
+  <File path="camp_fire_glow.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_glow/textures/camp_fire_glow_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_glow/textures/camp_fire_glow_lod1_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/ash/burned_ash_glow_diff.dds</Path>
+  <Path usageCount="1">textures/generic/ash/burned_ash_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/ash/burned_ash_decal.dds</Path>
+  <Path usageCount="1">textures/generic/rock/burned_stone_a_diff.dds</Path>
+  <Path usageCount="2">textures/generic/rock/burned_stone_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/rock/stone_dirt_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/rock/stone_dirt_a_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

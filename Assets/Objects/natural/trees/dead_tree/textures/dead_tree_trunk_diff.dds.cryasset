@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="96d62cd7-5f69-372a-993f-443a3731a40b">
+ <Files>
+  <File path="dead_tree_trunk_diff.dds"/>
+  <File path="dead_tree_trunk_diff.dds.1"/>
+  <File path="dead_tree_trunk_diff.dds.2"/>
+  <File path="dead_tree_trunk_diff.dds.3"/>
+  <File path="dead_tree_trunk_diff.dds.4"/>
+  <File path="dead_tree_trunk_diff.dds.5"/>
+  <File path="dead_tree_trunk_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

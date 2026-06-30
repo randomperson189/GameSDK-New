@@ -1,0 +1,28 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="water_foam_01" MtlFlags="524448" Shader="Illum" GenMask="402000000201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_water" MatTemplate="" Diffuse="0.38377467,0.38377467,0.38377467" Specular="0.32503697,0.32503697,0.32503697" Emissive="0,0,0" Shininess="50" Opacity="0.5" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/water/river_foam_a.tif">
+     <TexMod TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.44999999" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/water/river_foam_var3_ddn.tif"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="1" DividerY="1" DividerZ="1" DividerW="1" NoiseScale="1,1,1">
+    <WaveX Type="2" Amp="0.1" Level="0" Phase="0" Freq="1"/>
+   </VertexDeform>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="water_foam_02" MtlFlags="524448" Shader="Illum" GenMask="402000000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_water" MatTemplate="" Diffuse="0.32503697,0.32503697,0.32503697" Specular="0,0,0" Emissive="0,0,0" Shininess="255" Opacity="0.5" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/water/river_foam_a.tif">
+     <TexMod TileU="2" OffsetV="0.30000001" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.25" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1"/>
+    </Texture>
+   </Textures>
+   <VertexDeform Type="1" DividerX="1" DividerY="1" DividerZ="1" DividerW="1" NoiseScale="1,1,1">
+    <WaveX Type="2" Amp="0.1" Level="0" Phase="0" Freq="1"/>
+   </VertexDeform>
+   <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="0.1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

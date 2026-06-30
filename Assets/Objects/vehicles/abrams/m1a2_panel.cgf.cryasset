@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="a5b5b8e1-edaf-a294-c9f5-25483945928c">
+ <Files>
+  <File path="m1a2_panel.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">20</Detail>
+  <Detail name="vertexCount">40</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./m1a1_desert.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="0206f4c1-95ae-27b5-14e0-a35b29d559e5">
+ <Files>
+  <File path="brick_wall_05.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/brick/brick_rounded_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_rounded_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_rounded_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

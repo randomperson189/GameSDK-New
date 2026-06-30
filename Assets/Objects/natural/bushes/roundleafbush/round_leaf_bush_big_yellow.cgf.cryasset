@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="b32f0d80-c298-7aa9-5664-eb9629840fb3">
+ <Files>
+  <File path="round_leaf_bush_big_yellow.cgf"/>
+  <File path="round_leaf_bush_big_yellow_lod1.cgf"/>
+  <File path="round_leaf_bush_big_yellow_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1227</Detail>
+  <Detail name="vertexCount">1256</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Round_Leaf_Bush_big_yellow.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

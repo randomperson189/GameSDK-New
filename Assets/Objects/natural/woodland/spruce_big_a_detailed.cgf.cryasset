@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="889d3991-428a-06da-97ab-b7e52624efd3">
+ <Files>
+  <File path="spruce_big_a_detailed.cgf"/>
+  <File path="spruce_big_a_detailed_lod1.cgf"/>
+  <File path="spruce_big_a_detailed_lod2.cgf"/>
+  <File path="spruce_big_a_detailed_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">15</Detail>
+  <Detail name="triangleCount">4181</Detail>
+  <Detail name="vertexCount">4186</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/natural/woodland/woodland_forest.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

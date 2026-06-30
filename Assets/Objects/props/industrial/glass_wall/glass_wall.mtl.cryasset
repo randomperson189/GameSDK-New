@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="0c59a155-c701-c60b-4ff8-ef788d72ca0e">
+ <Files>
+  <File path="glass_wall.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/glass_wall/textures/grout.dds</Path>
+  <Path usageCount="1">objects/props/industrial/glass_wall/textures/glass_wall_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

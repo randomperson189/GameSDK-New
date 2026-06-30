@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="e79bce72-1cad-25f8-e543-e6a9da71e27e">
+ <Files>
+  <File path="locker.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/furniture/locker/textures/locker_diff.dds</Path>
+  <Path usageCount="1">objects/props/furniture/locker/textures/locker_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

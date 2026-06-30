@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="371f0914-452b-0459-b61b-27b241781e33">
+ <Files>
+  <File path="basewall_07_detail_displ.dds"/>
+  <File path="basewall_07_detail_displ.dds.1"/>
+  <File path="basewall_07_detail_displ.dds.2"/>
+  <File path="basewall_07_detail_displ.dds.3"/>
+  <File path="basewall_07_detail_displ.dds.4"/>
+  <File path="basewall_07_detail_displ.dds.5"/>
+  <File path="basewall_07_detail_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Texture" guid="c71ffc2c-4be5-40e3-5f14-5de8e642cab4">
+ <Files>
+  <File path="abrams_butan_diff.dds"/>
+  <File path="abrams_butan_diff.dds.1"/>
+  <File path="abrams_butan_diff.dds.2"/>
+  <File path="abrams_butan_diff.dds.3"/>
+  <File path="abrams_butan_diff.dds.4"/>
+  <File path="abrams_butan_diff.dds.5"/>
+  <File path="abrams_butan_diff.dds.6"/>
+  <File path="abrams_butan_diff.dds.7"/>
+  <File path="abrams_butan_diff.dds.8"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

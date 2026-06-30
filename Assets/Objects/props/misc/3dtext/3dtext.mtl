@@ -1,0 +1,19 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="letters" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.21586053,0.21586053,0.21586053" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="245" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white_noise.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/3dtext/textures/3dtext_ddn.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="numbers" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="245" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white_noise.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/3dtext/textures/3dtext_b_ddn.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="25c0fc95-b363-4511-249d-70a78e329225">
+ <Files>
+  <File path="train_tunnel.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/meadow/textures/meadow_grass_diff.dds</Path>
+  <Path usageCount="1">textures/generic/vegetation/pebbles_leaves_diff.dds</Path>
+  <Path usageCount="1">textures/generic/vegetation/pebbles_leaves_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/sidewalk_stones_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/sidewalk_stones_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_raw_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_raw_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

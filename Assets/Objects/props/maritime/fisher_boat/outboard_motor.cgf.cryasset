@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="2371ba8e-985b-c3b1-43a2-9e27871560aa">
+ <Files>
+  <File path="outboard_motor.cgf"/>
+  <File path="outboard_motor_lod1.cgf"/>
+  <File path="outboard_motor_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">4014</Detail>
+  <Detail name="vertexCount">3391</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./outboard_motor.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

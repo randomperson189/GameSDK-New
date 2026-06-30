@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="38c3e36c-a429-37b5-c1ed-cbbad32f82d8">
+ <Files>
+  <File path="scales_snake.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/flat_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/scales_snake_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

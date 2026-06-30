@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Material" guid="7beee79a-a239-0686-2b7e-9447a8008b76">
+ <Files>
+  <File path="spruce.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">7</Detail>
+  <Detail name="textureCount">10</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_xtree_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_displ.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/wood/wood_fine_detail_horizontal.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/beech_trunk_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/beech_trunk_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_leaf_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_leaf_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_leaf_sss.dds</Path>
+ </Dependencies>
+</AssetMetadata>

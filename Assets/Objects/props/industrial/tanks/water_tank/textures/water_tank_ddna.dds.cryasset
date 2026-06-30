@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="13bc6974-7de9-d720-a11e-163f0a16ae57">
+ <Files>
+  <File path="water_tank_ddna.dds"/>
+  <File path="water_tank_ddna.dds.a"/>
+  <File path="water_tank_ddna.dds.1"/>
+  <File path="water_tank_ddna.dds.1a"/>
+  <File path="water_tank_ddna.dds.2"/>
+  <File path="water_tank_ddna.dds.2a"/>
+  <File path="water_tank_ddna.dds.3"/>
+  <File path="water_tank_ddna.dds.3a"/>
+  <File path="water_tank_ddna.dds.4"/>
+  <File path="water_tank_ddna.dds.4a"/>
+  <File path="water_tank_ddna.dds.5"/>
+  <File path="water_tank_ddna.dds.5a"/>
+  <File path="water_tank_ddna.dds.6"/>
+  <File path="water_tank_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

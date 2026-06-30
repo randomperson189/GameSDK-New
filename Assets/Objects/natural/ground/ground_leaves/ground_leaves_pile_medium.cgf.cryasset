@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="cac40c2f-e2d8-fd27-5cac-63c38cc3975b">
+ <Files>
+  <File path="ground_leaves_pile_medium.cgf"/>
+  <File path="ground_leaves_pile_medium_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">187</Detail>
+  <Detail name="vertexCount">285</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ground_leaves.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

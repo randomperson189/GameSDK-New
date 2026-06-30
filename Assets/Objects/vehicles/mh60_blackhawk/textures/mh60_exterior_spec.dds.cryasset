@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="c7151b0b-f7d7-ad9c-2803-f300823e5476">
+ <Files>
+  <File path="mh60_exterior_spec.dds"/>
+  <File path="mh60_exterior_spec.dds.1"/>
+  <File path="mh60_exterior_spec.dds.2"/>
+  <File path="mh60_exterior_spec.dds.3"/>
+  <File path="mh60_exterior_spec.dds.4"/>
+  <File path="mh60_exterior_spec.dds.5"/>
+  <File path="mh60_exterior_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

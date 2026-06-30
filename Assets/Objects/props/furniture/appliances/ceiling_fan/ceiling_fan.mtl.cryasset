@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="2a01d419-69c3-bdc1-7cdd-1dcf4d365cab">
+ <Files>
+  <File path="ceiling_fan.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/props/furniture/appliances/ceiling_fan/textures/ceiling_fan_diff.dds</Path>
+  <Path usageCount="1">Objects/props/furniture/appliances/ceiling_fan/textures/ceiling_fan_spec.dds</Path>
+  <Path usageCount="1">Objects/props/furniture/appliances/ceiling_fan/textures/ceiling_fan_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

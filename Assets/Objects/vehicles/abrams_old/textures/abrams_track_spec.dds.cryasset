@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="26fd1b16-30fa-173d-291f-3837cf259219">
+ <Files>
+  <File path="abrams_track_spec.dds"/>
+  <File path="abrams_track_spec.dds.1"/>
+  <File path="abrams_track_spec.dds.2"/>
+  <File path="abrams_track_spec.dds.3"/>
+  <File path="abrams_track_spec.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

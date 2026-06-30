@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="d00a9cdd-809f-2e07-320a-e07bcc488296">
+ <Files>
+  <File path="greenhouse_metal_ddna.dds"/>
+  <File path="greenhouse_metal_ddna.dds.a"/>
+  <File path="greenhouse_metal_ddna.dds.1"/>
+  <File path="greenhouse_metal_ddna.dds.1a"/>
+  <File path="greenhouse_metal_ddna.dds.2"/>
+  <File path="greenhouse_metal_ddna.dds.2a"/>
+  <File path="greenhouse_metal_ddna.dds.3"/>
+  <File path="greenhouse_metal_ddna.dds.3a"/>
+  <File path="greenhouse_metal_ddna.dds.4"/>
+  <File path="greenhouse_metal_ddna.dds.4a"/>
+  <File path="greenhouse_metal_ddna.dds.5"/>
+  <File path="greenhouse_metal_ddna.dds.5a"/>
+  <File path="greenhouse_metal_ddna.dds.6"/>
+  <File path="greenhouse_metal_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="0da25c5e-c664-7e79-2ffd-a358086a639f">
+ <Files>
+  <File path="electric_pole_distance.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/electrical/electric_pole/textures/electric_pole_distance_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/electrical/electric_pole/textures/electric_pole_distance_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

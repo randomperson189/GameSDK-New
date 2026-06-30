@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="8cddf11f-3ef8-1315-27cc-447fe3d0f02c">
+ <Files>
+  <File path="trash_container_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/generic_metal_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/generic_metal_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_moosy_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_moosy_ddna.dds</Path>
+  <Path usageCount="1">objects/props/industrial/junk/trash_container/textures/trash_container_c_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/junk/trash_container/textures/trash_container_c_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

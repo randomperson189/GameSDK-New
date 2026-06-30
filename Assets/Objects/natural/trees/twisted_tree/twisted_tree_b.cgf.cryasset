@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="2c8a4b1e-5c18-f550-dfae-1458edebd23c">
+ <Files>
+  <File path="twisted_tree_b.cgf"/>
+  <File path="twisted_tree_b_lod1.cgf"/>
+  <File path="twisted_tree_b_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">1682</Detail>
+  <Detail name="vertexCount">1627</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./twisted_tree.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

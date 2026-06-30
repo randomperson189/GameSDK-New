@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="6f3e5f3c-72a6-f447-a895-a4a68c947218">
+ <Files>
+  <File path="decal_cylinder.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/water/mussels_02_diff.dds</Path>
+  <Path usageCount="1">textures/decals/water/mussels_01_ddna.dds</Path>
+  <Path usageCount="1">textures/decals/water/mussels_01_displ.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plastic/plastic_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

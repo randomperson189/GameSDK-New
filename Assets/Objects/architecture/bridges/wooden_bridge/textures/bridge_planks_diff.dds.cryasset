@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d5f1f3ec-078e-109e-1cd5-b40531fc7e74">
+ <Files>
+  <File path="bridge_planks_diff.dds"/>
+  <File path="bridge_planks_diff.dds.1"/>
+  <File path="bridge_planks_diff.dds.2"/>
+  <File path="bridge_planks_diff.dds.3"/>
+  <File path="bridge_planks_diff.dds.4"/>
+  <File path="bridge_planks_diff.dds.5"/>
+  <File path="bridge_planks_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="1baa2973-4e3c-161a-9dba-123a4c0282bf">
+ <Files>
+  <File path="abrams_wheels.dds"/>
+  <File path="abrams_wheels.dds.1"/>
+  <File path="abrams_wheels.dds.2"/>
+  <File path="abrams_wheels.dds.3"/>
+  <File path="abrams_wheels.dds.4"/>
+  <File path="abrams_wheels.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

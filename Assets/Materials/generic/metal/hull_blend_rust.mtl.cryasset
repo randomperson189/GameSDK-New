@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="a49fcf92-d1a2-7a0d-3966-1810cc035f09">
+ <Files>
+  <File path="hull_blend_rust.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/hull_blend_rust_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/hull_blend_rust_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/hull_blend_rust_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="01b599e2-231c-cb70-bf06-12bc632a65db">
+ <Files>
+  <File path="pine_timber.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/pine_timber_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/pine_timber_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

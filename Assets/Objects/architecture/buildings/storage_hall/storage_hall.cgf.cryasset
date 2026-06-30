@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="fefe1df9-5484-0a0c-c32c-13fc33d44c90">
+ <Files>
+  <File path="storage_hall.cgf"/>
+  <File path="storage_hall_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">2860</Detail>
+  <Detail name="vertexCount">4531</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Storage_hall.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="11756f5e-982c-fc57-439f-2c5698dcc31d">
+ <Files>
+  <File path="boards_exit_a.cgf"/>
+  <File path="boards_exit_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">2992</Detail>
+  <Detail name="vertexCount">4117</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mines.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

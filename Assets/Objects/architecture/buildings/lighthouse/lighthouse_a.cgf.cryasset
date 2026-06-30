@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="bbd660b9-c1c6-e889-38d8-a1ac19246a11">
+ <Files>
+  <File path="lighthouse_a.cgf"/>
+  <File path="lighthouse_a_lod1.cgf"/>
+  <File path="lighthouse_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">7031</Detail>
+  <Detail name="vertexCount">8138</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./lighthouse.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

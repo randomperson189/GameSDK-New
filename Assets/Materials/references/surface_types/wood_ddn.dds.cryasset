@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="c2ea87e7-46e5-e974-27d6-71a94d91a8dc">
+ <Files>
+  <File path="wood_ddn.dds"/>
+  <File path="wood_ddn.dds.1"/>
+  <File path="wood_ddn.dds.2"/>
+  <File path="wood_ddn.dds.3"/>
+  <File path="wood_ddn.dds.4"/>
+  <File path="wood_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

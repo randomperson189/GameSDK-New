@@ -1,0 +1,25 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="base" MtlFlags="524416" Shader="Illum" GenMask="2080000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/lights/emergency_lamp/emergency_lamp_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/lights/emergency_lamp/emergency_lamp_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lamp" MtlFlags="524416" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,0.18782079,0.18782079" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/lights/emergency_lamp/emergency_lamp_diff.tif">
+     <TexMod TexMod_RotateType="3" TexMod_URotateAmplitude="0.89538574"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/props/misc/lights/emergency_lamp/emergency_lamp_ddna.tif"/>
+    <Texture Map="Decal" File="objects/props/misc/lights/emergency_lamp/glow_opac.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

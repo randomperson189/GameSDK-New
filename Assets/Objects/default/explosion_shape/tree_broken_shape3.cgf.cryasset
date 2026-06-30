@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="6f37d255-8467-b64d-1eba-54c5fb7a5f17">
+ <Files>
+  <File path="tree_broken_shape3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">190</Detail>
+  <Detail name="vertexCount">490</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/Natural/trees/explosion_shape/tree_broken_shape.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

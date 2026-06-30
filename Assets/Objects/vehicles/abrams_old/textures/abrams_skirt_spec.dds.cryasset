@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="e7975633-cdeb-9830-b3dd-108ea8e66e1c">
+ <Files>
+  <File path="abrams_skirt_spec.dds"/>
+  <File path="abrams_skirt_spec.dds.1"/>
+  <File path="abrams_skirt_spec.dds.2"/>
+  <File path="abrams_skirt_spec.dds.3"/>
+  <File path="abrams_skirt_spec.dds.4"/>
+  <File path="abrams_skirt_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

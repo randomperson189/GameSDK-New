@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c13deab8-3f0a-eff6-b4e9-bf470e9fdc82">
+ <Files>
+  <File path="torch_base.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">488</Detail>
+  <Detail name="vertexCount">618</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./torch.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

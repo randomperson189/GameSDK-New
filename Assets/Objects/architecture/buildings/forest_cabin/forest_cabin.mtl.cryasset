@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="4f9a1a2f-aea9-d5be-7693-b095667b7624">
+ <Files>
+  <File path="forest_cabin.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">7</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_tile_old_green_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_tile_old_green_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_tile_rusty_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_tile_rusty_a_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/forest_cabin/textures/forest_cabin_details_a_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/forest_cabin/textures/forest_cabin_details_a_ddna.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/wood/wood_a_detail.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

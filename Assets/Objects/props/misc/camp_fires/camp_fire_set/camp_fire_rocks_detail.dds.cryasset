@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d7f3c296-b352-6280-a212-91d1b30ff702">
+ <Files>
+  <File path="camp_fire_rocks_detail.dds"/>
+  <File path="camp_fire_rocks_detail.dds.1"/>
+  <File path="camp_fire_rocks_detail.dds.2"/>
+  <File path="camp_fire_rocks_detail.dds.3"/>
+  <File path="camp_fire_rocks_detail.dds.4"/>
+  <File path="camp_fire_rocks_detail.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

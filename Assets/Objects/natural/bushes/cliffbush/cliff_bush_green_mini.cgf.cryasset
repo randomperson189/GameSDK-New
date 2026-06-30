@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="bcb5101d-54dc-63c4-8239-21ba3f2883d0">
+ <Files>
+  <File path="cliff_bush_green_mini.cgf"/>
+  <File path="cliff_bush_green_mini_lod1.cgf"/>
+  <File path="cliff_bush_green_mini_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1198</Detail>
+  <Detail name="vertexCount">1534</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cliff_bush_green.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

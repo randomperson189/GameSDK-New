@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="2ac2d46d-aeaf-d214-ec39-fd1849a1fc6b">
+ <Files>
+  <File path="beach_rock_con.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/rocks/cliff_rocks/textures/cliff_rock_d_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/cliff_rocks/textures/cliff_rock_d_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/rock/rock_1_detail.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/rock_a_mask.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d781a6d2-f7f6-c130-025a-cf872d52288a">
+ <Files>
+  <File path="gas_stove_clean_diff.dds"/>
+  <File path="gas_stove_clean_diff.dds.1"/>
+  <File path="gas_stove_clean_diff.dds.2"/>
+  <File path="gas_stove_clean_diff.dds.3"/>
+  <File path="gas_stove_clean_diff.dds.4"/>
+  <File path="gas_stove_clean_diff.dds.5"/>
+  <File path="gas_stove_clean_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

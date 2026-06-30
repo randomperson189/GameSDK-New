@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="1a3c9085-6762-aa51-cc6b-2dfd067e8cf4">
+ <Files>
+  <File path="n_rock_wall.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/natural/rocks/cliff_rocks/textures/cliff_rock_d_diff.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/cliff_rocks/textures/cliff_rock_d_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

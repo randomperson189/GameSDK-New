@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="86ca6f50-2428-73d6-8f1e-95629d712515">
+ <Files>
+  <File path="ground_cover_fernbush_sss.dds"/>
+  <File path="ground_cover_fernbush_sss.dds.1"/>
+  <File path="ground_cover_fernbush_sss.dds.2"/>
+  <File path="ground_cover_fernbush_sss.dds.3"/>
+  <File path="ground_cover_fernbush_sss.dds.4"/>
+  <File path="ground_cover_fernbush_sss.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

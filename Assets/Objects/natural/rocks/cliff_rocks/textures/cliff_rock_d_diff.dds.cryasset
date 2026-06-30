@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="00adff23-3749-2f71-27d9-a99867a1a915">
+ <Files>
+  <File path="cliff_rock_d_diff.dds"/>
+  <File path="cliff_rock_d_diff.dds.1"/>
+  <File path="cliff_rock_d_diff.dds.2"/>
+  <File path="cliff_rock_d_diff.dds.3"/>
+  <File path="cliff_rock_d_diff.dds.4"/>
+  <File path="cliff_rock_d_diff.dds.5"/>
+  <File path="cliff_rock_d_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

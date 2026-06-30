@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="749b61a9-b3bc-4385-093a-c96d947f1424">
+ <Files>
+  <File path="vegetation_ivy_dead_diff.dds"/>
+  <File path="vegetation_ivy_dead_diff.dds.1"/>
+  <File path="vegetation_ivy_dead_diff.dds.2"/>
+  <File path="vegetation_ivy_dead_diff.dds.3"/>
+  <File path="vegetation_ivy_dead_diff.dds.4"/>
+  <File path="vegetation_ivy_dead_diff.dds.5"/>
+  <File path="vegetation_ivy_dead_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

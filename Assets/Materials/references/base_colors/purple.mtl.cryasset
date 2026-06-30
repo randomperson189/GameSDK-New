@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="20381d55-a8fb-f624-b85e-059cbee467af">
+ <Files>
+  <File path="purple.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/base_colors/purple_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

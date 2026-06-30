@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a121b7db-d6d0-c0c1-f02c-b4199573554d">
+ <Files>
+  <File path="bench_spec.dds"/>
+  <File path="bench_spec.dds.1"/>
+  <File path="bench_spec.dds.2"/>
+  <File path="bench_spec.dds.3"/>
+  <File path="bench_spec.dds.4"/>
+  <File path="bench_spec.dds.5"/>
+  <File path="bench_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="3ada0637-27a3-9c55-8e54-e4269a75e224">
+ <Files>
+  <File path="cloth_cryengine.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/grey.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/fabric/fabric_b_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

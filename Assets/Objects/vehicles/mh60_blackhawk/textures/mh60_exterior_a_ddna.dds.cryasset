@@ -1,0 +1,27 @@
+<AssetMetadata version="0" type="Texture" guid="6e033106-5afd-0036-342e-689996ed6b6b">
+ <Files>
+  <File path="mh60_exterior_a_ddna.dds"/>
+  <File path="mh60_exterior_a_ddna.dds.a"/>
+  <File path="mh60_exterior_a_ddna.dds.1"/>
+  <File path="mh60_exterior_a_ddna.dds.1a"/>
+  <File path="mh60_exterior_a_ddna.dds.2"/>
+  <File path="mh60_exterior_a_ddna.dds.2a"/>
+  <File path="mh60_exterior_a_ddna.dds.3"/>
+  <File path="mh60_exterior_a_ddna.dds.3a"/>
+  <File path="mh60_exterior_a_ddna.dds.4"/>
+  <File path="mh60_exterior_a_ddna.dds.4a"/>
+  <File path="mh60_exterior_a_ddna.dds.5"/>
+  <File path="mh60_exterior_a_ddna.dds.5a"/>
+  <File path="mh60_exterior_a_ddna.dds.6"/>
+  <File path="mh60_exterior_a_ddna.dds.6a"/>
+  <File path="mh60_exterior_a_ddna.dds.7"/>
+  <File path="mh60_exterior_a_ddna.dds.7a"/>
+  <File path="mh60_exterior_a_ddna.dds.8"/>
+  <File path="mh60_exterior_a_ddna.dds.8a"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="8e738abf-b5e7-c834-8cc2-bf9a60b65f54">
+ <Files>
+  <File path="sign_post_water_refilling.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/industrial/signs/textures/sign_post_water_refillingdiff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

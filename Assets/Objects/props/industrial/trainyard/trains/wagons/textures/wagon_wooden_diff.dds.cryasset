@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="41b6e162-721a-535e-2245-6af27e0cc244">
+ <Files>
+  <File path="wagon_wooden_diff.dds"/>
+  <File path="wagon_wooden_diff.dds.1"/>
+  <File path="wagon_wooden_diff.dds.2"/>
+  <File path="wagon_wooden_diff.dds.3"/>
+  <File path="wagon_wooden_diff.dds.4"/>
+  <File path="wagon_wooden_diff.dds.5"/>
+  <File path="wagon_wooden_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

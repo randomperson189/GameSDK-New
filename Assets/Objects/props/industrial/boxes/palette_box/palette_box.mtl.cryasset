@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="e09a3c57-c3b4-a1a3-361e-1e0822cddbcb">
+ <Files>
+  <File path="palette_box.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/planks_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/planks_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

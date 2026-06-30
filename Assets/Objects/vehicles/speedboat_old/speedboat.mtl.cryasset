@@ -1,0 +1,29 @@
+<AssetMetadata version="0" type="Material" guid="1a78dfc5-6d00-e15a-bb84-31c9530480af">
+ <Files>
+  <File path="speedboat.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">14</Detail>
+  <Detail name="textureCount">18</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_damaged.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_metal.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_metal_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_a_detail.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_details.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_details_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_dashboard.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_dashboard_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_body.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_body_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_floor.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_floor_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_b90_detail.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_stripes.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_stripes_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_upper_body.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_upper_body_ddna.dds</Path>
+  <Path usageCount="2">objects/vehicles/speedboat_old/textures/speedboat_glass.dds</Path>
+ </Dependencies>
+</AssetMetadata>

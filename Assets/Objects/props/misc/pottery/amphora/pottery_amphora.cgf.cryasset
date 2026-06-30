@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="c943cdf3-c407-dadb-2a6d-d761066b47e4">
+ <Files>
+  <File path="pottery_amphora.cgf"/>
+  <File path="pottery_amphora_lod1.cgf"/>
+  <File path="pottery_amphora_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">2932</Detail>
+  <Detail name="vertexCount">2321</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./pottery_amphora.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

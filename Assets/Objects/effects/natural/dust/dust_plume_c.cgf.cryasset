@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="1e5f481c-85f8-22cc-b45f-629d5f0c7987">
+ <Files>
+  <File path="dust_plume_c.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">16</Detail>
+  <Detail name="vertexCount">15</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./dust_plume1.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

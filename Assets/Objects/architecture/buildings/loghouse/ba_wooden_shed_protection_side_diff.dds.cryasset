@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="aceb2ca8-ca96-f0c9-b013-f3f3478d72bf">
+ <Files>
+  <File path="ba_wooden_shed_protection_side_diff.dds"/>
+  <File path="ba_wooden_shed_protection_side_diff.dds.1"/>
+  <File path="ba_wooden_shed_protection_side_diff.dds.2"/>
+  <File path="ba_wooden_shed_protection_side_diff.dds.3"/>
+  <File path="ba_wooden_shed_protection_side_diff.dds.4"/>
+  <File path="ba_wooden_shed_protection_side_diff.dds.5"/>
+  <File path="ba_wooden_shed_protection_side_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

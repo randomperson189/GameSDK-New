@@ -1,0 +1,29 @@
+<AssetMetadata version="0" type="Material" guid="29b8b563-f8a1-5e83-7beb-4b4992e0b1cb">
+ <Files>
+  <File path="ground_rock_01.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">18</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="5">objects/natural/rocks/ground_rocks/textures/ground_rock_tile.dds</Path>
+  <Path usageCount="7">objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.dds</Path>
+  <Path usageCount="5">objects/natural/rocks/ground_rocks/textures/ground_rock_tile_spec.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/ground_rocks/textures/ground_rock_detail_05.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/ground_rocks/textures/ground_rock_05_detail_displ.dds</Path>
+  <Path usageCount="5">objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_gloss.dds</Path>
+  <Path usageCount="5">objects/natural/rocks/canyon_basewall/textures/moss_canyonrock.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/broken_floor/textures/concrete_rebar_mask.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/ground_rocks/textures/ground_rock_detail_04.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/ground_rocks/textures/ground_rock_04_detail_displ.dds</Path>
+  <Path usageCount="3">objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_ddna.dds</Path>
+  <Path usageCount="4">objects/natural/rocks/ground_rocks/textures/ground_rock_tile_mask.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/ground_rocks/textures/ground_rock_detail_03.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/ground_rocks/textures/ground_rock_03_detail_displ.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/ground_rocks/textures/ground_rock_detail_02.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/ground_rocks/textures/ground_rock_detail_02_displ.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/ground_rocks/textures/ground_rock_detail_01.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/ground_rocks/textures/ground_rock_01_detail_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

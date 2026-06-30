@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="011d1b81-42f3-b459-841b-cb2fd1833a20">
+ <Files>
+  <File path="cut_ddna.dds"/>
+  <File path="cut_ddna.dds.a"/>
+  <File path="cut_ddna.dds.1"/>
+  <File path="cut_ddna.dds.1a"/>
+  <File path="cut_ddna.dds.2"/>
+  <File path="cut_ddna.dds.2a"/>
+  <File path="cut_ddna.dds.3"/>
+  <File path="cut_ddna.dds.3a"/>
+  <File path="cut_ddna.dds.4"/>
+  <File path="cut_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

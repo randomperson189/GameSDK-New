@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="88d5e533-e43c-4aa8-a3a6-3bb66754e2d5">
+ <Files>
+  <File path="glass_unbreakable_ddn.dds"/>
+  <File path="glass_unbreakable_ddn.dds.1"/>
+  <File path="glass_unbreakable_ddn.dds.2"/>
+  <File path="glass_unbreakable_ddn.dds.3"/>
+  <File path="glass_unbreakable_ddn.dds.4"/>
+  <File path="glass_unbreakable_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

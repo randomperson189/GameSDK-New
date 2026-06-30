@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="eccf8e70-25aa-f106-1bbb-ba9cf111ac24">
+ <Files>
+  <File path="nice_grass.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/ground/grass/textures/grass_mix_diff.dds</Path>
+  <Path usageCount="1">objects/natural/ground/grass/textures/grass_mix_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="b6145649-1423-52d7-c7f7-77387d01e880">
+ <Files>
+  <File path="rain_incoming.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/skys/rain_incomming/box_12.dds</Path>
+ </Dependencies>
+</AssetMetadata>

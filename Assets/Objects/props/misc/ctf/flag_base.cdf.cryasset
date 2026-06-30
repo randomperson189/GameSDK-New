@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Character" guid="e4d0d9d3-b3e1-e5a4-30b5-82a0cd6124de">
+ <Files>
+  <File path="flag_base.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>objects/props/misc/ctf/flag_base.cga</Path>
+  <Path>objects/props/misc/ctf/flag</Path>
+  <Path>objects/props/misc/ctf/flag_neutral_small.cgf</Path>
+ </Dependencies>
+</AssetMetadata>

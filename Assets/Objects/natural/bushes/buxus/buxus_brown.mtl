@@ -1,0 +1,17 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="9.999999" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="leaf" MtlFlags="524416" Shader="Vegetation" GenMask="2401801000" StringGenMask="%DETAIL_BENDING%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.28314877,0.17144111,0.048171826" Specular="0.027755279,0.027755279,0.027755279" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.64999998" vertModifType="2" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/bushes/buxus/buxus_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/bushes/buxus/buxus_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/bushes/buxus/buxus_sss.tif"/>
+   </Textures>
+   <VertexDeform Type="2" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1"/>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="0" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.95099998" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

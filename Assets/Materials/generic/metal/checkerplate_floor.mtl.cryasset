@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="958fc6b4-5cf5-6f66-2a71-03552b50d6ea">
+ <Files>
+  <File path="checkerplate_floor.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/checkerplate_floor_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/checkerplate_floor_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="AnimatedMesh" guid="df4beb35-69ce-7c3c-6499-305c1aa783fe">
+ <Files>
+  <File path="speedboat_a_damaged.cga"/>
+  <File path="speedboat_a_damaged_lod1.cga"/>
+  <File path="speedboat_a_damaged_lod2.cga"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">9</Detail>
+  <Detail name="triangleCount">28600</Detail>
+  <Detail name="vertexCount">22696</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./speedboat_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

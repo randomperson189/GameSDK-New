@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="8dbae33d-3eff-d5d8-84e7-7b3b00b9c48c">
+ <Files>
+  <File path="gloss80.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/conductor_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/gloss80_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

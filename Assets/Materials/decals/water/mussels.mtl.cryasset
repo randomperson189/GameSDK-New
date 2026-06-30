@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="8746798a-f80e-0660-330d-bc470c142f1f">
+ <Files>
+  <File path="mussels.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/water/mussels_01_diff.dds</Path>
+  <Path usageCount="1">textures/decals/water/mussels_01_ddna.dds</Path>
+  <Path usageCount="1">textures/decals/water/mussels_01_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

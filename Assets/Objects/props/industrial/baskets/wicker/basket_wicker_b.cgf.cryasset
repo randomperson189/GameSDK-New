@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="34d12f7e-5827-77fc-b65d-e4adc192a71e">
+ <Files>
+  <File path="basket_wicker_b.cgf"/>
+  <File path="basket_wicker_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">732</Detail>
+  <Detail name="vertexCount">465</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./basket_wicker_thin_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

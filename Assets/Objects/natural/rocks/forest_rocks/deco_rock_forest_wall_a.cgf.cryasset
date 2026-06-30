@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="7f5ae539-4f83-6327-7241-70005df11370">
+ <Files>
+  <File path="deco_rock_forest_wall_a.cgf"/>
+  <File path="deco_rock_forest_wall_a_lod1.cgf"/>
+  <File path="deco_rock_forest_wall_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">20</Detail>
+  <Detail name="triangleCount">656</Detail>
+  <Detail name="vertexCount">446</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Rock_Forest.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="21b0e9b3-540a-59d7-b51c-44117d5b8662">
+ <Files>
+  <File path="mh60_a_lod2_ddna.dds"/>
+  <File path="mh60_a_lod2_ddna.dds.a"/>
+  <File path="mh60_a_lod2_ddna.dds.1"/>
+  <File path="mh60_a_lod2_ddna.dds.1a"/>
+  <File path="mh60_a_lod2_ddna.dds.2"/>
+  <File path="mh60_a_lod2_ddna.dds.2a"/>
+  <File path="mh60_a_lod2_ddna.dds.3"/>
+  <File path="mh60_a_lod2_ddna.dds.3a"/>
+  <File path="mh60_a_lod2_ddna.dds.4"/>
+  <File path="mh60_a_lod2_ddna.dds.4a"/>
+  <File path="mh60_a_lod2_ddna.dds.5"/>
+  <File path="mh60_a_lod2_ddna.dds.5a"/>
+  <File path="mh60_a_lod2_ddna.dds.6"/>
+  <File path="mh60_a_lod2_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="c185c918-f80e-9a5b-ce1d-3d456082aa2a">
+ <Files>
+  <File path="landslide_pepplerocks_big_a.cgf"/>
+  <File path="landslide_pepplerocks_big_a_lod1.cgf"/>
+  <File path="landslide_pepplerocks_big_a_lod2.cgf"/>
+  <File path="landslide_pepplerocks_big_a_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">9</Detail>
+  <Detail name="triangleCount">1870</Detail>
+  <Detail name="vertexCount">1813</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./precipice.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="0ddd30bc-fe45-a8f3-49b5-918352307f43">
+ <Files>
+  <File path="dead_tree_leaf_ddna.dds"/>
+  <File path="dead_tree_leaf_ddna.dds.a"/>
+  <File path="dead_tree_leaf_ddna.dds.1"/>
+  <File path="dead_tree_leaf_ddna.dds.1a"/>
+  <File path="dead_tree_leaf_ddna.dds.2"/>
+  <File path="dead_tree_leaf_ddna.dds.2a"/>
+  <File path="dead_tree_leaf_ddna.dds.3"/>
+  <File path="dead_tree_leaf_ddna.dds.3a"/>
+  <File path="dead_tree_leaf_ddna.dds.4"/>
+  <File path="dead_tree_leaf_ddna.dds.4a"/>
+  <File path="dead_tree_leaf_ddna.dds.5"/>
+  <File path="dead_tree_leaf_ddna.dds.5a"/>
+  <File path="dead_tree_leaf_ddna.dds.6"/>
+  <File path="dead_tree_leaf_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

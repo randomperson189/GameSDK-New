@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="dbf1e5d4-ff2f-7783-98b7-96041f1a2ee1">
+ <Files>
+  <File path="oil_tank.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/tanks/oil_tank/textures/oil_tank_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/tanks/oil_tank/textures/oil_tank_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="0aae3fa0-8e80-0104-2bf3-ca1c8f2aabbb">
+ <Files>
+  <File path="h_corner_grass_e.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">54</Detail>
+  <Detail name="vertexCount">72</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Meadow_Grass_Architecture.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

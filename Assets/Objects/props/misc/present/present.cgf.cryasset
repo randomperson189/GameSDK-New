@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="26be8d82-d7aa-3086-f3c5-3c29756d66e7">
+ <Files>
+  <File path="present.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">252</Detail>
+  <Detail name="vertexCount">219</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./PresentMat.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

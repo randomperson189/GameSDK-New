@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="4c72ab32-8782-9728-b2a9-1e5fbacd3ba5">
+ <Files>
+  <File path="metalbar.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metalbar_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metalbar_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metalbar_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

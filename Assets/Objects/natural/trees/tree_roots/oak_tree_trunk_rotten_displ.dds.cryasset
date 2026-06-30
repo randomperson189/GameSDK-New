@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d947b4b8-79ab-9fed-a911-84d91fecc3a1">
+ <Files>
+  <File path="oak_tree_trunk_rotten_displ.dds"/>
+  <File path="oak_tree_trunk_rotten_displ.dds.1"/>
+  <File path="oak_tree_trunk_rotten_displ.dds.2"/>
+  <File path="oak_tree_trunk_rotten_displ.dds.3"/>
+  <File path="oak_tree_trunk_rotten_displ.dds.4"/>
+  <File path="oak_tree_trunk_rotten_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

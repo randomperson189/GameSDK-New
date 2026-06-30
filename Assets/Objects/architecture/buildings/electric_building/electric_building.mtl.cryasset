@@ -1,0 +1,24 @@
+<AssetMetadata version="0" type="Material" guid="931c900b-d7cd-6778-f4ef-559551b64095">
+ <Files>
+  <File path="electric_building.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">13</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/roof_paper_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/roof_paper_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_door_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_door_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_spec.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_curbs_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_curbs_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/concrete/detail_concrete_detail.dds</Path>
+  <Path usageCount="1">textures/generic/brick/thin_brick_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/thin_brick_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/thin_brick_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

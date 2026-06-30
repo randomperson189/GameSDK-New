@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="3a06c8e4-e25f-5a87-2cb7-3f3fd32a48bd">
+ <Files>
+  <File path="tusk_gun_mount.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">426</Detail>
+  <Detail name="vertexCount">571</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./m1a1_desert.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

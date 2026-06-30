@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="d2b64ba8-ef79-6842-02d0-c3a987813f58">
+ <Files>
+  <File path="glass_wall.cgf"/>
+  <File path="glass_wall_lod1.cgf"/>
+  <File path="glass_wall_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1600</Detail>
+  <Detail name="vertexCount">1472</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Glass_Wall.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

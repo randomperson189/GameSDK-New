@@ -1,0 +1,27 @@
+<AssetMetadata version="0" type="Texture" guid="8ae47f27-3972-217c-d7bd-d24fe64db6f7">
+ <Files>
+  <File path="swat_van_a_ddna.dds"/>
+  <File path="swat_van_a_ddna.dds.a"/>
+  <File path="swat_van_a_ddna.dds.1"/>
+  <File path="swat_van_a_ddna.dds.1a"/>
+  <File path="swat_van_a_ddna.dds.2"/>
+  <File path="swat_van_a_ddna.dds.2a"/>
+  <File path="swat_van_a_ddna.dds.3"/>
+  <File path="swat_van_a_ddna.dds.3a"/>
+  <File path="swat_van_a_ddna.dds.4"/>
+  <File path="swat_van_a_ddna.dds.4a"/>
+  <File path="swat_van_a_ddna.dds.5"/>
+  <File path="swat_van_a_ddna.dds.5a"/>
+  <File path="swat_van_a_ddna.dds.6"/>
+  <File path="swat_van_a_ddna.dds.6a"/>
+  <File path="swat_van_a_ddna.dds.7"/>
+  <File path="swat_van_a_ddna.dds.7a"/>
+  <File path="swat_van_a_ddna.dds.8"/>
+  <File path="swat_van_a_ddna.dds.8a"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

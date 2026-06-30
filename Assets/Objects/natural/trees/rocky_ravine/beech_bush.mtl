@@ -1,0 +1,21 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="proxy_bending" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="9.999999" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="leaf" MtlFlags="524416" Shader="Vegetation" GenMask="2400800180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.49693301,0.49693301,0.49693301" Specular="0.012983033,0.012983033,0.012983033" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.44999999" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/beech_leaf_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/rocky_ravine/textures/beech_leaf_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plants/plants_leaf_detail.tif">
+     <TexMod TileU="20" TileV="20"/>
+    </Texture>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.079999998" bendDetailFrequency="0.02" bendDetailBranchAmplitude="0" BlendTerrainCol="0" DetailDiffuseScale="0.5" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" DetailBumpScale="0.5" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.5" BlendTerrainColDist="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_trunk" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

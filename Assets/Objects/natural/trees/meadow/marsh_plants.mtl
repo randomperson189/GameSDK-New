@@ -1,0 +1,24 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Grass" MtlFlags="524416" Shader="Vegetation" GenMask="2404801180" StringGenMask="%BUMP_MAP%DETAIL_BENDING%DETAIL_MAPPING%LEAVES%MERGED_TEXTURES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="30" Opacity="1" AlphaTest="0.34999999" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/meadow/textures/marsh_plants_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/meadow/textures/marsh_plants_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/rock/detail_cliff_rock_detail.tif">
+     <TexMod TileU="20" TileV="20"/>
+    </Texture>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.1" bendDetailFrequency="1" bendDetailBranchAmplitude="0" BlendTerrainCol="0.25" DetailDiffuseScale="0.25" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" DetailBumpScale="0.25" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.25" BackDiffuseMultiplier="1" BlendTerrainColDist="0.5" DetailGlossScale="0.25" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+  </Material>
+  <Material Name="Proxy_Bending" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="Proxy_AI" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="Proxy_Trunk" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="ac7aca60-dc01-91a8-13d2-675035556dcb">
+ <Files>
+  <File path="wood_beams_thin_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_beams_thin_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_beams_thin_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_beams_thin_a_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

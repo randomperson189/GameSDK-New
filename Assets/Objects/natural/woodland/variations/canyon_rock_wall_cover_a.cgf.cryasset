@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="56a89bf0-48f6-1117-98d0-5a164b9e30aa">
+ <Files>
+  <File path="canyon_rock_wall_cover_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">98</Detail>
+  <Detail name="vertexCount">79</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Canyon_Alt_Materials.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

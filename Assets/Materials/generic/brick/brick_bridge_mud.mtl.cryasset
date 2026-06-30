@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="846f1093-5850-9bc8-13e9-31dd634bd70e">
+ <Files>
+  <File path="brick_bridge_mud.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/brick/bridge_brick_mud_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/bridge_brick_mud_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/bridge_brick_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

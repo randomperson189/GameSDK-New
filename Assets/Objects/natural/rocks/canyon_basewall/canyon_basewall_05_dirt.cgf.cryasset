@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ae03c549-e928-e5a3-f7e9-c63dbb71a68c">
+ <Files>
+  <File path="canyon_basewall_05_dirt.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">514</Detail>
+  <Detail name="vertexCount">296</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./canyon_basewall_dirt.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="483cac55-1e8d-a611-354c-a062d4163a51">
+ <Files>
+  <File path="railroad_track_ddna.dds"/>
+  <File path="railroad_track_ddna.dds.a"/>
+  <File path="railroad_track_ddna.dds.1"/>
+  <File path="railroad_track_ddna.dds.1a"/>
+  <File path="railroad_track_ddna.dds.2"/>
+  <File path="railroad_track_ddna.dds.2a"/>
+  <File path="railroad_track_ddna.dds.3"/>
+  <File path="railroad_track_ddna.dds.3a"/>
+  <File path="railroad_track_ddna.dds.4"/>
+  <File path="railroad_track_ddna.dds.4a"/>
+  <File path="railroad_track_ddna.dds.5"/>
+  <File path="railroad_track_ddna.dds.5a"/>
+  <File path="railroad_track_ddna.dds.6"/>
+  <File path="railroad_track_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

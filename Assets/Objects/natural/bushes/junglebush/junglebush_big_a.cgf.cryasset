@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="d278596b-b15a-26da-97c6-365ae4be19c0">
+ <Files>
+  <File path="junglebush_big_a.cgf"/>
+  <File path="junglebush_big_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">294</Detail>
+  <Detail name="vertexCount">346</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./JungleBush.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

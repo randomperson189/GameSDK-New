@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="59c60a7d-6af0-181c-72aa-b22a33b4b235">
+ <Files>
+  <File path="beam_lamppost.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/white_noise.dds</Path>
+ </Dependencies>
+</AssetMetadata>

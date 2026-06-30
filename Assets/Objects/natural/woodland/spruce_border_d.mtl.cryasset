@@ -1,0 +1,22 @@
+<AssetMetadata version="0" type="Material" guid="7f76bb7f-c381-3f15-48fe-8052ad76fe4b">
+ <Files>
+  <File path="spruce_border_d.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">11</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/woodland/textures/spruce_border_d_lod3_alpha_diff.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/textures/spruce_border_d_lod3_alpha_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/textures/spruce_border_d_lod2_alpha_diff.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/textures/spruce_border_d_lod2_alpha_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/textures/spruce_border_d_lod1_alpha_diff.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/textures/spruce_border_d_lod1_alpha_ddna.dds</Path>
+  <Path usageCount="1">Objects/natural/woodland/pine_leaf_diff.dds</Path>
+  <Path usageCount="1">Objects/natural/woodland/pine_leaf_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/pine_leaf_sss.dds</Path>
+  <Path usageCount="1">Objects/natural/woodland/pine_trunk_diff.dds</Path>
+  <Path usageCount="1">Objects/natural/woodland/pine_trunk_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

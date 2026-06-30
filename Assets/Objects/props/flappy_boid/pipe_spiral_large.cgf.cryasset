@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="3c90d577-adc6-31b9-5818-f4df7c23abef">
+ <Files>
+  <File path="pipe_spiral_large.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">10</Detail>
+  <Detail name="triangleCount">42016</Detail>
+  <Detail name="vertexCount">25674</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./pipe.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

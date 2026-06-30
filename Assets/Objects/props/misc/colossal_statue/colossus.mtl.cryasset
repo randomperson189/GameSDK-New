@@ -1,0 +1,28 @@
+<AssetMetadata version="0" type="Material" guid="983355c2-19cb-1efe-67bb-c61babb710b7">
+ <Files>
+  <File path="colossus.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">17</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_lod4_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_lod4_ddn.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_lod4_spec.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_lod3_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_lod3_ddn.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_lod3_spec.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_lod2_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_lod2_ddn.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_lod2_spec.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_lod1_ddn.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_lod1_spec.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_spec.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/copper_detail.dds</Path>
+  <Path usageCount="1">objects/props/misc/colossal_statue/textures/colossus_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

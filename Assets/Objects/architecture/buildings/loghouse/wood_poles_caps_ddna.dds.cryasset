@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="c4b62763-ac7f-7c30-afd8-29b9c7fba87a">
+ <Files>
+  <File path="wood_poles_caps_ddna.dds"/>
+  <File path="wood_poles_caps_ddna.dds.a"/>
+  <File path="wood_poles_caps_ddna.dds.1"/>
+  <File path="wood_poles_caps_ddna.dds.1a"/>
+  <File path="wood_poles_caps_ddna.dds.2"/>
+  <File path="wood_poles_caps_ddna.dds.2a"/>
+  <File path="wood_poles_caps_ddna.dds.3"/>
+  <File path="wood_poles_caps_ddna.dds.3a"/>
+  <File path="wood_poles_caps_ddna.dds.4"/>
+  <File path="wood_poles_caps_ddna.dds.4a"/>
+  <File path="wood_poles_caps_ddna.dds.5"/>
+  <File path="wood_poles_caps_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

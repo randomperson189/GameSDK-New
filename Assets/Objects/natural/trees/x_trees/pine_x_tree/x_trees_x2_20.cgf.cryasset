@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="8cb8ab08-174c-ee89-8da2-3407c0b100ef">
+ <Files>
+  <File path="x_trees_x2_20.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">664</Detail>
+  <Detail name="vertexCount">1328</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./X_Trees.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

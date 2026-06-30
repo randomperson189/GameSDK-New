@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="22af991b-fe12-6ccb-163a-aa11d6348e41">
+ <Files>
+  <File path="wood_chair_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">360</Detail>
+  <Detail name="vertexCount">474</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wood_furniture.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

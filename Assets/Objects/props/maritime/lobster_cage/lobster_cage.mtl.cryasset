@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="b5912659-9d43-980a-2249-07dbc13d07ed">
+ <Files>
+  <File path="lobster_cage.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/maritime/lobster_cage/textures/rope_diff.dds</Path>
+  <Path usageCount="1">objects/props/maritime/lobster_cage/textures/rope_spec.dds</Path>
+  <Path usageCount="1">objects/props/maritime/lobster_cage/textures/rope_ddn.dds</Path>
+  <Path usageCount="1">objects/props/maritime/lobster_cage/textures/frame_diff.dds</Path>
+  <Path usageCount="1">objects/props/maritime/lobster_cage/textures/frame_ddn.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_horizontal_1_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="e9a2d93b-1d13-3a47-b554-b01b2f842ab8">
+ <Files>
+  <File path="metal_iron_cast_oxidized_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_iron_cast_oxidized_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_cast_oxidized_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_cast_oxidized_a_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

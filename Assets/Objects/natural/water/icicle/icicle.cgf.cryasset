@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="b0b23308-8462-9a28-e0a8-ccb27e429da2">
+ <Files>
+  <File path="icicle.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">4</Detail>
+  <Detail name="vertexCount">8</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./icicle_mat.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

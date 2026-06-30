@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Mesh" guid="a75db9d0-baa2-e827-e2ad-d600c6c989c6">
+ <Files>
+  <File path="colossus.cgf"/>
+  <File path="colossus_lod1.cgf"/>
+  <File path="colossus_lod2.cgf"/>
+  <File path="colossus_lod3.cgf"/>
+  <File path="colossus_lod4.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">3710</Detail>
+  <Detail name="vertexCount">2284</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./colossus.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

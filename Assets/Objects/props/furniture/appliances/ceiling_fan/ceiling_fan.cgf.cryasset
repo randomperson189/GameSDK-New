@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d5189e06-df37-dd4a-caad-0eb2f32187f3">
+ <Files>
+  <File path="ceiling_fan.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">696</Detail>
+  <Detail name="vertexCount">806</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/furniture/appliances/ceiling_fan/ceiling_fan.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

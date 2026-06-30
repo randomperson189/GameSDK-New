@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="c44db281-1611-5960-2181-6e9fc48688ca">
+ <Files>
+  <File path="smooth_grey.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/base_colors/grey_128_diff.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_noisy_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

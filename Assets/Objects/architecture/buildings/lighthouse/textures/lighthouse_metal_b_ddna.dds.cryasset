@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="5ac26e12-9c16-b6ad-e909-cee39c56c9cb">
+ <Files>
+  <File path="lighthouse_metal_b_ddna.dds"/>
+  <File path="lighthouse_metal_b_ddna.dds.a"/>
+  <File path="lighthouse_metal_b_ddna.dds.1"/>
+  <File path="lighthouse_metal_b_ddna.dds.1a"/>
+  <File path="lighthouse_metal_b_ddna.dds.2"/>
+  <File path="lighthouse_metal_b_ddna.dds.2a"/>
+  <File path="lighthouse_metal_b_ddna.dds.3"/>
+  <File path="lighthouse_metal_b_ddna.dds.3a"/>
+  <File path="lighthouse_metal_b_ddna.dds.4"/>
+  <File path="lighthouse_metal_b_ddna.dds.4a"/>
+  <File path="lighthouse_metal_b_ddna.dds.5"/>
+  <File path="lighthouse_metal_b_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

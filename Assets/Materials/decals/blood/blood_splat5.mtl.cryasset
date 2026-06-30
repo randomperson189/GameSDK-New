@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="f7b3f55f-ff85-82de-ba89-48c26a6f29ed">
+ <Files>
+  <File path="blood_splat5.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/sprites/blood/wblood_5.dds</Path>
+  <Path usageCount="1">textures/sprites/blood/wblood_5_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

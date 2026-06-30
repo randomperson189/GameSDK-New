@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="99fd3e46-ff2e-c472-af77-9e945c73c51a">
+ <Files>
+  <File path="x_trees.dds"/>
+  <File path="x_trees.dds.1"/>
+  <File path="x_trees.dds.2"/>
+  <File path="x_trees.dds.3"/>
+  <File path="x_trees.dds.4"/>
+  <File path="x_trees.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

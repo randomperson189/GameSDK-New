@@ -1,0 +1,143 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="pine_trunk" MtlFlags="524416" Shader="Illum" GenMask="83000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%OFFSET_BUMP_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.018912982,0.018912982,0.018912982" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/pine_trunk_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="1.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/pine_trunk_ddna.tif"/>
+    <Texture Map="Heightmap" File="objects/natural/woodland/pine_trunk_displ.tif"/>
+    <Texture Map="Custom" File="objects/natural/woodland/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/woodland/moss_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/pine_trunk_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="4" BlendLayer2Tiling="2.1600001" SSSIndex="0" BlendMaskTiling="1" SelfShadowStrength="0" ObmDisplacement="0.0137" HeightBias="0.80000001" BlendFactor="6" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="pine_leaf" MtlFlags="524416" Shader="Vegetation" GenMask="2401801000" StringGenMask="%DETAIL_BENDING%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.33000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/pine_leaf_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/pine_leaf_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/pine_leaf_sss.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.85699999" bendDetailFrequency="0.2" bendDetailBranchAmplitude="-1" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="0.67244315,0.84687322,0.55201143" CapOpacityFalloff="0" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="1" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="pine_distance_alpha" MtlFlags="524416" Shader="Vegetation" GenMask="2401800000" StringGenMask="%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.46000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/pine_distance_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/pine_distance_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/pine_distance_sss.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,1" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.5" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="pine_distance_solid" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_soil" MatTemplate="" Diffuse="0.21952623,0.21952623,0.21952623" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/pine_distance_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/pine_distance_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="moss_lod" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,1,1" Specular="0.016988052,0.016988052,0.016988052" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/moss_layer_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/moss_layer_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood_dead" MtlFlags="524416" Shader="Illum" GenMask="20810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/na_scots_pine_tree_trunk_rotten_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="5" TileV="5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/na_scots_pine_tree_trunk_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/woodland/dead_wood_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.2"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/woodland/na_scots_pine_tree_stripped_diff.dds"/>
+    <Texture Map="[1] Custom" File="objects/natural/woodland/na_scots_pine_tree_stripped_ddna.dds"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/wood_fine_a_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.5" BlendLayer2Tiling="1" DetailDiffuseScale="0" SSSIndex="0" DetailBumpScale="0.69999999" BlendMaskTiling="0.30000001" BlendFactor="3" DetailGlossScale="0.5" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rock_a" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="51" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/moss_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/moss_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_rock_a_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_monoliths/forest_monolith_new_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/river_rock_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="5.1999998" BlendLayer2Tiling="2" DetailDiffuseScale="0" SSSIndex="0" DetailBumpScale="3" BlendMaskTiling="3" BlendFactor="2.5999999" DetailGlossScale="0" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rock_b" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="51" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/moss_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/moss_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_rock_b_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_monoliths/forest_monolith_new_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/river_rock_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="3.5" BlendLayer2Tiling="2" DetailDiffuseScale="0" SSSIndex="0" DetailBumpScale="2" BlendMaskTiling="3" BlendFactor="2.54" DetailGlossScale="0" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rock_c" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="51" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/moss_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/moss_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_rock_c_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_monoliths/forest_monolith_new_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_rocks/canyon_rock_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/river_rock_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.2" BlendLayer2Tiling="2" DetailDiffuseScale="0" SSSIndex="0" DetailBumpScale="2" BlendMaskTiling="3" BlendFactor="5.1500001" DetailGlossScale="0" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rock_d" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="51" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/moss_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/moss_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_rock_d_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_monoliths/forest_monolith_new_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/river_rock_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="3.0999999" BlendLayer2Tiling="2" DetailDiffuseScale="0" SSSIndex="0" DetailBumpScale="2" BlendMaskTiling="3" BlendFactor="2.75" DetailGlossScale="0" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="moss_layer" MtlFlags="524448" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="18" AlphaTest="0.40000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/moss_layer_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/moss_layer_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_stone" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_wood" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="ivy" MtlFlags="524416" Shader="Vegetation" GenMask="2401800000" StringGenMask="%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.64447969,0.64447969,0.64447969" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="180" AlphaTest="0.60000002" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/bushes/ivy/vegetation_ivy_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/bushes/ivy/vegetation_ivy_ddna.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="0" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.1" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

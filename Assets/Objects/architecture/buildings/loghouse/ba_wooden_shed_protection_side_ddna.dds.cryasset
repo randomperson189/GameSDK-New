@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="b8c0cc63-e354-0d54-6d93-001f15391e30">
+ <Files>
+  <File path="ba_wooden_shed_protection_side_ddna.dds"/>
+  <File path="ba_wooden_shed_protection_side_ddna.dds.a"/>
+  <File path="ba_wooden_shed_protection_side_ddna.dds.1"/>
+  <File path="ba_wooden_shed_protection_side_ddna.dds.1a"/>
+  <File path="ba_wooden_shed_protection_side_ddna.dds.2"/>
+  <File path="ba_wooden_shed_protection_side_ddna.dds.2a"/>
+  <File path="ba_wooden_shed_protection_side_ddna.dds.3"/>
+  <File path="ba_wooden_shed_protection_side_ddna.dds.3a"/>
+  <File path="ba_wooden_shed_protection_side_ddna.dds.4"/>
+  <File path="ba_wooden_shed_protection_side_ddna.dds.4a"/>
+  <File path="ba_wooden_shed_protection_side_ddna.dds.5"/>
+  <File path="ba_wooden_shed_protection_side_ddna.dds.5a"/>
+  <File path="ba_wooden_shed_protection_side_ddna.dds.6"/>
+  <File path="ba_wooden_shed_protection_side_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

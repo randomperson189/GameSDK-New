@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="d9e7c708-ceab-6681-4524-7ab8122fe644">
+ <Files>
+  <File path="skyscrapper_ddn.dds"/>
+  <File path="skyscrapper_ddn.dds.1"/>
+  <File path="skyscrapper_ddn.dds.2"/>
+  <File path="skyscrapper_ddn.dds.3"/>
+  <File path="skyscrapper_ddn.dds.4"/>
+  <File path="skyscrapper_ddn.dds.5"/>
+  <File path="skyscrapper_ddn.dds.6"/>
+  <File path="skyscrapper_ddn.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

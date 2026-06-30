@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="56aa440f-7f5e-9350-893d-550bbe90a131">
+ <Files>
+  <File path="ground_cover_fernbush_small_a.cgf"/>
+  <File path="ground_cover_fernbush_small_a_lod1.cgf"/>
+  <File path="ground_cover_fernbush_small_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">719</Detail>
+  <Detail name="vertexCount">843</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ground_cover_fernbush.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

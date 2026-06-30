@@ -1,0 +1,22 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="80" StringGenMask="%BUMP_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0.046665087,0.046665087,0.046665087" Emissive="0,0,0" Shininess="160" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/mine/textures/lamp_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/mine/textures/lamp_ddna.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="524416" Shader="Illum" GenMask="80" StringGenMask="%BUMP_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.35865393,0.25902736,0.11926401" Specular="0.0030352699,0.0030352699,0.0030352699" Emissive="0,0,0" Shininess="255" Opacity="0.20999999" GlowAmount="8" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/mine/textures/lamp_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/mine/textures/lamp_ddna.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

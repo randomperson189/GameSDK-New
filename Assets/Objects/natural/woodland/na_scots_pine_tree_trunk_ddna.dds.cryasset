@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="515d37ce-11c7-4ec8-aaba-a9faa3e6abb1">
+ <Files>
+  <File path="na_scots_pine_tree_trunk_ddna.dds"/>
+  <File path="na_scots_pine_tree_trunk_ddna.dds.a"/>
+  <File path="na_scots_pine_tree_trunk_ddna.dds.1"/>
+  <File path="na_scots_pine_tree_trunk_ddna.dds.1a"/>
+  <File path="na_scots_pine_tree_trunk_ddna.dds.2"/>
+  <File path="na_scots_pine_tree_trunk_ddna.dds.2a"/>
+  <File path="na_scots_pine_tree_trunk_ddna.dds.3"/>
+  <File path="na_scots_pine_tree_trunk_ddna.dds.3a"/>
+  <File path="na_scots_pine_tree_trunk_ddna.dds.4"/>
+  <File path="na_scots_pine_tree_trunk_ddna.dds.4a"/>
+  <File path="na_scots_pine_tree_trunk_ddna.dds.5"/>
+  <File path="na_scots_pine_tree_trunk_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

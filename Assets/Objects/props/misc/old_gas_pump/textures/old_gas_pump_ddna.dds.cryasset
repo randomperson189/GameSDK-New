@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Texture" guid="b35f7525-9050-6c2a-b34d-0ca78a46571b">
+ <Files>
+  <File path="old_gas_pump_ddna.dds"/>
+  <File path="old_gas_pump_ddna.dds.a"/>
+  <File path="old_gas_pump_ddna.dds.1"/>
+  <File path="old_gas_pump_ddna.dds.1a"/>
+  <File path="old_gas_pump_ddna.dds.2"/>
+  <File path="old_gas_pump_ddna.dds.2a"/>
+  <File path="old_gas_pump_ddna.dds.3"/>
+  <File path="old_gas_pump_ddna.dds.3a"/>
+  <File path="old_gas_pump_ddna.dds.4"/>
+  <File path="old_gas_pump_ddna.dds.4a"/>
+  <File path="old_gas_pump_ddna.dds.5"/>
+  <File path="old_gas_pump_ddna.dds.5a"/>
+  <File path="old_gas_pump_ddna.dds.6"/>
+  <File path="old_gas_pump_ddna.dds.6a"/>
+  <File path="old_gas_pump_ddna.dds.7"/>
+  <File path="old_gas_pump_ddna.dds.7a"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

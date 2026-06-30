@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="2efa77a8-1672-047f-92a2-e810c99af05c">
+ <Files>
+  <File path="cheetah.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/flat_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/cheetah_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

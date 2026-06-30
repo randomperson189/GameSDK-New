@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="9d76c820-feaa-7d3b-2cb1-259b03a8256f">
+ <Files>
+  <File path="lod.dds"/>
+  <File path="lod.dds.1"/>
+  <File path="lod.dds.2"/>
+  <File path="lod.dds.3"/>
+  <File path="lod.dds.4"/>
+  <File path="lod.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

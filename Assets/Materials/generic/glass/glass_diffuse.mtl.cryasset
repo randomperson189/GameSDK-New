@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="d713982f-0d85-b486-e550-b82506d0f507">
+ <Files>
+  <File path="glass_diffuse.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/glass/glass_clear_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

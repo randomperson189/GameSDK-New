@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="b2f052f2-ebca-4cd3-2a0c-63e38f27f162">
+ <Files>
+  <File path="wooden_barrel_a_open.cgf"/>
+  <File path="wooden_barrel_a_open_lod1.cgf"/>
+  <File path="wooden_barrel_a_open_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">836</Detail>
+  <Detail name="vertexCount">766</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wooden_barrel.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

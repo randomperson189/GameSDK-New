@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="483b45df-9c04-5d82-329b-64f8c350a67f">
+ <Files>
+  <File path="car_paint_diff.dds"/>
+  <File path="car_paint_diff.dds.1"/>
+  <File path="car_paint_diff.dds.2"/>
+  <File path="car_paint_diff.dds.3"/>
+  <File path="car_paint_diff.dds.4"/>
+  <File path="car_paint_diff.dds.5"/>
+  <File path="car_paint_diff.dds.6"/>
+  <File path="car_paint_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

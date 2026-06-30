@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="91b1dc6f-663e-8b1d-f517-93a28aad0bf3">
+ <Files>
+  <File path="receptionlift.cgf"/>
+  <File path="receptionlift_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">514</Detail>
+  <Detail name="vertexCount">340</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./receptionlift.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

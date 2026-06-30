@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="4eb6caef-cc16-c52c-939e-d038d27cf4ad">
+ <Files>
+  <File path="roof_paper.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/roof_paper_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/roof_paper_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

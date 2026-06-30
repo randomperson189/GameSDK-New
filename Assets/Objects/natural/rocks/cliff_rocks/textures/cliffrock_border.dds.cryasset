@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="e57e5c12-b2a8-9a51-c13c-2da5793b0354">
+ <Files>
+  <File path="cliffrock_border.dds"/>
+  <File path="cliffrock_border.dds.1"/>
+  <File path="cliffrock_border.dds.2"/>
+  <File path="cliffrock_border.dds.3"/>
+  <File path="cliffrock_border.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

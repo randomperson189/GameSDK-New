@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="2eaa79d7-013d-a1a5-db78-c279055278dd">
+ <Files>
+  <File path="leaves_a_opac.dds"/>
+  <File path="leaves_a_opac.dds.1"/>
+  <File path="leaves_a_opac.dds.2"/>
+  <File path="leaves_a_opac.dds.3"/>
+  <File path="leaves_a_opac.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

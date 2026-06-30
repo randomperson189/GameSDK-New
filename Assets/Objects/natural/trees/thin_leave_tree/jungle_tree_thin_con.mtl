@@ -1,0 +1,35 @@
+<Material MtlFlags="4718848">
+ <SubMaterials>
+  <Material Name="leaves" MtlFlags="524416" Shader="Vegetation" GenMask="2400801180" StringGenMask="%BUMP_MAP%DETAIL_BENDING%DETAIL_MAPPING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/thin_leave_tree/textures/leaves_branches_new_diff.tif" Filter="7"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/thin_leave_tree/textures/leaves_branches_new_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plants/plants_leaf_detail.tif">
+     <TexMod TileU="20" TileV="20"/>
+    </Texture>
+    <Texture Map="Opacity" File="objects/natural/trees/thin_leave_tree/textures/leaves_branches_new_opac.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.1" bendDetailFrequency="0.1" bendDetailBranchAmplitude="0.02" BlendTerrainCol="0" DetailDiffuseScale="1" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" DetailBumpScale="1" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="1.5" BlendTerrainColDist="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="trunk" MtlFlags="524416" Shader="Vegetation" GenMask="2400000080" StringGenMask="%BUMP_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/thin_leave_tree/textures/trunk_pino_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/thin_leave_tree/textures/trunk_pino_ddna.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.079999998" bendDetailFrequency="5" bendDetailBranchAmplitude="0.2" BlendTerrainCol="0" VertexAlphaBlendFactor="1" BlendMaskTiling="1" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="obstruct" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="leaves_2" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="leaves_3" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="leaves_4" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

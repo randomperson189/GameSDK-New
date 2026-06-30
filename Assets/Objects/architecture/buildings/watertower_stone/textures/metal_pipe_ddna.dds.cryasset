@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="324ae615-e69f-db12-d8c7-f95668dd9e7a">
+ <Files>
+  <File path="metal_pipe_ddna.dds"/>
+  <File path="metal_pipe_ddna.dds.a"/>
+  <File path="metal_pipe_ddna.dds.1"/>
+  <File path="metal_pipe_ddna.dds.1a"/>
+  <File path="metal_pipe_ddna.dds.2"/>
+  <File path="metal_pipe_ddna.dds.2a"/>
+  <File path="metal_pipe_ddna.dds.3"/>
+  <File path="metal_pipe_ddna.dds.3a"/>
+  <File path="metal_pipe_ddna.dds.4"/>
+  <File path="metal_pipe_ddna.dds.4a"/>
+  <File path="metal_pipe_ddna.dds.5"/>
+  <File path="metal_pipe_ddna.dds.5a"/>
+  <File path="metal_pipe_ddna.dds.6"/>
+  <File path="metal_pipe_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="5efe25eb-bfcc-cd9a-8dbb-747f9992a115">
+ <Files>
+  <File path="body_burnt_diff.dds"/>
+  <File path="body_burnt_diff.dds.1"/>
+  <File path="body_burnt_diff.dds.2"/>
+  <File path="body_burnt_diff.dds.3"/>
+  <File path="body_burnt_diff.dds.4"/>
+  <File path="body_burnt_diff.dds.5"/>
+  <File path="body_burnt_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

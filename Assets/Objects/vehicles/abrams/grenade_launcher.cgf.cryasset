@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="751e458d-1b5a-1253-be43-468b2378d7c9">
+ <Files>
+  <File path="grenade_launcher.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">1514</Detail>
+  <Detail name="vertexCount">1736</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./m1a1_desert.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

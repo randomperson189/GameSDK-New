@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="33c463ac-dfa7-fd84-7c0a-879f0048007e">
+ <Files>
+  <File path="metal_tray_straight.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">16</Detail>
+  <Detail name="vertexCount">32</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mines.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

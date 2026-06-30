@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="2a60d393-5a79-dead-4264-d354acd82e65">
+ <Files>
+  <File path="water_deformation_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/water/foam_tiled2.dds</Path>
+  <Path usageCount="1">textures/generic/water/foam_tiled2_ddn.dds</Path>
+  <Path usageCount="1">textures/sprites/water/refraction_b_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

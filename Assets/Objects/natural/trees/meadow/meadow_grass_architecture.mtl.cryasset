@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="a633d1b3-25ab-80b8-c328-4deae57dba5b">
+ <Files>
+  <File path="meadow_grass_architecture.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/meadow/textures/meadow_grass_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

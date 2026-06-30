@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="7901da1b-535f-c954-b3d5-9c012dcc7625">
+ <Files>
+  <File path="rectangular_beam_4m.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">210</Detail>
+  <Detail name="vertexCount">124</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./concrete_pillars.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

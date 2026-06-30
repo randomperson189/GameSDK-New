@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="47a0b6ad-0068-46c6-d65c-6154977dc6a8">
+ <Files>
+  <File path="tree_leaf_plants_round_pattern_a.cgf"/>
+  <File path="tree_leaf_plants_round_pattern_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">390</Detail>
+  <Detail name="vertexCount">442</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./tree_leaf_plants.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

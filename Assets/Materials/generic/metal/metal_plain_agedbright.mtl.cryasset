@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="8e0bdc40-7b4e-96c1-26c0-aaa1306ad920">
+ <Files>
+  <File path="metal_plain_agedbright.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_plain_agedbright_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_plain_agedbright_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

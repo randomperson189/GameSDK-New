@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="c7ceeb95-214e-2225-fc78-ab9a558fe74a">
+ <Files>
+  <File path="robinia_a_medium_org.cgf"/>
+  <File path="robinia_a_medium_org_lod1.cgf"/>
+  <File path="robinia_a_medium_org_lod2.cgf"/>
+  <File path="robinia_a_medium_org_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">1550</Detail>
+  <Detail name="vertexCount">1385</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./robinia.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

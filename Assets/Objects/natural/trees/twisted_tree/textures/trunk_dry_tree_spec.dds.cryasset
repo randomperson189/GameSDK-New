@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="ae6078f5-4901-2de7-6d32-ab933a7b8992">
+ <Files>
+  <File path="trunk_dry_tree_spec.dds"/>
+  <File path="trunk_dry_tree_spec.dds.1"/>
+  <File path="trunk_dry_tree_spec.dds.2"/>
+  <File path="trunk_dry_tree_spec.dds.3"/>
+  <File path="trunk_dry_tree_spec.dds.4"/>
+  <File path="trunk_dry_tree_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

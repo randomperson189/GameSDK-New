@@ -1,0 +1,31 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Waterfall_layer1" MtlFlags="524448" Shader="Illum" GenMask="2000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_water" MatTemplate="" Diffuse="0.05284163,0.063814871,0.071761452" Specular="0.054592282,0.054592282,0.054592282" Emissive="0.29321617,0.29321617,0.29321617" Shininess="200" Opacity="0.2" CloakAmount="0" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/water/river_foam_a.tif">
+     <TexMod TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.44999999" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/generic/water/river_foam_a.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/water/river_foam_var3_ddn.tif"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="1" DividerY="1" DividerZ="1" DividerW="1" NoiseScale="1,1,1">
+    <WaveX Type="2" Amp="0.1" Level="0" Phase="0" Freq="1"/>
+   </VertexDeform>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="12.17" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Waterfall_layer2" MtlFlags="524448" Shader="Illum" GenMask="2000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_water" MatTemplate="" Diffuse="0.098689198,0.098689198,0.098689198" Specular="0.14497213,0.14497213,0.14497213" Emissive="0.29321617,0.29321617,0.29321617" Shininess="200" Opacity="0.99000001" GlowAmount="2" CloakAmount="0" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/water/river_foam_a.tif">
+     <TexMod TileU="0.5" TileV="0.5" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.5" TexMod_UOscillatorPhase="2" TexMod_UOscillatorAmplitude="1"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/generic/water/river_foam_a.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/water/river_foam_var3_ddn.tif"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="1" DividerY="1" DividerZ="1" DividerW="1" NoiseScale="1,1,1">
+    <WaveX Type="2" Amp="0.1" Level="0" Phase="0" Freq="1"/>
+   </VertexDeform>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

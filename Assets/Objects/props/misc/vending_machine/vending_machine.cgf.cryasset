@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="506f59ac-6587-3889-dc1c-d1625e0ecbdd">
+ <Files>
+  <File path="vending_machine.cgf"/>
+  <File path="vending_machine_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">202</Detail>
+  <Detail name="vertexCount">328</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/props/misc/vending_machine/vending_machine.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

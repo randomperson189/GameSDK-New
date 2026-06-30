@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="3c8377b8-7080-334d-70c1-d93335dc29d7">
+ <Files>
+  <File path="gas_stove.cgf"/>
+  <File path="gas_stove_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">774</Detail>
+  <Detail name="vertexCount">1245</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./gas_stove.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

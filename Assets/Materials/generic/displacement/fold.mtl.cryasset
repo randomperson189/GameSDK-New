@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="19442fb1-e8c0-ecb0-dbc0-9d0c315d2524">
+ <Files>
+  <File path="fold.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/flat_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/fold_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

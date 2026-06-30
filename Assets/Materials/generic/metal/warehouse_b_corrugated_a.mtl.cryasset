@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="2c372af7-8130-5e2d-f4be-fb51d6f7a854">
+ <Files>
+  <File path="warehouse_b_corrugated_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/warehouse_b_corrugated_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/warehouse_b_corrugated_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/warehouse_b_corrugated_a_spec.dds</Path>
+  <Path usageCount="1">textures/generic/metal/warehouse_b_corrugated_a_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

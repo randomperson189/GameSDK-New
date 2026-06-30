@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="736fb742-50a3-e218-ada9-11a258a3ccd6">
+ <Files>
+  <File path="worn_gold.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/conductor_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/gold_spec.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/worn_metal_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

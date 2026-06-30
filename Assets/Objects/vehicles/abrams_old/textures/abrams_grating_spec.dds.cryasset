@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="66a4cffb-7fb0-0c87-aa63-675f6e38bb2e">
+ <Files>
+  <File path="abrams_grating_spec.dds"/>
+  <File path="abrams_grating_spec.dds.1"/>
+  <File path="abrams_grating_spec.dds.2"/>
+  <File path="abrams_grating_spec.dds.3"/>
+  <File path="abrams_grating_spec.dds.4"/>
+  <File path="abrams_grating_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

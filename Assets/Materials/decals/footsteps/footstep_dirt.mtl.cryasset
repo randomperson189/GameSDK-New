@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="80fc69b2-37aa-7a06-605f-221410e38d98">
+ <Files>
+  <File path="footstep_dirt.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/footsteps/footprint_sand_left.dds</Path>
+  <Path usageCount="1">textures/decals/footsteps/footprint_sand_left_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

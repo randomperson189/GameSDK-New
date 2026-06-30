@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="6404ed0f-2135-7c27-a944-87f4b1f8bc83">
+ <Files>
+  <File path="flag.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">textures/defaults/grey.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/fabric/fabric_a_detail.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_brushed_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_brushed_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

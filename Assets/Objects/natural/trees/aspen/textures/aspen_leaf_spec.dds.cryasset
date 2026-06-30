@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="734a4a33-f282-2f88-6a22-dc7d3318a9ef">
+ <Files>
+  <File path="aspen_leaf_spec.dds"/>
+  <File path="aspen_leaf_spec.dds.1"/>
+  <File path="aspen_leaf_spec.dds.2"/>
+  <File path="aspen_leaf_spec.dds.3"/>
+  <File path="aspen_leaf_spec.dds.4"/>
+  <File path="aspen_leaf_spec.dds.5"/>
+  <File path="aspen_leaf_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

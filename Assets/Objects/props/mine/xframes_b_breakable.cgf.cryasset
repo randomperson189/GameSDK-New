@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="d6ea3994-b962-50a4-3147-6e52de0b43a5">
+ <Files>
+  <File path="xframes_b_breakable.cgf"/>
+  <File path="xframes_b_breakable_lod1.cgf"/>
+  <File path="xframes_b_breakable_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">4444</Detail>
+  <Detail name="vertexCount">6195</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mines.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,22 @@
+<AssetMetadata version="0" type="Material" guid="149753ff-1022-7c96-85cb-1e4d02644638">
+ <Files>
+  <File path="m1a1_butan.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">7</Detail>
+  <Detail name="textureCount">11</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/vehicles/abrams/textures/abrams_treads_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams/textures/abrams_treads_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams/textures/abrams_treads_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams/textures/abrams_treads_height.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams/textures/abrams_signs_decal.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams/textures/abrams_glass_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams/textures/abrams_glass_tint_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams/textures/abrams_butan_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams/textures/abrams_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams/textures/abrams_spec.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="76ef942d-94f3-f64b-c36c-839377727d37">
+ <Files>
+  <File path="dead_tree_root_b.cgf"/>
+  <File path="dead_tree_root_b_lod1.cgf"/>
+  <File path="dead_tree_root_b_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">4948</Detail>
+  <Detail name="vertexCount">3825</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./dead_tree.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="cd5928f7-ae64-bd00-efe7-1e789dd705fb">
+ <Files>
+  <File path="overhead_track_cart.cgf"/>
+  <File path="overhead_track_cart_lod1.cgf"/>
+  <File path="overhead_track_cart_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1724</Detail>
+  <Detail name="vertexCount">2746</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./overhead_track_cart.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

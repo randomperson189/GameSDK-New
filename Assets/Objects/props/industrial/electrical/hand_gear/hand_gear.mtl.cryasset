@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="838f629d-9818-938d-227d-756aee1482dc">
+ <Files>
+  <File path="hand_gear.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_parts_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_parts_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_steelbar_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_steelbar_ddna.dds</Path>
+  <Path usageCount="1">objects/props/industrial/electrical/hand_gear/textures/hand_gear_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/electrical/hand_gear/textures/hand_gear_spec.dds</Path>
+  <Path usageCount="1">objects/props/industrial/electrical/hand_gear/textures/hand_gear_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="b4c3dfdf-3530-ec0c-630b-38f83e73e3e5">
+ <Files>
+  <File path="trash_container.cgf"/>
+  <File path="trash_container_lod1.cgf"/>
+  <File path="trash_container_lod2.cgf"/>
+  <File path="trash_container_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">528</Detail>
+  <Detail name="vertexCount">544</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./trash_container.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

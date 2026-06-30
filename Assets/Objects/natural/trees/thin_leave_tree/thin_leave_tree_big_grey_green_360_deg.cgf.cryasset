@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="439f47da-c31a-9256-8414-e4aba378cd58">
+ <Files>
+  <File path="thin_leave_tree_big_grey_green_360_deg.cgf"/>
+  <File path="thin_leave_tree_big_grey_green_360_deg_lod1.cgf"/>
+  <File path="thin_leave_tree_big_grey_green_360_deg_lod2.cgf"/>
+  <File path="thin_leave_tree_big_grey_green_360_deg_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">1609</Detail>
+  <Detail name="vertexCount">2305</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./thin_leave_tree_big_grey_green.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

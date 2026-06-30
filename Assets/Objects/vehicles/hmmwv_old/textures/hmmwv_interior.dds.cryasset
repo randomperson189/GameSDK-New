@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="434513bb-4a22-4fb8-7d56-51be9c1a175a">
+ <Files>
+  <File path="hmmwv_interior.dds"/>
+  <File path="hmmwv_interior.dds.1"/>
+  <File path="hmmwv_interior.dds.2"/>
+  <File path="hmmwv_interior.dds.3"/>
+  <File path="hmmwv_interior.dds.4"/>
+  <File path="hmmwv_interior.dds.5"/>
+  <File path="hmmwv_interior.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

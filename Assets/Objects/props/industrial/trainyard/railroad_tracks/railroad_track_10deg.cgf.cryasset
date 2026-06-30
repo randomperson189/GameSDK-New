@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="57ab5cf9-2ca7-160e-7bc1-36199bf273f3">
+ <Files>
+  <File path="railroad_track_10deg.cgf"/>
+  <File path="railroad_track_10deg_lod1.cgf"/>
+  <File path="railroad_track_10deg_lod2.cgf"/>
+  <File path="railroad_track_10deg_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">588</Detail>
+  <Detail name="vertexCount">595</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./railroad_track.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

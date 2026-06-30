@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="cd8be251-7c45-7dc2-f75d-9c8a860a47ac">
+ <Files>
+  <File path="wood_rough_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_rough_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_rough_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

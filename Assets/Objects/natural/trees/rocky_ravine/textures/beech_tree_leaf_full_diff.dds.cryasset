@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="23806419-51e4-f029-207d-3a64fdfe6d21">
+ <Files>
+  <File path="beech_tree_leaf_full_diff.dds"/>
+  <File path="beech_tree_leaf_full_diff.dds.1"/>
+  <File path="beech_tree_leaf_full_diff.dds.2"/>
+  <File path="beech_tree_leaf_full_diff.dds.3"/>
+  <File path="beech_tree_leaf_full_diff.dds.4"/>
+  <File path="beech_tree_leaf_full_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

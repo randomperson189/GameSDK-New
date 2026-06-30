@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="0c8292cb-7987-4f39-3a90-5edb9cfb2039">
+ <Files>
+  <File path="window_frame_concrete.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/used_concrete_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/used_concrete_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

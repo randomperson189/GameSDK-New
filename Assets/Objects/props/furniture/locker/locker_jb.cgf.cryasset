@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ddf2abd3-7b8f-f1b4-7daf-0615cfe1c73c">
+ <Files>
+  <File path="locker_jb.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">588</Detail>
+  <Detail name="vertexCount">812</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Locker.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

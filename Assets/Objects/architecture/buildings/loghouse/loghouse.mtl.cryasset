@@ -1,0 +1,30 @@
+<AssetMetadata version="0" type="Material" guid="1e027a28-28bd-ad79-c881-c49e6c597646">
+ <Files>
+  <File path="loghouse.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">13</Detail>
+  <Detail name="textureCount">19</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wooden_planks_set_b_blue_diff.dds</Path>
+  <Path usageCount="3">textures/generic/wood/wooden_planks_set_b_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wooden_planks_set_b_red_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_door_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_door_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_trims_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_trims_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_curtains_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_curtains_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/glass_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/loghouse/loghouse_roof_tiles_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/loghouse/loghouse_roof_tiles_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/loghouse/ba_wooden_shed_protection_side_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/loghouse/ba_wooden_shed_protection_side_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/trunk_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/trunk_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/loghouse/wood_poles_caps_darker_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/loghouse/wood_poles_caps_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wooden_planks_set_b_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

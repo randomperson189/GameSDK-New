@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="4afae713-f851-fdd3-e705-851746498f95">
+ <Files>
+  <File path="industrial_lamp.cgf"/>
+  <File path="industrial_lamp_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">474</Detail>
+  <Detail name="vertexCount">384</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./industrial_lamp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

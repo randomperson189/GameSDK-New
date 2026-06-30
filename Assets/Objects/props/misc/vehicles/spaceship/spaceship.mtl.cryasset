@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="d4a9798a-f728-925b-4fa8-eb8f3356a87b">
+ <Files>
+  <File path="spaceship.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/porcelain_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/conductor_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/silver_spec.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/gloss70_ddna.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/car_paint_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/car_paint_spec.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/gloss80_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="d479d0f6-b5cf-ca42-cf1b-7a52e8e5ade1">
+ <Files>
+  <File path="tall_grass_sss.dds"/>
+  <File path="tall_grass_sss.dds.1"/>
+  <File path="tall_grass_sss.dds.2"/>
+  <File path="tall_grass_sss.dds.3"/>
+  <File path="tall_grass_sss.dds.4"/>
+  <File path="tall_grass_sss.dds.5"/>
+  <File path="tall_grass_sss.dds.6"/>
+  <File path="tall_grass_sss.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

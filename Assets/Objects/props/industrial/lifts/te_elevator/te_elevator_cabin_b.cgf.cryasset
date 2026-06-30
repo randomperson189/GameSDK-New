@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="73e0b33b-df74-ddef-2388-826304b703e2">
+ <Files>
+  <File path="te_elevator_cabin_b.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">2695</Detail>
+  <Detail name="vertexCount">2979</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./te_elevator_b.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

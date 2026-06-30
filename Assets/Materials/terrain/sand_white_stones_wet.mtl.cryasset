@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="895d91c9-ab6c-450f-a1ec-4c9da7d243e0">
+ <Files>
+  <File path="sand_white_stones_wet.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/terrain/detail/sand_white_stones_wet_a_diff.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/sand_white_stones_wet_a_ddna.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/sand_white_stones_wet_a_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="17ee5428-383b-90f1-1dd0-9223fa210bcf">
+ <Files>
+  <File path="forest_monoliths.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">9</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/rocks/forest_monoliths/forest_monolith_new_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_monoliths/forest_monolith_new_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

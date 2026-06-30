@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="cd296f88-0a05-7954-bb85-02e90c2b9066">
+ <Files>
+  <File path="bux_hedge_ball_small.cgf"/>
+  <File path="bux_hedge_ball_small_lod1.cgf"/>
+  <File path="bux_hedge_ball_small_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">635</Detail>
+  <Detail name="vertexCount">717</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./buxus.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

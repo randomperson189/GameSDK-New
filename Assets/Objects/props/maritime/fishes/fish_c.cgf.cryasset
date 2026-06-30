@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="24dd667f-96cc-6d7d-27b1-ccdbd74155bf">
+ <Files>
+  <File path="fish_c.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">76</Detail>
+  <Detail name="vertexCount">54</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishes.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

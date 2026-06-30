@@ -1,0 +1,67 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="hull" MtlFlags="524416" Shader="Illum" GenMask="81000081" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.33716366,0.33716366,0.33716366" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv_old/textures/hmmwv_hull.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/hmmwv_old/textures/hmmwv_hull_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_a_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="20" TileV="20"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.25" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="interior" MtlFlags="524416" Shader="Illum" GenMask="81000081" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.30946895,0.30946895,0.30946895" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv_old/textures//hmmwv_interior.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/hmmwv_old/textures/hmmwv_interior_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_a_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="40" TileV="40"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.5" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="window" MtlFlags="2623648" Shader="Glass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0.042311415,0.042311415,0.042311415" Emissive="0,0,0" Opacity="1" Shininess="220" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="objects/vehicles/hmmwv_old/textures/hmmwv_window_ddna.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.57758057,0.57758057,0.57758057" TintCloudiness="0.0099999998" BackLightScale="0.075000003" BumpScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wheels" MtlFlags="524416" Shader="Illum" GenMask="E1000085" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAMASK_DETAILMAP%DETAIL_MAPPING%NORMAL_MAP%SILHOUETTE_PARALLAX_OCCLUSION_MAPPING%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber" MatTemplate="" Diffuse="0.64447981,0.64447981,0.64447981" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv_old/textures/hmmwv_wheel.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/hmmwv_old/textures/hmmwv_wheel_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/hmmwv_old/textures/hmmwv_wheel_spec.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/mud/mud_rough_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="6" TileV="6"/>
+    </Texture>
+    <Texture Map="Heightmap" File="objects/vehicles/hmmwv_old/textures/hmmwv_wheel_displ.tif"/>
+   </Textures>
+   <PublicParams SilPomDisplacement="0.015" SilPomStepSizeViewDep="1" DetailDiffuseScale="1" SSSIndex="0" DetailBumpScale="1.5" SelfShadowStrength="2.5" HeightBias="1" DetailGlossScale="0" SilPomNumSteps="64" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="decals" MtlFlags="524416" Shader="Illum" GenMask="80000801" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.005181517,0.005181517,0.005181517" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv_old/textures/hmmwv_decals.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="0.5" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="damaged" MtlFlags="524416" Shader="Illum" GenMask="80000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.005181517,0.005181517,0.005181517" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv_old/textures/hmmwv_destroyed.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lights" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.33716366,0.33716366,0.33716366" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="200" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv_old/textures/hmmwv_hull.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/hmmwv_old/textures/hmmwv_hull_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

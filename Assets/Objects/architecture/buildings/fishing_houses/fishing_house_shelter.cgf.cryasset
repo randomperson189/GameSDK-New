@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="a14a3494-45bc-963e-376e-58689d8bf752">
+ <Files>
+  <File path="fishing_house_shelter.cgf"/>
+  <File path="fishing_house_shelter_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">680</Detail>
+  <Detail name="vertexCount">1020</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/fishing_houses.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

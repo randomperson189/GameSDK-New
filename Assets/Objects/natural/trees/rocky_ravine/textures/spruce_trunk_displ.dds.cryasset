@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="da4d1290-8817-9345-6b93-7eb24a5595c5">
+ <Files>
+  <File path="spruce_trunk_displ.dds"/>
+  <File path="spruce_trunk_displ.dds.1"/>
+  <File path="spruce_trunk_displ.dds.2"/>
+  <File path="spruce_trunk_displ.dds.3"/>
+  <File path="spruce_trunk_displ.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

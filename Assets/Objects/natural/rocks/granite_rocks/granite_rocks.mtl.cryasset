@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="5c7467ae-0b46-cf92-27d9-4eb24c48303f">
+ <Files>
+  <File path="granite_rocks.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/rocks/granite_rocks/textures/granite_rocks_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/granite_rocks/textures/granite_rocks_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

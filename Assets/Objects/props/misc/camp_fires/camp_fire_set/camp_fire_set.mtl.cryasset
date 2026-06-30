@@ -1,0 +1,38 @@
+<AssetMetadata version="0" type="Material" guid="25e023b3-7f86-ae7d-369a-6cbe2a9f3a53">
+ <Files>
+  <File path="camp_fire_set.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">12</Detail>
+  <Detail name="textureCount">27</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/textures/camp_fire_c_lod2_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/textures/camp_fire_c_lod2_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/textures/camp_fire_c_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/textures/camp_fire_c_lod1_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/textures/camp_fire_b_lod2_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/textures/camp_fire_b_lod2_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/textures/camp_fire_b_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/textures/camp_fire_b_lod1_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/textures/camp_fire_a_lod2_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/textures/camp_fire_a_lod2_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/textures/camp_fire_a_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/textures/camp_fire_a_lod1_ddna.dds</Path>
+  <Path usageCount="2">textures/generic/ash/burned_ash_tile_diff.dds</Path>
+  <Path usageCount="2">textures/generic/ash/burned_ash_tile_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/ash/burned_ash_tile_displ.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/burned_wood_stump_end_a_diff.dds</Path>
+  <Path usageCount="2">objects/props/misc/camp_fires/camp_fire_set/burned_wood_stump_end_a_ddna.dds</Path>
+  <Path usageCount="2">textures/generic/wood/wood_dirt_a_diff.dds</Path>
+  <Path usageCount="2">textures/generic/wood/wood_dirt_a_mask.dds</Path>
+  <Path usageCount="1">textures/generic/wood/burned_wood_a_diff.dds</Path>
+  <Path usageCount="2">textures/generic/wood/burned_wood_a_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/palmtrunk_detail.dds</Path>
+  <Path usageCount="1">textures/generic/rock/burned_stone_a_diff.dds</Path>
+  <Path usageCount="2">textures/generic/rock/burned_stone_a_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/camp_fires/camp_fire_set/camp_fire_rocks_detail.dds</Path>
+  <Path usageCount="1">textures/generic/rock/stone_dirt_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/rock/stone_dirt_a_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

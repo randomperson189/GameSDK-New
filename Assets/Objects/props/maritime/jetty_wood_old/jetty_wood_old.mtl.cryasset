@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Material" guid="a4b13927-cfff-f973-6469-af2d7f4b96e4">
+ <Files>
+  <File path="jetty_wood_old.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">10</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_bleached_a_diff.dds</Path>
+  <Path usageCount="2">textures/generic/wood/wood_bleached_a_ddna.dds</Path>
+  <Path usageCount="3">textures/generic/vegetation/seaweed_diff.dds</Path>
+  <Path usageCount="3">textures/generic/vegetation/seaweed_mask.dds</Path>
+  <Path usageCount="1">textures/generic/fabric/rope_set_shipwreck_b_diff.dds</Path>
+  <Path usageCount="2">textures/generic/fabric/rope_set_shipwreck_b_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/nails_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/nails_spec.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_planks_a_lighter_diff.dds</Path>
+  <Path usageCount="2">textures/generic/wood/wood_planks_flat_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

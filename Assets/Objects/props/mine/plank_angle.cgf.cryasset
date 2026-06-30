@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="0e06138b-189c-54cd-e0f8-3143bbbdb121">
+ <Files>
+  <File path="plank_angle.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">342</Detail>
+  <Detail name="vertexCount">353</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mines.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

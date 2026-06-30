@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="521f0697-34fb-5fa6-f9ec-8e08b53a735e">
+ <Files>
+  <File path="pipes_ddn.dds"/>
+  <File path="pipes_ddn.dds.1"/>
+  <File path="pipes_ddn.dds.2"/>
+  <File path="pipes_ddn.dds.3"/>
+  <File path="pipes_ddn.dds.4"/>
+  <File path="pipes_ddn.dds.5"/>
+  <File path="pipes_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="f7244a97-be89-03b5-9ff6-c95e22b117f9">
+ <Files>
+  <File path="door_sign_engine_bldg_diff.dds"/>
+  <File path="door_sign_engine_bldg_diff.dds.1"/>
+  <File path="door_sign_engine_bldg_diff.dds.2"/>
+  <File path="door_sign_engine_bldg_diff.dds.3"/>
+  <File path="door_sign_engine_bldg_diff.dds.4"/>
+  <File path="door_sign_engine_bldg_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,31 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_ice" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="snowmanmat_01" MtlFlags="524416" Shader="HumanSkin" GenMask="1000000080" StringGenMask="%BUMP_MAP%TEMP_SKIN" SurfaceType="mat_ice" MatTemplate="" Diffuse="0.5174014,0.5174014,0.5174014" Specular="0.022173885,0.022173885,0.022173885" Emissive="0,0,0" Shininess="223" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/snow/snowman/textures/snowman_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/snow/snowman/textures/snowman_ddna.tif"/>
+   </Textures>
+   <PublicParams Melanin="0" SSSIndex="1.2" TranslucencyMultiplier="1.9349999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="icemat" MtlFlags="524416" Shader="Illum" GenMask="80100" StringGenMask="%DETAIL_MAPPING%GLOSS_MAP" SurfaceType="mat_ice" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0.21951973,0.21951973,0.21951973" Emissive="0,0,0" Shininess="200" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/snow/snowman/textures/snowbank_a_diff.tif"/>
+    <Texture Map="Specular" File="objects/natural/snow/snowman/textures/snowbank_a_diff.tif"/>
+    <Texture Map="Detail" File="textures/generic/water/river_foamy_ddn.tif">
+     <TexMod TileU="0.5" TileV="0.5"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.75" DetailBumpScale="0" SubsurfaceScatteringAmount="0" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="twigmat" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.27583286,0.27583286,0.27583286" Specular="0.0096963281,0.0096963281,0.0096963281" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/wood_tile_diff.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

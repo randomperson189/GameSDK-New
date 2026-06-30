@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="d7e7245b-4069-1556-3f2b-2c3121c63301">
+ <Files>
+  <File path="toad_poststandin.cgf"/>
+  <File path="toad_poststandin_lod1.cgf"/>
+  <File path="toad_poststandin_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">7530</Detail>
+  <Detail name="vertexCount">7062</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./stone_toad.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

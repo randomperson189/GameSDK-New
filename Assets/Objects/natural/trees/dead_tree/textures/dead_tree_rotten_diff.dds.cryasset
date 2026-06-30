@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="01c20bce-2e8a-6f7f-1b6c-4c8234c6bdfe">
+ <Files>
+  <File path="dead_tree_rotten_diff.dds"/>
+  <File path="dead_tree_rotten_diff.dds.1"/>
+  <File path="dead_tree_rotten_diff.dds.2"/>
+  <File path="dead_tree_rotten_diff.dds.3"/>
+  <File path="dead_tree_rotten_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

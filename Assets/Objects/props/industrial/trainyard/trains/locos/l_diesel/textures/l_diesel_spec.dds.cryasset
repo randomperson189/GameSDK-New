@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="30219f3c-5c04-cb44-40a6-1f2cf8c21533">
+ <Files>
+  <File path="l_diesel_spec.dds"/>
+  <File path="l_diesel_spec.dds.1"/>
+  <File path="l_diesel_spec.dds.2"/>
+  <File path="l_diesel_spec.dds.3"/>
+  <File path="l_diesel_spec.dds.4"/>
+  <File path="l_diesel_spec.dds.5"/>
+  <File path="l_diesel_spec.dds.6"/>
+  <File path="l_diesel_spec.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

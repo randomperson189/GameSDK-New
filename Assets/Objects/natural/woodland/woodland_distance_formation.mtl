@@ -1,0 +1,46 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="rock_a" MtlFlags="524416" Shader="Illum" GenMask="20810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/woodland/pine_distance_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/woodland/moss_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/brick_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" BlendLayer2Tiling="1" DetailDiffuseScale="0.40000001" SSSIndex="0" DetailBumpScale="1.5" BlendMaskTiling="1" BlendFactor="16" DetailGlossScale="0" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rock_b" MtlFlags="524416" Shader="Illum" GenMask="20810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.42326769,0.42326769,0.42326769" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_rocks/canyon_wall_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_river_wet_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_rocks/canyon_wall_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/brick_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" BlendLayer2Tiling="1" DetailDiffuseScale="1" SSSIndex="0" DetailBumpScale="1.5" BlendMaskTiling="3" BlendFactor="16" DetailGlossScale="0" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="tree_a" MtlFlags="524416" Shader="Vegetation" GenMask="2401800000" StringGenMask="%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.47" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/natural/woodland/pine_distance_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/pine_distance_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/pine_distance_sss.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,1" CapOpacityFalloff="0" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.5" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="tree_b" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

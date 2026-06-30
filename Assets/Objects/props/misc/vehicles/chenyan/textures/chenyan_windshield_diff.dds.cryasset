@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="1d13cf7a-5c62-442d-82c0-21c1e51fccbc">
+ <Files>
+  <File path="chenyan_windshield_diff.dds"/>
+  <File path="chenyan_windshield_diff.dds.1"/>
+  <File path="chenyan_windshield_diff.dds.2"/>
+  <File path="chenyan_windshield_diff.dds.3"/>
+  <File path="chenyan_windshield_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

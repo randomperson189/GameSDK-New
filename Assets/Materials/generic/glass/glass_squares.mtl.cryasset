@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="e39b5c67-e4f6-6d35-d60d-42ee068193a2">
+ <Files>
+  <File path="glass_squares.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/glass/glass_squares_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/glass/glass_dirty_tint.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="44ebd42b-fd7b-fde2-a207-a34640bd4934">
+ <Files>
+  <File path="pottery_amphora_diff.dds"/>
+  <File path="pottery_amphora_diff.dds.1"/>
+  <File path="pottery_amphora_diff.dds.2"/>
+  <File path="pottery_amphora_diff.dds.3"/>
+  <File path="pottery_amphora_diff.dds.4"/>
+  <File path="pottery_amphora_diff.dds.5"/>
+  <File path="pottery_amphora_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

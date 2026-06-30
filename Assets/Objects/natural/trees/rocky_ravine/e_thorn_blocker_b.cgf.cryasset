@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="c59690f0-805a-aee0-e05e-8f24d699a01e">
+ <Files>
+  <File path="e_thorn_blocker_b.cgf"/>
+  <File path="e_thorn_blocker_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">600</Detail>
+  <Detail name="vertexCount">657</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./thorn.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

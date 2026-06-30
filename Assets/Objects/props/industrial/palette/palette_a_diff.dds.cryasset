@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="a96e4f7b-b8d6-b8c8-713b-159d32493325">
+ <Files>
+  <File path="palette_a_diff.dds"/>
+  <File path="palette_a_diff.dds.1"/>
+  <File path="palette_a_diff.dds.2"/>
+  <File path="palette_a_diff.dds.3"/>
+  <File path="palette_a_diff.dds.4"/>
+  <File path="palette_a_diff.dds.5"/>
+  <File path="palette_a_diff.dds.6"/>
+  <File path="palette_a_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

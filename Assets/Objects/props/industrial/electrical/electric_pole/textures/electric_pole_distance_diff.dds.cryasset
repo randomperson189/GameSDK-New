@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="5ac6e469-8d89-612b-c041-19eff0cf353e">
+ <Files>
+  <File path="electric_pole_distance_diff.dds"/>
+  <File path="electric_pole_distance_diff.dds.1"/>
+  <File path="electric_pole_distance_diff.dds.2"/>
+  <File path="electric_pole_distance_diff.dds.3"/>
+  <File path="electric_pole_distance_diff.dds.4"/>
+  <File path="electric_pole_distance_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

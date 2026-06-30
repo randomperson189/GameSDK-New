@@ -1,0 +1,18 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="round_leaf" MtlFlags="524416" Shader="Vegetation" GenMask="2400801180" StringGenMask="%BUMP_MAP%DETAIL_BENDING%DETAIL_MAPPING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.61720657,0.61720657,0.61720657" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="88" Opacity="1" AlphaTest="0.5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/bushes/roundleafbush/textures/leaves_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/bushes/roundleafbush/textures/leaves_a_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plants/plants_leaf_detail.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.029999999" bendDetailFrequency="0.1" bendDetailBranchAmplitude="0" BlendTerrainCol="0" DetailDiffuseScale="0.75" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" DetailBumpScale="0.5" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.25" BlendTerrainColDist="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="long_leaf" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

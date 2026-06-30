@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="ceaf93bd-d8f8-9a6d-236f-e756a4b791c7">
+ <Files>
+  <File path="3dtext_ddn.dds"/>
+  <File path="3dtext_ddn.dds.1"/>
+  <File path="3dtext_ddn.dds.2"/>
+  <File path="3dtext_ddn.dds.3"/>
+  <File path="3dtext_ddn.dds.4"/>
+  <File path="3dtext_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

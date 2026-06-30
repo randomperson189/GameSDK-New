@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="bd8e88c2-964f-c14f-8914-ee0bf45a9a9c">
+ <Files>
+  <File path="panel_b.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">597</Detail>
+  <Detail name="vertexCount">642</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./panels.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

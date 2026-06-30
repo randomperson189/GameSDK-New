@@ -1,0 +1,22 @@
+<AssetMetadata version="0" type="Material" guid="e5e97909-4a26-2ad1-576c-398ec845ff09">
+ <Files>
+  <File path="dead_tree_breakable.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">11</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/natural/trees/dead_tree/textures/dead_tree_trunk_diff.dds</Path>
+  <Path usageCount="3">objects/natural/trees/dead_tree/textures/dead_tree_trunk_ddna.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/wood/wood_bark_detail.dds</Path>
+  <Path usageCount="1">objects/natural/trees/dead_tree/textures/dead_tree_rotten_diff.dds</Path>
+  <Path usageCount="2">objects/natural/trees/dead_tree/textures/dead_tree_moss_mask.dds</Path>
+  <Path usageCount="1">objects/natural/trees/dead_tree/textures/dead_tree_leaf_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/dead_tree/textures/dead_tree_leaf_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/dead_tree/textures/dead_tree_leaf_sss.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+  <Path usageCount="1">objects/natural/trees/dead_tree/textures/dead_tree_moss_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/dead_tree/textures/dead_tree_moss_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

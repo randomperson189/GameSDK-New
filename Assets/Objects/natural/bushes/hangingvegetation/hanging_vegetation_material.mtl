@@ -1,0 +1,20 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="hanging_vegetation" MtlFlags="524418" Shader="Illum" GenMask="2000000180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.8307699,0.94730651,0.49693301" Specular="0.033104766,0.033104766,0.033104766" Emissive="0,0,0" Shininess="156" Opacity="1" AlphaTest="0.49000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/bushes/hangingvegetation/textures/hanging_vegetation_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/bushes/hangingvegetation/textures/hanging_vegetation_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plants/plants_leaf_detail.dds">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="[1] Custom" File="objects/natural/bushes/hangingvegetation/textures/hanging_vegetation_sss.tif"/>
+   </Textures>
+   <PublicParams DetailDiffuseScale="1" DetailBumpScale="1.36" SubsurfaceScatteringAmount="0" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="hanging_vegetation_b" MtlFlags="524416" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.551,1,0.551" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

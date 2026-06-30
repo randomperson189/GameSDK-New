@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="65e1913e-9116-5829-fa6d-cd5b1cf8e30c">
+ <Files>
+  <File path="mh60_interior_a_diff.dds"/>
+  <File path="mh60_interior_a_diff.dds.1"/>
+  <File path="mh60_interior_a_diff.dds.2"/>
+  <File path="mh60_interior_a_diff.dds.3"/>
+  <File path="mh60_interior_a_diff.dds.4"/>
+  <File path="mh60_interior_a_diff.dds.5"/>
+  <File path="mh60_interior_a_diff.dds.6"/>
+  <File path="mh60_interior_a_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

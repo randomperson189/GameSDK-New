@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="cb462396-6188-f2b5-d216-c6f3366a3e84">
+ <Files>
+  <File path="lamp_hanging.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">623</Detail>
+  <Detail name="vertexCount">429</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./lamp_post.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="f94b1084-fdec-5b08-ceda-9b7114cbca37">
+ <Files>
+  <File path="rock_plane_cave_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">50</Detail>
+  <Detail name="vertexCount">36</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cliff_rock_neutral_con.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

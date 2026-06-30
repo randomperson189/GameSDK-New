@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="f8d46f0b-05bb-fe0f-b9be-a8ac8d060ae8">
+ <Files>
+  <File path="grated_steel_ddna.dds"/>
+  <File path="grated_steel_ddna.dds.a"/>
+  <File path="grated_steel_ddna.dds.1"/>
+  <File path="grated_steel_ddna.dds.1a"/>
+  <File path="grated_steel_ddna.dds.2"/>
+  <File path="grated_steel_ddna.dds.2a"/>
+  <File path="grated_steel_ddna.dds.3"/>
+  <File path="grated_steel_ddna.dds.3a"/>
+  <File path="grated_steel_ddna.dds.4"/>
+  <File path="grated_steel_ddna.dds.4a"/>
+  <File path="grated_steel_ddna.dds.5"/>
+  <File path="grated_steel_ddna.dds.5a"/>
+  <File path="grated_steel_ddna.dds.6"/>
+  <File path="grated_steel_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

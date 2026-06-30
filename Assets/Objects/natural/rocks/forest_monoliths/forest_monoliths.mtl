@@ -1,0 +1,41 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.5" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="forest_monolith_a" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="forest_monolith_b" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="forest_monolith_c" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="forest_monolith_d" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="forest_monolith_e" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="forest_monolith_f" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="forest_monolith_g" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="forest_monolith_new" MtlFlags="524416" Shader="Illum" GenMask="2080000181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="180" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_monoliths/forest_monolith_new_diff.tif">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/forest_monoliths/forest_monolith_new_detail.tif">
+     <TexMod TileU="0.125" TileV="0.125"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0" SSSIndex="0" DetailBumpScale="1.5" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

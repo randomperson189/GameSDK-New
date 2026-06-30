@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="2a255324-29f4-320f-6a84-c13c6b2732da">
+ <Files>
+  <File path="ground_cover_nofern_dry_diff.dds"/>
+  <File path="ground_cover_nofern_dry_diff.dds.1"/>
+  <File path="ground_cover_nofern_dry_diff.dds.2"/>
+  <File path="ground_cover_nofern_dry_diff.dds.3"/>
+  <File path="ground_cover_nofern_dry_diff.dds.4"/>
+  <File path="ground_cover_nofern_dry_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

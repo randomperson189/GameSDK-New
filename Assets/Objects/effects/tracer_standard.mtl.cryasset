@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="fa452b2c-526c-7a7b-999d-03f6312de557">
+ <Files>
+  <File path="tracer_standard.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/effects/tracer_standard01.dds</Path>
+  <Path usageCount="1">objects/effects/tracer_standard02.dds</Path>
+ </Dependencies>
+</AssetMetadata>

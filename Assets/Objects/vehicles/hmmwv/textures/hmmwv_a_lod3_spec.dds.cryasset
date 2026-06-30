@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="4d0313d4-16bf-928e-9825-c7e1aad09503">
+ <Files>
+  <File path="hmmwv_a_lod3_spec.dds"/>
+  <File path="hmmwv_a_lod3_spec.dds.1"/>
+  <File path="hmmwv_a_lod3_spec.dds.2"/>
+  <File path="hmmwv_a_lod3_spec.dds.3"/>
+  <File path="hmmwv_a_lod3_spec.dds.4"/>
+  <File path="hmmwv_a_lod3_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

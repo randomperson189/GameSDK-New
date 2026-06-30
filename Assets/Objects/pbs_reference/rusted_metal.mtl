@@ -1,0 +1,13 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="800A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/pbs_reference/conductor_diff.tif">
+   <TexMod TileU="3" TileV="3"/>
+  </Texture>
+  <Texture Map="Specular" File="objects/pbs_reference/iron_spec.tif"/>
+  <Texture Map="Bumpmap" File="objects/pbs_reference/gloss70_ddna.tif"/>
+  <Texture Map="Opacity" File="objects/pbs_reference/rust_blend.tif"/>
+  <Texture Map="Custom" File="objects/pbs_reference/rust_diff.tif"/>
+  <Texture Map="[1] Custom" File="objects/pbs_reference/rust_ddna.tif"/>
+ </Textures>
+ <PublicParams BlendFalloff="1.6" BlendLayer2Tiling="2" BlendMaskTiling="1" SubsurfaceScatteringAmount="0" BlendFactor="2.6500001" BlendLayer2Specular="0.017000001" IndirectColor="0.25,0.25,0.25"/>
+</Material>

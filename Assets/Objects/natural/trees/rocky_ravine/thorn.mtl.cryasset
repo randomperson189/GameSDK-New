@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="94948b91-f5ea-398b-7c15-749e960fcf01">
+ <Files>
+  <File path="thorn.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/thorn_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/thorn_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

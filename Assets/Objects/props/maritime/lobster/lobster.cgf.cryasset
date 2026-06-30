@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="1eccd746-22b2-bb3c-3141-3fa6c3a1a40f">
+ <Files>
+  <File path="lobster.cgf"/>
+  <File path="lobster_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">434</Detail>
+  <Detail name="vertexCount">381</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./lobster.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

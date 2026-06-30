@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="b012e9ee-9a4e-6ca3-31a1-14d57a90c865">
+ <Files>
+  <File path="particle_rock.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/effects/natural/particle_rock.dds</Path>
+ </Dependencies>
+</AssetMetadata>

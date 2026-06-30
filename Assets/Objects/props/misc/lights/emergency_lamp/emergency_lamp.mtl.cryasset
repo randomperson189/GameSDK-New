@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="8fe04836-71b3-8a36-6982-e1c84447297b">
+ <Files>
+  <File path="emergency_lamp.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/misc/lights/emergency_lamp/emergency_lamp_diff.dds</Path>
+  <Path usageCount="2">objects/props/misc/lights/emergency_lamp/emergency_lamp_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/lights/emergency_lamp/glow_opac.dds</Path>
+ </Dependencies>
+</AssetMetadata>

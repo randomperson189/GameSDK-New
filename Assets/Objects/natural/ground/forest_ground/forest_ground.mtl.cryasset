@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="c898a1d1-5b8c-f03c-73ce-7b63233d6814">
+ <Files>
+  <File path="forest_ground.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/ground/forest_ground/textures/forest_rocks_diff.dds</Path>
+  <Path usageCount="1">objects/natural/ground/forest_ground/textures/forest_ground_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

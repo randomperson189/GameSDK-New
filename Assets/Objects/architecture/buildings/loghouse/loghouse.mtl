@@ -1,0 +1,87 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/wooden_planks_set_b_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/wood/wooden_planks_set_b_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood_cut" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.37626216,0.37626216,0.37626216" Specular="0.022173885,0.022173885,0.022173885" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.30000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/loghouse/wood_poles_caps_darker_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/loghouse/wood_poles_caps_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood_bark" MtlFlags="524416" Shader="Illum" GenMask="2081000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.028991185,0.028991185,0.028991185" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/trunk_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/wood/trunk_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood side" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.022173885,0.022173885,0.022173885" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.94999999" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/loghouse/ba_wooden_shed_protection_side_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/loghouse/ba_wooden_shed_protection_side_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="moss" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="roof_tiles" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.0097212177,0.0097212177,0.0097212177" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/loghouse/loghouse_roof_tiles_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/loghouse/loghouse_roof_tiles_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="2623648" Shader="Glass" GenMask="40000010" StringGenMask="%BILINEAR_FP16%SPECULAR_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0.49693301,0.49693301,0.49693301" Emissive="0,0,0" Opacity="1" Shininess="200" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Specular" File="objects/architecture/buildings/fishing_houses/textures/glass_diff.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.19046287,0.23099814,0.23099814" TintCloudiness="0.025" BackLightScale="0.30000001" BumpScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="curtains" MtlFlags="524450" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.69999999" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_curtains_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_curtains_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="trims" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.38132605,0.38132605,0.38132605" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_trims_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_trims_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="door" MtlFlags="524448" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.71569365,0.71569365,0.71569365" Specular="0.012983033,0.012983033,0.012983033" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/lighthouse/textures/lighthouse_door_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/lighthouse/textures/lighthouse_door_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood_red" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.029556835,0.029556835,0.029556835" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/wooden_planks_set_b_red_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/wood/wooden_planks_set_b_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood_blue" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.029556835,0.029556835,0.029556835" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/wooden_planks_set_b_blue_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/wood/wooden_planks_set_b_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

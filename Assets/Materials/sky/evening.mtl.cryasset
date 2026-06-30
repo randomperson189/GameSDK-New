@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="6e91750d-354f-6c9e-c5a2-bacffb3e06fb">
+ <Files>
+  <File path="evening.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/skys/evening/box_12.dds</Path>
+ </Dependencies>
+</AssetMetadata>

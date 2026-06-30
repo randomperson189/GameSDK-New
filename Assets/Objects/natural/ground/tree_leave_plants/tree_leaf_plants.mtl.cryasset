@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="491ab68d-626a-fd3a-fce3-2fca35ef833a">
+ <Files>
+  <File path="tree_leaf_plants.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/bushes/roundleafbush/textures/leaves_a_diff.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/roundleafbush/textures/leaves_a_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="9ede6740-832b-16e8-3d8d-b6ca0da5d0b6">
+ <Files>
+  <File path="trashbin_diff.dds"/>
+  <File path="trashbin_diff.dds.1"/>
+  <File path="trashbin_diff.dds.2"/>
+  <File path="trashbin_diff.dds.3"/>
+  <File path="trashbin_diff.dds.4"/>
+  <File path="trashbin_diff.dds.5"/>
+  <File path="trashbin_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

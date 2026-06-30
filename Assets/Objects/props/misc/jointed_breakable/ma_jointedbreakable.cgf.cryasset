@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="dc0006a9-9276-896c-2da6-9baa65d16995">
+ <Files>
+  <File path="ma_jointedbreakable.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">478</Detail>
+  <Detail name="vertexCount">717</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./JointedBreakable_example.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

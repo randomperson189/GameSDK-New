@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="536f6eda-79b6-a78b-acfa-bffa81203c31">
+ <Files>
+  <File path="fallen_log.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_displ.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/palmtrunk_90_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/blend_tile.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/moss_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/moss_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

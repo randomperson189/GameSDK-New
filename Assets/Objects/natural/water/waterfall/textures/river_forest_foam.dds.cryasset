@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="16685ab9-f7b3-710e-a4f6-838d1a9c7fc8">
+ <Files>
+  <File path="river_forest_foam.dds"/>
+  <File path="river_forest_foam.dds.1"/>
+  <File path="river_forest_foam.dds.2"/>
+  <File path="river_forest_foam.dds.3"/>
+  <File path="river_forest_foam.dds.4"/>
+  <File path="river_forest_foam.dds.5"/>
+  <File path="river_forest_foam.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

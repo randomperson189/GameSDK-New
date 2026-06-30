@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="6ce48aa9-586b-784c-cc4f-490dac71e803">
+ <Files>
+  <File path="wooden_fence4m.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">156</Detail>
+  <Detail name="vertexCount">312</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Wooden_Fence.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

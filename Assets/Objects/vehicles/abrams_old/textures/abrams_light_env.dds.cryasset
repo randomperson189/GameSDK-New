@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Texture" guid="0d4e9550-1120-d393-7c2a-3d82fed3aede">
+ <Files>
+  <File path="abrams_light_env.dds"/>
+  <File path="abrams_light_env.dds.1"/>
+  <File path="abrams_light_env.dds.2"/>
+ </Files>
+ <Details>
+  <Detail name="width">64</Detail>
+  <Detail name="height">64</Detail>
+  <Detail name="mipCount">5</Detail>
+ </Details>
+</AssetMetadata>

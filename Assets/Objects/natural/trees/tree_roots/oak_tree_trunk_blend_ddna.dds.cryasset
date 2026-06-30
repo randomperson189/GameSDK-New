@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="cce7c329-319d-65a5-8ea4-e1e78d14860f">
+ <Files>
+  <File path="oak_tree_trunk_blend_ddna.dds"/>
+  <File path="oak_tree_trunk_blend_ddna.dds.a"/>
+  <File path="oak_tree_trunk_blend_ddna.dds.1"/>
+  <File path="oak_tree_trunk_blend_ddna.dds.1a"/>
+  <File path="oak_tree_trunk_blend_ddna.dds.2"/>
+  <File path="oak_tree_trunk_blend_ddna.dds.2a"/>
+  <File path="oak_tree_trunk_blend_ddna.dds.3"/>
+  <File path="oak_tree_trunk_blend_ddna.dds.3a"/>
+  <File path="oak_tree_trunk_blend_ddna.dds.4"/>
+  <File path="oak_tree_trunk_blend_ddna.dds.4a"/>
+  <File path="oak_tree_trunk_blend_ddna.dds.5"/>
+  <File path="oak_tree_trunk_blend_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

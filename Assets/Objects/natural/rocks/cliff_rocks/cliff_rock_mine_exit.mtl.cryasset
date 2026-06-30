@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="11267d44-7c1d-340a-04ea-aaeb8ca28367">
+ <Files>
+  <File path="cliff_rock_mine_exit.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">7</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/vegetation/roots_on_cliff.dds</Path>
+  <Path usageCount="1">textures/decals/vegetation/roots_on_cliff_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/trunk_pino_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/trunk_pino_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/cliff_rocks/textures/cliff_rock_a_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/cliff_rocks/textures/cliff_rock_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

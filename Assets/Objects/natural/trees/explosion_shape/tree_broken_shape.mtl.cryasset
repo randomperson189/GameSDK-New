@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="e2e2a1e2-76e7-1913-16cd-cdbca6a2df0c">
+ <Files>
+  <File path="tree_broken_shape.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/explosion_shape/textures/broken_tree.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="a4118285-9609-6e6e-5078-e2e341b3aa8b">
+ <Files>
+  <File path="armor_plates_center.cgf"/>
+  <File path="armor_plates_center_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">744</Detail>
+  <Detail name="vertexCount">600</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/vehicles/swat_van/swat_van.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

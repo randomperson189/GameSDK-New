@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="53032df0-c42b-5c9a-4d65-c82009eed99d">
+ <Files>
+  <File path="lamp_post_diff.dds"/>
+  <File path="lamp_post_diff.dds.1"/>
+  <File path="lamp_post_diff.dds.2"/>
+  <File path="lamp_post_diff.dds.3"/>
+  <File path="lamp_post_diff.dds.4"/>
+  <File path="lamp_post_diff.dds.5"/>
+  <File path="lamp_post_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

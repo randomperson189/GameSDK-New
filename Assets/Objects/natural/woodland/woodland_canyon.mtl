@@ -1,0 +1,160 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="canyon_wall_up" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="185" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_monoliths/forest_monolith_new_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="16" TileV="16"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.125" TileV="0.125"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/woodland/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/woodland/moss_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/river_rock_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.9" BlendLayer2Tiling="6.6300001" DetailDiffuseScale="0.40000001" SSSIndex="0" DetailBumpScale="1.8" BlendMaskTiling="1" BlendFactor="2.76" DetailGlossScale="1" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="canyon_wall_low" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.031896032,0.031896032,0.031896032" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/canyon_rocks/canyon_rock_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="5" TileV="5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_rocks/canyon_wall_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_path_a_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.2"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/rocks/canyon_rocks/canyon_path_rock_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_rocks/canyon_path_rock_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/moss_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="6.1999998" BlendLayer2Tiling="2" DetailDiffuseScale="0.75800002" SSSIndex="0" DetailBumpScale="3" BlendMaskTiling="1" BlendFactor="16" DetailGlossScale="1" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="canyon_path" MtlFlags="524416" Shader="Illum" GenMask="81000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.0036972393,0.0036972393,0.0036972393" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/moss_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/moss_ddna.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/canyon_rocks/canyon_path_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_rocks/canyon_path_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/moss_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="5" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="12.85" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="canyon_riverrock" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.21576439,0.21576439,0.21576439" Specular="0.061907478,0.061907478,0.061907478" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/canyon_rocks/canyon_rock_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/rock_clean_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="canyon_wall_plants" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.013473397,0.013473397,0.013473397" Emissive="0,0,0" Opacity="1" Shininess="53" AlphaTest="0.68000001" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="canyon_rock" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/canyon_rocks/canyon_path_diff.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="8" TileV="8"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_rocks/canyon_path_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_path_a_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.125" TileV="0.125"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/rocks/canyon_rocks/canyon_path_rock_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_rocks/canyon_path_rock_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/river_rock_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="12.2" BlendLayer2Tiling="1.5" DetailDiffuseScale="0.69999999" SSSIndex="0" DetailBumpScale="2.5" BlendMaskTiling="1" BlendFactor="12.92" DetailGlossScale="0.80000001" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_rock" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="canyon_rock_a" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.031896032,0.031896032,0.031896032" Emissive="0,0,0" Opacity="1" Shininess="80" AlphaTest="0.56" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/canyon_rocks/canyon_rock_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_rocks/canyon_rock_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_rock_a_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/woodland/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/woodland/moss_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/river_rock_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="4.4000001" BlendLayer2Tiling="2.5" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="4" BlendMaskTiling="1" BlendFactor="2.5799999" DetailGlossScale="1" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="canyon_rock_d" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.031896032,0.031896032,0.031896032" Emissive="0,0,0" Opacity="1" Shininess="190" AlphaTest="0.56" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/canyon_rocks/canyon_rock_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="4"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_rock_d_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.25" TileV="0.25"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/woodland/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/woodland/moss_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/river_rock_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="5.1999998" BlendLayer2Tiling="2" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="2" BlendMaskTiling="1" BlendFactor="4.6100001" DetailGlossScale="1" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="canyon_rock_e_wall" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/canyon_rocks/canyon_rock_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="5" TileV="5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_rock_e_wall_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.2"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/woodland/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/woodland/moss_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/river_rock_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="4.8000002" BlendLayer2Tiling="5.5" DetailDiffuseScale="1" SSSIndex="0" DetailBumpScale="1.8" BlendMaskTiling="1" BlendFactor="2.5" DetailGlossScale="1" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="canyon_wall_river_a" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Opacity="1" Shininess="123" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/canyon_rocks/canyon_rock_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_wall_river_a_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.333" TileV="0.333"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/rocks/canyon_rocks/canyon_wall_low_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_rocks/canyon_wall_low_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/rock_a_mask.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.1" BlendLayer2Tiling="1.5" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="2.5" BlendMaskTiling="0.49000001" BlendFactor="16" DetailGlossScale="1" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="canyon_rock_b" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.031896032,0.031896032,0.031896032" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.56" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/canyon_rocks/canyon_rock_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_rocks/canyon_rock_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_rock_b_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.333" TileV="0.333"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/woodland/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/woodland/moss_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/river_rock_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.2" BlendLayer2Tiling="2.0999999" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="3.2" BlendMaskTiling="1" BlendFactor="2.5799999" DetailGlossScale="0" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="canyon_rock_c" MtlFlags="524416" Shader="Illum" GenMask="81000081" StringGenMask="%ALLOW_SILHOUETTE_POM%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.031896032,0.031896032,0.031896032" Emissive="0,0,0" Opacity="1" Shininess="80" AlphaTest="0.56" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/canyon_rocks/canyon_rock_c_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.333" TileV="0.333"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="3" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

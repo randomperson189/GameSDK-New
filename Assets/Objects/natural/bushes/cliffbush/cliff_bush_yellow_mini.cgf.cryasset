@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="812caf6d-3cde-1fe0-64cd-e3c081b1c7a6">
+ <Files>
+  <File path="cliff_bush_yellow_mini.cgf"/>
+  <File path="cliff_bush_yellow_mini_lod1.cgf"/>
+  <File path="cliff_bush_yellow_mini_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1198</Detail>
+  <Detail name="vertexCount">1534</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cliff_bush_yellow.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

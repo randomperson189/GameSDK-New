@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="a65c9fdc-1d48-3993-6f2c-6912f66559b7">
+ <Files>
+  <File path="hull_diff.dds"/>
+  <File path="hull_diff.dds.1"/>
+  <File path="hull_diff.dds.2"/>
+  <File path="hull_diff.dds.3"/>
+  <File path="hull_diff.dds.4"/>
+  <File path="hull_diff.dds.5"/>
+  <File path="hull_diff.dds.6"/>
+  <File path="hull_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

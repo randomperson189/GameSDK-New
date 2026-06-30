@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="125cb1c7-b4cd-7ace-4294-f772dd59582e">
+ <Files>
+  <File path="set_b_spotlight.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">21</Detail>
+  <Detail name="triangleCount">14538</Detail>
+  <Detail name="vertexCount">14907</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./set_b.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

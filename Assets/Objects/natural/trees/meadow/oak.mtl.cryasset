@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="5f6f5249-10b6-1c9d-e373-91818555914f">
+ <Files>
+  <File path="oak.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/meadow/textures/oak_leaf_diff.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+  <Path usageCount="1">objects/natural/trees/meadow/textures/oak_trunk_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/meadow/textures/oak_trunk_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/meadow/textures/oak_trunk_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

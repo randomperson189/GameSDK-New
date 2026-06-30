@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="0cbeae03-2082-2f91-c234-dcf17f9a62bb">
+ <Files>
+  <File path="robinia_leaf_ddna.dds"/>
+  <File path="robinia_leaf_ddna.dds.a"/>
+  <File path="robinia_leaf_ddna.dds.1"/>
+  <File path="robinia_leaf_ddna.dds.1a"/>
+  <File path="robinia_leaf_ddna.dds.2"/>
+  <File path="robinia_leaf_ddna.dds.2a"/>
+  <File path="robinia_leaf_ddna.dds.3"/>
+  <File path="robinia_leaf_ddna.dds.3a"/>
+  <File path="robinia_leaf_ddna.dds.4"/>
+  <File path="robinia_leaf_ddna.dds.4a"/>
+  <File path="robinia_leaf_ddna.dds.5"/>
+  <File path="robinia_leaf_ddna.dds.5a"/>
+  <File path="robinia_leaf_ddna.dds.6"/>
+  <File path="robinia_leaf_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

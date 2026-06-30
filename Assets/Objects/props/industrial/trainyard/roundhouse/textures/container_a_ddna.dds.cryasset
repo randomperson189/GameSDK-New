@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="40525bad-ba0e-8e46-0843-1a00dbf2183b">
+ <Files>
+  <File path="container_a_ddna.dds"/>
+  <File path="container_a_ddna.dds.a"/>
+  <File path="container_a_ddna.dds.1"/>
+  <File path="container_a_ddna.dds.1a"/>
+  <File path="container_a_ddna.dds.2"/>
+  <File path="container_a_ddna.dds.2a"/>
+  <File path="container_a_ddna.dds.3"/>
+  <File path="container_a_ddna.dds.3a"/>
+  <File path="container_a_ddna.dds.4"/>
+  <File path="container_a_ddna.dds.4a"/>
+  <File path="container_a_ddna.dds.5"/>
+  <File path="container_a_ddna.dds.5a"/>
+  <File path="container_a_ddna.dds.6"/>
+  <File path="container_a_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

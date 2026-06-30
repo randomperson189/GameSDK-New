@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="1451670d-5b8d-db29-25b5-c51894862df3">
+ <Files>
+  <File path="car_paint_spec.dds"/>
+  <File path="car_paint_spec.dds.1"/>
+  <File path="car_paint_spec.dds.2"/>
+  <File path="car_paint_spec.dds.3"/>
+  <File path="car_paint_spec.dds.4"/>
+  <File path="car_paint_spec.dds.5"/>
+  <File path="car_paint_spec.dds.6"/>
+  <File path="car_paint_spec.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

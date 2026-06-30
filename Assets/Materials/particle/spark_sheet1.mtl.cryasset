@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="cae20365-274b-cc7b-33d2-e3da3fc0d0dd">
+ <Files>
+  <File path="spark_sheet1.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/sprites/fire/fireball_blast2.dds</Path>
+ </Dependencies>
+</AssetMetadata>

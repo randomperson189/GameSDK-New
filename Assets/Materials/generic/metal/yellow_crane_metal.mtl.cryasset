@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="1e6bf369-e561-b7cf-4e7f-6d7f3e694197">
+ <Files>
+  <File path="yellow_crane_metal.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/yellow_crane_metal_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/yellow_crane_metal_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/yellow_crane_metal_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

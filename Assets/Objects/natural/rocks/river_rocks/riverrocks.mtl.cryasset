@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="ccaed22b-2e50-0c75-9084-9bb3838fd523">
+ <Files>
+  <File path="riverrocks.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/rocks/river_rocks/textures/riverrocks_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/river_rocks/textures/riverrocks_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/rock/stone_dmap.dds</Path>
+ </Dependencies>
+</AssetMetadata>

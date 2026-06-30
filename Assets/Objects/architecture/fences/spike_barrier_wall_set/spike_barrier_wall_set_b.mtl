@@ -1,0 +1,129 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="80000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="spike_barrier_wall_base_wood" MtlFlags="524416" Shader="Illum" GenMask="2081000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.037028514,0.037028514,0.037028514" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/wood_bleached_a_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/wood/wood_bleached_a_ddna.tif"/>
+    <Texture Map="Custom" File="textures/generic/dirt/grime_a_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="[1] Custom" File="textures/generic/wood/wood_bleached_a_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/dirt/grime_mask.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+   </Textures>
+   <PublicParams BlendFalloff="0.5" BlendLayer2Tiling="5" SSSIndex="0" BlendMaskTiling="1" BlendFactor="8" BlendLayer2Specular="0.0024999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="spike_barrier_wall_tip_end" MtlFlags="524416" Shader="Illum" GenMask="2081000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.037028514,0.037028514,0.037028514" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/spike_barrier_wall_set/spike_set_a_spike_tip_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/spike_barrier_wall_set/spike_set_a_spike_tip_ddna.tif"/>
+    <Texture Map="Custom" File="textures/generic/dirt/grime_a_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/wood/wood_bleached_a_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/dirt/grime_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.40000001" BlendLayer2Tiling="5" SSSIndex="0" BlendMaskTiling="1" BlendFactor="16" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="spike_barrier_wall_rope" MtlFlags="524416" Shader="Illum" GenMask="81000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.037028514,0.037028514,0.037028514" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/fabric/rope_set_shipwreck_b_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/fabric/rope_set_shipwreck_b_ddna.tif"/>
+    <Texture Map="Custom" File="textures/generic/dirt/grime_a_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/fabric/rope_set_shipwreck_b_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/dirt/grime_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.5" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="16" BlendLayer2Specular="0.0024999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="LOD_spike_barrier_gate_destroyed" MtlFlags="524416" Shader="Illum" GenMask="2081000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.035,0.035,0.035" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_gate_destroyed_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_gate_destroyed_lod1_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="LOD_spike_barrier_gate" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.035,0.035,0.035" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_gate_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_gate_lod1_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="LOD_barrier_wall_tall_a" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_tall_a_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_tall_a_lod1_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="LOD_barrier_wall_tall_b" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_tall_b_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_tall_b_lod1_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="LOD_barrier_wall_tall_c" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_tall_c_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_tall_c_lod1_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="LOD_barrier_wall_tall_d" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_tall_d_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_tall_d_lod1_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="LOD_barrier_wall_tall_e" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_tall_e_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_tall_e_lod1_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="LOD_barrier_wall_top_c" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_top_c_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_top_c_lod1_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="LOD_wall_top_group_b" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_top_group_b_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_top_group_b_lod1_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="LOD_wall_top_b" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_top_b_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_top_b_lod1_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="LOD_wall_top_corner_a" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_top_corner_a_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_top_corner_a_lod1_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="LOD_wall_top_a" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_top_a_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fences/spike_barrier_wall_set/textures/spike_barrier_wall_top_a_lod1_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="f1773ded-eb4f-d1f0-d606-e753bd295b19">
+ <Files>
+  <File path="forest_flower_b.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/ground/forestgrass/textures/hero_flower_diff.dds</Path>
+  <Path usageCount="1">objects/natural/ground/forestgrass/textures/hero_flower_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

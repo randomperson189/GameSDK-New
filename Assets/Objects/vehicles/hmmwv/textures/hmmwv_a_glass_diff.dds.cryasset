@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="207e7055-8b8c-26f0-330f-3dad46b7d2e3">
+ <Files>
+  <File path="hmmwv_a_glass_diff.dds"/>
+  <File path="hmmwv_a_glass_diff.dds.1"/>
+  <File path="hmmwv_a_glass_diff.dds.2"/>
+  <File path="hmmwv_a_glass_diff.dds.3"/>
+  <File path="hmmwv_a_glass_diff.dds.4"/>
+  <File path="hmmwv_a_glass_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

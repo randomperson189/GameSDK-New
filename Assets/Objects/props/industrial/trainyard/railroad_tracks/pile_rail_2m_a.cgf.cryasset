@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="0dd51069-99e5-0632-6722-0ea604f2d807">
+ <Files>
+  <File path="pile_rail_2m_a.cgf"/>
+  <File path="pile_rail_2m_a_lod1.cgf"/>
+  <File path="pile_rail_2m_a_lod2.cgf"/>
+  <File path="pile_rail_2m_a_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">924</Detail>
+  <Detail name="vertexCount">1640</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./rail_piles.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

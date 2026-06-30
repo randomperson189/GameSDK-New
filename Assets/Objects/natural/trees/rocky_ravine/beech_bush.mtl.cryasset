@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="a62913cc-369a-e174-0a6c-492851f95b92">
+ <Files>
+  <File path="beech_bush.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/beech_leaf_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/beech_leaf_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

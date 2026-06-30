@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="adcfd088-67bb-8377-2c91-c89861f3608b">
+ <Files>
+  <File path="leaves_a_frozen.dds"/>
+  <File path="leaves_a_frozen.dds.1"/>
+  <File path="leaves_a_frozen.dds.2"/>
+  <File path="leaves_a_frozen.dds.3"/>
+  <File path="leaves_a_frozen.dds.4"/>
+  <File path="leaves_a_frozen.dds.5"/>
+  <File path="leaves_a_frozen.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

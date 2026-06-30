@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="398941c0-90a3-0b0d-423a-a38059fc4fc7">
+ <Files>
+  <File path="barrel_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/barrels/barrel_a/textures/barrel_a_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/barrels/barrel_a/textures/barrel_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

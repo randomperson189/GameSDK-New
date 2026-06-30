@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="48dffe89-edc7-0e82-1d18-17e0286b3881">
+ <Files>
+  <File path="ceiling_metal_framework.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metalstripes_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metalstripes_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metalstripes_a_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="8d02e57f-23f1-5a5e-1169-5341c8544590">
+ <Files>
+  <File path="shelf_standing_b_lod1_diff.dds"/>
+  <File path="shelf_standing_b_lod1_diff.dds.1"/>
+  <File path="shelf_standing_b_lod1_diff.dds.2"/>
+  <File path="shelf_standing_b_lod1_diff.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

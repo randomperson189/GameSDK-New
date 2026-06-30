@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="903a9c07-01f0-c139-0592-08f9c07f3ded">
+ <Files>
+  <File path="sign_post_staff_bldg_diff.dds"/>
+  <File path="sign_post_staff_bldg_diff.dds.1"/>
+  <File path="sign_post_staff_bldg_diff.dds.2"/>
+  <File path="sign_post_staff_bldg_diff.dds.3"/>
+  <File path="sign_post_staff_bldg_diff.dds.4"/>
+  <File path="sign_post_staff_bldg_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

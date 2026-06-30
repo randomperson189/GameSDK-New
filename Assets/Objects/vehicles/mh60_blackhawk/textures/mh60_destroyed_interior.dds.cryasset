@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="546ad4e5-5480-4277-436e-49c069e35ead">
+ <Files>
+  <File path="mh60_destroyed_interior.dds"/>
+  <File path="mh60_destroyed_interior.dds.1"/>
+  <File path="mh60_destroyed_interior.dds.2"/>
+  <File path="mh60_destroyed_interior.dds.3"/>
+  <File path="mh60_destroyed_interior.dds.4"/>
+  <File path="mh60_destroyed_interior.dds.5"/>
+  <File path="mh60_destroyed_interior.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

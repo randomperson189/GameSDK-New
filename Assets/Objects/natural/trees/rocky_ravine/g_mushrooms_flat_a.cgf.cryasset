@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="f913b3e0-e3ca-bd79-75a6-43ace5ce4dbb">
+ <Files>
+  <File path="g_mushrooms_flat_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">123</Detail>
+  <Detail name="vertexCount">220</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./thorn.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

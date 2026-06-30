@@ -1,0 +1,27 @@
+<AssetMetadata version="0" type="Material" guid="63fc3a50-7499-3843-5455-ab29b99ed4b5">
+ <Files>
+  <File path="fishing_houses.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">7</Detail>
+  <Detail name="textureCount">16</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/glass_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_chimney_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_chimney_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_beam_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_beam_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_specific_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_specific_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_specific_spec.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_roof_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_roof_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_roof_displ.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_planks_diff.dds</Path>
+  <Path usageCount="2">objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_planks_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/dirty_blend.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/moss_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_planks_paint_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

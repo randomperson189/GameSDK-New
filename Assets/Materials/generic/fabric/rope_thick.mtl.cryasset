@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="b99e31b2-6a50-aea2-f0aa-f024c0a9365e">
+ <Files>
+  <File path="rope_thick.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/fabric/rope_thick_diff.dds</Path>
+  <Path usageCount="1">textures/generic/fabric/rope_thick_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

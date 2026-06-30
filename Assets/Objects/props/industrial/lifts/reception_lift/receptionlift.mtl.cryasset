@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="4ee14bcb-1291-29db-cc29-21a78de029d2">
+ <Files>
+  <File path="receptionlift.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/lifts/reception_lift/textures/receptionlift_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/lifts/reception_lift/textures/receptionlift_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,31 @@
+<Material MtlFlags="4718848">
+ <SubMaterials>
+  <Material Name="palm_tree_large_trunk" MtlFlags="524416" Shader="Vegetation" GenMask="2400000180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood_breakable" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/thin_leave_tree/textures/con_palm_pino_trunk_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/thin_leave_tree/textures/con_palm_pino_trunk_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_fine_detail.tif">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.079999998" bendDetailFrequency="5" bendDetailBranchAmplitude="0.2" BlendTerrainCol="0" DetailDiffuseScale="1" VertexAlphaBlendFactor="1" DetailBumpScale="1" BlendMaskTiling="1" BlendTerrainColDist="0.5" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="palm_tree_large_leaf" MtlFlags="524416" Shader="Vegetation" GenMask="2400801080" StringGenMask="%BUMP_MAP%DETAIL_BENDING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.44999999" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/palm_tree/textures/grassmix_palm_tree_leaf.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/palm_tree/textures/grassmix_palm_tree_leaf_ddna.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="0.5" bendDetailBranchAmplitude="0.2" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.59720188" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="1" BackDiffuseMultiplier="1.5" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="nodraw" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="obstruct" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="splinters" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

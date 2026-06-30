@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="de7fff05-3174-960c-5319-2ccb1f43b2bb">
+ <Files>
+  <File path="pine_trunk_displ.dds"/>
+  <File path="pine_trunk_displ.dds.1"/>
+  <File path="pine_trunk_displ.dds.2"/>
+  <File path="pine_trunk_displ.dds.3"/>
+  <File path="pine_trunk_displ.dds.4"/>
+  <File path="pine_trunk_displ.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

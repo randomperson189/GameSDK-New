@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="9769bebd-2c5b-b995-bb1e-ceb9e3927059">
+ <Files>
+  <File path="g_oak_branches_c.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">85</Detail>
+  <Detail name="vertexCount">120</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Oak.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

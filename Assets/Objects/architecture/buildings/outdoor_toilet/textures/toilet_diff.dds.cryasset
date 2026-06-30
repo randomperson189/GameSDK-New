@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="99c0a624-cb32-a06b-3523-88e5119183d3">
+ <Files>
+  <File path="toilet_diff.dds"/>
+  <File path="toilet_diff.dds.1"/>
+  <File path="toilet_diff.dds.2"/>
+  <File path="toilet_diff.dds.3"/>
+  <File path="toilet_diff.dds.4"/>
+  <File path="toilet_diff.dds.5"/>
+  <File path="toilet_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

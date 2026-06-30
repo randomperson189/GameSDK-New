@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c44cb814-2cf8-9dd9-cbb3-362df8b09de9">
+ <Files>
+  <File path="tracer_standard_new.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">40</Detail>
+  <Detail name="vertexCount">52</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./tracer_standard.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

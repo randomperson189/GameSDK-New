@@ -1,0 +1,7 @@
+<Material MtlFlags="524288" Shader="Vegetation" GenMask="2400800080" StringGenMask="%BUMP_MAP%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0.031896032,0.031896032,0.031896032" Emissive="0,0,0" Shininess="59" Opacity="1" AlphaTest="0.5" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/natural/ground/mushrooms/textures/mushrooms_diff.tif"/>
+  <Texture Map="Bumpmap" File="objects/natural/ground/mushrooms/textures/mushrooms_ddna.tif"/>
+ </Textures>
+ <PublicParams bendDetailLeafAmplitude="0.079999998" bendDetailFrequency="5" bendDetailBranchAmplitude="0.2" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.5" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+</Material>

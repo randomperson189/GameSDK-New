@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="feafce67-494a-e5b4-9321-5f0966f31765">
+ <Files>
+  <File path="fridge_ddna.dds"/>
+  <File path="fridge_ddna.dds.a"/>
+  <File path="fridge_ddna.dds.1"/>
+  <File path="fridge_ddna.dds.1a"/>
+  <File path="fridge_ddna.dds.2"/>
+  <File path="fridge_ddna.dds.2a"/>
+  <File path="fridge_ddna.dds.3"/>
+  <File path="fridge_ddna.dds.3a"/>
+  <File path="fridge_ddna.dds.4"/>
+  <File path="fridge_ddna.dds.4a"/>
+  <File path="fridge_ddna.dds.5"/>
+  <File path="fridge_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

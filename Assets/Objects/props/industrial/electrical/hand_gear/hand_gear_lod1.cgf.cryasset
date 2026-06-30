@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="87b7c37e-b0e9-792f-49e4-628ae3347fd7">
+ <Files>
+  <File path="hand_gear_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1186</Detail>
+  <Detail name="vertexCount">1826</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./hand_gear.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="4d590ac2-b63a-01ea-dcb3-3d7d5659101b">
+ <Files>
+  <File path="l_steam.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/trainyard/trains/locos/l_steam/textures/cabine_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/trains/locos/l_steam/textures/cabine_spec.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/trains/locos/l_steam/textures/cabine_ddn.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/trains/locos/l_steam/textures/boiler_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/trains/locos/l_steam/textures/boiler_spec.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/trains/locos/l_steam/textures/boiler_ddn.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_scratches_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

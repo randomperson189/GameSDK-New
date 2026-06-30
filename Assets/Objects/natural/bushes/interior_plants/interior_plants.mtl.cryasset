@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="f00e7041-6131-dcd7-a77a-49d7da9c4ecb">
+ <Files>
+  <File path="interior_plants.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">objects/natural/bushes/interior_plants/textures/interior_plants_diff.dds</Path>
+  <Path usageCount="3">objects/natural/bushes/interior_plants/textures/interior_plants_ddn.dds</Path>
+  <Path usageCount="3">objects/natural/bushes/interior_plants/textures/interior_plants_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

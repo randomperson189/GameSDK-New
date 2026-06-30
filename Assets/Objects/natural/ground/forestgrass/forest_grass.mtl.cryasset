@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="4a69c239-acc1-1521-d160-f87f6784bfc8">
+ <Files>
+  <File path="forest_grass.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/ground/forestgrass/textures/forestgrass_diff.dds</Path>
+  <Path usageCount="1">objects/natural/ground/forestgrass/textures/forestgrass_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

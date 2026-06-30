@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Mesh" guid="a455cad7-03ba-733c-4216-bfb3d84ad8e5">
+ <Files>
+  <File path="woodland_waterfall_forest.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">0</Detail>
+  <Detail name="triangleCount">1015</Detail>
+  <Detail name="vertexCount">838</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+</AssetMetadata>

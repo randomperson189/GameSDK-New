@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d3cb2a9f-071d-fb5b-4064-cc7a2f0d4468">
+ <Files>
+  <File path="jet_exterior_diff.dds"/>
+  <File path="jet_exterior_diff.dds.1"/>
+  <File path="jet_exterior_diff.dds.2"/>
+  <File path="jet_exterior_diff.dds.3"/>
+  <File path="jet_exterior_diff.dds.4"/>
+  <File path="jet_exterior_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

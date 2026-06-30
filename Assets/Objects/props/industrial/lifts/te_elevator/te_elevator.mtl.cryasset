@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="adcd2203-de70-ad9e-e659-a431e5b59f04">
+ <Files>
+  <File path="te_elevator.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">7</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/glass/glass_clear_diff.dds</Path>
+  <Path usageCount="4">objects/props/industrial/lifts/te_elevator/textures/te_elevator_diff.dds</Path>
+  <Path usageCount="4">objects/props/industrial/lifts/te_elevator/textures/te_elevator_ddna.dds</Path>
+  <Path usageCount="2">objects/props/industrial/lifts/te_elevator/textures/te_elevator_decal.dds</Path>
+  <Path usageCount="1">objects/props/industrial/lifts/te_elevator/textures/te_elevator_dirt.dds</Path>
+ </Dependencies>
+</AssetMetadata>

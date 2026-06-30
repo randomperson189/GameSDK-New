@@ -1,0 +1,35 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="lantern" MtlFlags="524416" Shader="HumanSkin" GenMask="1051000000" StringGenMask="%NORMAL_MAP%PN_TESSELLATION%SPECULAR_MAP%TEMP_SKIN" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/chinese_lantern/textures/chinese_lantern_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/chinese_lantern/textures/chinese_lantern_ddna.tif"/>
+    <Texture Map="Specular" File="objects/props/misc/chinese_lantern/textures/chinese_lantern_spec.tif"/>
+    <Texture Map="Opacity" File="objects/props/misc/chinese_lantern/textures/chinese_lantern_diff.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="1" Melanin="0" SSSIndex="1" TessellationFactorMax="32" TranslucencyMultiplier="2" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="tassels" MtlFlags="524418" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="120" AlphaTest="0.25" vertModifType="2" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/chinese_lantern/textures/chinese_lantern_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/chinese_lantern/textures/chinese_lantern_ddna.tif"/>
+    <Texture Map="Specular" File="objects/props/misc/chinese_lantern/textures/chinese_lantern_spec.tif"/>
+   </Textures>
+   <VertexDeform Type="2" DividerX="9.9999997e-005" DividerY="0" NoiseScale="0,0,0">
+    <WaveX Type="1" Amp="0.0015" Level="0" Phase="0" Freq="2"/>
+   </VertexDeform>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="glow" MtlFlags="524450" Shader="Illum" GenMask="80000003" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAGLOW%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" GlowAmount="100" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/chinese_lantern/textures/chinese_lantern_diff.tif"/>
+    <Texture Map="Decal" File="objects/props/misc/chinese_lantern/textures/chinese_lantern_glow.tif"/>
+   </Textures>
+   <PublicParams AmbientMultiplier="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="a2c3f67d-2d25-1b08-9ee7-f5fbb4744236">
+ <Files>
+  <File path="bush_round_leaf_dark.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/bushes/bush_round_leaf/bush_round_leaf_diff.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/bush_round_leaf/bush_round_leaf_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/bush_round_leaf/bush_round_leaf_sss.dds</Path>
+ </Dependencies>
+</AssetMetadata>

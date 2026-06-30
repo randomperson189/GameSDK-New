@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="d977524c-b748-e23a-5ca8-f32336dba7f1">
+ <Files>
+  <File path="flare_glow.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/sprites/glow/flare_a.dds</Path>
+ </Dependencies>
+</AssetMetadata>

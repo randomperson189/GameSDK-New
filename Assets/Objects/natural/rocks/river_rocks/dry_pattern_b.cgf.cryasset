@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="49105dbc-7f9d-45ca-bad6-66b6d0c69da8">
+ <Files>
+  <File path="dry_pattern_b.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1876</Detail>
+  <Detail name="vertexCount">1394</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./riverrocks.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

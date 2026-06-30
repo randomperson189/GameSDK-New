@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Mesh" guid="585260b5-fd11-8c5d-1182-5de8ec4e919b">
+ <Files>
+  <File path="canyon_rock_a_wet.cgf"/>
+  <File path="canyon_rock_a_wet_lod1.cgf"/>
+  <File path="canyon_rock_a_wet_lod2.cgf"/>
+  <File path="canyon_rock_a_wet_lod3.cgf"/>
+  <File path="canyon_rock_a_wet_lod4.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">14</Detail>
+  <Detail name="triangleCount">936</Detail>
+  <Detail name="vertexCount">539</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/natural/woodland/woodland_canyon.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

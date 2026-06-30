@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="f4239f48-00fc-4529-56e5-b71b16c9f2b0">
+ <Files>
+  <File path="pine_trunk_ddna.dds"/>
+  <File path="pine_trunk_ddna.dds.a"/>
+  <File path="pine_trunk_ddna.dds.1"/>
+  <File path="pine_trunk_ddna.dds.1a"/>
+  <File path="pine_trunk_ddna.dds.2"/>
+  <File path="pine_trunk_ddna.dds.2a"/>
+  <File path="pine_trunk_ddna.dds.3"/>
+  <File path="pine_trunk_ddna.dds.3a"/>
+  <File path="pine_trunk_ddna.dds.4"/>
+  <File path="pine_trunk_ddna.dds.4a"/>
+  <File path="pine_trunk_ddna.dds.5"/>
+  <File path="pine_trunk_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

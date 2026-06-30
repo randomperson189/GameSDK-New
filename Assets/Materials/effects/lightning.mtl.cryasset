@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="787660c6-1f92-a558-fef3-6989467cd027">
+ <Files>
+  <File path="lightning.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/sprites/lightning/lightning_tiled.dds</Path>
+ </Dependencies>
+</AssetMetadata>

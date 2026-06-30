@@ -1,0 +1,44 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="pine_trunk" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.018912982,0.018912982,0.018912982" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/natural/woodland/pine_trunk_diff.tif"/>
+    <Texture Map="Bumpmap" File="Objects/natural/woodland/pine_trunk_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="pine_leaf" MtlFlags="524416" Shader="Vegetation" GenMask="2401801000" StringGenMask="%DETAIL_BENDING%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.33000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/natural/woodland/pine_leaf_diff.tif"/>
+    <Texture Map="Bumpmap" File="Objects/natural/woodland/pine_leaf_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/pine_leaf_sss.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.85699999" bendDetailFrequency="0.2" bendDetailBranchAmplitude="-1" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="0.67244315,0.84687322,0.55201143" CapOpacityFalloff="0" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="1" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_wood" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="lod1" MtlFlags="524418" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.40000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/textures/spruce_border_d_lod1_alpha_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/textures/spruce_border_d_lod1_alpha_ddna.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lod2" MtlFlags="524450" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.34999999" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/textures/spruce_border_d_lod2_alpha_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/textures/spruce_border_d_lod2_alpha_ddna.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lod3" MtlFlags="524450" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.30000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/textures/spruce_border_d_lod3_alpha_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/textures/spruce_border_d_lod3_alpha_ddna.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

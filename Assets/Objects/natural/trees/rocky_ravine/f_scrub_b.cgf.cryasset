@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="a6d7b1f1-b8a6-4ee3-5b24-01b3d2e3418f">
+ <Files>
+  <File path="f_scrub_b.cgf"/>
+  <File path="f_scrub_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">466</Detail>
+  <Detail name="vertexCount">818</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./scrub.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

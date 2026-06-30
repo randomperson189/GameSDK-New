@@ -1,0 +1,45 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="wood_planks" MtlFlags="524416" Shader="Illum" GenMask="2081000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.037028514,0.037028514,0.037028514" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/wood_planks_a_lighter_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/wood/wood_planks_flat_ddna.tif"/>
+    <Texture Map="Custom" File="textures/generic/vegetation/seaweed_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/wood/wood_planks_flat_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/vegetation/seaweed_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.5" BlendLayer2Tiling="6" SSSIndex="0" BlendMaskTiling="1" BlendFactor="4" BlendLayer2Specular="0.0020000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="nails" MtlFlags="524416" Shader="Illum" GenMask="20C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="textures/generic/metal/nails_ddna.tif"/>
+    <Texture Map="Specular" File="textures/generic/metal/nails_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rope" MtlFlags="524416" Shader="Illum" GenMask="2081000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/fabric/rope_set_shipwreck_b_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/fabric/rope_set_shipwreck_b_ddna.tif"/>
+    <Texture Map="Custom" File="textures/generic/vegetation/seaweed_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/fabric/rope_set_shipwreck_b_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/vegetation/seaweed_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.5" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="3" BlendLayer2Specular="0.0024999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood_beam_supports" MtlFlags="524416" Shader="Illum" GenMask="2081000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.037028514,0.037028514,0.037028514" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/wood_bleached_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/wood/wood_bleached_a_ddna.tif"/>
+    <Texture Map="Custom" File="textures/generic/vegetation/seaweed_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/wood/wood_bleached_a_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/vegetation/seaweed_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.5" BlendLayer2Tiling="3" SSSIndex="0" BlendMaskTiling="1" BlendFactor="4" BlendLayer2Specular="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

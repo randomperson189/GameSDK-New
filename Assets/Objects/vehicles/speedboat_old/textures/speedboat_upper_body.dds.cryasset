@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="10bd4fd8-b951-ebb1-a001-e052ec4a9328">
+ <Files>
+  <File path="speedboat_upper_body.dds"/>
+  <File path="speedboat_upper_body.dds.1"/>
+  <File path="speedboat_upper_body.dds.2"/>
+  <File path="speedboat_upper_body.dds.3"/>
+  <File path="speedboat_upper_body.dds.4"/>
+  <File path="speedboat_upper_body.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

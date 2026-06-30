@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="64702a8a-f19f-500b-c025-8cd64f7763e7">
+ <Files>
+  <File path="metal_bronze_plain_b.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_bronze_plain_b_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_bronze_plain_b_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_bronze_plain_a_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

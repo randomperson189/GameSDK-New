@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="12d5834d-cc0c-003d-d7c3-c562e784b9ab">
+ <Files>
+  <File path="shelf_wooden_board_b_con.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">104</Detail>
+  <Detail name="vertexCount">200</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./shelf_wooden_con.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

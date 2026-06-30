@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="3bff172d-caf6-03ec-020e-fd83e2f9a76e">
+ <Files>
+  <File path="lamp_post_ddna.dds"/>
+  <File path="lamp_post_ddna.dds.a"/>
+  <File path="lamp_post_ddna.dds.1"/>
+  <File path="lamp_post_ddna.dds.1a"/>
+  <File path="lamp_post_ddna.dds.2"/>
+  <File path="lamp_post_ddna.dds.2a"/>
+  <File path="lamp_post_ddna.dds.3"/>
+  <File path="lamp_post_ddna.dds.3a"/>
+  <File path="lamp_post_ddna.dds.4"/>
+  <File path="lamp_post_ddna.dds.4a"/>
+  <File path="lamp_post_ddna.dds.5"/>
+  <File path="lamp_post_ddna.dds.5a"/>
+  <File path="lamp_post_ddna.dds.6"/>
+  <File path="lamp_post_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="9ab00530-de74-5baf-5d9d-6628faf89211">
+ <Files>
+  <File path="palm_tree_massiv_a.cgf"/>
+  <File path="palm_tree_massiv_a_lod1.cgf"/>
+  <File path="palm_tree_massiv_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">1460</Detail>
+  <Detail name="vertexCount">1411</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./palm_tree_large.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

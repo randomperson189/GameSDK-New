@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="5ad9ac03-4dcc-6498-ec28-b212a6db9271">
+ <Files>
+  <File path="debris.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/junk/debris/body_burnt_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/junk/debris/debris.dds</Path>
+ </Dependencies>
+</AssetMetadata>

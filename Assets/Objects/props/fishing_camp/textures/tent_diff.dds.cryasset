@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ae2b9c03-d671-3bd5-d32b-f4f78bae3457">
+ <Files>
+  <File path="tent_diff.dds"/>
+  <File path="tent_diff.dds.1"/>
+  <File path="tent_diff.dds.2"/>
+  <File path="tent_diff.dds.3"/>
+  <File path="tent_diff.dds.4"/>
+  <File path="tent_diff.dds.5"/>
+  <File path="tent_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

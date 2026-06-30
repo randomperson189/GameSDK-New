@@ -1,0 +1,15 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="scrub" MtlFlags="524416" Shader="Vegetation" GenMask="2400200080" StringGenMask="%BUMP_MAP%GRASS%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.21952623,0.21952623,0.21952623" Specular="0.0056053922,0.0056053922,0.0056053922" Emissive="0,0,0" Shininess="40" Opacity="1" AlphaTest="0.28999999" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/scrub_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/rocky_ravine/textures/scrub_ddna.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.029999999" bendDetailFrequency="2.3499999" bendDetailBranchAmplitude="0.02" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" BlendMaskTiling="1" BackViewDep="0.19" BackDiffuseMultiplier="0.40000001" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

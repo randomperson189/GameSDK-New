@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="fa4cfc54-d8ea-8142-af38-e9f0e6a7a072">
+ <Files>
+  <File path="forest_trail.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/roads/forest_trail_diff.dds</Path>
+  <Path usageCount="1">textures/roads/forest_trail_ddna.dds</Path>
+  <Path usageCount="1">textures/roads/forest_trail_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

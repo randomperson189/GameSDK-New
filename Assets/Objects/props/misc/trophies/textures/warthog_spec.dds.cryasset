@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="7ea8cfae-507e-3464-b9bd-5b791b0a205f">
+ <Files>
+  <File path="warthog_spec.dds"/>
+  <File path="warthog_spec.dds.1"/>
+  <File path="warthog_spec.dds.2"/>
+  <File path="warthog_spec.dds.3"/>
+  <File path="warthog_spec.dds.4"/>
+  <File path="warthog_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

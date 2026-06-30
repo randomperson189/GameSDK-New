@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="4ee8b5e9-60e1-9fb7-f372-35411e3d1db3">
+ <Files>
+  <File path="hanging_cloth_d.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">716</Detail>
+  <Detail name="vertexCount">428</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./hanging_cloth_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="48de0bd9-d492-a70e-f9bc-3c2ded7e19bc">
+ <Files>
+  <File path="cut_diff.dds"/>
+  <File path="cut_diff.dds.1"/>
+  <File path="cut_diff.dds.2"/>
+  <File path="cut_diff.dds.3"/>
+  <File path="cut_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

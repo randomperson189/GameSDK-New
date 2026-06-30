@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="5377513d-558b-ef8f-f517-dab8b7666623">
+ <Files>
+  <File path="chinese_lantern.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">736</Detail>
+  <Detail name="vertexCount">581</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./chinese_lantern.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

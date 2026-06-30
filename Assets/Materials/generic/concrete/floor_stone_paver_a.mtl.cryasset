@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="d9b03803-bea4-2ab3-fb88-fe4f72c7d7f8">
+ <Files>
+  <File path="floor_stone_paver_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/floor_stone_paver_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/floor_stone_paver_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/floor_stone_paver_a_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

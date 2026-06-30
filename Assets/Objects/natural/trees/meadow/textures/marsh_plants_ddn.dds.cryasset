@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="331fe9b5-caa9-8b0b-8d0e-3a7f45051755">
+ <Files>
+  <File path="marsh_plants_ddn.dds"/>
+  <File path="marsh_plants_ddn.dds.1"/>
+  <File path="marsh_plants_ddn.dds.2"/>
+  <File path="marsh_plants_ddn.dds.3"/>
+  <File path="marsh_plants_ddn.dds.4"/>
+  <File path="marsh_plants_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

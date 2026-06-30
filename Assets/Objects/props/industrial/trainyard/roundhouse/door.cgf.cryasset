@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c6925601-4c7d-9ba8-4f8e-0b8e0d3c2290">
+ <Files>
+  <File path="door.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">180</Detail>
+  <Detail name="vertexCount">269</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./roundhouse_door.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

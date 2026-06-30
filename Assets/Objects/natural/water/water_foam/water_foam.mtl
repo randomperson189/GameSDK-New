@@ -1,0 +1,27 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="water_foam_01" MtlFlags="524448" Shader="Illum" GenMask="2100000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_water" MatTemplate="" Diffuse="0.49102089,0.49102089,0.49102089" Specular="0.036889456,0.036889456,0.036889456" Emissive="0.49102089,0.49102089,0.49102089" Opacity="0.1" Shininess="255" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/water/river_foam_a.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.15000001" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TileV="2"/>
+    </Texture>
+   </Textures>
+   <VertexDeform Type="1" DividerX="1" DividerY="1" NoiseScale="1,1,1">
+    <WaveX Type="2" Amp="0.1" Level="0" Phase="0" Freq="1"/>
+   </VertexDeform>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="water_foam_02" MtlFlags="524448" Shader="Illum" GenMask="2100000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_water" MatTemplate="" Diffuse="0.49102089,0.49102089,0.49102089" Specular="0.037028514,0.037028514,0.037028514" Emissive="0.49102089,0.49102089,0.49102089" Opacity="0.1" Shininess="255" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/water/river_foam_a.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" OffsetV="0.30000001"/>
+    </Texture>
+   </Textures>
+   <VertexDeform Type="1" DividerX="1" DividerY="1" NoiseScale="1,1,1">
+    <WaveX Type="2" Amp="0.1" Level="0" Phase="0" Freq="1"/>
+   </VertexDeform>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

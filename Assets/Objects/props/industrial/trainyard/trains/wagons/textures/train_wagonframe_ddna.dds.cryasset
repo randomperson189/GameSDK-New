@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="ddac93c0-8036-4420-6799-2a6cc8301f21">
+ <Files>
+  <File path="train_wagonframe_ddna.dds"/>
+  <File path="train_wagonframe_ddna.dds.a"/>
+  <File path="train_wagonframe_ddna.dds.1"/>
+  <File path="train_wagonframe_ddna.dds.1a"/>
+  <File path="train_wagonframe_ddna.dds.2"/>
+  <File path="train_wagonframe_ddna.dds.2a"/>
+  <File path="train_wagonframe_ddna.dds.3"/>
+  <File path="train_wagonframe_ddna.dds.3a"/>
+  <File path="train_wagonframe_ddna.dds.4"/>
+  <File path="train_wagonframe_ddna.dds.4a"/>
+  <File path="train_wagonframe_ddna.dds.5"/>
+  <File path="train_wagonframe_ddna.dds.5a"/>
+  <File path="train_wagonframe_ddna.dds.6"/>
+  <File path="train_wagonframe_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

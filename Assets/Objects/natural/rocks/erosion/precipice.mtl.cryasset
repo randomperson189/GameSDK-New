@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="df8fcb68-e3e9-5971-e84a-513ad7600c10">
+ <Files>
+  <File path="precipice.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">9</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/rocks/erosion/textures/rock_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/erosion/textures/rock_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

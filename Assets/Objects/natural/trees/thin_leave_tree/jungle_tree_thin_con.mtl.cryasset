@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="b8feb0b8-560b-8b80-b5f3-7abea89860b3">
+ <Files>
+  <File path="jungle_tree_thin_con.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/trunk_pino_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/trunk_pino_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/leaves_branches_new_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/leaves_branches_new_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/leaves_branches_new_opac.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,29 @@
+<AssetMetadata version="0" type="Material" guid="1457d47c-bace-070e-8137-b4a27944037c">
+ <Files>
+  <File path="set_b.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">20</Detail>
+  <Detail name="textureCount">18</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/scifi/set_b/textures/glow_fade_diff.dds</Path>
+  <Path usageCount="3">objects/architecture/scifi/set_b/textures/fluid_diff.dds</Path>
+  <Path usageCount="11">textures/generic/base_colors/white_diff.dds</Path>
+  <Path usageCount="1">textures/generic/glass/wet_glass01_ddn.dds</Path>
+  <Path usageCount="6">objects/pbs_reference/gloss80_ddna.dds</Path>
+  <Path usageCount="2">objects/pbs_reference/iron_spec.dds</Path>
+  <Path usageCount="1">objects/architecture/scifi/set_b/textures/glow_ring.dds</Path>
+  <Path usageCount="1">textures/generic/base_colors/grey_128_diff.dds</Path>
+  <Path usageCount="1">textures/generic/rubber/rubber_floor_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/concrete/asphalt_2_detail.dds</Path>
+  <Path usageCount="1">textures/generic/rubber/rubber_floor_displ.dds</Path>
+  <Path usageCount="1">objects/architecture/scifi/set_b/textures/polished_wood_diff.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_005_detail.dds</Path>
+  <Path usageCount="1">textures/generic/grass/grass_c_diff.dds</Path>
+  <Path usageCount="1">textures/generic/grass/grass_c_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/dirt/grunge_dirt_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/dirt/grunge_dirt_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/daub_rough_wood_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

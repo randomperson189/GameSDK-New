@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="89ac58fc-7d8d-095d-4442-9b16c9d6f58d">
+ <Files>
+  <File path="metal_electric_pole_cable_50m.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">336</Detail>
+  <Detail name="vertexCount">384</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./metal_electric_pole.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

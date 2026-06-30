@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="573f3d49-8346-3c9c-806c-3f43267f8d7c">
+ <Files>
+  <File path="sky_neutral.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/skydomes/neutral.dds</Path>
+ </Dependencies>
+</AssetMetadata>

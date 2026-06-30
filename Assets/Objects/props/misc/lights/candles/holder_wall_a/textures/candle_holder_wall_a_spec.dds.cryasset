@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="4f1518b4-cdcd-4762-8766-46f941146357">
+ <Files>
+  <File path="candle_holder_wall_a_spec.dds"/>
+  <File path="candle_holder_wall_a_spec.dds.1"/>
+  <File path="candle_holder_wall_a_spec.dds.2"/>
+  <File path="candle_holder_wall_a_spec.dds.3"/>
+  <File path="candle_holder_wall_a_spec.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

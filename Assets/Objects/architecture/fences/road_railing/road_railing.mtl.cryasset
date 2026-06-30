@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="79b61602-fc95-62c7-d3ef-a7e56edc6859">
+ <Files>
+  <File path="road_railing.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_iron_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_a_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

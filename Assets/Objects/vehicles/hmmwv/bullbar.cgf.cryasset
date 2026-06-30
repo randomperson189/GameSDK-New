@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Mesh" guid="ff9e02b4-4cdd-4618-ba6a-0289352c03ff">
+ <Files>
+  <File path="bullbar.cgf"/>
+  <File path="bullbar_lod1.cgf"/>
+  <File path="bullbar_lod2.cgf"/>
+  <File path="bullbar_lod3.cgf"/>
+  <File path="bullbar_lod4.cgf"/>
+  <File path="bullbar_lod5.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">14</Detail>
+  <Detail name="triangleCount">430</Detail>
+  <Detail name="vertexCount">620</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./hmmwv.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

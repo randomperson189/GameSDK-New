@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="3594e9cc-bdc3-d6e9-0fc3-f321bc011226">
+ <Files>
+  <File path="forest_monolith_d.cgf"/>
+  <File path="forest_monolith_d_lod1.cgf"/>
+  <File path="forest_monolith_d_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">10</Detail>
+  <Detail name="triangleCount">2992</Detail>
+  <Detail name="vertexCount">1670</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./forest_monoliths.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

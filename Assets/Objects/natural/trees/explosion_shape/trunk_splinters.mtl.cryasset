@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="b3cdaeeb-1ac4-15c8-e58b-fae180dcf375">
+ <Files>
+  <File path="trunk_splinters.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/explosion_shape/textures/trunk_splinters.dds</Path>
+ </Dependencies>
+</AssetMetadata>

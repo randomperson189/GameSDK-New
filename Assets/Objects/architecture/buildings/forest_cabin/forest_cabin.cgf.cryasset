@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="bbd5b421-d41e-f895-249d-bba9ebed0036">
+ <Files>
+  <File path="forest_cabin.cgf"/>
+  <File path="forest_cabin_lod1.cgf"/>
+  <File path="forest_cabin_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">9</Detail>
+  <Detail name="triangleCount">3450</Detail>
+  <Detail name="vertexCount">5403</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./forest_cabin.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="c945ff73-c90b-1524-ba3b-71c92840ce3d">
+ <Files>
+  <File path="hay_bale_set_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/rural/hay_bale_set/textures/hay_bale_set_a_diff.dds</Path>
+  <Path usageCount="2">objects/props/rural/hay_bale_set/textures/hay_bale_set_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

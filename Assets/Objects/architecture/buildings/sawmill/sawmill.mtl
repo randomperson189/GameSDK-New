@@ -1,0 +1,78 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="door_window" MtlFlags="524416" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/forest_cabin/textures/forest_cabin_details_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/forest_cabin/textures/forest_cabin_details_a_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood_frame" MtlFlags="524416" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/sawmill/textures/details_31_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/sawmill/textures/details_31_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood_floor" MtlFlags="524416" Shader="Illum" GenMask="2080000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/floor_wood_04_diff.tif" Filter="7"/>
+    <Texture Map="Bumpmap" File="textures/generic/wood/floor_wood_04_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood_wall" MtlFlags="524416" Shader="Illum" GenMask="2080000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/wall_wood_03_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/wood/wall_wood_03_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="roof_metal" MtlFlags="524416" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.033104766,0.033104766,0.033104766" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/metal_tile_rusty_a_diff.tif" Filter="7"/>
+    <Texture Map="Bumpmap" File="textures/generic/metal/metal_tile_rusty_a_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_wall" MtlFlags="524416" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.033104766,0.033104766,0.033104766" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/wall_metal_01_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/metal/wall_metal_01_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_wall2" MtlFlags="524416" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.033104766,0.033104766,0.033104766" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/roof_metal_black_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/metal/roof_metal_black_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="fence" MtlFlags="524418" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.22" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/sawmill/textures/metal_fence_01_diff.tif" Filter="7"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/sawmill/textures/metal_fence_01_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="machinery" MtlFlags="524416" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/sawmill/textures/details_32_diff.tif" Filter="7"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/sawmill/textures/details_32_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="saw_dust" MtlFlags="524448" Shader="Illum" GenMask="80000880" StringGenMask="%BUMP_MAP%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/decals/dirt/dirt_2.tif" Filter="7"/>
+    <Texture Map="Bumpmap" File="textures/decals/dirt/dirt_2_ddna.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

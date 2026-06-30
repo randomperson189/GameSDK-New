@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="69257e9f-19b8-9fa5-8566-b58309f9a58c">
+ <Files>
+  <File path="cliff_limestone_3d.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">textures/terrain/detail/cliff_limestone_diff.dds</Path>
+  <Path usageCount="3">textures/terrain/detail/cliff_limestone_ddna.dds</Path>
+  <Path usageCount="3">textures/terrain/detail/cliff_limestone_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="785c3003-84b2-4e6e-d47a-9647db2ef512">
+ <Files>
+  <File path="n_rock_wall_04_middle.cgf"/>
+  <File path="n_rock_wall_04_middle_lod1.cgf"/>
+  <File path="n_rock_wall_04_middle_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">1024</Detail>
+  <Detail name="vertexCount">574</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./n_rock_wall.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

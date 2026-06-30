@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="fb4ff7f1-6a83-fb13-4f4f-c32a4ed0d352">
+ <Files>
+  <File path="gatehouse.cgf"/>
+  <File path="gatehouse_lod1.cgf"/>
+  <File path="gatehouse_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">3522</Detail>
+  <Detail name="vertexCount">5810</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./gatehouse.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

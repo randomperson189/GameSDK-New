@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="4ba66623-d8e6-f6c2-d62a-8d2b8c7a6093">
+ <Files>
+  <File path="beech_trunk_diff.dds"/>
+  <File path="beech_trunk_diff.dds.1"/>
+  <File path="beech_trunk_diff.dds.2"/>
+  <File path="beech_trunk_diff.dds.3"/>
+  <File path="beech_trunk_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

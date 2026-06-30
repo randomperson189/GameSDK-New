@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d1b12b45-670d-bbb2-6b9b-8df1a16115b7">
+ <Files>
+  <File path="buoy_spec.dds"/>
+  <File path="buoy_spec.dds.1"/>
+  <File path="buoy_spec.dds.2"/>
+  <File path="buoy_spec.dds.3"/>
+  <File path="buoy_spec.dds.4"/>
+  <File path="buoy_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

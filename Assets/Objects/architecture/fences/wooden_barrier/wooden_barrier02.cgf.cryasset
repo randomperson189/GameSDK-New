@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="76597289-56ec-a942-d179-e20ec8725f4c">
+ <Files>
+  <File path="wooden_barrier02.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">628</Detail>
+  <Detail name="vertexCount">637</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wooden_barrier.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

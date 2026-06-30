@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="1bd01ce5-a8ce-b19b-cedb-26fcf6c7e479">
+ <Files>
+  <File path="jetty_bridge_sloped_a.cgf"/>
+  <File path="jetty_bridge_sloped_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">6406</Detail>
+  <Detail name="vertexCount">4429</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./jetty_wood_old.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

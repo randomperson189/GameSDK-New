@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="2e1ade89-d89c-c70e-ae7a-7dc2575edc25">
+ <Files>
+  <File path="tracer_standard02.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">4</Detail>
+ </Details>
+</AssetMetadata>

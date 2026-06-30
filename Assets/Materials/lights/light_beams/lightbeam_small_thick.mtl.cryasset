@@ -1,0 +1,9 @@
+<AssetMetadata version="0" type="Material" guid="47c44115-7f0b-d32a-f33b-eaf597d6a974">
+ <Files>
+  <File path="lightbeam_small_thick.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">0</Detail>
+ </Details>
+</AssetMetadata>

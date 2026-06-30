@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="54992cca-2a80-2c5b-dfa9-d24963bf1f20">
+ <Files>
+  <File path="rl_big_b.cgf"/>
+  <File path="rl_big_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">138</Detail>
+  <Detail name="vertexCount">131</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Round_Leaves.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

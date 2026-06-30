@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="ba69568e-5f33-4eec-e687-5cfe270eee07">
+ <Files>
+  <File path="b_oak_tree_a.cgf"/>
+  <File path="b_oak_tree_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">1206</Detail>
+  <Detail name="vertexCount">1656</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./oak.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

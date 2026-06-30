@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="68aed0d2-236e-ff34-7602-25ddaa229cb7">
+ <Files>
+  <File path="chenyan_tubes_diff.dds"/>
+  <File path="chenyan_tubes_diff.dds.1"/>
+  <File path="chenyan_tubes_diff.dds.2"/>
+  <File path="chenyan_tubes_diff.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

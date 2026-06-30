@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Texture" guid="414446d6-786a-4a38-cd95-60c910affc77">
+ <Files>
+  <File path="abrams_spec.dds"/>
+  <File path="abrams_spec.dds.1"/>
+  <File path="abrams_spec.dds.2"/>
+  <File path="abrams_spec.dds.3"/>
+  <File path="abrams_spec.dds.4"/>
+  <File path="abrams_spec.dds.5"/>
+  <File path="abrams_spec.dds.6"/>
+  <File path="abrams_spec.dds.7"/>
+  <File path="abrams_spec.dds.8"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

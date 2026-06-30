@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="c292be29-2122-855e-3504-c6e85865dc2f">
+ <Files>
+  <File path="river_tree_a.cgf"/>
+  <File path="river_tree_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">827</Detail>
+  <Detail name="vertexCount">999</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./river_tree.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

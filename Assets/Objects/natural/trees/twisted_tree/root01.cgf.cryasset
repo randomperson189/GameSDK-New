@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="a66f432e-3613-b1e0-0e41-2b853caed710">
+ <Files>
+  <File path="root01.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">898</Detail>
+  <Detail name="vertexCount">728</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./roots.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

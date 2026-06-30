@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="6e189a6d-ef5a-a23e-3b07-6cb3e078eb34">
+ <Files>
+  <File path="moss_canyonrock_gloss.dds"/>
+  <File path="moss_canyonrock_gloss.dds.1"/>
+  <File path="moss_canyonrock_gloss.dds.2"/>
+  <File path="moss_canyonrock_gloss.dds.3"/>
+  <File path="moss_canyonrock_gloss.dds.4"/>
+  <File path="moss_canyonrock_gloss.dds.5"/>
+  <File path="moss_canyonrock_gloss.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

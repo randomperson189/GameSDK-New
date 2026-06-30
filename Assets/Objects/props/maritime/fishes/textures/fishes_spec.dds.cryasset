@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="38baacfa-ffc5-e444-1349-da7edec43c2b">
+ <Files>
+  <File path="fishes_spec.dds"/>
+  <File path="fishes_spec.dds.1"/>
+  <File path="fishes_spec.dds.2"/>
+  <File path="fishes_spec.dds.3"/>
+  <File path="fishes_spec.dds.4"/>
+  <File path="fishes_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

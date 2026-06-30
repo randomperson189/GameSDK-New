@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="91c8f89d-ce7e-0799-4367-fec5f785c00b">
+ <Files>
+  <File path="bench_diff.dds"/>
+  <File path="bench_diff.dds.1"/>
+  <File path="bench_diff.dds.2"/>
+  <File path="bench_diff.dds.3"/>
+  <File path="bench_diff.dds.4"/>
+  <File path="bench_diff.dds.5"/>
+  <File path="bench_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

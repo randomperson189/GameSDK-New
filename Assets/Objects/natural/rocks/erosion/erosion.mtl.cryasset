@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Material" guid="0fb718f0-07a4-5d24-cb26-430aec0b61bb">
+ <Files>
+  <File path="erosion.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">10</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/natural/rocks/erosion/textures/soil_diff.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/erosion/textures/soil_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/dirty_blend.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/erosion/textures/soil_brown_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/erosion/textures/roots_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/erosion/textures/roots_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/erosion/textures/mud_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/erosion/textures/mud_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

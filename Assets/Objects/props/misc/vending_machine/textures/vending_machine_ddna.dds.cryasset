@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="1131d1b8-c976-bcff-9860-2bb85432b71f">
+ <Files>
+  <File path="vending_machine_ddna.dds"/>
+  <File path="vending_machine_ddna.dds.a"/>
+  <File path="vending_machine_ddna.dds.1"/>
+  <File path="vending_machine_ddna.dds.1a"/>
+  <File path="vending_machine_ddna.dds.2"/>
+  <File path="vending_machine_ddna.dds.2a"/>
+  <File path="vending_machine_ddna.dds.3"/>
+  <File path="vending_machine_ddna.dds.3a"/>
+  <File path="vending_machine_ddna.dds.4"/>
+  <File path="vending_machine_ddna.dds.4a"/>
+  <File path="vending_machine_ddna.dds.5"/>
+  <File path="vending_machine_ddna.dds.5a"/>
+  <File path="vending_machine_ddna.dds.6"/>
+  <File path="vending_machine_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

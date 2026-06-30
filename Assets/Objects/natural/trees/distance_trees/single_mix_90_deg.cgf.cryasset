@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="a767035f-5a1d-1e02-c492-06c58a33b56d">
+ <Files>
+  <File path="single_mix_90_deg.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">24</Detail>
+  <Detail name="vertexCount">28</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./distance_trees_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

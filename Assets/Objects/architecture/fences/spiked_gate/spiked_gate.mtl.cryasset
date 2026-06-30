@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="316ec64e-0e15-e80e-9c44-c47405cd91c0">
+ <Files>
+  <File path="spiked_gate.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_beams_b_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_beams_b_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spiked_gate/textures/gate_door_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/spiked_gate/textures/gate_door_ddna.dds</Path>
+  <Path usageCount="2">objects/architecture/fences/spiked_gate/textures/wood_and_spikes_diff.dds</Path>
+  <Path usageCount="2">objects/architecture/fences/spiked_gate/textures/wood_and_spikes_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/dirt/grime_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/dirt/grunge_dirt_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/dirt/grunge_dirt_a_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

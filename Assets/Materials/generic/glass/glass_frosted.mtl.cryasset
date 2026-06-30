@@ -1,0 +1,9 @@
+<AssetMetadata version="0" type="Material" guid="db1e5db1-9ae8-0178-04fe-360dc2478bb0">
+ <Files>
+  <File path="glass_frosted.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">0</Detail>
+ </Details>
+</AssetMetadata>

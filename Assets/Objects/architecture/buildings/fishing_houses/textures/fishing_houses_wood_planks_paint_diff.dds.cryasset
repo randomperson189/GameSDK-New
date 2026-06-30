@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="79e7ae0e-30c9-468c-e7a0-47eba8ebcf20">
+ <Files>
+  <File path="fishing_houses_wood_planks_paint_diff.dds"/>
+  <File path="fishing_houses_wood_planks_paint_diff.dds.1"/>
+  <File path="fishing_houses_wood_planks_paint_diff.dds.2"/>
+  <File path="fishing_houses_wood_planks_paint_diff.dds.3"/>
+  <File path="fishing_houses_wood_planks_paint_diff.dds.4"/>
+  <File path="fishing_houses_wood_planks_paint_diff.dds.5"/>
+  <File path="fishing_houses_wood_planks_paint_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

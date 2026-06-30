@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Mesh" guid="dcc58d98-bbdd-238b-b970-5500087120b1">
+ <Files>
+  <File path="abandoned_sola_a.cgf"/>
+  <File path="abandoned_sola_a_lod1.cgf"/>
+  <File path="abandoned_sola_a_lod2.cgf"/>
+  <File path="abandoned_sola_a_lod3.cgf"/>
+  <File path="abandoned_sola_a_lod4.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">10044</Detail>
+  <Detail name="vertexCount">10866</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./sola_abandoned.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

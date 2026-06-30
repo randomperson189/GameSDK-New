@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ef0b2d39-d219-1585-b819-abf219de355d">
+ <Files>
+  <File path="cliff_rock_neutral_med_a_con.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">646</Detail>
+  <Detail name="vertexCount">475</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cliff_rock_neutral_con.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

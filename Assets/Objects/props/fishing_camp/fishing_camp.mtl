@@ -1,0 +1,132 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="fish_camp_tent" MtlFlags="524418" Shader="Illum" GenMask="181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.25415212,0.25415212,0.25415212" Specular="0.012983033,0.012983033,0.012983033" Emissive="0,0,0" Shininess="91" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/tent_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/tent_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/fabric/fabric_detail.tif">
+     <TexMod TileU="20" TileV="20"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0" DetailBumpScale="0.50999999" SubsurfaceScatteringAmount="0" DetailGlossScale="0.015" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="fishing_camp_icebox" MtlFlags="524416" Shader="Illum" GenMask="81" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.41254264,0.41254264,0.41254264" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="65" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/camping_general_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/camping_general_ddna.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="various" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.5,0.5,0.5" Specular="0.5,0.5,0.5" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="fishing_camp_blanket" MtlFlags="524418" Shader="Illum" GenMask="181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.32777813,0.32777813,0.32777813" Specular="0.0069954107,0.0069954107,0.0069954107" Emissive="0,0,0" Shininess="120" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/camping_general_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/camping_general_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/fabric/fabric_b_detail.tif">
+     <TexMod TileU="16" TileV="8" OffsetU="16"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.25" DetailBumpScale="0.1" SubsurfaceScatteringAmount="0" DetailGlossScale="0.25" IndirectColor="0.27583286,0.27583286,0.27583286"/>
+  </Material>
+  <Material Name="fishing_camp_can" MtlFlags="524416" Shader="Illum" GenMask="81" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.26225069,0.26225069,0.26225069" Specular="0.025186861,0.025186861,0.025186861" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/camping_general_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/camping_general_ddna.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="fishing_camp_cardboard" MtlFlags="524416" Shader="Illum" GenMask="81" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.4793202,0.4793202,0.4793202" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="44" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/camping_general_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/camping_general_ddna.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="fishing_camp_fishingpole" MtlFlags="524416" Shader="Illum" GenMask="81" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="129" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/fishpole_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/fishpole_ddna.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="campfire_material" MtlFlags="524416" Shader="Illum" GenMask="2000000181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.27889431,0.27889431,0.27889431" Specular="0.005181517,0.005181517,0.005181517" Emissive="0,0,0" Shininess="40" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/campfire_base_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/campfire_base_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/sand/sand_003_detail.tif">
+     <TexMod TileU="7" TileV="7"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" DetailBumpScale="0.20999999" SubsurfaceScatteringAmount="0" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="camping_tent_lod1" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.44232297,0.44232297,0.44232297" Specular="0.031551391,0.031551391,0.031551391" Emissive="0,0,0" Shininess="160" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/camping_tent_lod1_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Specular" File="objects/props/fishing_camp/textures/camping_tent_lod1_spec.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/camping_tent_lod1_ddn.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="camping_tent_lod2" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.031551391,0.031551391,0.031551391" Emissive="0,0,0" Shininess="160" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/camping_tent_lod2_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Specular" File="objects/props/fishing_camp/textures/camping_tent_lod2_spec.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/camping_tent_lod2_ddn.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="camping_tent_lod3" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.43134022,0.43134022,0.43134022" Specular="0.031551391,0.031551391,0.031551391" Emissive="0,0,0" Shininess="160" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/camping_tent_lod3_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Specular" File="objects/props/fishing_camp/textures/camping_tent_lod3_spec.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/camping_tent_lod3_ddn.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="camping_chair_lod1" MtlFlags="524416" Shader="Illum" GenMask="81" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP" SurfaceType="" MatTemplate="" Diffuse="0.56680977,0.56680977,0.56680977" Specular="0.04614884,0.04614884,0.04614884" Emissive="0,0,0" Shininess="85" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/camping_chair_lod1_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/camping_chair_lod1_ddn.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.27583286,0.27583286,0.27583286"/>
+  </Material>
+  <Material Name="fishingpole_lod1" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/fishingpole_lod1_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Specular" File="objects/props/fishing_camp/textures/fishingpole_lod1_spec.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/fishingpole_lod1_ddn.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="sleepingbag_lod1" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/sleepingbag_lod1_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Specular" File="objects/props/fishing_camp/textures/sleepingbag_lod1_spec.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/sleepingbag_lod1_ddn.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="campfire_lod1" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/campfire_lod1_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Specular" File="objects/props/fishing_camp/textures/campfire_lod1_spec.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/campfire_lod1_ddn.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="campfire_lod2" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fishing_camp/textures/campfire_lod2_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Specular" File="objects/props/fishing_camp/textures/campfire_lod2_spec.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/fishing_camp/textures/campfire_lod2_ddn.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

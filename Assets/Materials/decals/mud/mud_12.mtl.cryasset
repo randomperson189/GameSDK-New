@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="ab305a0c-3d34-252f-cb00-885475152472">
+ <Files>
+  <File path="mud_12.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/mud/mud_12_dif.dds</Path>
+  <Path usageCount="1">textures/decals/mud/mud_12_ddna.dds</Path>
+  <Path usageCount="1">textures/decals/mud/mud_12_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

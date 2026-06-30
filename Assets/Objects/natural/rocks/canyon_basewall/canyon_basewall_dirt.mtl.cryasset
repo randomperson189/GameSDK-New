@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="8a5eb2f9-fb66-8135-27a1-311b554f1e9c">
+ <Files>
+  <File path="canyon_basewall_dirt.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">7</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="7">textures/defaults/grey.dds</Path>
+  <Path usageCount="3">objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/basewall_07_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/basewall_06_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/basewall_04_detail.dds</Path>
+  <Path usageCount="3">objects/natural/rocks/canyon_basewall/textures/rock_base_tile_01_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/basewall_03_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/basewall_02_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_basewall/textures/basewall_01_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

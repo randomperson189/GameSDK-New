@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="7152af96-94cc-b83e-7952-6bc8030a2b34">
+ <Files>
+  <File path="m1a2_bag.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">1292</Detail>
+  <Detail name="vertexCount">1833</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./m1a1_desert.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="952c1c01-3a61-0025-fd03-f77400a20ff4">
+ <Files>
+  <File path="barbwire_fence.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/fences/barbwire_fence/textures/chainlock_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/barbwire_fence/textures/chainlock_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_steelbar_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_steelbar_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/barbwire_fence/textures/chainlink_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/barbwire_fence/textures/chainlink_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

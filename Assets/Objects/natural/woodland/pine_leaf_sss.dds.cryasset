@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="3c47e08c-d0f7-6e01-1446-28683e901a5a">
+ <Files>
+  <File path="pine_leaf_sss.dds"/>
+  <File path="pine_leaf_sss.dds.1"/>
+  <File path="pine_leaf_sss.dds.2"/>
+  <File path="pine_leaf_sss.dds.3"/>
+  <File path="pine_leaf_sss.dds.4"/>
+  <File path="pine_leaf_sss.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

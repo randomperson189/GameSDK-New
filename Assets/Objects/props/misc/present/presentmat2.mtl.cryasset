@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="78dabbef-3f7a-38f0-1c3b-f2e6e1a7bf2a">
+ <Files>
+  <File path="presentmat2.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/present/textures/present_var2_diff.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plastic/plastic_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

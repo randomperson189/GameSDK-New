@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="9b3ee080-60dd-e990-8406-c9c24cceff61">
+ <Files>
+  <File path="water_cave.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/cubemaps/forest/l_ab4_water_probe_1_cm.dds</Path>
+ </Dependencies>
+</AssetMetadata>

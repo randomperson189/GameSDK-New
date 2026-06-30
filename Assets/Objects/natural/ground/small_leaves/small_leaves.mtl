@@ -1,0 +1,25 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="small_leaves" MtlFlags="524416" Shader="Vegetation" GenMask="2400801180" StringGenMask="%BUMP_MAP%DETAIL_BENDING%DETAIL_MAPPING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.57112485,0.57112485,0.57112485" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Shininess="132" Opacity="1" AlphaTest="0.5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/ground/small_leaves/textures/leaves_a_diff.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/natural/ground/small_leaves/textures/leaves_a_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plants/plants_leaf_detail.tif">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+    <Texture Map="Opacity" File="objects/natural/ground/small_leaves/textures/leaves_a_spec.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.050000001" bendDetailFrequency="0.5" bendDetailBranchAmplitude="0.029999999" BlendTerrainCol="0" DetailDiffuseScale="0.75" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" DetailBumpScale="1" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.54500002" BlendTerrainColDist="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_bending" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="roots" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="ostruct_AI" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="0,1,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

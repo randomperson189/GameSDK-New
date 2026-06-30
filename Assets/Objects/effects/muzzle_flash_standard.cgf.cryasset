@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="9dd88cda-fa3d-46b4-4608-f8c773774e08">
+ <Files>
+  <File path="muzzle_flash_standard.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">14</Detail>
+  <Detail name="vertexCount">21</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./muzzle_flash_standard.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

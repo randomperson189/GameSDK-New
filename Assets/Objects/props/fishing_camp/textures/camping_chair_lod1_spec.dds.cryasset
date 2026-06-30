@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d174952e-331c-661f-374e-d78ad9da512b">
+ <Files>
+  <File path="camping_chair_lod1_spec.dds"/>
+  <File path="camping_chair_lod1_spec.dds.1"/>
+  <File path="camping_chair_lod1_spec.dds.2"/>
+  <File path="camping_chair_lod1_spec.dds.3"/>
+  <File path="camping_chair_lod1_spec.dds.4"/>
+  <File path="camping_chair_lod1_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

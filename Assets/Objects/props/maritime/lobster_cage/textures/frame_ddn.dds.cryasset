@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="6496c69c-3373-9155-c5e8-792a402c9d71">
+ <Files>
+  <File path="frame_ddn.dds"/>
+  <File path="frame_ddn.dds.1"/>
+  <File path="frame_ddn.dds.2"/>
+  <File path="frame_ddn.dds.3"/>
+  <File path="frame_ddn.dds.4"/>
+  <File path="frame_ddn.dds.5"/>
+  <File path="frame_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="7478b522-5950-07c1-0253-343b20a3c988">
+ <Files>
+  <File path="misc_diff.dds"/>
+  <File path="misc_diff.dds.1"/>
+  <File path="misc_diff.dds.2"/>
+  <File path="misc_diff.dds.3"/>
+  <File path="misc_diff.dds.4"/>
+  <File path="misc_diff.dds.5"/>
+  <File path="misc_diff.dds.6"/>
+  <File path="misc_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

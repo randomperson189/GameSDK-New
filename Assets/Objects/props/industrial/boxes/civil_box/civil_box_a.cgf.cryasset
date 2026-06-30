@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="990ad70a-0b70-7d8a-a343-18fd2cdaba51">
+ <Files>
+  <File path="civil_box_a.cgf"/>
+  <File path="civil_box_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">538</Detail>
+  <Detail name="vertexCount">986</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./civil_boxes.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

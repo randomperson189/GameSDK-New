@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="c3828cf6-4a41-c8f7-c06b-568a622014ab">
+ <Files>
+  <File path="lifering_ddna.dds"/>
+  <File path="lifering_ddna.dds.a"/>
+  <File path="lifering_ddna.dds.1"/>
+  <File path="lifering_ddna.dds.1a"/>
+  <File path="lifering_ddna.dds.2"/>
+  <File path="lifering_ddna.dds.2a"/>
+  <File path="lifering_ddna.dds.3"/>
+  <File path="lifering_ddna.dds.3a"/>
+  <File path="lifering_ddna.dds.4"/>
+  <File path="lifering_ddna.dds.4a"/>
+  <File path="lifering_ddna.dds.5"/>
+  <File path="lifering_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

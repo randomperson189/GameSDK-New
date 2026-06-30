@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a7d23921-de34-3bd2-da40-c2b9c31cd71f">
+ <Files>
+  <File path="river_rock_blend.dds"/>
+  <File path="river_rock_blend.dds.1"/>
+  <File path="river_rock_blend.dds.2"/>
+  <File path="river_rock_blend.dds.3"/>
+  <File path="river_rock_blend.dds.4"/>
+  <File path="river_rock_blend.dds.5"/>
+  <File path="river_rock_blend.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

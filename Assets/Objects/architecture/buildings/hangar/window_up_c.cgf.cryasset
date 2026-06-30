@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="10867b98-0eb3-05f5-a9e6-78420631f5ba">
+ <Files>
+  <File path="window_up_c.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">14</Detail>
+  <Detail name="triangleCount">480</Detail>
+  <Detail name="vertexCount">862</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./hangar.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

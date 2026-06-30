@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="2626d859-deac-f3be-a354-08e26b469d35">
+ <Files>
+  <File path="gas_stove.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/furniture/appliances/gas_stove/textures/gas_stove_b_diff.dds</Path>
+  <Path usageCount="1">objects/props/furniture/appliances/gas_stove/textures/gas_stove_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

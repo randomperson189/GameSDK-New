@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="b9301c61-e35d-8257-2933-774d82d97bb5">
+ <Files>
+  <File path="mh60_cubemap.dds"/>
+  <File path="mh60_cubemap.dds.1"/>
+  <File path="mh60_cubemap.dds.2"/>
+  <File path="mh60_cubemap.dds.3"/>
+  <File path="mh60_cubemap.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">1536</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="3b07a87f-6253-1436-5cbf-dc4ff5b833f4">
+ <Files>
+  <File path="lobster.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/maritime/lobster/textures/lobster_diff.dds</Path>
+  <Path usageCount="1">objects/props/maritime/lobster/textures/lobster_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

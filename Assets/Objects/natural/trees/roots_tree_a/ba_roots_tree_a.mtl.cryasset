@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="e1b16921-6612-4942-e973-1d81fa361e1e">
+ <Files>
+  <File path="ba_roots_tree_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/roots_tree_a/ba_roots_tree_a_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/roots_tree_a/ba_roots_tree_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

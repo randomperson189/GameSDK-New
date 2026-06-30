@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="985280da-7cc5-7bce-f4c7-0ddb79c282a3">
+ <Files>
+  <File path="water_tank.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1458</Detail>
+  <Detail name="vertexCount">1915</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Water_tank.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

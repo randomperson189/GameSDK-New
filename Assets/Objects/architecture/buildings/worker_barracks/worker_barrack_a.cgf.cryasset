@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="068a0814-62fb-1d29-3dcf-2bc4ef6ce54e">
+ <Files>
+  <File path="worker_barrack_a.cgf"/>
+  <File path="worker_barrack_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">674</Detail>
+  <Detail name="vertexCount">1104</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./worker_barracks.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="7761bd1d-79af-7393-2d22-c31d4cf89642">
+ <Files>
+  <File path="lobster_cage.cgf"/>
+  <File path="lobster_cage_lod1.cgf"/>
+  <File path="lobster_cage_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">2192</Detail>
+  <Detail name="vertexCount">2560</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./lobster_cage.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

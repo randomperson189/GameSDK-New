@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="4641f019-4414-3fa2-ccbf-3b8125711818">
+ <Files>
+  <File path="tiles.dds"/>
+  <File path="tiles.dds.1"/>
+  <File path="tiles.dds.2"/>
+  <File path="tiles.dds.3"/>
+  <File path="tiles.dds.4"/>
+  <File path="tiles.dds.5"/>
+  <File path="tiles.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

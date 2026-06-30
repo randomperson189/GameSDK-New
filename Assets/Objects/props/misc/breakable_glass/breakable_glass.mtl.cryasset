@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="c3c74ad7-7e9a-a75c-d9c3-f1a4b80c3694">
+ <Files>
+  <File path="breakable_glass.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/glass/glass_clear_diff.dds</Path>
+  <Path usageCount="1">textures/cubemaps/generic_cubemap_day_cm.dds</Path>
+  <Path usageCount="1">textures/generic/wood/plywood_dark_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="b1b8d223-7a5e-94c0-a79f-d67c254a64f6">
+ <Files>
+  <File path="k_interior_diff.dds"/>
+  <File path="k_interior_diff.dds.1"/>
+  <File path="k_interior_diff.dds.2"/>
+  <File path="k_interior_diff.dds.3"/>
+  <File path="k_interior_diff.dds.4"/>
+  <File path="k_interior_diff.dds.5"/>
+  <File path="k_interior_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

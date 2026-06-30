@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="7269f502-7212-5fbe-d9b4-eae325307b3a">
+ <Files>
+  <File path="marsh_plants_coast.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/vegetation/meadow/marsh_plants_diff.dds</Path>
+  <Path usageCount="1">objects/natural/vegetation/meadow/marsh_plants_spec.dds</Path>
+  <Path usageCount="1">objects/natural/vegetation/meadow/marsh_plants_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

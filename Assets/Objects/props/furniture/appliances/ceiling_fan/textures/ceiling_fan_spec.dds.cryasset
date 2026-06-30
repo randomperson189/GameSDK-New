@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="adc38e38-4cf9-9038-9120-a5d5c61273f8">
+ <Files>
+  <File path="ceiling_fan_spec.dds"/>
+  <File path="ceiling_fan_spec.dds.1"/>
+  <File path="ceiling_fan_spec.dds.2"/>
+  <File path="ceiling_fan_spec.dds.3"/>
+  <File path="ceiling_fan_spec.dds.4"/>
+  <File path="ceiling_fan_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

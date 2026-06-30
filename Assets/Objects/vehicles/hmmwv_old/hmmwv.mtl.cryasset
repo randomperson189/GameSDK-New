@@ -1,0 +1,24 @@
+<AssetMetadata version="0" type="Material" guid="4ae64587-c933-3c71-d7e7-cc16d2d56452">
+ <Files>
+  <File path="hmmwv.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">8</Detail>
+  <Detail name="textureCount">13</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/vehicles/hmmwv_old/textures/hmmwv_hull.dds</Path>
+  <Path usageCount="2">objects/vehicles/hmmwv_old/textures/hmmwv_hull_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv_old/textures/hmmwv_destroyed.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv_old/textures/hmmwv_decals.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv_old/textures/hmmwv_wheel.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv_old/textures/hmmwv_wheel_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv_old/textures/hmmwv_wheel_spec.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/mud/mud_rough_detail.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv_old/textures/hmmwv_wheel_displ.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv_old/textures/hmmwv_window_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv_old/textures//hmmwv_interior.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv_old/textures/hmmwv_interior_ddna.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

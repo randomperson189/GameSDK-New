@@ -1,0 +1,26 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="fishing_boat" MtlFlags="524416" Shader="Illum" GenMask="2184" StringGenMask="%ALPHAMASK_DETAILMAP%BUMP_MAP%DETAIL_MAPPING%DIRTLAYER" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="120" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/maritime/fisher_boat/textures/fishing_boat.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/maritime/fisher_boat/textures/fishing_boat_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_fine_detail_horizontal.tif">
+     <TexMod TileU="20" TileV="20"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/props/maritime/fisher_boat/textures/fishing_boat.tif"/>
+   </Textures>
+   <PublicParams DirtTint="0.18014428,0.33445781,0.40982577" DirtGlossFactor="0" DirtTiling="1" DirtStrength="0.99000001" DetailDiffuseScale="1" DetailBumpScale="0.75" DetailGlossScale="0.5" DirtMapAlphaInfluence="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="rope" MtlFlags="524416" Shader="Illum" GenMask="80" StringGenMask="%BUMP_MAP" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="45" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/fabric/rope_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/fabric/rope_ddn.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

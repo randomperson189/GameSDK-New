@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="c4d19fd9-5c6c-ba82-cbf5-4c86eacf688a">
+ <Files>
+  <File path="cliff_bush_yellow.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/leaves_branches_new_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/leaves_branches_new_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

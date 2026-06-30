@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="84cd2005-c802-e321-99e6-11092858228e">
+ <Files>
+  <File path="trunk_splinters_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">102</Detail>
+  <Detail name="vertexCount">167</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/Natural/trees/explosion_shape/trunk_splinters.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

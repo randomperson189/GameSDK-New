@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="33e14d70-bed0-5141-66f9-76c802c0d6c2">
+ <Files>
+  <File path="abandoned_bathroom.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/furniture/appliances/bathroom/abandoned_bathroom_diff.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

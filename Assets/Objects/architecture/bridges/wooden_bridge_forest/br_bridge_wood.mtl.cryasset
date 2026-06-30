@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="67c9a993-dcaf-900a-2162-7a2ec8714d3b">
+ <Files>
+  <File path="br_bridge_wood.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/woodland/scrub_ground_diff.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/scrub_ground_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/bridges/wooden_bridge_forest/wood_planks_square_c_moss_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/bridges/wooden_bridge_forest/wood_planks_square_c_moss_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/bridges/wooden_bridge_forest/wood_planks_square_c_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/bridges/wooden_bridge_forest/wood_planks_square_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/daub_rough_wood_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

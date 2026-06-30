@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="e344d380-101a-a659-2777-e85e1cb59e6f">
+ <Files>
+  <File path="thin_leaves_bush.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/bushes/thinleafbush/textures/leaves_a.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/thinleafbush/textures/leaves_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

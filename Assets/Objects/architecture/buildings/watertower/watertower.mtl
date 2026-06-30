@@ -1,0 +1,51 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="tiling_panel" MtlFlags="524416" Shader="Illum" GenMask="2080000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.042311415,0.042311415,0.042311415" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower/textures/metal_tile_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/watertower/textures/metal_tile_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="alpha" MtlFlags="524418" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.38999999" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower/textures/alpha_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/watertower/textures/alpha_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="grill" MtlFlags="524416" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower/textures/tiles_diff.tif">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/watertower/textures/metal_tile_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="girder" MtlFlags="524418" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower/textures/girder_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/watertower/textures/girder_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="decal" MtlFlags="524448" Shader="Illum" GenMask="80000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.067724593,0.030256517,0.017936433" Specular="0.0069954107,0.0069954107,0.0069954107" Emissive="0,0,0" Shininess="5" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower/textures/rust_decal.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="0.5" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="generic_metal" MtlFlags="524416" Shader="Illum" GenMask="2080000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower/textures/tiles_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/watertower/textures/metal_tile_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

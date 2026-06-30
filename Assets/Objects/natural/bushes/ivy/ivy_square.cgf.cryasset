@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="cb4f5259-b046-f85c-4b06-a1ab53899775">
+ <Files>
+  <File path="ivy_square.cgf"/>
+  <File path="ivy_square_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">683</Detail>
+  <Detail name="vertexCount">514</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./vegetation_ivy_m.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

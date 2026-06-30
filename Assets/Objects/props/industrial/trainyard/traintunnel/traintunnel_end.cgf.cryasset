@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="994e549f-c0ea-ced0-094a-b65b79227b0f">
+ <Files>
+  <File path="traintunnel_end.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">224</Detail>
+  <Detail name="vertexCount">206</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./train_tunnel.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

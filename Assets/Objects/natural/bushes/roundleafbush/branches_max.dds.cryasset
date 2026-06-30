@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="3f322e2f-8068-2e1a-9318-2e0662489f34">
+ <Files>
+  <File path="branches_max.dds"/>
+  <File path="branches_max.dds.1"/>
+  <File path="branches_max.dds.2"/>
+  <File path="branches_max.dds.3"/>
+  <File path="branches_max.dds.4"/>
+  <File path="branches_max.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

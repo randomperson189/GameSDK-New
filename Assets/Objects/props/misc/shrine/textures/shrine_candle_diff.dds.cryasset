@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="7ee2ff91-9c83-abfb-ade4-092004269595">
+ <Files>
+  <File path="shrine_candle_diff.dds"/>
+  <File path="shrine_candle_diff.dds.1"/>
+  <File path="shrine_candle_diff.dds.2"/>
+  <File path="shrine_candle_diff.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

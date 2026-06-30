@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="10588bda-8843-0a63-cdbc-56246ebef3fd">
+ <Files>
+  <File path="abrams_misc_ddna.dds"/>
+  <File path="abrams_misc_ddna.dds.a"/>
+  <File path="abrams_misc_ddna.dds.1"/>
+  <File path="abrams_misc_ddna.dds.1a"/>
+  <File path="abrams_misc_ddna.dds.2"/>
+  <File path="abrams_misc_ddna.dds.2a"/>
+  <File path="abrams_misc_ddna.dds.3"/>
+  <File path="abrams_misc_ddna.dds.3a"/>
+  <File path="abrams_misc_ddna.dds.4"/>
+  <File path="abrams_misc_ddna.dds.4a"/>
+  <File path="abrams_misc_ddna.dds.5"/>
+  <File path="abrams_misc_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

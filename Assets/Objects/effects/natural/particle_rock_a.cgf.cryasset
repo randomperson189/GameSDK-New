@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="fc4a568c-3c3c-6c90-581d-1d5f074ff740">
+ <Files>
+  <File path="particle_rock_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">36</Detail>
+  <Detail name="vertexCount">57</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Particle_rock.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

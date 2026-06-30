@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="8da9d383-3d5b-600b-2fd3-098da2fca45f">
+ <Files>
+  <File path="fishing_boat_ddna.dds"/>
+  <File path="fishing_boat_ddna.dds.a"/>
+  <File path="fishing_boat_ddna.dds.1"/>
+  <File path="fishing_boat_ddna.dds.1a"/>
+  <File path="fishing_boat_ddna.dds.2"/>
+  <File path="fishing_boat_ddna.dds.2a"/>
+  <File path="fishing_boat_ddna.dds.3"/>
+  <File path="fishing_boat_ddna.dds.3a"/>
+  <File path="fishing_boat_ddna.dds.4"/>
+  <File path="fishing_boat_ddna.dds.4a"/>
+  <File path="fishing_boat_ddna.dds.5"/>
+  <File path="fishing_boat_ddna.dds.5a"/>
+  <File path="fishing_boat_ddna.dds.6"/>
+  <File path="fishing_boat_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

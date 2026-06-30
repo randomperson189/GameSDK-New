@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="dc233278-e3b3-393c-0732-ec54956c6a46">
+ <Files>
+  <File path="signal_diff.dds"/>
+  <File path="signal_diff.dds.1"/>
+  <File path="signal_diff.dds.2"/>
+  <File path="signal_diff.dds.3"/>
+  <File path="signal_diff.dds.4"/>
+  <File path="signal_diff.dds.5"/>
+  <File path="signal_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

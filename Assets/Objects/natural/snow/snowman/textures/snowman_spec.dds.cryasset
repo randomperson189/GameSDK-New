@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="4a200bc5-2b74-7847-1a50-9c0e10c292a8">
+ <Files>
+  <File path="snowman_spec.dds"/>
+  <File path="snowman_spec.dds.1"/>
+  <File path="snowman_spec.dds.2"/>
+  <File path="snowman_spec.dds.3"/>
+  <File path="snowman_spec.dds.4"/>
+  <File path="snowman_spec.dds.5"/>
+  <File path="snowman_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

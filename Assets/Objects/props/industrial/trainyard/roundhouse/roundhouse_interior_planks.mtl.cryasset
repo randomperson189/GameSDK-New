@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="c58d1dd9-a7c8-c776-6233-1e17ff4a1bb2">
+ <Files>
+  <File path="roundhouse_interior_planks.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_parts_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

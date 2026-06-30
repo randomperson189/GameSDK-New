@@ -1,0 +1,26 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="wooden_barrel" MtlFlags="524416" Shader="Illum" GenMask="2000000185" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAMASK_DETAILMAP%BUMP_MAP%DETAIL_MAPPING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.7011019,0.7011019,0.7011019" Specular="0.0097212177,0.0097212177,0.0097212177" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/maritime/wooden_barrel/textures/wooden_barrel_diff.tif">
+     <TexMod TileU="1.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/props/maritime/wooden_barrel/textures/wooden_barrel_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_vertical_1_detail.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" DetailBumpScale="0.5" SubsurfaceScatteringAmount="0" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="_free" MtlFlags="525472" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" vertModifType="2" LayerAct="1">
+   <Textures />
+   <VertexDeform Type="2" DividerX="0.0099999998" DividerY="0.0099999998" DividerZ="0.0099999998" DividerW="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.0099999998" Level="0" Phase="0" Freq="1"/>
+   </VertexDeform>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

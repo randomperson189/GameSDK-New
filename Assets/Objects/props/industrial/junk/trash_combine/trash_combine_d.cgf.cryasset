@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="7ac6a228-5efb-7763-3731-c2fcfd5d9276">
+ <Files>
+  <File path="trash_combine_d.cgf"/>
+  <File path="trash_combine_d_lod1.cgf"/>
+  <File path="trash_combine_d_lod2.cgf"/>
+  <File path="trash_combine_d_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">9</Detail>
+  <Detail name="triangleCount">4615</Detail>
+  <Detail name="vertexCount">4657</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./trash_combine.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

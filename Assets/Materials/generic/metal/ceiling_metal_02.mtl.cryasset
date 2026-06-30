@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="f7b74998-49fb-b5f5-d306-9a5983bf75e8">
+ <Files>
+  <File path="ceiling_metal_02.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/ceiling_metal02_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/ceiling_metal02_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

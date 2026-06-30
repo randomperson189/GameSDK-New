@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="668fea70-96d3-dbf6-05e0-9f938813b078">
+ <Files>
+  <File path="windsock_spec.dds"/>
+  <File path="windsock_spec.dds.1"/>
+  <File path="windsock_spec.dds.2"/>
+  <File path="windsock_spec.dds.3"/>
+  <File path="windsock_spec.dds.4"/>
+  <File path="windsock_spec.dds.5"/>
+  <File path="windsock_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

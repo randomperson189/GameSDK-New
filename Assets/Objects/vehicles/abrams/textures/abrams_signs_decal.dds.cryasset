@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="f7d5d03f-d8fe-7259-e54d-32bc09044671">
+ <Files>
+  <File path="abrams_signs_decal.dds"/>
+  <File path="abrams_signs_decal.dds.1"/>
+  <File path="abrams_signs_decal.dds.2"/>
+  <File path="abrams_signs_decal.dds.3"/>
+  <File path="abrams_signs_decal.dds.4"/>
+  <File path="abrams_signs_decal.dds.5"/>
+  <File path="abrams_signs_decal.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

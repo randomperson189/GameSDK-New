@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="2f200644-aa94-7224-2f1e-87a99e7925f6">
+ <Files>
+  <File path="fishing_house_c_mod_epole.cgf"/>
+  <File path="fishing_house_c_mod_epole_lod1.cgf"/>
+  <File path="fishing_house_c_mod_epole_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">1346</Detail>
+  <Detail name="vertexCount">1312</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_house_c.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

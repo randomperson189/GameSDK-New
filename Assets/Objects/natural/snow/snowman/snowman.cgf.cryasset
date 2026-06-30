@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="21f0c338-0d68-6114-e14e-9de8e6809851">
+ <Files>
+  <File path="snowman.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1898</Detail>
+  <Detail name="vertexCount">1348</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./snowMan.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

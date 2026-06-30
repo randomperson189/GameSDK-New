@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="2014c6b5-e92e-7d76-b0b8-65aae90727f2">
+ <Files>
+  <File path="turntable_parts_ddn.dds"/>
+  <File path="turntable_parts_ddn.dds.1"/>
+  <File path="turntable_parts_ddn.dds.2"/>
+  <File path="turntable_parts_ddn.dds.3"/>
+  <File path="turntable_parts_ddn.dds.4"/>
+  <File path="turntable_parts_ddn.dds.5"/>
+  <File path="turntable_parts_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

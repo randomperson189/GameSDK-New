@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="93591848-adb9-1ffc-6b99-aeb7edd14483">
+ <Files>
+  <File path="shelf_wooden_con.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/furniture/shelves/textures/house_small_a_walls.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_b90_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="944a15fe-ce45-1f5c-aa43-64db86dc08ba">
+ <Files>
+  <File path="sola_abandoned_hull_spec.dds"/>
+  <File path="sola_abandoned_hull_spec.dds.1"/>
+  <File path="sola_abandoned_hull_spec.dds.2"/>
+  <File path="sola_abandoned_hull_spec.dds.3"/>
+  <File path="sola_abandoned_hull_spec.dds.4"/>
+  <File path="sola_abandoned_hull_spec.dds.5"/>
+  <File path="sola_abandoned_hull_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

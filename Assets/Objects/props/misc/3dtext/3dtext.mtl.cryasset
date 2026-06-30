@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="2aeee7be-0340-c04d-60b8-be8e3e404362">
+ <Files>
+  <File path="3dtext.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">textures/defaults/white_noise.dds</Path>
+  <Path usageCount="1">objects/props/misc/3dtext/textures/3dtext_b_ddn.dds</Path>
+  <Path usageCount="1">objects/props/misc/3dtext/textures/3dtext_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

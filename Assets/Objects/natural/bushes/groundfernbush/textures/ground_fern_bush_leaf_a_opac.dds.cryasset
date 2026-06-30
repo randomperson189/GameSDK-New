@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="3382826f-80eb-b81e-056a-5bed8201a87a">
+ <Files>
+  <File path="ground_fern_bush_leaf_a_opac.dds"/>
+  <File path="ground_fern_bush_leaf_a_opac.dds.1"/>
+  <File path="ground_fern_bush_leaf_a_opac.dds.2"/>
+  <File path="ground_fern_bush_leaf_a_opac.dds.3"/>
+  <File path="ground_fern_bush_leaf_a_opac.dds.4"/>
+  <File path="ground_fern_bush_leaf_a_opac.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

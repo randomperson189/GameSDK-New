@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="42d50ca4-1154-85e0-2c25-c6cc9947b81b">
+ <Files>
+  <File path="radiator_ddna.dds"/>
+  <File path="radiator_ddna.dds.a"/>
+  <File path="radiator_ddna.dds.1"/>
+  <File path="radiator_ddna.dds.1a"/>
+  <File path="radiator_ddna.dds.2"/>
+  <File path="radiator_ddna.dds.2a"/>
+  <File path="radiator_ddna.dds.3"/>
+  <File path="radiator_ddna.dds.3a"/>
+  <File path="radiator_ddna.dds.4"/>
+  <File path="radiator_ddna.dds.4a"/>
+  <File path="radiator_ddna.dds.5"/>
+  <File path="radiator_ddna.dds.5a"/>
+  <File path="radiator_ddna.dds.6"/>
+  <File path="radiator_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

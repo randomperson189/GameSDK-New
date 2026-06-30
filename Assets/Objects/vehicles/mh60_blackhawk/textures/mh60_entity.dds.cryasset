@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="b2129840-923b-4d3c-1c41-1263a6acd5fe">
+ <Files>
+  <File path="mh60_entity.dds"/>
+  <File path="mh60_entity.dds.1"/>
+  <File path="mh60_entity.dds.2"/>
+  <File path="mh60_entity.dds.3"/>
+  <File path="mh60_entity.dds.4"/>
+  <File path="mh60_entity.dds.5"/>
+  <File path="mh60_entity.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

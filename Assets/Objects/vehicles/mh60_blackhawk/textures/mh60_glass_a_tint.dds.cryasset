@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="30459700-21ea-b255-0130-16fc5f99caad">
+ <Files>
+  <File path="mh60_glass_a_tint.dds"/>
+  <File path="mh60_glass_a_tint.dds.1"/>
+  <File path="mh60_glass_a_tint.dds.2"/>
+  <File path="mh60_glass_a_tint.dds.3"/>
+  <File path="mh60_glass_a_tint.dds.4"/>
+  <File path="mh60_glass_a_tint.dds.5"/>
+  <File path="mh60_glass_a_tint.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

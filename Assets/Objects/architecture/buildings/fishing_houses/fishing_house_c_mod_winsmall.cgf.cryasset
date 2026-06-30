@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="df1ad8ad-c869-98f9-8ed0-da4ff6c64b86">
+ <Files>
+  <File path="fishing_house_c_mod_winsmall.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">9</Detail>
+  <Detail name="triangleCount">74</Detail>
+  <Detail name="vertexCount">106</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_house_c.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

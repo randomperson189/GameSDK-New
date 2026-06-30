@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="b361e30f-2f97-141e-7d50-8089b8ec8946">
+ <Files>
+  <File path="campfire_lod2_spec.dds"/>
+  <File path="campfire_lod2_spec.dds.1"/>
+  <File path="campfire_lod2_spec.dds.2"/>
+  <File path="campfire_lod2_spec.dds.3"/>
+  <File path="campfire_lod2_spec.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

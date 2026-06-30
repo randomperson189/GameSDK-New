@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="a60fcae9-47a6-84f6-8d5e-a2be78433330">
+ <Files>
+  <File path="train_wagon_frame.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/trainyard/trains/wagons/textures/train_wagonframe_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/trains/wagons/textures/train_wagonframe_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

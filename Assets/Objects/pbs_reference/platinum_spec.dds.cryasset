@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="7d23a1cb-5b33-0ee3-4cda-a1a26dd8b3af">
+ <Files>
+  <File path="platinum_spec.dds"/>
+  <File path="platinum_spec.dds.1"/>
+  <File path="platinum_spec.dds.2"/>
+  <File path="platinum_spec.dds.3"/>
+  <File path="platinum_spec.dds.4"/>
+  <File path="platinum_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

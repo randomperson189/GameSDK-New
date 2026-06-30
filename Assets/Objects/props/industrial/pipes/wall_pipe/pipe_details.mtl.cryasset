@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="eda0b612-be71-b0dc-1a98-47d927e56bb6">
+ <Files>
+  <File path="pipe_details.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metalstripes_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metalstripes_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metalstripes_a_spec.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/barbwire_fence/textures/chainlink_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/barbwire_fence/textures/chainlink_ddna.dds</Path>
+  <Path usageCount="1">objects/props/industrial/pipes/wall_pipe/textures/pipes_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/pipes/wall_pipe/textures/pipes_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

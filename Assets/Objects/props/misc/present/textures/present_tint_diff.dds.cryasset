@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="ac8fa372-374a-51fa-c4e5-a744b86b1b51">
+ <Files>
+  <File path="present_tint_diff.dds"/>
+  <File path="present_tint_diff.dds.1"/>
+  <File path="present_tint_diff.dds.2"/>
+  <File path="present_tint_diff.dds.3"/>
+  <File path="present_tint_diff.dds.4"/>
+  <File path="present_tint_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

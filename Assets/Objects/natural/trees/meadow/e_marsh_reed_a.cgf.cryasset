@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="862752ac-5820-fb34-954d-fcaebaec1e51">
+ <Files>
+  <File path="e_marsh_reed_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">123</Detail>
+  <Detail name="vertexCount">120</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Marsh_Plants.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

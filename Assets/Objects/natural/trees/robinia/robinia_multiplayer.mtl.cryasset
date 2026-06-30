@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Material" guid="865c3413-edb3-9a73-efd5-c003ae41d4b0">
+ <Files>
+  <File path="robinia_multiplayer.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">8</Detail>
+  <Detail name="textureCount">12</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/natural/trees/robinia/trunk_rotten_diff.dds</Path>
+  <Path usageCount="2">objects/natural/trees/robinia/trunk_rotten_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/robinia/trunk_a_med_detail.dds</Path>
+  <Path usageCount="2">objects/natural/trees/robinia/trunk_rotten_mask.dds</Path>
+  <Path usageCount="2">objects/natural/woodland/moss_diff.dds</Path>
+  <Path usageCount="2">objects/natural/woodland/moss_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/robinia/trunk_b_lean_detail.dds</Path>
+  <Path usageCount="1">objects/natural/trees/robinia/robinia_leaf_mp_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/robinia/robinia_leaf_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/robinia/robinia_leaf_sss.dds</Path>
+  <Path usageCount="1">objects/natural/trees/robinia/robinia_trunk_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/robinia/robinia_trunk_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

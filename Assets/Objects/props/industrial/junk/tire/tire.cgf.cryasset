@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="9593ab39-67bc-7a1d-55b3-374cc72a6b8c">
+ <Files>
+  <File path="tire.cgf"/>
+  <File path="tire_lod1.cgf"/>
+  <File path="tire_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">538</Detail>
+  <Detail name="vertexCount">383</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Tire.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

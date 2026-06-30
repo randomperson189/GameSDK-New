@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="76d8a7db-5da1-a772-eae3-816405303e46">
+ <Files>
+  <File path="HUD3D.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./HUD3D.dds</Path>
+ </Dependencies>
+</AssetMetadata>

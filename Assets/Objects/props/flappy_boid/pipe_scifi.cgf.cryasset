@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="1c2f61fc-4a24-b772-38fe-d7b351dc3232">
+ <Files>
+  <File path="pipe_scifi.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">10</Detail>
+  <Detail name="triangleCount">3596</Detail>
+  <Detail name="vertexCount">3302</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./pipe.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="479d7948-e2f9-5a28-22e1-557e905c5830">
+ <Files>
+  <File path="haybale.cgf"/>
+  <File path="haybale_lod1.cgf"/>
+  <File path="haybale_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">2769</Detail>
+  <Detail name="vertexCount">2878</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./haybale.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="b658a61c-c3d3-e88e-3991-200405915b88">
+ <Files>
+  <File path="soda_can_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">224</Detail>
+  <Detail name="vertexCount">291</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./soda_can_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

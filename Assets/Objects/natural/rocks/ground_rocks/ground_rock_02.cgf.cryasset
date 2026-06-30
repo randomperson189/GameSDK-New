@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="4ec03601-9033-dace-b927-24bce6132233">
+ <Files>
+  <File path="ground_rock_02.cgf"/>
+  <File path="ground_rock_02_lod1.cgf"/>
+  <File path="ground_rock_02_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">1350</Detail>
+  <Detail name="vertexCount">880</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ground_rock_01.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

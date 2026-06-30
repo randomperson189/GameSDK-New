@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="9018764a-5d1a-2018-6143-890d0b1a78c4">
+ <Files>
+  <File path="door_sign_water_tower.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/industrial/signs/textures/door_sign_water_tower_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

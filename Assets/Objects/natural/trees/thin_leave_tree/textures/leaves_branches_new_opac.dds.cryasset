@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="157f53e2-1cc2-f925-b4d8-494bf3008a2d">
+ <Files>
+  <File path="leaves_branches_new_opac.dds"/>
+  <File path="leaves_branches_new_opac.dds.1"/>
+  <File path="leaves_branches_new_opac.dds.2"/>
+  <File path="leaves_branches_new_opac.dds.3"/>
+  <File path="leaves_branches_new_opac.dds.4"/>
+  <File path="leaves_branches_new_opac.dds.5"/>
+  <File path="leaves_branches_new_opac.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

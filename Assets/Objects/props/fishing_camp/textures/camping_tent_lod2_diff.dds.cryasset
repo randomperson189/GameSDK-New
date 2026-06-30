@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="0c8aa173-548f-53e9-1edc-a8d81e72b1b8">
+ <Files>
+  <File path="camping_tent_lod2_diff.dds"/>
+  <File path="camping_tent_lod2_diff.dds.1"/>
+  <File path="camping_tent_lod2_diff.dds.2"/>
+  <File path="camping_tent_lod2_diff.dds.3"/>
+  <File path="camping_tent_lod2_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

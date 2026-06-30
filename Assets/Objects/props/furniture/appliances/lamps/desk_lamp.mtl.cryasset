@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="8d5bb15d-6cbb-84c0-5e7c-271ba01ffa15">
+ <Files>
+  <File path="desk_lamp.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="4">Objects/props/furniture/appliances/lamps/textures/desklamp_dif.dds</Path>
+  <Path usageCount="3">Objects/props/furniture/appliances/lamps/textures/desklamp_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

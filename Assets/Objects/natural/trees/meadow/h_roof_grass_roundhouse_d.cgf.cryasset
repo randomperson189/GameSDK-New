@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="17dd05a0-9b23-87e2-724c-d82ea7314e6b">
+ <Files>
+  <File path="h_roof_grass_roundhouse_d.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">1495</Detail>
+  <Detail name="vertexCount">1972</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Meadow_Grass_Architecture.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

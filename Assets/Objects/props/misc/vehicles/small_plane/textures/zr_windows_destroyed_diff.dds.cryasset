@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="83257ac2-e478-8c40-447a-c7006fc47265">
+ <Files>
+  <File path="zr_windows_destroyed_diff.dds"/>
+  <File path="zr_windows_destroyed_diff.dds.1"/>
+  <File path="zr_windows_destroyed_diff.dds.2"/>
+  <File path="zr_windows_destroyed_diff.dds.3"/>
+  <File path="zr_windows_destroyed_diff.dds.4"/>
+  <File path="zr_windows_destroyed_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

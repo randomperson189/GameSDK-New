@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="f1da166c-1ec4-b370-aea1-c14ea4e9a468">
+ <Files>
+  <File path="sky_night.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/skydomes/night.dds</Path>
+ </Dependencies>
+</AssetMetadata>

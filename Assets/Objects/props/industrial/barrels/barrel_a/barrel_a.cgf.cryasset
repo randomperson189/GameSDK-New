@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ecdf7735-911a-b577-819a-267f54ecd2d9">
+ <Files>
+  <File path="barrel_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">194</Detail>
+  <Detail name="vertexCount">170</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./barrel_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

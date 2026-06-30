@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="dbd465df-3c43-b2a8-4727-f427865695db">
+ <Files>
+  <File path="night.dds"/>
+  <File path="night.dds.1"/>
+  <File path="night.dds.2"/>
+  <File path="night.dds.3"/>
+  <File path="night.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

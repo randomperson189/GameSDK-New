@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="e0f7a038-0f7b-216a-827d-346c1054465f">
+ <Files>
+  <File path="rail_wood.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/trainyard/railroad_tracks/textures/railroad_wood_ties_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/railroad_tracks/textures/railroad_wood_ties_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

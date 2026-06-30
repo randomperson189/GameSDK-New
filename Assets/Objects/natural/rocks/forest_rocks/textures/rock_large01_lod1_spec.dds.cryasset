@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="32af8e8d-7f4b-9411-21d4-3df063526e52">
+ <Files>
+  <File path="rock_large01_lod1_spec.dds"/>
+  <File path="rock_large01_lod1_spec.dds.1"/>
+  <File path="rock_large01_lod1_spec.dds.2"/>
+  <File path="rock_large01_lod1_spec.dds.3"/>
+  <File path="rock_large01_lod1_spec.dds.4"/>
+  <File path="rock_large01_lod1_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

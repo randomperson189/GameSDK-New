@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="9aca1fd3-e78b-f7a0-d6f5-a84aa23e800b">
+ <Files>
+  <File path="blown_snow_01.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">45</Detail>
+  <Detail name="vertexCount">34</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./blown_snow1.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="31227b1f-4ac3-5e47-cadf-a1a60bd22b63">
+ <Files>
+  <File path="camp_fire_a_lod2_ddna.dds"/>
+  <File path="camp_fire_a_lod2_ddna.dds.a"/>
+  <File path="camp_fire_a_lod2_ddna.dds.1"/>
+  <File path="camp_fire_a_lod2_ddna.dds.1a"/>
+  <File path="camp_fire_a_lod2_ddna.dds.2"/>
+  <File path="camp_fire_a_lod2_ddna.dds.2a"/>
+  <File path="camp_fire_a_lod2_ddna.dds.3"/>
+  <File path="camp_fire_a_lod2_ddna.dds.3a"/>
+  <File path="camp_fire_a_lod2_ddna.dds.4"/>
+  <File path="camp_fire_a_lod2_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

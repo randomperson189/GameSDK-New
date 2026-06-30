@@ -1,0 +1,49 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="hull" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/abrams/textures/abrams_green_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/abrams/textures/abrams_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/abrams/textures/abrams_spec.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_detail.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="2623648" Shader="Glass" GenMask="100040004210" StringGenMask="%BILINEAR_FP16%DEPTH_FOG%DIRT_MAP%SPECULAR_MAP%TINT_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="230" AlphaTest="0.1" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/abrams/textures/abrams_glass_diff.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/abrams/textures/abrams_glass_tint_diff.tif"/>
+   </Textures>
+   <PublicParams FogColor="0.1620294,0.20507877,0.21952623" BumpMapTile="1" TintColor="1,1,1" FogCutoffEnd="0.5" CloudinessReducesGloss="1" FogDensity="0.5" TintCloudiness="1" BackLightScale="0.5" BumpScale="0"/>
+  </Material>
+  <Material Name="decals" MtlFlags="524448" Shader="Illum" GenMask="80000801" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0.0056053922,0.0056053922,0.0056053922" Emissive="0,0,0" Opacity="1" Shininess="43" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/abrams/textures/abrams_signs_decal.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="0.56999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="track" MtlFlags="524416" Shader="Illum" GenMask="C9000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.44999999" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/abrams/textures/abrams_treads_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorRate="6" TexMod_UOscillatorAmplitude="-0.1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/vehicles/abrams/textures/abrams_treads_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/abrams/textures/abrams_treads_spec.tif"/>
+    <Texture Map="Heightmap" File="objects/vehicles/abrams/textures/abrams_treads_height.tif"/>
+   </Textures>
+   <PublicParams PomDisplacement="0.050000001" SSSIndex="0" SelfShadowStrength="0" HeightBias="0.54299998" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_rubber" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_rubber" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_glass" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

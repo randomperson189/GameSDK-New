@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="183b7248-cd94-4140-c820-c0a1c6c344ae">
+ <Files>
+  <File path="forest_ground_patch_leafs_med_b.cgf"/>
+  <File path="forest_ground_patch_leafs_med_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">172</Detail>
+  <Detail name="vertexCount">216</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./forest_ground.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

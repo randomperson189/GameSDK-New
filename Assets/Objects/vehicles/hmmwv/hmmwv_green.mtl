@@ -1,0 +1,86 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy_metal" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="0.5" Shininess="9.999999" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="body" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv/textures/hmmwv_a_body_green_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/hmmwv/textures/hmmwv_a_body_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/hmmwv/textures/hmmwv_a_body_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+  </Material>
+  <Material Name="glass" MtlFlags="2623648" Shader="Glass" GenMask="100040004010" StringGenMask="%BILINEAR_FP16%DIRT_MAP%SPECULAR_MAP%TINT_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="220" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv/textures/hmmwv_a_glass_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/hmmwv/textures/hmmwv_a_glass_ddn.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/hmmwv/textures/hmmwv_a_glass_tint_diff.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.29613829,0.29613829,0.29613829" CloudinessReducesGloss="0.5" TintCloudiness="0.039999999" BackLightScale="0.5" BumpScale="0.32300001" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+  </Material>
+  <Material Name="decals" MtlFlags="524448" Shader="Illum" GenMask="80000801" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="29" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv/textures/hmmwv_a_decal_diff.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="grate" MtlFlags="524418" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.025186861,0.025186861,0.025186861" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.58999997" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv/textures/hmmwv_a_grate_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/hmmwv/textures/hmmwv_a_grate_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_rubber" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_rubber" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="0.5" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_fabric" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="0.5" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_glass" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="0.5" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="lod_1" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv/textures/hmmwv_green_a_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/hmmwv/textures/hmmwv_a_lod1_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/hmmwv/textures/hmmwv_a_lod1_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lod_2" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv/textures/hmmwv_green_a_lod2_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/hmmwv/textures/hmmwv_a_lod2_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/hmmwv/textures/hmmwv_a_lod2_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lod_3" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv/textures/hmmwv_green_a_lod3_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/hmmwv/textures/hmmwv_a_lod3_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/hmmwv/textures/hmmwv_a_lod3_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lod_4" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv/textures/hmmwv_green_a_lod4_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/hmmwv/textures/hmmwv_a_lod4_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/hmmwv/textures/hmmwv_a_lod4_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lod_5" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/hmmwv/textures/hmmwv_green_a_lod5_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/hmmwv/textures/hmmwv_a_lod5_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/hmmwv/textures/hmmwv_a_lod5_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

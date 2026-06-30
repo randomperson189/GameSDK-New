@@ -1,0 +1,11 @@
+<Material MtlFlags="524290" Shader="Illum" GenMask="80" StringGenMask="%BUMP_MAP" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="25" Opacity="1" vertModifType="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/props/mine/textures/hanging_cloth_diff.tif"/>
+  <Texture Map="Bumpmap" File="objects/props/mine/textures/hanging_cloth_ddna.tif"/>
+ </Textures>
+ <VertexDeform Type="1" DividerX="0.1" DividerY="0" DividerZ="0" DividerW="1" NoiseScale="1,1,1">
+  <WaveX Type="1" Amp="0.0099999998" Level="0.0099999998" Phase="1" Freq="0.5"/>
+  <WaveZ Type="1" Amp="0.1" Level="0.1" Phase="0.1" Freq="0.1"/>
+ </VertexDeform>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

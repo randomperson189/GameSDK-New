@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="4de61194-d4d1-f87c-dedf-94512dc769f3">
+ <Files>
+  <File path="abandoned_sink_a.cgf"/>
+  <File path="abandoned_sink_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">944</Detail>
+  <Detail name="vertexCount">854</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./abandoned_bathroom.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

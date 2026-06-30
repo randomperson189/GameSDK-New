@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="b7eeadcf-aa4b-5c89-76cd-b08a9fb2522b">
+ <Files>
+  <File path="x_beam_8m.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">8</Detail>
+  <Detail name="vertexCount">16</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./framework.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

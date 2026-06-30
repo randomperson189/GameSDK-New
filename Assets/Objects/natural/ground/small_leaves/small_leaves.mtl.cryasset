@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="84d90e76-1123-9782-1692-571b21a7b73a">
+ <Files>
+  <File path="small_leaves.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/ground/small_leaves/textures/leaves_a_diff.dds</Path>
+  <Path usageCount="1">objects/natural/ground/small_leaves/textures/leaves_a_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+  <Path usageCount="1">objects/natural/ground/small_leaves/textures/leaves_a_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

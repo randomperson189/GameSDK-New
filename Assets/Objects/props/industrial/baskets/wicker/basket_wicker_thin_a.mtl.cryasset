@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="54594d66-66e8-556c-46ca-b108a0a8cff1">
+ <Files>
+  <File path="basket_wicker_thin_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/industrial/baskets/wicker/textures/basket_wicker_thin_a_diff.dds</Path>
+  <Path usageCount="2">objects/props/industrial/baskets/wicker/textures/basket_wicker_thin_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="492f5870-6a89-5604-ca27-7dcd99c25678">
+ <Files>
+  <File path="tl_big_b.cgf"/>
+  <File path="tl_big_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">171</Detail>
+  <Detail name="vertexCount">156</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./thin_leaves.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

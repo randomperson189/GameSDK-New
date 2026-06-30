@@ -1,0 +1,27 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="engine" MtlFlags="524416" Shader="Illum" GenMask="2000000180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="80" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/trainyard/trains/locos/l_diesel/textures/l_diesel_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/trainyard/trains/locos/l_diesel/textures/l_diesel_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_a_detail.tif">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="1" DetailBumpScale="0.5" SubsurfaceScatteringAmount="0" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="decals" MtlFlags="524448" Shader="Illum" GenMask="2000000800" StringGenMask="%DECAL%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.11443538,0.11443538,0.11443538" Emissive="0,0,0" Opacity="0.62" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/trainyard/trains/wagons/textures/train_wagon_dcal.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="physic_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_railing" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_RayProxy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

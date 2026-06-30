@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="53126520-efd3-8463-1fac-5199d9591ea8">
+ <Files>
+  <File path="woodpath_2m_curve.cgf"/>
+  <File path="woodpath_2m_curve_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">226</Detail>
+  <Detail name="vertexCount">292</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wooden_pathway.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

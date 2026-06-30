@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="ac913b2d-b9b6-0394-8439-50dddecc0c48">
+ <Files>
+  <File path="industrial_lamp.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/industrial/electrical/industrial_lamp/textures/industrial_lamp_diff.dds</Path>
+  <Path usageCount="2">objects/props/industrial/electrical/industrial_lamp/textures/industrial_lamp_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

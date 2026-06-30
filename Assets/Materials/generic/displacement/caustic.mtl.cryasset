@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="faecb194-684c-273e-c428-b453cad5a497">
+ <Files>
+  <File path="caustic.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/caustic_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/caustic_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

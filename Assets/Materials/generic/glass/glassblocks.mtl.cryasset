@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="900061b2-611d-75cd-c827-6028f19683c6">
+ <Files>
+  <File path="glassblocks.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/glass/glassblocks_diff.dds</Path>
+  <Path usageCount="1">textures/generic/glass/glassblocks_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/glass/glassblocks_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

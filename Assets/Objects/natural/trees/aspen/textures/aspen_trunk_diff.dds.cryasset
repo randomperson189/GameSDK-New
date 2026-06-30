@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a0442bee-3fe6-d27f-fd63-17a88bc4fb48">
+ <Files>
+  <File path="aspen_trunk_diff.dds"/>
+  <File path="aspen_trunk_diff.dds.1"/>
+  <File path="aspen_trunk_diff.dds.2"/>
+  <File path="aspen_trunk_diff.dds.3"/>
+  <File path="aspen_trunk_diff.dds.4"/>
+  <File path="aspen_trunk_diff.dds.5"/>
+  <File path="aspen_trunk_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,24 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="frames" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.79910272,0.79910272,0.79910272" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="20" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/plywood_dark_diff.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="526464" Shader="Glass" GenMask="14250" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%DEPTH_FOG%DIRT_MAP%ENVIRONMENT_MAP" SurfaceType="mat_glass" MatTemplate="" Diffuse="0.051269464,0.051269464,0.051269464" Specular="0.49693301,0.49693301,0.49693301" Emissive="0,0,0" Shininess="220" Opacity="0.75" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/glass/glass_clear_diff.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/generic_cubemap_day_cm.tif"/>
+   </Textures>
+   <PublicParams FogColor="0.010397803,0.010397803,0.010397803" SpecFromDiffAlphaBias="0" BumpMapTile="1" TintColor="0.21586053,0.21586053,0.21586053" BlurAmount="0.5" FresnelScale="1" SpecFromDiffAlphaMult="1" FogCutoffEnd="20" FresnelBias="1" FogDensity="0.5" TintCloudiness="0.050000001" BackLightScale="0.75" BumpScale="0"/>
+  </Material>
+  <Material Name="broken_glass" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_glass" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="nodraw" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_glass" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="bef2897c-534d-59cb-e4a7-0e9b44d4bd85">
+ <Files>
+  <File path="logpath.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/roads/logpath_diff.dds</Path>
+  <Path usageCount="1">textures/roads/logpath_ddna.dds</Path>
+  <Path usageCount="1">textures/roads/logpath_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

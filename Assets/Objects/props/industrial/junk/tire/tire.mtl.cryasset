@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="8f451e72-084d-4ddf-8dac-c096cfbd06fe">
+ <Files>
+  <File path="tire.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/junk/tire/textures/tire_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/junk/tire/textures/tire_spec.dds</Path>
+  <Path usageCount="1">objects/props/industrial/junk/tire/textures/tire_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

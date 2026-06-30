@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="a0003865-2b0e-333d-890e-156397eeb0ff">
+ <Files>
+  <File path="silver_gloss.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/white.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metals_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/silver_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

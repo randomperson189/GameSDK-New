@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="42aa7a13-688d-9993-c6d9-8e2b8ee3615e">
+ <Files>
+  <File path="window_breakable_player.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">15</Detail>
+  <Detail name="triangleCount">976</Detail>
+  <Detail name="vertexCount">1622</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Roundhouse.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

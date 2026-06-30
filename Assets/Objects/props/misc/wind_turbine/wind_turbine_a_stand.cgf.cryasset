@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="6a848e52-d1a7-bf9c-16b8-a17ada25b4f6">
+ <Files>
+  <File path="wind_turbine_a_stand.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">144</Detail>
+  <Detail name="vertexCount">150</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wind_turbine.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

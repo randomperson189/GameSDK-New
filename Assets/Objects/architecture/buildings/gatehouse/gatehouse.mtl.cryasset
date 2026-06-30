@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Material" guid="d182b9d4-ab94-1a0f-e4ad-3b9b3872abff">
+ <Files>
+  <File path="gatehouse.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">10</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_ground_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_ground_a_ddna.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/concrete/detail_concrete_detail.dds</Path>
+  <Path usageCount="1">textures/generic/brick/thin_brick_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/thin_brick_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/thin_brick_displ.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_curbs_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_curbs_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

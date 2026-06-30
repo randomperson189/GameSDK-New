@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="20b28b97-3237-56d5-5028-e7fe2b6daeff">
+ <Files>
+  <File path="lod_snow.dds"/>
+  <File path="lod_snow.dds.1"/>
+  <File path="lod_snow.dds.2"/>
+  <File path="lod_snow.dds.3"/>
+  <File path="lod_snow.dds.4"/>
+  <File path="lod_snow.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

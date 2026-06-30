@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="709d4ec5-dca5-f8ab-75ca-efa4da3a0dbb">
+ <Files>
+  <File path="round_leaf_bush_big_yellow.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/trunk_pino_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/trunk_pino_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/roundleafbush/textures/leaves_a_diff.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/roundleafbush/textures/leaves_a_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/roundleafbush/textures/leaves_a_opac.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="c586f871-3e00-c909-eb8b-4be1139eccb4">
+ <Files>
+  <File path="car_paint.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/car_paint_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/car_paint_spec.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/gloss80_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

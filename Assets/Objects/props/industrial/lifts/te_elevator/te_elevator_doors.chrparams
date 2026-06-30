@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Params>
+	<AnimationList>
+		<Animation name="#filepath" path="Animations/objects/props/doors"/>
+		<Animation name="*" path="*.caf"/>
+	</AnimationList>
+</Params>

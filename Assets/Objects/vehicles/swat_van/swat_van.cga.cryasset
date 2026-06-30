@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="AnimatedMesh" guid="1d148ad7-1d85-adf2-8b5b-049f0b214e15">
+ <Files>
+  <File path="swat_van.cga"/>
+  <File path="swat_van_lod1.cga"/>
+  <File path="swat_van_lod2.cga"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">64695</Detail>
+  <Detail name="vertexCount">54716</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/vehicles/swat_van/swat_van.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

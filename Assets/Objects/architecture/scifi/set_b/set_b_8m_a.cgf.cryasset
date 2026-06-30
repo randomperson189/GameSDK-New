@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="f86df31f-ab3f-c853-bed5-c743fad9a0a2">
+ <Files>
+  <File path="set_b_8m_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">21</Detail>
+  <Detail name="triangleCount">1236</Detail>
+  <Detail name="vertexCount">1258</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./set_b.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

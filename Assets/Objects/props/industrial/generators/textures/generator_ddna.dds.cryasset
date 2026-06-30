@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="5d6defe0-2d69-90cf-136e-4182bdc9c372">
+ <Files>
+  <File path="generator_ddna.dds"/>
+  <File path="generator_ddna.dds.a"/>
+  <File path="generator_ddna.dds.1"/>
+  <File path="generator_ddna.dds.1a"/>
+  <File path="generator_ddna.dds.2"/>
+  <File path="generator_ddna.dds.2a"/>
+  <File path="generator_ddna.dds.3"/>
+  <File path="generator_ddna.dds.3a"/>
+  <File path="generator_ddna.dds.4"/>
+  <File path="generator_ddna.dds.4a"/>
+  <File path="generator_ddna.dds.5"/>
+  <File path="generator_ddna.dds.5a"/>
+  <File path="generator_ddna.dds.6"/>
+  <File path="generator_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

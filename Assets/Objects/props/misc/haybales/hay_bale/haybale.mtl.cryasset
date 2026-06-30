@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="30fe2df5-70ae-8f3c-64d3-cfe19a2841b7">
+ <Files>
+  <File path="haybale.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/haybales/hay_bale/textures/hay_bale_grass_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/haybales/hay_bale/textures/hay_bale_base_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

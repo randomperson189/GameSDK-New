@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="e0c938fd-a9c9-9a68-4523-c09696fdfcf2">
+ <Files>
+  <File path="greenhouse.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/buildings/greenhouse/textures/greenhouse_glass_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/greenhouse/textures/greenhouse_glass_ddn.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/greenhouse/textures/greenhouse_glass_tint.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/greenhouse/textures/greenhouse_metal_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/greenhouse/textures/greenhouse_metal_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/greenhouse/textures/greenhouse_metal_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

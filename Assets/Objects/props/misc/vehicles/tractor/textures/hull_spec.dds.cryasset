@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="0d3a14b1-fc81-8aaa-2bf8-63e080c681df">
+ <Files>
+  <File path="hull_spec.dds"/>
+  <File path="hull_spec.dds.1"/>
+  <File path="hull_spec.dds.2"/>
+  <File path="hull_spec.dds.3"/>
+  <File path="hull_spec.dds.4"/>
+  <File path="hull_spec.dds.5"/>
+  <File path="hull_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

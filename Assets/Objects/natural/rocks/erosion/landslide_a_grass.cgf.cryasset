@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="c27d6f19-10b9-ef2c-375b-d869b0ab731e">
+ <Files>
+  <File path="landslide_a_grass.cgf"/>
+  <File path="landslide_a_grass_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">672</Detail>
+  <Detail name="vertexCount">645</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./erosion_grass.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d14f9cbd-65a0-52a4-7658-272ef7c5f161">
+ <Files>
+  <File path="icicles_ddn.dds"/>
+  <File path="icicles_ddn.dds.1"/>
+  <File path="icicles_ddn.dds.2"/>
+  <File path="icicles_ddn.dds.3"/>
+  <File path="icicles_ddn.dds.4"/>
+  <File path="icicles_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

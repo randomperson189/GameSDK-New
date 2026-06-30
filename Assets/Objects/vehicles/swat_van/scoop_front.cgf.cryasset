@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="d635f0d4-c18c-0ccf-0980-a1d85bf32861">
+ <Files>
+  <File path="scoop_front.cgf"/>
+  <File path="scoop_front_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">932</Detail>
+  <Detail name="vertexCount">1302</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/vehicles/swat_van/swat_van.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

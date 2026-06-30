@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="fa514cf2-859f-c62c-d4a9-23153b45b1df">
+ <Files>
+  <File path="lily_pads_a_short.cgf"/>
+  <File path="lily_pads_a_short_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">288</Detail>
+  <Detail name="vertexCount">321</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Aquatic_Plants.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="237390a5-2674-758f-568c-683b903f1b4c">
+ <Files>
+  <File path="bubbles.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/sprites/water/bubbles_a.dds</Path>
+  <Path usageCount="1">textures/defaults/perlinnoise2d.dds</Path>
+  <Path usageCount="1">textures/sprites/water/refraction_b_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

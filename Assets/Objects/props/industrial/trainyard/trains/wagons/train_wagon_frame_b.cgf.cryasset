@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="7bc969ca-92bc-8155-0ee7-a1678c760577">
+ <Files>
+  <File path="train_wagon_frame_b.cgf"/>
+  <File path="train_wagon_frame_b_lod1.cgf"/>
+  <File path="train_wagon_frame_b_lod2.cgf"/>
+  <File path="train_wagon_frame_b_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">3602</Detail>
+  <Detail name="vertexCount">4776</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./train_wagon_frame.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

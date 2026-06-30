@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="ca4bc9d5-0760-fe33-812d-a2e482d24d44">
+ <Files>
+  <File path="stone_barrier_high_a_cap.cgf"/>
+  <File path="stone_barrier_high_a_cap_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">560</Detail>
+  <Detail name="vertexCount">339</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./stone_barrier.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

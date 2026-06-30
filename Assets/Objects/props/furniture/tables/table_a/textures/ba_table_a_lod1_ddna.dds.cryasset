@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="a40e3094-6c0e-caff-5b2d-28514198cc4e">
+ <Files>
+  <File path="ba_table_a_lod1_ddna.dds"/>
+  <File path="ba_table_a_lod1_ddna.dds.a"/>
+  <File path="ba_table_a_lod1_ddna.dds.1"/>
+  <File path="ba_table_a_lod1_ddna.dds.1a"/>
+  <File path="ba_table_a_lod1_ddna.dds.2"/>
+  <File path="ba_table_a_lod1_ddna.dds.2a"/>
+  <File path="ba_table_a_lod1_ddna.dds.3"/>
+  <File path="ba_table_a_lod1_ddna.dds.3a"/>
+  <File path="ba_table_a_lod1_ddna.dds.4"/>
+  <File path="ba_table_a_lod1_ddna.dds.4a"/>
+  <File path="ba_table_a_lod1_ddna.dds.5"/>
+  <File path="ba_table_a_lod1_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

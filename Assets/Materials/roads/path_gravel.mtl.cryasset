@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="7bdacb15-945e-4ea3-2cbe-32d283dbfdb3">
+ <Files>
+  <File path="path_gravel.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/roads/path_gravel_diff.dds</Path>
+  <Path usageCount="1">textures/roads/path_gravel_ddna.dds</Path>
+  <Path usageCount="1">textures/roads/path_gravel_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

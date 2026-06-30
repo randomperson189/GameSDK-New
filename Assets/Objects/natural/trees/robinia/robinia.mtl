@@ -1,0 +1,70 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="trunk" MtlFlags="524416" Shader="Illum" GenMask="81000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/pine_trunk_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/pine_trunk_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/trees/robinia/trunk_b_lean_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.14300001" TileV="0.14300001"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/woodland/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/woodland/moss_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/trees/robinia/trunk_rotten_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.5" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="3" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="leaves" MtlFlags="524416" Shader="Vegetation" GenMask="2401801000" StringGenMask="%DETAIL_BENDING%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/robinia/robinia_leaf_diff.tif" Filter="5"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/robinia/robinia_leaf_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/trees/robinia/robinia_leaf_sss.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.5" bendDetailFrequency="0.5" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="0.94730651,0.92158186,0.62396044" CapOpacityFalloff="0" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.40000001" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="trunk_leaves" MtlFlags="525472" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.04145189,0.04145189,0.04145189" Emissive="0,0,0" Opacity="1" Shininess="120" AlphaTest="0.30000001" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="physics_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="obstruct_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_obstruct" MatTemplate="" Diffuse="0,1,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bending_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="trunk_lean_b" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.64447969,0.64447969,0.64447969" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/pine_trunk_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="7" TileV="7"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/trees/robinia/trunk_rotten_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/trees/robinia/trunk_b_lean_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.14300001" TileV="0.14300001"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/woodland/moss_diff.dds"/>
+    <Texture Map="[1] Custom" File="objects/natural/woodland/moss_ddna.dds"/>
+    <Texture Map="Opacity" File="objects/natural/trees/robinia/trunk_rotten_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="2" BlendLayer2Tiling="1" DetailDiffuseScale="1" SSSIndex="0" DetailBumpScale="2" BlendMaskTiling="1" BlendFactor="6" DetailGlossScale="0" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="trunk_a_med" MtlFlags="524416" Shader="Illum" GenMask="810000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.64447981,0.64447981,0.64447981" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/robinia/trunk_rotten_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="7" TileV="7"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/trees/robinia/trunk_rotten_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/trees/robinia/trunk_a_med_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.14300001" TileV="0.14300001"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/natural/woodland/moss_diff.dds"/>
+    <Texture Map="[1] Custom" File="objects/natural/woodland/moss_ddna.dds"/>
+    <Texture Map="Opacity" File="objects/natural/trees/robinia/trunk_rotten_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" BlendLayer2Tiling="2" DetailDiffuseScale="1" SSSIndex="0" DetailBumpScale="2" BlendMaskTiling="1" BlendFactor="16" DetailGlossScale="1" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

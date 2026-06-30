@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="7029ab67-3f83-9220-6ff2-9bc9eda1c477">
+ <Files>
+  <File path="worn_wall.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/references/worn_wall.dds</Path>
+ </Dependencies>
+</AssetMetadata>

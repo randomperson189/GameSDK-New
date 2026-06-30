@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d80d4d9b-d282-83d9-f587-2ab23481249b">
+ <Files>
+  <File path="forest_skydome.dds"/>
+  <File path="forest_skydome.dds.1"/>
+  <File path="forest_skydome.dds.2"/>
+  <File path="forest_skydome.dds.3"/>
+  <File path="forest_skydome.dds.4"/>
+  <File path="forest_skydome.dds.5"/>
+  <File path="forest_skydome.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

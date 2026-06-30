@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="f994091c-b346-8e1c-8b8f-07934b6c1018">
+ <Files>
+  <File path="gas_stove_clean_ddna.dds"/>
+  <File path="gas_stove_clean_ddna.dds.a"/>
+  <File path="gas_stove_clean_ddna.dds.1"/>
+  <File path="gas_stove_clean_ddna.dds.1a"/>
+  <File path="gas_stove_clean_ddna.dds.2"/>
+  <File path="gas_stove_clean_ddna.dds.2a"/>
+  <File path="gas_stove_clean_ddna.dds.3"/>
+  <File path="gas_stove_clean_ddna.dds.3a"/>
+  <File path="gas_stove_clean_ddna.dds.4"/>
+  <File path="gas_stove_clean_ddna.dds.4a"/>
+  <File path="gas_stove_clean_ddna.dds.5"/>
+  <File path="gas_stove_clean_ddna.dds.5a"/>
+  <File path="gas_stove_clean_ddna.dds.6"/>
+  <File path="gas_stove_clean_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

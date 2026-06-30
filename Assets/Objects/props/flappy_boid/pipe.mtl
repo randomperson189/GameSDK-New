@@ -1,0 +1,60 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="pipe" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0,0.5529412,0.039215688" Specular="0.11697067,0.11697067,0.11697067" Emissive="0,0,0" Shininess="220" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glow" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.16470589,0,1" Specular="0.21586053,0.21586053,0.21586053" Emissive="0,0,0" Shininess="220" Opacity="1" GlowAmount="5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/sprites/glow/gradient_glow.tif">
+     <TexMod TexMod_VOscillatorType="2" TexMod_RotateType="2" TexMod_VOscillatorRate="1" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="2623616" Shader="Glass" GenMask="10010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP" SurfaceType="mat_glass" MatTemplate="" Diffuse="0.11697067,0.11697067,0.11697067" Specular="0.21586053,0.21586053,0.21586053" Emissive="0,0,0" Shininess="255" Opacity="0.99000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Environment" File="nearest_cubemap" TexType="7"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.21586053,0.21586053,0.21586053" FresnelScale="1" FresnelBias="1" TintCloudiness="0" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="red" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="" MatTemplate="" Diffuse="1,0.070588239,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="yellow" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="" MatTemplate="" Diffuse="1,0.8705883,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="blue" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="" MatTemplate="" Diffuse="0,0.070588239,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.042311411,0.042311411,0.042311411" Emissive="0,0,0" Shininess="120" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="soil" MtlFlags="524416" Shader="Illum" GenMask="8000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_soil" MatTemplate="" Diffuse="0.49102089,0.49102089,0.49102089" Specular="0.014443845,0.014443845,0.014443845" Emissive="0,0,0" Shininess="30" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/decals/dirt/dirt_on_road_16.tif"/>
+    <Texture Map="Bumpmap" File="textures/decals/dirt/dirt_on_road_16_ddn.tif"/>
+    <Texture Map="Heightmap" File="textures/decals/dirt/dirt_on_road_16_displ.tif"/>
+   </Textures>
+   <PublicParams PomDisplacement="0.0049999999" SelfShadowStrength="3" SubsurfaceScatteringAmount="0" HeightBias="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="0f63559b-b2c1-83f4-79fb-6136894fafaf">
+ <Files>
+  <File path="rail_bumper.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/trainyard/rail_bumper/textures/rail_bumper_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/rail_bumper/textures/rail_bumper_spec.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/rail_bumper/textures/rail_bumper_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

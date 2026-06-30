@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="5db3b7f8-6aa0-8103-e2fe-f74fa1be931b">
+ <Files>
+  <File path="inner_ice_shelf_diff.dds"/>
+  <File path="inner_ice_shelf_diff.dds.1"/>
+  <File path="inner_ice_shelf_diff.dds.2"/>
+  <File path="inner_ice_shelf_diff.dds.3"/>
+  <File path="inner_ice_shelf_diff.dds.4"/>
+  <File path="inner_ice_shelf_diff.dds.5"/>
+  <File path="inner_ice_shelf_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

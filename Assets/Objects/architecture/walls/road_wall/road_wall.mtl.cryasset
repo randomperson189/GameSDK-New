@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="d9bf8b5f-aaac-a610-d32f-2b3696e0f93d">
+ <Files>
+  <File path="road_wall.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">textures/generic/water/river_foamy.dds</Path>
+  <Path usageCount="1">textures/generic/water/river_foamy_ddn.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/rock_a_mask.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/moss_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/moss_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_wall_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_wall_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

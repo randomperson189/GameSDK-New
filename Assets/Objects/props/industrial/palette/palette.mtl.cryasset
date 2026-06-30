@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="a707e496-c6e2-7f6e-157d-23790c38cd2a">
+ <Files>
+  <File path="palette.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/palette/palette_a_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/palette/palette_a_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_b_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

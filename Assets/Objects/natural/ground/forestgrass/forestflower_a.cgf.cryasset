@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ca2e0244-8fbc-6931-b744-28e1ddd9e5e3">
+ <Files>
+  <File path="forestflower_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">6</Detail>
+  <Detail name="vertexCount">8</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Forest_Grass.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

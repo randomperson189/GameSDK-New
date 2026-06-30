@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="742c6826-9348-593a-52a1-6c7bd9840f57">
+ <Files>
+  <File path="candle_holder_wall_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">898</Detail>
+  <Detail name="vertexCount">707</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./candle_holder_wall_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

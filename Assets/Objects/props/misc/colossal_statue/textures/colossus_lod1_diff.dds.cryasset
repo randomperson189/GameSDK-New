@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="cd7dc7f5-31c4-eeb7-bbf4-d67971fa5d64">
+ <Files>
+  <File path="colossus_lod1_diff.dds"/>
+  <File path="colossus_lod1_diff.dds.1"/>
+  <File path="colossus_lod1_diff.dds.2"/>
+  <File path="colossus_lod1_diff.dds.3"/>
+  <File path="colossus_lod1_diff.dds.4"/>
+  <File path="colossus_lod1_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

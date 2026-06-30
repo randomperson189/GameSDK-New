@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Mesh" guid="42a11785-606b-c999-9210-df966ff73a47">
+ <Files>
+  <File path="rock_river_group_d.cgf"/>
+  <File path="rock_river_group_d_lod1.cgf"/>
+  <File path="rock_river_group_d_lod2.cgf"/>
+  <File path="rock_river_group_d_lod3.cgf"/>
+  <File path="rock_river_group_d_lod4.cgf"/>
+  <File path="rock_river_group_d_lod5.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">14</Detail>
+  <Detail name="triangleCount">19360</Detail>
+  <Detail name="vertexCount">11322</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/natural/woodland/woodland_river.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="26f2b794-4cc0-1b53-1f4a-91c750054b56">
+ <Files>
+  <File path="workbench_b.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">534</Detail>
+  <Detail name="vertexCount">866</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./workbench_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

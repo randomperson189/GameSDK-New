@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="657e940b-b026-815e-20e1-6b47e72dcdc6">
+ <Files>
+  <File path="rail_bumper_diff.dds"/>
+  <File path="rail_bumper_diff.dds.1"/>
+  <File path="rail_bumper_diff.dds.2"/>
+  <File path="rail_bumper_diff.dds.3"/>
+  <File path="rail_bumper_diff.dds.4"/>
+  <File path="rail_bumper_diff.dds.5"/>
+  <File path="rail_bumper_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

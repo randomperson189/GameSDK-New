@@ -1,0 +1,34 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Trunk" MtlFlags="524416" Shader="Vegetation" GenMask="2404000080" StringGenMask="%BUMP_MAP%MERGED_TEXTURES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.012983033,0.012983033,0.012983033" Emissive="0,0,0" Shininess="180" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/meadow/textures/oak_trunk_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/meadow/textures/oak_trunk_ddna.tif"/>
+    <Texture Map="Detail" File="objects/natural/trees/meadow/textures/oak_trunk_ddn.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0" bendDetailFrequency="0" bendDetailBranchAmplitude="0" BlendTerrainCol="0" VertexAlphaBlendFactor="1" BlendMaskTiling="1" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Leaf" MtlFlags="524416" Shader="Vegetation" GenMask="2404801100" StringGenMask="%DETAIL_BENDING%DETAIL_MAPPING%LEAVES%MERGED_TEXTURES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_canopy" MatTemplate="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.012983033,0.012983033,0.012983033" Emissive="0,0,0" Shininess="10" Opacity="1" AlphaTest="0.40000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/meadow/textures/oak_leaf_diff.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plants/plants_leaf_detail.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="1" bendDetailFrequency="0.050000001" bendDetailBranchAmplitude="0" BlendTerrainCol="0" DetailDiffuseScale="1" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" DetailBumpScale="1" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0" BackDiffuseMultiplier="1" BlendTerrainColDist="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Proxy_Trunk" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="Proxy_Bending" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="Proxy_AI" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="Proxy_Bush" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

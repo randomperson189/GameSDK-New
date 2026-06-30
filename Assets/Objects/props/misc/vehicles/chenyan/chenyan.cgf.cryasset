@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="8e28b0f2-d1a7-4504-fea8-893587932b20">
+ <Files>
+  <File path="chenyan.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">19</Detail>
+  <Detail name="triangleCount">8605</Detail>
+  <Detail name="vertexCount">10237</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./chenyan.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

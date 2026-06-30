@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="c32999f0-ae57-a63b-aef4-948f3680356c">
+ <Files>
+  <File path="pottery_amphora_dmg_a.cgf"/>
+  <File path="pottery_amphora_dmg_a_lod1.cgf"/>
+  <File path="pottery_amphora_dmg_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">3257</Detail>
+  <Detail name="vertexCount">2570</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./pottery_amphora_damaged.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

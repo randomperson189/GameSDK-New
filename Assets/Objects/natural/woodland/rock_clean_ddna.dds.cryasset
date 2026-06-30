@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="374e1d57-501d-23da-d9eb-11c15232dee4">
+ <Files>
+  <File path="rock_clean_ddna.dds"/>
+  <File path="rock_clean_ddna.dds.a"/>
+  <File path="rock_clean_ddna.dds.1"/>
+  <File path="rock_clean_ddna.dds.1a"/>
+  <File path="rock_clean_ddna.dds.2"/>
+  <File path="rock_clean_ddna.dds.2a"/>
+  <File path="rock_clean_ddna.dds.3"/>
+  <File path="rock_clean_ddna.dds.3a"/>
+  <File path="rock_clean_ddna.dds.4"/>
+  <File path="rock_clean_ddna.dds.4a"/>
+  <File path="rock_clean_ddna.dds.5"/>
+  <File path="rock_clean_ddna.dds.5a"/>
+  <File path="rock_clean_ddna.dds.6"/>
+  <File path="rock_clean_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

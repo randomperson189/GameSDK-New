@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="810b1606-e821-dcaf-fd3e-a61852c0a5c4">
+ <Files>
+  <File path="ground_rock_tile_mask.dds"/>
+  <File path="ground_rock_tile_mask.dds.1"/>
+  <File path="ground_rock_tile_mask.dds.2"/>
+  <File path="ground_rock_tile_mask.dds.3"/>
+  <File path="ground_rock_tile_mask.dds.4"/>
+  <File path="ground_rock_tile_mask.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="f605cddb-38c2-054c-ff63-9eadc55549c1">
+ <Files>
+  <File path="airfield_sky_dome.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/sky/forest_skydome.dds</Path>
+ </Dependencies>
+</AssetMetadata>

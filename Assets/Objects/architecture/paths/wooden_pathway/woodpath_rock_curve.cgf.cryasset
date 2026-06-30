@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="31d42400-d686-132c-fbce-584acb6e5b01">
+ <Files>
+  <File path="woodpath_rock_curve.cgf"/>
+  <File path="woodpath_rock_curve_lod1.cgf"/>
+  <File path="woodpath_rock_curve_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">1861</Detail>
+  <Detail name="vertexCount">1649</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wooden_pathway.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="cced4700-a06d-2fe2-8856-6d1ac0384e17">
+ <Files>
+  <File path="river_tree.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/river_tree/textures/branch_a.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/roundleafbush/textures/leaves_a_diff.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/roundleafbush/textures/leaves_a_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/roundleafbush/textures/leaves_a_opac.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/trunk_pino_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/trunk_pino_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

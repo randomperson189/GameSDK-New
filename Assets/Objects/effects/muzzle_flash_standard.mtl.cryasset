@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="ca4dd3ea-b27d-c0aa-51bc-1a143288e856">
+ <Files>
+  <File path="muzzle_flash_standard.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Textures/sprites/muzzleflash/muzzle_side_a.dds</Path>
+  <Path usageCount="1">Textures/sprites/muzzleflash/muzzle_front_a.dds</Path>
+ </Dependencies>
+</AssetMetadata>

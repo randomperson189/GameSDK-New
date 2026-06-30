@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="60cc9445-8b8f-596c-f9cc-d75832d29c29">
+ <Files>
+  <File path="farm_wall.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/brick/brick_rough01_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_rough01_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_rough01_displ.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_old_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_old_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

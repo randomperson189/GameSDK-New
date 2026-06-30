@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="38fc1396-f783-f52d-a85d-6f94796391ba">
+ <Files>
+  <File path="cobbles_01.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/brick/cobble_stones_1_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/cobble_stones_1_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/cobble_stones_1_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

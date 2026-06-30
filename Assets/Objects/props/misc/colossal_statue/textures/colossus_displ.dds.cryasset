@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="f5f70241-31fa-51a2-f0b4-fd2d9e25bf09">
+ <Files>
+  <File path="colossus_displ.dds"/>
+  <File path="colossus_displ.dds.1"/>
+  <File path="colossus_displ.dds.2"/>
+  <File path="colossus_displ.dds.3"/>
+  <File path="colossus_displ.dds.4"/>
+  <File path="colossus_displ.dds.5"/>
+  <File path="colossus_displ.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

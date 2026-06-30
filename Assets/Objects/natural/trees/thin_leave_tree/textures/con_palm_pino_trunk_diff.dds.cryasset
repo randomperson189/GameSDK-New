@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="7c6feb3f-8ad4-5850-8912-84929f64c41d">
+ <Files>
+  <File path="con_palm_pino_trunk_diff.dds"/>
+  <File path="con_palm_pino_trunk_diff.dds.1"/>
+  <File path="con_palm_pino_trunk_diff.dds.2"/>
+  <File path="con_palm_pino_trunk_diff.dds.3"/>
+  <File path="con_palm_pino_trunk_diff.dds.4"/>
+  <File path="con_palm_pino_trunk_diff.dds.5"/>
+  <File path="con_palm_pino_trunk_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

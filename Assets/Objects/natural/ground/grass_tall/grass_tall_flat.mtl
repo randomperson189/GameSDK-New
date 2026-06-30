@@ -1,0 +1,18 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="grass" MtlFlags="524416" Shader="Vegetation" GenMask="2400800080" StringGenMask="%BUMP_MAP%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.61720657,0.63759691,0.7011019" Specular="0.012983033,0.012983033,0.012983033" Emissive="0,0,0" Shininess="214" Opacity="1" AlphaTest="0.5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/ground/grass_tall/ground_cover_nofern_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/ground/grass_tall/ground_cover_nofern_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/ground/grass_tall/ground_cover_nofern_sss.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0.5" VertexAlphaBlendFactor="1" TransmittanceColor="0.89626938,0.92158186,0.65140563" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.25" BackDiffuseMultiplier="0.5" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="obstruct" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_obstruct" MatTemplate="" Diffuse="0.446621,0.446621,0.446621" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/grey.dds"/>
+   </Textures>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

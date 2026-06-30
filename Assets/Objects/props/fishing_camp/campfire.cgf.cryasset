@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="ef8a304f-cdf0-89d6-094f-2a604e5f6cf5">
+ <Files>
+  <File path="campfire.cgf"/>
+  <File path="campfire_lod1.cgf"/>
+  <File path="campfire_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">10</Detail>
+  <Detail name="triangleCount">834</Detail>
+  <Detail name="vertexCount">450</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_camp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

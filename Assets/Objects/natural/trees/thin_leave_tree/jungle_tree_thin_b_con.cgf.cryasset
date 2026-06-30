@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="54a21fc2-d0a1-4f46-ae02-2c4ca764405e">
+ <Files>
+  <File path="jungle_tree_thin_b_con.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">184</Detail>
+  <Detail name="vertexCount">171</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./jungle_tree_thin_con.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

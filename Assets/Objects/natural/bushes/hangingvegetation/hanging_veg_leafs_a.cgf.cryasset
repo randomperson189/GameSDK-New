@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="f3df46f2-43e2-2f3c-6c35-dbf60d778e06">
+ <Files>
+  <File path="hanging_veg_leafs_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">18</Detail>
+  <Detail name="vertexCount">19</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./hanging_vegetation_material.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

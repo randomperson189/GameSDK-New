@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="7e65b057-0813-5364-d582-52687f38a211">
+ <Files>
+  <File path="table_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/furniture/tables/table_a/textures/ba_table_a_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/props/furniture/tables/table_a/textures/ba_table_a_lod1_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_b_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_b_spec.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_planks_square_tiled_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_planks_square_tiled_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wooden_ending_caps_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wooden_ending_caps_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_rough_a_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

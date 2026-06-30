@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="18a56605-c322-27df-68a2-783d5c4ee042">
+ <Files>
+  <File path="sandpit.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">2</Detail>
+  <Detail name="vertexCount">4</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./sandpit.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

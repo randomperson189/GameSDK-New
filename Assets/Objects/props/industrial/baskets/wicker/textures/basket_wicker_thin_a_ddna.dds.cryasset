@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="26ff4345-39d8-fae2-f4ad-79558184c8c6">
+ <Files>
+  <File path="basket_wicker_thin_a_ddna.dds"/>
+  <File path="basket_wicker_thin_a_ddna.dds.a"/>
+  <File path="basket_wicker_thin_a_ddna.dds.1"/>
+  <File path="basket_wicker_thin_a_ddna.dds.1a"/>
+  <File path="basket_wicker_thin_a_ddna.dds.2"/>
+  <File path="basket_wicker_thin_a_ddna.dds.2a"/>
+  <File path="basket_wicker_thin_a_ddna.dds.3"/>
+  <File path="basket_wicker_thin_a_ddna.dds.3a"/>
+  <File path="basket_wicker_thin_a_ddna.dds.4"/>
+  <File path="basket_wicker_thin_a_ddna.dds.4a"/>
+  <File path="basket_wicker_thin_a_ddna.dds.5"/>
+  <File path="basket_wicker_thin_a_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

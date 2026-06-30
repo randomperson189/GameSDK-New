@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="0f09dd58-5041-6ba3-e580-cd219a3b12f2">
+ <Files>
+  <File path="ship_rust.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/ship_rust_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/ship_rust_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/ship_rust_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

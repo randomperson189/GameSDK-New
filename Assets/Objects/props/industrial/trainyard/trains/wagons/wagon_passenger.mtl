@@ -1,0 +1,34 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="colour" MtlFlags="524416" Shader="Illum" GenMask="2000000180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.38377467,0.38377467,0.38377467" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="80" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/trainyard/trains/wagons/textures/wagon_passenger_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/trainyard/trains/wagons/textures/wagon_passenger_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_a_detail.tif">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="1" DetailBumpScale="1" SubsurfaceScatteringAmount="0" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wagon" MtlFlags="524416" Shader="Illum" GenMask="2000000180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="120" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/trainyard/trains/wagons/textures/wagon_passenger_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/trainyard/trains/wagons/textures/wagon_passenger_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_a_detail.tif">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="1" DetailBumpScale="1" SubsurfaceScatteringAmount="0" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="decal" MtlFlags="524448" Shader="Illum" GenMask="2000000800" StringGenMask="%DECAL%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.31118053,0.31118053,0.31118053" Emissive="0,0,0" Shininess="10" Opacity="0.5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/trainyard/trains/wagons/textures/train_wagon_dcal.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_metal" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="bb79e75c-8aad-5c38-30ab-2e8ccb0d86e0">
+ <Files>
+  <File path="half_pattern_b.cgf"/>
+  <File path="half_pattern_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1576</Detail>
+  <Detail name="vertexCount">1072</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./riverrocks.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

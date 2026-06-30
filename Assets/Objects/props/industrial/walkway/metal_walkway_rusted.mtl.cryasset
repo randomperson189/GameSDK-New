@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="fbc31e95-4d94-d97a-a43a-84068f2db773">
+ <Files>
+  <File path="metal_walkway_rusted.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/walkway/textures/grated_steel_diff.dds</Path>
+  <Path usageCount="2">objects/props/industrial/walkway/textures/grated_steel_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/dirty_blend.dds</Path>
+  <Path usageCount="2">textures/generic/metal/rusted_steel_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/rusted_steel_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

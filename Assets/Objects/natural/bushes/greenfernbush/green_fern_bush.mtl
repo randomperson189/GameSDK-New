@@ -1,0 +1,19 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="green_fern_bush" MtlFlags="524416" Shader="Vegetation" GenMask="2401801000" StringGenMask="%DETAIL_BENDING%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.033104774,0.033104774,0.033104774" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/bushes/greenfernbush/textures/green_fern_bush_leaf_a.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/bushes/greenfernbush/textures/green_fern_bush_leaf_a_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/bushes/greenfernbush/textures/green_fern_bush_leaf_a_trans.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.050000001" bendDetailFrequency="0.80000001" bendDetailBranchAmplitude="0.30000001" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.25" BackDiffuseMultiplier="0.34999999" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_bending" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_AI" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0,1,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

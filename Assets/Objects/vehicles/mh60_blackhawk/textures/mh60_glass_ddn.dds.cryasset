@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="c34863f0-8b7d-e537-f11d-046077fef3ba">
+ <Files>
+  <File path="mh60_glass_ddn.dds"/>
+  <File path="mh60_glass_ddn.dds.1"/>
+  <File path="mh60_glass_ddn.dds.2"/>
+  <File path="mh60_glass_ddn.dds.3"/>
+  <File path="mh60_glass_ddn.dds.4"/>
+  <File path="mh60_glass_ddn.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

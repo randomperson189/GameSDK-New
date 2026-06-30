@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Texture" guid="0079aca5-7771-41b3-0779-a3906482b393">
+ <Files>
+  <File path="speedboat_b_spec.dds"/>
+  <File path="speedboat_b_spec.dds.1"/>
+  <File path="speedboat_b_spec.dds.2"/>
+  <File path="speedboat_b_spec.dds.3"/>
+  <File path="speedboat_b_spec.dds.4"/>
+  <File path="speedboat_b_spec.dds.5"/>
+  <File path="speedboat_b_spec.dds.6"/>
+  <File path="speedboat_b_spec.dds.7"/>
+  <File path="speedboat_b_spec.dds.8"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

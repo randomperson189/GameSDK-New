@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="b559446c-1c46-c65f-f092-add718d56611">
+ <Files>
+  <File path="typha_ddn.dds"/>
+  <File path="typha_ddn.dds.1"/>
+  <File path="typha_ddn.dds.2"/>
+  <File path="typha_ddn.dds.3"/>
+  <File path="typha_ddn.dds.4"/>
+  <File path="typha_ddn.dds.5"/>
+  <File path="typha_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

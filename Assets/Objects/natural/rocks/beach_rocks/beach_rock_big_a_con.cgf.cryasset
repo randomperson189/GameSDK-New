@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="9e2b4e42-1d75-fbd6-09ba-0cd29e31a2c2">
+ <Files>
+  <File path="beach_rock_big_a_con.cgf"/>
+  <File path="beach_rock_big_a_con_lod1.cgf"/>
+  <File path="beach_rock_big_a_con_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1774</Detail>
+  <Detail name="vertexCount">1007</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./beach_rock_con.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

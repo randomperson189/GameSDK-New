@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="1895857b-8eb9-f87d-4c52-b6b76afc235a">
+ <Files>
+  <File path="mining_lamp_b.cgf"/>
+  <File path="mining_lamp_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">1618</Detail>
+  <Detail name="vertexCount">1562</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mining_lamp_off.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

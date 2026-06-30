@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="2b0c9999-d9a7-7978-622e-90482fa46f93">
+ <Files>
+  <File path="wagon_passenger_diff.dds"/>
+  <File path="wagon_passenger_diff.dds.1"/>
+  <File path="wagon_passenger_diff.dds.2"/>
+  <File path="wagon_passenger_diff.dds.3"/>
+  <File path="wagon_passenger_diff.dds.4"/>
+  <File path="wagon_passenger_diff.dds.5"/>
+  <File path="wagon_passenger_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

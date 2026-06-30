@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c33dced0-0d1c-3f94-7e82-4065e07781c1">
+ <Files>
+  <File path="card_reader.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">222</Detail>
+  <Detail name="vertexCount">316</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./card_reader.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

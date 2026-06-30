@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ccc8bf0c-53b8-e46b-41ca-2072efc90e77">
+ <Files>
+  <File path="walkway_1m.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">10</Detail>
+  <Detail name="vertexCount">20</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./metal_walkway.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

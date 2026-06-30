@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="eb2ce006-40dc-acee-63c3-5c346004f43f">
+ <Files>
+  <File path="wood_beams_c.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_beams_c_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_beams_b_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_beams_a_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

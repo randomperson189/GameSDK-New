@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="92882c52-126e-1a8c-aaa3-063f0a8ae9b4">
+ <Files>
+  <File path="present_var1_diff.dds"/>
+  <File path="present_var1_diff.dds.1"/>
+  <File path="present_var1_diff.dds.2"/>
+  <File path="present_var1_diff.dds.3"/>
+  <File path="present_var1_diff.dds.4"/>
+  <File path="present_var1_diff.dds.5"/>
+  <File path="present_var1_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="2a789c32-89db-a1f6-e725-2e63f244200a">
+ <Files>
+  <File path="bed_wodden_b_con.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/furniture/beds/textures/con_bed_fabric.dds</Path>
+  <Path usageCount="1">objects/props/furniture/beds/textures/bed_wooden_diff.dds</Path>
+  <Path usageCount="1">objects/props/furniture/beds/textures/bed_wooden_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

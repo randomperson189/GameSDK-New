@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="5b69bd06-619b-53d8-2311-529af7c7394b">
+ <Files>
+  <File path="table_a.cgf"/>
+  <File path="table_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1778</Detail>
+  <Detail name="vertexCount">2436</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./table_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

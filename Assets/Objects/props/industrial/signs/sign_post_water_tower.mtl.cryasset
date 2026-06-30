@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="84ece8a9-843b-bf96-500a-d016fbc6e932">
+ <Files>
+  <File path="sign_post_water_tower.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/industrial/signs/textures/sign_post_water_tower_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

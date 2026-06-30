@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="02c24132-b901-05fb-3476-42eb23693d2f">
+ <Files>
+  <File path="double_neon_light_ddna.dds"/>
+  <File path="double_neon_light_ddna.dds.a"/>
+  <File path="double_neon_light_ddna.dds.1"/>
+  <File path="double_neon_light_ddna.dds.1a"/>
+  <File path="double_neon_light_ddna.dds.2"/>
+  <File path="double_neon_light_ddna.dds.2a"/>
+  <File path="double_neon_light_ddna.dds.3"/>
+  <File path="double_neon_light_ddna.dds.3a"/>
+  <File path="double_neon_light_ddna.dds.4"/>
+  <File path="double_neon_light_ddna.dds.4a"/>
+  <File path="double_neon_light_ddna.dds.5"/>
+  <File path="double_neon_light_ddna.dds.5a"/>
+  <File path="double_neon_light_ddna.dds.6"/>
+  <File path="double_neon_light_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

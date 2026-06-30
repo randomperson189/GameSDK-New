@@ -1,0 +1,35 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="hull" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/small_plane/textures/k_hull_diff.tif" Filter="4"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/vehicles/small_plane/textures/k_hull_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="interior" MtlFlags="524416" Shader="Illum" GenMask="81000003" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAGLOW%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/small_plane/textures/k_interior_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/vehicles/small_plane/textures/k_interior_ddna.tif"/>
+   </Textures>
+   <PublicParams AmbientMultiplier="0" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="526498" Shader="Glass" GenMask="40000010" StringGenMask="%BILINEAR_FP16%SPECULAR_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="200" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Specular" File="objects/props/misc/vehicles/small_plane/textures/zr_windows_destroyed_diff.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.21951973,0.21951973,0.21951973" TintCloudiness="0.0099999998" BackLightScale="0.1" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="tinted" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.13035227,0.084641509,0.42050794" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Opacity="1" Shininess="150" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/small_plane/textures/k_hull_diff.tif" Filter="4"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/vehicles/small_plane/textures/k_hull_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

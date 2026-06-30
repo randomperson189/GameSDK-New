@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="3b2e60d1-0b58-f6b4-766f-50bc275cbdf0">
+ <Files>
+  <File path="interior_plants_ddn.dds"/>
+  <File path="interior_plants_ddn.dds.1"/>
+  <File path="interior_plants_ddn.dds.2"/>
+  <File path="interior_plants_ddn.dds.3"/>
+  <File path="interior_plants_ddn.dds.4"/>
+  <File path="interior_plants_ddn.dds.5"/>
+  <File path="interior_plants_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

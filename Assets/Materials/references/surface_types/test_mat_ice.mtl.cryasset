@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="25ae8dcd-e205-12ce-d948-d30c41c414c7">
+ <Files>
+  <File path="test_mat_ice.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/grey.dds</Path>
+  <Path usageCount="1">materials/references/surface_types/ice_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

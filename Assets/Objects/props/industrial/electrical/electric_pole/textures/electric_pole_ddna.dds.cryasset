@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="27c0b0d3-1084-eb95-32be-b01092b77635">
+ <Files>
+  <File path="electric_pole_ddna.dds"/>
+  <File path="electric_pole_ddna.dds.a"/>
+  <File path="electric_pole_ddna.dds.1"/>
+  <File path="electric_pole_ddna.dds.1a"/>
+  <File path="electric_pole_ddna.dds.2"/>
+  <File path="electric_pole_ddna.dds.2a"/>
+  <File path="electric_pole_ddna.dds.3"/>
+  <File path="electric_pole_ddna.dds.3a"/>
+  <File path="electric_pole_ddna.dds.4"/>
+  <File path="electric_pole_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

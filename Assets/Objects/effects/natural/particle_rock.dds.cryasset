@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="73ec3fe0-5f21-f4d7-da8a-950c07d52f18">
+ <Files>
+  <File path="particle_rock.dds"/>
+  <File path="particle_rock.dds.1"/>
+  <File path="particle_rock.dds.2"/>
+  <File path="particle_rock.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

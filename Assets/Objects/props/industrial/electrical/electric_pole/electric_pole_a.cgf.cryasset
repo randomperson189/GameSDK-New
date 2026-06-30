@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="b9c3511d-0162-cbd7-0992-904d432746a9">
+ <Files>
+  <File path="electric_pole_a.cgf"/>
+  <File path="electric_pole_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">488</Detail>
+  <Detail name="vertexCount">778</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./electric_pole.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,40 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="render" MtlFlags="524418" Shader="Illum" GenMask="20C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_canopy" MatTemplate="" Diffuse="0.50288647,0.50288647,0.50288647" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Opacity="1" Shininess="10" AlphaTest="0.5" vertModifType="2" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/bushes/interior_plants/textures/interior_plants_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/bushes/interior_plants/textures/interior_plants_ddn.tif"/>
+    <Texture Map="Specular" File="objects/natural/bushes/interior_plants/textures/interior_plants_spec.tif"/>
+   </Textures>
+   <VertexDeform Type="2" DividerX="1" DividerY="1" NoiseScale="1,1,1">
+    <WaveX Type="2" Amp="0.0024999999" Level="0" Phase="0" Freq="0.5"/>
+    <WaveY Type="2" Amp="0.0024999999" Level="0" Phase="0" Freq="1"/>
+   </VertexDeform>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="pot" MtlFlags="524416" Shader="Illum" GenMask="20C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Opacity="1" Shininess="20" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/bushes/interior_plants/textures/interior_plants_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/bushes/interior_plants/textures/interior_plants_ddn.tif"/>
+    <Texture Map="Specular" File="objects/natural/bushes/interior_plants/textures/interior_plants_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="LOD_render" MtlFlags="524418" Shader="Illum" GenMask="20C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_canopy" MatTemplate="" Diffuse="0.44313726,0.44313726,0.44313726" Specular="0.039215688,0.039215688,0.039215688" Emissive="0,0,0" Opacity="1" Shininess="20" AlphaTest="0.40000001" vertModifType="2" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/bushes/interior_plants/textures/interior_plants_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/bushes/interior_plants/textures/interior_plants_ddn.tif"/>
+    <Texture Map="Specular" File="objects/natural/bushes/interior_plants/textures/interior_plants_spec.tif"/>
+   </Textures>
+   <VertexDeform Type="2" DividerX="1" DividerY="1" NoiseScale="1,1,1">
+    <WaveX Type="2" Amp="0.0099999998" Level="0" Phase="0" Freq="0.5"/>
+    <WaveY Type="2" Amp="0.0099999998" Level="0" Phase="0" Freq="1"/>
+   </VertexDeform>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

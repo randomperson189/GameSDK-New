@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="1571c75a-732d-309d-5ee3-3bcbb75888d7">
+ <Files>
+  <File path="metal_sheet_rusted.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_sheet_rusted_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_sheet_rusted_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_sheet_rusted_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

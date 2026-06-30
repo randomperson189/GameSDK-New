@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="4ac5d9f2-9498-5d42-04d5-cd1b2d250fe7">
+ <Files>
+  <File path="na_scots_pine_tree_trunk_rotten_diff.dds"/>
+  <File path="na_scots_pine_tree_trunk_rotten_diff.dds.1"/>
+  <File path="na_scots_pine_tree_trunk_rotten_diff.dds.2"/>
+  <File path="na_scots_pine_tree_trunk_rotten_diff.dds.3"/>
+  <File path="na_scots_pine_tree_trunk_rotten_diff.dds.4"/>
+  <File path="na_scots_pine_tree_trunk_rotten_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

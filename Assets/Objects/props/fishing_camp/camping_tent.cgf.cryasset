@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="c920db28-55cb-d617-46a8-4a36648c92de">
+ <Files>
+  <File path="camping_tent.cgf"/>
+  <File path="camping_tent_lod1.cgf"/>
+  <File path="camping_tent_lod2.cgf"/>
+  <File path="camping_tent_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">10</Detail>
+  <Detail name="triangleCount">2104</Detail>
+  <Detail name="vertexCount">1708</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_camp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

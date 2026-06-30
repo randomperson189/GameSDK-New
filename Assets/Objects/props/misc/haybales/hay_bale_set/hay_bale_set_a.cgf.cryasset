@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="64836f86-1ce4-06a3-34b7-3b433eab5017">
+ <Files>
+  <File path="hay_bale_set_a.cgf"/>
+  <File path="hay_bale_set_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1126</Detail>
+  <Detail name="vertexCount">1024</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./hay_bale_set_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

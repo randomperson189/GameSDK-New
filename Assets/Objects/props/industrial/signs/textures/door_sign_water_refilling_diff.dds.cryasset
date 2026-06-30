@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="c13e0306-9e6c-e3f0-73f2-bbbbcbc4b8b3">
+ <Files>
+  <File path="door_sign_water_refilling_diff.dds"/>
+  <File path="door_sign_water_refilling_diff.dds.1"/>
+  <File path="door_sign_water_refilling_diff.dds.2"/>
+  <File path="door_sign_water_refilling_diff.dds.3"/>
+  <File path="door_sign_water_refilling_diff.dds.4"/>
+  <File path="door_sign_water_refilling_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

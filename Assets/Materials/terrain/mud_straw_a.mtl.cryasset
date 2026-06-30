@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="3076f1e6-2d86-694e-d64c-fcd21bab21f3">
+ <Files>
+  <File path="mud_straw_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/terrain/detail/mud_straw_a_diff.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/mud_straw_a_ddna.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/mud_straw_a_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

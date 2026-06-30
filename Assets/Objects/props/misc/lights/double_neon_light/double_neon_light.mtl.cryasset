@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="0cb4f71c-e4a6-7053-a252-db787c4a6780">
+ <Files>
+  <File path="double_neon_light.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/lights/double_neon_light/textures/double_neon_light_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/lights/double_neon_light/textures/double_neon_light_spec.dds</Path>
+  <Path usageCount="1">objects/props/misc/lights/double_neon_light/textures/double_neon_light_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

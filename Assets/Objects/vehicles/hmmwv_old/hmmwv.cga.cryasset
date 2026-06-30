@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="AnimatedMesh" guid="9d37858b-4d8d-2a91-5c79-ffc7d3709f6c">
+ <Files>
+  <File path="hmmwv.cga"/>
+  <File path="hmmwv_lod1.cga"/>
+  <File path="hmmwv_lod2.cga"/>
+  <File path="hmmwv_lod3.cga"/>
+  <File path="hmmwv_lod4.cga"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">9</Detail>
+  <Detail name="triangleCount">33822</Detail>
+  <Detail name="vertexCount">40651</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./hmmwv.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

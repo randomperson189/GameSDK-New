@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="ada6fa40-64c0-3918-8092-63297f050ab6">
+ <Files>
+  <File path="deformable_barrel.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_iron_cast_oxidized_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_cast_oxidized_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_iron_cast_oxidized_a_spec.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_bronze_plain_b_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_bronze_plain_b_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/daub_rough_wood_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

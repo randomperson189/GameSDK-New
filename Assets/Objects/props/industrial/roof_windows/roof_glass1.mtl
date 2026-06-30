@@ -1,0 +1,23 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="wire_glass" MtlFlags="2623650" Shader="Glass" GenMask="40018050" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%DIRT_MAP%ENVIRONMENT_MAP%SPEC_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="180" Opacity="1" AlphaTest="0.050000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/glass/wire_glass.tif"/>
+    <Texture Map="Specular" File="textures/generic/glass/wire_glass_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/glass/wire_glass_ddn.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/generic_cubemap_day_cm.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="1,1,1" BlurAmount="0.1" FresnelScale="1" FresnelBias="0.89999998" TintCloudiness="0.050000001" BackLightScale="0.25" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="steel" MtlFlags="524416" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/rusted_steel_diff.tif">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/metal/rusted_steel_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

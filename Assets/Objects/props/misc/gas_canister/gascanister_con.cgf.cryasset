@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="a8fa8006-3640-64f2-3008-4e50cb1e5424">
+ <Files>
+  <File path="gascanister_con.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">178</Detail>
+  <Detail name="vertexCount">187</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./gascanister_con.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="leaf" MtlFlags="524416" Shader="Vegetation" GenMask="2400800080" StringGenMask="%BUMP_MAP%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.40000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/bushes/ground_cover_fern/ground_cover_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/bushes/ground_cover_fern/ground_cover_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/bushes/ground_cover_fern/ground_cover_sss.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0.75" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="0" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.85000002" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

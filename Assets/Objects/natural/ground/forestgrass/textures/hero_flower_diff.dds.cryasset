@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="969441ed-e640-97f9-0656-d873eae49ec1">
+ <Files>
+  <File path="hero_flower_diff.dds"/>
+  <File path="hero_flower_diff.dds.1"/>
+  <File path="hero_flower_diff.dds.2"/>
+  <File path="hero_flower_diff.dds.3"/>
+  <File path="hero_flower_diff.dds.4"/>
+  <File path="hero_flower_diff.dds.5"/>
+  <File path="hero_flower_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,22 @@
+<AssetMetadata version="0" type="Material" guid="281a8eac-d786-ccc1-9420-43fcf70b7fed">
+ <Files>
+  <File path="stone_toad.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">11</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Textures/generic/metal/rusted_steel_diff.dds</Path>
+  <Path usageCount="1">Textures/generic/metal/rusted_steel_ddna.dds</Path>
+  <Path usageCount="2">Objects/geomcaches/stone_toad/textures/granite_tiled_diff.dds</Path>
+  <Path usageCount="2">Objects/geomcaches/stone_toad/textures/granite_tiled_ddn.dds</Path>
+  <Path usageCount="1">Objects/natural/rocks/cliff_rocks/textures/cliff_rock_a_diff.dds</Path>
+  <Path usageCount="1">Objects/natural/rocks/cliff_rocks/textures/cliff_rock_a_ddna.dds</Path>
+  <Path usageCount="1">Objects/geomcaches/stone_toad/textures/granite_tiled_spec.dds</Path>
+  <Path usageCount="1">Objects/geomcaches/stone_toad/textures/stone_toad_detail.dds</Path>
+  <Path usageCount="1">Objects/geomcaches/stone_toad/textures/moss_tiled_diff.dds</Path>
+  <Path usageCount="1">Objects/geomcaches/stone_toad/textures/moss_tiled_ddn.dds</Path>
+  <Path usageCount="1">Objects/geomcaches/stone_toad/textures/stone_toad_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

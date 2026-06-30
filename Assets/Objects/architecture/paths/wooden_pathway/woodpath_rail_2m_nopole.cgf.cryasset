@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="6ab446b0-6e65-cfc3-5ee8-71e2474577fb">
+ <Files>
+  <File path="woodpath_rail_2m_nopole.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">48</Detail>
+  <Detail name="vertexCount">69</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wooden_pathway.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

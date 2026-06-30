@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="5ced64de-2623-b349-a9b0-6c7ab50986ee">
+ <Files>
+  <File path="roof_glass1.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/rusted_steel_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/rusted_steel_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/glass/wire_glass.dds</Path>
+  <Path usageCount="1">textures/generic/glass/wire_glass_spec.dds</Path>
+  <Path usageCount="1">textures/generic/glass/wire_glass_ddn.dds</Path>
+  <Path usageCount="1">textures/cubemaps/generic_cubemap_day_cm.dds</Path>
+ </Dependencies>
+</AssetMetadata>

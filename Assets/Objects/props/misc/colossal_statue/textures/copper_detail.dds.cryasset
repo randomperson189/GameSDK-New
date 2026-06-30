@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="7c032521-5aac-f362-5a47-9156b4804843">
+ <Files>
+  <File path="copper_detail.dds"/>
+  <File path="copper_detail.dds.1"/>
+  <File path="copper_detail.dds.2"/>
+  <File path="copper_detail.dds.3"/>
+  <File path="copper_detail.dds.4"/>
+  <File path="copper_detail.dds.5"/>
+  <File path="copper_detail.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

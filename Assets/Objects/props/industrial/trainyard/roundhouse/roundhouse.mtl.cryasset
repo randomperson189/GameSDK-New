@@ -1,0 +1,32 @@
+<AssetMetadata version="0" type="Material" guid="3997c306-f41f-9c20-a679-c3797a6c5a99">
+ <Files>
+  <File path="roundhouse.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">14</Detail>
+  <Detail name="textureCount">21</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/trainyard/roundhouse/textures/wall_dirt_dcal.dds</Path>
+  <Path usageCount="1">textures/generic/glass/window_glass_diff.dds</Path>
+  <Path usageCount="1">textures/generic/glass/window_glass_spec.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_ground_b_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_ground_b_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_steelbar_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_steelbar_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_b90_detail.dds</Path>
+  <Path usageCount="1">textures/generic/glass/industrial_windows_b_diff.dds</Path>
+  <Path usageCount="1">textures/generic/glass/industrial_windows_b_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/brick/thin_brick_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/thin_brick_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_red_scratched_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_red_scratched_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/roof_paper_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/roof_paper_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_clean_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_clean_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/concrete/gravel_1_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

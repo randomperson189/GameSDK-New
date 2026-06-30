@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Mesh" guid="53676625-5814-855c-3384-6448408a7bf7">
+ <Files>
+  <File path="jetty_wood_platform_large_a.cgf"/>
+  <File path="jetty_wood_platform_large_a_lod1.cgf"/>
+  <File path="jetty_wood_platform_large_a_lod2.cgf"/>
+  <File path="jetty_wood_platform_large_a_lod3.cgf"/>
+  <File path="jetty_wood_platform_large_a_lod4.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">24358</Detail>
+  <Detail name="vertexCount">17624</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./jetty_wood_old.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

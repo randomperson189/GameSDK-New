@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="40dd5d75-0b6b-b0b2-800b-88d002a923d9">
+ <Files>
+  <File path="roundhouse_module_d.cgf"/>
+  <File path="roundhouse_module_d_lod1.cgf"/>
+  <File path="roundhouse_module_d_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">15</Detail>
+  <Detail name="triangleCount">5052</Detail>
+  <Detail name="vertexCount">7763</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Roundhouse.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

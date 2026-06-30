@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="f10821be-bc9c-2493-1278-00f2991f8256">
+ <Files>
+  <File path="skyscrapper.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">objects/props/furniture/appliances/bathroom/bathroom.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/conductor_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/silver_spec.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/gloss70_ddna.dds</Path>
+  <Path usageCount="1">Objects/props/flappy_boid/skyscrapper_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

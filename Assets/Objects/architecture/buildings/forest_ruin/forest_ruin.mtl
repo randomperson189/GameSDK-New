@@ -1,0 +1,89 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="brick_wall" MtlFlags="524416" Shader="Illum" GenMask="800400A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%DISPLACEMENT_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/brick/brick_raw_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/brick/brick_raw_ddna.tif"/>
+    <Texture Map="Heightmap" File="textures/generic/brick/brick_raw_displ.tif"/>
+    <Texture Map="Opacity" File="textures/generic/brick/brick_raw_blend.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rocks/textures/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rocks/textures/moss_ddna.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="8" TessellationFaceCull="0.75" TessellationFactor="1.5" BlendLayer2Tiling="1.5" TessellationDispBias="0.75" BlendLayerDisplacement="0" TessellationHeightScale="0.40000001" SSSIndex="0" BlendMaskTiling="1" TessellationFactorMax="6" BlendFactor="1.5" BlendLayer2Specular="0.02" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="80000181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.0069954107,0.0069954107,0.0069954107" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_diff.tif" Filter="7">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_b_detail.dds">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="1" DetailGlossScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="ground" MtlFlags="524416" Shader="Illum" GenMask="800400A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%DISPLACEMENT_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.0097212177,0.0097212177,0.0097212177" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/brick/brick_raw_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/brick/brick_raw_ddna.tif"/>
+    <Texture Map="Heightmap" File="textures/generic/brick/brick_raw_displ.tif"/>
+    <Texture Map="Opacity" File="textures/generic/brick/brick_raw_blend.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rocks/textures/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rocks/textures/moss_ddna.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="8" TessellationFaceCull="0.75" TessellationFactor="1.5" BlendLayer2Tiling="1.5" TessellationDispBias="0.5" BlendLayerDisplacement="0" TessellationHeightScale="0.40000001" SSSIndex="0" BlendMaskTiling="1" TessellationFactorMax="4" BlendFactor="1" BlendLayer2Specular="0.02" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="moss" MtlFlags="524448" Shader="Illum" GenMask="80000881" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DECAL%SUBSURFACE_SCATTERING" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,1,1" Specular="0.0097212186,0.0097212186,0.0097212186" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rocks/textures/rock_forest_moss_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rocks/textures/rock_forest_moss_a_ddna.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="leaves" MtlFlags="525472" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_soil" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="rock" MtlFlags="524416" Shader="Illum" GenMask="2080000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.0097212186,0.0097212186,0.0097212186" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rocks/textures/rock_diff.tif">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rocks/textures/rock_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="_free" MtlFlags="525480" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="80" Opacity="1" LayerAct="1">
+   <Textures />
+   <DetailDecal Opacity="128" SSAOAmount="0" topTileU="1" topTileV="1" topOffsV="0" topOffsU="0" topRotation="0" topDeformation="0" topSortOffset="0" bottomTileU="0.5" bottomTileV="0.5" bottomOffsV="0.5" bottomOffsU="0.5" bottomRotation="0" bottomDeformation="0" bottomSortOffset="0"/>
+  </Material>
+  <Material Name="branches" MtlFlags="524416" Shader="Vegetation" GenMask="2400800080" StringGenMask="%BUMP_MAP%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,1,1" Specular="0.033104766,0.033104766,0.033104766" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.44999999" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/beech_leaf_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/rocky_ravine/textures/beech_leaf_ddna.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.080000103" bendDetailFrequency="0.02" bendDetailBranchAmplitude="0" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.25" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="window" MtlFlags="524448" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.012983033,0.012983033,0.012983033" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/concrete/concrete_corner_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/concrete/concrete_corner_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="moss_solid" MtlFlags="524450" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.69999999" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rocks/textures/rock_forest_moss_a_diff.tif" Filter="7"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rocks/textures/rock_forest_moss_a_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_stone" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_wood" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Material" guid="ceff9c2d-d048-b8be-7aa3-2ce8d853ed92">
+ <Files>
+  <File path="woodland_distance_formation.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">10</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">Objects/natural/woodland/pine_distance_diff.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/pine_distance_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/pine_distance_sss.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_rocks/canyon_wall_up_diff.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_rocks/canyon_wall_ddna.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_rocks/canyon_wall_up_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_wall_up_river_wet_diff.dds</Path>
+  <Path usageCount="2">textures/generic/blend_masks/brick_blend.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/woodland/moss_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

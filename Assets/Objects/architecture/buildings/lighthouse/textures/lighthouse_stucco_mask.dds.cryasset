@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="9d6c46c8-b8bb-2ddf-8dc8-1353463d3b2c">
+ <Files>
+  <File path="lighthouse_stucco_mask.dds"/>
+  <File path="lighthouse_stucco_mask.dds.1"/>
+  <File path="lighthouse_stucco_mask.dds.2"/>
+  <File path="lighthouse_stucco_mask.dds.3"/>
+  <File path="lighthouse_stucco_mask.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

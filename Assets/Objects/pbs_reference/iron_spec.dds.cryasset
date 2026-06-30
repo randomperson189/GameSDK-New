@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="e214b758-7035-3f96-f5ce-d495e7b153fd">
+ <Files>
+  <File path="iron_spec.dds"/>
+  <File path="iron_spec.dds.1"/>
+  <File path="iron_spec.dds.2"/>
+  <File path="iron_spec.dds.3"/>
+  <File path="iron_spec.dds.4"/>
+  <File path="iron_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

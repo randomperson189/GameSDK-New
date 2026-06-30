@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="51e130fa-8d05-5353-0ef0-b620ebda2462">
+ <Files>
+  <File path="tiles_dirty.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/tiles_dirty_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/tiles_dirty_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

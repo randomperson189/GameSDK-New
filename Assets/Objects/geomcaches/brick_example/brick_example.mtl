@@ -1,0 +1,34 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="0">
+   <Textures />
+  </Material>
+  <Material Name="bricks" MtlFlags="524416" Shader="Illum" GenMask="2081000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,0.86315733,0.75294232" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="0">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/generic/concrete/rough_concrete_c_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="Textures/generic/concrete/rough_concrete_c_ddna.tif"/>
+    <Texture Map="Custom" File="Textures/generic/concrete/concrete_ground_a_diff.tif"/>
+    <Texture Map="[1] Custom" File="Textures/generic/concrete/concrete_ceiling_ddna.tif"/>
+    <Texture Map="Opacity" File="Textures/generic/concrete/plaster_rough_stones_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="16" BlendLayer2Specular="0.029999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wreckingball" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="0">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/generic/metal/metal_bronze_plain_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="Textures/generic/metal/metal_bronze_plain_a_ddna.tif"/>
+    <Texture Map="Specular" File="Textures/generic/metal/metal_bronze_plain_a_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wire" MtlFlags="524416" Shader="Illum" GenMask="80000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.0030352699,0.0030352699,0.0030352699" Specular="0.03189604,0.03189604,0.03189604" Emissive="0,0,0" Opacity="1" Shininess="50" CloakAmount="0" vertModifType="0" LayerAct="0">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/defaults/grey.dds"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

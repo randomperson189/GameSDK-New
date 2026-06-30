@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="e45c34c1-fd5b-c70f-245d-ac95309204d0">
+ <Files>
+  <File path="oil_tank_ddna.dds"/>
+  <File path="oil_tank_ddna.dds.a"/>
+  <File path="oil_tank_ddna.dds.1"/>
+  <File path="oil_tank_ddna.dds.1a"/>
+  <File path="oil_tank_ddna.dds.2"/>
+  <File path="oil_tank_ddna.dds.2a"/>
+  <File path="oil_tank_ddna.dds.3"/>
+  <File path="oil_tank_ddna.dds.3a"/>
+  <File path="oil_tank_ddna.dds.4"/>
+  <File path="oil_tank_ddna.dds.4a"/>
+  <File path="oil_tank_ddna.dds.5"/>
+  <File path="oil_tank_ddna.dds.5a"/>
+  <File path="oil_tank_ddna.dds.6"/>
+  <File path="oil_tank_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

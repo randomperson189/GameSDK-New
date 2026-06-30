@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="de830078-6606-7b17-6885-67abaa9a25ed">
+ <Files>
+  <File path="ladder.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">312</Detail>
+  <Detail name="vertexCount">504</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./storage_pile.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

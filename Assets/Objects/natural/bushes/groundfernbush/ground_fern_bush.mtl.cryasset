@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="5358c374-9be5-9edc-ee08-559faa8e29a0">
+ <Files>
+  <File path="ground_fern_bush.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/bushes/groundfernbush/textures/ground_fern_bush_leaf_a.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/groundfernbush/textures/ground_fern_bush_leaf_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/groundfernbush/textures/ground_fern_bush_leaf_a_opac.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="53487695-5c72-5b55-8f0a-4cd9aeecc493">
+ <Files>
+  <File path="receptionlift_diff.dds"/>
+  <File path="receptionlift_diff.dds.1"/>
+  <File path="receptionlift_diff.dds.2"/>
+  <File path="receptionlift_diff.dds.3"/>
+  <File path="receptionlift_diff.dds.4"/>
+  <File path="receptionlift_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

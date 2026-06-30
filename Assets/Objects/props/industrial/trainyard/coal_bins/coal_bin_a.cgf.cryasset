@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="944b94b7-af81-0839-b82e-cf576cdfb833">
+ <Files>
+  <File path="coal_bin_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">9</Detail>
+  <Detail name="triangleCount">736</Detail>
+  <Detail name="vertexCount">907</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./coal_bin.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

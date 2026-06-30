@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="dc3abcdb-77ba-c067-28a3-1dd6d5501d69">
+ <Files>
+  <File path="chenyan_canvas_end_ddna.dds"/>
+  <File path="chenyan_canvas_end_ddna.dds.a"/>
+  <File path="chenyan_canvas_end_ddna.dds.1"/>
+  <File path="chenyan_canvas_end_ddna.dds.1a"/>
+  <File path="chenyan_canvas_end_ddna.dds.2"/>
+  <File path="chenyan_canvas_end_ddna.dds.2a"/>
+  <File path="chenyan_canvas_end_ddna.dds.3"/>
+  <File path="chenyan_canvas_end_ddna.dds.3a"/>
+  <File path="chenyan_canvas_end_ddna.dds.4"/>
+  <File path="chenyan_canvas_end_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

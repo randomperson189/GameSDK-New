@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="7f4eda86-e371-66ae-5332-9d71729ec59f">
+ <Files>
+  <File path="neon_light_spec.dds"/>
+  <File path="neon_light_spec.dds.1"/>
+  <File path="neon_light_spec.dds.2"/>
+  <File path="neon_light_spec.dds.3"/>
+  <File path="neon_light_spec.dds.4"/>
+  <File path="neon_light_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

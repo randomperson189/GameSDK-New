@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="628893d7-7402-5fca-6a9d-9b30e63d0b8f">
+ <Files>
+  <File path="ground_rock_detail_02.dds"/>
+  <File path="ground_rock_detail_02.dds.1"/>
+  <File path="ground_rock_detail_02.dds.2"/>
+  <File path="ground_rock_detail_02.dds.3"/>
+  <File path="ground_rock_detail_02.dds.4"/>
+  <File path="ground_rock_detail_02.dds.5"/>
+  <File path="ground_rock_detail_02.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

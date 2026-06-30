@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="5173d46a-456f-ed47-d011-315aaad4fcdf">
+ <Files>
+  <File path="engine_diff.dds"/>
+  <File path="engine_diff.dds.1"/>
+  <File path="engine_diff.dds.2"/>
+  <File path="engine_diff.dds.3"/>
+  <File path="engine_diff.dds.4"/>
+  <File path="engine_diff.dds.5"/>
+  <File path="engine_diff.dds.6"/>
+  <File path="engine_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

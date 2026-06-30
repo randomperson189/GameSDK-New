@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="e7cf00d8-0bc1-1376-8117-12e9df7569fe">
+ <Files>
+  <File path="wooden_bucket_c.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">216</Detail>
+  <Detail name="vertexCount">268</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wooden_barrel.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

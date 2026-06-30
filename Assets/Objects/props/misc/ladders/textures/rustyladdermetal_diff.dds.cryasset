@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="b0da962b-123b-6193-ed70-1ced88d582dc">
+ <Files>
+  <File path="rustyladdermetal_diff.dds"/>
+  <File path="rustyladdermetal_diff.dds.1"/>
+  <File path="rustyladdermetal_diff.dds.2"/>
+  <File path="rustyladdermetal_diff.dds.3"/>
+  <File path="rustyladdermetal_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="cf9bf30b-5cdc-1b8f-3d0f-3229b07c1fa4">
+ <Files>
+  <File path="debris_sandstone.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/terrain/detail/debris_sandstone_diff.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/debris_sandstone_ddna.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/debris_sandstone_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

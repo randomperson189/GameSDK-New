@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="cdb85e22-6c34-365d-9fec-347728d095a1">
+ <Files>
+  <File path="pine_distance_terrain.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/terrain/detail/pine_distance_terrain_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

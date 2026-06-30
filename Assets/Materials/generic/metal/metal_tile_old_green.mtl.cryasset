@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="70d68018-cf25-d219-8428-9e31ce931fba">
+ <Files>
+  <File path="metal_tile_old_green.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_tile_old_green_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_tile_old_green_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_tile_old_green_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

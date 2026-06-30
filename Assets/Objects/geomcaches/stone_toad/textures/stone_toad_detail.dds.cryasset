@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="e5bbec08-de78-69d5-4354-5a515556b365">
+ <Files>
+  <File path="stone_toad_detail.dds"/>
+  <File path="stone_toad_detail.dds.1"/>
+  <File path="stone_toad_detail.dds.2"/>
+  <File path="stone_toad_detail.dds.3"/>
+  <File path="stone_toad_detail.dds.4"/>
+  <File path="stone_toad_detail.dds.5"/>
+  <File path="stone_toad_detail.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

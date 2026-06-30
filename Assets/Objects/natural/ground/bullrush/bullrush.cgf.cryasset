@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="11d65fdb-46fc-c570-b4df-e715e39066e6">
+ <Files>
+  <File path="bullrush.cgf"/>
+  <File path="bullrush_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">201</Detail>
+  <Detail name="vertexCount">179</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./bullrush.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

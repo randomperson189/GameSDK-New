@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="b8f08d50-399c-5b35-7502-ad75ec7cc13e">
+ <Files>
+  <File path="jungle_tree.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/bushes/roundleafbush/textures/leaves_a_diff.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/roundleafbush/textures/leaves_a_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/con_palm_pino_trunk_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/con_palm_pino_trunk_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="5491faae-5217-0804-9a23-c00f6608f425">
+ <Files>
+  <File path="river_no_water_pebbles.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/terrain/detail/river_no_water_pebbles_diff.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/river_no_water_pebbles_ddna.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/river_no_water_pebbles_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="ecfb8f1e-6e25-f34a-32b7-2852232f643d">
+ <Files>
+  <File path="ceiling_light.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">Objects/props/furniture/appliances/lamps/textures/ceilinglight_dif.dds</Path>
+  <Path usageCount="2">Objects/props/furniture/appliances/lamps/textures/glass_dif.dds</Path>
+  <Path usageCount="2">Objects/props/furniture/appliances/lamps/textures/glass_detailbump_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

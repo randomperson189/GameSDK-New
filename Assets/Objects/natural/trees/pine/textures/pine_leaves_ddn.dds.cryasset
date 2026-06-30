@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="1e42e455-12e3-dcdd-8c36-007e65505b9a">
+ <Files>
+  <File path="pine_leaves_ddn.dds"/>
+  <File path="pine_leaves_ddn.dds.1"/>
+  <File path="pine_leaves_ddn.dds.2"/>
+  <File path="pine_leaves_ddn.dds.3"/>
+  <File path="pine_leaves_ddn.dds.4"/>
+  <File path="pine_leaves_ddn.dds.5"/>
+  <File path="pine_leaves_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

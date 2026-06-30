@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="c980fec8-3a73-d7a0-3c7f-05eecf03a058">
+ <Files>
+  <File path="small_water_crane.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/trainyard/water_crane/textures/water_crane_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/water_crane/textures/water_crane_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

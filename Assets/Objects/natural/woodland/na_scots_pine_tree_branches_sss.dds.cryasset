@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="fb7b78aa-53e3-0d63-4180-b921efb801e6">
+ <Files>
+  <File path="na_scots_pine_tree_branches_sss.dds"/>
+  <File path="na_scots_pine_tree_branches_sss.dds.1"/>
+  <File path="na_scots_pine_tree_branches_sss.dds.2"/>
+  <File path="na_scots_pine_tree_branches_sss.dds.3"/>
+  <File path="na_scots_pine_tree_branches_sss.dds.4"/>
+  <File path="na_scots_pine_tree_branches_sss.dds.5"/>
+  <File path="na_scots_pine_tree_branches_sss.dds.6"/>
+  <File path="na_scots_pine_tree_branches_sss.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

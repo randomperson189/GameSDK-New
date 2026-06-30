@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="81c47ecd-f8e7-6998-3f39-9fb62fe34ad9">
+ <Files>
+  <File path="wood_dirt_b.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_dirt_b_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_dirt_b_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

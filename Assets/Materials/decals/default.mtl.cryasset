@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="d76d012d-3aa9-3063-33cd-7e6883162f48">
+ <Files>
+  <File path="default.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">engineassets/texturemsg/replaceme.dds</Path>
+ </Dependencies>
+</AssetMetadata>

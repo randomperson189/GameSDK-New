@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="99e0a841-edf0-6481-9ea0-61c28a2f5740">
+ <Files>
+  <File path="rust_tile_ddna.dds"/>
+  <File path="rust_tile_ddna.dds.a"/>
+  <File path="rust_tile_ddna.dds.1"/>
+  <File path="rust_tile_ddna.dds.1a"/>
+  <File path="rust_tile_ddna.dds.2"/>
+  <File path="rust_tile_ddna.dds.2a"/>
+  <File path="rust_tile_ddna.dds.3"/>
+  <File path="rust_tile_ddna.dds.3a"/>
+  <File path="rust_tile_ddna.dds.4"/>
+  <File path="rust_tile_ddna.dds.4a"/>
+  <File path="rust_tile_ddna.dds.5"/>
+  <File path="rust_tile_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

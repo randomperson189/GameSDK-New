@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="dbfd637f-4a86-793d-aa0a-a4964108896b">
+ <Files>
+  <File path="shack_c.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">218</Detail>
+  <Detail name="vertexCount">329</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mines.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

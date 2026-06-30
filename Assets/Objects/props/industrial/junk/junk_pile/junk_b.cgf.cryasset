@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="51f4f3b4-62a3-f2bd-220c-0d107f30c083">
+ <Files>
+  <File path="junk_b.cgf"/>
+  <File path="junk_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">886</Detail>
+  <Detail name="vertexCount">1383</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./junk.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

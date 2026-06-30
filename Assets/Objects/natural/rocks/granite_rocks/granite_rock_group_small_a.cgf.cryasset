@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="2dd57478-f3d8-5843-680b-f2e360a67eec">
+ <Files>
+  <File path="granite_rock_group_small_a.cgf"/>
+  <File path="granite_rock_group_small_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">582</Detail>
+  <Detail name="vertexCount">444</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./granite_rocks.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

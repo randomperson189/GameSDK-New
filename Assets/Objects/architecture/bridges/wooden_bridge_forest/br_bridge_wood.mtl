@@ -1,0 +1,25 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="9.999999" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="2081000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.028991185,0.028991185,0.028991185" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/bridges/wooden_bridge_forest/wood_planks_square_c_moss_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/bridges/wooden_bridge_forest/wood_planks_square_c_moss_ddna.tif"/>
+    <Texture Map="Custom" File="objects/architecture/bridges/wooden_bridge_forest/wood_planks_square_c_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/architecture/bridges/wooden_bridge_forest/wood_planks_square_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/daub_rough_wood_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="2.9000001" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="4.1399999" BlendLayer2Specular="0.031500001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="foliage" MtlFlags="524448" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,1,1" Specular="0.028991185,0.028991185,0.028991185" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/woodland/scrub_ground_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/woodland/scrub_ground_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

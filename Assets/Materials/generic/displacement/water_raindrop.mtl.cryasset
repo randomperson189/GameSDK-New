@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="ef8917d5-bd0d-c9f0-fdbf-716f974a9e17">
+ <Files>
+  <File path="water_raindrop.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/flat_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/water_raindrop_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

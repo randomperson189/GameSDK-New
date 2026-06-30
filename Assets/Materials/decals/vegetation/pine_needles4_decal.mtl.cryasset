@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="580efb9f-741a-4a6c-f25e-1959cb324f87">
+ <Files>
+  <File path="pine_needles4_decal.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/vegetation/pine_needles4_decal_diff.dds</Path>
+  <Path usageCount="1">textures/decals/vegetation/pine_needles4_decal_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

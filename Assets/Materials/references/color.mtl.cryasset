@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="926e6cb5-c639-7168-bff6-18b161dbd9d3">
+ <Files>
+  <File path="color.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/references/color.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="90fd4055-9e30-0c7d-0c47-6f5786863601">
+ <Files>
+  <File path="neon_light.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/misc/lights/neon_light/textures/neon_light_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/lights/neon_light/textures/neon_light_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

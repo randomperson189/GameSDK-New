@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="1a884174-6322-d0df-8c8c-72bb32f9ba7c">
+ <Files>
+  <File path="gun_b_mount.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">814</Detail>
+  <Detail name="vertexCount">1167</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./m1a1_desert.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="c538f5da-a964-b9f3-290e-2dbb0f52e5f5">
+ <Files>
+  <File path="watertower_mid_exterior.cgf"/>
+  <File path="watertower_mid_exterior_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">12</Detail>
+  <Detail name="triangleCount">3085</Detail>
+  <Detail name="vertexCount">6188</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./watertower_stone.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

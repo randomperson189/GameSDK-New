@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d2eea84a-73a2-f5cd-ca60-6d215d0e99ee">
+ <Files>
+  <File path="water_foam_obstacle_right_thin.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">56</Detail>
+  <Detail name="vertexCount">40</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./water_foam.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

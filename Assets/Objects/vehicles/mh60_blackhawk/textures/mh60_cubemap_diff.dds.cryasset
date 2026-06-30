@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="873504e0-a7e1-6336-9ecd-787467918377">
+ <Files>
+  <File path="mh60_cubemap_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">192</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="76ad6772-2545-5e60-ade2-02ce39290260">
+ <Files>
+  <File path="dead_tree_moss_ddna.dds"/>
+  <File path="dead_tree_moss_ddna.dds.a"/>
+  <File path="dead_tree_moss_ddna.dds.1"/>
+  <File path="dead_tree_moss_ddna.dds.1a"/>
+  <File path="dead_tree_moss_ddna.dds.2"/>
+  <File path="dead_tree_moss_ddna.dds.2a"/>
+  <File path="dead_tree_moss_ddna.dds.3"/>
+  <File path="dead_tree_moss_ddna.dds.3a"/>
+  <File path="dead_tree_moss_ddna.dds.4"/>
+  <File path="dead_tree_moss_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

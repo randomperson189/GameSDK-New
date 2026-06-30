@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="6f21b50e-1bc4-cd4c-331a-860345d4793c">
+ <Files>
+  <File path="smoke_mask.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/flat_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/smoke_mask_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

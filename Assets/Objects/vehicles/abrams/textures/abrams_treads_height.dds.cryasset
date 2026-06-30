@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="2eefca77-cd41-e155-86b6-01a6c58fa7c5">
+ <Files>
+  <File path="abrams_treads_height.dds"/>
+  <File path="abrams_treads_height.dds.1"/>
+  <File path="abrams_treads_height.dds.2"/>
+  <File path="abrams_treads_height.dds.3"/>
+  <File path="abrams_treads_height.dds.4"/>
+  <File path="abrams_treads_height.dds.5"/>
+  <File path="abrams_treads_height.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

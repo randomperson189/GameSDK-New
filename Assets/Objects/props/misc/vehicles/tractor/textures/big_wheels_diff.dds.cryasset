@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="b0c93e26-1a8c-6d35-5d32-3938f4e8f46f">
+ <Files>
+  <File path="big_wheels_diff.dds"/>
+  <File path="big_wheels_diff.dds.1"/>
+  <File path="big_wheels_diff.dds.2"/>
+  <File path="big_wheels_diff.dds.3"/>
+  <File path="big_wheels_diff.dds.4"/>
+  <File path="big_wheels_diff.dds.5"/>
+  <File path="big_wheels_diff.dds.6"/>
+  <File path="big_wheels_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

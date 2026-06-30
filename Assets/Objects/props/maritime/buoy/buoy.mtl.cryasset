@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="382d8812-30ea-d58f-ab3e-459893024e2f">
+ <Files>
+  <File path="buoy.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/maritime/buoy/textures/buoy_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c6ed38fb-bff9-ed95-8c59-8debfffc382e">
+ <Files>
+  <File path="gun_b_base.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">60</Detail>
+  <Detail name="vertexCount">68</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./m1a1_desert.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

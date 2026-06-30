@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a897c44c-4168-be94-81cc-bfcf1c5ca640">
+ <Files>
+  <File path="abrams_damage_spec.dds"/>
+  <File path="abrams_damage_spec.dds.1"/>
+  <File path="abrams_damage_spec.dds.2"/>
+  <File path="abrams_damage_spec.dds.3"/>
+  <File path="abrams_damage_spec.dds.4"/>
+  <File path="abrams_damage_spec.dds.5"/>
+  <File path="abrams_damage_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

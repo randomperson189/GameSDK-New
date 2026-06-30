@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="9946e169-a230-ad65-ba45-e6fe63bfbe6b">
+ <Files>
+  <File path="fridge_a.cgf"/>
+  <File path="fridge_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">711</Detail>
+  <Detail name="vertexCount">1224</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fridge.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

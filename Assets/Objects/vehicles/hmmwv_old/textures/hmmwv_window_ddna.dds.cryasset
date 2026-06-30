@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="f46c103e-1f3e-7a77-8fa5-b854ab14ef3c">
+ <Files>
+  <File path="hmmwv_window_ddna.dds"/>
+  <File path="hmmwv_window_ddna.dds.a"/>
+  <File path="hmmwv_window_ddna.dds.1"/>
+  <File path="hmmwv_window_ddna.dds.1a"/>
+  <File path="hmmwv_window_ddna.dds.2"/>
+  <File path="hmmwv_window_ddna.dds.2a"/>
+  <File path="hmmwv_window_ddna.dds.3"/>
+  <File path="hmmwv_window_ddna.dds.3a"/>
+  <File path="hmmwv_window_ddna.dds.4"/>
+  <File path="hmmwv_window_ddna.dds.4a"/>
+  <File path="hmmwv_window_ddna.dds.5"/>
+  <File path="hmmwv_window_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

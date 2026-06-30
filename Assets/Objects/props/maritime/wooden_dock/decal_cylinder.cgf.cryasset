@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="1cca2dfe-e0c2-185d-e60f-f24a2a47e31c">
+ <Files>
+  <File path="decal_cylinder.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">76</Detail>
+  <Detail name="vertexCount">64</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./decal_cylinder.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

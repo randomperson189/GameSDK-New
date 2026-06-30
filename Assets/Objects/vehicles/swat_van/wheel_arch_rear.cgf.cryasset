@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="6195c9da-f896-fb5e-7c60-cc2ec97c0d23">
+ <Files>
+  <File path="wheel_arch_rear.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">318</Detail>
+  <Detail name="vertexCount">342</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/vehicles/swat_van/swat_van.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

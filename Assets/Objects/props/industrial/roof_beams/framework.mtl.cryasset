@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="2b365686-3eaf-3b26-0090-d8e8f11f08ce">
+ <Files>
+  <File path="framework.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/roof_beams/textures/alphadetail_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/roof_beams/textures/alphadetail_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/detail_metal_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

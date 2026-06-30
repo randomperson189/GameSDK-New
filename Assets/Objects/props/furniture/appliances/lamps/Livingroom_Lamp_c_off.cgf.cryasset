@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="4716cc14-b974-3494-4b85-451667711d30">
+ <Files>
+  <File path="Livingroom_Lamp_c_off.cgf"/>
+  <File path="Livingroom_Lamp_c_off_lod1.cgf"/>
+  <File path="Livingroom_Lamp_c_off_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">1109</Detail>
+  <Detail name="vertexCount">849</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./livingroom_lamp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,22 @@
+<AssetMetadata version="0" type="Material" guid="cfd81e80-0f89-5e98-44a9-82c28bb69cce">
+ <Files>
+  <File path="mh60.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">10</Detail>
+  <Detail name="textureCount">11</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">objects/vehicles/mh60_blackhawk/textures/mh60_entity_diff.dds</Path>
+  <Path usageCount="3">objects/vehicles/mh60_blackhawk/textures/mh60_entity_new_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_motion.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_decal.dds</Path>
+  <Path usageCount="3">textures/detail_bumpmaps/metal/metal_006_detail.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_interior.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_interior_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_interior_glow.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_exterior_black_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_exterior_new_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

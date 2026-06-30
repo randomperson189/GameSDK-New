@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c390b110-4cb2-2cd7-733b-339d959b8fed">
+ <Files>
+  <File path="generator_c_RPM.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">458</Detail>
+  <Detail name="vertexCount">686</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./generator_c.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

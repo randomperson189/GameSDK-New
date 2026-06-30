@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="979a8757-216a-1820-348b-9c4689e66b34">
+ <Files>
+  <File path="sleepingbag.cgf"/>
+  <File path="sleepingbag_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">512</Detail>
+  <Detail name="vertexCount">320</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_camp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

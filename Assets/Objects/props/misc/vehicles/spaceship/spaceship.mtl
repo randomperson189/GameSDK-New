@@ -1,0 +1,41 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="main" MtlFlags="524416" Shader="Illum" GenMask="40080081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PN_TESSELLATION" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/pbs_reference/car_paint_diff.tif">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/pbs_reference/car_paint_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/pbs_reference/gloss80_ddna.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="1" TessellationFactorMax="32" SubsurfaceScatteringAmount="0.2" TessellationFactorMin="1" IndirectColor="0,0.0056053922,0.07618539"/>
+  </Material>
+  <Material Name="second" MtlFlags="524416" Shader="Illum" GenMask="40080081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%PN_TESSELLATION" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/pbs_reference/conductor_diff.tif">
+     <TexMod TileU="3" TileV="3"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/pbs_reference/silver_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/pbs_reference/gloss70_ddna.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="1" TessellationFactorMax="32" SubsurfaceScatteringAmount="0" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glow" MtlFlags="524416" Shader="Illum" GenMask="40000001" StringGenMask="%ALLOW_SILHOUETTE_POM%PN_TESSELLATION" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" GlowAmount="61" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/pbs_reference/porcelain_diff.tif">
+     <TexMod TileU="3" TileV="3"/>
+    </Texture>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.99199998" TessellationFactor="1" TessellationFactorMax="32" SubsurfaceScatteringAmount="0" TessellationFactorMin="1" IndirectColor="0.086500466,0.086500466,0.086500466"/>
+  </Material>
+  <Material Name="glass" MtlFlags="2623620" Shader="Glass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass" MatTemplate="" Diffuse="0,0,0" Specular="1,1,1" Emissive="0,0,0" Shininess="177" Opacity="1" LayerAct="1">
+   <Textures>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.010960095,0.015996294,0.030713445" FresnelScale="1" FresnelBias="1" TintCloudiness="0.45500001" BackLightScale="0.57599998" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

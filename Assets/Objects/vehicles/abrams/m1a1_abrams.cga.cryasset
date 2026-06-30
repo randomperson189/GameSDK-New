@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="AnimatedMesh" guid="68024582-a240-346c-c298-d5e223a8b2fc">
+ <Files>
+  <File path="m1a1_abrams.cga"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">37927</Detail>
+  <Detail name="vertexCount">48386</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./m1a1_desert.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

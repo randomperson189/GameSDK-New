@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="125b10d8-89d2-3e76-6cdc-28bacd335782">
+ <Files>
+  <File path="na_tree_roots_decal_a_ddna.dds"/>
+  <File path="na_tree_roots_decal_a_ddna.dds.a"/>
+  <File path="na_tree_roots_decal_a_ddna.dds.1"/>
+  <File path="na_tree_roots_decal_a_ddna.dds.1a"/>
+  <File path="na_tree_roots_decal_a_ddna.dds.2"/>
+  <File path="na_tree_roots_decal_a_ddna.dds.2a"/>
+  <File path="na_tree_roots_decal_a_ddna.dds.3"/>
+  <File path="na_tree_roots_decal_a_ddna.dds.3a"/>
+  <File path="na_tree_roots_decal_a_ddna.dds.4"/>
+  <File path="na_tree_roots_decal_a_ddna.dds.4a"/>
+  <File path="na_tree_roots_decal_a_ddna.dds.5"/>
+  <File path="na_tree_roots_decal_a_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

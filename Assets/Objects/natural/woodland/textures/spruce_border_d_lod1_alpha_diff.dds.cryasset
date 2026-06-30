@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="cfdcc90f-8542-7776-e399-9b3b5d48d637">
+ <Files>
+  <File path="spruce_border_d_lod1_alpha_diff.dds"/>
+  <File path="spruce_border_d_lod1_alpha_diff.dds.1"/>
+  <File path="spruce_border_d_lod1_alpha_diff.dds.2"/>
+  <File path="spruce_border_d_lod1_alpha_diff.dds.3"/>
+  <File path="spruce_border_d_lod1_alpha_diff.dds.4"/>
+  <File path="spruce_border_d_lod1_alpha_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

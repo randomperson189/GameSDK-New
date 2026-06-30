@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="f165a590-a1d0-472c-2ed6-16170c85994e">
+ <Files>
+  <File path="leaves_a_ddna.dds"/>
+  <File path="leaves_a_ddna.dds.a"/>
+  <File path="leaves_a_ddna.dds.1"/>
+  <File path="leaves_a_ddna.dds.1a"/>
+  <File path="leaves_a_ddna.dds.2"/>
+  <File path="leaves_a_ddna.dds.2a"/>
+  <File path="leaves_a_ddna.dds.3"/>
+  <File path="leaves_a_ddna.dds.3a"/>
+  <File path="leaves_a_ddna.dds.4"/>
+  <File path="leaves_a_ddna.dds.4a"/>
+  <File path="leaves_a_ddna.dds.5"/>
+  <File path="leaves_a_ddna.dds.5a"/>
+  <File path="leaves_a_ddna.dds.6"/>
+  <File path="leaves_a_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

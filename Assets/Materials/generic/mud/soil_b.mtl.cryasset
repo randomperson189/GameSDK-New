@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="400098b1-d6b9-bca9-10bf-c5c27728afe0">
+ <Files>
+  <File path="soil_b.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/mud/mud_k_diff.dds</Path>
+  <Path usageCount="1">textures/generic/mud/mud_k_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/mud/mud_k_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

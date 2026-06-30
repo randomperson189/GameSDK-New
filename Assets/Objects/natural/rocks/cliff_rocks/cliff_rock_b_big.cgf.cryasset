@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="2b08db9c-ae89-e0d8-4fc8-59700dbca3ad">
+ <Files>
+  <File path="cliff_rock_b_big.cgf"/>
+  <File path="cliff_rock_b_big_lod1.cgf"/>
+  <File path="cliff_rock_b_big_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1484</Detail>
+  <Detail name="vertexCount">964</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cliff_rock_b.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

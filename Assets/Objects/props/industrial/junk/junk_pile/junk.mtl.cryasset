@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="1faaa60e-947b-dba6-ffd7-563146b21ec4">
+ <Files>
+  <File path="junk.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/rusted_steel_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/rusted_steel_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/blend_tile.dds</Path>
+  <Path usageCount="1">textures/generic/metal/rust_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/rust_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_moosy_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_moosy_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

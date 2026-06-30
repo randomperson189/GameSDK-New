@@ -1,0 +1,36 @@
+<AssetMetadata version="0" type="Material" guid="c913170d-c9af-616e-fae1-e10d7daf37ba">
+ <Files>
+  <File path="fishing_house_c_green.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">10</Detail>
+  <Detail name="textureCount">25</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/architecture/buildings/fishing_houses/textures/fishing_houses_curtains_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_curtains_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/lamp_post/textures/lamp_post_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/lamp_post/textures/lamp_post_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/lamp_post/textures/lamp_post_spec.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_chimney_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_chimney_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/glass_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_door_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/lighthouse/textures/lighthouse_door_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_beam_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_beam_ddna.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/forest_rocks/textures/moss_diff.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/forest_rocks/textures/moss_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/rock_a_mask.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_trims_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_trims_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_roof_b_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_roof_b_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/concrete/concrete_a_detail.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/dirt_blend.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_planks_b_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_planks_b_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_horizontal_1_detail.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/textures/fishing_houses_wood_planks_b_dirt_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d87210e1-e09f-dd24-13cd-2fd35936e0bf">
+ <Files>
+  <File path="rail_bumper.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">872</Detail>
+  <Detail name="vertexCount">1528</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./rail_bumper.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

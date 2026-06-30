@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="9128b271-4cf7-8b51-ac24-a4213776e2af">
+ <Files>
+  <File path="gloss20_ddna.dds"/>
+  <File path="gloss20_ddna.dds.a"/>
+  <File path="gloss20_ddna.dds.1"/>
+  <File path="gloss20_ddna.dds.1a"/>
+  <File path="gloss20_ddna.dds.2"/>
+  <File path="gloss20_ddna.dds.2a"/>
+  <File path="gloss20_ddna.dds.3"/>
+  <File path="gloss20_ddna.dds.3a"/>
+  <File path="gloss20_ddna.dds.4"/>
+  <File path="gloss20_ddna.dds.4a"/>
+  <File path="gloss20_ddna.dds.5"/>
+  <File path="gloss20_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

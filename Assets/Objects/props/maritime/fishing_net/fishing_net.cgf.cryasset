@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="32ad3100-bb2c-849e-59d2-d786faffadc8">
+ <Files>
+  <File path="fishing_net.cgf"/>
+  <File path="fishing_net_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">2377</Detail>
+  <Detail name="vertexCount">1372</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_net.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

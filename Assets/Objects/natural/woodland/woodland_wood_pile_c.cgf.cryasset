@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="90b21052-2b17-629f-1a02-0fc020fd7145">
+ <Files>
+  <File path="woodland_wood_pile_c.cgf"/>
+  <File path="woodland_wood_pile_c_lod1.cgf"/>
+  <File path="woodland_wood_pile_c_lod2.cgf"/>
+  <File path="woodland_wood_pile_c_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">15</Detail>
+  <Detail name="triangleCount">3737</Detail>
+  <Detail name="vertexCount">2589</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/natural/woodland/woodland_forest.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

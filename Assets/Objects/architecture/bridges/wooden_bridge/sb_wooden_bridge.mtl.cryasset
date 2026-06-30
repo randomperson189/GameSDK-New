@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Material" guid="f83d9c95-fbbc-c872-9874-e756267e324c">
+ <Files>
+  <File path="sb_wooden_bridge.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">8</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/bridges/wooden_bridge/textures/bridge_planks_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/bridges/wooden_bridge/textures/bridge_planks_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/bridges/wooden_bridge/textures/bridge_roof_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/bridges/wooden_bridge/textures/bridge_roof_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/bridges/wooden_bridge/textures/bridge_floor_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/bridges/wooden_bridge/textures/bridge_floor_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/bridges/wooden_bridge/textures/pillar_wood_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/bridges/wooden_bridge/textures/pillar_wood_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

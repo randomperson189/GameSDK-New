@@ -1,0 +1,98 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="rock_detail_01" MtlFlags="524416" Shader="Illum" GenMask="4020801822C1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BLENDLAYER_GLOSS%BUMP_MAP%DETAIL_MAPPING%DISPLACEMENT_MAPPING%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.29765266,0.23099814,0.22331043" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="200" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile.tif" Filter="5">
+     <TexMod TileU="6" TileV="6"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.tif"/>
+    <Texture Map="Heightmap" File="objects/natural/rocks/ground_rocks/textures/ground_rock_01_detail_displ.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/ground_rocks/textures/ground_rock_detail_01.tif">
+     <TexMod TileU="0.1666" TileV="0.1666"/>
+    </Texture>
+    <Texture Map="Opacity" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_mask.tif"/>
+    <Texture Map="Decal" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_gloss.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock.tif" Filter="5"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" BlendFalloff="10" TessellationFaceCull="0.5" SpecMapChannelR="0" TessellationFactor="0.5" BlendLayer2Tiling="1" TessellationDispBias="0.40000001" BlendLayerDisplacement="0" GlossMapChannelB="0" TessellationHeightScale="2" SpecMapChannelG="0" FresnelScale="0.5" DetailDiffuseScale="0.75" FresnelBias="0.039999999" DetailBumpScale="1" TessellationFactorMax="10" BlendFactor="10" DetailGlossScale="0.5" BlendLayer2Specular="0.2" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.48195225,0.48195225,0.48195225" Specular="0.12752977,0.12752977,0.12752977" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="rock_detail_02" MtlFlags="524416" Shader="Illum" GenMask="4020801822C1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BLENDLAYER_GLOSS%BUMP_MAP%DETAIL_MAPPING%DISPLACEMENT_MAPPING%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.29765266,0.23099814,0.22331043" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="200" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile.tif" Filter="5">
+     <TexMod TileU="5" TileV="5"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.tif"/>
+    <Texture Map="Heightmap" File="objects/natural/rocks/ground_rocks/textures/ground_rock_detail_02_displ.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/ground_rocks/textures/ground_rock_detail_02.tif">
+     <TexMod TileU="0.2" TileV="0.2"/>
+    </Texture>
+    <Texture Map="Opacity" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_mask.tif"/>
+    <Texture Map="Decal" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_gloss.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock.tif" Filter="5"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_ground_ddna.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" BlendFalloff="2" TessellationFaceCull="0.5" SpecMapChannelR="0" TessellationFactor="0.5" BlendLayer2Tiling="2" TessellationDispBias="0.5" BlendLayerDisplacement="0" GlossMapChannelB="0" TessellationHeightScale="1" SpecMapChannelG="0" FresnelScale="0.5" DetailDiffuseScale="0.75" FresnelBias="0.039999999" DetailBumpScale="1" TessellationFactorMax="10" BlendFactor="3.21" DetailGlossScale="0.5" BlendLayer2Specular="0.1" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rock_detail_03" MtlFlags="524416" Shader="Illum" GenMask="4020801822C1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BLENDLAYER_GLOSS%BUMP_MAP%DETAIL_MAPPING%DISPLACEMENT_MAPPING%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.29765266,0.23099814,0.22331043" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="200" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile.tif" Filter="5">
+     <TexMod TileU="15" TileV="15"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.tif"/>
+    <Texture Map="Heightmap" File="objects/natural/rocks/ground_rocks/textures/ground_rock_03_detail_displ.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/ground_rocks/textures/ground_rock_detail_03.tif">
+     <TexMod TileU="0.066600002" TileV="0.066600002"/>
+    </Texture>
+    <Texture Map="Opacity" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_mask.tif"/>
+    <Texture Map="Decal" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_gloss.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock.tif" Filter="5"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_ground_ddna.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" BlendFalloff="10" TessellationFaceCull="0.5" SpecMapChannelR="0" TessellationFactor="0.5" BlendLayer2Tiling="1" TessellationDispBias="0.5" BlendLayerDisplacement="0" GlossMapChannelB="0" TessellationHeightScale="2" SpecMapChannelG="0" FresnelScale="0.5" DetailDiffuseScale="0.75" FresnelBias="0.039999999" DetailBumpScale="1" TessellationFactorMax="10" BlendFactor="10" DetailGlossScale="0.75" BlendLayer2Specular="0.2" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rock_detail_04" MtlFlags="524416" Shader="Illum" GenMask="4020801822C1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BLENDLAYER_GLOSS%BUMP_MAP%DETAIL_MAPPING%DISPLACEMENT_MAPPING%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.29765266,0.23099814,0.22331043" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="200" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile.tif" Filter="5">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.tif"/>
+    <Texture Map="Heightmap" File="objects/natural/rocks/ground_rocks/textures/ground_rock_04_detail_displ.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/ground_rocks/textures/ground_rock_detail_04.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Opacity" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_mask.tif"/>
+    <Texture Map="Decal" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_gloss.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock.tif" Filter="5"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_ground_ddna.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" BlendFalloff="10" TessellationFaceCull="0.5" SpecMapChannelR="0" TessellationFactor="0.5" BlendLayer2Tiling="1" TessellationDispBias="0.5" BlendLayerDisplacement="0" GlossMapChannelB="0" TessellationHeightScale="1" SpecMapChannelG="0" FresnelScale="0.5" DetailDiffuseScale="0.75" FresnelBias="0.039999999" DetailBumpScale="1" TessellationFactorMax="10" BlendFactor="10" DetailGlossScale="0.5" BlendLayer2Specular="0.2" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rock_detail_05" MtlFlags="524416" Shader="Illum" GenMask="4020801822C1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BLENDLAYER_GLOSS%BUMP_MAP%DETAIL_MAPPING%DISPLACEMENT_MAPPING%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.29765266,0.23099814,0.22331043" Specular="0.50543249,0.50543249,0.50543249" Emissive="0,0,0" Shininess="200" Opacity="1" HeatAmountScaled="6" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile.tif" Filter="5">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.tif"/>
+    <Texture Map="Heightmap" File="objects/natural/rocks/ground_rocks/textures/ground_rock_05_detail_displ.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/ground_rocks/textures/ground_rock_detail_05.tif">
+     <TexMod TileU="0.25" TileV="0.25"/>
+    </Texture>
+    <Texture Map="Opacity" File="objects/natural/rocks/broken_floor/textures/concrete_rebar_mask.tif"/>
+    <Texture Map="Decal" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_gloss.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock.tif" Filter="5"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" BlendFalloff="10" TessellationFaceCull="0.5" SpecMapChannelR="0" TessellationFactor="0.5" BlendLayer2Tiling="1" TessellationDispBias="0.5" BlendLayerDisplacement="0" GlossMapChannelB="0" TessellationHeightScale="1" SpecMapChannelG="0" FresnelScale="0.5" DetailDiffuseScale="0.75" FresnelBias="0.039999999" DetailBumpScale="1" TessellationFactorMax="10" BlendFactor="10" DetailGlossScale="0.5" BlendLayer2Specular="0.2" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

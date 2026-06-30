@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Material" guid="fdc71499-abb2-4f27-545e-dfa6179a4c35">
+ <Files>
+  <File path="coal_bin.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">8</Detail>
+  <Detail name="textureCount">10</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/concrete_ground_b_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_ground_b_ddna.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/coal_bins/textures/coals_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/coal_bins/textures/coals_ddna.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/coal_bins/textures/coals_displ.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/mud/mud_detail.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_brushed_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_brushed_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

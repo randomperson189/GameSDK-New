@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c19664f3-4f75-e11d-6e71-309125b81006">
+ <Files>
+  <File path="rock_particle_high.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">10</Detail>
+  <Detail name="triangleCount">3842</Detail>
+  <Detail name="vertexCount">2207</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./precipice.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

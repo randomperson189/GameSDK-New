@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="51891d68-5321-8389-a0e1-1676136613e8">
+ <Files>
+  <File path="wooden_barrel_b.cgf"/>
+  <File path="wooden_barrel_b_lod1.cgf"/>
+  <File path="wooden_barrel_b_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1800</Detail>
+  <Detail name="vertexCount">2258</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/maritime/wooden_barrel/wooden_barrel.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

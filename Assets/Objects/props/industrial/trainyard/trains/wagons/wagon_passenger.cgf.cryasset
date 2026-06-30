@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="6d6bd3f7-6fde-7afc-7796-f99c8d0287a5">
+ <Files>
+  <File path="wagon_passenger.cgf"/>
+  <File path="wagon_passenger_lod1.cgf"/>
+  <File path="wagon_passenger_lod2.cgf"/>
+  <File path="wagon_passenger_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">5804</Detail>
+  <Detail name="vertexCount">7312</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wagon_passenger.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

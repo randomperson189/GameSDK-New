@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="ff9604b4-712f-f38f-d058-d771fddd6b9b">
+ <Files>
+  <File path="lighthouse_alpha_ddna.dds"/>
+  <File path="lighthouse_alpha_ddna.dds.a"/>
+  <File path="lighthouse_alpha_ddna.dds.1"/>
+  <File path="lighthouse_alpha_ddna.dds.1a"/>
+  <File path="lighthouse_alpha_ddna.dds.2"/>
+  <File path="lighthouse_alpha_ddna.dds.2a"/>
+  <File path="lighthouse_alpha_ddna.dds.3"/>
+  <File path="lighthouse_alpha_ddna.dds.3a"/>
+  <File path="lighthouse_alpha_ddna.dds.4"/>
+  <File path="lighthouse_alpha_ddna.dds.4a"/>
+  <File path="lighthouse_alpha_ddna.dds.5"/>
+  <File path="lighthouse_alpha_ddna.dds.5a"/>
+  <File path="lighthouse_alpha_ddna.dds.6"/>
+  <File path="lighthouse_alpha_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

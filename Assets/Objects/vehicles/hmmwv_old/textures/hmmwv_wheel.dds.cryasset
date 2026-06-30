@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="df24ab6a-c15d-eace-87ea-e30129caf563">
+ <Files>
+  <File path="hmmwv_wheel.dds"/>
+  <File path="hmmwv_wheel.dds.1"/>
+  <File path="hmmwv_wheel.dds.2"/>
+  <File path="hmmwv_wheel.dds.3"/>
+  <File path="hmmwv_wheel.dds.4"/>
+  <File path="hmmwv_wheel.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

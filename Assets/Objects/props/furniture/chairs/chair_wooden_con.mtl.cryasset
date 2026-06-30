@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="010c4dcc-123f-8a63-085d-3394cef469ca">
+ <Files>
+  <File path="chair_wooden_con.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/planks_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/planks_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

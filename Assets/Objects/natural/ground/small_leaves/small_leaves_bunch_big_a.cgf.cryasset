@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="f8b16e3b-c8f1-f06e-2998-86778a32ebe7">
+ <Files>
+  <File path="small_leaves_bunch_big_a.cgf"/>
+  <File path="small_leaves_bunch_big_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">783</Detail>
+  <Detail name="vertexCount">930</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./small_leaves.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

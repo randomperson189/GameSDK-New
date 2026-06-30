@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="7913b01c-4028-3a8c-e49f-726308af3c96">
+ <Files>
+  <File path="road_railing_4m.cgf"/>
+  <File path="road_railing_4m_lod1.cgf"/>
+  <File path="road_railing_4m_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">144</Detail>
+  <Detail name="vertexCount">196</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./road_railing.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

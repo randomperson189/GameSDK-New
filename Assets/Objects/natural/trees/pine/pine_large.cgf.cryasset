@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="16005ffb-86ea-45df-0950-e464d0c4bb27">
+ <Files>
+  <File path="pine_large.cgf"/>
+  <File path="pine_large_lod1.cgf"/>
+  <File path="pine_large_lod2.cgf"/>
+  <File path="pine_large_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">8432</Detail>
+  <Detail name="vertexCount">16403</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./pine.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

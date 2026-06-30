@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="a205ecc6-a088-1151-b505-e045c5602e1b">
+ <Files>
+  <File path="civil_boxes.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/planks_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/planks_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

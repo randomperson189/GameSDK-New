@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="63f1af93-d17a-f247-41b8-e25c7bfd9b78">
+ <Files>
+  <File path="te_elevator_decal.dds"/>
+  <File path="te_elevator_decal.dds.1"/>
+  <File path="te_elevator_decal.dds.2"/>
+  <File path="te_elevator_decal.dds.3"/>
+  <File path="te_elevator_decal.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

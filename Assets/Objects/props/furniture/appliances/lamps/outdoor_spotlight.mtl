@@ -1,0 +1,47 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.068478175,0.068478175,0.068478175" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="80" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/outdoorspotlight_dif.tif"/>
+    <Texture Map="Bumpmap" File="Objects/props/furniture/appliances/lamps/textures/outdoorspotlight_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="white_beam" MtlFlags="524448" Shader="Templbeamproc" GenMask="1" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/downlight_dif.tif"/>
+   </Textures>
+   <PublicParams StartRadius="1" EndRadius="2" StartColor="1,1,1" EndColor="1,1,1" FinalMultiplier="0.1" SoftIntersectionFactor="1" BeamLength="10" viewDependencyFactor="2" OrigLength="10" OrigWidth="1"/>
+  </Material>
+  <Material Name="red_beam" MtlFlags="524448" Shader="Templbeamproc" GenMask="1" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.99139285,0.0012017394,0.0012017394" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/downlight_dif.tif"/>
+   </Textures>
+   <PublicParams StartRadius="1" EndRadius="2" StartColor="1,1,1" EndColor="1,1,1" FinalMultiplier="1" SoftIntersectionFactor="1" BeamLength="10" viewDependencyFactor="2" OrigLength="10" OrigWidth="1"/>
+  </Material>
+  <Material Name="white_glow" MtlFlags="524416" Shader="Illum" GenMask="80000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="4" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/glass_dif.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="red_glow" MtlFlags="524416" Shader="Illum" GenMask="80000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.99139285,0.0012017394,0.0012017394" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="5" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/glass_dif.dds"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="2623616" Shader="Glass" GenMask="10010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0.068478175,0.068478175,0.068478175" Emissive="0,0,0" Shininess="140" Opacity="0.99000001" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Detail" File="Objects/props/furniture/appliances/lamps/textures/glass_detailbump_ddn.tif">
+     <TexMod TileU="0.40000001" TileV="0.40000001"/>
+    </Texture>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.014443845,0.014443845,0.014443845" FresnelScale="1" FresnelBias="1" TintCloudiness="0.1" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

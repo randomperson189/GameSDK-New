@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="4902eb1d-c5ec-daa2-fdfa-5f1a0cc3b841">
+ <Files>
+  <File path="m1a2_heat_shield.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">240</Detail>
+  <Detail name="vertexCount">324</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./m1a1_desert.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

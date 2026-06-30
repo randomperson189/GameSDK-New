@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="AnimatedMesh" guid="94e1f8af-22e0-4706-c72f-6e0f4a1f38bf">
+ <Files>
+  <File path="flag_base.cga"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">90</Detail>
+  <Detail name="vertexCount">113</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./flag.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

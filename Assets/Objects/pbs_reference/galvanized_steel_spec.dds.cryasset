@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="10d10ddd-da42-9f65-662d-f777d5db9708">
+ <Files>
+  <File path="galvanized_steel_spec.dds"/>
+  <File path="galvanized_steel_spec.dds.1"/>
+  <File path="galvanized_steel_spec.dds.2"/>
+  <File path="galvanized_steel_spec.dds.3"/>
+  <File path="galvanized_steel_spec.dds.4"/>
+  <File path="galvanized_steel_spec.dds.5"/>
+  <File path="galvanized_steel_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

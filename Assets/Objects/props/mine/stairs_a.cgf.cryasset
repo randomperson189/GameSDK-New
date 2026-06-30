@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="41409328-0a3e-71cc-021e-6fd80faf5eb6">
+ <Files>
+  <File path="stairs_a.cgf"/>
+  <File path="stairs_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1650</Detail>
+  <Detail name="vertexCount">2025</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mines.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

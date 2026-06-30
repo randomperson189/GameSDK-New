@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Material" guid="5a372b56-6b34-79a8-937e-802708af0dab">
+ <Files>
+  <File path="pine_snow_holiday.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">14</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/pine/textures/lights_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/lights_spec.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/lights_ddn.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/lights_glow.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/snow_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/snow_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/concrete/concrete_3_detail.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/lod_snow.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/pine_trunk.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/pine_trunk_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_detail.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/pine_leaves_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/pine_leaves_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/pine/textures/pine_leaves_sss.dds</Path>
+ </Dependencies>
+</AssetMetadata>

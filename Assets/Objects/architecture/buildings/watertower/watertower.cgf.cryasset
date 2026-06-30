@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="d7bcc501-ddc0-89e9-2507-8ed20333e3e3">
+ <Files>
+  <File path="watertower.cgf"/>
+  <File path="watertower_lod1.cgf"/>
+  <File path="watertower_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">3820</Detail>
+  <Detail name="vertexCount">4023</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./watertower.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

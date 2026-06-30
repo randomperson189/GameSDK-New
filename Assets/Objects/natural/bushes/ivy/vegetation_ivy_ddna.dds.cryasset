@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="33ba1980-e818-53fe-2a37-869ac600a0c2">
+ <Files>
+  <File path="vegetation_ivy_ddna.dds"/>
+  <File path="vegetation_ivy_ddna.dds.a"/>
+  <File path="vegetation_ivy_ddna.dds.1"/>
+  <File path="vegetation_ivy_ddna.dds.1a"/>
+  <File path="vegetation_ivy_ddna.dds.2"/>
+  <File path="vegetation_ivy_ddna.dds.2a"/>
+  <File path="vegetation_ivy_ddna.dds.3"/>
+  <File path="vegetation_ivy_ddna.dds.3a"/>
+  <File path="vegetation_ivy_ddna.dds.4"/>
+  <File path="vegetation_ivy_ddna.dds.4a"/>
+  <File path="vegetation_ivy_ddna.dds.5"/>
+  <File path="vegetation_ivy_ddna.dds.5a"/>
+  <File path="vegetation_ivy_ddna.dds.6"/>
+  <File path="vegetation_ivy_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

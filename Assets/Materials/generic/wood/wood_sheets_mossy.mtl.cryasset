@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="97b667e9-db2d-6df5-7255-34d7f21af52e">
+ <Files>
+  <File path="wood_sheets_mossy.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_moosy_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_moosy_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_b90_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

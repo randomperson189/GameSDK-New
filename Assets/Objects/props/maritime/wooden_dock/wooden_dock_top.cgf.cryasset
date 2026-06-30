@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="308b7b6f-3490-f960-fb7e-1b0f279e7a91">
+ <Files>
+  <File path="wooden_dock_top.cgf"/>
+  <File path="wooden_dock_top_lod1.cgf"/>
+  <File path="wooden_dock_top_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">2710</Detail>
+  <Detail name="vertexCount">3100</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wooden_dock.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

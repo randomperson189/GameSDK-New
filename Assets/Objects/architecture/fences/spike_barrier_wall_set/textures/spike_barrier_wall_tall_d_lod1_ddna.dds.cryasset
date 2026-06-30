@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="550f5521-4c9b-8f62-24c0-5758512e4eac">
+ <Files>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds"/>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds.a"/>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds.1"/>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds.1a"/>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds.2"/>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds.2a"/>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds.3"/>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds.3a"/>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds.4"/>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds.4a"/>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds.5"/>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds.5a"/>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds.6"/>
+  <File path="spike_barrier_wall_tall_d_lod1_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

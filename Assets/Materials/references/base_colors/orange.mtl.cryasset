@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="0d3fd87c-6a85-1ab5-8432-34a28c12e745">
+ <Files>
+  <File path="orange.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/base_colors/orange_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

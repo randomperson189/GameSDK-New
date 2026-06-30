@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="54d9c7a8-89fb-0298-a7de-efdcc708a057">
+ <Files>
+  <File path="roundhouse_interior_planks.cgf"/>
+  <File path="roundhouse_interior_planks_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1216</Detail>
+  <Detail name="vertexCount">2070</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./roundhouse_interior_planks.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

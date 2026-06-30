@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Material" guid="dca25704-16c0-9d55-3af3-654f15140366">
+ <Files>
+  <File path="aspen.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">8</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/aspen/textures/aspen_trunk_dead_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/aspen/textures/aspen_trunk_dead_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_vertical_1_detail.dds</Path>
+  <Path usageCount="1">objects/natural/trees/aspen/textures/aspen_leaf_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/aspen/textures/aspen_leaf_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/aspen/textures/aspen_trunk_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/aspen/textures/aspen_trunk_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_tile_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

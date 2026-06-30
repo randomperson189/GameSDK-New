@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="1506bfee-4e21-2e71-cca5-ea5f60cb7920">
+ <Files>
+  <File path="seat_rear_left_a.cgf"/>
+  <File path="seat_rear_left_a_lod1.cgf"/>
+  <File path="seat_rear_left_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">1778</Detail>
+  <Detail name="vertexCount">1270</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/vehicles/swat_van/swat_van.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="0ba165b8-6fcd-67c2-f43d-8124612a175e">
+ <Files>
+  <File path="pine_needles_01.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/terrain/detail/pine_needles_1_diff.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/pine_needles_1_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

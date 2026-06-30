@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="d9905bab-8722-65ad-80a3-9cca6b89df3f">
+ <Files>
+  <File path="LivingRoomLamp_ddna.dds"/>
+  <File path="LivingRoomLamp_ddna.dds.a"/>
+  <File path="LivingRoomLamp_ddna.dds.1"/>
+  <File path="LivingRoomLamp_ddna.dds.1a"/>
+  <File path="LivingRoomLamp_ddna.dds.2"/>
+  <File path="LivingRoomLamp_ddna.dds.2a"/>
+  <File path="LivingRoomLamp_ddna.dds.3"/>
+  <File path="LivingRoomLamp_ddna.dds.3a"/>
+  <File path="LivingRoomLamp_ddna.dds.4"/>
+  <File path="LivingRoomLamp_ddna.dds.4a"/>
+  <File path="LivingRoomLamp_ddna.dds.5"/>
+  <File path="LivingRoomLamp_ddna.dds.5a"/>
+  <File path="LivingRoomLamp_ddna.dds.6"/>
+  <File path="LivingRoomLamp_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

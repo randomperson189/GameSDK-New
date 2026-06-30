@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="e3de97ab-9f4d-510b-3659-b2b39e004c69">
+ <Files>
+  <File path="ba_table_a_lod1_diff.dds"/>
+  <File path="ba_table_a_lod1_diff.dds.1"/>
+  <File path="ba_table_a_lod1_diff.dds.2"/>
+  <File path="ba_table_a_lod1_diff.dds.3"/>
+  <File path="ba_table_a_lod1_diff.dds.4"/>
+  <File path="ba_table_a_lod1_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

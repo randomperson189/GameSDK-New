@@ -1,0 +1,87 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="cement" MtlFlags="524416" Shader="Illum" GenMask="20800000A0" StringGenMask="%BLENDLAYER%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower_stone/textures/concrete_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/watertower_stone/textures/concrete_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/concrete_blend.tif"/>
+    <Texture Map="Custom" File="textures/generic/concrete/eroded_concrete_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/concrete/eroded_concrete_ddna.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="0.5" BlendLayer2Specular="0.039999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="brick" MtlFlags="524416" Shader="Illum" GenMask="20800000A0" StringGenMask="%BLENDLAYER%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.012983033,0.012983033,0.012983033" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower_stone/textures/brick_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/watertower_stone/textures/brick_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/brick_blend.tif"/>
+    <Texture Map="Custom" File="textures/generic/blend_masks/brick_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.5" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="3" BlendLayer2Specular="0.039999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="roof" MtlFlags="524416" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower_stone/textures/roof_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/watertower_stone/textures/roof_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower_stone/textures/metal_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/watertower_stone/textures/metal_pipe_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="alpha" MtlFlags="524418" Shader="Illum" GenMask="80000180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower_stone/textures/metal_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/watertower_stone/textures/metal_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_a_detail.tif">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.1" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="2621568" Shader="Illum" GenMask="80000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.051269464,0.051269464,0.051269464" Specular="0.1169707,0.1169707,0.1169707" Emissive="0,0,0" Shininess="60" Opacity="0.75" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/glass/glass_clear_diff.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="80000180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower_stone/textures/wood_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/watertower_stone/textures/wood_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_fine_detail.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.1" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="tank" MtlFlags="524416" Shader="Illum" GenMask="2080000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.023153368,0.023153368,0.023153368" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower_stone/textures/concrete_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/watertower_stone/textures/concrete_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="decal" MtlFlags="524448" Shader="Illum" GenMask="80000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.25" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower_stone/textures/cement_decal.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="tiles" MtlFlags="524416" Shader="Illum" GenMask="80000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/watertower_stone/textures/tiles_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/watertower_stone/textures/tiles_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

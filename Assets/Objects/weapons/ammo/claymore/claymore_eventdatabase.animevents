@@ -1,0 +1,26 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="2.5099582e-027" parameter="" bone="" offset="2.5099582e-027,1.4321506e-038,1.43215e-038" dir="2.5099582e-027,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="9.9326367e-038" parameter="" bone="" offset="9.9326367e-038,1.4321506e-038,1.43215e-038" dir="9.9326367e-038,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="2.8068908e-022" parameter="" bone="" offset="2.8068908e-022,1.7400427e-039,1.7400371e-039" dir="2.8068908e-022,1.7400427e-039,1.7400371e-039"/>
+  <event name="" time="2.2424508e-038" parameter="" bone="" offset="2.2424508e-038,1.7400427e-039,1.7400371e-039" dir="2.2424508e-038,1.7400427e-039,1.7400371e-039"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/claymore/deselect_claymore_left_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/claymore/pick_up_claymore_left_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.509" parameter="Sounds/weapons:claymore:claymore_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.56" parameter="Sounds/weapons:claymore:claymore_foley" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/claymore/place_claymore_left_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.44600001" parameter="Sounds/weapons:claymore:claymore_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.55299997" parameter="Sounds/weapons:claymore:claymore_foley" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.73387003" parameter="Sounds/weapons:c4:c4_beep" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/claymore/select_claymore_left_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.01076" parameter="Sounds/weapons:c4:select" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

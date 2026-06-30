@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="05c73d9d-1f81-5012-68c3-79b56d6675b9">
+ <Files>
+  <File path="spruce_trunk_ddna.dds"/>
+  <File path="spruce_trunk_ddna.dds.a"/>
+  <File path="spruce_trunk_ddna.dds.1"/>
+  <File path="spruce_trunk_ddna.dds.1a"/>
+  <File path="spruce_trunk_ddna.dds.2"/>
+  <File path="spruce_trunk_ddna.dds.2a"/>
+  <File path="spruce_trunk_ddna.dds.3"/>
+  <File path="spruce_trunk_ddna.dds.3a"/>
+  <File path="spruce_trunk_ddna.dds.4"/>
+  <File path="spruce_trunk_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

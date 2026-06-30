@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="d4a9c19e-c523-75b9-2e20-b7e100413c10">
+ <Files>
+  <File path="observatory_tower_a.cgf"/>
+  <File path="observatory_tower_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1260</Detail>
+  <Detail name="vertexCount">1690</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./observatory_tower_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

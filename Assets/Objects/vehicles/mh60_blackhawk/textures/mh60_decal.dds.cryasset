@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="b7589510-2132-e2d8-41f7-0d540fe272b0">
+ <Files>
+  <File path="mh60_decal.dds"/>
+  <File path="mh60_decal.dds.1"/>
+  <File path="mh60_decal.dds.2"/>
+  <File path="mh60_decal.dds.3"/>
+  <File path="mh60_decal.dds.4"/>
+  <File path="mh60_decal.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

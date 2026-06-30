@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="569166ea-5373-e0e1-960b-1e3d82589cc1">
+ <Files>
+  <File path="weave.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/weave_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/weave_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

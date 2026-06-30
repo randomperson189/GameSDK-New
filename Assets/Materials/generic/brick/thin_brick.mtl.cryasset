@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="b3d32823-726d-6882-0fe7-28679de9ee28">
+ <Files>
+  <File path="thin_brick.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/brick/thin_brick_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/thin_brick_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/thin_brick_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

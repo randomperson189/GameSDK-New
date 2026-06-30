@@ -1,0 +1,28 @@
+<AssetMetadata version="0" type="Material" guid="951f49d3-a649-3f79-c69b-a54be27a7cec">
+ <Files>
+  <File path="forest_ruin.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">12</Detail>
+  <Detail name="textureCount">17</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/natural/rocks/forest_rocks/textures/rock_forest_moss_a_diff.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/forest_rocks/textures/rock_forest_moss_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_corner_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_corner_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/beech_leaf_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/beech_leaf_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_ddna.dds</Path>
+  <Path usageCount="2">textures/generic/brick/brick_raw_diff.dds</Path>
+  <Path usageCount="2">textures/generic/brick/brick_raw_ddna.dds</Path>
+  <Path usageCount="2">textures/generic/brick/brick_raw_displ.dds</Path>
+  <Path usageCount="2">textures/generic/brick/brick_raw_blend.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/forest_rocks/textures/moss_diff.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/forest_rocks/textures/moss_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_b_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

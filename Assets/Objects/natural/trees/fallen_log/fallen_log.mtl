@@ -1,0 +1,34 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="rock" MtlFlags="524416" Shader="Illum" GenMask="20800000A0" StringGenMask="%BLENDLAYER%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rocks/textures/rock_diff.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rocks/textures/rock_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/blend_tile.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rocks/textures/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rocks/textures/moss_ddna.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="4" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="0.1" BlendFactor="1" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="tree" MtlFlags="524416" Shader="Illum" GenMask="20A0000180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%SILHOUETTE_PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_ddna.tif"/>
+    <Texture Map="Heightmap" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_displ.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/palmtrunk_90_detail.tif">
+     <TexMod TileU="10" TileV="5"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.25" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_rock" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_tree" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

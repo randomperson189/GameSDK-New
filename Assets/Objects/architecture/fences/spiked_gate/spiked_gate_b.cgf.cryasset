@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="0ffbaa72-2874-b4e8-8e1b-9999a6a67356">
+ <Files>
+  <File path="spiked_gate_b.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">332</Detail>
+  <Detail name="vertexCount">549</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./spiked_gate.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

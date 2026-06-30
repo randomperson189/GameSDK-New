@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="f849f508-dde0-183e-5aea-75f35980a74e">
+ <Files>
+  <File path="green_fern_bush_b.cgf"/>
+  <File path="green_fern_bush_b_lod1.cgf"/>
+  <File path="green_fern_bush_b_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1331</Detail>
+  <Detail name="vertexCount">1149</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./green_fern_bush.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

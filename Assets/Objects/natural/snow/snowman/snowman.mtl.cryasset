@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="985a2239-ad10-5754-d4c8-529cd9279956">
+ <Files>
+  <File path="snowman.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_tile_diff.dds</Path>
+  <Path usageCount="2">objects/natural/snow/snowman/textures/snowbank_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/water/river_foamy_ddn.dds</Path>
+  <Path usageCount="1">objects/natural/snow/snowman/textures/snowman_diff.dds</Path>
+  <Path usageCount="1">objects/natural/snow/snowman/textures/snowman_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

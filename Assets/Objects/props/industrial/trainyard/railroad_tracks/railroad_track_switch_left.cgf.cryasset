@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="a6166eb2-9d83-2beb-1f34-35419a73a2f6">
+ <Files>
+  <File path="railroad_track_switch_left.cgf"/>
+  <File path="railroad_track_switch_left_lod1.cgf"/>
+  <File path="railroad_track_switch_left_lod2.cgf"/>
+  <File path="railroad_track_switch_left_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">926</Detail>
+  <Detail name="vertexCount">1207</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./railroad_track.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

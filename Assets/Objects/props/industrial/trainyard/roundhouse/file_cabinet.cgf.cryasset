@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="4f6537b1-181b-ad42-0a0c-9d3a2ccbe476">
+ <Files>
+  <File path="file_cabinet.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">447</Detail>
+  <Detail name="vertexCount">618</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./storage_pile.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

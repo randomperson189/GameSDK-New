@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d609092d-d250-8351-c51d-14af8afe072f">
+ <Files>
+  <File path="cloth_6x2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">258</Detail>
+  <Detail name="vertexCount">157</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cloth_cryengine.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

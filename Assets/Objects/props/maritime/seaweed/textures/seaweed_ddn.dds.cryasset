@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="74ef2694-1fa6-abd8-5133-26fee9db1921">
+ <Files>
+  <File path="seaweed_ddn.dds"/>
+  <File path="seaweed_ddn.dds.1"/>
+  <File path="seaweed_ddn.dds.2"/>
+  <File path="seaweed_ddn.dds.3"/>
+  <File path="seaweed_ddn.dds.4"/>
+  <File path="seaweed_ddn.dds.5"/>
+  <File path="seaweed_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

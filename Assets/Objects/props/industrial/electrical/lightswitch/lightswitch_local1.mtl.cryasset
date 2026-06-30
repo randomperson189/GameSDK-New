@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="ea840db5-c4a3-1ad0-22eb-b8cef6f2aca3">
+ <Files>
+  <File path="lightswitch_local1.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/electrical/lightswitch/textures/lightswitch_local1_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/electrical/lightswitch/textures/lightswitch_local1_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

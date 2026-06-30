@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="ca5af47f-f57e-e7b8-6861-588dab55641b">
+ <Files>
+  <File path="signal_c.cgf"/>
+  <File path="signal_c_lod1.cgf"/>
+  <File path="signal_c_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1180</Detail>
+  <Detail name="vertexCount">1882</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./signal.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

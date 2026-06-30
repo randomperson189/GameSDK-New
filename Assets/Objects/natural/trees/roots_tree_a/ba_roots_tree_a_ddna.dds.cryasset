@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="a126645c-6072-ffc6-f1bc-c90dee0dd15d">
+ <Files>
+  <File path="ba_roots_tree_a_ddna.dds"/>
+  <File path="ba_roots_tree_a_ddna.dds.a"/>
+  <File path="ba_roots_tree_a_ddna.dds.1"/>
+  <File path="ba_roots_tree_a_ddna.dds.1a"/>
+  <File path="ba_roots_tree_a_ddna.dds.2"/>
+  <File path="ba_roots_tree_a_ddna.dds.2a"/>
+  <File path="ba_roots_tree_a_ddna.dds.3"/>
+  <File path="ba_roots_tree_a_ddna.dds.3a"/>
+  <File path="ba_roots_tree_a_ddna.dds.4"/>
+  <File path="ba_roots_tree_a_ddna.dds.4a"/>
+  <File path="ba_roots_tree_a_ddna.dds.5"/>
+  <File path="ba_roots_tree_a_ddna.dds.5a"/>
+  <File path="ba_roots_tree_a_ddna.dds.6"/>
+  <File path="ba_roots_tree_a_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

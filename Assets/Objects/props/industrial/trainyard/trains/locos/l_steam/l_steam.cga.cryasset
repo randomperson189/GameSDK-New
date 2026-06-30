@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="AnimatedMesh" guid="b1bbcc49-0cf9-c9ad-36b0-4844e2b756d7">
+ <Files>
+  <File path="l_steam.cga"/>
+  <File path="l_steam_lod1.cga"/>
+  <File path="l_steam_lod2.cga"/>
+  <File path="l_steam_lod3.cga"/>
+  <File path="l_steam_lod4.cga"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">17700</Detail>
+  <Detail name="vertexCount">20599</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./L_Steam.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

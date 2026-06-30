@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="cfd284cf-0225-d898-5da3-3d15c5843cdc">
+ <Files>
+  <File path="shelf_standing_a.cgf"/>
+  <File path="shelf_standing_a_lod1.cgf"/>
+  <File path="shelf_standing_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">2428</Detail>
+  <Detail name="vertexCount">4988</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./shelf_standing.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,38 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="trunk" MtlFlags="524416" Shader="Vegetation" GenMask="2400000180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/aspen/textures/aspen_trunk_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/aspen/textures/aspen_trunk_ddna.tif"/>
+    <Texture Map="Detail" File="textures/generic/wood/wood_tile_diff.tif">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.079999998" bendDetailFrequency="5" bendDetailBranchAmplitude="0.2" BlendTerrainCol="0" DetailDiffuseScale="0.5" VertexAlphaBlendFactor="1" DetailBumpScale="0.5" BlendMaskTiling="1" BlendTerrainColDist="0.5" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="collision" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="leaf" MtlFlags="524416" Shader="Vegetation" GenMask="2400801080" StringGenMask="%BUMP_MAP%DETAIL_BENDING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.30000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/aspen/textures/aspen_leaf_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/aspen/textures/aspen_leaf_ddna.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.07" bendDetailFrequency="7" bendDetailBranchAmplitude="-0.1" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="1" BackDiffuseMultiplier="4" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="ai_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="0,1,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="deadtrunk" MtlFlags="524416" Shader="Vegetation" GenMask="2400000180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/aspen/textures/aspen_trunk_dead_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/aspen/textures/aspen_trunk_dead_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_vertical_1_detail.tif">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0" bendDetailFrequency="5" bendDetailBranchAmplitude="0" BlendTerrainCol="0" DetailDiffuseScale="0.5" VertexAlphaBlendFactor="1" DetailBumpScale="0.5" BlendMaskTiling="1" BlendTerrainColDist="0.5" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

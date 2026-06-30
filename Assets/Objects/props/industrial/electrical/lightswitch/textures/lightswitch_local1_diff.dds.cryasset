@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="4ba0c78b-3062-1004-a2f1-608b1ae82d5d">
+ <Files>
+  <File path="lightswitch_local1_diff.dds"/>
+  <File path="lightswitch_local1_diff.dds.1"/>
+  <File path="lightswitch_local1_diff.dds.2"/>
+  <File path="lightswitch_local1_diff.dds.3"/>
+  <File path="lightswitch_local1_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

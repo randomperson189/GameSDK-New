@@ -1,0 +1,32 @@
+<AssetMetadata version="0" type="Material" guid="7a0a98c6-b551-1e26-b2ee-b5d2b9091779">
+ <Files>
+  <File path="swat_van.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">11</Detail>
+  <Detail name="textureCount">21</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_damage.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_lod2_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_lod2_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_lod2_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_lod1_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_lod1_spec.dds</Path>
+  <Path usageCount="2">objects/vehicles/swat_van/textures/swat_van_int_diff.dds</Path>
+  <Path usageCount="2">objects/vehicles/swat_van/textures/swat_van_int_ddna.dds</Path>
+  <Path usageCount="2">objects/vehicles/swat_van/textures/swat_van_int_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_c_diff.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plastic/plastic_detail.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_attach_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_attach_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_attach_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_b_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_b_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_b_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_a_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_a_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/swat_van/textures/swat_van_a_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

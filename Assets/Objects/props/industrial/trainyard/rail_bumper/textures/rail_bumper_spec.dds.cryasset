@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="77f41be9-d900-8031-52bd-e72e15747c41">
+ <Files>
+  <File path="rail_bumper_spec.dds"/>
+  <File path="rail_bumper_spec.dds.1"/>
+  <File path="rail_bumper_spec.dds.2"/>
+  <File path="rail_bumper_spec.dds.3"/>
+  <File path="rail_bumper_spec.dds.4"/>
+  <File path="rail_bumper_spec.dds.5"/>
+  <File path="rail_bumper_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

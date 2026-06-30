@@ -1,0 +1,32 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="steel" MtlFlags="524416" Shader="Illum" GenMask="80181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%GLOSS_MAP" SurfaceType="mat_default" MatTemplate="" Diffuse="1,1,1" Specular="0.50888133,0.50888133,0.50888133" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/pbs_reference/conductor_diff.tif"/>
+    <Texture Map="Specular" File="objects/pbs_reference/silver_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/pbs_reference/gloss70_ddna.tif"/>
+    <Texture Map="Detail" File="Objects/props/flappy_boid/skyscrapper_ddn.tif"/>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.926" DetailBumpScale="0.54000002" SubsurfaceScatteringAmount="0" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="window" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="mat_glass_breakable_thin_large" MatTemplate="" Diffuse="0,0,0" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/furniture/appliances/bathroom/bathroom.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="window_glow_blue" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="" MatTemplate="" Diffuse="0.29177067,0.40724024,0.76815116" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" GlowAmount="6" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/furniture/appliances/bathroom/bathroom.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="window_glow_yellow" MtlFlags="524416" Shader="Illum" GenMask="1" StringGenMask="%ALLOW_SILHOUETTE_POM" SurfaceType="" MatTemplate="" Diffuse="0.77582222,0.71569353,0.30498734" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" GlowAmount="8" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/furniture/appliances/bathroom/bathroom.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="31d28b9f-3035-4d8e-323a-36ffcc0ea2f9">
+ <Files>
+  <File path="train_wagon_dcal.dds"/>
+  <File path="train_wagon_dcal.dds.1"/>
+  <File path="train_wagon_dcal.dds.2"/>
+  <File path="train_wagon_dcal.dds.3"/>
+  <File path="train_wagon_dcal.dds.4"/>
+  <File path="train_wagon_dcal.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

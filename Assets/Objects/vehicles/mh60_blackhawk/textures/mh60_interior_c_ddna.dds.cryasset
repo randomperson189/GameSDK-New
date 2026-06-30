@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="9c41512a-c57c-2efe-9855-fc8b8997558d">
+ <Files>
+  <File path="mh60_interior_c_ddna.dds"/>
+  <File path="mh60_interior_c_ddna.dds.a"/>
+  <File path="mh60_interior_c_ddna.dds.1"/>
+  <File path="mh60_interior_c_ddna.dds.1a"/>
+  <File path="mh60_interior_c_ddna.dds.2"/>
+  <File path="mh60_interior_c_ddna.dds.2a"/>
+  <File path="mh60_interior_c_ddna.dds.3"/>
+  <File path="mh60_interior_c_ddna.dds.3a"/>
+  <File path="mh60_interior_c_ddna.dds.4"/>
+  <File path="mh60_interior_c_ddna.dds.4a"/>
+  <File path="mh60_interior_c_ddna.dds.5"/>
+  <File path="mh60_interior_c_ddna.dds.5a"/>
+  <File path="mh60_interior_c_ddna.dds.6"/>
+  <File path="mh60_interior_c_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

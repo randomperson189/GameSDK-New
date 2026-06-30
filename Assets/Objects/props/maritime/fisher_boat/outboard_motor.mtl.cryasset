@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="fae2004b-afb6-62a1-d1a8-f5739b2e0689">
+ <Files>
+  <File path="outboard_motor.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/maritime/fisher_boat/textures/outboard_motor.dds</Path>
+  <Path usageCount="1">objects/props/maritime/fisher_boat/textures/outboard_motor_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_bumpy_dmap.dds</Path>
+ </Dependencies>
+</AssetMetadata>

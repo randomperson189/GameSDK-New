@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="be02b633-36b7-19f4-0fdf-de7295f0fba9">
+ <Files>
+  <File path="glass_dif.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">32</Detail>
+  <Detail name="height">32</Detail>
+  <Detail name="mipCount">4</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="f66f62ed-615b-1c9e-ae91-79892b988c5b">
+ <Files>
+  <File path="paper_4.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/rubbish/paper_4.dds</Path>
+ </Dependencies>
+</AssetMetadata>

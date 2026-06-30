@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="6353c33b-a538-5d59-d439-529e841321c9">
+ <Files>
+  <File path="brick_old.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/brick/brick_old_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_old_ddna.dds</Path>
+  <Path usageCount="2">textures/generic/brick/brick_old_displ.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/moss_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/moss_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/dirty_blend.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="8c3eac4c-9ae6-513a-dd81-2a470ad55c9e">
+ <Files>
+  <File path="tree_splinter.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/explosion_shape/textures/broken_tree.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="a863f158-8bff-7c11-62bd-7712beb3bb3a">
+ <Files>
+  <File path="airfield_stripe.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/roads/airfield_stripe_diff.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plastic/fibreplastics_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

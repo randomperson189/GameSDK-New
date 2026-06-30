@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="66ee7513-2c8a-6ec9-c2eb-6ba74bd4eb57">
+ <Files>
+  <File path="test_mat_metal_nofric.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/grey.dds</Path>
+ </Dependencies>
+</AssetMetadata>

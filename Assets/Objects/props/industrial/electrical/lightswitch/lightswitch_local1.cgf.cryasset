@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="49c5e164-a1a8-553a-ac14-40c888bb8ce9">
+ <Files>
+  <File path="lightswitch_local1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">56</Detail>
+  <Detail name="vertexCount">96</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./lightswitch_local1.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

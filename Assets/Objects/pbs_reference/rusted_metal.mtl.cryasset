@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="5a3e2c24-307a-223b-1d14-4d36bce17c0c">
+ <Files>
+  <File path="rusted_metal.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/conductor_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/iron_spec.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/gloss70_ddna.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/rust_blend.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/rust_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/rust_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="020bdcbc-0bd6-1517-41ec-14b303afc9ae">
+ <Files>
+  <File path="polished_silver.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/silver_spec.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/gloss70_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

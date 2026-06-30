@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="f5834e8d-4021-2555-13dd-bd4172246db7">
+ <Files>
+  <File path="robinia_c_leaning.cgf"/>
+  <File path="robinia_c_leaning_lod1.cgf"/>
+  <File path="robinia_c_leaning_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">9</Detail>
+  <Detail name="triangleCount">2770</Detail>
+  <Detail name="vertexCount">2565</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./robinia.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="1414454f-e99b-b37a-e9ee-875632b07a10">
+ <Files>
+  <File path="hmmwv_window.dds"/>
+  <File path="hmmwv_window.dds.1"/>
+  <File path="hmmwv_window.dds.2"/>
+  <File path="hmmwv_window.dds.3"/>
+  <File path="hmmwv_window.dds.4"/>
+  <File path="hmmwv_window.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="58fc0361-23df-35ef-ffaf-5cff407799ba">
+ <Files>
+  <File path="snow_wind.dds"/>
+  <File path="snow_wind.dds.1"/>
+  <File path="snow_wind.dds.2"/>
+  <File path="snow_wind.dds.3"/>
+  <File path="snow_wind.dds.4"/>
+  <File path="snow_wind.dds.5"/>
+  <File path="snow_wind.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

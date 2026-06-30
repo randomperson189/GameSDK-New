@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="85a7e31b-571a-230c-a323-c2661f4c74df">
+ <Files>
+  <File path="jointedbreakable_example.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/concrete_broken_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_broken_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/concrete_blend.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/ceiling_concrete01_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/ceiling_concrete01_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

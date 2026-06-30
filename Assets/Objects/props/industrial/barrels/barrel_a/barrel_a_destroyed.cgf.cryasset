@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="9df91fc5-bd58-95a1-b786-027c2694aff7">
+ <Files>
+  <File path="barrel_a_destroyed.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">116</Detail>
+  <Detail name="vertexCount">128</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./barrel_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

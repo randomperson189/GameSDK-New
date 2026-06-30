@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="59afa5e7-4272-df48-e76c-baa638e8e121">
+ <Files>
+  <File path="vegetation_ivy_m.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/bushes/ivy/vegetation_ivy_dead_diff.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/ivy/vegetation_ivy_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/ivy/vegetation_ivy_sss.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="6233097d-c7bd-6a03-b5b3-15efda4dc025">
+ <Files>
+  <File path="gardengnome3.cgf"/>
+  <File path="gardengnome3_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1630</Detail>
+  <Detail name="vertexCount">1003</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./GardenGnome.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="b060b9c2-de56-0513-b327-84010608c28b">
+ <Files>
+  <File path="mixed_stones_ddna.dds"/>
+  <File path="mixed_stones_ddna.dds.a"/>
+  <File path="mixed_stones_ddna.dds.1"/>
+  <File path="mixed_stones_ddna.dds.1a"/>
+  <File path="mixed_stones_ddna.dds.2"/>
+  <File path="mixed_stones_ddna.dds.2a"/>
+  <File path="mixed_stones_ddna.dds.3"/>
+  <File path="mixed_stones_ddna.dds.3a"/>
+  <File path="mixed_stones_ddna.dds.4"/>
+  <File path="mixed_stones_ddna.dds.4a"/>
+  <File path="mixed_stones_ddna.dds.5"/>
+  <File path="mixed_stones_ddna.dds.5a"/>
+  <File path="mixed_stones_ddna.dds.6"/>
+  <File path="mixed_stones_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

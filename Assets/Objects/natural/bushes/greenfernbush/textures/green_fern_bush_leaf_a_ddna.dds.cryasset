@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="b6730612-6da4-5d8f-ccc4-e4b640c9bacb">
+ <Files>
+  <File path="green_fern_bush_leaf_a_ddna.dds"/>
+  <File path="green_fern_bush_leaf_a_ddna.dds.a"/>
+  <File path="green_fern_bush_leaf_a_ddna.dds.1"/>
+  <File path="green_fern_bush_leaf_a_ddna.dds.1a"/>
+  <File path="green_fern_bush_leaf_a_ddna.dds.2"/>
+  <File path="green_fern_bush_leaf_a_ddna.dds.2a"/>
+  <File path="green_fern_bush_leaf_a_ddna.dds.3"/>
+  <File path="green_fern_bush_leaf_a_ddna.dds.3a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

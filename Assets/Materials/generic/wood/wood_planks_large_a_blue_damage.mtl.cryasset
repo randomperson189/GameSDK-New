@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="3666ec82-744c-8df4-867c-088b801154e1">
+ <Files>
+  <File path="wood_planks_large_a_blue_damage.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_planks_lrg_a_blue_dmg_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_planks_lrg_a_blue_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_planks_lrg_a_blue_dmg_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

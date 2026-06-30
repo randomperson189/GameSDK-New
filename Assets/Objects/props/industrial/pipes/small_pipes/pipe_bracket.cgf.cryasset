@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="6e86bd60-b747-3ae4-0137-62356dc50225">
+ <Files>
+  <File path="pipe_bracket.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">68</Detail>
+  <Detail name="vertexCount">52</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./pipes.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

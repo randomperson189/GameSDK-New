@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="1a02a018-a77c-1efd-d2e9-b3aa40d6d375">
+ <Files>
+  <File path="dirty_metal_panel.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/dirty_metal_panel_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/dirty_metal_panel_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/dirty_metal_panel_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="095f0dc2-0b97-9ed7-4dbd-07356d30e693">
+ <Files>
+  <File path="stacked_logs.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/stacked_logs/textures/stacked_logs_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/stacked_logs/textures/stacked_logs_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/detail_wood_90_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

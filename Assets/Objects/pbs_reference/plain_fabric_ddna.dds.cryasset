@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="f8fb5f4e-7a2d-b527-085b-35a2b4b9203c">
+ <Files>
+  <File path="plain_fabric_ddna.dds"/>
+  <File path="plain_fabric_ddna.dds.a"/>
+  <File path="plain_fabric_ddna.dds.1"/>
+  <File path="plain_fabric_ddna.dds.1a"/>
+  <File path="plain_fabric_ddna.dds.2"/>
+  <File path="plain_fabric_ddna.dds.2a"/>
+  <File path="plain_fabric_ddna.dds.3"/>
+  <File path="plain_fabric_ddna.dds.3a"/>
+  <File path="plain_fabric_ddna.dds.4"/>
+  <File path="plain_fabric_ddna.dds.4a"/>
+  <File path="plain_fabric_ddna.dds.5"/>
+  <File path="plain_fabric_ddna.dds.5a"/>
+  <File path="plain_fabric_ddna.dds.6"/>
+  <File path="plain_fabric_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

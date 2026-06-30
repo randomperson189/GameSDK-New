@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="8b9a5676-bd9e-3600-108d-beef54542451">
+ <Files>
+  <File path="cardboard_box60cm.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">234</Detail>
+  <Detail name="vertexCount">378</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cardboard_box.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

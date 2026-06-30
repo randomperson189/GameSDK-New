@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="AnimatedMesh" guid="dbfcafa7-a4dd-c1d7-227f-9c529e7bfbe8">
+ <Files>
+  <File path="mh60_damaged.cga"/>
+  <File path="mh60_damaged_lod1.cga"/>
+  <File path="mh60_damaged_lod2.cga"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">31161</Detail>
+  <Detail name="vertexCount">29407</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/Vehicles/MH60_Blackhawk/mh60_damaged.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

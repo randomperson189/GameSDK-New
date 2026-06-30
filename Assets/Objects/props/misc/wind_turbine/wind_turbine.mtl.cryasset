@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Material" guid="91f7a541-5e46-0e99-3c3e-d6d85c527777">
+ <Files>
+  <File path="wind_turbine.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">8</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/trim_brushedmetal_01.dds</Path>
+  <Path usageCount="1">textures/generic/metal/trim_brushedmetal_01_ddna.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/metal/metal_001_detail.dds</Path>
+  <Path usageCount="2">textures/generic/metal/metal_plain_agedbright_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_plain_agedbright_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/dirt_blend.dds</Path>
+  <Path usageCount="1">textures/generic/metal/ceiling_metal02_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/ceiling_metal02_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="34b82a10-c1ca-e56e-bdc1-f0590ee6960b">
+ <Files>
+  <File path="f_thorn_a.cgf"/>
+  <File path="f_thorn_a_lod1.cgf"/>
+  <File path="f_thorn_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">400</Detail>
+  <Detail name="vertexCount">453</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./thorn.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

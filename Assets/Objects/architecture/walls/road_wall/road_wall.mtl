@@ -1,0 +1,39 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="concrete" MtlFlags="524416" Shader="Illum" GenMask="2080000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/concrete/concrete_wall_a_diff.tif">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/concrete/concrete_wall_a_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rock" MtlFlags="524416" Shader="Illum" GenMask="20800000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rocks/textures/rock_diff.tif">
+     <TexMod TileU="4" TileV="4"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rocks/textures/rock_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/rock_a_mask.dds"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rocks/textures/moss_diff.dds"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rocks/textures/moss_ddna.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="3" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="0.5" BlendFactor="0.5" BlendLayer2Specular="0.025" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="river" MtlFlags="524448" Shader="Illum" GenMask="C0000881" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DECAL%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_water" MatTemplate="" Diffuse="0.11443538,0.11443538,0.11443538" Specular="0.49693301,0.49693301,0.49693301" Emissive="0,0,0" Shininess="180" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/water/river_foamy.tif">
+     <TexMod TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.1" TexMod_UOscillatorAmplitude="1"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/generic/water/river_foamy.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/water/river_foamy_ddn.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

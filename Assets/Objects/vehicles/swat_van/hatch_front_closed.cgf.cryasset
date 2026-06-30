@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="034e62c3-e6f3-c8d9-cca4-e8e2aae1e5be">
+ <Files>
+  <File path="hatch_front_closed.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">278</Detail>
+  <Detail name="vertexCount">235</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/vehicles/swat_van/swat_van.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

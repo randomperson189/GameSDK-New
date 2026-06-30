@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="47df1735-83ef-510f-1a3f-1d0681999739">
+ <Files>
+  <File path="watertower_roof_interiors.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">12</Detail>
+  <Detail name="triangleCount">202</Detail>
+  <Detail name="vertexCount">419</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./watertower_stone.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

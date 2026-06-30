@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Mesh" guid="ac5bb3f1-c1c9-4fe8-4e53-939c01458ca7">
+ <Files>
+  <File path="canyon_wall_high_moss.cgf"/>
+  <File path="canyon_wall_high_moss_lod1.cgf"/>
+  <File path="canyon_wall_high_moss_lod2.cgf"/>
+  <File path="canyon_wall_high_moss_lod3.cgf"/>
+  <File path="canyon_wall_high_moss_lod4.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">14</Detail>
+  <Detail name="triangleCount">7132</Detail>
+  <Detail name="vertexCount">3987</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/natural/woodland/woodland_canyon.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ac109390-c378-0c72-0b80-b11b50105db6">
+ <Files>
+  <File path="generator_c_needle.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">64</Detail>
+  <Detail name="vertexCount">56</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./generator_c.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="0ff760ee-49cc-7677-b670-f5cca381374c">
+ <Files>
+  <File path="tubs_set_wood_sml_ab.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_caps_damaged_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_caps_damaged_a_ddna.dds</Path>
+  <Path usageCount="1">objects/props/furniture/bathroom/tubs_set_wood/textures/tubs_set_wood_sml_ab_diff.dds</Path>
+  <Path usageCount="1">objects/props/furniture/bathroom/tubs_set_wood/textures/tubs_set_wood_sml_ab_ddna.dds</Path>
+  <Path usageCount="1">objects/props/furniture/bathroom/tubs_set_wood/textures/tubs_set_wood_sml_ab_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

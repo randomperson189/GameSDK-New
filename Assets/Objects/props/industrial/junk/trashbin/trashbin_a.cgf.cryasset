@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="30ed07b3-226e-cbf4-0481-40528eafd8be">
+ <Files>
+  <File path="trashbin_a.cgf"/>
+  <File path="trashbin_a_lod1.cgf"/>
+  <File path="trashbin_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1060</Detail>
+  <Detail name="vertexCount">1200</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./trashbin.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

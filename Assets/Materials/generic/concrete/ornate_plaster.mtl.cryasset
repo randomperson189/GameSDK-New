@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="982e6fba-41cf-66f3-51e5-c449d9a992d0">
+ <Files>
+  <File path="ornate_plaster.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/ornate_plaster_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/ornate_plaster_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

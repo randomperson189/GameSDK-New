@@ -1,0 +1,96 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="glass" MtlFlags="524416" Shader="Illum" GenMask="80000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_glass" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.49950528,0.49950528,0.49950528" Emissive="0,0,0" Opacity="1" Shininess="120" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat_old/textures/speedboat_glass.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="chassis" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="0.69803923,0.69803923,0.69803923" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="500" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="speedboat_glass" MtlFlags="524448" Shader="Illum" GenMask="80000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.20835964,0.2801244,0.32503697" Specular="0.49950528,0.49950528,0.49950528" Emissive="0,0,0" Opacity="0.5" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat_old/textures/speedboat_glass.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="upper_body" MtlFlags="524416" Shader="Illum" GenMask="81000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.49693301,0.49693301,0.49693301" Specular="0.046665087,0.046665087,0.046665087" Emissive="0,0,0" Opacity="1" Shininess="120" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat_old/textures/speedboat_upper_body.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/vehicles/speedboat_old/textures/speedboat_upper_body_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="stripes" MtlFlags="524416" Shader="Illum" GenMask="81000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.046665087,0.046665087,0.046665087" Emissive="0,0,0" Opacity="1" Shininess="70" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat_old/textures/speedboat_stripes.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" OffsetU="0.5" OffsetV="0.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/vehicles/speedboat_old/textures/speedboat_stripes_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="temp" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="wooden" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_nodraw" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="floor" MtlFlags="524416" Shader="Illum" GenMask="81000080" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.022173885,0.022173885,0.022173885" Emissive="0,0,0" Opacity="1" Shininess="129" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat_old/textures/speedboat_floor.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/vehicles/speedboat_old/textures/speedboat_floor_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_fine_b90_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="2" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="hull" MtlFlags="524416" Shader="Illum" GenMask="81000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.49693301,0.49693301,0.49693301" Specular="0.046665087,0.046665087,0.046665087" Emissive="0,0,0" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat_old/textures/speedboat_body.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/speedboat_old/textures/speedboat_body_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="dashboard" MtlFlags="524416" Shader="Illum" GenMask="81000002" StringGenMask="%ALPHAGLOW%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.49693301,0.49693301,0.49693301" Specular="0.046665087,0.046665087,0.046665087" Emissive="0,0,0" Opacity="1" Shininess="130" GlowAmount="2" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat_old/textures/speedboat_dashboard.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/speedboat_old/textures/speedboat_dashboard_ddna.tif"/>
+   </Textures>
+   <PublicParams AmbientMultiplier="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="details" MtlFlags="524416" Shader="Illum" GenMask="81000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.49693301,0.49693301,0.49693301" Specular="0.046665087,0.046665087,0.046665087" Emissive="0,0,0" Opacity="1" Shininess="160" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat_old/textures/speedboat_details.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/speedboat_old/textures/speedboat_details_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_pipes" MtlFlags="524416" Shader="Illum" GenMask="81000080" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.21586053,0.21586053,0.21586053" Specular="0.033104766,0.033104766,0.033104766" Emissive="0,0,0" Opacity="1" Shininess="189" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat_old/textures/speedboat_metal.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/speedboat_old/textures/speedboat_metal_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_a_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="8" TileV="8"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.25" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="damaged" MtlFlags="524416" Shader="Illum" GenMask="80000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/speedboat_old/textures/speedboat_damaged.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

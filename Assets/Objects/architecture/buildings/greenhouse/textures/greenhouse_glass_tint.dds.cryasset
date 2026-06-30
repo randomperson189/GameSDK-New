@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="8324077e-4895-6cd4-9363-cbdc526aa24b">
+ <Files>
+  <File path="greenhouse_glass_tint.dds"/>
+  <File path="greenhouse_glass_tint.dds.1"/>
+  <File path="greenhouse_glass_tint.dds.2"/>
+  <File path="greenhouse_glass_tint.dds.3"/>
+  <File path="greenhouse_glass_tint.dds.4"/>
+  <File path="greenhouse_glass_tint.dds.5"/>
+  <File path="greenhouse_glass_tint.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

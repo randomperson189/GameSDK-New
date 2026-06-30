@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="eb9c0b0b-aafb-bfec-3ee4-064d8f3bf727">
+ <Files>
+  <File path="fishing_house_a.cgf"/>
+  <File path="fishing_house_a_lod1.cgf"/>
+  <File path="fishing_house_a_lod2.cgf"/>
+  <File path="fishing_house_a_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">4930</Detail>
+  <Detail name="vertexCount">7019</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/fishing_houses.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

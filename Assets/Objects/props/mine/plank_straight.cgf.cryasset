@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="637cc27d-4c13-d72a-e829-07702a04e6be">
+ <Files>
+  <File path="plank_straight.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">284</Detail>
+  <Detail name="vertexCount">252</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mines.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

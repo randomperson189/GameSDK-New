@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="c95a8eaa-f7a3-7a48-2dbc-0e16fe99f7d8">
+ <Files>
+  <File path="forest_ruin_wall_6m_tall.cgf"/>
+  <File path="forest_ruin_wall_6m_tall_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">13</Detail>
+  <Detail name="triangleCount">176</Detail>
+  <Detail name="vertexCount">126</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./forest_ruin.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

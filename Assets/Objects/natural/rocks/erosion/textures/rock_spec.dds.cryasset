@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="c184cb67-dc25-5015-d7bc-51fada4f48e9">
+ <Files>
+  <File path="rock_spec.dds"/>
+  <File path="rock_spec.dds.1"/>
+  <File path="rock_spec.dds.2"/>
+  <File path="rock_spec.dds.3"/>
+  <File path="rock_spec.dds.4"/>
+  <File path="rock_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

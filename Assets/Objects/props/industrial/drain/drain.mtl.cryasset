@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="86bcccf3-7ed7-d911-0fa6-d4c250ff768c">
+ <Files>
+  <File path="drain.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/drain/textures/drain_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/drain/textures/drain_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="dd3ac4a8-98f2-3309-cd75-aa75c1fe8ef9">
+ <Files>
+  <File path="icicle_mat.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/Natural/water/icicle/textures/icicles_diff.dds</Path>
+  <Path usageCount="1">objects/natural/water/icicle/textures/icicles_ddna.dds</Path>
+  <Path usageCount="1">textures/cubemaps/forest/ab3_ab4_main_cm.dds</Path>
+ </Dependencies>
+</AssetMetadata>

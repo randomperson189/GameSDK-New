@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="8e3ac67b-7ed7-3efc-1151-0dd38225965f">
+ <Files>
+  <File path="tent_crush.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/props/misc/lamp_post/textures/lamp_post_diff.dds</Path>
+  <Path usageCount="1">Objects/props/misc/lamp_post/textures/lamp_post_ddna.dds</Path>
+  <Path usageCount="1">Objects/props/misc/lamp_post/textures/lamp_post_spec.dds</Path>
+  <Path usageCount="1">Textures/detail_bumpmaps/wood/wood_004_detail.dds</Path>
+  <Path usageCount="1">Objects/props/fishing_camp/textures/tent_diff.dds</Path>
+  <Path usageCount="1">Objects/props/fishing_camp/textures/tent_ddna.dds</Path>
+  <Path usageCount="1">Textures/detail_bumpmaps/fabric/fabric_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

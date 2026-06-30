@@ -1,0 +1,6 @@
+<Material MtlFlags="524288" Shader="Templbeamproc" GenMask="1" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.70829779,0.70829779,0.70829779" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/lights/scatter.tif"/>
+ </Textures>
+ <PublicParams StartRadius="1" EndRadius="3" StartColor="0.75929958,0.75929958,0.75929958" EndColor="0.51139784,0.43681276,0.31576276" FinalMultiplier="2" SoftIntersectionFactor="0.40000001" BeamLength="14" viewDependencyFactor="0.2" OrigLength="2.5899999" OrigWidth="1"/>
+</Material>

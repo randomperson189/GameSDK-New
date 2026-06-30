@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="877b62cf-d66c-9207-ef8a-d3845c1cbd97">
+ <Files>
+  <File path="cooling_tower.cgf"/>
+  <File path="cooling_tower_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">332</Detail>
+  <Detail name="vertexCount">223</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cooling_tower.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

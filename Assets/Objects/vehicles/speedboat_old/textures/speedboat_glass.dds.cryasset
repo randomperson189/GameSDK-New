@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d826c34c-8bcb-827d-5cc9-f4f3e4446524">
+ <Files>
+  <File path="speedboat_glass.dds"/>
+  <File path="speedboat_glass.dds.1"/>
+  <File path="speedboat_glass.dds.2"/>
+  <File path="speedboat_glass.dds.3"/>
+  <File path="speedboat_glass.dds.4"/>
+  <File path="speedboat_glass.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

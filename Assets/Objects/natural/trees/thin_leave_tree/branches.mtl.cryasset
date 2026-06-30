@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="f3448580-f0d7-69ff-1d7d-b725792587eb">
+ <Files>
+  <File path="branches.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/trunk_pino_old_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/thin_leave_tree/textures/trunk_pino_old_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_005_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

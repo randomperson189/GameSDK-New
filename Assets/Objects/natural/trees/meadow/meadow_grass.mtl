@@ -1,0 +1,14 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Grass" MtlFlags="524416" Shader="Vegetation" GenMask="2400201000" StringGenMask="%DETAIL_BENDING%GRASS%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.54572451,0.54572451,0.54572451" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="30" Opacity="1" AlphaTest="0.40000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/meadow/textures/meadow_grass_diff.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.1" bendDetailFrequency="1" bendDetailBranchAmplitude="0" BlendTerrainCol="0.1" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="1" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Proxy_Bending" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="e1affffe-b042-57a6-ddcc-b76823e64d9d">
+ <Files>
+  <File path="bench_b.cgf"/>
+  <File path="bench_b_lod1.cgf"/>
+  <File path="bench_b_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">270</Detail>
+  <Detail name="vertexCount">197</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./benches.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

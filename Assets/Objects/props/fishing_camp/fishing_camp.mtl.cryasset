@@ -1,0 +1,45 @@
+<AssetMetadata version="0" type="Material" guid="d90ca3ac-eeb0-8fbd-12ca-90fa70c9613e">
+ <Files>
+  <File path="fishing_camp.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">17</Detail>
+  <Detail name="textureCount">34</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/fishing_camp/textures/campfire_lod2_diff.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/campfire_lod2_spec.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/campfire_lod2_ddn.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/campfire_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/campfire_lod1_spec.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/campfire_lod1_ddn.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/sleepingbag_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/sleepingbag_lod1_spec.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/sleepingbag_lod1_ddn.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/fishingpole_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/fishingpole_lod1_spec.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/fishingpole_lod1_ddn.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/camping_chair_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/camping_chair_lod1_ddn.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/camping_tent_lod3_diff.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/camping_tent_lod3_spec.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/camping_tent_lod3_ddn.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/camping_tent_lod2_diff.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/camping_tent_lod2_spec.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/camping_tent_lod2_ddn.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/camping_tent_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/camping_tent_lod1_spec.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/camping_tent_lod1_ddn.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/campfire_base_diff.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/campfire_base_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/sand/sand_003_detail.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/fishpole_diff.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/fishpole_ddna.dds</Path>
+  <Path usageCount="4">objects/props/fishing_camp/textures/camping_general_diff.dds</Path>
+  <Path usageCount="4">objects/props/fishing_camp/textures/camping_general_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/fabric/fabric_b_detail.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/tent_diff.dds</Path>
+  <Path usageCount="1">objects/props/fishing_camp/textures/tent_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/fabric/fabric_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

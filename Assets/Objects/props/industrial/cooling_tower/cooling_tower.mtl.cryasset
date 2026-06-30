@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="3255601c-3984-ccb7-14ec-1748a1af8067">
+ <Files>
+  <File path="cooling_tower.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/concrete_wall03_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_wall03_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

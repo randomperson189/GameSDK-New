@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="9b43c20b-b457-eb22-6d91-1ace6ff9fb5e">
+ <Files>
+  <File path="worn_copper.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/conductor_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/copper_spec.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/worn_metal_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

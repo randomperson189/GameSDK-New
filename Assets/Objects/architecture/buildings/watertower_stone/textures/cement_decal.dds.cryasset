@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="4633405e-3153-c56f-33d0-ef629ac41dd5">
+ <Files>
+  <File path="cement_decal.dds"/>
+  <File path="cement_decal.dds.1"/>
+  <File path="cement_decal.dds.2"/>
+  <File path="cement_decal.dds.3"/>
+  <File path="cement_decal.dds.4"/>
+  <File path="cement_decal.dds.5"/>
+  <File path="cement_decal.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

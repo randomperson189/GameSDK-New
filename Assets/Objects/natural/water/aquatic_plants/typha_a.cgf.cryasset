@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="55ede81d-0769-916a-be80-525baff07e64">
+ <Files>
+  <File path="typha_a.cgf"/>
+  <File path="typha_a_lod1.cgf"/>
+  <File path="typha_a_lod2.cgf"/>
+  <File path="typha_a_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1633</Detail>
+  <Detail name="vertexCount">1469</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Aquatic_Plants.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

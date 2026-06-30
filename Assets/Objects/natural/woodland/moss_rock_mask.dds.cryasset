@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="700e30fe-0417-d204-5b35-75fe65af4ea5">
+ <Files>
+  <File path="moss_rock_mask.dds"/>
+  <File path="moss_rock_mask.dds.1"/>
+  <File path="moss_rock_mask.dds.2"/>
+  <File path="moss_rock_mask.dds.3"/>
+  <File path="moss_rock_mask.dds.4"/>
+  <File path="moss_rock_mask.dds.5"/>
+  <File path="moss_rock_mask.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

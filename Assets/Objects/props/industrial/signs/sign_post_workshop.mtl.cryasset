@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="215a9420-36b9-9e98-18ea-7b0d54476fd6">
+ <Files>
+  <File path="sign_post_workshop.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/industrial/signs/textures/sign_post_workshop_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="67d52906-9af2-66a1-beaf-07b211cf9093">
+ <Files>
+  <File path="jet_interior_diff.dds"/>
+  <File path="jet_interior_diff.dds.1"/>
+  <File path="jet_interior_diff.dds.2"/>
+  <File path="jet_interior_diff.dds.3"/>
+  <File path="jet_interior_diff.dds.4"/>
+  <File path="jet_interior_diff.dds.5"/>
+  <File path="jet_interior_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

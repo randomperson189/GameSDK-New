@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="6326ed0e-f601-221e-4573-ec7f0efb443c">
+ <Files>
+  <File path="na_scots_pine_tree_stripped_diff.dds"/>
+  <File path="na_scots_pine_tree_stripped_diff.dds.1"/>
+  <File path="na_scots_pine_tree_stripped_diff.dds.2"/>
+  <File path="na_scots_pine_tree_stripped_diff.dds.3"/>
+  <File path="na_scots_pine_tree_stripped_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

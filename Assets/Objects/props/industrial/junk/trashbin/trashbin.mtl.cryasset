@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="51cceeea-bc71-3a89-8193-8652faf524ba">
+ <Files>
+  <File path="trashbin.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/junk/trashbin/textures/trashbin_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/junk/trashbin/textures/trashbin_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

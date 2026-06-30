@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="6fd4d6ce-04df-d2d8-42c8-777754947ab9">
+ <Files>
+  <File path="tubs_set_wood_sml_ab_diff.dds"/>
+  <File path="tubs_set_wood_sml_ab_diff.dds.1"/>
+  <File path="tubs_set_wood_sml_ab_diff.dds.2"/>
+  <File path="tubs_set_wood_sml_ab_diff.dds.3"/>
+  <File path="tubs_set_wood_sml_ab_diff.dds.4"/>
+  <File path="tubs_set_wood_sml_ab_diff.dds.5"/>
+  <File path="tubs_set_wood_sml_ab_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

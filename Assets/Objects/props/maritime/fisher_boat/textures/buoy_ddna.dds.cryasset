@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="854f8184-0648-b82a-c125-4df7a6810f16">
+ <Files>
+  <File path="buoy_ddna.dds"/>
+  <File path="buoy_ddna.dds.a"/>
+  <File path="buoy_ddna.dds.1"/>
+  <File path="buoy_ddna.dds.1a"/>
+  <File path="buoy_ddna.dds.2"/>
+  <File path="buoy_ddna.dds.2a"/>
+  <File path="buoy_ddna.dds.3"/>
+  <File path="buoy_ddna.dds.3a"/>
+  <File path="buoy_ddna.dds.4"/>
+  <File path="buoy_ddna.dds.4a"/>
+  <File path="buoy_ddna.dds.5"/>
+  <File path="buoy_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

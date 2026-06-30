@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="4387a33a-d987-7894-e37d-e44eaa1302e6">
+ <Files>
+  <File path="water_crane_ddna.dds"/>
+  <File path="water_crane_ddna.dds.a"/>
+  <File path="water_crane_ddna.dds.1"/>
+  <File path="water_crane_ddna.dds.1a"/>
+  <File path="water_crane_ddna.dds.2"/>
+  <File path="water_crane_ddna.dds.2a"/>
+  <File path="water_crane_ddna.dds.3"/>
+  <File path="water_crane_ddna.dds.3a"/>
+  <File path="water_crane_ddna.dds.4"/>
+  <File path="water_crane_ddna.dds.4a"/>
+  <File path="water_crane_ddna.dds.5"/>
+  <File path="water_crane_ddna.dds.5a"/>
+  <File path="water_crane_ddna.dds.6"/>
+  <File path="water_crane_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,44 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="outside" MtlFlags="524416" Shader="Illum" GenMask="30400202" StringGenMask="%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="36" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/geomcaches/stone_toad/textures/granite_tiled_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="Objects/geomcaches/stone_toad/textures/granite_tiled_ddn.tif"/>
+    <Texture Map="Specular" File="Objects/geomcaches/stone_toad/textures/granite_tiled_spec.tif"/>
+    <Texture Map="Detail" File="Objects/geomcaches/stone_toad/textures/stone_toad_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.33333001" TileV="0.33333001"/>
+    </Texture>
+    <Texture Map="Custom" File="Objects/geomcaches/stone_toad/textures/moss_tiled_diff.tif"/>
+    <Texture Map="[1] Custom" File="Objects/geomcaches/stone_toad/textures/moss_tiled_ddn.tif"/>
+    <Texture Map="Opacity" File="Objects/geomcaches/stone_toad/textures/stone_toad_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.80000001" EmittanceMapGamma="1" BlendLayer2Tiling="8" DetailDiffuseScale="0.27599999" SSSIndex="0" DetailBumpScale="1.5" BlendMaskTiling="0.33333299" BlendFactor="16" DetailGlossScale="0.5" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="inside" MtlFlags="524416" Shader="Illum" GenMask="20400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.57758057,0.57758057,0.57758057" Specular="0.03189604,0.03189604,0.03189604" Opacity="1" Shininess="20" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/natural/rocks/cliff_rocks/textures/cliff_rock_a_diff.dds"/>
+    <Texture Map="Bumpmap" File="Objects/natural/rocks/cliff_rocks/textures/cliff_rock_a_ddna.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="base" MtlFlags="524416" Shader="Illum" GenMask="20400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.42326769,0.42326769,0.42326769" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="40" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/geomcaches/stone_toad/textures/granite_tiled_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="Objects/geomcaches/stone_toad/textures/granite_tiled_ddn.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="20400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.12743771,0.12743771,0.12743771" Specular="0.30498734,0.30498734,0.30498734" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/generic/metal/rusted_steel_diff.dds"/>
+    <Texture Map="Bumpmap" File="Textures/generic/metal/rusted_steel_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

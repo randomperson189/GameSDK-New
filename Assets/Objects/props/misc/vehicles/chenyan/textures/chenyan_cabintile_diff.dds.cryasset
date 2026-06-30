@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="68d48984-2102-433e-4fcf-be4d351c8cc2">
+ <Files>
+  <File path="chenyan_cabintile_diff.dds"/>
+  <File path="chenyan_cabintile_diff.dds.1"/>
+  <File path="chenyan_cabintile_diff.dds.2"/>
+  <File path="chenyan_cabintile_diff.dds.3"/>
+  <File path="chenyan_cabintile_diff.dds.4"/>
+  <File path="chenyan_cabintile_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

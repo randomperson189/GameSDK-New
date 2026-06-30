@@ -1,0 +1,44 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_SILHOUETTE_POM%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.1169707,0.1169707,0.1169707" Specular="0.080219828,0.080219828,0.080219828" Emissive="0,0,0" Shininess="91" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/ceilinglight_dif.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="2623616" Shader="Glass" GenMask="10010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.078056589,0.078056589,0.078056589" Specular="0.043735035,0.043735035,0.043735035" Emissive="0,0,0" Shininess="156" Opacity="0.99000001" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/glass_dif.tif"/>
+    <Texture Map="Detail" File="Objects/props/furniture/appliances/lamps/textures/glass_detailbump_ddn.tif">
+     <TexMod TileU="0.40000001" TileV="0.40000001"/>
+    </Texture>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="1,1,1" FresnelScale="1" FresnelBias="1" TintCloudiness="0" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glow" MtlFlags="524416" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_SILHOUETTE_POM%GLOSS_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="4" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/ceilinglight_dif.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass_tinted" MtlFlags="2621568" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_SILHOUETTE_POM%GLOSS_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.080219828,0.080219828,0.080219828" Specular="0.1169707,0.1169707,0.1169707" Emissive="0,0,0" Shininess="140" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/glass_dif.tif"/>
+    <Texture Map="Detail" File="Objects/props/furniture/appliances/lamps/textures/glass_detailbump_ddn.tif">
+     <TexMod TileU="0.40000001" TileV="0.40000001"/>
+    </Texture>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_dark" MtlFlags="524416" Shader="Illum" GenMask="40080001" StringGenMask="%ALLOW_SILHOUETTE_POM%GLOSS_MAP%PN_TESSELLATION" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.1169707,0.1169707,0.1169707" Specular="0.042311415,0.042311415,0.042311415" Emissive="0,0,0" Shininess="140" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/ceilinglight_dif.tif"/>
+   </Textures>
+   <PublicParams TessellationFaceCull="0.75" TessellationFactor="1" SSSIndex="0" TessellationFactorMax="32" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

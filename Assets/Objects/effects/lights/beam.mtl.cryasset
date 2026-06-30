@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="f3a67a3c-5a47-2400-a5cf-6beb9564ce26">
+ <Files>
+  <File path="beam.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/white.dds</Path>
+ </Dependencies>
+</AssetMetadata>

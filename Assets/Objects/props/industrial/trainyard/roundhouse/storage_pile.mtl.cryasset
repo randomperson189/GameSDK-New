@@ -1,0 +1,22 @@
+<AssetMetadata version="0" type="Material" guid="5c00c00c-f3a0-8481-0558-9f582e790c68">
+ <Files>
+  <File path="storage_pile.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">10</Detail>
+  <Detail name="textureCount">11</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/trainyard/roundhouse/textures/storage_pile_decals_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/trains/wagons/textures/wagon_wooden_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/trains/wagons/textures/wagon_wooden_ddna.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/roundhouse/textures/metal_door_b_diff.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_005_detail.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/plastic/plastic_tarp_diff.dds</Path>
+  <Path usageCount="1">textures/generic/plastic/plastic_tarp_ddna.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/roundhouse/textures/storage_pile_board_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/roundhouse/textures/storage_pile_custom_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

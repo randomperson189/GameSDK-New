@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="034976da-956e-c6ad-966e-eb1b3deb3ca4">
+ <Files>
+  <File path="burned_wood_stump_end_a_diff.dds"/>
+  <File path="burned_wood_stump_end_a_diff.dds.1"/>
+  <File path="burned_wood_stump_end_a_diff.dds.2"/>
+  <File path="burned_wood_stump_end_a_diff.dds.3"/>
+  <File path="burned_wood_stump_end_a_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

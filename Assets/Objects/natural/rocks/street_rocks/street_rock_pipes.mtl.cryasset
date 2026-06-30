@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="65800880-923f-724d-8b1d-b52c5fc2515f">
+ <Files>
+  <File path="street_rock_pipes.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/rocks/street_rocks/textures/plastic_pipes.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/street_rocks/textures/plastic_pipes_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/street_rocks/textures/metal_beam_pipe_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/street_rocks/textures/metal_beam_pipe_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_bumpy_dmap.dds</Path>
+ </Dependencies>
+</AssetMetadata>

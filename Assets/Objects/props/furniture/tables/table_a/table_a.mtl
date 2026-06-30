@@ -1,0 +1,32 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="table_a_wood" MtlFlags="524416" Shader="Illum" GenMask="81000021" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.035601314,0.035601314,0.035601314" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/wood_planks_square_tiled_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/wood/wood_planks_square_tiled_ddna.tif"/>
+    <Texture Map="Custom" File="textures/generic/wood/wooden_ending_caps_a_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/wood/wooden_ending_caps_a_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/wood/wood_rough_a_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.30000001" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="0.30000001" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="table_a_metal" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="textures/generic/metal/metal_iron_b_ddna.tif"/>
+    <Texture Map="Specular" File="textures/generic/metal/metal_iron_b_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+  </Material>
+  <Material Name="table_a_lod" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.035601314,0.035601314,0.035601314" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/furniture/tables/table_a/textures/ba_table_a_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/furniture/tables/table_a/textures/ba_table_a_lod1_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

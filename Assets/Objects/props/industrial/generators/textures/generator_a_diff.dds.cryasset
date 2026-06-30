@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="5c5738a1-2702-efb3-b914-c7ee50433146">
+ <Files>
+  <File path="generator_a_diff.dds"/>
+  <File path="generator_a_diff.dds.1"/>
+  <File path="generator_a_diff.dds.2"/>
+  <File path="generator_a_diff.dds.3"/>
+  <File path="generator_a_diff.dds.4"/>
+  <File path="generator_a_diff.dds.5"/>
+  <File path="generator_a_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

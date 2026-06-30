@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="170d7d58-018e-996d-a8cf-a8a5f485d384">
+ <Files>
+  <File path="sand_1.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/sand/sand_1_diff.dds</Path>
+  <Path usageCount="1">textures/generic/sand/sand_1_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/sand/sand_1_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

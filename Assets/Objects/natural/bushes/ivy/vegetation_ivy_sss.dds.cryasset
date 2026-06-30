@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="779e2628-b53f-0995-2aa4-56ac4b85bb93">
+ <Files>
+  <File path="vegetation_ivy_sss.dds"/>
+  <File path="vegetation_ivy_sss.dds.1"/>
+  <File path="vegetation_ivy_sss.dds.2"/>
+  <File path="vegetation_ivy_sss.dds.3"/>
+  <File path="vegetation_ivy_sss.dds.4"/>
+  <File path="vegetation_ivy_sss.dds.5"/>
+  <File path="vegetation_ivy_sss.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

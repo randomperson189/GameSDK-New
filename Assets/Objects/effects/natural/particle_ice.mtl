@@ -1,0 +1,16 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="particle" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="mat_ice" Diffuse="0.88627499,0.97254902,0.99607801" Specular="0.77207798,1.2616885,2.8999999" Emissive="0,0,0" Shininess="10" Opacity="0.287">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/effects/natural/particle_ice.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="" Diffuse="0.12548999,0.0078431396,0.71372598" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.2">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

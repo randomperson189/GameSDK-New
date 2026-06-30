@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="19223ebc-5476-af6b-8769-e37b0d7cd49c">
+ <Files>
+  <File path="jet.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/misc/vehicles/jet/textures/jet_exterior_diff.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+  <Path usageCount="2">objects/props/misc/vehicles/jet/textures/jet_interior_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/jet/textures/jet_interior_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

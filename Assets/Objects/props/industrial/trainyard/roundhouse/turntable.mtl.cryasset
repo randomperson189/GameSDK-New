@@ -1,0 +1,26 @@
+<AssetMetadata version="0" type="Material" guid="975253b7-442e-a8d8-4860-29cc97dcafa3">
+ <Files>
+  <File path="turntable.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">12</Detail>
+  <Detail name="textureCount">15</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/trainyard/roundhouse/textures/turntable_parts_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/roundhouse/textures/turntable_parts_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_parts_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_parts_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_ddna.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/railroad_tracks/textures/railroad_track_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/railroad_tracks/textures/railroad_track_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_ground_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_ground_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/sidewalk_stones_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/sidewalk_stones_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/concrete/concrete_new_detail.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_steelbar_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_steelbar_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

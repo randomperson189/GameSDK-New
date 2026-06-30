@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="b99a0587-c66e-3764-a972-5364301dab90">
+ <Files>
+  <File path="trainseat.cgf"/>
+  <File path="trainseat_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">826</Detail>
+  <Detail name="vertexCount">930</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./storage_pile.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

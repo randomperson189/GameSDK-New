@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="af384de5-c674-06eb-c305-17bafbf5c476">
+ <Files>
+  <File path="lighthouse_interior_level03.cgf"/>
+  <File path="lighthouse_interior_level03_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">9</Detail>
+  <Detail name="triangleCount">14638</Detail>
+  <Detail name="vertexCount">14662</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./lighthouse_interior.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

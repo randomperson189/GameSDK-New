@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="AnimatedMesh" guid="16056cbb-3e2b-c92b-3138-2471e22f03dc">
+ <Files>
+  <File path="samplebike.cga"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">348</Detail>
+  <Detail name="vertexCount">731</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./samplebike.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

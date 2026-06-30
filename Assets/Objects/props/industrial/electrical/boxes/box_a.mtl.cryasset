@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="035fb6c0-e982-490e-085f-0a092a5733ea">
+ <Files>
+  <File path="box_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/electrical/boxes/textures/box_a_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/electrical/boxes/textures/box_a_spec.dds</Path>
+  <Path usageCount="1">objects/props/industrial/electrical/boxes/textures/box_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

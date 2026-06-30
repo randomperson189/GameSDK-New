@@ -1,0 +1,74 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="brick_wall" MtlFlags="524416" Shader="Illum" GenMask="20800000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Shininess="80" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/lighthouse/textures/lighthouse_stucco_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/lighthouse/textures/lighthouse_stucco_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/architecture/buildings/lighthouse/textures/lighthouse_stucco_mask.tif"/>
+    <Texture Map="Custom" File="objects/architecture/buildings/lighthouse/textures/lighthouse_stucco_blend_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/architecture/buildings/lighthouse/textures/lighthouse_stucco_blend_ddna.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="2" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="6" BlendLayer2Specular="0.039999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="details_a" MtlFlags="524416" Shader="Illum" GenMask="2080000181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/lighthouse/textures/lighthouse_trims_diff.tif" Filter="7"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/lighthouse/textures/lighthouse_trims_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/concrete/concrete_new_detail.tif">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.25" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.45641103,0.45641103,0.45641103" Specular="0.017641956,0.017641956,0.017641956" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/lighthouse/textures/ligthhouse_metal_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/lighthouse/textures/ligthhouse_metal_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25084025,0.25084025,0.25084025"/>
+  </Material>
+  <Material Name="glass" MtlFlags="526498" Shader="Glass" GenMask="10040000010" StringGenMask="%BILINEAR_FP16%SPEC_MAP%TINT_MAP" SurfaceType="mat_glass" MatTemplate="" Diffuse="0,0,0" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.1" LayerAct="1">
+   <Textures>
+    <Texture Map="Specular" File="objects/architecture/buildings/lighthouse/textures/lighthouse_windows_diff.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.29321617,0.29321617,0.18354899" FresnelScale="1" FresnelBias="1" CloudinessReducesGloss="0.5" TintCloudiness="0.44999999" BackLightScale="0.25" BumpScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="door" MtlFlags="524418" Shader="Illum" GenMask="2080000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.45641103,0.45641103,0.45641103" Specular="0.042311411,0.042311411,0.042311411" Emissive="0,0,0" Shininess="128" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/lighthouse/textures/lighthouse_door_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/lighthouse/textures/lighthouse_door_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="alpha" MtlFlags="524416" Shader="Illum" GenMask="2080000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.024157634,0.0043914421,0.00091058097" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.40000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/lighthouse/textures/lighthouse_alpha_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/lighthouse/textures/lighthouse_alpha_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glow_and_sign" MtlFlags="524416" Shader="Illum" GenMask="80000083" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAGLOW%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.052860651,0.052860651,0.052860651" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/lighthouse/textures/lighthouse_light_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/lighthouse/textures/lighthouse_light_ddna.tif"/>
+   </Textures>
+   <PublicParams AmbientMultiplier="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="beam" MtlFlags="524448" Shader="Templbeamproc" GenMask="1" StringGenMask="" SurfaceType="mat_default" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white_noise.dds"/>
+   </Textures>
+   <PublicParams StartRadius="1" EndRadius="1" StartColor="1,1,1" EndColor="0,0,0" FinalMultiplier="1" SoftIntersectionFactor="3" BeamLength="20" viewDependencyFactor="0.37" OrigLength="13" OrigWidth="1"/>
+  </Material>
+  <Material Name="decals" MtlFlags="524416" Shader="Illum" GenMask="80000801" StringGenMask="%ALLOW_SILHOUETTE_POM%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.75" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/lighthouse/textures/lighthouse_decal_diff.tif"/>
+   </Textures>
+   <PublicParams DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

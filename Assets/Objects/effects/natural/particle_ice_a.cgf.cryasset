@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="48f2e8b3-5410-61a7-4109-4d99dd2842ef">
+ <Files>
+  <File path="particle_ice_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">48</Detail>
+  <Detail name="vertexCount">78</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./particle_ice.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

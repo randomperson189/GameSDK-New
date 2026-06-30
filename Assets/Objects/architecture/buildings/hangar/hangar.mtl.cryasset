@@ -1,0 +1,32 @@
+<AssetMetadata version="0" type="Material" guid="71c1802d-6ea9-c6da-e85b-c80ea3aa1e1b">
+ <Files>
+  <File path="hangar.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">10</Detail>
+  <Detail name="textureCount">21</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_gate_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_gate_a_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+  <Path usageCount="1">textures/generic/glass/glass_dirty_tint.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_damaged_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_damaged_ddna.dds</Path>
+  <Path usageCount="2">textures/detail_bumpmaps/concrete/gravel_1_detail.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_damaged_displ.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/plaster_wall03_dark_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/plaster_wall03_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_wall02_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_wall02_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/wall_metal_01_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/wall_metal_01_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_clean_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_clean_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_clean_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

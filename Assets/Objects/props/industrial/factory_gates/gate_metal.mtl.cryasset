@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="61ac941a-ca50-230c-38a7-ee968e3710f3">
+ <Files>
+  <File path="gate_metal.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/industrial/factory_gates/textures/gates_diff.dds</Path>
+  <Path usageCount="2">objects/props/industrial/factory_gates/textures/gates_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

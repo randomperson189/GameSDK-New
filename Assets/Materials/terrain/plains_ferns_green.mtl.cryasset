@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="9e5abb6a-824a-882a-9790-df0476451a5d">
+ <Files>
+  <File path="plains_ferns_green.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/terrain/detail/plains_ferns_green_diff.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/plains_ferns_green_ddna.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/plains_ferns_green_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="495b71f1-da8d-1bb1-8d26-ac2ea08f1fb6">
+ <Files>
+  <File path="mines.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/mine/textures/mines_diff.dds</Path>
+  <Path usageCount="2">objects/props/mine/textures/mines_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_b_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

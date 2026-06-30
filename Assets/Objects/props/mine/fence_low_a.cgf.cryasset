@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="91480350-f591-f4d5-b1d0-49c45c10d61e">
+ <Files>
+  <File path="fence_low_a.cgf"/>
+  <File path="fence_low_a_lod1.cgf"/>
+  <File path="fence_low_a_lod2.cgf"/>
+  <File path="fence_low_a_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">378</Detail>
+  <Detail name="vertexCount">591</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mines.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

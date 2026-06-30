@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="185a526a-7e5b-5780-3ad0-ae2396e51ecc">
+ <Files>
+  <File path="barbwire_fence_2m_door.cgf"/>
+  <File path="barbwire_fence_2m_door_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">446</Detail>
+  <Detail name="vertexCount">712</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./barbwire_fence.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

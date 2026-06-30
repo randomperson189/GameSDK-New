@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="b7e72a0e-8e47-a821-6ba0-0b84401584f8">
+ <Files>
+  <File path="old_gas_pump_spec.dds"/>
+  <File path="old_gas_pump_spec.dds.1"/>
+  <File path="old_gas_pump_spec.dds.2"/>
+  <File path="old_gas_pump_spec.dds.3"/>
+  <File path="old_gas_pump_spec.dds.4"/>
+  <File path="old_gas_pump_spec.dds.5"/>
+  <File path="old_gas_pump_spec.dds.6"/>
+  <File path="old_gas_pump_spec.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

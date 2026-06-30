@@ -1,0 +1,11 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="100080181" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%GLOSS_MAP%SILHOUETTE_PARALLAX_OCCLUSION_MAPPING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.31118053,0.31118053,0.31118053" Specular="0.016807377,0.016807377,0.016807377" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decals/water/mussels_02_diff.tif"/>
+  <Texture Map="Bumpmap" File="textures/decals/water/mussels_01_ddna.tif"/>
+  <Texture Map="Heightmap" File="textures/decals/water/mussels_01_displ.tif"/>
+  <Texture Map="Detail" File="textures/detail_bumpmaps/plastic/plastic_detail.tif">
+   <TexMod TileU="20" TileV="20"/>
+  </Texture>
+ </Textures>
+ <PublicParams SilPomDisplacement="0.025" SilPomStepSizeViewDep="1" DetailDiffuseScale="0" SSSIndex="0" DetailBumpScale="1" SelfShadowStrength="3" HeightBias="0.5" DetailGlossScale="0" SilPomNumSteps="32" IndirectColor="0.25,0.25,0.25"/>
+</Material>

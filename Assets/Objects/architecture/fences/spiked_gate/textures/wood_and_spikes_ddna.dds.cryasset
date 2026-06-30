@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Texture" guid="0b815e9b-f219-b9f3-ec40-f6ca5e8c1d3c">
+ <Files>
+  <File path="wood_and_spikes_ddna.dds"/>
+  <File path="wood_and_spikes_ddna.dds.a"/>
+  <File path="wood_and_spikes_ddna.dds.1"/>
+  <File path="wood_and_spikes_ddna.dds.1a"/>
+  <File path="wood_and_spikes_ddna.dds.2"/>
+  <File path="wood_and_spikes_ddna.dds.2a"/>
+  <File path="wood_and_spikes_ddna.dds.3"/>
+  <File path="wood_and_spikes_ddna.dds.3a"/>
+  <File path="wood_and_spikes_ddna.dds.4"/>
+  <File path="wood_and_spikes_ddna.dds.4a"/>
+  <File path="wood_and_spikes_ddna.dds.5"/>
+  <File path="wood_and_spikes_ddna.dds.5a"/>
+  <File path="wood_and_spikes_ddna.dds.6"/>
+  <File path="wood_and_spikes_ddna.dds.6a"/>
+  <File path="wood_and_spikes_ddna.dds.7"/>
+  <File path="wood_and_spikes_ddna.dds.7a"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

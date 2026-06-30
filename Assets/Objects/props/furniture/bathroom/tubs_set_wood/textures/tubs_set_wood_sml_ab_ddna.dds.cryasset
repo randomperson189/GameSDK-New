@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="083302d1-a64e-24dd-b61f-bcab8b4740ef">
+ <Files>
+  <File path="tubs_set_wood_sml_ab_ddna.dds"/>
+  <File path="tubs_set_wood_sml_ab_ddna.dds.a"/>
+  <File path="tubs_set_wood_sml_ab_ddna.dds.1"/>
+  <File path="tubs_set_wood_sml_ab_ddna.dds.1a"/>
+  <File path="tubs_set_wood_sml_ab_ddna.dds.2"/>
+  <File path="tubs_set_wood_sml_ab_ddna.dds.2a"/>
+  <File path="tubs_set_wood_sml_ab_ddna.dds.3"/>
+  <File path="tubs_set_wood_sml_ab_ddna.dds.3a"/>
+  <File path="tubs_set_wood_sml_ab_ddna.dds.4"/>
+  <File path="tubs_set_wood_sml_ab_ddna.dds.4a"/>
+  <File path="tubs_set_wood_sml_ab_ddna.dds.5"/>
+  <File path="tubs_set_wood_sml_ab_ddna.dds.5a"/>
+  <File path="tubs_set_wood_sml_ab_ddna.dds.6"/>
+  <File path="tubs_set_wood_sml_ab_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

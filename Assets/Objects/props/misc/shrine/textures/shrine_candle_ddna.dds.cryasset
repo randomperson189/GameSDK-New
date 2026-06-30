@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="973d260a-d52e-d569-832e-78b1e5ab5f15">
+ <Files>
+  <File path="shrine_candle_ddna.dds"/>
+  <File path="shrine_candle_ddna.dds.a"/>
+  <File path="shrine_candle_ddna.dds.1"/>
+  <File path="shrine_candle_ddna.dds.1a"/>
+  <File path="shrine_candle_ddna.dds.2"/>
+  <File path="shrine_candle_ddna.dds.2a"/>
+  <File path="shrine_candle_ddna.dds.3"/>
+  <File path="shrine_candle_ddna.dds.3a"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

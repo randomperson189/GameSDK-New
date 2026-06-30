@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="848662f6-bfff-bc0c-9a1f-b586b0032ca9">
+ <Files>
+  <File path="hangar_debris_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">14</Detail>
+  <Detail name="triangleCount">147</Detail>
+  <Detail name="vertexCount">259</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./hangar.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

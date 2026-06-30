@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Mesh" guid="162bb7c1-6b01-b07d-b307-30552f3d6608">
+ <Files>
+  <File path="farm_wall_6m_hole.cgf"/>
+  <File path="farm_wall_6m_hole_lod1.cgf"/>
+  <File path="farm_wall_6m_hole_lod2.cgf"/>
+  <File path="farm_wall_6m_hole_lod3.cgf"/>
+  <File path="farm_wall_6m_hole_lod4.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">2691</Detail>
+  <Detail name="vertexCount">1900</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./farm_wall.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

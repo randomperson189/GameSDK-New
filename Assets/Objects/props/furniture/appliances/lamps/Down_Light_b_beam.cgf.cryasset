@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="7d50047e-28d3-6ed8-6835-0a1530840407">
+ <Files>
+  <File path="Down_Light_b_beam.cgf"/>
+  <File path="Down_Light_b_beam_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">750</Detail>
+  <Detail name="vertexCount">1716</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./down_light.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

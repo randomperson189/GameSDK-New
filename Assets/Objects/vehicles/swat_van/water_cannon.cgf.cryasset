@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="02b21518-62fa-a17e-b459-2f8e8a9f866f">
+ <Files>
+  <File path="water_cannon.cgf"/>
+  <File path="water_cannon_lod1.cgf"/>
+  <File path="water_cannon_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">1752</Detail>
+  <Detail name="vertexCount">2140</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/vehicles/swat_van/swat_van.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

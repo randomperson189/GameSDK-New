@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="83b22e56-54be-ff4f-ea5e-35c47697e11f">
+ <Files>
+  <File path="can.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">10</Detail>
+  <Detail name="triangleCount">112</Detail>
+  <Detail name="vertexCount">76</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_camp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

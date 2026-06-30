@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="76cbb9b7-0c81-ae8f-63b1-1706bcaf15e3">
+ <Files>
+  <File path="blinds.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/blinds_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/blinds_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,57 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="floor" MtlFlags="524416" Shader="Illum" GenMask="20C10080A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%DISPLACEMENT_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/broken_floor/textures/concrete_rebar.tif" Filter="5">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="5" TileV="10"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/broken_floor/textures/concrete_rebar_ddna.tif"/>
+    <Texture Map="Specular" File="objects/natural/rocks/broken_floor/textures/concrete_rebar_spec.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/broken_floor/textures/broken_floor_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Heightmap" File="objects/natural/rocks/broken_floor/textures/broken_floor_displ.tif"/>
+    <Texture Map="Decal" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_gloss.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock.tif" Filter="5"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/rocks/broken_floor/textures/concrete_rebar_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="2" TessellationFaceCull="0.5" TessellationFactor="1" BlendLayer2Tiling="1" TessellationDispBias="0.5" BlendLayerDisplacement="0" TessellationHeightScale="0.5" DetailDiffuseScale="0.75" SSSIndex="0" DetailBumpScale="1" BlendMaskTiling="1" TessellationFactorMax="32" BlendFactor="2.5" DetailGlossScale="0.5" BlendLayer2Specular="0.039999999" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rebar" MtlFlags="524416" Shader="Illum" GenMask="2081000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.023153368,0.023153368,0.023153368" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/broken_floor/textures/rebar.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/broken_floor/textures/rebar_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="debris" MtlFlags="524416" Shader="Illum" GenMask="20C10000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/broken_floor/textures/concrete_rebar.tif" Filter="5">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/broken_floor/textures/concrete_rebar_ddna.tif"/>
+    <Texture Map="Specular" File="objects/natural/rocks/broken_floor/textures/concrete_rebar_spec.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/broken_floor/textures/floor_debris_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.333" TileV="0.333"/>
+    </Texture>
+    <Texture Map="Decal" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_gloss.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock.tif" Filter="5"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/rocks/broken_floor/textures/concrete_rebar_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="3" BlendLayer2Tiling="1" DetailDiffuseScale="0.75" SSSIndex="0" DetailBumpScale="1" BlendMaskTiling="1" BlendFactor="7" DetailGlossScale="0.5" BlendLayer2Specular="0.039999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="alpha" MtlFlags="524416" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.023153368,0.023153368,0.023153368" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.25" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/broken_floor/textures/rebar_cables_moss.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/broken_floor/textures/rebar_cables_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

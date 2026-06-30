@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="801a7dd1-da6e-8f90-e036-e718267eb656">
+ <Files>
+  <File path="interior_plant_c_large_breakable.cgf"/>
+  <File path="interior_plant_c_large_breakable_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1624</Detail>
+  <Detail name="vertexCount">1531</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./interior_plants.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

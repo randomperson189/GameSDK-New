@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="1e91786a-54e9-8c65-f946-f85fc3d56d4d">
+ <Files>
+  <File path="dust_plume01.dds"/>
+  <File path="dust_plume01.dds.1"/>
+  <File path="dust_plume01.dds.2"/>
+  <File path="dust_plume01.dds.3"/>
+  <File path="dust_plume01.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="2a9c9cd1-11c4-7a1e-8ed2-d7ea10d96e36">
+ <Files>
+  <File path="electric_building.cgf"/>
+  <File path="electric_building_lod1.cgf"/>
+  <File path="electric_building_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">1982</Detail>
+  <Detail name="vertexCount">2878</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./electric_building.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

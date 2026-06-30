@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="6d0ea2d9-4f5a-f97f-eb55-9065d6a1fac7">
+ <Files>
+  <File path="cliff_rock_mine_exit_c.cgf"/>
+  <File path="cliff_rock_mine_exit_c_lod1.cgf"/>
+  <File path="cliff_rock_mine_exit_c_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">1983</Detail>
+  <Detail name="vertexCount">1519</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./cliff_rock_mine_exit.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

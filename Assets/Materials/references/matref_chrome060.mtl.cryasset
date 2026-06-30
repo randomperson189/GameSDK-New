@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="e82f7c8e-5bee-619e-7768-1b448a21d0ca">
+ <Files>
+  <File path="matref_chrome060.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/white.dds</Path>
+ </Dependencies>
+</AssetMetadata>

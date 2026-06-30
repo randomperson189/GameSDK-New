@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="6289e375-e48e-9177-1a2b-1ed7284a0a90">
+ <Files>
+  <File path="aquatic_plants.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/natural/water/aquatic_plants/textures/typha_diff.dds</Path>
+  <Path usageCount="2">objects/natural/water/aquatic_plants/textures/typha_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

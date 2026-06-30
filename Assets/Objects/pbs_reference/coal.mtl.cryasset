@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="5668c7f5-88a8-30f5-de0c-4bb9dd8d5305">
+ <Files>
+  <File path="coal.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/coal_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/coal_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

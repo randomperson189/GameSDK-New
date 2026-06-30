@@ -1,0 +1,17 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="front" MtlFlags="524454" Shader="Templbeamproc" GenMask="2" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,0.73720479,0.44232297" Specular="0,0,0" Emissive="1,1,1" Opacity="0.69999999" GlowAmount="1" HeatAmountScaled="64">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/sprites/muzzleflash/muzzle_front_a.tif"/>
+   </Textures>
+   <PublicParams StartRadius="1" EndRadius="1" StartColor="1,1,1" EndColor="1,1,1" FinalMultiplier="20" SoftIntersectionFactor="10" BeamLength="1" viewDependencyFactor="2" OrigLength="1" OrigWidth="1"/>
+  </Material>
+  <Material Name="side" MtlFlags="524420" Shader="Templbeamproc" GenMask="2" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,0.7667436,0.50543249" Specular="0,0,0" Emissive="1,1,1" Shininess="10" Opacity="0.69999999" GlowAmount="1" HeatAmountScaled="64">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/sprites/muzzleflash/muzzle_side_a.tif"/>
+   </Textures>
+   <PublicParams StartRadius="1" EndRadius="2" StartColor="1,1,1" EndColor="1,1,1" FinalMultiplier="10" SoftIntersectionFactor="10" BeamLength="10" viewDependencyFactor="2" OrigLength="10" OrigWidth="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelPower="4" GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

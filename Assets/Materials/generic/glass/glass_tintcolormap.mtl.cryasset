@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="99bd5984-9408-6697-982f-f597385c9b97">
+ <Files>
+  <File path="glass_tintcolormap.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/displacement/bricks_ddn.dds</Path>
+  <Path usageCount="1">textures/references/color_rgb.dds</Path>
+ </Dependencies>
+</AssetMetadata>

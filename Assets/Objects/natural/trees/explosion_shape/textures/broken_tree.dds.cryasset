@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="3e1fc737-1a8b-7167-e525-32555a6a19d7">
+ <Files>
+  <File path="broken_tree.dds"/>
+  <File path="broken_tree.dds.1"/>
+  <File path="broken_tree.dds.2"/>
+  <File path="broken_tree.dds.3"/>
+  <File path="broken_tree.dds.4"/>
+  <File path="broken_tree.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

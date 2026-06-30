@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="391a0245-4679-43d5-d28a-8f354accc4ab">
+ <Files>
+  <File path="default_blast.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/explo_decal.dds</Path>
+  <Path usageCount="1">textures/decals/concrete/concrete_broken_02_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

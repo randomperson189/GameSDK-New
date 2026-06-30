@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="455e56a2-49b8-f4d0-6324-59ca69ee1715">
+ <Files>
+  <File path="fireplace.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/generic_metal_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/generic_metal_ddna.dds</Path>
+  <Path usageCount="1">textures/roads/road_park_diff.dds</Path>
+  <Path usageCount="1">textures/roads/road_park_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

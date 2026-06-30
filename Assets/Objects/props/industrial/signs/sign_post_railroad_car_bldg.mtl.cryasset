@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="a22e1b20-4717-c84d-741a-205e57060580">
+ <Files>
+  <File path="sign_post_railroad_car_bldg.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/industrial/signs/textures/sign_post_railroad_car_bldg_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

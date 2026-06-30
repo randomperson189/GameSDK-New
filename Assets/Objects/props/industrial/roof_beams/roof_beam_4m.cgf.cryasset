@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="fe9924c0-1480-5b3c-c366-2a4ab11d7088">
+ <Files>
+  <File path="roof_beam_4m.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">74</Detail>
+  <Detail name="vertexCount">142</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./roof_beam.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

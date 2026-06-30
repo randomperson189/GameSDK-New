@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="b9d675cf-305d-df0b-a2af-dbae75c8a301">
+ <Files>
+  <File path="trunk_rotten_mask.dds"/>
+  <File path="trunk_rotten_mask.dds.1"/>
+  <File path="trunk_rotten_mask.dds.2"/>
+  <File path="trunk_rotten_mask.dds.3"/>
+  <File path="trunk_rotten_mask.dds.4"/>
+  <File path="trunk_rotten_mask.dds.5"/>
+  <File path="trunk_rotten_mask.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

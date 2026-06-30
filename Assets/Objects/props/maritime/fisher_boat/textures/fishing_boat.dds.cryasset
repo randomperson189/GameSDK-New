@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="242d51a9-96eb-123e-e0d3-00276d5735bd">
+ <Files>
+  <File path="fishing_boat.dds"/>
+  <File path="fishing_boat.dds.1"/>
+  <File path="fishing_boat.dds.2"/>
+  <File path="fishing_boat.dds.3"/>
+  <File path="fishing_boat.dds.4"/>
+  <File path="fishing_boat.dds.5"/>
+  <File path="fishing_boat.dds.6"/>
+  <File path="fishing_boat.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

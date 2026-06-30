@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="b9432b08-dff2-4f9d-5649-37343b677680">
+ <Files>
+  <File path="door_sign_water_refilling.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/industrial/signs/textures/door_sign_water_refilling_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

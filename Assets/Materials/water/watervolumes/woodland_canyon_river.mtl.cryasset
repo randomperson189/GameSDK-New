@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="f29007ba-3dc0-9748-7987-066b8da376c8">
+ <Files>
+  <File path="woodland_canyon_river.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/water/water_glossmap.dds</Path>
+  <Path usageCount="1">Textures/cubemaps/woodland/l_probe_ab1_river_a_root_cm.dds</Path>
+ </Dependencies>
+</AssetMetadata>

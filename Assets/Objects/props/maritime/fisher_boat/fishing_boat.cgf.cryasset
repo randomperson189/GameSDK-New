@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="5e98896b-28e9-9d9f-aa06-badf2ffa4844">
+ <Files>
+  <File path="fishing_boat.cgf"/>
+  <File path="fishing_boat_lod1.cgf"/>
+  <File path="fishing_boat_lod2.cgf"/>
+  <File path="fishing_boat_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">5642</Detail>
+  <Detail name="vertexCount">4622</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_boat.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

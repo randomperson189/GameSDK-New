@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="31641a53-62ce-d933-36a8-d2984db0f48c">
+ <Files>
+  <File path="household_radiator.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/radiator/textures/radiator_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/radiator/textures/radiator_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

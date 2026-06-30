@@ -1,0 +1,28 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Grass" MtlFlags="524416" Shader="Vegetation" GenMask="10500801000" StringGenMask="%DETAIL_BENDING%LEAVES%MERGED_TEXTURES%STAT_BRANCHING%TEMP_VEGETATION" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.56078434,0.54509807,0.43921572" Specular="0.32941177,0.34117648,0.26666668" Emissive="0,0,0" Shininess="4" Opacity="1" AlphaTest="0.40000001">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/vegetation/meadow/marsh_plants_diff.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/natural/vegetation/meadow/marsh_plants_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/vegetation/meadow/marsh_plants_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BackViewDep="0" BackDiffuse="0.78823537,0.78039223,0.66274512" BackDiffuseMultiplier="1.007" bendDetailFrequency="1" bendDetailLeafAmplitude="0.1" bendDetailBranchAmplitude="0" bendDetailPhase="100" BackShadowBias="0.059"/>
+  </Material>
+  <Material Name="Proxy_Bending" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.37254903,0.37254903,0.37254903" Emissive="0,0,0" Shininess="2" Opacity="1" AlphaTest="0.30000001">
+   <Textures />
+  </Material>
+  <Material Name="Proxy_AI" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.37254903,0.37254903,0.37254903" Emissive="0,0,0" Shininess="2" Opacity="1" AlphaTest="0.30000001">
+   <Textures />
+  </Material>
+  <Material Name="Proxy_Trunk" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.37254903,0.37254903,0.37254903" Emissive="0,0,0" Shininess="2" Opacity="1" AlphaTest="0.30000001">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

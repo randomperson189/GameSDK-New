@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="278653a0-3e1f-22a3-e21b-7f6741b68a5e">
+ <Files>
+  <File path="floor_metal_plain.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/floor_metal_plain_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/floor_metal_plain_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/floor_metal_plain_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

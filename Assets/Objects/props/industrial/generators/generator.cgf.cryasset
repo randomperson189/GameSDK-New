@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="d98853ec-daab-414e-ce27-77c9c2d070cb">
+ <Files>
+  <File path="generator.cgf"/>
+  <File path="generator_lod1.cgf"/>
+  <File path="generator_lod2.cgf"/>
+  <File path="generator_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">3942</Detail>
+  <Detail name="vertexCount">4024</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./generator.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

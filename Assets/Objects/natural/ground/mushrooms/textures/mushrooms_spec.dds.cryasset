@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="b5034e30-bd5a-65f3-1be5-3e741b6e7404">
+ <Files>
+  <File path="mushrooms_spec.dds"/>
+  <File path="mushrooms_spec.dds.1"/>
+  <File path="mushrooms_spec.dds.2"/>
+  <File path="mushrooms_spec.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

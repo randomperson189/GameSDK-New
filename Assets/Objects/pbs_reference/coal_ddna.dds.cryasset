@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="33f47b5f-198c-3f3c-d3d7-0b88b251a1f8">
+ <Files>
+  <File path="coal_ddna.dds"/>
+  <File path="coal_ddna.dds.a"/>
+  <File path="coal_ddna.dds.1"/>
+  <File path="coal_ddna.dds.1a"/>
+  <File path="coal_ddna.dds.2"/>
+  <File path="coal_ddna.dds.2a"/>
+  <File path="coal_ddna.dds.3"/>
+  <File path="coal_ddna.dds.3a"/>
+  <File path="coal_ddna.dds.4"/>
+  <File path="coal_ddna.dds.4a"/>
+  <File path="coal_ddna.dds.5"/>
+  <File path="coal_ddna.dds.5a"/>
+  <File path="coal_ddna.dds.6"/>
+  <File path="coal_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="ice" MtlFlags="524422" Shader="Illum" GenMask="80" StringGenMask="%BUMP_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="0.017641956,0.017641956,0.017641956" Emissive="0,0,0" Shininess="127" Opacity="1" AlphaTest="0.5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/Natural/water/icicle/textures/icicles_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/water/icicle/textures/icicles_ddna.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/forest/ab3_ab4_main_cm.tif"/>
+   </Textures>
+   <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SubsurfaceScatteringAmount="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

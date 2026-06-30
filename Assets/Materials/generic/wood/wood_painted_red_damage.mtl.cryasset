@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="30a524e7-5dbb-89e2-36a9-46bfd6763d16">
+ <Files>
+  <File path="wood_painted_red_damage.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_painted_red_a_dmg_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_painted_red_a_dmg_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

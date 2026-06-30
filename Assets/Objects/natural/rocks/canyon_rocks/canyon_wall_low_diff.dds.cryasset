@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="cd5e6afb-9a22-010b-54e4-3bf66305f004">
+ <Files>
+  <File path="canyon_wall_low_diff.dds"/>
+  <File path="canyon_wall_low_diff.dds.1"/>
+  <File path="canyon_wall_low_diff.dds.2"/>
+  <File path="canyon_wall_low_diff.dds.3"/>
+  <File path="canyon_wall_low_diff.dds.4"/>
+  <File path="canyon_wall_low_diff.dds.5"/>
+  <File path="canyon_wall_low_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

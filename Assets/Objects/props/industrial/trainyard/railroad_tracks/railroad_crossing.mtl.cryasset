@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="8a25586a-a694-a7c4-9288-12db5ec372a6">
+ <Files>
+  <File path="railroad_crossing.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_moosy_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_moosy_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_a_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

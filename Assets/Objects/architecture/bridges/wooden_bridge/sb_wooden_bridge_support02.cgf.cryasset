@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="39ee9a1f-03a0-febb-2190-133819a93554">
+ <Files>
+  <File path="sb_wooden_bridge_support02.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">60</Detail>
+  <Detail name="vertexCount">102</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./sb_wooden_bridge.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

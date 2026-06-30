@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="4e0c3370-2fe9-e2a8-851a-0c81c54e0bb2">
+ <Files>
+  <File path="stripe_yellow.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/paint/stripe_yellow.dds</Path>
+ </Dependencies>
+</AssetMetadata>

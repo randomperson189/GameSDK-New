@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="a070bd94-dee4-f182-4036-4a30ad2bfc92">
+ <Files>
+  <File path="HUD_Plane_I.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">2</Detail>
+  <Detail name="vertexCount">4</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./hud_plane.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

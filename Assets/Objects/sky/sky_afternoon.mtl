@@ -1,0 +1,6 @@
+<Material MtlFlags="524288" Shader="Distanceclouds" GenMask="2" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="1,1,1" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/sky/hdr_afternoon.tif"/>
+ </Textures>
+ <PublicParams Opacity="0.801" Exposure="4"/>
+</Material>

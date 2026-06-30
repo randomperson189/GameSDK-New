@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="d7ae35c3-aa55-7e93-e762-a4320357f622">
+ <Files>
+  <File path="hmmwv_hull_spec.dds"/>
+  <File path="hmmwv_hull_spec.dds.1"/>
+  <File path="hmmwv_hull_spec.dds.2"/>
+  <File path="hmmwv_hull_spec.dds.3"/>
+  <File path="hmmwv_hull_spec.dds.4"/>
+  <File path="hmmwv_hull_spec.dds.5"/>
+  <File path="hmmwv_hull_spec.dds.6"/>
+  <File path="hmmwv_hull_spec.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

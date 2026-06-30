@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="2e75e329-3e34-35ea-11f6-50f57eef3d94">
+ <Files>
+  <File path="fallen_log.cgf"/>
+  <File path="fallen_log_lod1.cgf"/>
+  <File path="fallen_log_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1592</Detail>
+  <Detail name="vertexCount">1408</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fallen_log.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

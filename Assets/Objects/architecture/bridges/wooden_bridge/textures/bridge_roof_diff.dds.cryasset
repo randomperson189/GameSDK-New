@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="7859916f-6c78-5737-75c9-0a6159aec0ec">
+ <Files>
+  <File path="bridge_roof_diff.dds"/>
+  <File path="bridge_roof_diff.dds.1"/>
+  <File path="bridge_roof_diff.dds.2"/>
+  <File path="bridge_roof_diff.dds.3"/>
+  <File path="bridge_roof_diff.dds.4"/>
+  <File path="bridge_roof_diff.dds.5"/>
+  <File path="bridge_roof_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

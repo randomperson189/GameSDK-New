@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="d0626aa9-7e05-03f6-7635-d227ceb6a43e">
+ <Files>
+  <File path="speedboat_floor.dds"/>
+  <File path="speedboat_floor.dds.1"/>
+  <File path="speedboat_floor.dds.2"/>
+  <File path="speedboat_floor.dds.3"/>
+  <File path="speedboat_floor.dds.4"/>
+  <File path="speedboat_floor.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

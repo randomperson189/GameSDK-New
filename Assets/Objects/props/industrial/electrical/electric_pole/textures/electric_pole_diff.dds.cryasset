@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="9ac8a470-3c71-7deb-c444-3616a47ac1d3">
+ <Files>
+  <File path="electric_pole_diff.dds"/>
+  <File path="electric_pole_diff.dds.1"/>
+  <File path="electric_pole_diff.dds.2"/>
+  <File path="electric_pole_diff.dds.3"/>
+  <File path="electric_pole_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

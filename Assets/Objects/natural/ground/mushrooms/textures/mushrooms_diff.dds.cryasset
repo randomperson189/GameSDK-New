@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="bf4e38e1-4a08-a586-68bb-e77e04bf0542">
+ <Files>
+  <File path="mushrooms_diff.dds"/>
+  <File path="mushrooms_diff.dds.1"/>
+  <File path="mushrooms_diff.dds.2"/>
+  <File path="mushrooms_diff.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

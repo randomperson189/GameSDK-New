@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="388d204f-97d8-4ac9-6fa2-52d6532d9c8f">
+ <Files>
+  <File path="bed_wooden.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">252</Detail>
+  <Detail name="vertexCount">423</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./bed_wodden_b_con.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="be31a063-c1d5-9bb7-41bc-770c507f02c2">
+ <Files>
+  <File path="l_diesel.cgf"/>
+  <File path="l_diesel_lod1.cgf"/>
+  <File path="l_diesel_lod2.cgf"/>
+  <File path="l_diesel_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">8869</Detail>
+  <Detail name="vertexCount">11695</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./l_diesel.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="c0611978-c66d-7af7-0e7b-c5fe2e63e0f4">
+ <Files>
+  <File path="jet.cgf"/>
+  <File path="jet_lod1.cgf"/>
+  <File path="jet_lod2.cgf"/>
+  <File path="jet_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">8564</Detail>
+  <Detail name="vertexCount">10466</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Jet.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

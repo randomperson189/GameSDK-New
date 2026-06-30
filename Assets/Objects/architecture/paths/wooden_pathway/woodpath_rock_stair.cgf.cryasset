@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="0265efda-85bd-2284-0987-fd5fe8b5c4c1">
+ <Files>
+  <File path="woodpath_rock_stair.cgf"/>
+  <File path="woodpath_rock_stair_lod1.cgf"/>
+  <File path="woodpath_rock_stair_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">2282</Detail>
+  <Detail name="vertexCount">2097</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wooden_pathway.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

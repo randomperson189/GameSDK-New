@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="39d281a8-ee04-cd0d-8b2f-875da8ebdb42">
+ <Files>
+  <File path="gatehouse_groundplate.cgf"/>
+  <File path="gatehouse_groundplate_lod1.cgf"/>
+  <File path="gatehouse_groundplate_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">1696</Detail>
+  <Detail name="vertexCount">2488</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./gatehouse.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

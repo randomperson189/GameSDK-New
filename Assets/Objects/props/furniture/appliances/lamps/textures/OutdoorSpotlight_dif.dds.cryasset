@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="9f161825-ca54-c8ee-0638-a3b6a2a1c626">
+ <Files>
+  <File path="OutdoorSpotlight_dif.dds"/>
+  <File path="OutdoorSpotlight_dif.dds.1"/>
+  <File path="OutdoorSpotlight_dif.dds.2"/>
+  <File path="OutdoorSpotlight_dif.dds.3"/>
+  <File path="OutdoorSpotlight_dif.dds.4"/>
+  <File path="OutdoorSpotlight_dif.dds.5"/>
+  <File path="OutdoorSpotlight_dif.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

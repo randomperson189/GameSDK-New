@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="f9daec66-f23a-5c9f-8c4b-40a6d4ebd6c1">
+ <Files>
+  <File path="lifebelt_rope.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">738</Detail>
+  <Detail name="vertexCount">450</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_boat.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="ef2502d9-78b9-3245-67c4-be6c360fdd28">
+ <Files>
+  <File path="door_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/factory_doors/textures/door_a_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/factory_doors/textures/door_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

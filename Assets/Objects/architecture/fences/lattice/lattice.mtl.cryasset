@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="8b488cd1-a9b9-cecb-9008-509447542d2f">
+ <Files>
+  <File path="lattice.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_fine_b_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_fine_b_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

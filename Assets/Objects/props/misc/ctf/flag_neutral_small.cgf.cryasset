@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c8671f5a-eb26-1fa3-3e7a-7adbe3e22377">
+ <Files>
+  <File path="flag_neutral_small.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">116</Detail>
+  <Detail name="vertexCount">132</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./flag.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="a7451b78-e85b-665d-8ca2-97d8d4f4a671">
+ <Files>
+  <File path="wood_fine_a_blend.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_fine_a_blend_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_fine_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="015c3521-8b3d-745c-bcf0-e5b4a8726eea">
+ <Files>
+  <File path="metal_stribes_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

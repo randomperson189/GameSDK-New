@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="dad13521-e54b-c64c-552c-f610a2b631ee">
+ <Files>
+  <File path="fishing_houses_beam_diff.dds"/>
+  <File path="fishing_houses_beam_diff.dds.1"/>
+  <File path="fishing_houses_beam_diff.dds.2"/>
+  <File path="fishing_houses_beam_diff.dds.3"/>
+  <File path="fishing_houses_beam_diff.dds.4"/>
+  <File path="fishing_houses_beam_diff.dds.5"/>
+  <File path="fishing_houses_beam_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

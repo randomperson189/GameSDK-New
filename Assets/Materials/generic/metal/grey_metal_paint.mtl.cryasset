@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="253fc29c-283e-336e-1292-2e3d84c59cb8">
+ <Files>
+  <File path="grey_metal_paint.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/grey_metal_paint_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/grey_metal_paint_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

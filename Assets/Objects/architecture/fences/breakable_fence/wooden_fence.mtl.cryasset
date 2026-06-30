@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="5cd989ca-f1d1-ed26-00f6-af4f499bb867">
+ <Files>
+  <File path="wooden_fence.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/fences/breakable_fence/textures/wooden_fence_diff.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_b_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

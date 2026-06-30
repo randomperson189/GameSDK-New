@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c2d29446-4ff9-2477-7b05-82cc9221c13a">
+ <Files>
+  <File path="schedule.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">11</Detail>
+  <Detail name="triangleCount">28</Detail>
+  <Detail name="vertexCount">40</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./storage_pile.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

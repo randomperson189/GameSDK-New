@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="6b76e2a9-ecf8-73d0-f6ce-b9d00b72985d">
+ <Files>
+  <File path="polished_copper.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/copper_spec.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/gloss60_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

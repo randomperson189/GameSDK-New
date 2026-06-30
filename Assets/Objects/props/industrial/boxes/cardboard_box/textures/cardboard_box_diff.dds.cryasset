@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="cf66f046-9728-5507-e9d5-bd3213280883">
+ <Files>
+  <File path="cardboard_box_diff.dds"/>
+  <File path="cardboard_box_diff.dds.1"/>
+  <File path="cardboard_box_diff.dds.2"/>
+  <File path="cardboard_box_diff.dds.3"/>
+  <File path="cardboard_box_diff.dds.4"/>
+  <File path="cardboard_box_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

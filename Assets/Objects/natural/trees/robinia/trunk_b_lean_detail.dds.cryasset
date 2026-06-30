@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="3e49bcb7-4171-559f-4f41-e29604d1a5d7">
+ <Files>
+  <File path="trunk_b_lean_detail.dds"/>
+  <File path="trunk_b_lean_detail.dds.1"/>
+  <File path="trunk_b_lean_detail.dds.2"/>
+  <File path="trunk_b_lean_detail.dds.3"/>
+  <File path="trunk_b_lean_detail.dds.4"/>
+  <File path="trunk_b_lean_detail.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

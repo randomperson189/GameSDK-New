@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="a7bc4381-d4a3-4826-3718-7131a295a48a">
+ <Files>
+  <File path="seaweed.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/maritime/seaweed/textures/seaweed_diff.dds</Path>
+  <Path usageCount="1">objects/props/maritime/seaweed/textures/seaweed_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/rock/rock_1_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

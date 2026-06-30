@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="8003926a-2989-997e-7f55-3d60af7b9a34">
+ <Files>
+  <File path="mining_lamp_off.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/mine/textures/lamp_diff.dds</Path>
+  <Path usageCount="2">objects/props/mine/textures/lamp_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

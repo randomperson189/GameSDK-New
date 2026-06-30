@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="20fd3004-6cb1-9b3b-f100-8f46d219418c">
+ <Files>
+  <File path="trim_broken_01_diff.dds"/>
+  <File path="trim_broken_01_diff.dds.1"/>
+  <File path="trim_broken_01_diff.dds.2"/>
+  <File path="trim_broken_01_diff.dds.3"/>
+  <File path="trim_broken_01_diff.dds.4"/>
+  <File path="trim_broken_01_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

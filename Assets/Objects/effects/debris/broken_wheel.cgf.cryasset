@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="fc0dccef-18b0-bb6d-0aa8-d013d0d47b5a">
+ <Files>
+  <File path="broken_wheel.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">852</Detail>
+  <Detail name="vertexCount">867</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./broken_wheel.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

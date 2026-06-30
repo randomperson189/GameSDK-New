@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="a1543e90-951a-ae20-8daa-ef86a8b36709">
+ <Files>
+  <File path="palette_mp.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">456</Detail>
+  <Detail name="vertexCount">840</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./palette.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

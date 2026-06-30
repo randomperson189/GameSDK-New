@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="51129158-fde6-44fa-5570-4371916c734e">
+ <Files>
+  <File path="canyon_rock_spec.dds"/>
+  <File path="canyon_rock_spec.dds.1"/>
+  <File path="canyon_rock_spec.dds.2"/>
+  <File path="canyon_rock_spec.dds.3"/>
+  <File path="canyon_rock_spec.dds.4"/>
+  <File path="canyon_rock_spec.dds.5"/>
+  <File path="canyon_rock_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

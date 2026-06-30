@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="24ec65c3-ec1d-0b11-da5a-82ed8617acb6">
+ <Files>
+  <File path="pottery_amphora_damaged.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/pottery/amphora/textures/trim_broken_01_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/pottery/amphora/textures/trim_broken_01_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/pottery/amphora/textures/pottery_amphora_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/pottery/amphora/textures/pottery_amphora_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/pottery/amphora/textures/pottery_amphora_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

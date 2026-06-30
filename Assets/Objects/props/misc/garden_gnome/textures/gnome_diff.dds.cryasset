@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="d21f2d35-416c-c9d4-7388-981d0fccbd76">
+ <Files>
+  <File path="gnome_diff.dds"/>
+  <File path="gnome_diff.dds.1"/>
+  <File path="gnome_diff.dds.2"/>
+  <File path="gnome_diff.dds.3"/>
+  <File path="gnome_diff.dds.4"/>
+  <File path="gnome_diff.dds.5"/>
+  <File path="gnome_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

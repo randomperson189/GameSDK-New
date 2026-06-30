@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="52f9d79d-b3ca-b26f-3d82-41d5c7d0cd1a">
+ <Files>
+  <File path="shiny_plastic.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/red_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/gloss80_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="e5ecb932-b670-36ca-60f5-13e6b6083f36">
+ <Files>
+  <File path="n_rock_wall_11_curve.cgf"/>
+  <File path="n_rock_wall_11_curve_lod1.cgf"/>
+  <File path="n_rock_wall_11_curve_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">1574</Detail>
+  <Detail name="vertexCount">846</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./n_rock_wall.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

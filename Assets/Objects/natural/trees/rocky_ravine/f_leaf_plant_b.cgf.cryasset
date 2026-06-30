@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="dc9725e4-92da-1840-018c-b40ffd756915">
+ <Files>
+  <File path="f_leaf_plant_b.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">57</Detail>
+  <Detail name="vertexCount">83</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./thorn.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

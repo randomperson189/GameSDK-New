@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="998d52a9-c64f-3e92-8e87-1e276e44327c">
+ <Files>
+  <File path="metal_tile_ddna.dds"/>
+  <File path="metal_tile_ddna.dds.a"/>
+  <File path="metal_tile_ddna.dds.1"/>
+  <File path="metal_tile_ddna.dds.1a"/>
+  <File path="metal_tile_ddna.dds.2"/>
+  <File path="metal_tile_ddna.dds.2a"/>
+  <File path="metal_tile_ddna.dds.3"/>
+  <File path="metal_tile_ddna.dds.3a"/>
+  <File path="metal_tile_ddna.dds.4"/>
+  <File path="metal_tile_ddna.dds.4a"/>
+  <File path="metal_tile_ddna.dds.5"/>
+  <File path="metal_tile_ddna.dds.5a"/>
+  <File path="metal_tile_ddna.dds.6"/>
+  <File path="metal_tile_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

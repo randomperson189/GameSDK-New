@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="25871b1e-3f27-fa5b-2d69-38d37c092473">
+ <Files>
+  <File path="m1a2_optics.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">456</Detail>
+  <Detail name="vertexCount">555</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./m1a1_desert.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

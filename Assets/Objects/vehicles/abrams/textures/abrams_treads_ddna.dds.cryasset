@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="d1d97c26-3005-02ac-ed4f-e945ab3eda81">
+ <Files>
+  <File path="abrams_treads_ddna.dds"/>
+  <File path="abrams_treads_ddna.dds.a"/>
+  <File path="abrams_treads_ddna.dds.1"/>
+  <File path="abrams_treads_ddna.dds.1a"/>
+  <File path="abrams_treads_ddna.dds.2"/>
+  <File path="abrams_treads_ddna.dds.2a"/>
+  <File path="abrams_treads_ddna.dds.3"/>
+  <File path="abrams_treads_ddna.dds.3a"/>
+  <File path="abrams_treads_ddna.dds.4"/>
+  <File path="abrams_treads_ddna.dds.4a"/>
+  <File path="abrams_treads_ddna.dds.5"/>
+  <File path="abrams_treads_ddna.dds.5a"/>
+  <File path="abrams_treads_ddna.dds.6"/>
+  <File path="abrams_treads_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="286e1a6e-05ba-751b-1d07-62c660ec553f">
+ <Files>
+  <File path="DeskLamp_ddna.dds"/>
+  <File path="DeskLamp_ddna.dds.a"/>
+  <File path="DeskLamp_ddna.dds.1"/>
+  <File path="DeskLamp_ddna.dds.1a"/>
+  <File path="DeskLamp_ddna.dds.2"/>
+  <File path="DeskLamp_ddna.dds.2a"/>
+  <File path="DeskLamp_ddna.dds.3"/>
+  <File path="DeskLamp_ddna.dds.3a"/>
+  <File path="DeskLamp_ddna.dds.4"/>
+  <File path="DeskLamp_ddna.dds.4a"/>
+  <File path="DeskLamp_ddna.dds.5"/>
+  <File path="DeskLamp_ddna.dds.5a"/>
+  <File path="DeskLamp_ddna.dds.6"/>
+  <File path="DeskLamp_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

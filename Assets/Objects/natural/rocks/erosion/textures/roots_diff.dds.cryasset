@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="5277bcb7-584a-006e-c8cf-4dcf13c43413">
+ <Files>
+  <File path="roots_diff.dds"/>
+  <File path="roots_diff.dds.1"/>
+  <File path="roots_diff.dds.2"/>
+  <File path="roots_diff.dds.3"/>
+  <File path="roots_diff.dds.4"/>
+  <File path="roots_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="4ad86d91-1d26-e7fb-50fc-c67890c2ed15">
+ <Files>
+  <File path="street_rock_soil.dds"/>
+  <File path="street_rock_soil.dds.1"/>
+  <File path="street_rock_soil.dds.2"/>
+  <File path="street_rock_soil.dds.3"/>
+  <File path="street_rock_soil.dds.4"/>
+  <File path="street_rock_soil.dds.5"/>
+  <File path="street_rock_soil.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

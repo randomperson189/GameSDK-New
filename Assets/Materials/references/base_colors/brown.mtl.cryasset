@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="0642952e-92b9-b781-3786-42cfaf08952f">
+ <Files>
+  <File path="brown.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/base_colors/brown_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="70ae7b96-f3c5-54ae-56cf-67a037695d95">
+ <Files>
+  <File path="generator_c_gear_b.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">92</Detail>
+  <Detail name="vertexCount">120</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./generator_c.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

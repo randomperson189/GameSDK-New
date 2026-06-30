@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="4cdcb28b-5563-f26b-e52e-18c7c52c60df">
+ <Files>
+  <File path="marsh_plants_diff.dds"/>
+  <File path="marsh_plants_diff.dds.1"/>
+  <File path="marsh_plants_diff.dds.2"/>
+  <File path="marsh_plants_diff.dds.3"/>
+  <File path="marsh_plants_diff.dds.4"/>
+  <File path="marsh_plants_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

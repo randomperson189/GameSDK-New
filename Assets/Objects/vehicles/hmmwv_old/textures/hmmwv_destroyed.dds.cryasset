@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="27fd35eb-5523-4dc3-58ee-156ee5dc2397">
+ <Files>
+  <File path="hmmwv_destroyed.dds"/>
+  <File path="hmmwv_destroyed.dds.1"/>
+  <File path="hmmwv_destroyed.dds.2"/>
+  <File path="hmmwv_destroyed.dds.3"/>
+  <File path="hmmwv_destroyed.dds.4"/>
+  <File path="hmmwv_destroyed.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

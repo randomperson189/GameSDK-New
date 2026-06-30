@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="7f1762fa-6191-9acb-a097-cd87a67f0523">
+ <Files>
+  <File path="thin_leaves_bush_big_a.cgf"/>
+  <File path="thin_leaves_bush_big_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">208</Detail>
+  <Detail name="vertexCount">211</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./thin_leaves_bush.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

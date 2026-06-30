@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Mesh" guid="a3e7e317-7479-a88e-517e-cf891d324801">
+ <Files>
+  <File path="skydome_halfsphere.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">0</Detail>
+  <Detail name="triangleCount">480</Detail>
+  <Detail name="vertexCount">296</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+</AssetMetadata>

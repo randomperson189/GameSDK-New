@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="5950a4b4-334f-7fc4-be0f-01b39d5956f7">
+ <Files>
+  <File path="tiles_ddna.dds"/>
+  <File path="tiles_ddna.dds.a"/>
+  <File path="tiles_ddna.dds.1"/>
+  <File path="tiles_ddna.dds.1a"/>
+  <File path="tiles_ddna.dds.2"/>
+  <File path="tiles_ddna.dds.2a"/>
+  <File path="tiles_ddna.dds.3"/>
+  <File path="tiles_ddna.dds.3a"/>
+  <File path="tiles_ddna.dds.4"/>
+  <File path="tiles_ddna.dds.4a"/>
+  <File path="tiles_ddna.dds.5"/>
+  <File path="tiles_ddna.dds.5a"/>
+  <File path="tiles_ddna.dds.6"/>
+  <File path="tiles_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

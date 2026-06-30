@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="5907c554-a8c2-9997-23ef-ccf3c2876404">
+ <Files>
+  <File path="ground_leaves_cluster.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">94</Detail>
+  <Detail name="vertexCount">156</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ground_leaves.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

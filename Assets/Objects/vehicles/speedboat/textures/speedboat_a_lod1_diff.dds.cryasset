@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="62a8da6d-313a-094b-68ff-90c993a8744e">
+ <Files>
+  <File path="speedboat_a_lod1_diff.dds"/>
+  <File path="speedboat_a_lod1_diff.dds.1"/>
+  <File path="speedboat_a_lod1_diff.dds.2"/>
+  <File path="speedboat_a_lod1_diff.dds.3"/>
+  <File path="speedboat_a_lod1_diff.dds.4"/>
+  <File path="speedboat_a_lod1_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

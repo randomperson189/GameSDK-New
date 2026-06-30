@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="84cbfc20-6458-6884-044e-b05410e1bbed">
+ <Files>
+  <File path="hmmwv_a_lod5_spec.dds"/>
+  <File path="hmmwv_a_lod5_spec.dds.1"/>
+  <File path="hmmwv_a_lod5_spec.dds.2"/>
+  <File path="hmmwv_a_lod5_spec.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

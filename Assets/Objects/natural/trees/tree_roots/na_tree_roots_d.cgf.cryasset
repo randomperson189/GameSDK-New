@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="1a4d07d8-147a-a1b6-a71b-9ab2da2fc738">
+ <Files>
+  <File path="na_tree_roots_d.cgf"/>
+  <File path="na_tree_roots_d_lod1.cgf"/>
+  <File path="na_tree_roots_d_lod2.cgf"/>
+  <File path="na_tree_roots_d_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">6029</Detail>
+  <Detail name="vertexCount">4418</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./na_tree_roots.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

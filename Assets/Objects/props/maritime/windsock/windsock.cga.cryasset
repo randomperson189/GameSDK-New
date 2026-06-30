@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="AnimatedMesh" guid="6757337f-7bb9-f8c5-248c-000f531f106f">
+ <Files>
+  <File path="windsock.cga"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1040</Detail>
+  <Detail name="vertexCount">761</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./windsock.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

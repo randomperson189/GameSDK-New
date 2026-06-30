@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="c64451ff-abb5-6498-44b0-88d5bc0b25b3">
+ <Files>
+  <File path="door_sign.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">94</Detail>
+  <Detail name="vertexCount">64</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./door_sign_bulk_storage.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

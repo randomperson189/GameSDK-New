@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="5f9b7289-d3a7-6b73-a688-52ee7e9a284c">
+ <Files>
+  <File path="camp_fire_glow.cgf"/>
+  <File path="camp_fire_glow_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1854</Detail>
+  <Detail name="vertexCount">1891</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./camp_fire_glow.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

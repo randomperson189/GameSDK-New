@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="58a28e19-2d9e-bb8f-6fba-8a2f34ac3ac8">
+ <Files>
+  <File path="ceiling_planks.cgf"/>
+  <File path="ceiling_planks_lod1.cgf"/>
+  <File path="ceiling_planks_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1208</Detail>
+  <Detail name="vertexCount">2096</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ceiling_planks.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

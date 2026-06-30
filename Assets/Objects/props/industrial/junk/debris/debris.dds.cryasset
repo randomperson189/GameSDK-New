@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="21cea3e1-25ba-75cf-dd50-79b47414e6c2">
+ <Files>
+  <File path="debris.dds"/>
+  <File path="debris.dds.1"/>
+  <File path="debris.dds.2"/>
+  <File path="debris.dds.3"/>
+  <File path="debris.dds.4"/>
+  <File path="debris.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

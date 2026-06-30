@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="f939c5b1-e1ef-8c29-81b1-3d17f848eb2a">
+ <Files>
+  <File path="field_grass.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/ground/field_grass/tx/grass_dif.dds</Path>
+  <Path usageCount="1">objects/natural/ground/field_grass/tx/grass_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

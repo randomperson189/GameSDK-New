@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="bec55c12-d145-9492-898f-74691dea4f90">
+ <Files>
+  <File path="sign_post_engine_bldg.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/industrial/signs/textures/sign_post_engine_maintenance_bldg_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

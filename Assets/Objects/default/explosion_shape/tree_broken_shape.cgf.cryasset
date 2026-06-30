@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="2be7f2d8-c603-8b49-950f-794d7ee6908b">
+ <Files>
+  <File path="tree_broken_shape.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">280</Detail>
+  <Detail name="vertexCount">608</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./tree_broken_shape.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

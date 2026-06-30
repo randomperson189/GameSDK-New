@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="47be163d-6649-bb3c-f8ed-85ab4a0512d3">
+ <Files>
+  <File path="benches.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_flat_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_flat_a_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_detail_horizontal.dds</Path>
+ </Dependencies>
+</AssetMetadata>

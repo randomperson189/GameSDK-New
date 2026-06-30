@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="88731a46-ad57-5570-d26e-52bfe6cdc5f3">
+ <Files>
+  <File path="loghouse_pile.cgf"/>
+  <File path="loghouse_pile_lod1.cgf"/>
+  <File path="loghouse_pile_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">12</Detail>
+  <Detail name="triangleCount">10024</Detail>
+  <Detail name="vertexCount">9736</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/architecture/buildings/loghouse/loghouse.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="33d4cbd7-ef2f-886f-7ddc-7c0a200eafa9">
+ <Files>
+  <File path="wooden_barrier.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">textures/generic/wood/planks_a_diff.dds</Path>
+  <Path usageCount="2">textures/generic/wood/planks_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="8792b2bd-682e-0f50-8a3c-052b55dbc362">
+ <Files>
+  <File path="roof_metal_black.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/roof_metal_black_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/roof_metal_black_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/roof_metal_black_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

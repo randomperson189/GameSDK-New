@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="53c947c6-f53f-9863-e73b-b875fa15d432">
+ <Files>
+  <File path="seaweed.cgf"/>
+  <File path="seaweed_lod1.cgf"/>
+  <File path="seaweed_lod2.cgf"/>
+  <File path="seaweed_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1994</Detail>
+  <Detail name="vertexCount">1727</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Aquatic_Plants.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

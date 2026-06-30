@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="11d21ef9-17a7-7d77-3415-33d1920eddfb">
+ <Files>
+  <File path="torch.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/torch/textures/metal_mix_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/torch/textures/metal_mix_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

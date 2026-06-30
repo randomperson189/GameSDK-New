@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="2df8379e-c4bc-de93-7f74-f71da10d6a00">
+ <Files>
+  <File path="Desk_Lamp_on.cgf"/>
+  <File path="Desk_Lamp_on_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">1220</Detail>
+  <Detail name="vertexCount">1298</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./desk_lamp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

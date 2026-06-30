@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="954585da-3dfe-af39-21b5-d63877648b2b">
+ <Files>
+  <File path="sign_post_water_refillingdiff.dds"/>
+  <File path="sign_post_water_refillingdiff.dds.1"/>
+  <File path="sign_post_water_refillingdiff.dds.2"/>
+  <File path="sign_post_water_refillingdiff.dds.3"/>
+  <File path="sign_post_water_refillingdiff.dds.4"/>
+  <File path="sign_post_water_refillingdiff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

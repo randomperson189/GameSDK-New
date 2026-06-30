@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="f5fc6023-278f-5139-9993-9d24e0f26780">
+ <Files>
+  <File path="camping_tent_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">1062</Detail>
+  <Detail name="vertexCount">1537</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/props/fishing_camp/fishing_camp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

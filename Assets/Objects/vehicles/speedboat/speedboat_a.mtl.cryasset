@@ -1,0 +1,27 @@
+<AssetMetadata version="0" type="Material" guid="b32fdf5e-6c81-7a64-15c1-c82039d5ee40">
+ <Files>
+  <File path="speedboat_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">8</Detail>
+  <Detail name="textureCount">16</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/vehicles/speedboat_old/textures/speedboat_damaged.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_a_lod2_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_a_lod2_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_a_lod2_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_a_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_a_lod1_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_a_lod1_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_c_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_c_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/fabric/fabric_c_detail.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_b_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_b_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_b_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_d_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_d_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_d_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="8c4197b0-f38f-2684-a59d-21f5d46eb40e">
+ <Files>
+  <File path="snowbank_a_diff.dds"/>
+  <File path="snowbank_a_diff.dds.1"/>
+  <File path="snowbank_a_diff.dds.2"/>
+  <File path="snowbank_a_diff.dds.3"/>
+  <File path="snowbank_a_diff.dds.4"/>
+  <File path="snowbank_a_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

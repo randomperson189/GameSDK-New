@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="3a237687-0530-65d7-1917-1734d3a29312">
+ <Files>
+  <File path="grass_spec.dds"/>
+  <File path="grass_spec.dds.1"/>
+  <File path="grass_spec.dds.2"/>
+  <File path="grass_spec.dds.3"/>
+  <File path="grass_spec.dds.4"/>
+  <File path="grass_spec.dds.5"/>
+  <File path="grass_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

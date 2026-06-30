@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="18b494bd-751a-b6f3-cca5-010bb9995f1f">
+ <Files>
+  <File path="parking_lines.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/roads/parkinglines_diff.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plastic/fibreplastics_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

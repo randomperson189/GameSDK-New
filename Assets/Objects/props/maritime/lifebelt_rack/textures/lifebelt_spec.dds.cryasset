@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="adb5a3ea-68f4-b152-cafc-18377c6121e8">
+ <Files>
+  <File path="lifebelt_spec.dds"/>
+  <File path="lifebelt_spec.dds.1"/>
+  <File path="lifebelt_spec.dds.2"/>
+  <File path="lifebelt_spec.dds.3"/>
+  <File path="lifebelt_spec.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

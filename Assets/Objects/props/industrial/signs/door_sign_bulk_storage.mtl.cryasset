@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="b5814570-ef20-ec31-c1d2-5ac11fbb6095">
+ <Files>
+  <File path="door_sign_bulk_storage.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/industrial/signs/textures/door_sign_bulk_storage_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

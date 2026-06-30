@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="371cb808-1e3c-6997-68fb-a6c190bd6219">
+ <Files>
+  <File path="basket_wicker_thin_a_diff.dds"/>
+  <File path="basket_wicker_thin_a_diff.dds.1"/>
+  <File path="basket_wicker_thin_a_diff.dds.2"/>
+  <File path="basket_wicker_thin_a_diff.dds.3"/>
+  <File path="basket_wicker_thin_a_diff.dds.4"/>
+  <File path="basket_wicker_thin_a_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

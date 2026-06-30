@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="24b4f20a-5d2e-b911-d67e-4534a8dadf78">
+ <Files>
+  <File path="overhang_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1326</Detail>
+  <Detail name="vertexCount">1595</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mines.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

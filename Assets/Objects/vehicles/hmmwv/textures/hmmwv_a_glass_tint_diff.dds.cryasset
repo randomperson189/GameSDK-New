@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="1b7cbe01-a48b-c9f2-2340-5580d0ab1ad4">
+ <Files>
+  <File path="hmmwv_a_glass_tint_diff.dds"/>
+  <File path="hmmwv_a_glass_tint_diff.dds.1"/>
+  <File path="hmmwv_a_glass_tint_diff.dds.2"/>
+  <File path="hmmwv_a_glass_tint_diff.dds.3"/>
+  <File path="hmmwv_a_glass_tint_diff.dds.4"/>
+  <File path="hmmwv_a_glass_tint_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

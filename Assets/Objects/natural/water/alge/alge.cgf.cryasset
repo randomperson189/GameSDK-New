@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Mesh" guid="4b19db5b-9039-d6f5-6b25-6d30b921e255">
+ <Files>
+  <File path="alge.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">0</Detail>
+  <Detail name="triangleCount">8</Detail>
+  <Detail name="vertexCount">9</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+</AssetMetadata>

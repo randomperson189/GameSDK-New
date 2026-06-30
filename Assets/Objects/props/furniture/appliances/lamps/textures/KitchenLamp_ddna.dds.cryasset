@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="a9afceac-0b61-7718-8076-4dc242cb259d">
+ <Files>
+  <File path="KitchenLamp_ddna.dds"/>
+  <File path="KitchenLamp_ddna.dds.a"/>
+  <File path="KitchenLamp_ddna.dds.1"/>
+  <File path="KitchenLamp_ddna.dds.1a"/>
+  <File path="KitchenLamp_ddna.dds.2"/>
+  <File path="KitchenLamp_ddna.dds.2a"/>
+  <File path="KitchenLamp_ddna.dds.3"/>
+  <File path="KitchenLamp_ddna.dds.3a"/>
+  <File path="KitchenLamp_ddna.dds.4"/>
+  <File path="KitchenLamp_ddna.dds.4a"/>
+  <File path="KitchenLamp_ddna.dds.5"/>
+  <File path="KitchenLamp_ddna.dds.5a"/>
+  <File path="KitchenLamp_ddna.dds.6"/>
+  <File path="KitchenLamp_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

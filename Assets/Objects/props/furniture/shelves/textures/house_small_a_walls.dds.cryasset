@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="bc2fc119-0478-2031-4c64-11da1354d53d">
+ <Files>
+  <File path="house_small_a_walls.dds"/>
+  <File path="house_small_a_walls.dds.1"/>
+  <File path="house_small_a_walls.dds.2"/>
+  <File path="house_small_a_walls.dds.3"/>
+  <File path="house_small_a_walls.dds.4"/>
+  <File path="house_small_a_walls.dds.5"/>
+  <File path="house_small_a_walls.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

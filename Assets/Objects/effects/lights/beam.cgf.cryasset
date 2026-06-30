@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="1e289c1e-e643-0c06-308a-16a6aedb2a27">
+ <Files>
+  <File path="beam.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">72</Detail>
+  <Detail name="vertexCount">57</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./beam.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

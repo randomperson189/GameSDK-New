@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="88ebd1e7-17f9-144a-aaa9-4f69d630d628">
+ <Files>
+  <File path="pottery_amphora_ddna.dds"/>
+  <File path="pottery_amphora_ddna.dds.a"/>
+  <File path="pottery_amphora_ddna.dds.1"/>
+  <File path="pottery_amphora_ddna.dds.1a"/>
+  <File path="pottery_amphora_ddna.dds.2"/>
+  <File path="pottery_amphora_ddna.dds.2a"/>
+  <File path="pottery_amphora_ddna.dds.3"/>
+  <File path="pottery_amphora_ddna.dds.3a"/>
+  <File path="pottery_amphora_ddna.dds.4"/>
+  <File path="pottery_amphora_ddna.dds.4a"/>
+  <File path="pottery_amphora_ddna.dds.5"/>
+  <File path="pottery_amphora_ddna.dds.5a"/>
+  <File path="pottery_amphora_ddna.dds.6"/>
+  <File path="pottery_amphora_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

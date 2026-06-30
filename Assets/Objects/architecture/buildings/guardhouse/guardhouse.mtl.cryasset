@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Material" guid="efe42017-e313-43ac-34d9-49eb44b4d314">
+ <Files>
+  <File path="guardhouse.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">8</Detail>
+  <Detail name="textureCount">12</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/glass/glass_dirty_tint.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_door_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_door_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_curbs_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_curbs_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/concrete/detail_concrete_detail.dds</Path>
+  <Path usageCount="1">textures/generic/brick/thin_brick_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/thin_brick_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/thin_brick_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

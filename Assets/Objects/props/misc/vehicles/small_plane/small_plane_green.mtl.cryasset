@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="11d7ddeb-2677-8986-5a34-fa00c27bdaae">
+ <Files>
+  <File path="small_plane_green.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/misc/vehicles/small_plane/textures/k_hull_diff.dds</Path>
+  <Path usageCount="2">objects/props/misc/vehicles/small_plane/textures/k_hull_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/small_plane/textures/zr_windows_destroyed_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/small_plane/textures/k_interior_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/small_plane/textures/k_interior_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

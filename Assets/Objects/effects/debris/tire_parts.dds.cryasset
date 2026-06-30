@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="d3d5fa97-c3cc-f51b-4a50-b3377e78f4d3">
+ <Files>
+  <File path="tire_parts.dds"/>
+  <File path="tire_parts.dds.1"/>
+  <File path="tire_parts.dds.2"/>
+  <File path="tire_parts.dds.3"/>
+  <File path="tire_parts.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

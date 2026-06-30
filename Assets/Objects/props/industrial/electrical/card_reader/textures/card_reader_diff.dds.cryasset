@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="38ea6c05-2640-db60-6e97-c7664feec4ba">
+ <Files>
+  <File path="card_reader_diff.dds"/>
+  <File path="card_reader_diff.dds.1"/>
+  <File path="card_reader_diff.dds.2"/>
+  <File path="card_reader_diff.dds.3"/>
+  <File path="card_reader_diff.dds.4"/>
+  <File path="card_reader_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

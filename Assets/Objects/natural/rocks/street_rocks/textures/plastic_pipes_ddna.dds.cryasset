@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="d8ee687d-09b8-b652-506c-1e4a125406fe">
+ <Files>
+  <File path="plastic_pipes_ddna.dds"/>
+  <File path="plastic_pipes_ddna.dds.a"/>
+  <File path="plastic_pipes_ddna.dds.1"/>
+  <File path="plastic_pipes_ddna.dds.1a"/>
+  <File path="plastic_pipes_ddna.dds.2"/>
+  <File path="plastic_pipes_ddna.dds.2a"/>
+  <File path="plastic_pipes_ddna.dds.3"/>
+  <File path="plastic_pipes_ddna.dds.3a"/>
+  <File path="plastic_pipes_ddna.dds.4"/>
+  <File path="plastic_pipes_ddna.dds.4a"/>
+  <File path="plastic_pipes_ddna.dds.5"/>
+  <File path="plastic_pipes_ddna.dds.5a"/>
+  <File path="plastic_pipes_ddna.dds.6"/>
+  <File path="plastic_pipes_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

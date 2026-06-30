@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="f8d9be04-2e2f-b18d-7796-d54579cb7860">
+ <Files>
+  <File path="fishing_house_roof_window.cgf"/>
+  <File path="fishing_house_roof_window_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">270</Detail>
+  <Detail name="vertexCount">421</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/buildings/fishing_houses/fishing_houses.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

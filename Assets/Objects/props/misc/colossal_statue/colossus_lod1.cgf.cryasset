@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="e28fad4b-b997-b863-95d0-b84eefcd6bd8">
+ <Files>
+  <File path="colossus_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">1840</Detail>
+  <Detail name="vertexCount">2351</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/props/misc/colossal_statue/colossus.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

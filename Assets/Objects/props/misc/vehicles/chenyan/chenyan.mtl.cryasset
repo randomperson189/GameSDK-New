@@ -1,0 +1,41 @@
+<AssetMetadata version="0" type="Material" guid="2e91866a-d399-6ee2-189f-8c53eaacf6de">
+ <Files>
+  <File path="chenyan.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">18</Detail>
+  <Detail name="textureCount">30</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">objects/props/misc/vehicles/chenyan/textures/chenyan_main_diff.dds</Path>
+  <Path usageCount="2">objects/props/misc/vehicles/chenyan/textures/chenyan_main_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_tanks_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_tanks_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_wheels_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_wheels_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_wheels_spec.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_cabintile_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_cabintile_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_dbtile_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_dbtile_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_backwall_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_backwall_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_006_detail.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_tubes_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_tubes_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_frame_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_frame_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_beams_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_beams_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_canvas_end_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_canvas_end_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_canvas_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_canvas_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/fabric/fabric_b_detail.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_floor.dds</Path>
+  <Path usageCount="1">objects/vehicles/speedboat/textures/speedboat_floor_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_dashboard_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/chenyan/textures/chenyan_dashboard_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

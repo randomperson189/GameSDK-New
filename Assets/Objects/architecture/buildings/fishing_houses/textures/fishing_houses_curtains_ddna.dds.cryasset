@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="319d6769-b8f5-4668-0096-bc6b88158cd2">
+ <Files>
+  <File path="fishing_houses_curtains_ddna.dds"/>
+  <File path="fishing_houses_curtains_ddna.dds.a"/>
+  <File path="fishing_houses_curtains_ddna.dds.1"/>
+  <File path="fishing_houses_curtains_ddna.dds.1a"/>
+  <File path="fishing_houses_curtains_ddna.dds.2"/>
+  <File path="fishing_houses_curtains_ddna.dds.2a"/>
+  <File path="fishing_houses_curtains_ddna.dds.3"/>
+  <File path="fishing_houses_curtains_ddna.dds.3a"/>
+  <File path="fishing_houses_curtains_ddna.dds.4"/>
+  <File path="fishing_houses_curtains_ddna.dds.4a"/>
+  <File path="fishing_houses_curtains_ddna.dds.5"/>
+  <File path="fishing_houses_curtains_ddna.dds.5a"/>
+  <File path="fishing_houses_curtains_ddna.dds.6"/>
+  <File path="fishing_houses_curtains_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

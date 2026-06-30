@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="4a83c09b-6af1-a025-5a14-b035a6d30d30">
+ <Files>
+  <File path="ground_leaves_3m_curb.cgf"/>
+  <File path="ground_leaves_3m_curb_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">132</Detail>
+  <Detail name="vertexCount">192</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ground_leaves.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

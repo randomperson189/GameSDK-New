@@ -1,0 +1,24 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="frame" MtlFlags="524416" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/greenhouse/textures/greenhouse_metal_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/greenhouse/textures/greenhouse_metal_ddna.tif"/>
+    <Texture Map="Specular" File="objects/architecture/buildings/greenhouse/textures/greenhouse_metal_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="2623648" Shader="Glass" GenMask="100040004010" StringGenMask="%BILINEAR_FP16%DIRT_MAP%SPECULAR_MAP%TINT_MAP" SurfaceType="mat_glass" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.1" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/buildings/greenhouse/textures/greenhouse_glass_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/buildings/greenhouse/textures/greenhouse_glass_ddn.tif"/>
+    <Texture Map="Specular" File="objects/architecture/buildings/greenhouse/textures/greenhouse_glass_tint.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.21586053,0.21586053,0.21586053" CloudinessReducesGloss="0.5" TintCloudiness="1" BackLightScale="0.5" BumpScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

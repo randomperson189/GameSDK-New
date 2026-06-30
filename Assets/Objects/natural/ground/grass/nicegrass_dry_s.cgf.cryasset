@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="9018a06e-7208-45d0-774a-d473e7a3a898">
+ <Files>
+  <File path="nicegrass_dry_s.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">85</Detail>
+  <Detail name="vertexCount">145</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./nice_grass.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="6e295d5c-36cc-deb4-6342-75d15d0f8114">
+ <Files>
+  <File path="chimney_a.cgf"/>
+  <File path="chimney_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">116</Detail>
+  <Detail name="vertexCount">138</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./chimney.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

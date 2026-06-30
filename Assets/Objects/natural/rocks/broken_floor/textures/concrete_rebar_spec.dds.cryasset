@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="f61d00b6-d359-61ae-a890-0a9b574e412e">
+ <Files>
+  <File path="concrete_rebar_spec.dds"/>
+  <File path="concrete_rebar_spec.dds.1"/>
+  <File path="concrete_rebar_spec.dds.2"/>
+  <File path="concrete_rebar_spec.dds.3"/>
+  <File path="concrete_rebar_spec.dds.4"/>
+  <File path="concrete_rebar_spec.dds.5"/>
+  <File path="concrete_rebar_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

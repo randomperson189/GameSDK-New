@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="de65f9a8-f484-2bad-e98d-373823cd8044">
+ <Files>
+  <File path="mid_gray_matte.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/references/mid_gray.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="b208ccdd-6951-a75b-3bf9-f9dc347d7cd5">
+ <Files>
+  <File path="scales_circles.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/scales_circles_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/scales_circles_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

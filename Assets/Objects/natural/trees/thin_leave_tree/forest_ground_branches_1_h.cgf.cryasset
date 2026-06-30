@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="c0aeef71-e35e-d9ba-a616-b786b9c9b956">
+ <Files>
+  <File path="forest_ground_branches_1_h.cgf"/>
+  <File path="forest_ground_branches_1_h_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">366</Detail>
+  <Detail name="vertexCount">346</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Branches.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="14f053b1-4349-1443-46c4-790424a321a4">
+ <Files>
+  <File path="Ceiling_Light_c_off.cgf"/>
+  <File path="Ceiling_Light_c_off_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">580</Detail>
+  <Detail name="vertexCount">491</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ceiling_light.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

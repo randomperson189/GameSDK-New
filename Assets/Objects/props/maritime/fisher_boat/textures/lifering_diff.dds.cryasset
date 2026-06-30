@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="9ad60432-7589-ac97-b8d6-257e5cc35c5b">
+ <Files>
+  <File path="lifering_diff.dds"/>
+  <File path="lifering_diff.dds.1"/>
+  <File path="lifering_diff.dds.2"/>
+  <File path="lifering_diff.dds.3"/>
+  <File path="lifering_diff.dds.4"/>
+  <File path="lifering_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

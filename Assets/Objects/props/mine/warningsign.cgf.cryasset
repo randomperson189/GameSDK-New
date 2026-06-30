@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="83b4c776-6f8d-cedb-2f61-6710bf90f1e9">
+ <Files>
+  <File path="warningsign.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">2</Detail>
+  <Detail name="vertexCount">4</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./WarningSign.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="5b08b5e0-c050-8947-061e-aa5e0d9d39f1">
+ <Files>
+  <File path="thin_leave_tree_big_bright_green_con.cgf"/>
+  <File path="thin_leave_tree_big_bright_green_con_lod1.cgf"/>
+  <File path="thin_leave_tree_big_bright_green_con_lod2.cgf"/>
+  <File path="thin_leave_tree_big_bright_green_con_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">1609</Detail>
+  <Detail name="vertexCount">2305</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./thin_leave_tree_big_bright_green_con.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

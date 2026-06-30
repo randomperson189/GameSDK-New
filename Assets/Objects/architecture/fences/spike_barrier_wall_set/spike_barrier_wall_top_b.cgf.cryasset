@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="8a2a8b31-afaa-56ba-f7eb-08e849be2c04">
+ <Files>
+  <File path="spike_barrier_wall_top_b.cgf"/>
+  <File path="spike_barrier_wall_top_b_lod1.cgf"/>
+  <File path="spike_barrier_wall_top_b_lod2.cgf"/>
+  <File path="spike_barrier_wall_top_b_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">17</Detail>
+  <Detail name="triangleCount">7603</Detail>
+  <Detail name="vertexCount">4865</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./spike_barrier_wall_set_b.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

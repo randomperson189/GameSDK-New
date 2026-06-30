@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="092a5971-ac47-6b9e-5a52-f1af7f6dea7b">
+ <Files>
+  <File path="fridge.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/furniture/appliances/fridge/textures/fridge_diff.dds</Path>
+  <Path usageCount="1">objects/props/furniture/appliances/fridge/textures/fridge_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

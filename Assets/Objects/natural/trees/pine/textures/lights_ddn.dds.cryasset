@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a94ae1da-9039-4e6b-42cc-68ec49f7731b">
+ <Files>
+  <File path="lights_ddn.dds"/>
+  <File path="lights_ddn.dds.1"/>
+  <File path="lights_ddn.dds.2"/>
+  <File path="lights_ddn.dds.3"/>
+  <File path="lights_ddn.dds.4"/>
+  <File path="lights_ddn.dds.5"/>
+  <File path="lights_ddn.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

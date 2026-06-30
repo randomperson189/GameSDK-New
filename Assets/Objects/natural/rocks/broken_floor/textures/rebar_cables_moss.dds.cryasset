@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="909ca174-c7c2-8bb7-3910-70747ccb4b2e">
+ <Files>
+  <File path="rebar_cables_moss.dds"/>
+  <File path="rebar_cables_moss.dds.1"/>
+  <File path="rebar_cables_moss.dds.2"/>
+  <File path="rebar_cables_moss.dds.3"/>
+  <File path="rebar_cables_moss.dds.4"/>
+  <File path="rebar_cables_moss.dds.5"/>
+  <File path="rebar_cables_moss.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

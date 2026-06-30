@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="3ca0ee6b-3a8f-2aa7-d442-5974b730da71">
+ <Files>
+  <File path="rock_base_tile_01.dds"/>
+  <File path="rock_base_tile_01.dds.1"/>
+  <File path="rock_base_tile_01.dds.2"/>
+  <File path="rock_base_tile_01.dds.3"/>
+  <File path="rock_base_tile_01.dds.4"/>
+  <File path="rock_base_tile_01.dds.5"/>
+  <File path="rock_base_tile_01.dds.6"/>
+  <File path="rock_base_tile_01.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

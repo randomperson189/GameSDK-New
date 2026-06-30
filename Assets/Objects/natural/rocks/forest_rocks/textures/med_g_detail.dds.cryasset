@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="c8cb2575-7bd4-5ae8-4a6b-00203db8f8ae">
+ <Files>
+  <File path="med_g_detail.dds"/>
+  <File path="med_g_detail.dds.1"/>
+  <File path="med_g_detail.dds.2"/>
+  <File path="med_g_detail.dds.3"/>
+  <File path="med_g_detail.dds.4"/>
+  <File path="med_g_detail.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

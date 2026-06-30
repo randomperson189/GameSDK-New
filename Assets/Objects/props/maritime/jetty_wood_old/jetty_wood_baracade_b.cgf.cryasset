@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="f6dcd381-a0ba-481c-4292-ad7428dcae1b">
+ <Files>
+  <File path="jetty_wood_baracade_b.cgf"/>
+  <File path="jetty_wood_baracade_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">2008</Detail>
+  <Detail name="vertexCount">1327</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./jetty_wood_old.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

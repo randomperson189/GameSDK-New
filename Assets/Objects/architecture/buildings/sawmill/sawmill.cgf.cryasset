@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="f4aa21db-61ce-9b14-c6b4-d9691e0db950">
+ <Files>
+  <File path="sawmill.cgf"/>
+  <File path="sawmill_lod1.cgf"/>
+  <File path="sawmill_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">12</Detail>
+  <Detail name="triangleCount">31116</Detail>
+  <Detail name="vertexCount">40929</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./sawmill.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

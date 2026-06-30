@@ -1,0 +1,27 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="l_steam" MtlFlags="524416" Shader="Illum" GenMask="402000082201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DETAIL_MAPPING%GLOSS_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49950528,0.49950528,0.49950528" Specular="0.11657578,0.11657578,0.11657578" Emissive="0,0,0" Shininess="100" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/trainyard/trains/locos/l_steam/textures/boiler_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/industrial/trainyard/trains/locos/l_steam/textures/boiler_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/trainyard/trains/locos/l_steam/textures/boiler_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_scratches_detail.tif">
+     <TexMod TileU="20" TileV="20"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" DetailDiffuseScale="1" FresnelBias="0.60000002" DetailBumpScale="0.25" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="cabin" MtlFlags="524416" Shader="Illum" GenMask="402000080201" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.38377467,0.38377467,0.38377467" Specular="0.11657578,0.11657578,0.11657578" Emissive="0,0,0" Shininess="80" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/trainyard/trains/locos/l_steam/textures/cabine_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/industrial/trainyard/trains/locos/l_steam/textures/cabine_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/trainyard/trains/locos/l_steam/textures/cabine_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

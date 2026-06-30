@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="6dbb8f79-4dfb-fe5f-8f58-64d9f9d3f906">
+ <Files>
+  <File path="chenyan_beams_diff.dds"/>
+  <File path="chenyan_beams_diff.dds.1"/>
+  <File path="chenyan_beams_diff.dds.2"/>
+  <File path="chenyan_beams_diff.dds.3"/>
+  <File path="chenyan_beams_diff.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

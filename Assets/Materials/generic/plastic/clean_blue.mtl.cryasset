@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="f86fcbc3-7a1d-bc09-05c6-eabda322ab03">
+ <Files>
+  <File path="clean_blue.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/base_colors/blue_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

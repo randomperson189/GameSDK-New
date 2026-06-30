@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="3231f3bb-ded8-cc1d-6cb5-d7dfd6ccb670">
+ <Files>
+  <File path="sky_afternoon.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/sky/hdr_afternoon.dds</Path>
+ </Dependencies>
+</AssetMetadata>

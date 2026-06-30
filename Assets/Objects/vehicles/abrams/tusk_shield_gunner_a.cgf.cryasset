@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="f3c33d16-1a60-12d7-1b57-eea1776d7b94">
+ <Files>
+  <File path="tusk_shield_gunner_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">688</Detail>
+  <Detail name="vertexCount">1376</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./m1a1_desert.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

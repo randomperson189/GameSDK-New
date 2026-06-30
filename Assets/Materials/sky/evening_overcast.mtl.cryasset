@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="16b5a556-10c0-0f55-4c41-d56c956eca11">
+ <Files>
+  <File path="evening_overcast.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/skys/evening_overcast/box_12.dds</Path>
+ </Dependencies>
+</AssetMetadata>

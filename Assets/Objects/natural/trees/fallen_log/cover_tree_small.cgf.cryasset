@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="4f927ee9-8a72-d0de-b21c-46aa4c2fd24b">
+ <Files>
+  <File path="cover_tree_small.cgf"/>
+  <File path="cover_tree_small_lod1.cgf"/>
+  <File path="cover_tree_small_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1649</Detail>
+  <Detail name="vertexCount">1323</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fallen_log.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

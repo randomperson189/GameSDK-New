@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="c4c75155-5e3b-a784-9ccc-b36ccc89ee6a">
+ <Files>
+  <File path="porcelain.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/porcelain_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/gloss80_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

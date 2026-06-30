@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="00ed268d-f480-fb60-4fab-0c4eeef6f9ec">
+ <Files>
+  <File path="scratched_glass.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/glass/scratched_glass_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

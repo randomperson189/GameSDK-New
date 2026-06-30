@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="fec22c29-01e1-3b54-1d3c-98077a0a75d8">
+ <Files>
+  <File path="spruce_leaf_snowy_spec.dds"/>
+  <File path="spruce_leaf_snowy_spec.dds.1"/>
+  <File path="spruce_leaf_snowy_spec.dds.2"/>
+  <File path="spruce_leaf_snowy_spec.dds.3"/>
+  <File path="spruce_leaf_snowy_spec.dds.4"/>
+  <File path="spruce_leaf_snowy_spec.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

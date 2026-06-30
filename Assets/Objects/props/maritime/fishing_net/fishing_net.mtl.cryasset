@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="b33952eb-88f6-17f9-4936-f0598c3a6f39">
+ <Files>
+  <File path="fishing_net.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/maritime/lobster_cage/textures/rope_diff.dds</Path>
+  <Path usageCount="1">objects/props/maritime/lobster_cage/textures/rope_ddn.dds</Path>
+  <Path usageCount="1">objects/props/maritime/fishing_net/textures/fishing_net_diff.dds</Path>
+  <Path usageCount="1">objects/props/maritime/fishing_net/textures/fishing_net_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

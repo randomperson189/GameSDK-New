@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="AnimatedMesh" guid="77af2de4-1dea-47a1-3bd3-ba0f61db36d7">
+ <Files>
+  <File path="speedboat_a.cga"/>
+  <File path="speedboat_a_lod1.cga"/>
+  <File path="speedboat_a_lod2.cga"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">29882</Detail>
+  <Detail name="vertexCount">23878</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/vehicles/speedboat/speedboat_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

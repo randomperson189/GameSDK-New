@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="37459e37-2a0f-2dbf-348d-525a4ea2f828">
+ <Files>
+  <File path="green_fern_bush.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/bushes/greenfernbush/textures/green_fern_bush_leaf_a.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/greenfernbush/textures/green_fern_bush_leaf_a_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/greenfernbush/textures/green_fern_bush_leaf_a_trans.dds</Path>
+ </Dependencies>
+</AssetMetadata>

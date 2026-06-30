@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="2f66dfae-2526-6591-002e-f1be9b8c0d07">
+ <Files>
+  <File path="trunk_splinters.dds"/>
+  <File path="trunk_splinters.dds.1"/>
+  <File path="trunk_splinters.dds.2"/>
+  <File path="trunk_splinters.dds.3"/>
+  <File path="trunk_splinters.dds.4"/>
+  <File path="trunk_splinters.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

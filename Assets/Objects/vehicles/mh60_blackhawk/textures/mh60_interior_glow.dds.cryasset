@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ae6d3231-f23b-3efa-a788-9631473a8d02">
+ <Files>
+  <File path="mh60_interior_glow.dds"/>
+  <File path="mh60_interior_glow.dds.1"/>
+  <File path="mh60_interior_glow.dds.2"/>
+  <File path="mh60_interior_glow.dds.3"/>
+  <File path="mh60_interior_glow.dds.4"/>
+  <File path="mh60_interior_glow.dds.5"/>
+  <File path="mh60_interior_glow.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

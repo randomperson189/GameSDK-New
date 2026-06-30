@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="066fa289-9dc8-0211-022f-c3b75e3d7ee8">
+ <Files>
+  <File path="railroad_crossing_a.cgf"/>
+  <File path="railroad_crossing_a_lod1.cgf"/>
+  <File path="railroad_crossing_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">534</Detail>
+  <Detail name="vertexCount">687</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./railroad_crossing.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

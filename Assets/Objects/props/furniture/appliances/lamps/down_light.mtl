@@ -1,0 +1,27 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.21586053,0.21586053,0.21586053" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="180" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/downlight_dif.tif"/>
+    <Texture Map="Bumpmap" File="Objects/props/furniture/appliances/lamps/textures/downlight_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="beam" MtlFlags="524448" Shader="Templbeamproc" GenMask="1" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.88792324,0.98225069,0.99110222" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/downlight_dif.tif"/>
+   </Textures>
+   <PublicParams StartRadius="1" EndRadius="2" StartColor="1,1,1" EndColor="1,1,1" FinalMultiplier="0.050000001" SoftIntersectionFactor="1" BeamLength="10" viewDependencyFactor="2" OrigLength="10" OrigWidth="1"/>
+  </Material>
+  <Material Name="glow" MtlFlags="524416" Shader="Illum" GenMask="80001" StringGenMask="%ALLOW_SILHOUETTE_POM%GLOSS_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="15" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/downlight_dif.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,32 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="9.999999" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="mesh" MtlFlags="524416" Shader="Illum" GenMask="81000020" StringGenMask="%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/paint/paint_blue_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/paint/paint_blue_a_ddna.tif"/>
+    <Texture Map="Custom" File="textures/generic/wood/wood_fine_b_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/wood/wood_fine_b_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/wood_fine_a_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="2.3" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="2" BlendFactor="16" BlendLayer2Specular="0.025" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="shelf_standing_a_lod1" MtlFlags="524416" Shader="Illum" GenMask="81000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.035,0.035,0.035" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/furniture/shelves/standing_a/textures/shelf_standing_a_lod1_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/furniture/shelves/standing_a/textures/shelf_standing_a_lod1_ddna.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="shelf_standing_b_lod1" MtlFlags="524416" Shader="Illum" GenMask="81000000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.035,0.035,0.035" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/furniture/shelves/standing_a/textures/shelf_standing_b_lod1_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/props/furniture/shelves/standing_a/textures/shelf_standing_b_lod1_ddna.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Mesh" guid="df552cd4-3fed-7b27-6bf9-27f07e665d16">
+ <Files>
+  <File path="radiator_1m.cgf"/>
+  <File path="radiator_1m_lod1.cgf"/>
+  <File path="radiator_1m_lod2.cgf"/>
+  <File path="radiator_1m_lod3.cgf"/>
+  <File path="radiator_1m_lod4.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">9635</Detail>
+  <Detail name="vertexCount">7554</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./household_radiator.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

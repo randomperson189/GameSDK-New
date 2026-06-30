@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="e24d9985-4441-3a1c-47e8-484d991b017c">
+ <Files>
+  <File path="loose_ice_shelf.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1278</Detail>
+  <Detail name="vertexCount">813</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ice_shelf_mat.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

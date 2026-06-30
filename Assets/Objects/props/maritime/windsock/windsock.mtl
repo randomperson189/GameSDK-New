@@ -1,0 +1,20 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="windsock" MtlFlags="524418" Shader="Illum" GenMask="C1000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.050000001" vertModifType="2" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/maritime/windsock/textures/windsock_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/maritime/windsock/textures/windsock_ddna.tif"/>
+    <Texture Map="Specular" File="objects/props/maritime/windsock/textures/windsock_spec.tif"/>
+   </Textures>
+   <VertexDeform Type="2" DividerX="0.050000001" DividerY="1" NoiseScale="0.0099999998,0.0099999998,0.0099999998">
+    <WaveX Type="1" Amp="0.0099999998" Level="0" Phase="0" Freq="1"/>
+    <WaveY Type="1" Amp="0" Level="0" Phase="0" Freq="0"/>
+   </VertexDeform>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

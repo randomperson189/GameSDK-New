@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="85293961-3c12-2cc0-e4f5-52f2ce9d3cde">
+ <Files>
+  <File path="seaweed01.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">294</Detail>
+  <Detail name="vertexCount">181</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./seaweed.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

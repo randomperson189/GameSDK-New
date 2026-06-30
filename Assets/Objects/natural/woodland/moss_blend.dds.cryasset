@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="09886687-1abb-c13e-41bd-91e089aad275">
+ <Files>
+  <File path="moss_blend.dds"/>
+  <File path="moss_blend.dds.1"/>
+  <File path="moss_blend.dds.2"/>
+  <File path="moss_blend.dds.3"/>
+  <File path="moss_blend.dds.4"/>
+  <File path="moss_blend.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

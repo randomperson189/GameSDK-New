@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="1724a205-cf50-d5e3-eacb-a5925610e91a">
+ <Files>
+  <File path="hud_planes_uv.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

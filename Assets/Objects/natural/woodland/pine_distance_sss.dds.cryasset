@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="1d8656dd-b886-9bb5-0297-20a9b0a3bc88">
+ <Files>
+  <File path="pine_distance_sss.dds"/>
+  <File path="pine_distance_sss.dds.1"/>
+  <File path="pine_distance_sss.dds.2"/>
+  <File path="pine_distance_sss.dds.3"/>
+  <File path="pine_distance_sss.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

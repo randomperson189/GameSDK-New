@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="a72a5c0d-174d-30c7-f0d1-6e6d804e9173">
+ <Files>
+  <File path="worn_metal_ddna.dds"/>
+  <File path="worn_metal_ddna.dds.a"/>
+  <File path="worn_metal_ddna.dds.1"/>
+  <File path="worn_metal_ddna.dds.1a"/>
+  <File path="worn_metal_ddna.dds.2"/>
+  <File path="worn_metal_ddna.dds.2a"/>
+  <File path="worn_metal_ddna.dds.3"/>
+  <File path="worn_metal_ddna.dds.3a"/>
+  <File path="worn_metal_ddna.dds.4"/>
+  <File path="worn_metal_ddna.dds.4a"/>
+  <File path="worn_metal_ddna.dds.5"/>
+  <File path="worn_metal_ddna.dds.5a"/>
+  <File path="worn_metal_ddna.dds.6"/>
+  <File path="worn_metal_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

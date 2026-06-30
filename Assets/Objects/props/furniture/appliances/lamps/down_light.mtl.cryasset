@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="258e9a19-f9ae-dbb2-5e67-77aa746137b7">
+ <Files>
+  <File path="down_light.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">Objects/props/furniture/appliances/lamps/textures/downlight_dif.dds</Path>
+  <Path usageCount="1">Objects/props/furniture/appliances/lamps/textures/downlight_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

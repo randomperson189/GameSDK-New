@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d071ac24-d902-60af-0258-6d037cd5b056">
+ <Files>
+  <File path="lifebelt_rack_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">310</Detail>
+  <Detail name="vertexCount">604</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./lifebelt_rack.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

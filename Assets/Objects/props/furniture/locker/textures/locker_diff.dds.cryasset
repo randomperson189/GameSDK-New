@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="224763bc-882f-7eaa-54a1-7911ed728b44">
+ <Files>
+  <File path="locker_diff.dds"/>
+  <File path="locker_diff.dds.1"/>
+  <File path="locker_diff.dds.2"/>
+  <File path="locker_diff.dds.3"/>
+  <File path="locker_diff.dds.4"/>
+  <File path="locker_diff.dds.5"/>
+  <File path="locker_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

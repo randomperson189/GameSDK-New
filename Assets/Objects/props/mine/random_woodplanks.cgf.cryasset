@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="be07895f-9087-8b65-5bf0-49cd5ca3db1c">
+ <Files>
+  <File path="random_woodplanks.cgf"/>
+  <File path="random_woodplanks_lod1.cgf"/>
+  <File path="random_woodplanks_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">2340</Detail>
+  <Detail name="vertexCount">2002</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mines.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

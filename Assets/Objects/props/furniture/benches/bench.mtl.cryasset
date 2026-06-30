@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="89d1b6b6-92d5-ed38-db8d-26efd7cf7dcc">
+ <Files>
+  <File path="bench.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">objects/props/furniture/benches/textures/bench_diff.dds</Path>
+  <Path usageCount="3">objects/props/furniture/benches/textures/bench_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/concrete/concrete_new_detail.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_vertical_1_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

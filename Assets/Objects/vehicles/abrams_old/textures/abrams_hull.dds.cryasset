@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="1a0ea005-6ff0-1470-4d4d-ece2c4441966">
+ <Files>
+  <File path="abrams_hull.dds"/>
+  <File path="abrams_hull.dds.1"/>
+  <File path="abrams_hull.dds.2"/>
+  <File path="abrams_hull.dds.3"/>
+  <File path="abrams_hull.dds.4"/>
+  <File path="abrams_hull.dds.5"/>
+  <File path="abrams_hull.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

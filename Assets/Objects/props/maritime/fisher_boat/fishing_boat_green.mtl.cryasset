@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="a46dcbec-e841-02ea-2be1-990d198a4922">
+ <Files>
+  <File path="fishing_boat_green.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/fabric/rope_diff.dds</Path>
+  <Path usageCount="1">textures/generic/fabric/rope_ddn.dds</Path>
+  <Path usageCount="2">objects/props/maritime/fisher_boat/textures/fishing_boat.dds</Path>
+  <Path usageCount="1">objects/props/maritime/fisher_boat/textures/fishing_boat_spec.dds</Path>
+  <Path usageCount="1">objects/props/maritime/fisher_boat/textures/fishing_boat_ddn.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_detail_horizontal.dds</Path>
+ </Dependencies>
+</AssetMetadata>

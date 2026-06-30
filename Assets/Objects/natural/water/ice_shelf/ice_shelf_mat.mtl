@@ -1,0 +1,26 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="ice" MtlFlags="2623648" Shader="Glass" GenMask="10040018450" StringGenMask="%BILINEAR_FP16%BLUR_REFRACTION%DEPTH_FOG%DIRT_MAP%ENVIRONMENT_MAP%SPEC_MAP%TINT_MAP" SurfaceType="mat_ice" MatTemplate="" Diffuse="1,1,1" Specular="0.1169707,0.1169707,0.1169707" Emissive="0.10702311,0.44520122,0.42869052" Shininess="160" Opacity="1" AlphaTest="0.5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/water/ice_shelf/textures/ice_shelf_diff.tif"/>
+    <Texture Map="Specular" File="objects/natural/water/ice_shelf/textures/ice_shelf_tint.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/water/ice_shelf/textures/ice_shelf_ddna.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/generic_cubemap_day_cm.tif"/>
+   </Textures>
+   <PublicParams FogColor="0.53947961,0.96468639,0.94730669" BumpMapTile="1" TintColor="0.36625263,0.73046088,0.73046088" BlurAmount="0.5" FresnelScale="1" FogCutoffEnd="20" FresnelBias="0.75" CloudinessReducesGloss="0.5" CloudinessMasksBlur="0.5" FogDensity="10" TintCloudiness="1" BackLightScale="0.75" BumpScale="0.5"/>
+  </Material>
+  <Material Name="inner_ice" MtlFlags="524418" Shader="Illum" GenMask="2080000080" StringGenMask="%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_ice" MatTemplate="" Diffuse="1,1,1" Specular="0.080219828,0.1620294,0.1620294" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/water/ice_shelf/textures/inner_ice_shelf_diff.tif">
+     <TexMod TexMod_RotateType="1" TexMod_WRotateAmplitude="3.9990234"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/water/ice_shelf/textures/inner_ice_shelf_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_ice" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

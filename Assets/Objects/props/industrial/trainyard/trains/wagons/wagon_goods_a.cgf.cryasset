@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="9333bbd7-58fa-6ba8-c2da-e1c864cbae61">
+ <Files>
+  <File path="wagon_goods_a.cgf"/>
+  <File path="wagon_goods_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">1087</Detail>
+  <Detail name="vertexCount">1222</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wagon_goods_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

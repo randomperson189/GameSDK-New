@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="5bbb77a8-90d4-f229-4bb5-704fcd37d782">
+ <Files>
+  <File path="vending_machine.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/vending_machine/textures/vending_machine_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vending_machine/textures/vending_machine_spec.dds</Path>
+  <Path usageCount="1">objects/props/misc/vending_machine/textures/vending_machine_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

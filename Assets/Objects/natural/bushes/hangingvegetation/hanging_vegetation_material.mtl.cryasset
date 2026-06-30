@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="ae501f06-9d37-37fc-a4cc-6b9e573140de">
+ <Files>
+  <File path="hanging_vegetation_material.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/bushes/hangingvegetation/textures/hanging_vegetation_diff.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/hangingvegetation/textures/hanging_vegetation_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+  <Path usageCount="1">objects/natural/bushes/hangingvegetation/textures/hanging_vegetation_sss.dds</Path>
+ </Dependencies>
+</AssetMetadata>

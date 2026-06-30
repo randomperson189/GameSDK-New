@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="8a8f1172-6f6b-d546-b5f6-95ec56842b10">
+ <Files>
+  <File path="bridge_planks_ddna.dds"/>
+  <File path="bridge_planks_ddna.dds.a"/>
+  <File path="bridge_planks_ddna.dds.1"/>
+  <File path="bridge_planks_ddna.dds.1a"/>
+  <File path="bridge_planks_ddna.dds.2"/>
+  <File path="bridge_planks_ddna.dds.2a"/>
+  <File path="bridge_planks_ddna.dds.3"/>
+  <File path="bridge_planks_ddna.dds.3a"/>
+  <File path="bridge_planks_ddna.dds.4"/>
+  <File path="bridge_planks_ddna.dds.4a"/>
+  <File path="bridge_planks_ddna.dds.5"/>
+  <File path="bridge_planks_ddna.dds.5a"/>
+  <File path="bridge_planks_ddna.dds.6"/>
+  <File path="bridge_planks_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

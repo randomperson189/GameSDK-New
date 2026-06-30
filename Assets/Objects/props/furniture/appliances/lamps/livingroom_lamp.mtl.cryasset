@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="7873abc5-a48a-71c2-0da0-c775224becb9">
+ <Files>
+  <File path="livingroom_lamp.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="2">Objects/props/furniture/appliances/lamps/textures/kitchenlamp_dif.dds</Path>
+  <Path usageCount="2">objects/props/furniture/appliances/lamps/textures/kitchenlamp_ddna.dds</Path>
+  <Path usageCount="3">Objects/props/furniture/appliances/lamps/textures/livingroomlamp_dif.dds</Path>
+  <Path usageCount="3">objects/props/furniture/appliances/lamps/textures/livingroomlamp_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

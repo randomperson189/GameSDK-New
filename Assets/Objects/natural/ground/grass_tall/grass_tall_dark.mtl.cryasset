@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="2afa963d-49cc-5945-d3f6-14c1c3a6e09b">
+ <Files>
+  <File path="grass_tall_dark.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/grey.dds</Path>
+  <Path usageCount="1">objects/natural/ground/grass_tall/ground_cover_nofern_diff.dds</Path>
+  <Path usageCount="1">objects/natural/ground/grass_tall/ground_cover_nofern_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/ground/grass_tall/ground_cover_nofern_sss.dds</Path>
+ </Dependencies>
+</AssetMetadata>

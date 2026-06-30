@@ -1,0 +1,13 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="diffuse" MtlFlags="524448" Shader="Distanceclouds" GenMask="0" StringGenMask="" SurfaceType="mat_default" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/sky/forest_skydome.dds">
+     <TexMod TexMod_UOscillatorType="2" TexMod_UOscillatorRate="1" TexMod_VOscillatorRate="0.1" TexMod_UOscillatorPhase="0.1" TexMod_VOscillatorPhase="0.1" TexMod_UOscillatorAmplitude="0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams StepSize="0.0040000002" Attenuation="0.40000001" AlphaSaturation="3.5" SkyColorMultiplier="1" SunColorMultiplier="3"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

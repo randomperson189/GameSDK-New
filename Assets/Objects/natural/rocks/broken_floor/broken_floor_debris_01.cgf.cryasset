@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="940027d8-6a65-62ad-4611-857d8f4f8d08">
+ <Files>
+  <File path="broken_floor_debris_01.cgf"/>
+  <File path="broken_floor_debris_01_lod1.cgf"/>
+  <File path="broken_floor_debris_01_lod2.cgf"/>
+  <File path="broken_floor_debris_01_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">1480</Detail>
+  <Detail name="vertexCount">1126</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./canyon_floors.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

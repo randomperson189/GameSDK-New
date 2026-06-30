@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="ae29e87e-2bb8-d50e-4221-78760dbe6aa8">
+ <Files>
+  <File path="bed_wooden_diff.dds"/>
+  <File path="bed_wooden_diff.dds.1"/>
+  <File path="bed_wooden_diff.dds.2"/>
+  <File path="bed_wooden_diff.dds.3"/>
+  <File path="bed_wooden_diff.dds.4"/>
+  <File path="bed_wooden_diff.dds.5"/>
+  <File path="bed_wooden_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

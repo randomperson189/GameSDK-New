@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="114bf75d-fcc4-6616-e22c-b8599e7947b8">
+ <Files>
+  <File path="c_beech_a.cgf"/>
+  <File path="c_beech_a_lod1.cgf"/>
+  <File path="c_beech_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">474</Detail>
+  <Detail name="vertexCount">490</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./beech.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

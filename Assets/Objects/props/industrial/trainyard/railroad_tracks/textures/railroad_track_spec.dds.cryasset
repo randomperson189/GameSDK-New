@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="698f2bec-95c6-78c8-6cff-cb690c6a6c09">
+ <Files>
+  <File path="railroad_track_spec.dds"/>
+  <File path="railroad_track_spec.dds.1"/>
+  <File path="railroad_track_spec.dds.2"/>
+  <File path="railroad_track_spec.dds.3"/>
+  <File path="railroad_track_spec.dds.4"/>
+  <File path="railroad_track_spec.dds.5"/>
+  <File path="railroad_track_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

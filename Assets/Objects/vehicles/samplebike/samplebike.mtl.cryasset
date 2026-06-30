@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="89dffd1e-7780-da06-f4ca-f200fd98fc57">
+ <Files>
+  <File path="samplebike.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/base_colors/blue_diff.dds</Path>
+  <Path usageCount="1">textures/generic/rubber/rubber_flat_diff.dds</Path>
+  <Path usageCount="1">textures/generic/rubber/rubber_flat_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

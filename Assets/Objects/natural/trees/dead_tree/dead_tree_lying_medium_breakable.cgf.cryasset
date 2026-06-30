@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="2d88c820-04a3-b23c-b88c-3b0c546b24b6">
+ <Files>
+  <File path="dead_tree_lying_medium_breakable.cgf"/>
+  <File path="dead_tree_lying_medium_breakable_lod1.cgf"/>
+  <File path="dead_tree_lying_medium_breakable_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">6461</Detail>
+  <Detail name="vertexCount">4971</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./dead_tree_breakable.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

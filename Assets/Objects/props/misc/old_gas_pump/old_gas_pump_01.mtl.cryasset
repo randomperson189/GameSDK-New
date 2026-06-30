@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="d9467fda-feee-58db-0639-9ce4fa81da3d">
+ <Files>
+  <File path="old_gas_pump_01.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/old_gas_pump/textures/old_gas_pump_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/old_gas_pump/textures/old_gas_pump_spec.dds</Path>
+  <Path usageCount="1">objects/props/misc/old_gas_pump/textures/old_gas_pump_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

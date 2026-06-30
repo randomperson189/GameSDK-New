@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="da3ed968-9040-7d10-69b6-7d8309ddc192">
+ <Files>
+  <File path="tractor.cgf"/>
+  <File path="tractor_lod1.cgf"/>
+  <File path="tractor_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">9</Detail>
+  <Detail name="triangleCount">49480</Detail>
+  <Detail name="vertexCount">42853</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Tractor.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

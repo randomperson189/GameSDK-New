@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="5d83369f-4405-05f9-101e-6e13dd24d8f6">
+ <Files>
+  <File path="wooden_barrel.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/maritime/wooden_barrel/textures/wooden_barrel_diff.dds</Path>
+  <Path usageCount="1">objects/props/maritime/wooden_barrel/textures/wooden_barrel_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_vertical_1_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

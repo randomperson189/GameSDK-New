@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="16e36ee4-4995-9111-e703-098c393ad67a">
+ <Files>
+  <File path="icebox.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">10</Detail>
+  <Detail name="triangleCount">216</Detail>
+  <Detail name="vertexCount">218</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_camp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

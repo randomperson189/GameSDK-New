@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="378ccde5-e364-2bb5-3f83-9e43ace17e51">
+ <Files>
+  <File path="rope_set_shipwreck_b.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/fabric/rope_set_shipwreck_b_diff.dds</Path>
+  <Path usageCount="1">textures/generic/fabric/rope_set_shipwreck_b_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

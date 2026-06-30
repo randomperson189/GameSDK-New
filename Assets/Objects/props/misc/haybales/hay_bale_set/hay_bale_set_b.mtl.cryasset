@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="631f64d0-e82c-e603-9971-72c83ba2cd1c">
+ <Files>
+  <File path="hay_bale_set_b.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_planks_flat_tiled_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_planks_flat_tiled_ddna.dds</Path>
+  <Path usageCount="2">textures/generic/wood/trunk_dead_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/trunk_dead_ddna.dds</Path>
+  <Path usageCount="2">objects/props/rural/hay_bale_set/textures/hay_bale_set_b_diff.dds</Path>
+  <Path usageCount="2">objects/props/rural/hay_bale_set/textures/hay_bale_set_b_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="89e91cde-2074-d4bb-34cd-2395e8a46b82">
+ <Files>
+  <File path="concrete_hole_1.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/concrete/concrete_hole_1_diff.dds</Path>
+  <Path usageCount="1">textures/decals/concrete/concrete_hole_1_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

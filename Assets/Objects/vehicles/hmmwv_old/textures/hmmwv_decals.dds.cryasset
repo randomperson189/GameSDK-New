@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="b055ab0d-3310-0bfe-9024-2b9ad6d30410">
+ <Files>
+  <File path="hmmwv_decals.dds"/>
+  <File path="hmmwv_decals.dds.1"/>
+  <File path="hmmwv_decals.dds.2"/>
+  <File path="hmmwv_decals.dds.3"/>
+  <File path="hmmwv_decals.dds.4"/>
+  <File path="hmmwv_decals.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

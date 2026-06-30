@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="bc8b5990-1bf3-ba83-1e4e-0b1cd3622129">
+ <Files>
+  <File path="spruce_border_d_lod1_alpha_ddna.dds"/>
+  <File path="spruce_border_d_lod1_alpha_ddna.dds.a"/>
+  <File path="spruce_border_d_lod1_alpha_ddna.dds.1"/>
+  <File path="spruce_border_d_lod1_alpha_ddna.dds.1a"/>
+  <File path="spruce_border_d_lod1_alpha_ddna.dds.2"/>
+  <File path="spruce_border_d_lod1_alpha_ddna.dds.2a"/>
+  <File path="spruce_border_d_lod1_alpha_ddna.dds.3"/>
+  <File path="spruce_border_d_lod1_alpha_ddna.dds.3a"/>
+  <File path="spruce_border_d_lod1_alpha_ddna.dds.4"/>
+  <File path="spruce_border_d_lod1_alpha_ddna.dds.4a"/>
+  <File path="spruce_border_d_lod1_alpha_ddna.dds.5"/>
+  <File path="spruce_border_d_lod1_alpha_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

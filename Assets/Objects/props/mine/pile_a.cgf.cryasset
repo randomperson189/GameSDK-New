@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="15a30873-d002-cb8a-f63c-a050d2bc440d">
+ <Files>
+  <File path="pile_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">241</Detail>
+  <Detail name="vertexCount">137</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./chaff.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

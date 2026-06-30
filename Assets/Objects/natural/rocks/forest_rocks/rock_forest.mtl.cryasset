@@ -1,0 +1,30 @@
+<AssetMetadata version="0" type="Material" guid="1d0baf19-4bcc-37f5-940d-a0af42242bd4">
+ <Files>
+  <File path="rock_forest.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">14</Detail>
+  <Detail name="textureCount">19</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="11">objects/natural/rocks/forest_rocks/textures/rock_diff.dds</Path>
+  <Path usageCount="11">objects/natural/rocks/forest_rocks/textures/rock_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/small_detail.dds</Path>
+  <Path usageCount="11">textures/generic/blend_masks/rock_a_mask.dds</Path>
+  <Path usageCount="10">objects/natural/rocks/forest_rocks/textures/moss_diff.dds</Path>
+  <Path usageCount="10">objects/natural/rocks/forest_rocks/textures/moss_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/larg_b_detail.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/water_raindrop_displ.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/larg_a_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/med_g_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/med_f_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/river_e7_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/river_d6_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/med_c_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/med_b_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/med_a_detail.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_forest_wall_dark_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_forest_wall_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/rock/rock_1_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

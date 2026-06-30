@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="086cd32d-afac-3c6b-2ede-69a5592045c3">
+ <Files>
+  <File path="bush_round_leaf_sss.dds"/>
+  <File path="bush_round_leaf_sss.dds.1"/>
+  <File path="bush_round_leaf_sss.dds.2"/>
+  <File path="bush_round_leaf_sss.dds.3"/>
+  <File path="bush_round_leaf_sss.dds.4"/>
+  <File path="bush_round_leaf_sss.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

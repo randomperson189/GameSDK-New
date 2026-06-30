@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="b2941dda-b5f7-9002-030a-e8fd6d6eb98d">
+ <Files>
+  <File path="gardengnome.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/garden_gnome/textures/gnome_dist_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/garden_gnome/textures/gnome_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/garden_gnome/textures/gnome_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

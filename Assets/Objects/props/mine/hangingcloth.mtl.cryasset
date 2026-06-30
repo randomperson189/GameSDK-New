@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="1a904f56-f34b-daf2-d71a-c629ce7627da">
+ <Files>
+  <File path="hangingcloth.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/mine/textures/hanging_cloth_diff.dds</Path>
+  <Path usageCount="1">objects/props/mine/textures/hanging_cloth_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

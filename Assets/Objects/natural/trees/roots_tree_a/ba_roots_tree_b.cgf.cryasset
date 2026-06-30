@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="13f0e047-32f4-cf52-83b3-a2c1d7a7c5e1">
+ <Files>
+  <File path="ba_roots_tree_b.cgf"/>
+  <File path="ba_roots_tree_b_lod1.cgf"/>
+  <File path="ba_roots_tree_b_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">149</Detail>
+  <Detail name="vertexCount">141</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ba_roots_tree_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

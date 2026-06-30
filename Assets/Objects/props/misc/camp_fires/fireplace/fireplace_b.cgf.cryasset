@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="68f325d2-5a80-fb69-a921-918f6b31a207">
+ <Files>
+  <File path="fireplace_b.cgf"/>
+  <File path="fireplace_b_lod1.cgf"/>
+  <File path="fireplace_b_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">746</Detail>
+  <Detail name="vertexCount">543</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fireplace.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

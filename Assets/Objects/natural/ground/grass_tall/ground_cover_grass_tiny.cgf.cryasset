@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="aba79362-b39a-c317-70ef-fb9a363c90dd">
+ <Files>
+  <File path="ground_cover_grass_tiny.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">154</Detail>
+  <Detail name="vertexCount">226</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./grass_tall.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

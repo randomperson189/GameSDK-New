@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="ca2747f9-0503-cbad-3194-6ae6a9228f16">
+ <Files>
+  <File path="wooden_pathway.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/vegetation/pebbles_leaves_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/rock_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/rock/rock_1_detail.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_b90_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

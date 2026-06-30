@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="517661e0-d96d-656a-1e2e-11d8a3db22aa">
+ <Files>
+  <File path="abrams_treads_diff.dds"/>
+  <File path="abrams_treads_diff.dds.1"/>
+  <File path="abrams_treads_diff.dds.2"/>
+  <File path="abrams_treads_diff.dds.3"/>
+  <File path="abrams_treads_diff.dds.4"/>
+  <File path="abrams_treads_diff.dds.5"/>
+  <File path="abrams_treads_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

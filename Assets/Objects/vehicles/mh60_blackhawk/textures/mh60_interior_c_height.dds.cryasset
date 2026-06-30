@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="eb1932cb-4afc-4227-f7cd-33a335b43fca">
+ <Files>
+  <File path="mh60_interior_c_height.dds"/>
+  <File path="mh60_interior_c_height.dds.1"/>
+  <File path="mh60_interior_c_height.dds.2"/>
+  <File path="mh60_interior_c_height.dds.3"/>
+  <File path="mh60_interior_c_height.dds.4"/>
+  <File path="mh60_interior_c_height.dds.5"/>
+  <File path="mh60_interior_c_height.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

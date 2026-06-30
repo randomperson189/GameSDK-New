@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="AnimatedMesh" guid="0273c38e-0768-7a06-6c43-b1ff67f6c33d">
+ <Files>
+  <File path="abrams.cga"/>
+  <File path="abrams_lod1.cga"/>
+  <File path="abrams_lod2.cga"/>
+  <File path="abrams_lod3.cga"/>
+  <File path="abrams_lod4.cga"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">15</Detail>
+  <Detail name="triangleCount">25654</Detail>
+  <Detail name="vertexCount">41320</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./abrams.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

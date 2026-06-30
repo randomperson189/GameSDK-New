@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="9e1fef7e-79aa-e080-5d82-ecbc7737e794">
+ <Files>
+  <File path="b_aspen_e.cgf"/>
+  <File path="b_aspen_e_lod1.cgf"/>
+  <File path="b_aspen_e_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">1618</Detail>
+  <Detail name="vertexCount">1688</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./aspen.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

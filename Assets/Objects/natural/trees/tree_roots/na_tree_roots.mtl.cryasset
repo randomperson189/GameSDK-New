@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="f8bdf711-c9bd-d74e-c379-a0c361ca858e">
+ <Files>
+  <File path="na_tree_roots.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/tree_roots/na_tree_roots_decal_a_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/tree_roots/na_tree_roots_decal_a_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/tree_roots/oak_tree_trunk_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/tree_roots/oak_tree_trunk_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/tree_roots/na_tree_roots_detail.dds</Path>
+  <Path usageCount="2">objects/natural/trees/tree_roots/oak_tree_trunk_blend_diff.dds</Path>
+  <Path usageCount="1">objects/natural/trees/tree_roots/oak_tree_trunk_blend_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

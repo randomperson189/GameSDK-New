@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="aee04d2b-9241-4062-18dc-e50a72a7e72e">
+ <Files>
+  <File path="warthog_trophy.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1687</Detail>
+  <Detail name="vertexCount">1064</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./trophies.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="f87a89bc-1dd3-3e76-bc9b-fb680d32b06c">
+ <Files>
+  <File path="fishing_houses_roof_b_dirt_diff.dds"/>
+  <File path="fishing_houses_roof_b_dirt_diff.dds.1"/>
+  <File path="fishing_houses_roof_b_dirt_diff.dds.2"/>
+  <File path="fishing_houses_roof_b_dirt_diff.dds.3"/>
+  <File path="fishing_houses_roof_b_dirt_diff.dds.4"/>
+  <File path="fishing_houses_roof_b_dirt_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

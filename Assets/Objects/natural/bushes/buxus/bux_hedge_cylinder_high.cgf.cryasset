@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="46eab79e-94e0-bd3a-f2d9-4c853363b43b">
+ <Files>
+  <File path="bux_hedge_cylinder_high.cgf"/>
+  <File path="bux_hedge_cylinder_high_lod1.cgf"/>
+  <File path="bux_hedge_cylinder_high_lod2.cgf"/>
+  <File path="bux_hedge_cylinder_high_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">2863</Detail>
+  <Detail name="vertexCount">3004</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./buxus.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

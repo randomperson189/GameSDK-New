@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="f1ef1c3c-3bee-b1e6-e2bc-14977c3600b3">
+ <Files>
+  <File path="KitchenLamp_dif.dds"/>
+  <File path="KitchenLamp_dif.dds.1"/>
+  <File path="KitchenLamp_dif.dds.2"/>
+  <File path="KitchenLamp_dif.dds.3"/>
+  <File path="KitchenLamp_dif.dds.4"/>
+  <File path="KitchenLamp_dif.dds.5"/>
+  <File path="KitchenLamp_dif.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

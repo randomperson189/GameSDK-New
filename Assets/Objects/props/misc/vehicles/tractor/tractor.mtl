@@ -1,0 +1,63 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="big_wheels" MtlFlags="524416" Shader="Illum" GenMask="C0000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/tractor/textures/big_wheels_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/misc/vehicles/tractor/textures/big_wheels_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/vehicles/tractor/textures/big_wheels_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="engine" MtlFlags="524418" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/tractor/textures/engine_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/vehicles/tractor/textures/engine_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="hull" MtlFlags="524418" Shader="Illum" GenMask="C0000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/tractor/textures/hull_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/misc/vehicles/tractor/textures/hull_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/vehicles/tractor/textures/hull_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="misc" MtlFlags="524418" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/tractor/textures/misc_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/vehicles/tractor/textures/misc_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="mudguard" MtlFlags="524418" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339808,0.034339808,0.034339808" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/tractor/textures/mud_guard_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/vehicles/tractor/textures/mud_guard_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="roof" MtlFlags="524418" Shader="Illum" GenMask="C0000185" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAMASK_DETAILMAP%BUMP_MAP%DETAIL_MAPPING%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/tractor/textures/roof_diff.tif"/>
+    <Texture Map="Specular" File="objects/props/misc/vehicles/tractor/textures/roof_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/vehicles/tractor/textures/roof_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/fabric/fabric_b_detail.tif">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0.75" SSSIndex="0" DetailBumpScale="0.75" DetailGlossScale="0.25" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="small_wheels" MtlFlags="524416" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber" MatTemplate="" Diffuse="1,1,1" Specular="0.031896032,0.031896032,0.031896032" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/vehicles/tractor/textures/small_wheels_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/vehicles/tractor/textures/small_wheels_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

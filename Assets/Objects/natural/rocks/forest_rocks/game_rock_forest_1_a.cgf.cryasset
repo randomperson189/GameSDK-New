@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="cc61f611-ab49-dff5-f681-8fa4a3ad3e7a">
+ <Files>
+  <File path="game_rock_forest_1_a.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">20</Detail>
+  <Detail name="triangleCount">257</Detail>
+  <Detail name="vertexCount">159</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./Rock_Forest.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

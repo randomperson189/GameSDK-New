@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="e2a269e1-e1b1-5642-037c-60630bb0ed85">
+ <Files>
+  <File path="garbage_bag.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/junk/garbage/textures/garbage_bag_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/junk/garbage/textures/garbage_bag_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

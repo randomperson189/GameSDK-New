@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="f6ba6155-08a9-a7f7-c684-88b42a1d63cc">
+ <Files>
+  <File path="candle_holder_standing_a.cgf"/>
+  <File path="candle_holder_standing_a_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1604</Detail>
+  <Detail name="vertexCount">1794</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./candle_holder_standing_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

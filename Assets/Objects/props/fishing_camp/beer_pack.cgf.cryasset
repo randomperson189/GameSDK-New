@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="8b40a8b3-bdf9-71cf-a34e-00c5d085ef0d">
+ <Files>
+  <File path="beer_pack.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">10</Detail>
+  <Detail name="triangleCount">64</Detail>
+  <Detail name="vertexCount">90</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./fishing_camp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

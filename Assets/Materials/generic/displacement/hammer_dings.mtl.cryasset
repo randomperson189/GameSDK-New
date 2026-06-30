@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="34d508e7-2a91-28e4-06eb-3d3032e53edf">
+ <Files>
+  <File path="hammer_dings.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/defaultnouvs.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/flat_ddn.dds</Path>
+  <Path usageCount="1">textures/generic/displacement/hammerdings_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

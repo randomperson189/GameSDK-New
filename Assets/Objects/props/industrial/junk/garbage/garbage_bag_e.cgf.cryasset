@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="7a070b18-6ba8-04e3-0443-c4b307108b1d">
+ <Files>
+  <File path="garbage_bag_e.cgf"/>
+  <File path="garbage_bag_e_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1568</Detail>
+  <Detail name="vertexCount">1088</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./garbage_bag.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="7287162d-3bc7-feef-b57c-8a281d0aa7e2">
+ <Files>
+  <File path="road_concrete_worn.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/roads/road_concrete_worn_diff.dds</Path>
+  <Path usageCount="1">textures/roads/road_concrete_worn_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

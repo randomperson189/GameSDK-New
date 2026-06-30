@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="62c73717-e54b-e318-f817-743d9658b73c">
+ <Files>
+  <File path="oak_tree_trunk_diff.dds"/>
+  <File path="oak_tree_trunk_diff.dds.1"/>
+  <File path="oak_tree_trunk_diff.dds.2"/>
+  <File path="oak_tree_trunk_diff.dds.3"/>
+  <File path="oak_tree_trunk_diff.dds.4"/>
+  <File path="oak_tree_trunk_diff.dds.5"/>
+  <File path="oak_tree_trunk_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

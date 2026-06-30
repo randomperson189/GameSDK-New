@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Mesh" guid="37ea14ad-ec14-708a-355c-70f5b4d27f17">
+ <Files>
+  <File path="rock_forest_group_no_moss_b.cgf"/>
+  <File path="rock_forest_group_no_moss_b_lod1.cgf"/>
+  <File path="rock_forest_group_no_moss_b_lod2.cgf"/>
+  <File path="rock_forest_group_no_moss_b_lod3.cgf"/>
+  <File path="rock_forest_group_no_moss_b_lod4.cgf"/>
+  <File path="rock_forest_group_no_moss_b_lod5.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">44</Detail>
+  <Detail name="triangleCount">13788</Detail>
+  <Detail name="vertexCount">7915</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/natural/woodland/woodland_forest.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="983512b4-b00c-c0f7-4112-ab53c488bbc5">
+ <Files>
+  <File path="brick_example.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Textures/defaults/grey.dds</Path>
+  <Path usageCount="1">Textures/generic/metal/metal_bronze_plain_a_diff.dds</Path>
+  <Path usageCount="1">Textures/generic/metal/metal_bronze_plain_a_ddna.dds</Path>
+  <Path usageCount="1">Textures/generic/metal/metal_bronze_plain_a_spec.dds</Path>
+  <Path usageCount="1">Textures/generic/concrete/rough_concrete_c_diff.dds</Path>
+  <Path usageCount="1">Textures/generic/concrete/rough_concrete_c_ddna.dds</Path>
+  <Path usageCount="1">Textures/generic/concrete/concrete_ground_a_diff.dds</Path>
+  <Path usageCount="1">Textures/generic/concrete/concrete_ceiling_ddna.dds</Path>
+  <Path usageCount="1">Textures/generic/concrete/plaster_rough_stones_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="b8119179-2600-318f-038a-726fc2fa40ad">
+ <Files>
+  <File path="river_e7_detail.dds"/>
+  <File path="river_e7_detail.dds.1"/>
+  <File path="river_e7_detail.dds.2"/>
+  <File path="river_e7_detail.dds.3"/>
+  <File path="river_e7_detail.dds.4"/>
+  <File path="river_e7_detail.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

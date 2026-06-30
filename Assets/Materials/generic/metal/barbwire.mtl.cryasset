@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="0a3a77d9-cec7-e6e4-3ea5-903590938e36">
+ <Files>
+  <File path="barbwire.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/architecture/fences/barbwire_fence/textures/chainlink_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/fences/barbwire_fence/textures/chainlink_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

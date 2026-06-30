@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="6b1bbb7a-b20e-9043-2726-6d37cfc9a3f0">
+ <Files>
+  <File path="mh60_a.cgf"/>
+  <File path="mh60_a_lod1.cgf"/>
+  <File path="mh60_a_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">13</Detail>
+  <Detail name="triangleCount">71624</Detail>
+  <Detail name="vertexCount">71416</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./mh60_a.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

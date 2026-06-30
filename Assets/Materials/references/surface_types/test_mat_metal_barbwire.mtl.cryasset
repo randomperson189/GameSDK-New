@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="2c2f44b2-87cc-042d-2d70-bfbee72f8418">
+ <Files>
+  <File path="test_mat_metal_barbwire.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/grey.dds</Path>
+  <Path usageCount="1">materials/references/surface_types/metal_barbwire_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

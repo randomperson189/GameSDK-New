@@ -1,0 +1,29 @@
+<AssetMetadata version="0" type="Material" guid="6b54752c-b80f-5251-e044-20515e71522e">
+ <Files>
+  <File path="tractor.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">8</Detail>
+  <Detail name="textureCount">18</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/small_wheels_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/small_wheels_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/roof_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/roof_spec.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/roof_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/fabric/fabric_b_detail.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/mud_guard_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/mud_guard_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/misc_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/misc_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/hull_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/hull_spec.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/hull_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/engine_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/engine_ddna.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/big_wheels_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/big_wheels_spec.dds</Path>
+  <Path usageCount="1">objects/props/misc/vehicles/tractor/textures/big_wheels_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

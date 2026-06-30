@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="4158f813-98d5-2b99-6de4-f2b138a4a1ce">
+ <Files>
+  <File path="railroad_trackbed.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/roads/railroad_trackbed_diff.dds</Path>
+  <Path usageCount="1">textures/roads/railroad_trackbed_ddna.dds</Path>
+  <Path usageCount="1">textures/roads/railroad_trackbed_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="8333428b-e7e5-f28b-b543-35530841cea7">
+ <Files>
+  <File path="concrete_rebar_mask.dds"/>
+  <File path="concrete_rebar_mask.dds.1"/>
+  <File path="concrete_rebar_mask.dds.2"/>
+  <File path="concrete_rebar_mask.dds.3"/>
+  <File path="concrete_rebar_mask.dds.4"/>
+  <File path="concrete_rebar_mask.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

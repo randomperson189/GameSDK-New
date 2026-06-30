@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="92c6163d-7dcd-aeff-ec26-ae49d49e5490">
+ <Files>
+  <File path="emergency_lamp_on.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">168</Detail>
+  <Detail name="vertexCount">192</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./emergency_lamp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

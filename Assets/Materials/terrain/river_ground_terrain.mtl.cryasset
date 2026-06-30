@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="189babb2-bffb-7d5b-ff01-f8371caac310">
+ <Files>
+  <File path="river_ground_terrain.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/terrain/detail/river_ground_terrain_diff.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/river_ground_terrain_ddna.dds</Path>
+  <Path usageCount="1">textures/terrain/detail/river_ground_terrain_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

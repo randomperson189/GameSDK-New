@@ -1,0 +1,27 @@
+<AssetMetadata version="0" type="Material" guid="fce0cece-bd6a-a896-e93a-1eab1d7543be">
+ <Files>
+  <File path="canyon_basewall_cliff.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">10</Detail>
+  <Detail name="textureCount">16</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/defaults/grey.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/broken_floor/textures/rebar.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/broken_floor/textures/rebar_ddna.dds</Path>
+  <Path usageCount="6">objects/natural/rocks/ground_rocks/textures/ground_rock_tile.dds</Path>
+  <Path usageCount="9">objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_basewall/textures/basewall_07_detail.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_basewall/textures/basewall_07_detail_displ.dds</Path>
+  <Path usageCount="3">objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_gloss.dds</Path>
+  <Path usageCount="3">objects/natural/rocks/canyon_basewall/textures/moss_canyonrock.dds</Path>
+  <Path usageCount="6">objects/natural/rocks/ground_rocks/textures/ground_rock_tile_mask.dds</Path>
+  <Path usageCount="6">objects/natural/rocks/street_rocks/textures/street_rock_soil.dds</Path>
+  <Path usageCount="3">objects/natural/rocks/street_rocks/textures/street_rock_soil_ddna.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_basewall/textures/basewall_06_detail.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_basewall/textures/basewall_06_detail_displ.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_basewall/textures/basewall_04_detail.dds</Path>
+  <Path usageCount="2">objects/natural/rocks/canyon_basewall/textures/basewall_04_detail_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

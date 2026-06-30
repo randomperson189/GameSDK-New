@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="ebb2bb73-0b87-3f93-03ab-e68218dabd1f">
+ <Files>
+  <File path="trims_metal_concrete.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/trims_metal_concrete_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/trims_metal_concrete_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/trims_metal_concrete_spec.dds</Path>
+  <Path usageCount="1">textures/generic/metal/trims_metal_concrete_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

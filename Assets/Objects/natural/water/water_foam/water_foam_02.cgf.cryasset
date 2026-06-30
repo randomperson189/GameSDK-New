@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="dda1dd21-667a-dd31-cc42-9e9bf81703f6">
+ <Files>
+  <File path="water_foam_02.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">128</Detail>
+  <Detail name="vertexCount">82</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./water_foam.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="e13bcde6-4638-ac38-0d8e-93b20fa9bf6f">
+ <Files>
+  <File path="door_sign_workshop_diff.dds"/>
+  <File path="door_sign_workshop_diff.dds.1"/>
+  <File path="door_sign_workshop_diff.dds.2"/>
+  <File path="door_sign_workshop_diff.dds.3"/>
+  <File path="door_sign_workshop_diff.dds.4"/>
+  <File path="door_sign_workshop_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="8b8f9957-44a6-7e0f-7f7a-5ff9422ac107">
+ <Files>
+  <File path="particle_green_leafs_b.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">7</Detail>
+  <Detail name="vertexCount">7</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./particle_green_leafs.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

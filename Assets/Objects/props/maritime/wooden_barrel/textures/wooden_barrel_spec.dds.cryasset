@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="1cf3dd6b-b01c-d371-4c13-d637ea34ea4e">
+ <Files>
+  <File path="wooden_barrel_spec.dds"/>
+  <File path="wooden_barrel_spec.dds.1"/>
+  <File path="wooden_barrel_spec.dds.2"/>
+  <File path="wooden_barrel_spec.dds.3"/>
+  <File path="wooden_barrel_spec.dds.4"/>
+  <File path="wooden_barrel_spec.dds.5"/>
+  <File path="wooden_barrel_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

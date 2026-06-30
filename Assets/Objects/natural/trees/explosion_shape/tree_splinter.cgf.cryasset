@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="6fa6e4bf-89f7-35f5-600d-c53499f4f614">
+ <Files>
+  <File path="tree_splinter.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">328</Detail>
+  <Detail name="vertexCount">854</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./tree_splinter.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

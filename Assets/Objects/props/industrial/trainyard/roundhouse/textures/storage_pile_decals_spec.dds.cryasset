@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="f8a7d134-5466-a4fa-c1c1-6caf22b36e01">
+ <Files>
+  <File path="storage_pile_decals_spec.dds"/>
+  <File path="storage_pile_decals_spec.dds.1"/>
+  <File path="storage_pile_decals_spec.dds.2"/>
+  <File path="storage_pile_decals_spec.dds.3"/>
+  <File path="storage_pile_decals_spec.dds.4"/>
+  <File path="storage_pile_decals_spec.dds.5"/>
+  <File path="storage_pile_decals_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

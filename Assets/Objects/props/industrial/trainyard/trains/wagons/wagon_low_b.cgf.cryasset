@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="b004c8b5-3452-6135-3604-ee6adecef6f7">
+ <Files>
+  <File path="wagon_low_b.cgf"/>
+  <File path="wagon_low_b_lod1.cgf"/>
+  <File path="wagon_low_b_lod2.cgf"/>
+  <File path="wagon_low_b_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">6014</Detail>
+  <Detail name="vertexCount">8874</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./wagon_low.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="811552d3-580d-5929-31de-a7d48b1bcfbe">
+ <Files>
+  <File path="glazed_clay.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/pbs_reference/glazed_clay_diff.dds</Path>
+  <Path usageCount="1">objects/pbs_reference/glazed_clay_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Mesh" guid="6a6e1124-6806-f449-837c-4fc84015ed51">
+ <Files>
+  <File path="railroad_wood_ties_c.cgf"/>
+  <File path="railroad_wood_ties_c_lod1.cgf"/>
+  <File path="railroad_wood_ties_c_lod2.cgf"/>
+  <File path="railroad_wood_ties_c_lod3.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">256</Detail>
+  <Detail name="vertexCount">432</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./rail_wood.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

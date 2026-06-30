@@ -1,0 +1,37 @@
+<AssetMetadata version="0" type="Material" guid="3fd45d13-807c-babf-3a04-a7e59323cdb7">
+ <Files>
+  <File path="mh60_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">12</Detail>
+  <Detail name="textureCount">26</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_a_lod2_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_a_lod2_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_a_lod2_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_a_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_a_lod1_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_a_lod1_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_decal_a_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_motion.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_interior_c_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_interior_c_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_interior_c_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_interior_c_height.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_interior_b_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_interior_b_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_interior_b_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_interior_a_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_interior_a_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_interior_a_ddna.dds</Path>
+  <Path usageCount="2">objects/vehicles/mh60_blackhawk/textures/mh60_glass_a_diff.dds</Path>
+  <Path usageCount="2">objects/vehicles/mh60_blackhawk/textures/mh60_glass_a_tint.dds</Path>
+  <Path usageCount="2">objects/vehicles/mh60_blackhawk/textures/mh60_glass_a_ddn.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_tire_a_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_tire_a_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_exterior_a_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_exterior_a_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/mh60_blackhawk/textures/mh60_exterior_a_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

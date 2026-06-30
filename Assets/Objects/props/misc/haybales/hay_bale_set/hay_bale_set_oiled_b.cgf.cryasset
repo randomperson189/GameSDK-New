@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="5b195fd5-9479-7901-23f6-500c6a9d6dd5">
+ <Files>
+  <File path="hay_bale_set_oiled_b.cgf"/>
+  <File path="hay_bale_set_oiled_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">1404</Detail>
+  <Detail name="vertexCount">1719</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./hay_bale_set_b.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

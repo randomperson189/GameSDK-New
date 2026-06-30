@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="03665102-826b-d306-6492-44d01577a0f9">
+ <Files>
+  <File path="forest_skydome.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">480</Detail>
+  <Detail name="vertexCount">296</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./forest_sky_dome.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

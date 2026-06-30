@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="65d8cfd1-5ef6-f3f1-1866-3a4d8b71cef0">
+ <Files>
+  <File path="palm_tree_large.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/natural/trees/palm_tree/textures/palm_tree_leaf.dds</Path>
+  <Path usageCount="1">objects/natural/trees/palm_tree/textures/palm_tree_leaf_ddna.dds</Path>
+  <Path usageCount="1">objects/natural/trees/palm_tree/textures/palm_tree_leaf_trans.dds</Path>
+  <Path usageCount="1">objects/natural/trees/palm_tree/textures/palm_tree_large_trunk.dds</Path>
+  <Path usageCount="1">objects/natural/trees/palm_tree/textures/palm_tree_large_trunk_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Texture" guid="47457ae0-b685-9be2-08b8-105abb982cf3">
+ <Files>
+  <File path="mines_ddna.dds"/>
+  <File path="mines_ddna.dds.a"/>
+  <File path="mines_ddna.dds.1"/>
+  <File path="mines_ddna.dds.1a"/>
+  <File path="mines_ddna.dds.2"/>
+  <File path="mines_ddna.dds.2a"/>
+  <File path="mines_ddna.dds.3"/>
+  <File path="mines_ddna.dds.3a"/>
+  <File path="mines_ddna.dds.4"/>
+  <File path="mines_ddna.dds.4a"/>
+  <File path="mines_ddna.dds.5"/>
+  <File path="mines_ddna.dds.5a"/>
+  <File path="mines_ddna.dds.6"/>
+  <File path="mines_ddna.dds.6a"/>
+  <File path="mines_ddna.dds.7"/>
+  <File path="mines_ddna.dds.7a"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

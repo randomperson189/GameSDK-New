@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="5692f8e1-439a-8211-250a-f28930a6c845">
+ <Files>
+  <File path="plaster_rough_bare.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/plaster_rough_bare_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/plaster_rough_bare_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

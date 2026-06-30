@@ -1,0 +1,20 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="stone" MtlFlags="524416" Shader="Illum" GenMask="800000A1" StringGenMask="%ALLOW_SILHOUETTE_POM%BLENDLAYER%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.047775757,0.047775757,0.047775757" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/concrete/concrete_broken_diff.tif">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/concrete/concrete_broken_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/concrete_blend.tif"/>
+    <Texture Map="Custom" File="textures/generic/concrete/ceiling_concrete01_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/concrete/ceiling_concrete01_ddna.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="32" BlendLayer2Tiling="0.25" SSSIndex="0" BlendMaskTiling="0.25" BlendFactor="8" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

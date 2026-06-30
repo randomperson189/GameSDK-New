@@ -1,0 +1,50 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.57758057,0.57758057,0.57758057" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/livingroomlamp_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/furniture/appliances/lamps/textures/livingroomlamp_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="fabric_a_off" MtlFlags="524448" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.0069954107,0.0069954107,0.0069954107" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/livingroomlamp_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/furniture/appliances/lamps/textures/livingroomlamp_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+   <MaterialLayers>
+    <Layer Name="Illum" NoDraw="0" FadeOut="0">
+     <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+    </Layer>
+    <Layer />
+    <Layer />
+   </MaterialLayers>
+  </Material>
+  <Material Name="fabric_b_off" MtlFlags="524448" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.21586053,0.21586053,0.21586053" Specular="0.0069954107,0.0069954107,0.0069954107" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/kitchenlamp_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/furniture/appliances/lamps/textures/kitchenlamp_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="fabric_a_on" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="20" Opacity="1" GlowAmount="2" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/livingroomlamp_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/furniture/appliances/lamps/textures/livingroomlamp_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="fabric_b_on" MtlFlags="524416" Shader="Illum" GenMask="80081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.21586053,0.21586053,0.21586053" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="0.75" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/props/furniture/appliances/lamps/textures/kitchenlamp_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/furniture/appliances/lamps/textures/kitchenlamp_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

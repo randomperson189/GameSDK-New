@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="66aa24c2-0c6d-e24d-6ed9-0f1692cd36cf">
+ <Files>
+  <File path="turntable.cgf"/>
+  <File path="turntable_lod1.cgf"/>
+  <File path="turntable_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">13</Detail>
+  <Detail name="triangleCount">3542</Detail>
+  <Detail name="vertexCount">5616</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./turntable.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

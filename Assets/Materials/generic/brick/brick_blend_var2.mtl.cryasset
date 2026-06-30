@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="dfd7932d-f573-07b2-c4d7-8ae4737980f5">
+ <Files>
+  <File path="brick_blend_var2.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/eroded_concrete_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/eroded_concrete_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_wall_red_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_wall_red_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/blend_masks/brick_blend.dds</Path>
+ </Dependencies>
+</AssetMetadata>

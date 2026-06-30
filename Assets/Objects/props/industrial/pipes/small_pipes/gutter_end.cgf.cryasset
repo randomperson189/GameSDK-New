@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="7ab4f2c6-fd20-cc6c-9955-3a9ea1b44f96">
+ <Files>
+  <File path="gutter_end.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">70</Detail>
+  <Detail name="vertexCount">68</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./pipes.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

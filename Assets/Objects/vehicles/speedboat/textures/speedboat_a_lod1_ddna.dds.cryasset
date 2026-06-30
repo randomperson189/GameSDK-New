@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="425c846c-9e6c-a934-6027-ad808f64662c">
+ <Files>
+  <File path="speedboat_a_lod1_ddna.dds"/>
+  <File path="speedboat_a_lod1_ddna.dds.a"/>
+  <File path="speedboat_a_lod1_ddna.dds.1"/>
+  <File path="speedboat_a_lod1_ddna.dds.1a"/>
+  <File path="speedboat_a_lod1_ddna.dds.2"/>
+  <File path="speedboat_a_lod1_ddna.dds.2a"/>
+  <File path="speedboat_a_lod1_ddna.dds.3"/>
+  <File path="speedboat_a_lod1_ddna.dds.3a"/>
+  <File path="speedboat_a_lod1_ddna.dds.4"/>
+  <File path="speedboat_a_lod1_ddna.dds.4a"/>
+  <File path="speedboat_a_lod1_ddna.dds.5"/>
+  <File path="speedboat_a_lod1_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

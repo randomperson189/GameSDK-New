@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="e83c7041-0316-812f-8e94-dab9158967b5">
+ <Files>
+  <File path="ground_cover_fern_b.cgf"/>
+  <File path="ground_cover_fern_b_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">248</Detail>
+  <Detail name="vertexCount">245</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./ground_cover.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

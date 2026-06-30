@@ -1,0 +1,22 @@
+<AssetMetadata version="0" type="Material" guid="ec657a4c-a2e7-8e21-6cf9-d80653d4b412">
+ <Files>
+  <File path="tunnel.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">11</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/brick/brick_raw_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_raw_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_raw_displ.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/moss_diff.dds</Path>
+  <Path usageCount="1">objects/natural/rocks/forest_rocks/textures/moss_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_raw_blend.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/rough_concrete_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/rough_concrete_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/plaster_grey_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/plaster_grey_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/plaster_rough_stones_mask.dds</Path>
+ </Dependencies>
+</AssetMetadata>

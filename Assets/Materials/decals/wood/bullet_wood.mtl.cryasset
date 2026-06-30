@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="106fe265-0c9a-96b9-0fc3-88273c67a2c3">
+ <Files>
+  <File path="bullet_wood.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/wood/bullet_wood.dds</Path>
+  <Path usageCount="1">textures/decals/wood/bullet_wood_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

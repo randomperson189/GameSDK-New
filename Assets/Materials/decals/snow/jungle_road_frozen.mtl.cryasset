@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="08f5fc1c-cde6-85ca-51be-25db5fa4f668">
+ <Files>
+  <File path="jungle_road_frozen.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/snow/jungle_road_frozen_decal.dds</Path>
+  <Path usageCount="1">textures/decals/snow/jungle_road_frozen_decal_ddna.dds</Path>
+  <Path usageCount="1">textures/decals/snow/jungle_road_frozen_decal_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>

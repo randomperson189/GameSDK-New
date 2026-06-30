@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="b7ef9b3b-df5c-f36e-d9cd-fab157e8112b">
+ <Files>
+  <File path="c_spruce_c_leaning.cgf"/>
+  <File path="c_spruce_c_leaning_lod1.cgf"/>
+  <File path="c_spruce_c_leaning_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">434</Detail>
+  <Detail name="vertexCount">433</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./spruce.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

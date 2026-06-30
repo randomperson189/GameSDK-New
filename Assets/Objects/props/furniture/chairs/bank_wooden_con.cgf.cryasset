@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="36ea950d-fed5-d629-fc3b-6bafa5d66eb5">
+ <Files>
+  <File path="bank_wooden_con.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">710</Detail>
+  <Detail name="vertexCount">1126</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./chair_wooden_con.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

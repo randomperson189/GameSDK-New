@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="27b6fdfb-7206-b60d-0bb3-40ea973d4cbc">
+ <Files>
+  <File path="small_plane_c.cgf"/>
+  <File path="small_plane_c_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">6</Detail>
+  <Detail name="triangleCount">9069</Detail>
+  <Detail name="vertexCount">9706</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./small_plane_blue.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="1287abd1-527a-c8dc-9e1f-27ac6068a4d6">
+ <Files>
+  <File path="mh60_tire_a_diff.dds"/>
+  <File path="mh60_tire_a_diff.dds.1"/>
+  <File path="mh60_tire_a_diff.dds.2"/>
+  <File path="mh60_tire_a_diff.dds.3"/>
+  <File path="mh60_tire_a_diff.dds.4"/>
+  <File path="mh60_tire_a_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

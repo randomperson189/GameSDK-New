@@ -1,0 +1,28 @@
+<AssetMetadata version="0" type="Material" guid="a0c77288-3d01-3fd6-68ed-faa56e2a7896">
+ <Files>
+  <File path="abrams.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">14</Detail>
+  <Detail name="textureCount">17</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_damage.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_misc.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_misc_ddna.dds</Path>
+  <Path usageCount="2">objects/vehicles/abrams_old/textures/abrams_decals.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_turret.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_turret_ddna.dds</Path>
+  <Path usageCount="6">textures/detail_bumpmaps/metal/metal_scratches_detail.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_wheels.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_wheels_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_track.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_track_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_grating.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_grating_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_skirt.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_skirt_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_hull.dds</Path>
+  <Path usageCount="1">objects/vehicles/abrams_old/textures/abrams_hull_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

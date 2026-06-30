@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="87d8d3fa-d797-86a9-3ff4-0441e3a7a2d0">
+ <Files>
+  <File path="metal_electric_pole.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/concrete/concrete_corner_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_corner_ddna.dds</Path>
+  <Path usageCount="1">objects/props/industrial/electrical/electric_pole/textures/electric_pole_details_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/electrical/electric_pole/textures/electric_pole_details_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/drain_pipe_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/drain_pipe_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

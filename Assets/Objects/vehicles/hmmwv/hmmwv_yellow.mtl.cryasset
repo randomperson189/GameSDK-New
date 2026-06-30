@@ -1,0 +1,35 @@
+<AssetMetadata version="0" type="Material" guid="7a485ec4-00e9-3030-3822-04cf4418acf7">
+ <Files>
+  <File path="hmmwv_yellow.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">13</Detail>
+  <Detail name="textureCount">24</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_yellow_a_lod5_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_lod5_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_lod5_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_yellow_a_lod4_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_lod4_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_lod4_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_yellow_a_lod3_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_lod3_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_lod3_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_yellow_a_lod2_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_lod2_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_lod2_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_yellow_a_lod1_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_lod1_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_lod1_spec.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_grate_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_grate_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_decal_dark_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_glass_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_glass_ddn.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_glass_tint_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_body_yellow_diff.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_body_ddna.dds</Path>
+  <Path usageCount="1">objects/vehicles/hmmwv/textures/hmmwv_a_body_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

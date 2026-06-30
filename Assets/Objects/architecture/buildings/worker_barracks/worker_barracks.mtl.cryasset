@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="Material" guid="03a333c4-e41d-7065-e137-853f7d566a06">
+ <Files>
+  <File path="worker_barracks.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">9</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/wood/wood_tile_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_tile_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_005_detail.dds</Path>
+  <Path usageCount="1">textures/generic/glass/glass_dirty_tint.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_door_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_door_a_ddna.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/worker_barracks/textures/corugated_metal_a_diff.dds</Path>
+  <Path usageCount="1">objects/architecture/buildings/worker_barracks/textures/corugated_metal_a_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_scratches_a_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

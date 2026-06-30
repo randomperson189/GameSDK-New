@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="0c096613-8197-4be2-cd8a-27b66c2d8fa4">
+ <Files>
+  <File path="railroad_track.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/trainyard/railroad_tracks/textures/railroad_track_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/railroad_tracks/textures/railroad_track_spec.dds</Path>
+  <Path usageCount="1">objects/props/industrial/trainyard/railroad_tracks/textures/railroad_track_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

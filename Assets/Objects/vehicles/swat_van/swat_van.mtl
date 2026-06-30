@@ -1,0 +1,83 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="exterior" MtlFlags="524416" Shader="Illum" GenMask="C1000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/swat_van/textures/swat_van_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/swat_van/textures/swat_van_a_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/swat_van/textures/swat_van_a_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="int" MtlFlags="524416" Shader="Illum" GenMask="C1000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/swat_van/textures/swat_van_int_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/swat_van/textures/swat_van_int_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/swat_van/textures/swat_van_int_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="2623648" Shader="Glass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="0.023153368,0.023153368,0.023153368" Emissive="0,0,0" Opacity="1" Shininess="220" AlphaTest="0.1" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams BumpMapTile="1" TintColor="0.30054381,0.3185468,0.3467041" TintCloudiness="0.02" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="alpha" MtlFlags="524416" Shader="Illum" GenMask="C1000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/swat_van/textures/swat_van_b_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/swat_van/textures/swat_van_b_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/swat_van/textures/swat_van_b_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="attachments" MtlFlags="524416" Shader="Illum" GenMask="C1000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/swat_van/textures/swat_van_attach_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/swat_van/textures/swat_van_attach_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/swat_van/textures/swat_van_attach_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="light" MtlFlags="524416" Shader="Illum" GenMask="80000080" StringGenMask="%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.61720669,0,0" Specular="0.042311415,0.042311415,0.042311415" Emissive="0,0,0" Opacity="1" Shininess="140" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/swat_van/textures/swat_van_c_diff.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plastic/plastic_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailDiffuseScale="0" SSSIndex="0.99000001" DetailBumpScale="0.0099999998" DetailGlossScale="0.5" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+  </Material>
+  <Material Name="cloth" MtlFlags="524416" Shader="Illum" GenMask="C1000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/swat_van/textures/swat_van_int_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/swat_van/textures/swat_van_int_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/swat_van/textures/swat_van_int_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="lod1" MtlFlags="524416" Shader="Illum" GenMask="C1000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/swat_van/textures/swat_van_lod1_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/swat_van/textures/swat_van_lod1_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/swat_van/textures/swat_van_lod1_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lod2" MtlFlags="524416" Shader="Illum" GenMask="C1000000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/swat_van/textures/swat_van_lod2_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/swat_van/textures/swat_van_lod2_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/swat_van/textures/swat_van_lod2_spec.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="damaged" MtlFlags="524416" Shader="Illum" GenMask="80000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.023153368,0.023153368,0.023153368" Emissive="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/abrams_old/textures/abrams_damage.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

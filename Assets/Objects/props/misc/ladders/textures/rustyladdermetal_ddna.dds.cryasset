@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Texture" guid="8826ff59-4e73-2dd5-b4bb-b6383e204e7b">
+ <Files>
+  <File path="rustyladdermetal_ddna.dds"/>
+  <File path="rustyladdermetal_ddna.dds.a"/>
+  <File path="rustyladdermetal_ddna.dds.1"/>
+  <File path="rustyladdermetal_ddna.dds.1a"/>
+  <File path="rustyladdermetal_ddna.dds.2"/>
+  <File path="rustyladdermetal_ddna.dds.2a"/>
+  <File path="rustyladdermetal_ddna.dds.3"/>
+  <File path="rustyladdermetal_ddna.dds.3a"/>
+  <File path="rustyladdermetal_ddna.dds.4"/>
+  <File path="rustyladdermetal_ddna.dds.4a"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

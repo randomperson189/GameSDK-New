@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Texture" guid="41b5ae53-f78e-8b8f-2726-a5ba046acdfd">
+ <Files>
+  <File path="beech_tree_leaf_full_ddna.dds"/>
+  <File path="beech_tree_leaf_full_ddna.dds.a"/>
+  <File path="beech_tree_leaf_full_ddna.dds.1"/>
+  <File path="beech_tree_leaf_full_ddna.dds.1a"/>
+  <File path="beech_tree_leaf_full_ddna.dds.2"/>
+  <File path="beech_tree_leaf_full_ddna.dds.2a"/>
+  <File path="beech_tree_leaf_full_ddna.dds.3"/>
+  <File path="beech_tree_leaf_full_ddna.dds.3a"/>
+  <File path="beech_tree_leaf_full_ddna.dds.4"/>
+  <File path="beech_tree_leaf_full_ddna.dds.4a"/>
+  <File path="beech_tree_leaf_full_ddna.dds.5"/>
+  <File path="beech_tree_leaf_full_ddna.dds.5a"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

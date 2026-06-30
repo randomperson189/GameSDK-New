@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="138ec2e0-1c18-54bf-e6e6-036b9803c477">
+ <Files>
+  <File path="neon_light_diff.dds"/>
+  <File path="neon_light_diff.dds.1"/>
+  <File path="neon_light_diff.dds.2"/>
+  <File path="neon_light_diff.dds.3"/>
+  <File path="neon_light_diff.dds.4"/>
+  <File path="neon_light_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

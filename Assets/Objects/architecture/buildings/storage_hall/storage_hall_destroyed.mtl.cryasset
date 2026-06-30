@@ -1,0 +1,24 @@
+<AssetMetadata version="0" type="Material" guid="c750e908-2e3f-3355-c5bf-3e911c7b5730">
+ <Files>
+  <File path="storage_hall_destroyed.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">8</Detail>
+  <Detail name="textureCount">13</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_gate_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_gate_a_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_wall_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/concrete_wall_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/wall_cracked_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/wall_cracked_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_stribes_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/roof_paper_diff.dds</Path>
+  <Path usageCount="1">textures/generic/concrete/roof_paper_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_wall02_diff.dds</Path>
+  <Path usageCount="1">textures/generic/brick/brick_wall02_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

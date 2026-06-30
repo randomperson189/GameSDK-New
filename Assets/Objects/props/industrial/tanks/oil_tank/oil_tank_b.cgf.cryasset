@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ba8cd0b4-9890-c6aa-3f9d-1a6b181fcaef">
+ <Files>
+  <File path="oil_tank_b.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1192</Detail>
+  <Detail name="vertexCount">1490</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./oil_tank.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

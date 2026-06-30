@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="100b469b-4957-fa70-53b5-a4ea1d98fea4">
+ <Files>
+  <File path="reception_lift_surround.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">4</Detail>
+  <Detail name="triangleCount">14</Detail>
+  <Detail name="vertexCount">28</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./receptionlift.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

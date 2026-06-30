@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="792123d8-6393-5172-c0ba-357ad19af5aa">
+ <Files>
+  <File path="Outdoor_Spotlight_a_beam.cgf"/>
+  <File path="Outdoor_Spotlight_a_beam_lod1.cgf"/>
+  <File path="Outdoor_Spotlight_a_beam_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">8</Detail>
+  <Detail name="triangleCount">836</Detail>
+  <Detail name="vertexCount">744</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./outdoor_spotlight.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

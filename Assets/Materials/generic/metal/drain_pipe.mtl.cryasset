@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="c38560ee-4d25-c0b4-e841-c1b544555df8">
+ <Files>
+  <File path="drain_pipe.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/drain_pipe_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/drain_pipe_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/drain_pipe_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

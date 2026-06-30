@@ -1,0 +1,42 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="needles" MtlFlags="524416" Shader="Vegetation" GenMask="2400801080" StringGenMask="%BUMP_MAP%DETAIL_BENDING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="255" Opacity="1" AlphaTest="0.5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/pine/textures/pine_leaves_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/pine/textures/pine_leaves_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/trees/pine/textures/pine_leaves_sss.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0" bendDetailFrequency="0.5" bendDetailBranchAmplitude="-0.02" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.15000001" BackDiffuseMultiplier="1" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="trunk" MtlFlags="524416" Shader="Vegetation" GenMask="2400000180" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood_breakable" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/pine/textures/pine_trunk.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/pine/textures/pine_trunk_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_fine_detail.tif">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" DetailDiffuseScale="1" VertexAlphaBlendFactor="1" DetailBumpScale="2" BlendMaskTiling="1" BlendTerrainColDist="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="bending" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="lod" MtlFlags="524448" Shader="Vegetation" GenMask="2400800000" StringGenMask="%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0.0091340598,0.0091340598,0.0091340598" Emissive="0,0,0" Shininess="10" Opacity="1" AlphaTest="0.60000002" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/pine/textures/lod_snow.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="0" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0.25" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="snow" MtlFlags="524418" Shader="Vegetation" GenMask="2400801180" StringGenMask="%BUMP_MAP%DETAIL_BENDING%DETAIL_MAPPING%LEAVES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_snow" MatTemplate="" Diffuse="0.49693301,0.49693301,0.49693301" Specular="0.022173885,0.022173885,0.022173885" Emissive="0,0,0" Shininess="220" Opacity="1" AlphaTest="0.5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/pine/textures/snow_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/pine/textures/snow_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/concrete/concrete_3_detail.tif">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.017000001" bendDetailFrequency="0.5" bendDetailBranchAmplitude="-0.02" BlendTerrainCol="0" DetailDiffuseScale="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,1" DetailBumpScale="2" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.25" BackDiffuseMultiplier="0.30000001" BlendTerrainColDist="0.5" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="21b49ef2-a71d-5750-d73a-b1a66b40916c">
+ <Files>
+  <File path="cardboard_box.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/boxes/cardboard_box/textures/cardboard_box_diff.dds</Path>
+  <Path usageCount="1">objects/props/industrial/boxes/cardboard_box/textures/cardboard_box_ddna.dds</Path>
+  <Path usageCount="1">objects/props/industrial/boxes/cardboard_box/textures/cardboard_box_dtl.dds</Path>
+ </Dependencies>
+</AssetMetadata>

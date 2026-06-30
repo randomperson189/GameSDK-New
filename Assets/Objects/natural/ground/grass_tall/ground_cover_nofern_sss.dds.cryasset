@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="483f0693-fca0-e560-cff3-6d8c8da02887">
+ <Files>
+  <File path="ground_cover_nofern_sss.dds"/>
+  <File path="ground_cover_nofern_sss.dds.1"/>
+  <File path="ground_cover_nofern_sss.dds.2"/>
+  <File path="ground_cover_nofern_sss.dds.3"/>
+  <File path="ground_cover_nofern_sss.dds.4"/>
+  <File path="ground_cover_nofern_sss.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="61c36c0a-b45b-a2b2-d0da-10691c2bca90">
+ <Files>
+  <File path="mh60_motion.dds"/>
+  <File path="mh60_motion.dds.1"/>
+  <File path="mh60_motion.dds.2"/>
+  <File path="mh60_motion.dds.3"/>
+  <File path="mh60_motion.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

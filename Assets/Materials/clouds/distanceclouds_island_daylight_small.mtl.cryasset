@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="b6ca23e1-eec2-0569-49b5-0a8a5f1b7e3e">
+ <Files>
+  <File path="distanceclouds_island_daylight_small.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/clouds/distant_cloud_higher.dds</Path>
+ </Dependencies>
+</AssetMetadata>

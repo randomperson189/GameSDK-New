@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="fceb7f58-f585-8b93-8835-c8c85ec91936">
+ <Files>
+  <File path="te_elevator_dirt.dds"/>
+  <File path="te_elevator_dirt.dds.1"/>
+  <File path="te_elevator_dirt.dds.2"/>
+  <File path="te_elevator_dirt.dds.3"/>
+  <File path="te_elevator_dirt.dds.4"/>
+  <File path="te_elevator_dirt.dds.5"/>
+  <File path="te_elevator_dirt.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

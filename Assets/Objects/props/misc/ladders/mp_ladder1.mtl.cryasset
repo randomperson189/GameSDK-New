@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="3ec880a1-0823-99be-fa70-5443a613b728">
+ <Files>
+  <File path="mp_ladder1.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/ladders/textures/rustyladdermetal_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/ladders/textures/rustyladdermetal_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

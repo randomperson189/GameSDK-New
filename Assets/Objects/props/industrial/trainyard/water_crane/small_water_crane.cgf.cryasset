@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Mesh" guid="50ea19aa-7bb1-5b8f-9793-087dd498268c">
+ <Files>
+  <File path="small_water_crane.cgf"/>
+  <File path="small_water_crane_lod1.cgf"/>
+  <File path="small_water_crane_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">169</Detail>
+  <Detail name="vertexCount">194</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./small_water_crane.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

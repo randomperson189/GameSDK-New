@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="5dd55c58-6689-8dd5-b693-c3a337d1948f">
+ <Files>
+  <File path="ground_cover_fernbush_ddna.dds"/>
+  <File path="ground_cover_fernbush_ddna.dds.a"/>
+  <File path="ground_cover_fernbush_ddna.dds.1"/>
+  <File path="ground_cover_fernbush_ddna.dds.1a"/>
+  <File path="ground_cover_fernbush_ddna.dds.2"/>
+  <File path="ground_cover_fernbush_ddna.dds.2a"/>
+  <File path="ground_cover_fernbush_ddna.dds.3"/>
+  <File path="ground_cover_fernbush_ddna.dds.3a"/>
+  <File path="ground_cover_fernbush_ddna.dds.4"/>
+  <File path="ground_cover_fernbush_ddna.dds.4a"/>
+  <File path="ground_cover_fernbush_ddna.dds.5"/>
+  <File path="ground_cover_fernbush_ddna.dds.5a"/>
+  <File path="ground_cover_fernbush_ddna.dds.6"/>
+  <File path="ground_cover_fernbush_ddna.dds.6a"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="2a3d0ec7-a3e3-b976-5515-2948f99e985e">
+ <Files>
+  <File path="breakable_glass.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">5</Detail>
+  <Detail name="triangleCount">364</Detail>
+  <Detail name="vertexCount">704</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./breakable_glass.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

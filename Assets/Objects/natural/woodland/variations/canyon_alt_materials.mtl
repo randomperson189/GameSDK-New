@@ -1,0 +1,21 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="canyon_rock_shader" MtlFlags="524416" Shader="Illum" GenMask="C00000A0" StringGenMask="%BLENDLAYER%BUMP_MAP%SPEC_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.057805438,0.057805438,0.057805438" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/canyon_rocks/canyon_rock_diff.tif">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/natural/rocks/canyon_rocks/canyon_rock_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/natural/woodland/river_rock_blend.tif"/>
+    <Texture Map="Custom" File="objects/natural/woodland/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/woodland/moss_ddna.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="4.8000002" BlendLayer2Tiling="5.5" SSSIndex="0" BlendMaskTiling="1" BlendFactor="0.47" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.5,0,0" Specular="0.5,0.5,0.5" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

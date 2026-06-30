@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="ba919713-4d86-a1a1-24af-eaa338204418">
+ <Files>
+  <File path="signal.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/industrial/trainyard/signal/textures/signal_diff.dds</Path>
+ </Dependencies>
+</AssetMetadata>

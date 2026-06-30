@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="dd8c4353-5df9-421a-9340-723d192a3577">
+ <Files>
+  <File path="Kitchen_Lamp_c_on.cgf"/>
+  <File path="Kitchen_Lamp_c_on_lod1.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">7</Detail>
+  <Detail name="triangleCount">1496</Detail>
+  <Detail name="vertexCount">1759</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./kitchen_lamp.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

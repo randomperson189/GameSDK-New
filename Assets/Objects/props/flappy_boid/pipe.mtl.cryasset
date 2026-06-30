@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="74d3aa91-dbd3-a320-5a23-00965b34ea06">
+ <Files>
+  <File path="pipe.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">9</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/decals/dirt/dirt_on_road_16.dds</Path>
+  <Path usageCount="1">textures/decals/dirt/dirt_on_road_16_ddn.dds</Path>
+  <Path usageCount="1">textures/decals/dirt/dirt_on_road_16_displ.dds</Path>
+  <Path usageCount="5">textures/defaults/grey.dds</Path>
+  <Path usageCount="1">./nearest_cubemap.dds</Path>
+  <Path usageCount="1">textures/sprites/glow/gradient_glow.dds</Path>
+ </Dependencies>
+</AssetMetadata>

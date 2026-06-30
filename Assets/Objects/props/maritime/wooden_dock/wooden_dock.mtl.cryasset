@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="e0b2cc4a-4b5d-cd43-ad8e-812587d807f4">
+ <Files>
+  <File path="wooden_dock.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/maritime/wooden_dock/textures/wooden_dock_diff.dds</Path>
+  <Path usageCount="1">objects/props/maritime/wooden_dock/textures/wooden_dock_ddna.dds</Path>
+  <Path usageCount="1">textures/detail_bumpmaps/wood/wood_fine_b_detail.dds</Path>
+ </Dependencies>
+</AssetMetadata>

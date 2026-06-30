@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="9d85265d-fe23-f41b-97a6-f824d98e295f">
+ <Files>
+  <File path="canyon_wall_up_river_wet_diff.dds"/>
+  <File path="canyon_wall_up_river_wet_diff.dds.1"/>
+  <File path="canyon_wall_up_river_wet_diff.dds.2"/>
+  <File path="canyon_wall_up_river_wet_diff.dds.3"/>
+  <File path="canyon_wall_up_river_wet_diff.dds.4"/>
+  <File path="canyon_wall_up_river_wet_diff.dds.5"/>
+  <File path="canyon_wall_up_river_wet_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="73ca054c-d91b-e8b8-081d-a2e6ca4a312b">
+ <Files>
+  <File path="forestgrass_spec.dds"/>
+  <File path="forestgrass_spec.dds.1"/>
+  <File path="forestgrass_spec.dds.2"/>
+  <File path="forestgrass_spec.dds.3"/>
+  <File path="forestgrass_spec.dds.4"/>
+  <File path="forestgrass_spec.dds.5"/>
+  <File path="forestgrass_spec.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

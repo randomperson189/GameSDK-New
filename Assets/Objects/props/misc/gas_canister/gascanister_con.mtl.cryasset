@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="87de0256-838f-da52-2d23-e10e1106c02a">
+ <Files>
+  <File path="gascanister_con.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/props/misc/gas_canister/textures/gascanister_diff.dds</Path>
+  <Path usageCount="1">objects/props/misc/gas_canister/textures/gascanister_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

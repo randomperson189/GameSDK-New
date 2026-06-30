@@ -1,0 +1,25 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="tarp" MtlFlags="524418" Shader="Illum" GenMask="2080000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.1301365,0.19120172,0.21223079" Specular="0.042311415,0.042311415,0.042311415" Emissive="0,0,0" Shininess="255" Opacity="1" vertModifType="2" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/plastic/plastic_tarp_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/plastic/plastic_tarp_ddna.tif"/>
+   </Textures>
+   <VertexDeform Type="2" DividerX="0.0099999998" DividerY="0.0099999998" DividerZ="0.0099999998" DividerW="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.0033" Level="0" Phase="0" Freq="1"/>
+   </VertexDeform>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="2080000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/misc/stacked_logs/textures/stacked_logs_diff.tif" Filter="7"/>
+    <Texture Map="Bumpmap" File="objects/props/misc/stacked_logs/textures/stacked_logs_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="49855313-322f-ed2d-8040-b00444d067e5">
+ <Files>
+  <File path="spruce_border_d_lod2.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">1</Detail>
+  <Detail name="triangleCount">398</Detail>
+  <Detail name="vertexCount">756</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">Objects/natural/woodland/spruce_border_d.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

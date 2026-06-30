@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="e109fae3-d2f3-7ac0-1555-3dd480ae2d4f">
+ <Files>
+  <File path="ceiling_planks.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/metal_parts_a_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/metal_parts_a_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_diff.dds</Path>
+  <Path usageCount="1">textures/generic/wood/wood_sheets_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

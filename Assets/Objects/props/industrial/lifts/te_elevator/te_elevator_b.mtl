@@ -1,0 +1,56 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="body" MtlFlags="524416" Shader="Illum" GenMask="2080004081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%DIRTLAYER%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" GlowAmount="5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/lifts/te_elevator/textures/te_elevator_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/lifts/te_elevator/textures/te_elevator_ddna.tif"/>
+    <Texture Map="Decal" File="objects/props/industrial/lifts/te_elevator/textures/te_elevator_decal.tif">
+     <TexMod OffsetV="0.5" TexMod_VOscillatorRate="1" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/props/industrial/lifts/te_elevator/textures/te_elevator_dirt.tif"/>
+   </Textures>
+   <PublicParams DirtTint="1,1,1" DirtGlossFactor="1" DirtTiling="1" DirtStrength="0" DirtMapAlphaInfluence="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="524416" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" GlowAmount="2" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/lifts/te_elevator/textures/te_elevator_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/lifts/te_elevator/textures/te_elevator_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="doors" MtlFlags="524416" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="1" GlowAmount="5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/lifts/te_elevator/textures/te_elevator_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/lifts/te_elevator/textures/te_elevator_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="signs_off" MtlFlags="524448" Shader="Illum" GenMask="80000081" StringGenMask="%ALLOW_SILHOUETTE_POM%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="0.99000001" GlowAmount="5" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/lifts/te_elevator/textures/te_elevator_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/lifts/te_elevator/textures/te_elevator_ddna.tif"/>
+   </Textures>
+   <PublicParams SSSIndex="0" IndirectColor="0.25084025,0.25084025,0.25084025"/>
+  </Material>
+  <Material Name="signs_on" MtlFlags="524448" Shader="Illum" GenMask="80000083" StringGenMask="%ALLOW_SILHOUETTE_POM%ALPHAGLOW%BUMP_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="255" Opacity="0.99000001" GlowAmount="20" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/lifts/te_elevator/textures/te_elevator_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/lifts/te_elevator/textures/te_elevator_ddna.tif"/>
+    <Texture Map="Decal" File="objects/props/industrial/lifts/te_elevator/textures/te_elevator_decal.tif">
+     <TexMod OffsetV="0.5" TexMod_VOscillatorRate="1" TexMod_VOscillatorPhase="1" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="0" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass_see_through" MtlFlags="2623660" Shader="Glass" GenMask="10010" StringGenMask="%BILINEAR_FP16%ENVIRONMENT_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0.21951973,0.21951973,0.21951973" Emissive="0,0,0" Shininess="230" Opacity="0.99000001" LayerAct="1">
+   <Textures>
+   </Textures>
+   <DetailDecal Opacity="90" SSAOAmount="45" topTileU="9.3199997" topTileV="3.8499999" topOffsV="0" topOffsU="0" topRotation="0" topDeformation="0" topSortOffset="35" bottomTileU="8.7299995" bottomTileV="9.6000004" bottomOffsV="0.5" bottomOffsU="0.5" bottomRotation="0" bottomDeformation="0" bottomSortOffset="42"/>
+   <PublicParams BumpMapTile="1" TintColor="0.025186861,0.02842604,0.034339812" FresnelScale="1" FresnelBias="0.75" TintCloudiness="1" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

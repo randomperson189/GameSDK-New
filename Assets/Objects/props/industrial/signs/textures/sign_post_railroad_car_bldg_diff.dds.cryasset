@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="ca61e30f-c711-c04a-5d8f-11e1ff4231c4">
+ <Files>
+  <File path="sign_post_railroad_car_bldg_diff.dds"/>
+  <File path="sign_post_railroad_car_bldg_diff.dds.1"/>
+  <File path="sign_post_railroad_car_bldg_diff.dds.2"/>
+  <File path="sign_post_railroad_car_bldg_diff.dds.3"/>
+  <File path="sign_post_railroad_car_bldg_diff.dds.4"/>
+  <File path="sign_post_railroad_car_bldg_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

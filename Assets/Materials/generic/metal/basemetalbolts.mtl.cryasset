@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="aa619385-ebfa-8bca-c984-5056b63d5028">
+ <Files>
+  <File path="basemetalbolts.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">textures/generic/metal/basemetalbolts_diff.dds</Path>
+  <Path usageCount="1">textures/generic/metal/basemetalbolts_ddna.dds</Path>
+  <Path usageCount="1">textures/generic/metal/basemetalbolts_displ.dds</Path>
+ </Dependencies>
+</AssetMetadata>
