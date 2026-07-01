@@ -1,5 +1,6 @@
 *.lnk
 *.log
+*.thmb.*
 solutions/*
 user*/*
 logbackups/*
