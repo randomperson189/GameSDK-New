@@ -312,7 +312,8 @@ public:
 protected:
 	bool m_bCrouching = false;
 
-	int m_cameraJointId = -1;
+	int m_cameraJointId1P = -1;
+	int m_cameraJointId3P = -1;
 
 	Vec3 m_smoothedOffset;
 

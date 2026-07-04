@@ -16,6 +16,10 @@ public:
 	// IEntityComponent
 	virtual void Initialize() override;
 
+	virtual Cry::Entity::EventFlags GetEventMask() const override;
+	virtual void ProcessEvent(const SEntityEvent& event) override;
+	// ~IEntityComponent
+
 	// Reflect type to set a unique identifier for this component
 	static void ReflectType(Schematyc::CTypeDesc<CTimerComponent>& desc)
 	{
@@ -25,7 +29,15 @@ public:
 		desc.SetLabel("Timer");
 		desc.SetDescription("Component to do timers");
 	}
-	// ~IEntityComponent
 
-	void ExecuteConsoleCommand(Schematyc::CSharedString command, bool bSilentMode = false, bool bDeferExecution = false);
+	void SetTimerSchematyc(uint32 timerId, int timeInMilliseconds);
+	void KillTimerSchematyc(uint32 timerId);
+
+	struct SOnTimer
+	{
+		SOnTimer() = default;
+		SOnTimer(int timerId) : timerId(timerId) {}
+
+		int timerId;
+	};
 };

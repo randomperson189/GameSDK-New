@@ -1,4 +1,4 @@
-// Copyright 2017-2020 Crytek GmbH / Crytek Group. All rights reserved.
+﻿// Copyright 2017-2020 Crytek GmbH / Crytek Group. All rights reserved.
 #include "StdAfx.h"
 #include "Player.h"
 #include "Bullet.h"
@@ -787,11 +787,32 @@ void CPlayerComponent::UpdateAnimation(float frameTime)
 			if (IAnimationPoseBlenderDir* pAim = pCharacter->GetISkeletonPose()->GetIPoseBlenderAim())
 			{
 				Matrix34 cameraTM = m_pCameraComponent->GetWorldTransformMatrix();
-
 				Vec3 cameraPos = cameraTM.GetTranslation();
-				Vec3 forward = m_lookOrientation.GetColumn1();
 
-				Vec3 target = cameraPos + forward * 1000.0f;
+				// Copy orientation
+				Quat lookQuat = m_lookOrientation;
+
+				// Convert to direction
+				Vec3 forward = lookQuat.GetColumn1();
+				forward.Normalize();
+
+				// Extract yaw and pitch from direction
+				float yaw = atan2f(forward.x, forward.y);
+				float pitch = asinf(forward.z);
+
+				// Clamp pitch
+				pitch = clamp_tpl(pitch,
+					DEG2RAD(-60.0f),
+					DEG2RAD(60.0f));
+
+				// Rebuild direction from clamped values
+				Vec3 clampedForward;
+				clampedForward.x = sinf(yaw) * cosf(pitch);
+				clampedForward.y = cosf(yaw) * cosf(pitch);
+				clampedForward.z = sinf(pitch);
+
+				// Apply to AimPose
+				Vec3 target = cameraPos + clampedForward * 1000.0f;
 
 				pAim->SetTarget(target);
 				pAim->SetPolarCoordinatesSmoothTimeSeconds(0.0f);
@@ -840,7 +861,7 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 			if (ICharacterInstance *pCharacter = m_pAnimationComponent3P->GetCharacter())
 			{
 				// Get the local space orientation of the camera joint
-				const QuatT &cameraOrientation = pCharacter->GetISkeletonPose()->GetAbsJointByID(m_cameraJointId);
+				const QuatT &cameraOrientation = pCharacter->GetISkeletonPose()->GetAbsJointByID(m_cameraJointId3P);
 				// Apply the offset to the camera
 				localTransform.SetTranslation(cameraOrientation.t/* + Vec3(0, viewOffsetForward, viewOffsetUp)*/);
 			}
@@ -884,18 +905,30 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 		m_pAudioListenerComponent->SetOffset(localTransform.GetTranslation());
 	}
 
-	Matrix34 test = localTransform;
+	if (ICharacterInstance* pCharacter = m_pAnimationComponent1P->GetCharacter())
+	{
+		if (ISkeletonPose* pPose = pCharacter->GetISkeletonPose())
+		{
+			// Current animated camera bone
+			QuatT camBone = pPose->GetAbsJointByID(m_cameraJointId1P);
 
-	Vec3 up = test.GetColumn2();
-	Vec3 forward = test.GetColumn1();
-	Vec3 right = test.GetColumn0();
-	float testOffset = -1.61f;
+			// Camera transform relative to the player
+			Quat cameraQuat(localTransform);
+			Vec3 cameraPos = localTransform.GetTranslation();
 
-	Vec3 finalOffset = test.GetTranslation() + (up * testOffset) + (forward * -0.275f) + (right * -0.046f);
-	test.SetTranslation(finalOffset);
+			// Rotate the entire mesh so the camera bone aligns with the camera
+			Quat meshQuat = cameraQuat * camBone.q.GetInverted();
 
-	if (m_pAnimationComponent1P)
-		m_pAnimationComponent1P->SetTransformMatrix(test);
+			// Rotate the camera bone offset into its new orientation
+			Vec3 rotatedOffset = meshQuat * camBone.t;
+
+			Matrix34 tm = IDENTITY;
+			tm.SetRotation33(Matrix33(meshQuat));
+			tm.SetTranslation(cameraPos - rotatedOffset);
+
+			m_pAnimationComponent1P->SetTransformMatrix(tm);
+		}
+	}
 
 	if (!m_pCameraComponent || !m_pAudioListenerComponent)
 	{
@@ -1523,34 +1556,6 @@ void CPlayerComponent::OnReadyForGameplayOnServer(bool firstSpawn)
 		// Have to use delay or else animations won't play properly
 		SetTimer(1, 50);
 	}
-
-	if (IsLocalClient())
-	{
-		// Create the view proxy entity
-		if (!gEnv->pEntitySystem->GetEntity(m_pViewProxy))
-		{
-			SEntitySpawnParams spawnParams;
-			spawnParams.pClass = gEnv->pEntitySystem->GetClassRegistry()->GetDefaultClass();
-			spawnParams.sName = "ViewProxy";
-			spawnParams.vPosition = m_pCameraComponent->GetWorldTransformMatrix().GetTranslation();
-			spawnParams.qRotation = (Quat)m_pCameraComponent->GetWorldTransformMatrix();
-
-			// Spawn the weapon on the server
-			if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams))
-			{
-				m_pViewProxy = pEntity->GetId();
-			}
-		}
-
-		// Use a material effect FlowGraph to set view to the proxy entity
-		TMFXEffectId fx = gEnv->pMaterialEffects->GetEffectIdByName("cameraproxy", "setviewproxy");
-
-		SMFXRunTimeEffectParams fxParams;
-		fxParams.playflags |= eMFXPF_Disable_Delay;
-		fxParams.pos = m_pCameraComponent->GetWorldTransformMatrix().GetTranslation();
-
-		gEnv->pMaterialEffects->ExecuteEffect(fx, fxParams);
-	}
 }
 
 bool CPlayerComponent::RemoteDieOnServer(RemoteBlankParams&& params, INetChannel* pNetChannel)
@@ -1736,10 +1741,43 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 		SetCharacterThirdPerson(m_bIsThirdPersonCamera);
 	}
 
+	if (ICharacterInstance *pCharacter = m_pAnimationComponent1P->GetCharacter())
+	{
+		// Cache the camera joint id so that we don't need to look it up every frame in UpdateView
+		m_cameraJointId1P = pCharacter->GetIDefaultSkeleton().GetJointIDByName("Bip01 Camera");
+	}
 	if (ICharacterInstance *pCharacter = m_pAnimationComponent3P->GetCharacter())
 	{
 		// Cache the camera joint id so that we don't need to look it up every frame in UpdateView
-		m_cameraJointId = pCharacter->GetIDefaultSkeleton().GetJointIDByName("Bip01 Camera");
+		m_cameraJointId3P = pCharacter->GetIDefaultSkeleton().GetJointIDByName("Bip01 Camera");
+	}
+
+	if (IsLocalClient())
+	{
+		// Create the view proxy entity
+		if (!gEnv->pEntitySystem->GetEntity(m_pViewProxy))
+		{
+			SEntitySpawnParams spawnParams;
+			spawnParams.pClass = gEnv->pEntitySystem->GetClassRegistry()->GetDefaultClass();
+			spawnParams.sName = "ViewProxy";
+			spawnParams.vPosition = m_pCameraComponent->GetWorldTransformMatrix().GetTranslation();
+			spawnParams.qRotation = (Quat)m_pCameraComponent->GetWorldTransformMatrix();
+
+			// Spawn the weapon on the server
+			if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams))
+			{
+				m_pViewProxy = pEntity->GetId();
+			}
+		}
+
+		// Use a material effect FlowGraph to set view to the proxy entity
+		TMFXEffectId fx = gEnv->pMaterialEffects->GetEffectIdByName("cameraproxy", "setviewproxy");
+
+		SMFXRunTimeEffectParams fxParams;
+		fxParams.playflags |= eMFXPF_Disable_Delay;
+		fxParams.pos = m_pCameraComponent->GetWorldTransformMatrix().GetTranslation();
+
+		gEnv->pMaterialEffects->ExecuteEffect(fx, fxParams);
 	}
 
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
