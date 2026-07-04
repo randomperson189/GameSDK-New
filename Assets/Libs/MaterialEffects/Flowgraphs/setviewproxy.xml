@@ -10,7 +10,7 @@
    <Inputs Name="ViewProxy"/>
   </Node>
   <Node Id="11" Class="Camera:View" pos="792,108,0">
-   <Inputs entityId="0" Enable="1" Disable="0" FOV="70" Blend="0" BlendFOVSpeed="999999" BlendFOVOffset="0" BlendPosSpeed="999999" BlendPosOffset="0,0,0" BlendRotSpeed="999999" BlendRotOffset="0,0,0"/>
+   <Inputs entityId="0" Enable="1" Disable="0" FOV="55" Blend="0" BlendFOVSpeed="999999" BlendFOVOffset="0" BlendPosSpeed="999999" BlendPosOffset="0,0,0" BlendRotSpeed="999999" BlendRotOffset="0,0,0"/>
   </Node>
   <Node Id="12" Class="Game:Start" pos="-180,18,0">
    <Inputs InGame="1" InEditor="1"/>

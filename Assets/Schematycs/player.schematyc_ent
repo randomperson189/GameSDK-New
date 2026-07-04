@@ -1455,7 +1455,7 @@
       <element element="1"/>
      </scale>
     </transform>
-    <properties Type="Default" Active="false" NearPlane="0.1" FarPlane="8000" FieldOfView="1.2217305"/>
+    <properties Type="Default" Active="false" NearPlane="0.1" FarPlane="8000" FieldOfView="0.95993108"/>
     <extensions />
     <children />
    </element>
