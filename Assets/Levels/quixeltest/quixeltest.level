@@ -1,5 +1,5 @@
-<Level WaterColor="16711680" SandboxVersion="5.7.1.3146">
- <View ViewerPos="246.03687,202.59642,22.104908" ViewerAngles="-0.11402298,0,1.3733741"/>
+<Level WaterColor="16711680" SandboxVersion="1.0.0.0">
+ <View ViewerPos="210.89024,191.40614,22.55994" ViewerAngles="-0.33400559,0,2.3069515"/>
  <Fog Fog="" Terrain="" EnvState="" VolFogShadows="" VolumetricCloud="" Ocean="" OceanAnimation="" DynTexSource=""/>
  <Missions Current="Mission0">
   <Mission Name="Mission0" Description="" PlayerEquipPack="" Script="" MissionTime="17:01">
@@ -17,7 +17,7 @@
   <LevelLibrary Name="Level"/>
  </EntityPrototypesLibs>
  <ParticleLibs>
-  <LevelLibrary Name="Level" SandboxVersion="5.7.1.3146"/>
+  <LevelLibrary Name="Level" SandboxVersion="1.0.0.0"/>
  </ParticleLibs>
  <FlareLibs>
   <LevelLibrary Name="Level"/>

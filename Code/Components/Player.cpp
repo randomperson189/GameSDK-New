@@ -145,6 +145,12 @@ namespace
 				componentScope.Register(pFunction);
 			}
 
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetFOV, "{66D61360-5387-4240-BC77-CC33232CA6D4}"_cry_guid, "Set FOV");
+				pFunction->BindInput(1, 'fov', "FOV", "Field of View", 55.0f);
+				componentScope.Register(pFunction);
+			}
+
 			// These are here just for reference since you can get reflected component variables in Schematyc by default
 			/*{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetMoveSpeed, "{0761CED9-067F-4C04-8E7F-170E0F5CFE66}"_cry_guid, "Get Move Speed");
@@ -1092,6 +1098,24 @@ void CPlayerComponent::SetSubTag(Schematyc::CSharedString tag, bool set)
 	}
 }
 
+void CPlayerComponent::SetFOV(float angle)
+{
+	// Use a material effect FlowGraph to set view to the proxy entity
+	TMFXEffectId fx = gEnv->pMaterialEffects->GetEffectIdByName("cameraproxy", "setviewproxy");
+
+	SMFXRunTimeEffectParams fxParams;
+	fxParams.playflags |= eMFXPF_Disable_Delay;
+	fxParams.pos = m_pCameraComponent->GetWorldTransformMatrix().GetTranslation();
+
+	gEnv->pMaterialEffects->ExecuteEffect(fx, fxParams);
+
+	SMFXCustomParamValue fov;
+	fov.fValue = angle;
+
+	// Use Intensity parameter to pass fov value
+	gEnv->pMaterialEffects->SetCustomParameter(fx, "Intensity", fov);
+}
+
 void CPlayerComponent::SetMoveSpeed(float moveSpeed)
 {
 	m_currentMoveSpeed = moveSpeed;
@@ -1778,6 +1802,12 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 		fxParams.pos = m_pCameraComponent->GetWorldTransformMatrix().GetTranslation();
 
 		gEnv->pMaterialEffects->ExecuteEffect(fx, fxParams);
+
+		SMFXCustomParamValue fov;
+		fov.fValue = m_pCameraComponent->GetFieldOfView().ToDegrees();
+
+		// Use Intensity parameter to pass fov value
+		gEnv->pMaterialEffects->SetCustomParameter(fx, "Intensity", fov);
 	}
 
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())

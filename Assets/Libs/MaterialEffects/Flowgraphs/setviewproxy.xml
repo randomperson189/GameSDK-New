@@ -19,6 +19,7 @@
  <Edges>
   <Edge nodeIn="2" nodeOut="1" portIn="Trigger" portOut="Started" enabled="1"/>
   <Edge nodeIn="9" nodeOut="1" portIn="Set" portOut="Started" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="1" portIn="FOV" portOut="Intensity" enabled="1"/>
   <Edge nodeIn="11" nodeOut="9" portIn="Enable" portOut="EntityId" enabled="1"/>
   <Edge nodeIn="11" nodeOut="9" portIn="entityId" portOut="EntityId" enabled="1"/>
   <Edge nodeIn="1" nodeOut="12" portIn="Start" portOut="output" enabled="1"/>

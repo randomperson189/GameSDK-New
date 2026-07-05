@@ -112,6 +112,26 @@
     <extensions />
     <children />
    </element>
+   <element elementType="Signal" guid="1132680f-47ad-4827-b660-647182c56d97" name="PlayerLibrary SetFOV" Schematyc::EMPEnv="clientserver">
+    <inputs>
+     <element guid="37c52956-e427-4ec9-bc24-4c84f9813863" name="FOV" value="0">
+      <typeId domain="Env" guid="03d99d5a-cf2c-4f8a-8489-7da5b515c202"/>
+     </element>
+    </inputs>
+    <userDocumentation author="User" description=""/>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="Signal" guid="c9570251-6c87-4c36-890d-7009ccac74eb" name="PlayerLibrary SetRotationSpeed" Schematyc::EMPEnv="clientserver">
+    <inputs>
+     <element guid="8730f2cf-32b7-47a7-a7bf-29ea1fc8938f" name="Speed" value="0">
+      <typeId domain="Env" guid="03d99d5a-cf2c-4f8a-8489-7da5b515c202"/>
+     </element>
+    </inputs>
+    <userDocumentation author="User" description=""/>
+    <extensions />
+    <children />
+   </element>
   </children>
  </root>
 </CrySchematyc>

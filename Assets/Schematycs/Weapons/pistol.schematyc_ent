@@ -147,7 +147,7 @@
        </element>
        <element key="e1210d43-da2b-4451-8fb1-93c541ef54f8" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="e1210d43-da2b-4451-8fb1-93c541ef54f8" objectGUID="">
-         <pos x="246.33331" y="-1295.0001"/>
+         <pos x="246" y="-1295"/>
          <functionId domain="Script" guid="3ef3fea0-90d4-44fe-bc96-e2253ada1855"/>
         </value>
        </element>
@@ -202,7 +202,7 @@
        </element>
        <element key="222b40c7-2be8-47b4-bd24-c4c7f3351a6d" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="222b40c7-2be8-47b4-bd24-c4c7f3351a6d" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
-         <pos x="-32.666679" y="-1294.0001"/>
+         <pos x="-32" y="-1294"/>
          <signalId domain="Env" guid="bcf9aa3f-8fd1-4f8c-a66b-b73c6e23f19b"/>
         </value>
        </element>

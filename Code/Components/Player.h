@@ -415,6 +415,7 @@ public:
 
 	void Ragdollize();
 	void SetCharacterThirdPerson(bool thirdperson);
+	void SetFOV(float angle);
 
 	struct SInitializeLocalPlayer
 	{
