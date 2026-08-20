@@ -147,7 +147,7 @@ namespace
 
 			{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetFOV, "{66D61360-5387-4240-BC77-CC33232CA6D4}"_cry_guid, "Set FOV");
-				pFunction->BindInput(1, 'fov', "FOV", "Field of View", 55.0f);
+				pFunction->BindInput(1, 'fov', "FOV", "Field of View");
 				componentScope.Register(pFunction);
 			}
 
@@ -547,6 +547,35 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 			dynamics.bSwimming = 0;
 
 		pPhysEnt->SetParams(&dynamics);
+
+		//CryLogAlways("Component FOV: %.2f | Current FOV: %.2f", m_pCameraComponent->GetFieldOfView().ToDegrees(), currentFOV.ToDegrees());
+
+		if(m_pCameraComponent->GetFieldOfView().ToDegrees() != currentFOV.ToDegrees())
+		{
+			// Use a material effect FlowGraph to set view to the proxy entity
+			TMFXEffectId fx = gEnv->pMaterialEffects->GetEffectIdByName("cameraproxy", "setviewproxy");
+
+			SMFXRunTimeEffectParams fxParams;
+			fxParams.playflags |= eMFXPF_Disable_Delay;
+			fxParams.pos = m_pCameraComponent->GetWorldTransformMatrix().GetTranslation();
+
+			gEnv->pMaterialEffects->ExecuteEffect(fx, fxParams);
+
+			SMFXCustomParamValue fov;
+			fov.fValue = m_pCameraComponent->GetFieldOfView().ToDegrees();
+
+			// Use Intensity parameter to pass fov value
+			gEnv->pMaterialEffects->SetCustomParameter(fx, "Intensity", fov);
+
+			currentFOV = m_pCameraComponent->GetFieldOfView();
+		}
+
+		/*elapsedTime += frameTime;
+
+		const float t = crymath::clamp(elapsedTime / duration, 0.0f, 1.0f);
+		const float currentValue = fromValue + (toValue - fromValue) * t;
+
+		CryLog("Value: %f", currentValue);*/
 
 		// Debug log
 		/*CryLogAlways(
@@ -1098,58 +1127,9 @@ void CPlayerComponent::SetSubTag(Schematyc::CSharedString tag, bool set)
 	}
 }
 
-void CPlayerComponent::SetFOV(float angle)
+void CPlayerComponent::SetFOV(CryTransform::CAngle angle)
 {
-	// Use a material effect FlowGraph to set view to the proxy entity
-	TMFXEffectId fx = gEnv->pMaterialEffects->GetEffectIdByName("cameraproxy", "setviewproxy");
-
-	SMFXRunTimeEffectParams fxParams;
-	fxParams.playflags |= eMFXPF_Disable_Delay;
-	fxParams.pos = m_pCameraComponent->GetWorldTransformMatrix().GetTranslation();
-
-	gEnv->pMaterialEffects->ExecuteEffect(fx, fxParams);
-
-	SMFXCustomParamValue fov;
-	fov.fValue = angle;
-
-	// Use Intensity parameter to pass fov value
-	gEnv->pMaterialEffects->SetCustomParameter(fx, "Intensity", fov);
-}
-
-void CPlayerComponent::SetMoveSpeed(float moveSpeed)
-{
-	m_currentMoveSpeed = moveSpeed;
-}
-void CPlayerComponent::SetRotationSpeed(float rotationSpeed)
-{
-	m_rotationSpeed = rotationSpeed;
-}
-void CPlayerComponent::SetRotationLimits(float minPitch, float maxPitch)
-{
-	m_rotationLimitsMinPitch = minPitch;
-	m_rotationLimitsMaxPitch = maxPitch;
-}
-void CPlayerComponent::SetJumpHeight(float jumpHeight)
-{
-	m_jumpHeight = jumpHeight;
-}
-
-float CPlayerComponent::GetMoveSpeed()
-{
-	return m_currentMoveSpeed;
-}
-float CPlayerComponent::GetRotationSpeed()
-{
-	return m_rotationSpeed;
-}
-void CPlayerComponent::GetRotationLimits(float& minPitch, float& maxPitch)
-{
-	minPitch = m_rotationLimitsMinPitch;
-	maxPitch = m_rotationLimitsMaxPitch;
-}
-float CPlayerComponent::GetJumpHeight()
-{
-	return m_jumpHeight;
+	m_pCameraComponent->SetFieldOfView(angle);
 }
 
 void CPlayerComponent::QueueFragmentOnScope(Schematyc::CSharedString fragment, const EPlayerScopes& scope, bool trumpPreviousFragment)

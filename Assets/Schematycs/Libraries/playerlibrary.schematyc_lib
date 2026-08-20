@@ -112,9 +112,12 @@
     <extensions />
     <children />
    </element>
-   <element elementType="Signal" guid="1132680f-47ad-4827-b660-647182c56d97" name="PlayerLibrary SetFOV" Schematyc::EMPEnv="clientserver">
+   <element elementType="Signal" guid="1132680f-47ad-4827-b660-647182c56d97" name="PlayerLibrary SetFOVMultiplier" Schematyc::EMPEnv="clientserver">
     <inputs>
-     <element guid="37c52956-e427-4ec9-bc24-4c84f9813863" name="FOV" value="0">
+     <element guid="37c52956-e427-4ec9-bc24-4c84f9813863" name="FOV Multiplier" value="1">
+      <typeId domain="Env" guid="03d99d5a-cf2c-4f8a-8489-7da5b515c202"/>
+     </element>
+     <element guid="c762758d-aafe-4729-88ad-4cb5efe0f9b7" name="Transition Speed" value="0">
       <typeId domain="Env" guid="03d99d5a-cf2c-4f8a-8489-7da5b515c202"/>
      </element>
     </inputs>

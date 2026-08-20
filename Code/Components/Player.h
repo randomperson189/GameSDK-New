@@ -363,6 +363,14 @@ protected:
 
 	EntityId m_pViewProxy;
 
+	CryTransform::CAngle currentFOV;
+
+	/*float fromValue = 0.0f;
+	float toValue = 100.0f;
+
+	float elapsedTime = 0.0f;
+	float duration = 10.0f;*/
+
 public:
 	void Jump();
 
@@ -386,16 +394,16 @@ public:
 	Schematyc::ExplicitEntityId GetActiveWeapon();
 
 	// Set functions for reflected component values
-	void SetMoveSpeed(float moveSpeed);
-	void SetRotationSpeed(float rotationSpeed);
-	void SetRotationLimits(float minPitch, float maxPitch);
-	void SetJumpHeight(float jumpHeight);
+	void SetMoveSpeed(float moveSpeed) { m_currentMoveSpeed = moveSpeed; };
+	void SetRotationSpeed(float rotationSpeed) { m_rotationSpeed = rotationSpeed; };
+	void SetRotationLimits(float minPitch, float maxPitch) { m_rotationLimitsMinPitch = minPitch; m_rotationLimitsMaxPitch = maxPitch; };
+	void SetJumpHeight(float jumpHeight) { m_jumpHeight = jumpHeight; };
 
 	// Get functions for reflected component values
-	float GetMoveSpeed();
-	float GetRotationSpeed();
-	void GetRotationLimits(float& minPitch, float& maxPitch);
-	float GetJumpHeight();
+	float GetMoveSpeed() { return m_currentMoveSpeed; };
+	float GetRotationSpeed() { return m_rotationSpeed; };
+	void GetRotationLimits(float& minPitch, float& maxPitch) { minPitch = m_rotationLimitsMinPitch; maxPitch = m_rotationLimitsMaxPitch; };
+	float GetJumpHeight() { return m_jumpHeight; };
 
 	void QueueFragmentOnScope(Schematyc::CSharedString fragment, const EPlayerScopes& scope, bool trumpPreviousFragment);
 	void SetDesiredFragmentOnScope(Schematyc::CSharedString fragment, const EPlayerScopes& scope, bool trumpPreviousFragment);
@@ -415,7 +423,7 @@ public:
 
 	void Ragdollize();
 	void SetCharacterThirdPerson(bool thirdperson);
-	void SetFOV(float angle);
+	void SetFOV(CryTransform::CAngle angle);
 
 	struct SInitializeLocalPlayer
 	{
