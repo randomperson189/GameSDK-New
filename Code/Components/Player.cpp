@@ -550,24 +550,27 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 
 		//CryLogAlways("Component FOV: %.2f | Current FOV: %.2f", m_pCameraComponent->GetFieldOfView().ToDegrees(), currentFOV.ToDegrees());
 
-		if(m_pCameraComponent->GetFieldOfView().ToDegrees() != currentFOV.ToDegrees())
+		if (IsLocalClient())
 		{
-			// Use a material effect FlowGraph to set view to the proxy entity
-			TMFXEffectId fx = gEnv->pMaterialEffects->GetEffectIdByName("cameraproxy", "setviewproxy");
+			if (m_pCameraComponent->GetFieldOfView().ToDegrees() != currentFOV.ToDegrees())
+			{
+				// Use a material effect FlowGraph to set view to the proxy entity
+				TMFXEffectId fx = gEnv->pMaterialEffects->GetEffectIdByName("cameraproxy", "setviewproxy");
 
-			SMFXRunTimeEffectParams fxParams;
-			fxParams.playflags |= eMFXPF_Disable_Delay;
-			fxParams.pos = m_pCameraComponent->GetWorldTransformMatrix().GetTranslation();
+				SMFXRunTimeEffectParams fxParams;
+				fxParams.playflags |= eMFXPF_Disable_Delay;
+				fxParams.pos = m_pCameraComponent->GetWorldTransformMatrix().GetTranslation();
 
-			gEnv->pMaterialEffects->ExecuteEffect(fx, fxParams);
+				gEnv->pMaterialEffects->ExecuteEffect(fx, fxParams);
 
-			SMFXCustomParamValue fov;
-			fov.fValue = m_pCameraComponent->GetFieldOfView().ToDegrees();
+				SMFXCustomParamValue fov;
+				fov.fValue = m_pCameraComponent->GetFieldOfView().ToDegrees();
 
-			// Use Intensity parameter to pass fov value
-			gEnv->pMaterialEffects->SetCustomParameter(fx, "Intensity", fov);
+				// Use Intensity parameter to pass fov value
+				gEnv->pMaterialEffects->SetCustomParameter(fx, "Intensity", fov);
 
-			currentFOV = m_pCameraComponent->GetFieldOfView();
+				currentFOV = m_pCameraComponent->GetFieldOfView();
+			}
 		}
 
 		/*elapsedTime += frameTime;
