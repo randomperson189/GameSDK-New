@@ -3,6 +3,7 @@
 #include "GamePlugin.h"
 
 #include "Components/Player.h"
+#include "BehaviorTree/BehaviorTreeNodes_Custom.h"
 
 #include <CrySchematyc/Env/IEnvRegistry.h>
 #include <CrySchematyc/Env/EnvPackage.h>
@@ -59,12 +60,7 @@ void CGamePlugin::OnSystemEvent(ESystemEvent event, UINT_PTR wparam, UINT_PTR lp
 			IProceduralClipFactory& proceduralClipFactory = gEnv->pGameFramework->GetMannequinInterface().GetProceduralClipFactory();
 			mannequin::RegisterProceduralClipsForModule(proceduralClipFactory);
 
-			// Don't need to load the map in editor
-			if (!gEnv->IsEditor())
-			{
-				// Load the example map in client server mode
-				//gEnv->pConsole->ExecuteString("map example s", false, true);
-			}
+			BehaviorTree::RegisterBehaviorTreeNodes_Custom();
 		}
 		break;
 
