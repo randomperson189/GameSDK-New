@@ -24,7 +24,7 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="893" y="961"/>
+      <pos x="602" y="1593"/>
       <nodes>
        <element key="2204abfd-21cc-4023-88bb-bec266751202" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="2204abfd-21cc-4023-88bb-bec266751202" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
@@ -45,7 +45,7 @@
        </element>
        <element key="c32c21ae-8f0d-40a1-abdb-0220214fa96d" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="c32c21ae-8f0d-40a1-abdb-0220214fa96d" objectGUID="">
-         <pos x="806" y="1723"/>
+         <pos x="808" y="1584"/>
          <functionId domain="Env" guid="5aed5c17-5eea-4eb9-aa37-1493fd8d85e0"/>
          <inputs>
           <element value="0">
@@ -210,7 +210,7 @@
        </element>
        <element key="b6b87890-faf5-4583-8b83-a8d90b5c6e32" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="b6b87890-faf5-4583-8b83-a8d90b5c6e32" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
-         <pos x="807" y="1647"/>
+         <pos x="809" y="1508"/>
          <functionId domain="Env" guid="66d61360-5387-4240-bc77-cc33232ca6d4"/>
          <inputs>
           <element value="0">
@@ -246,7 +246,7 @@
        </element>
        <element key="f57d4c58-7474-45ce-87ea-6fa243b67d6a" typeGUID="23145b7a-4ce3-45b8-a34b-1c997ea6448f">
         <value guid="f57d4c58-7474-45ce-87ea-6fa243b67d6a" referenceGUID="a895bde5-ede5-4beb-83a0-919674ae8694">
-         <pos x="942.38831" y="881.55664"/>
+         <pos x="947" y="882"/>
          <inputs>
           <element value="0">
            <key type="Idx" value="1"/>
@@ -273,7 +273,7 @@
        </element>
        <element key="a1c7a107-614c-4665-9bb9-cde09f15cfc4" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="a1c7a107-614c-4665-9bb9-cde09f15cfc4" objectGUID="">
-         <pos x="386" y="1648"/>
+         <pos x="388" y="1509"/>
          <functionId domain="Script" guid="513bfa98-0330-42e6-949c-a3dde2568a8d"/>
          <inputs>
           <element value="0">
@@ -318,7 +318,7 @@
        </element>
        <element key="3206418e-d8d7-468a-be32-ea30fd90a489" typeGUID="a15c2533-d004-4266-b121-68404aa5e02f">
         <value guid="3206418e-d8d7-468a-be32-ea30fd90a489" referenceGUID="a0a44e1a-7dab-4278-baa1-5c3a8e077a76" memberId="0">
-         <pos x="617" y="1713"/>
+         <pos x="619" y="1574"/>
         </value>
        </element>
        <element key="645970c0-47bd-46b3-b78b-1e67cfe835e8" typeGUID="b30f637b-555a-4e2e-8558-87fa49d470c1">
@@ -360,6 +360,7 @@
          <outputs>
           <element name="1"/>
           <element name="2"/>
+          <element name="3"/>
          </outputs>
         </value>
        </element>
@@ -463,13 +464,13 @@
        </element>
        <element key="46652371-6a4e-4bc2-baa2-112924e90588" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="46652371-6a4e-4bc2-baa2-112924e90588" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
-         <pos x="525.38898" y="807.55664"/>
+         <pos x="527" y="808"/>
          <functionId domain="Env" guid="8bd6421d-487d-4b46-a305-6baf1ef4c10b"/>
         </value>
        </element>
        <element key="302bf1ac-b7a5-4bd4-92dc-40d4ab82d6e8" typeGUID="a15c2533-d004-4266-b121-68404aa5e02f">
         <value guid="302bf1ac-b7a5-4bd4-92dc-40d4ab82d6e8" referenceGUID="5f87c703-90f1-4ab2-aff5-130dd6ad5ddc" memberId="0">
-         <pos x="592" y="1783"/>
+         <pos x="594" y="1644"/>
         </value>
        </element>
        <element key="fc153179-9944-4be9-8c74-77422d59ec79" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
@@ -610,7 +611,7 @@
        </element>
        <element key="25d83dc6-4e2c-4e90-b5f4-e3fab8166e38" typeGUID="23145b7a-4ce3-45b8-a34b-1c997ea6448f">
         <value guid="25d83dc6-4e2c-4e90-b5f4-e3fab8166e38" referenceGUID="ae55f9f5-e7c5-4e6a-84c5-7905d4fbf3e9">
-         <pos x="942.38831" y="806.55664"/>
+         <pos x="947" y="807"/>
          <inputs>
           <element value="0">
            <key type="Idx" value="1"/>
@@ -931,7 +932,7 @@
     </children>
    </element>
    <element elementType="ComponentInstance" guid="49480795-1c51-4ee3-928f-e4678b5a9e5f" name="CPlayerComponent" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="63f4c0c6-32af-4acb-8fb0-57d45dd14725">
-    <properties MoveSpeedWalking="4" MoveSpeedCrouching="2.5" MoveSpeedSprinting="8.4399996" RotationSpeed="0.0020000001" RotationLimitsMinPitch="-1.5" RotationLimitsMaxPitch="1.5" JumpHeight="5" DefaultWeapon="schematyc::schematycs::weapons::pistol" DefaultWeapon2="schematyc::schematycs::weapons::shotgun"/>
+    <properties MoveSpeedWalking="4" MoveSpeedCrouching="2.5" MoveSpeedSprinting="8.4399996" RotationSpeed="0.0020000001" RotationLimitsMinPitch="-1.5" RotationLimitsMaxPitch="1.5" JumpHeight="5" BaseViewHeight="1.4" BaseViewHeightCrouching="0.875" TorsoViewHeight="0.34999999" DefaultWeapon="schematyc::schematycs::weapons::pistol" DefaultWeapon2="schematyc::schematycs::weapons::shotgun"/>
     <extensions />
     <children />
    </element>
@@ -962,16 +963,16 @@
     <transform>
      <translation>
       <position>
-       <element element="-3.7252903e-07"/>
-       <element element="-2.4907608"/>
-       <element element="1.964735"/>
+       <element element="1.6756624e-09"/>
+       <element element="-0.039487932"/>
+       <element element="1.7477653"/>
       </position>
      </translation>
-     <rotation x="-4.9274349" y="-5.0888875e-14" z="-6.8301888e-06"/>
+     <rotation x="6.4780555" y="6.3611094e-15" z="1.7075471e-06"/>
      <scale>
       <element element="1"/>
-      <element element="1"/>
-      <element element="1"/>
+      <element element="0.99999988"/>
+      <element element="0.99999988"/>
      </scale>
     </transform>
     <properties Type="Default" Active="false" NearPlane="0.1" FarPlane="8000" FieldOfView="0.95993108"/>
@@ -1019,16 +1020,16 @@
     <transform>
      <translation>
       <position>
-       <element element="0.097095929"/>
-       <element element="-2.5968342"/>
-       <element element="0.34962142"/>
+       <element element="-0.02349619"/>
+       <element element="-0.012242366"/>
+       <element element="0.11887038"/>
       </position>
      </translation>
-     <rotation x="2.0535545" y="-2.6853709" z="11.243797"/>
+     <rotation x="8.4102697" y="-0.42081049" z="3.3994401"/>
      <scale>
       <element element="1"/>
-      <element element="1"/>
-      <element element="1"/>
+      <element element="0.99999994"/>
+      <element element="0.99999994"/>
      </scale>
     </transform>
     <properties Type="None" Character="Objects/Characters/human/sdk_player/sdk_player.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/playerAnims1P.adb" ControllerDefPath="Animations/Mannequin/ADB/playerControllerDefs.xml" DefaultScope="Char1P" DefaultFragment="" AnimDriven="true" GroundAlign="false">

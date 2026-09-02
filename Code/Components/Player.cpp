@@ -170,6 +170,28 @@ namespace
 				componentScope.Register(pFunction);
 			}
 
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetLookRotation, "{667A3670-7B5B-4585-8444-51BEDE83B21C}"_cry_guid, "Set Look Orientation");
+				pFunction->BindInput(1, 'rot', "rotation", "rotation");
+				componentScope.Register(pFunction);
+			}
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetLookRotation, "{3288886A-7CB4-46A9-A630-F277D144D8DD}"_cry_guid, "Get Look Orientation");
+				pFunction->BindOutput(0, 'rot', "rotation", "rotation");
+				componentScope.Register(pFunction);
+			}
+
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetAdditiveLookRotation, "{5AE906B3-A51D-4BD0-B941-8842716E55A0}"_cry_guid, "Set Additive Look Orientation");
+				pFunction->BindInput(1, 'rot', "rotation", "rotation");
+				componentScope.Register(pFunction);
+			}
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetAdditiveLookRotation, "{F0169D8E-1D23-4665-BDAA-4BF546FA953B}"_cry_guid, "Get Additive Look Orientation");
+				pFunction->BindOutput(0, 'rot', "rotation", "rotation");
+				componentScope.Register(pFunction);
+			}
+
 			// These are here just for reference since you can get reflected component variables in Schematyc by default
 			/*{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetMoveSpeed, "{0761CED9-067F-4C04-8E7F-170E0F5CFE66}"_cry_guid, "Get Move Speed");
@@ -242,6 +264,7 @@ void CPlayerComponent::Initialize()
 
 	// Load the character and Mannequin data from file
 	m_pAnimationComponent3P->LoadFromDisk();
+	m_pAnimationComponent1P->LoadFromDisk();
 
 	// Create the camera component, will automatically update the viewport every frame
 	m_pCameraComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CCameraComponent>();
@@ -744,7 +767,7 @@ void CPlayerComponent::UpdateMovementRequest(float frameTime)
 	{
 		if (m_pCameraComponent)
 		{
-			// Rotate input by camera rotation (includes pitch) for 3D swimming
+			// Swimming movement: rotate input by camera rotation (includes pitch) for 3D swimming
 			finalVelocity = m_pCameraComponent->GetCamera().GetMatrix().TransformVector(input) * m_currentMoveSpeed;
 		}
 	}
@@ -841,6 +864,7 @@ void CPlayerComponent::UpdateAnimation(float frameTime)
 	{
 		if (ICharacterInstance* pCharacter = m_pAnimationComponent3P->GetCharacter())
 		{
+			// Set AimPose rotation
 			if (IAnimationPoseBlenderDir* pAim = pCharacter->GetISkeletonPose()->GetIPoseBlenderAim())
 			{
 				Matrix34 cameraTM = m_pCameraComponent->GetWorldTransformMatrix();
@@ -892,16 +916,16 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 	// TODO: Simplify this to prevent duplicate code
 	if (m_bCrouching)
 	{
-		m_currentBaseHeight += (m_baseHeightCrouching - m_currentBaseHeight) * 10 * frameTime;
+		m_currentBaseViewHeight += (m_baseViewHeightCrouching - m_currentBaseViewHeight) * 10 * frameTime;
 	}
 	else
 	{
-		m_currentBaseHeight += (m_baseHeight - m_currentBaseHeight) * 10 * frameTime;
+		m_currentBaseViewHeight += (m_baseViewHeight - m_currentBaseViewHeight) * 10 * frameTime;
 	}
 
 	// Start with changing view rotation to the requested mouse look orientation
 	Matrix34 localTransform = IDENTITY;
-	localTransform.SetRotation33(Matrix33(m_pEntity->GetWorldRotation().GetInverted()) * CCamera::CreateOrientationYPR(ypr));
+	localTransform.SetRotation33((Matrix33(m_pEntity->GetWorldRotation().GetInverted()) * CCamera::CreateOrientationYPR(ypr)) * Matrix33(m_additiveLookOrientation));
 
 	float viewOffsetForward;
 	float viewOffsetUp;
@@ -910,7 +934,7 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 	{
 		if (!IsRagdoll())
 		{
-			Vec3 finalOffset = Vec3(0, 0, m_currentBaseHeight) + (localTransform.GetColumn2() * m_torsoHeight);
+			Vec3 finalOffset = Vec3(0, 0, m_currentBaseViewHeight) + (localTransform.GetColumn2() * m_torsoViewHeight);
 			localTransform.SetTranslation(finalOffset);
 		}
 		else
@@ -933,7 +957,7 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 
 		Matrix33 cameraRot = Matrix33(m_pEntity->GetWorldRotation().GetInverted()) * CCamera::CreateOrientationYPR(ypr);
 
-		Vec3 pivot(0, 0, m_currentBaseHeight + m_torsoHeight);
+		Vec3 pivot(0, 0, m_currentBaseViewHeight + m_torsoViewHeight);
 		Vec3 localOffset(0, viewOffsetForward, viewOffsetUp);
 
 		/*if (IsRagdoll())
@@ -954,6 +978,7 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 
 		if (IEntity* pViewProxyEntity = gEnv->pEntitySystem->GetEntity(m_pViewProxy))
 		{
+			// TODO: Move this to ViewProxy Component so it can support different camera components
 			pViewProxyEntity->SetPosRotScale(m_pCameraComponent->GetWorldTransformMatrix().GetTranslation(), (Quat)m_pCameraComponent->GetWorldTransformMatrix(), Vec3(1, 1, 1), EntityTransformationFlagsMask());
 		}
 	}
@@ -962,6 +987,7 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 		m_pAudioListenerComponent->SetOffset(localTransform.GetTranslation());
 	}
 
+	// Align ViewModel to player camera
 	if (ICharacterInstance* pCharacter = m_pAnimationComponent1P->GetCharacter())
 	{
 		if (ISkeletonPose* pPose = pCharacter->GetISkeletonPose())
@@ -993,6 +1019,7 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 	}
 }
 
+// TODO: Finish this
 bool CPlayerComponent::GetActionMapsFromProfile()
 {
 	XmlNodeRef rootNode = GetISystem()->LoadXmlFromFile("libs/config/defaultProfile.xml");
@@ -1334,6 +1361,9 @@ void CPlayerComponent::QueueFragmentOnScope(Schematyc::CSharedString fragment, c
 	}
 
 	actionRef = new TAction<SAnimationContext>(priority, myComponent->GetFragmentId(fragment.c_str()), fragTags, 0U, scope, 0U);
+
+	// TODO: Add this
+	//actionRef->SetSpeedBias(speedMultiplier);
 
 	myComponent->QueueCustomFragment(*actionRef);
 }
@@ -1839,7 +1869,7 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 
 	m_bIsThirdPersonCamera = false;
 	m_currentMoveSpeed = m_moveSpeedWalking;
-	m_currentBaseHeight = m_baseHeight;
+	m_currentBaseViewHeight = m_baseViewHeight;
 
 	if (IsLocalClient())
 	{

@@ -197,6 +197,11 @@ public:
 
 		desc.AddMember(&CPlayerComponent::m_jumpHeight, 'jhgt', "JumpHeight", "Jump Height", "Height at which the player jumps", 5.0f);
 
+		desc.AddMember(&CPlayerComponent::m_baseViewHeight, 'bvh', "BaseViewHeight", "Base View Height", "Base height of the player's view", 1.40f);
+		desc.AddMember(&CPlayerComponent::m_baseViewHeightCrouching, 'bvhc', "BaseViewHeightCrouching", "Base View Height Crouching", "Base height of the player's view when crouching", 0.875f);
+		desc.AddMember(&CPlayerComponent::m_torsoViewHeight, 'tvh', "TorsoViewHeight", "Torso View Height", "Torso height of the player's view", 0.35f);
+
+		// TODO: Let GameRules control default player weapons instead of setting them here
 		desc.AddMember(&CPlayerComponent::m_defaultWeapon, 'dwep', "DefaultWeapon", "Default Weapon", "Weapon that the player spawns with", "");
 		desc.AddMember(&CPlayerComponent::m_defaultWeapon2, 'dwp2', "DefaultWeapon2", "Default Weapon 2", "Second weapon that the player spawns with", "");
 	}
@@ -299,13 +304,12 @@ protected:
 
 	float m_jumpHeight = 5.0f;
 
-	float m_baseHeight = 1.40f;
-	float m_torsoHeight = 0.35f;
+	float m_baseViewHeight = 1.40f;
+	float m_torsoViewHeight = 0.35f;
 
-	float m_baseHeightCrouching = 0.875f;
+	float m_baseViewHeightCrouching = 0.875f;
 
-
-	float m_currentBaseHeight = 0.0f;
+	float m_currentBaseViewHeight = 0.0f;
 
 public:
 	bool m_bIsThirdPersonCamera = false;
@@ -346,6 +350,7 @@ protected:
 	std::vector<std::string> m_pSubTags;
 
 	Quat m_lookOrientation; //!< Should translate to head orientation in the future
+	Quat m_additiveLookOrientation;
 	float m_horizontalAngularVelocity;
 	MovingAverage<float, 10> m_averagedHorizontalAngularVelocity;
 
@@ -380,8 +385,14 @@ public:
 	void StartShoot2();
 	void StopShoot2();
 
-	void SetCrouching(bool crouching) { m_bCrouching = crouching; };
 	bool GetCrouching() { return m_bCrouching; };
+	void SetCrouching(bool crouching) { m_bCrouching = crouching; };
+
+	CryTransform::CRotation GetLookRotation() { return CryTransform::CRotation(m_lookOrientation); };
+	void SetLookRotation(CryTransform::CRotation rotation) { m_lookOrientation = rotation.ToQuat(); };
+
+	CryTransform::CRotation GetAdditiveLookRotation() { return CryTransform::CRotation(m_additiveLookOrientation); };
+	void SetAdditiveLookRotation(CryTransform::CRotation rotation) { m_additiveLookOrientation = rotation.ToQuat(); };
 
 	void SetAttachmentOpacity(ICharacterInstance* character, Schematyc::CSharedString attachmentName, int materialIndex, float opacity);
 
