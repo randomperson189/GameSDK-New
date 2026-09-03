@@ -307,16 +307,6 @@ void CPlayerComponent::InitializeLocalPlayer()
 		}
 	}
 
-	if (ICharacterInstance* pCharInstance = m_pAnimationComponent1P->GetCharacter())
-	{
-		if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
-		{
-			pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
-			pAttachmentMgr->GetInterfaceByName("lower_body")->HideAttachment(1);
-			pAttachmentMgr->GetInterfaceByName("shoes")->HideAttachment(1);
-		}
-	}
-
 	m_pCameraComponent->Activate();
 
 	// Create the audio listener component.
@@ -1538,6 +1528,16 @@ void CPlayerComponent::SetCharacterThirdPerson(bool thirdperson)
 
 		m_pAnimationComponent1P->SetType(Cry::DefaultComponents::EMeshType::Render);
 
+		if (ICharacterInstance* pCharInstance = m_pAnimationComponent1P->GetCharacter())
+		{
+			if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+			{
+				pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("lower_body")->HideAttachment(1);
+				pAttachmentMgr->GetInterfaceByName("shoes")->HideAttachment(1);
+			}
+		}
+
 		/*SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "head", 0, 0.0f);
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "head", 1, 0.0f);
 		SetAttachmentOpacity(m_pAnimationComponent3P->GetCharacter(), "head", 2, 0.0f);
@@ -1833,6 +1833,7 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 	// Apply the character to the entity and queue animations
 	m_pAnimationComponent1P->ResetCharacter();
 	m_pAnimationComponent3P->ResetCharacter();
+	
 	m_pCharacterController->Physicalize();
 
 	IPhysicalEntity* pPhysEnt = m_pCharacterController->GetEntity()->GetPhysicalEntity();
