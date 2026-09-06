@@ -34,7 +34,7 @@
 	},
 	"console_variables": {
 		"cl_DefaultNearPlane": "0.05",
-		"s_ImplName": "CryAudioImplFmod",
+		"s_ImplName": "CryAudioImplSDLMixer",
 		"es_EnableFlowgraphComponents": "1",
 		"sc_allowFlowGraphNodes": "1",
 		"sys_ime": "1",
