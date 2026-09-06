@@ -983,7 +983,7 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 	}
 	if (m_pAudioListenerComponent)
 	{
-		m_pAudioListenerComponent->SetOffset(localTransform.GetTranslation());
+		m_pAudioListenerComponent->SetTransformMatrix(m_pCameraComponent->GetTransform());
 	}
 
 	// Align ViewModel to player camera
