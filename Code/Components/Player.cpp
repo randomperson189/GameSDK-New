@@ -574,9 +574,17 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 		pPhysEnt->GetParams(&dynamics);
 
 		if (waterHeight > blendedZ + swimOffset)
+		{
 			dynamics.bSwimming = 1;
+			dynamics.gravity.zero();
+			//dynamics.kAirControl = 1.0f;
+			//dynamics.kAirResistance = 0.0f;
+
+		}
 		else if (waterHeight < blendedZ - swimOffset)
+		{
 			dynamics.bSwimming = 0;
+		}
 
 		pPhysEnt->SetParams(&dynamics);
 
@@ -935,6 +943,7 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 				const QuatT &cameraOrientation = pCharacter->GetISkeletonPose()->GetAbsJointByID(m_cameraJointId3P);
 				// Apply the offset to the camera
 				localTransform.SetTranslation(cameraOrientation.t/* + Vec3(0, viewOffsetForward, viewOffsetUp)*/);
+				localTransform.SetRotation33(Matrix33(cameraOrientation.q));
 			}
 		}
 	}
