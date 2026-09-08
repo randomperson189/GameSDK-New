@@ -26,6 +26,6 @@ public:
 		desc.SetEditorCategory("Game");
 		desc.SetLabel("CameraProxy");
 		desc.SetDescription("Camera Proxy Component");
-		desc.SetComponentFlags({ IEntityComponent::EFlags::Transform, IEntityComponent::EFlags::Socket, IEntityComponent::EFlags::Attach });
+		desc.SetComponentFlags({ IEntityComponent::EFlags::Singleton });
 	}
 };

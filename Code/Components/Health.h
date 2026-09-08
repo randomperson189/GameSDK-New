@@ -32,7 +32,7 @@ public:
 		desc.SetEditorCategory("Gameplay");
 		desc.SetLabel("Health");
 		desc.SetDescription("Component for Health");
-		desc.SetComponentFlags({ IEntityComponent::EFlags::HideFromInspector });
+		desc.SetComponentFlags({ IEntityComponent::EFlags::HideFromInspector, IEntityComponent::EFlags::Singleton });
 
 		desc.AddMember(&CHealthComponent::m_MaxHealth, 'mhlt', "MaxHealth", "Max Health", "Max Health", 100);
 		desc.AddMember(&CHealthComponent::m_Health, 'hlt', "Health", "Health", "Health", 100);

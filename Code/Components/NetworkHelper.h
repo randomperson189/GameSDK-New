@@ -23,6 +23,7 @@ public:
 	static void ReflectType(Schematyc::CTypeDesc<CNetworkHelperComponent>& desc)
 	{
 		desc.SetGUID("{B65F8780-FD47-49D7-AD6F-02DF006F322A}"_cry_guid);
+		desc.SetComponentFlags({ IEntityComponent::EFlags::Singleton });
 
 		desc.SetEditorCategory("Utilities");
 		desc.SetLabel("Network Helper");

@@ -28,6 +28,7 @@ public:
 		desc.SetEditorCategory("Utilities");
 		desc.SetLabel("Timer");
 		desc.SetDescription("Component to do timers");
+		desc.SetComponentFlags({ IEntityComponent::EFlags::Singleton });
 	}
 
 	void SetTimerSchematyc(uint32 timerId, int timeInMilliseconds);

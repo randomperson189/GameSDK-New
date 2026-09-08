@@ -23,6 +23,7 @@ public:
 		desc.SetEditorCategory("Utilities");
 		desc.SetLabel("Trigger Areas");
 		desc.SetDescription("Component to set entities to trigger areas");
+		desc.SetComponentFlags({ IEntityComponent::EFlags::Singleton });
 
 		desc.AddMember(&CTriggerAreasComponent::m_bTriggerAreas, 'tars', "TriggerAreas", "Trigger Areas", "Whether or not this entity will trigger areas", true);
 	}

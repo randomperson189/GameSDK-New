@@ -64,6 +64,8 @@ namespace
 			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SEquip));
 			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SHolster));
 
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SReload));
+
 			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SStartFire));
 			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SStopFire));
 
@@ -102,6 +104,12 @@ static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SEquip>& desc)
 {
 	desc.SetGUID("{5F201F39-B6FE-434B-80A6-ED38896781DE}"_cry_guid);
 	desc.SetLabel("Equip");
+}
+
+static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SReload>& desc)
+{
+	desc.SetGUID("{79BA51DD-BE6E-4DD7-9E1D-7D46A6BDACD7}"_cry_guid);
+	desc.SetLabel("Reload");
 }
 
 static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SStartFire>& desc)
@@ -348,6 +356,17 @@ void CWeaponComponent::Holster()
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
 		pSchematycObject->ProcessSignal(SHolster(), GetGUID());
+	}
+}
+
+void CWeaponComponent::Reload()
+{
+	if (!m_pEntity)
+		return;
+
+	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
+	{
+		pSchematycObject->ProcessSignal(SReload(), GetGUID());
 	}
 }
 

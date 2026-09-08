@@ -38,7 +38,7 @@ public:
 		desc.SetEditorCategory("Game");
 		desc.SetLabel("NPC");
 		desc.SetDescription("A simple NPC");
-		desc.SetComponentFlags({ IEntityComponent::EFlags::Transform, IEntityComponent::EFlags::Socket, IEntityComponent::EFlags::Attach });
+		desc.SetComponentFlags({ IEntityComponent::EFlags::Singleton });
 	}
 	
 	Cry::DefaultComponents::CCharacterControllerComponent* m_pCharacterController = nullptr;

@@ -45,6 +45,7 @@ public:
 	static void ReflectType(Schematyc::CTypeDesc<CBehaviorTreeHelperComponent>& desc)
 	{
 		desc.SetGUID("{990EBD04-CC78-4810-B867-76E3E1A8554E}"_cry_guid);
+		desc.SetComponentFlags({ IEntityComponent::EFlags::Singleton });
 
 		desc.SetEditorCategory("Helpers");
 		desc.SetLabel("Behavior Tree Helper");

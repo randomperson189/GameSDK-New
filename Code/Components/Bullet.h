@@ -27,6 +27,7 @@ public:
 	static void ReflectType(Schematyc::CTypeDesc<CBulletComponent>& desc)
 	{
 		desc.SetGUID("{9062E410-EF72-4F51-B9E4-CB83C1CD3957}"_cry_guid);
+		desc.SetComponentFlags({ IEntityComponent::EFlags::Singleton });
 	}
 
 	virtual Cry::Entity::EventFlags GetEventMask() const override;

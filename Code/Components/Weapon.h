@@ -30,7 +30,7 @@ public:
 		desc.SetEditorCategory("Gameplay");
 		desc.SetLabel("Weapon Component");
 		desc.SetDescription("Component for a weapon");
-		desc.SetComponentFlags({ IEntityComponent::EFlags::HideFromInspector });
+		desc.SetComponentFlags({ IEntityComponent::EFlags::HideFromInspector, IEntityComponent::EFlags::Singleton });
 
 		desc.AddMember(&CWeaponComponent::m_pDisplayName, 'dsn', "DisplayName", "Display Name", "Weapon display name", "Weapon Name");
 		desc.AddMember(&CWeaponComponent::m_pAnimCodeName, 'acn', "AnimCodeName", "Animation Code Name", "Weapon name in animation code (e.g. Mannequin tags and fragments)", "Weapon Code Name");
@@ -81,6 +81,8 @@ public:
 	void Equip();
 	void Holster();
 
+	void Reload();
+
 	void StartFire();
 	void StopFire();
 
@@ -94,6 +96,11 @@ public:
 	struct SHolster
 	{
 		SHolster() = default;
+	};
+
+	struct SReload
+	{
+		SReload() = default;
 	};
 
 	struct SStartFire

@@ -23,6 +23,7 @@ public:
 	static void ReflectType(Schematyc::CTypeDesc<CInventoryComponent>& desc)
 	{
 		desc.SetGUID("{6ECE4AEC-D4D9-488B-92DA-3321878F73B3}"_cry_guid);
+		desc.SetComponentFlags({ IEntityComponent::EFlags::Singleton });
 
 		desc.SetEditorCategory("Game");
 		desc.SetLabel("Inventory");

@@ -187,6 +187,8 @@ public:
 	static void ReflectType(Schematyc::CTypeDesc<CPlayerComponent>& desc)
 	{
 		desc.SetGUID("{63F4C0C6-32AF-4ACB-8FB0-57D45DD14725}"_cry_guid);
+		desc.SetComponentFlags({ IEntityComponent::EFlags::Singleton });
+
 		desc.AddMember(&CPlayerComponent::m_moveSpeedWalking, 'mspw', "MoveSpeedWalking", "Move Speed Walking", "Speed of the player when walking", 4.0f);
 		desc.AddMember(&CPlayerComponent::m_moveSpeedCrouching, 'mspc', "MoveSpeedCrouching", "Move Speed Crouching", "Speed of the player when crouching", 2.0f);
 		desc.AddMember(&CPlayerComponent::m_moveSpeedSprinting, 'msps', "MoveSpeedSprinting", "Move Speed Sprinting", "Speed of the player when sprinting", 8.44f);
@@ -266,7 +268,9 @@ protected:
 	bool RemoteReviveOnClient(RemoteReviveParams&& params, INetChannel* pNetChannel);
 	bool RemoteReviveOnServer(RemoteBlankParams&& params, INetChannel* pNetChannel);
 
-	//bool RemoteHolster(RemoteShootParams&& params, INetChannel* pNetChannel);
+	//bool RemoteHolster(RemoteBlankParams&& params, INetChannel* pNetChannel);
+
+	bool RemoteReload(RemoteShootParams&& params, INetChannel* pNetChannel);
 
 	bool RemoteStartShoot(RemoteShootParams&& params, INetChannel* pNetChannel);
 	bool RemoteStopShoot(RemoteShootParams&& params, INetChannel* pNetChannel);
@@ -381,6 +385,8 @@ public:
 
 	void StartShoot();
 	void StopShoot();
+
+	void Reload();
 
 	void StartShoot2();
 	void StopShoot2();

@@ -34,6 +34,11 @@ namespace
 			}
 
 			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::Reload, "{88BBEC52-4EE3-49B8-BAAE-4A445F946EF4}"_cry_guid, "Reload");
+				componentScope.Register(pFunction);
+			}
+
+			{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::StartShoot, "{899ADE13-94B7-417C-8F41-1B4D69F93904}"_cry_guid, "StartShoot");
 				componentScope.Register(pFunction);
 			}
@@ -52,17 +57,17 @@ namespace
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetMoveSpeed, "{C882D81E-1C87-428F-8418-B6896A85577B}"_cry_guid, "Set Move Speed");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetMoveSpeed, "{C882D81E-1C87-428F-8418-B6896A85577B}"_cry_guid, "SetMoveSpeed");
 				pFunction->BindInput(1, 'mspd', "Move Speed", "Movement Speed");
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetRotationSpeed, "{67AB2303-58D1-4339-9635-341AB555B5C7}"_cry_guid, "Set Rotation Speed");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetRotationSpeed, "{67AB2303-58D1-4339-9635-341AB555B5C7}"_cry_guid, "SetRotationSpeed");
 				pFunction->BindInput(1, 'rspd', "Rotation Speed", "Rotation Speed");
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetRotationLimits, "{3AA0F21E-C6B8-4318-9900-77DDB6621B50}"_cry_guid, "Set Rotation Limits");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetRotationLimits, "{3AA0F21E-C6B8-4318-9900-77DDB6621B50}"_cry_guid, "SetRotationLimits");
 				pFunction->BindInput(1, 'minp', "Min Pitch", "Minimum Pitch");
 				pFunction->BindInput(2, 'maxp', "Max Pitch", "Maximum Pitch");
 				componentScope.Register(pFunction);
@@ -74,19 +79,19 @@ namespace
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::IsLocalClient, "{29F94FB6-54BD-4E10-AB93-2B87EA095D0D}"_cry_guid, "Is Local Client");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::IsLocalClient, "{29F94FB6-54BD-4E10-AB93-2B87EA095D0D}"_cry_guid, "IsLocalClient");
 				pFunction->BindOutput(0, 'ilc', "Is Local Client", "Is Local Client");
 				componentScope.Register(pFunction);
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::IsServer, "{63088B52-55E6-4779-9ACB-B39349BC9EC0}"_cry_guid, "Is Server");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::IsServer, "{63088B52-55E6-4779-9ACB-B39349BC9EC0}"_cry_guid, "IsServer");
 				pFunction->BindOutput(0, 'isrv', "Is Server", "Is Server");
 				componentScope.Register(pFunction);
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::QueueFragmentOnScope, "{4553E0A4-F1BA-4B45-ACD7-C2671B7F05D3}"_cry_guid, "Queue Fragment On Scope");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::QueueFragmentOnScope, "{4553E0A4-F1BA-4B45-ACD7-C2671B7F05D3}"_cry_guid, "QueueFragmentOnScope");
 				pFunction->SetDescription("Queues a Mannequin fragment on a scope for playback");
 				pFunction->SetFlags(Schematyc::EEnvFunctionFlags::Construction);
 				pFunction->BindInput(1, 'frag', "Fragment Name");
@@ -96,7 +101,7 @@ namespace
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetDesiredFragmentOnScope, "{28BED6B2-A304-43AB-8854-95D28DEB7A0D}"_cry_guid, "Set Desired Fragment");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetDesiredFragmentOnScope, "{28BED6B2-A304-43AB-8854-95D28DEB7A0D}"_cry_guid, "SetDesiredFragment");
 				pFunction->BindInput(1, 'frag', "Fragment", "Fragment Name");
 				pFunction->BindInput(2, 'scop', "Scope");
 				pFunction->BindInput(3, 'tru', "Override Previous Fragment");
@@ -104,7 +109,7 @@ namespace
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::RefreshFragmentsOnScopes, "{95E2CDF4-C429-46CD-8369-C594E2B82212}"_cry_guid, "Refresh Fragments On Scopes");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::RefreshFragmentsOnScopes, "{95E2CDF4-C429-46CD-8369-C594E2B82212}"_cry_guid, "RefreshFragmentsOnScopes");
 				pFunction->BindInput(1, 'tpf', "Override Previous Fragment");
 				pFunction->BindInput(2, 'sc01', "FullBody1P");
 				pFunction->BindInput(3, 'sc02', "Torso1P");
@@ -120,33 +125,33 @@ namespace
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetCrouching, "{C27EFC99-43AA-4AE6-A521-AF0BBC127D26}"_cry_guid, "Set Crouching");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetCrouching, "{C27EFC99-43AA-4AE6-A521-AF0BBC127D26}"_cry_guid, "SetCrouching");
 				pFunction->SetDescription("Sets crouching");
 				pFunction->BindInput(1, 'crch', "Crouching");
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetCrouching, "{81AD4871-5E02-4FDE-A263-9BDDF8B4BA0D}"_cry_guid, "Get Crouching");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetCrouching, "{81AD4871-5E02-4FDE-A263-9BDDF8B4BA0D}"_cry_guid, "GetCrouching");
 				pFunction->SetDescription("Gets crouching");
 				pFunction->BindOutput(0, 'crch', "Crouching");
 				componentScope.Register(pFunction);
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetActiveWeapon, "{EEC48135-FBA0-40E2-9DDD-E076DABE5966}"_cry_guid, "Get Active Weapon");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetActiveWeapon, "{EEC48135-FBA0-40E2-9DDD-E076DABE5966}"_cry_guid, "GetActiveWeapon");
 				pFunction->BindOutput(0, 'wid', "Weapon Entity");
 				componentScope.Register(pFunction);
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetSubTag, "{92F752EA-99E2-4127-A6BD-A2FE10C31B5F}"_cry_guid, "Set SubTag");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetSubTag, "{92F752EA-99E2-4127-A6BD-A2FE10C31B5F}"_cry_guid, "SetSubTag");
 				pFunction->BindInput(1, 'tag', "Tag", "Tag");
 				pFunction->BindInput(2, 'val', "Value", "Value");
 				componentScope.Register(pFunction);
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetFOV, "{66D61360-5387-4240-BC77-CC33232CA6D4}"_cry_guid, "Set FOV");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetFOV, "{66D61360-5387-4240-BC77-CC33232CA6D4}"_cry_guid, "SetFOV");
 				pFunction->BindInput(1, 'fov', "FOV", "Field of View");
 				componentScope.Register(pFunction);
 			}
@@ -171,46 +176,46 @@ namespace
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetLookRotation, "{667A3670-7B5B-4585-8444-51BEDE83B21C}"_cry_guid, "Set Look Orientation");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetLookRotation, "{667A3670-7B5B-4585-8444-51BEDE83B21C}"_cry_guid, "SetLookOrientation");
 				pFunction->BindInput(1, 'rot', "rotation", "rotation");
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetLookRotation, "{3288886A-7CB4-46A9-A630-F277D144D8DD}"_cry_guid, "Get Look Orientation");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetLookRotation, "{3288886A-7CB4-46A9-A630-F277D144D8DD}"_cry_guid, "GetLookOrientation");
 				pFunction->BindOutput(0, 'rot', "rotation", "rotation");
 				componentScope.Register(pFunction);
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetAdditiveLookRotation, "{5AE906B3-A51D-4BD0-B941-8842716E55A0}"_cry_guid, "Set Additive Look Orientation");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::SetAdditiveLookRotation, "{5AE906B3-A51D-4BD0-B941-8842716E55A0}"_cry_guid, "SetAdditiveLookOrientation");
 				pFunction->BindInput(1, 'rot', "rotation", "rotation");
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetAdditiveLookRotation, "{F0169D8E-1D23-4665-BDAA-4BF546FA953B}"_cry_guid, "Get Additive Look Orientation");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetAdditiveLookRotation, "{F0169D8E-1D23-4665-BDAA-4BF546FA953B}"_cry_guid, "GetAdditiveLookOrientation");
 				pFunction->BindOutput(0, 'rot', "rotation", "rotation");
 				componentScope.Register(pFunction);
 			}
 
 			// These are here just for reference since you can get reflected component variables in Schematyc by default
 			/*{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetMoveSpeed, "{0761CED9-067F-4C04-8E7F-170E0F5CFE66}"_cry_guid, "Get Move Speed");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetMoveSpeed, "{0761CED9-067F-4C04-8E7F-170E0F5CFE66}"_cry_guid, "GetMoveSpeed");
 				pFunction->BindOutput(0, 'mspd', "Move Speed", "Movement Speed");
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetRotationSpeed, "{14867DF0-505C-4712-9DC1-17F1FD4C7CFF}"_cry_guid, "Get Rotation Speed");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetRotationSpeed, "{14867DF0-505C-4712-9DC1-17F1FD4C7CFF}"_cry_guid, "GetRotationSpeed");
 				pFunction->BindOutput(0, 'rspd', "Rotation Speed", "Rotation Speed");
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetRotationLimits, "{962F173C-E50C-4C5B-B751-8F718DA087B4}"_cry_guid, "Get Rotation Limits");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetRotationLimits, "{962F173C-E50C-4C5B-B751-8F718DA087B4}"_cry_guid, "GetRotationLimits");
 				pFunction->BindOutput(1, 'minp', "Min Pitch", "Minimum Pitch");
 				pFunction->BindOutput(2, 'maxp', "Max Pitch", "Maximum Pitch");
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetJumpHeight, "{D45E00F5-4259-4699-A86E-70168B324A73}"_cry_guid, "Get Jump Height");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetJumpHeight, "{D45E00F5-4259-4699-A86E-70168B324A73}"_cry_guid, "GetJumpHeight");
 				pFunction->BindOutput(0, 'jhgt', "Jump Height", "Jump Height");
 				componentScope.Register(pFunction);
 			}*/
@@ -274,6 +279,8 @@ void CPlayerComponent::Initialize()
 	// Register the RemoteReviveOnClient function as a Remote Method Invocation (RMI) that can be executed by the server on clients
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnServer)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
+
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReload)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
 
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStartShoot)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
 	SRmi<RMI_WRAP(&CPlayerComponent::RemoteStopShoot)>::Register(this, eRAT_NoAttach, false, eNRT_ReliableOrdered);
@@ -1067,6 +1074,18 @@ void CPlayerComponent::Jump()
 	m_pCharacterController->AddVelocity(Vec3(0, 0, -m_pCharacterController->GetVelocity().z + m_jumpHeight));
 }
 
+void CPlayerComponent::Reload()
+{
+	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+	{
+		weapon->GetComponent<CWeaponComponent>()->Reload();
+	}
+
+	RemoteShootParams params;
+
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReload)>::InvokeOnServer(this, std::move(params));
+}
+
 void CPlayerComponent::StartShoot()
 {
 	if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
@@ -1738,6 +1757,24 @@ bool CPlayerComponent::RemoteDieOnClients(RemoteBlankParams&& params, INetChanne
 		Ragdollize();
 
 		m_pInventoryComponent->m_pItems.clear();
+	}
+
+	return true;
+}
+
+bool CPlayerComponent::RemoteReload(RemoteShootParams&& params, INetChannel* pNetChannel)
+{
+	if (!IsLocalClient())
+	{
+		if (IEntity* weapon = gEnv->pEntitySystem->GetEntity(m_pActiveWeapon))
+		{
+			weapon->GetComponent<CWeaponComponent>()->Reload();
+		}
+	}
+
+	if (gEnv->bServer)
+	{
+		SRmi<RMI_WRAP(&CPlayerComponent::RemoteReload)>::InvokeOnRemoteClients(this, std::move(params), GetEntityId());
 	}
 
 	return true;

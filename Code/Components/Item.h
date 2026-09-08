@@ -23,6 +23,8 @@ public:
 		desc.SetEditorCategory("Game");
 		desc.SetLabel("Item");
 		desc.SetDescription("This makes attached entities behave like an item");
+
+		desc.SetComponentFlags({ IEntityComponent::EFlags::Singleton });
 	}
 
 	virtual bool NetSerialize(TSerialize ser, EEntityAspects aspect, uint8 profile, int flags) override;
