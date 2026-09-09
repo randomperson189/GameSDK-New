@@ -1,4 +1,5 @@
 #include "Weapon.h"
+#include "WeaponBehavior.h"
 #include <DefaultComponents/Input/InputComponent.h>
 
 namespace
@@ -282,6 +283,12 @@ void CWeaponComponent::AttachToHand()
 	}
 }
 
+void CWeaponComponent::AttachToBack()
+{
+	// Attach weapon to the playermodel's back
+	// TODO: Implement this
+}
+
 void CWeaponComponent::AttachToNone()
 {
 	if (IEntity* pOwner = gEnv->pEntitySystem->GetEntity((EntityId)m_pItemComponent->GetOwner()))
@@ -314,45 +321,24 @@ void CWeaponComponent::Equip()
 	
 	AttachToHand();
 
-	/*if (IEntity* owner = gEnv->pEntitySystem->GetEntity(m_Owner))
+	if (auto* pBehaviorComponent = m_pEntity->GetComponent<CWeaponBehaviorComponent>())
 	{
-		if (auto* playercomp = owner->GetComponent<CPlayerComponent>())
-		{
-			// Define the animation component's interface ID (from ReflectType)
-			const CryInterfaceID animComponentID = "{3CD5DDC5-EE15-437F-A997-79C2391537FE}"_cry_guid;
-
-			// Array to store all components of this type
-			DynArray<IEntityComponent*> components;
-			owner->GetComponentsByTypeId(animComponentID, components);
-
-			// Get the advanced animation components, responsible for updating Mannequin and animating the player
-			if (components.size() > 0)
-			{
-				if (Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent3P = static_cast<Cry::DefaultComponents::CAdvancedAnimationComponent*>(components[0]))
-				{
-					m_pAnimationComponent3P->SetTag("SDKPistol", true);
-				}
-			}
-			if (components.size() > 1)
-			{
-				if (Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent1P = static_cast<Cry::DefaultComponents::CAdvancedAnimationComponent*>(components[1]))
-				{
-					m_pAnimationComponent1P->SetTag("SDKPistol", true);
-				}
-			}
-
-			playercomp->QueueFragmentOnScope("select", EPlayerScopes::Scope_2, 99, false);
-		}
-	}*/
-
+		pBehaviorComponent->Equip();
+	}
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
 		pSchematycObject->ProcessSignal(SEquip(), GetGUID());
 	}
 }
-
 void CWeaponComponent::Holster()
 {
+	if (!m_pEntity)
+		return;
+
+	if (auto* pBehaviorComponent = m_pEntity->GetComponent<CWeaponBehaviorComponent>())
+	{
+		pBehaviorComponent->Holster();
+	}
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
 		pSchematycObject->ProcessSignal(SHolster(), GetGUID());
@@ -364,6 +350,10 @@ void CWeaponComponent::Reload()
 	if (!m_pEntity)
 		return;
 
+	if (auto* pBehaviorComponent = m_pEntity->GetComponent<CWeaponBehaviorComponent>())
+	{
+		pBehaviorComponent->Reload();
+	}
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
 		pSchematycObject->ProcessSignal(SReload(), GetGUID());
@@ -375,6 +365,10 @@ void CWeaponComponent::StartFire()
 	if (!m_pEntity)
 		return;
 
+	if (auto* pBehaviorComponent = m_pEntity->GetComponent<CWeaponBehaviorComponent>())
+	{
+		pBehaviorComponent->StartFire();
+	}
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
 		pSchematycObject->ProcessSignal(SStartFire(), GetGUID());
@@ -385,6 +379,10 @@ void CWeaponComponent::StopFire()
 	if (!m_pEntity)
 		return;
 
+	if (auto* pBehaviorComponent = m_pEntity->GetComponent<CWeaponBehaviorComponent>())
+	{
+		pBehaviorComponent->StopFire();
+	}
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
 		pSchematycObject->ProcessSignal(SStopFire(), GetGUID());
@@ -393,6 +391,13 @@ void CWeaponComponent::StopFire()
 
 void CWeaponComponent::StartAltFire()
 {
+	if (!m_pEntity)
+		return;
+
+	if (auto* pBehaviorComponent = m_pEntity->GetComponent<CWeaponBehaviorComponent>())
+	{
+		pBehaviorComponent->StartAltFire();
+	}
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
 		pSchematycObject->ProcessSignal(SStartAltFire(), GetGUID());
@@ -400,6 +405,13 @@ void CWeaponComponent::StartAltFire()
 }
 void CWeaponComponent::StopAltFire()
 {
+	if (!m_pEntity)
+		return;
+
+	if (auto* pBehaviorComponent = m_pEntity->GetComponent<CWeaponBehaviorComponent>())
+	{
+		pBehaviorComponent->StopAltFire();
+	}
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
 		pSchematycObject->ProcessSignal(SStopAltFire(), GetGUID());

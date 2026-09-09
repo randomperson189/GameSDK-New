@@ -323,6 +323,11 @@
     <extensions />
     <children />
    </element>
+   <element elementType="ComponentInstance" guid="cd73de9a-a5dd-447a-b137-21f47e2cdb8e" name="Pistol" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="c5416b0c-4b55-456d-8b0b-26fe7cd9dd5a">
+    <properties />
+    <extensions />
+    <children />
+   </element>
   </children>
  </root>
 </CrySchematyc>

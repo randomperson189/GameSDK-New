@@ -76,6 +76,7 @@ public:
 	void QueueFragmentOnScopes(Schematyc::CSharedString fragment, bool trumpPreviousFragment);
 
 	void AttachToHand();
+	void AttachToBack();
 	void AttachToNone();
 
 	void Equip();

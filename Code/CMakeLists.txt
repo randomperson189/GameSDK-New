@@ -54,6 +54,7 @@ add_sources("Components_uber.cpp"
 		"Components/Timer.cpp"
 		"Components/TriggerAreas.cpp"
 		"Components/Weapon.cpp"
+		"Components/WeaponBehavior.cpp"
 		"Components/AdvancedAudio.h"
 		"Components/AreaTrigger.h"
 		"Components/BehaviorTreeHelper.h"
@@ -71,6 +72,15 @@ add_sources("Components_uber.cpp"
 		"Components/Timer.h"
 		"Components/TriggerAreas.h"
 		"Components/Weapon.h"
+		"Components/WeaponBehavior.h"
+)
+add_sources("Weapons_uber.cpp"
+    PROJECTS GameSDK-New
+    SOURCE_GROUP "Components\\\\Weapons"
+		"Components/Weapons/Pistol.cpp"
+		"Components/Weapons/Shotgun.cpp"
+		"Components/Weapons/Pistol.h"
+		"Components/Weapons/Shotgun.h"
 )
 add_sources("FlowNodes_uber.cpp"
     PROJECTS GameSDK-New
