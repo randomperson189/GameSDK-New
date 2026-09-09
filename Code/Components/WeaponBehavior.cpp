@@ -5,7 +5,8 @@
 #include <CrySchematyc/Env/Elements/EnvFunction.h>
 #include <CrySchematyc/Env/Elements/EnvSignal.h>
 
-namespace
+// This component shouldn't be available in menus at all, only subclasses of it should
+/*namespace
 {
 	static void RegisterWeaponBehaviorComponent(Schematyc::IEnvRegistrar& registrar)
 	{
@@ -16,7 +17,7 @@ namespace
 	}
 
 	CRY_STATIC_AUTO_REGISTER_FUNCTION(&RegisterWeaponBehaviorComponent);
-}
+}*/
 
 CWeaponBehaviorComponent::CWeaponBehaviorComponent() 
 {
