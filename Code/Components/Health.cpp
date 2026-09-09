@@ -13,7 +13,7 @@ namespace
 			Schematyc::CEnvRegistrationScope componentScope = scope.Register(SCHEMATYC_MAKE_ENV_COMPONENT(CHealthComponent));
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CHealthComponent::TakeDamage, "{DCB1178D-7C55-4FEB-B7A3-65BED0A8C3D1}"_cry_guid, "Take Damage");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CHealthComponent::TakeDamage, "{DCB1178D-7C55-4FEB-B7A3-65BED0A8C3D1}"_cry_guid, "TakeDamage");
 				pFunction->BindInput(1, 'dmg', "Damage", "Damage to take");
 				componentScope.Register(pFunction);
 			}

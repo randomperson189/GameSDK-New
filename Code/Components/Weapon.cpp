@@ -10,51 +10,51 @@ namespace
 			Schematyc::CEnvRegistrationScope componentScope = scope.Register(SCHEMATYC_MAKE_ENV_COMPONENT(CWeaponComponent));
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetMesh, "{92A2650A-0917-45D0-AAB1-50180C4FACD7}"_cry_guid, "Set Mesh");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetMesh, "{92A2650A-0917-45D0-AAB1-50180C4FACD7}"_cry_guid, "SetMesh");
 				pFunction->BindInput(1, 'fpth', "FilePath", "Mesh File Path");
 				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetAnimationMesh, "{029F2E59-04B7-4388-864D-C5F1B84217AA}"_cry_guid, "Set Animated Mesh");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetAnimationMesh, "{029F2E59-04B7-4388-864D-C5F1B84217AA}"_cry_guid, "SetAnimatedMesh");
 				pFunction->BindInput(1, 'fpth', "FilePath", "Animation Mesh File Path");
 				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
 				componentScope.Register(pFunction);
 			}
 			/*{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetMeshTransform, "{BEB132ED-EC95-49C3-9D07-931F509DF270}"_cry_guid, "Set Mesh Transform");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetMeshTransform, "{BEB132ED-EC95-49C3-9D07-931F509DF270}"_cry_guid, "SetMeshTransform");
 				pFunction->BindInput(1, 'tr', "Transform", "Transform");
 				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
 				componentScope.Register(pFunction);
 			}*/
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetAnimationDatabase, "{9B3D2F78-4B00-438C-830D-7626E471554F}"_cry_guid, "Set Animation Database");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetAnimationDatabase, "{9B3D2F78-4B00-438C-830D-7626E471554F}"_cry_guid, "SetAnimationDatabase");
 				pFunction->BindInput(1, 'fpth', "FilePath", "Animation Database File Path");
 				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
 				componentScope.Register(pFunction);
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetDisplayName, "{E12F467B-7380-4EAA-A642-0300462643B2}"_cry_guid, "Set Display Name");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetDisplayName, "{E12F467B-7380-4EAA-A642-0300462643B2}"_cry_guid, "SetDisplayName");
 				pFunction->BindInput(1, 'name', "Name", "Name");
 				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetWeaponType, "{3B1864EC-427A-4E58-B5A1-C6ADB3540746}"_cry_guid, "Set Weapon Type");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetWeaponType, "{3B1864EC-427A-4E58-B5A1-C6ADB3540746}"_cry_guid, "SetWeaponType");
 				pFunction->BindInput(1, 'name', "Name", "Name");
 				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetAnimationCodeName, "{BBEB37A5-138A-44FB-B86F-BBE7DF6EFCB2}"_cry_guid, "Set Animation Code Name");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetAnimationCodeName, "{BBEB37A5-138A-44FB-B86F-BBE7DF6EFCB2}"_cry_guid, "SetAnimationCodeName");
 				pFunction->BindInput(1, 'name', "Name", "Name");
 				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
 				componentScope.Register(pFunction);
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::QueueFragmentOnScopes, "{2AF3E2BA-93E9-423C-A6C9-73909BF9CDF6}"_cry_guid, "Queue Fragment On Scopes");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::QueueFragmentOnScopes, "{2AF3E2BA-93E9-423C-A6C9-73909BF9CDF6}"_cry_guid, "QueueFragmentOnScopes");
 				pFunction->BindInput(1, 'frag', "Fragment Name");
 				pFunction->BindInput(2, 'tru', "Override Previous Fragment");
 				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });

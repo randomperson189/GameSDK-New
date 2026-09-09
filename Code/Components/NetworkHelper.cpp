@@ -16,29 +16,29 @@ namespace
 			Schematyc::CEnvRegistrationScope componentScope = scope.Register(SCHEMATYC_MAKE_ENV_COMPONENT(CNetworkHelperComponent));
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CNetworkHelperComponent::IsServer, "{24648B9E-0859-4E36-BDC2-657A043989BB}"_cry_guid, "Is Server");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CNetworkHelperComponent::IsServer, "{24648B9E-0859-4E36-BDC2-657A043989BB}"_cry_guid, "IsServer");
 				pFunction->BindOutput(0, 'srv', "Is Server");
 				componentScope.Register(pFunction);
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CNetworkHelperComponent::SendToServer, "{6EAEF9E3-48D9-42CA-AFDB-1872D811A83E}"_cry_guid, "Send Remote Event To Server");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CNetworkHelperComponent::SendToServer, "{6EAEF9E3-48D9-42CA-AFDB-1872D811A83E}"_cry_guid, "SendRemoteEventToServer");
 				pFunction->BindInput(1, 'enam', "Event Name");
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CNetworkHelperComponent::SendToClients, "{DBE8F0EA-F6C6-4FF5-AC14-97A0571AC3EC}"_cry_guid, "Send Remote Event To Clients");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CNetworkHelperComponent::SendToClients, "{DBE8F0EA-F6C6-4FF5-AC14-97A0571AC3EC}"_cry_guid, "SendRemoteEventToClients");
 				pFunction->BindInput(1, 'enam', "Event Name");
 				componentScope.Register(pFunction);
 			}
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CNetworkHelperComponent::ServerMarkNetAspectDirty, "{C441B1D6-8906-48EF-8D67-AF6FDE86E3EF}"_cry_guid, "Server Mark Net Aspect Dirty");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CNetworkHelperComponent::ServerMarkNetAspectDirty, "{C441B1D6-8906-48EF-8D67-AF6FDE86E3EF}"_cry_guid, "ServerMarkNetAspectDirty");
 				pFunction->BindInput(1, 'sbl1', "Server Bool 1");
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CNetworkHelperComponent::ClientMarkNetAspectDirty, "{A1B4D4C1-3E9E-41B5-A561-4168BDB73DE6}"_cry_guid, "Client Mark Net Aspect Dirty");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CNetworkHelperComponent::ClientMarkNetAspectDirty, "{A1B4D4C1-3E9E-41B5-A561-4168BDB73DE6}"_cry_guid, "ClientMarkNetAspectDirty");
 				pFunction->BindInput(1, 'cbl1', "Client Bool 1");
 				componentScope.Register(pFunction);
 			}

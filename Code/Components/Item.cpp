@@ -15,12 +15,12 @@ namespace
 			Schematyc::CEnvRegistrationScope componentScope = scope.Register(SCHEMATYC_MAKE_ENV_COMPONENT(CItemComponent));
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CItemComponent::SetOwner, "{164C0A28-46C2-495E-8CBF-3FAFA1395E2E}"_cry_guid, "Set Owner");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CItemComponent::SetOwner, "{164C0A28-46C2-495E-8CBF-3FAFA1395E2E}"_cry_guid, "SetOwner");
 				pFunction->BindInput(1, 'own', "Owner", "Owner");
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CItemComponent::GetOwner, "{883C8332-E98D-4370-BB70-E74BAEA1C2D9}"_cry_guid, "Get Owner");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CItemComponent::GetOwner, "{883C8332-E98D-4370-BB70-E74BAEA1C2D9}"_cry_guid, "GetOwner");
 				pFunction->BindOutput(0, 'own', "Owner", "Owner");
 				componentScope.Register(pFunction);
 			}

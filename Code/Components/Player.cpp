@@ -1492,8 +1492,10 @@ void CPlayerComponent::Ragdollize()
 
 	m_pEntity->UpdateComponentEventMask(this);
 
+	// Set buoyancy params
+	// TODO: Expose these params to Schematyc
 	pe_params_buoyancy buoyancyParams;
-	buoyancyParams.waterDensity = 40.0f;
+	buoyancyParams.waterDensity = 75.0f;
 	buoyancyParams.waterResistance = 10.0f;
 	buoyancyParams.waterDamping = 0.0f;
 

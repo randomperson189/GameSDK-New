@@ -14,7 +14,7 @@ namespace
 			Schematyc::CEnvRegistrationScope componentScope = scope.Register(SCHEMATYC_MAKE_ENV_COMPONENT(CTriggerAreasComponent));
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CTriggerAreasComponent::SetTriggerAreas, "{6E857220-693E-4E8A-A88A-FD1C41D35167}"_cry_guid, "Set Trigger Areas");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CTriggerAreasComponent::SetTriggerAreas, "{6E857220-693E-4E8A-A88A-FD1C41D35167}"_cry_guid, "SetTriggerAreas");
 				pFunction->BindInput(1, 'tars', "Trigger Areas");
 				componentScope.Register(pFunction);
 			}

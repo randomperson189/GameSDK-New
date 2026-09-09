@@ -14,12 +14,12 @@ namespace
 			Schematyc::CEnvRegistrationScope componentScope = scope.Register(SCHEMATYC_MAKE_ENV_COMPONENT(CTimerComponent));
 
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CTimerComponent::SetTimerSchematyc, "{61994F63-291F-492D-90DB-E95257C10D0A}"_cry_guid, "Set Timer");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CTimerComponent::SetTimerSchematyc, "{61994F63-291F-492D-90DB-E95257C10D0A}"_cry_guid, "SetTimer");
 				pFunction->BindInput(1, 'tid', "Timer Id", "Timer Id");
 				componentScope.Register(pFunction);
 			}
 			{
-				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CTimerComponent::KillTimerSchematyc, "{2A0891B5-BFA8-4996-BE8C-DEFEAAC931BC}"_cry_guid, "Kill Timer");
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CTimerComponent::KillTimerSchematyc, "{2A0891B5-BFA8-4996-BE8C-DEFEAAC931BC}"_cry_guid, "KillTimer");
 				pFunction->BindInput(1, 'tid', "Timer Id", "Timer Id");
 				componentScope.Register(pFunction);
 			}
