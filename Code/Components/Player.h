@@ -404,9 +404,6 @@ public:
 
 	void SetSubTag(Schematyc::CSharedString tag, bool set);
 
-	float GetDimensions(/*float& radius, */float& height, float& zOffset, bool& bCapsule, float& groundContactEps);
-	void SetDimensions(/*float mass, */float radius, float height, float zOffset, bool bCapsule, float groundContactEps);
-
 	bool IsServer() { return gEnv->bServer; }
 	bool IsSwimming();
 	bool IsRagdoll();
