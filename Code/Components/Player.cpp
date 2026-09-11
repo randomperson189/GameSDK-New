@@ -357,12 +357,16 @@ void CPlayerComponent::InitializeLocalPlayer()
 					{
 						if (m_bIsThirdPersonCamera)
 						{
-							pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(0);
+							if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("head"))
+								pAttachment->HideAttachment(0);
 						}
 						else
 						{
-							pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
-							pAttachmentMgr->GetInterfaceByName("head")->HideInShadow(0);
+							if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("head"))
+							{
+								pAttachment->HideAttachment(1);
+								pAttachment->HideInShadow(0);
+							}
 						}
 					}
 				}
@@ -1372,8 +1376,11 @@ void CPlayerComponent::Ragdollize()
 			{
 				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 				{
-					pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
-					pAttachmentMgr->GetInterfaceByName("head")->HideInShadow(0);
+					if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("head"))
+					{
+						pAttachment->HideAttachment(1);
+						pAttachment->HideInShadow(0);
+					}
 				}
 			}
 		}
@@ -1465,14 +1472,26 @@ void CPlayerComponent::SetCharacterThirdPerson(bool thirdperson)
 		{
 			if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 			{
-				pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
-				pAttachmentMgr->GetInterfaceByName("head")->HideInShadow(0);
-				pAttachmentMgr->GetInterfaceByName("jacket")->HideAttachment(1);
-				pAttachmentMgr->GetInterfaceByName("jacket")->HideInShadow(0);
-				pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(1);
-				pAttachmentMgr->GetInterfaceByName("upperbody")->HideInShadow(0);
-				pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(1);
-				pAttachmentMgr->GetInterfaceByName("weapon")->HideInShadow(0);
+				if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("head"))
+				{
+					pAttachment->HideAttachment(1);
+					pAttachment->HideInShadow(0);
+				}
+				if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("jacket"))
+				{
+					pAttachment->HideAttachment(1);
+					pAttachment->HideInShadow(0);
+				}
+				if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("upperbody"))
+				{
+					pAttachment->HideAttachment(1);
+					pAttachment->HideInShadow(0);
+				}
+				if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("weapon"))
+				{
+					pAttachment->HideAttachment(1);
+					pAttachment->HideInShadow(0);
+				}
 			}
 		}
 
@@ -1482,9 +1501,12 @@ void CPlayerComponent::SetCharacterThirdPerson(bool thirdperson)
 		{
 			if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 			{
-				pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(1);
-				pAttachmentMgr->GetInterfaceByName("lower_body")->HideAttachment(1);
-				pAttachmentMgr->GetInterfaceByName("shoes")->HideAttachment(1);
+				if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("head"))
+					pAttachment->HideAttachment(1);
+				if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("lower_body"))
+					pAttachment->HideAttachment(1);
+				if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("shoes"))
+					pAttachment->HideAttachment(1);
 			}
 		}
 
@@ -1513,10 +1535,14 @@ void CPlayerComponent::SetCharacterThirdPerson(bool thirdperson)
 		{
 			if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 			{
-				pAttachmentMgr->GetInterfaceByName("head")->HideAttachment(0);
-				pAttachmentMgr->GetInterfaceByName("jacket")->HideAttachment(0);
-				pAttachmentMgr->GetInterfaceByName("upperbody")->HideAttachment(0);
-				pAttachmentMgr->GetInterfaceByName("weapon")->HideAttachment(0);
+				if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("head"))
+					pAttachment->HideAttachment(0);
+				if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("jacket"))
+					pAttachment->HideAttachment(0);
+				if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("upperbody"))
+					pAttachment->HideAttachment(0);
+				if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("weapon"))
+					pAttachment->HideAttachment(0);
 			}
 		}
 
@@ -1637,7 +1663,8 @@ bool CPlayerComponent::RemoteDieOnServer(RemoteBlankParams&& params, INetChannel
 		{
 			if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 			{
-				pAttachmentMgr->GetInterfaceByName("weapon")->ClearBinding();
+				if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("weapon"))
+					pAttachment->ClearBinding();
 			}
 		}
 	}

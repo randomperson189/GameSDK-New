@@ -223,7 +223,8 @@ void CWeaponComponent::AttachToHand()
 			{
 				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 				{
-					pAttachmentMgr->GetInterfaceByName("weapon")->ClearBinding();
+					if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("weapon"))
+						pAttachment->ClearBinding();
 
 					/*CCGFAttachment* pCGFAttachment = new CCGFAttachment();
 					pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(m_pEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
@@ -233,7 +234,8 @@ void CWeaponComponent::AttachToHand()
 					CSKELAttachment* pSKELAttachment = new CSKELAttachment();
 					pSKELAttachment->m_pCharInstance = m_pEntity->GetComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>()->GetCharacter();
 
-					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pSKELAttachment);
+					if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("weapon"))
+						pAttachment->AddBinding(pSKELAttachment);
 				}
 			}
 
@@ -242,12 +244,14 @@ void CWeaponComponent::AttachToHand()
 			{
 				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 				{
-					pAttachmentMgr->GetInterfaceByName("weapon")->ClearBinding();
+					if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("weapon"))
+						pAttachment->ClearBinding();
 
 					CEntityAttachment* pEntityAttachment = new CEntityAttachment();
 					pEntityAttachment->SetEntityId(GetEntityId());
 
-					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pEntityAttachment);
+					if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("weapon"))
+						pAttachment->AddBinding(pEntityAttachment);
 				}
 			}
 
@@ -299,7 +303,8 @@ void CWeaponComponent::AttachToNone()
 			{
 				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 				{
-					pAttachmentMgr->GetInterfaceByName("weapon")->ClearBinding();
+					if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("weapon"))
+						pAttachment->ClearBinding();
 				}
 			}
 
@@ -307,7 +312,8 @@ void CWeaponComponent::AttachToNone()
 			{
 				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
 				{
-					pAttachmentMgr->GetInterfaceByName("weapon")->ClearBinding();
+					if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("weapon"))
+						pAttachment->ClearBinding();
 				}
 			}
 		}
