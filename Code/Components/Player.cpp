@@ -613,6 +613,19 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 			"WaterHeight=%.2f | FeetZ=%.2f | CamZ=%.2f | BlendZ=%.2f (Blend=%.2f) | Swimming=%d",
 			waterHeight, feetPos.z, camPos.z, blendedZ, swimBlend, dynamics.bSwimming
 		);*/
+
+		// Only spawn weapon after we have finished revive function
+		if (IsServer())
+		{
+			if (numberCount >= 2)
+			{
+				SpawnDefaultWeapon();
+
+				NetMarkAspectsDirty(WeaponAspect);
+
+				numberCount = 0;
+			}
+		}
 	}
 	break;
 	case Cry::Entity::EEvent::Remove:
@@ -634,13 +647,6 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 		switch (event.nParam[0])
 		{
 		case 1:
-		{
-			SpawnDefaultWeapon();
-
-			NetMarkAspectsDirty(WeaponAspect);
-		}
-		break;
-		case 2:
 		{
 			CryLogAlways("[WeaponAspect] %s received weapon entity id: %u", m_pEntity->GetName(), m_pActiveWeapon);
 
@@ -673,6 +679,12 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 		}
 		else
 		{
+			QueueFragmentOnScope("none", EPlayerScopes::Scope_1, true);
+			QueueFragmentOnScope("none", EPlayerScopes::Scope_2, true);
+			QueueFragmentOnScope("none", EPlayerScopes::Scope_3, true);
+			QueueFragmentOnScope("none", EPlayerScopes::Scope_4, true);
+			QueueFragmentOnScope("none", EPlayerScopes::Scope_5, true);
+
 			m_pAnimationComponent1P->SetType(Cry::DefaultComponents::EMeshType::None);
 		}
 	}
@@ -723,7 +735,7 @@ bool CPlayerComponent::NetSerialize(TSerialize ser, EEntityAspects aspect, uint8
 		{
 			// Attach the weapon to player's hand on client side (using delay for now to fix timing issues on spawn)
 			// TODO: Make this only delay upon spawn as it works fine without delay afterwards
-			SetTimer(2, 50);
+			SetTimer(1, 50);
 		}
 
 		ser.EndGroup();
@@ -1367,6 +1379,12 @@ void CPlayerComponent::Ragdollize()
 		}
 	}
 
+	QueueFragmentOnScope("none", EPlayerScopes::Scope_1, true);
+	QueueFragmentOnScope("none", EPlayerScopes::Scope_2, true);
+	QueueFragmentOnScope("none", EPlayerScopes::Scope_3, true);
+	QueueFragmentOnScope("none", EPlayerScopes::Scope_4, true);
+	QueueFragmentOnScope("none", EPlayerScopes::Scope_5, true);
+
 	Vec3 linearVelocity;
 	Vec3 angularVelocity;
 
@@ -1608,20 +1626,6 @@ void CPlayerComponent::OnReadyForGameplayOnServer(bool firstSpawn)
 			const QuatT currentOrientation = QuatT(player.GetEntity()->GetWorldTM());
 			SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::InvokeOnClient(&player, RemoteReviveParams{ currentOrientation.t, currentOrientation.q }, channelId);
 		});
-	}
-
-	if (gEnv->IsEditor())
-	{
-		if (gEnv->IsEditorGameMode())
-		{
-			// Have to use delay or else animations won't play properly
-			SetTimer(1, 50);
-		}
-	}
-	else
-	{
-		// Have to use delay or else animations won't play properly
-		SetTimer(1, 50);
 	}
 }
 
@@ -1876,6 +1880,22 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 	{
 		// Our player has revived, call the Schematyc signal for it now
 		m_pEntity->GetSchematycObject()->ProcessSignal(SRevive(), GetGUID());
+	}
+
+	// Revive gets called twice so count how many times it got called
+	if (IsServer())
+	{
+		if (gEnv->IsEditor())
+		{
+			if (gEnv->IsEditorGameMode())
+			{
+				numberCount++;
+			}
+		}
+		else
+		{
+			numberCount++;
+		}
 	}
 }
 
