@@ -373,7 +373,34 @@ void CPlayerComponent::InitializeLocalPlayer()
 			}
 		}
 	});
-	m_pInputComponent->BindAction("player", "toggleperspective", eAID_KeyboardMouse, eKI_C);
+	m_pInputComponent->BindAction("player", "toggleperspective", eAID_KeyboardMouse, eKI_F1);
+
+	m_pInputComponent->RegisterAction("player", "flymode", [this](int activationMode, float value)
+	{
+		if (activationMode == eAAM_OnPress)
+		{
+			flyMode = flyMode == 0 ? 1 : 0;
+
+			if (IPhysicalEntity* pPhysEnt = m_pCharacterController->GetEntity()->GetPhysicalEntity())
+			{
+				pe_player_dynamics dynamics;
+				pPhysEnt->GetParams(&dynamics);
+
+				if (flyMode != 0)
+				{
+					dynamics.bSwimming = 1;
+					dynamics.gravity.zero();
+				}
+				else
+				{
+					dynamics.bSwimming = 0;
+				}
+
+				pPhysEnt->SetParams(&dynamics);
+			}
+		}
+	});
+	m_pInputComponent->BindAction("player", "flymode", eAID_KeyboardMouse, eKI_F3);
 
 	m_pInputComponent->RegisterAction("player", "suicide", [this](int activationMode, float value)
 	{
@@ -397,7 +424,7 @@ void CPlayerComponent::InitializeLocalPlayer()
 	});
 	m_pInputComponent->BindAction("player", "respawn", eAID_KeyboardMouse, eKI_P);
 
-	m_pInputComponent->RegisterAction("player", "switchweapon", [this](int activationMode, float value)
+	m_pInputComponent->RegisterAction("player", "holsterweapon", [this](int activationMode, float value)
 	{
 		if (activationMode == eAAM_OnPress)
 		{
@@ -428,9 +455,9 @@ void CPlayerComponent::InitializeLocalPlayer()
 			}
 		}
 	});
-	m_pInputComponent->BindAction("player", "switchweapon", eAID_KeyboardMouse, EKeyId::eKI_1);
+	m_pInputComponent->BindAction("player", "holsterweapon", eAID_KeyboardMouse, EKeyId::eKI_1);
 
-	m_pInputComponent->RegisterAction("player", "switchweapon2", [this](int activationMode, float value)
+	m_pInputComponent->RegisterAction("player", "switchweapon", [this](int activationMode, float value)
 	{
 		if (activationMode == eAAM_OnPress)
 		{
@@ -466,9 +493,9 @@ void CPlayerComponent::InitializeLocalPlayer()
 			}
 		}
 	});
-	m_pInputComponent->BindAction("player", "switchweapon2", eAID_KeyboardMouse, EKeyId::eKI_2);
+	m_pInputComponent->BindAction("player", "switchweapon", eAID_KeyboardMouse, EKeyId::eKI_2);
 
-	m_pInputComponent->RegisterAction("player", "switchweapon3", [this](int activationMode, float value)
+	m_pInputComponent->RegisterAction("player", "noweapons", [this](int activationMode, float value)
 	{
 		if (activationMode == eAAM_OnPress)
 		{
@@ -488,7 +515,7 @@ void CPlayerComponent::InitializeLocalPlayer()
 			}
 		}
 	});
-	m_pInputComponent->BindAction("player", "switchweapon3", eAID_KeyboardMouse, EKeyId::eKI_3);
+	m_pInputComponent->BindAction("player", "noweapons", eAID_KeyboardMouse, EKeyId::eKI_3);
 
 	// Our local player has initialized, now call the Schematyc signal for it
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
@@ -561,24 +588,29 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 
 		const float swimOffset = 0.0f; //0.1f; // small buffer, maybe tweak this later
 
-		IPhysicalEntity* pPhysEnt = m_pCharacterController->GetEntity()->GetPhysicalEntity();
-		pe_player_dynamics dynamics;
-		pPhysEnt->GetParams(&dynamics);
-
-		if (waterHeight > blendedZ + swimOffset)
+		if (IPhysicalEntity* pPhysEnt = m_pCharacterController->GetEntity()->GetPhysicalEntity())
 		{
-			dynamics.bSwimming = 1;
-			dynamics.gravity.zero();
-			//dynamics.kAirControl = 1.0f;
-			//dynamics.kAirResistance = 0.0f;
+			if (flyMode == 0)
+			{
+				pe_player_dynamics dynamics;
+				pPhysEnt->GetParams(&dynamics);
 
-		}
-		else if (waterHeight < blendedZ - swimOffset)
-		{
-			dynamics.bSwimming = 0;
-		}
+				if (waterHeight > blendedZ + swimOffset)
+				{
+					dynamics.bSwimming = 1;
+					dynamics.gravity.zero();
+					//dynamics.kAirControl = 1.0f;
+					//dynamics.kAirResistance = 0.0f;
 
-		pPhysEnt->SetParams(&dynamics);
+				}
+				else if (waterHeight < blendedZ - swimOffset)
+				{
+					dynamics.bSwimming = 0;
+				}
+
+				pPhysEnt->SetParams(&dynamics);
+			}
+		}
 
 		//CryLogAlways("Component FOV: %.2f | Current FOV: %.2f", m_pCameraComponent->GetFieldOfView().ToDegrees(), currentFOV.ToDegrees());
 
@@ -621,13 +653,13 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 		// Only spawn weapon after we have finished revive function
 		if (IsServer())
 		{
-			if (numberCount >= 1)
+			if (m_PostReviveReady)
 			{
 				SpawnDefaultWeapon();
 
 				NetMarkAspectsDirty(WeaponAspect);
 
-				numberCount = 0;
+				m_PostReviveReady = false;
 			}
 		}
 	}
@@ -762,24 +794,40 @@ void CPlayerComponent::UpdateMovementRequest(float frameTime)
 	// Look direction
 	Ang3 ypr = CCamera::CreateAnglesYPR(Matrix33(m_lookOrientation));
 
-	ypr.y = 0;
-	ypr.z = 0;
-
-	if (IsSwimming())
+	if (flyMode == 0)
 	{
-		if (m_pCameraComponent)
+		if (IsSwimming())
 		{
-			// Swimming movement: rotate input by camera rotation (includes pitch) for 3D swimming
-			finalVelocity = m_pCameraComponent->GetCamera().GetMatrix().TransformVector(input) * m_currentMoveSpeed;
+			if (m_pCameraComponent)
+			{
+				// Swimming movement: rotate input by camera rotation (includes pitch) for 3D swimming
+				finalVelocity = Quat(CCamera::CreateOrientationYPR(ypr)) * input * m_currentMoveSpeed;
+			}
 		}
+		else
+		{
+			ypr.y = 0;
+			ypr.z = 0;
+
+			// Land movement: rotate input by entity rotation (XY only)
+			finalVelocity = Quat(CCamera::CreateOrientationYPR(ypr)) * input * m_currentMoveSpeed;
+		}
+
+		m_pCharacterController->SetVelocity(finalVelocity);
 	}
 	else
 	{
-		// Land movement: rotate input by entity rotation (XY only)
-		finalVelocity = Quat(CCamera::CreateOrientationYPR(ypr)) * input * m_currentMoveSpeed;
-	}
+		const float moveSpeed = 20.5f;
+		Vec3 velocity = ZERO;
 
-	m_pCharacterController->SetVelocity(finalVelocity);
+		// Check input to calculate local space velocity
+		velocity += (Quat(CCamera::CreateOrientationYPR(ypr)) * input * moveSpeed);
+
+		// Apply set position and rotation to the entity
+		//m_pEntity->SetPos(m_pEntity->GetPos() + velocity);
+
+		m_pCharacterController->ChangeVelocity(velocity, Cry::DefaultComponents::CCharacterControllerComponent::EChangeVelocityMode::Jump);
+	}
 }
 
 void CPlayerComponent::UpdateLookDirectionRequest(float frameTime)
@@ -1857,6 +1905,8 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 	m_currentMoveSpeed = m_moveSpeedWalking;
 	m_currentBaseViewHeight = m_baseViewHeight;
 
+	flyMode = 0;
+
 	if (IsLocalClient())
 	{
 		SetCharacterThirdPerson(m_bIsThirdPersonCamera);
@@ -1913,19 +1963,18 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 		m_pEntity->GetSchematycObject()->ProcessSignal(SRevive(), GetGUID());
 	}
 
-	// TODO: Change this to a bool called something like m_PostSpawnReady
 	if (IsServer())
 	{
 		if (gEnv->IsEditor())
 		{
 			if (gEnv->IsEditorGameMode())
 			{
-				numberCount++;
+				m_PostReviveReady = true;
 			}
 		}
 		else
 		{
-			numberCount++;
+			m_PostReviveReady = true;
 		}
 	}
 }

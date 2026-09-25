@@ -374,7 +374,8 @@ protected:
 
 	CryTransform::CAngle currentFOV;
 
-	int numberCount = 0;
+	bool m_PostReviveReady = false;
+	int flyMode = 0;
 
 	/*float fromValue = 0.0f;
 	float toValue = 100.0f;
