@@ -621,7 +621,7 @@ void CPlayerComponent::ProcessEvent(const SEntityEvent& event)
 		// Only spawn weapon after we have finished revive function
 		if (IsServer())
 		{
-			if (numberCount >= 2)
+			if (numberCount >= 1)
 			{
 				SpawnDefaultWeapon();
 
@@ -955,7 +955,7 @@ void CPlayerComponent::UpdateCamera(float frameTime)
 	{
 		// Offset the player along the forward axis (normally back)
 		// Also offset upwards
-		viewOffsetForward = -2.5f;
+		viewOffsetForward = -4.0f;
 		viewOffsetUp = 0.0f;
 
 		Matrix33 cameraRot = Matrix33(m_pEntity->GetWorldRotation().GetInverted()) * CCamera::CreateOrientationYPR(ypr);
@@ -1632,7 +1632,7 @@ void CPlayerComponent::OnReadyForGameplayOnServer(bool firstSpawn)
 	Revive(newTransform);
 	
 	// Invoke the RemoteReviveOnClient function on all remote clients, to ensure that Revive is called across the network
-	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::InvokeOnOtherClients(this, RemoteReviveParams{ newTransform.GetTranslation(), Quat(newTransform) });
+	SRmi<RMI_WRAP(&CPlayerComponent::RemoteReviveOnClient)>::InvokeOnRemoteClients(this, RemoteReviveParams{ newTransform.GetTranslation(), Quat(newTransform) });
 
 	if (firstSpawn)
 	{
@@ -1831,7 +1831,11 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 	m_movementDelta = ZERO;
 
 	m_mouseDeltaRotation = ZERO;
-	m_lookOrientation = m_pEntity->GetRotation();
+	// Reset only pitch and roll of look rotation
+	Ang3 angles = Ang3::GetAnglesXYZ(m_pEntity->GetRotation());
+	angles.x = 0.0f;
+	angles.y = 0.0f;
+	m_lookOrientation = Quat::CreateRotationXYZ(angles);
 
 	m_mouseDeltaSmoothingFilter.Reset();
 
@@ -1909,7 +1913,7 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 		m_pEntity->GetSchematycObject()->ProcessSignal(SRevive(), GetGUID());
 	}
 
-	// Revive gets called twice so count how many times it got called
+	// TODO: Change this to a bool called something like m_PostSpawnReady
 	if (IsServer())
 	{
 		if (gEnv->IsEditor())
