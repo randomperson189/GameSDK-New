@@ -1,5 +1,5 @@
 <CrySchematyc CryXmlVersion="2" version="105" guid="f8fddf7e-022a-4c6c-a319-f1fbd1ec7d41" scope="">
- <root elementType="Class" guid="c43c63e4-06bd-4613-b614-88bf2302b85d" name="bullet" Schematyc::EMPEnv="clientserver">
+ <root elementType="Class" guid="c43c63e4-06bd-4613-b614-88bf2302b85d" name="projectile" Schematyc::EMPEnv="clientserver">
   <userDocumentation author="User" description=""/>
   <extensions />
   <children>

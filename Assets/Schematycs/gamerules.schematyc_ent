@@ -62,6 +62,11 @@
      </element>
     </children>
    </element>
+   <element elementType="ComponentInstance" guid="55199454-6a10-4834-8722-4918a2d5ebeb" name="GameRules" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="f8976d91-c4c8-4ee8-a58d-6ee6149fac07">
+    <properties />
+    <extensions />
+    <children />
+   </element>
   </children>
  </root>
 </CrySchematyc>

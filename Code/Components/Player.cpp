@@ -1344,7 +1344,11 @@ void CPlayerComponent::QueueFragmentOnScope(Schematyc::CSharedString fragment, c
 		}
 	}
 
-	actionRef = new TAction<SAnimationContext>(priority, myComponent->GetFragmentId(fragment.c_str()), fragTags, 0U, scope, 0U);
+	uint32 flags = 0U;
+
+	//flags = IAction::NoAutoBlendOut;
+	
+	actionRef = new TAction<SAnimationContext>(priority, myComponent->GetFragmentId(fragment.c_str()), fragTags, flags, scope, 0U);
 
 	// TODO: Add this
 	//actionRef->SetSpeedBias(speedMultiplier);
@@ -1879,6 +1883,7 @@ void CPlayerComponent::Revive(const Matrix34& transform)
 	m_movementDelta = ZERO;
 
 	m_mouseDeltaRotation = ZERO;
+	
 	// Reset only pitch and roll of look rotation
 	Ang3 angles = Ang3::GetAnglesXYZ(m_pEntity->GetRotation());
 	angles.x = 0.0f;
