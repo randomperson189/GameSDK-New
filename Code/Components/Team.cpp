@@ -103,14 +103,12 @@ ETeam CTeamComponent::GetTeam()
 
 void CTeamComponent::SetTeam(ETeam team)
 {
-	if (m_team != team)
+	if (m_team != team && gEnv->bServer)
 	{
 		m_team = team;
+		NetMarkAspectsDirty(TeamAspect);
 
-		if (gEnv->bServer)
-		{
-			TeamChanged();
-		}
+		TeamChanged();
 	}
 }
 
