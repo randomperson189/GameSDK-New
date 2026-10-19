@@ -134,6 +134,7 @@ namespace
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CPlayerComponent::GetCrouching, "{81AD4871-5E02-4FDE-A263-9BDDF8B4BA0D}"_cry_guid, "GetCrouching");
 				pFunction->SetDescription("Gets crouching");
 				pFunction->BindOutput(0, 'crch', "Crouching");
+				pFunction->SetFlags(Schematyc::EEnvFunctionFlags::Pure);
 				componentScope.Register(pFunction);
 			}
 
@@ -1083,7 +1084,7 @@ bool CPlayerComponent::GetActionMapsFromProfile()
 			return false;
 		}
 
-		//	get action map data
+		// get action map data
 		int nChildren = rootNode->getChildCount();
 		for (int i = 0; i < nChildren; ++i)
 		{
@@ -1094,7 +1095,7 @@ bool CPlayerComponent::GetActionMapsFromProfile()
 
 				CryLogAlways("found action map: %s", actionMapName);
 
-				//	get action map data
+				// get action map data
 				int nChildren = child->getChildCount();
 				for (int i = 0; i < nChildren; ++i)
 				{
@@ -1223,7 +1224,7 @@ void CPlayerComponent::SetSubTag(Schematyc::CSharedString tag, bool set)
 
 	if (set)
 	{
-		// Add only if it doesn't already exist
+		// Add only if it doesn't exist
 		if (it == m_pSubTags.end())
 		{
 			m_pSubTags.push_back(tagStr);
@@ -1625,7 +1626,7 @@ void CPlayerComponent::SpawnDefaultWeapon()
 {
 	IEntityClass* pClass = gEnv->pEntitySystem->GetClassRegistry()->FindClass(m_defaultWeapon.value);
 
-	// Don't try to spawn the weapon if we can't find the class
+	// Don't try to spawn weapon if we can't find the class
 	if (!pClass)
 		return;
 
@@ -1634,7 +1635,7 @@ void CPlayerComponent::SpawnDefaultWeapon()
 	spawnParams.sName = m_defaultWeapon.value;
 	spawnParams.vPosition = GetWorldTransformMatrix().GetTranslation();
 
-	// Spawn the weapon on the server
+	// Spawn weapon on the server
 	if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams))
 	{
 		m_pInventoryComponent->AddItem(Schematyc::ExplicitEntityId(pEntity->GetId()));
