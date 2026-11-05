@@ -1,11 +1,11 @@
 #pragma once
 
-#include <CrySchematyc/Env/Elements/EnvComponent.h>
 #include <CryCore/StaticInstanceList.h>
-#include <CrySchematyc/Env/IEnvRegistrar.h>
 #include <CryPhysics/physinterface.h>
 #include <CryEntitySystem/IEntitySystem.h>
-
+#include <CrySchematyc/Env/IEnvRegistrar.h>
+#include <CrySchematyc/Env/Elements/EnvComponent.h>
+#include <CrySchematyc/Env/Elements/EnvFunction.h>
 #include <CrySchematyc/Env/Elements/EnvSignal.h>
 
 class CWeaponBehaviorComponent : public IEntityComponent

@@ -1,9 +1,5 @@
 #include "StdAfx.h"
-#include "Components/Weapons/Pistol.h"
-
-#include <CrySchematyc/Env/Elements/EnvComponent.h>
-#include <CrySchematyc/Env/Elements/EnvFunction.h>
-#include <CrySchematyc/Env/Elements/EnvSignal.h>
+#include "Pistol.h"
 
 namespace
 {

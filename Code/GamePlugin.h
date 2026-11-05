@@ -5,9 +5,12 @@
 #include <CryEntitySystem/IEntityClass.h>
 #include <CryNetwork/INetwork.h>
 
+#include "GameRulesManager.h"
 #include "GameCVars.h"
 
 class CPlayerComponent;
+
+class CGameRulesManager;
 
 struct SCVars;
 
@@ -71,4 +74,6 @@ protected:
 	std::unordered_map<int, EntityId> m_players;
 
 	SCVars* m_pCVars;
+
+	CGameRulesManager* m_pGameRulesManager;
 };

@@ -19,17 +19,6 @@ namespace
 	CRY_STATIC_AUTO_REGISTER_FUNCTION(&RegisterGameRulesComponent);
 }
 
-// Reflect type to set a unique identifier for this component
-void CGameRulesComponent::ReflectType(Schematyc::CTypeDesc<CGameRulesComponent>& desc)
-{
-	desc.SetGUID("{F8976D91-C4C8-4EE8-A58D-6EE6149FAC07}"_cry_guid);
-
-	desc.SetEditorCategory("Game");
-	desc.SetLabel("GameRules");
-	desc.SetDescription("Component for GameRules");
-	desc.SetComponentFlags({ IEntityComponent::EFlags::HideFromInspector });
-}
-
 CGameRulesComponent::CGameRulesComponent() 
 {
 }
@@ -39,5 +28,17 @@ CGameRulesComponent::~CGameRulesComponent()
 }
 
 void CGameRulesComponent::Initialize()
+{
+	// Mark the entity to be replicated over the network
+	m_pEntity->GetNetEntity()->BindToNetwork();
+}
+
+Cry::Entity::EventFlags CGameRulesComponent::GetEventMask() const
+{
+	return
+		Cry::Entity::EEvent::Initialize;
+}
+
+void CGameRulesComponent::ProcessEvent(const SEntityEvent& event)
 {
 }

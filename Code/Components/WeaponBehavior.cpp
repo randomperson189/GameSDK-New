@@ -1,10 +1,6 @@
 #include "StdAfx.h"
 #include "WeaponBehavior.h"
 
-#include <CrySchematyc/Env/Elements/EnvComponent.h>
-#include <CrySchematyc/Env/Elements/EnvFunction.h>
-#include <CrySchematyc/Env/Elements/EnvSignal.h>
-
 // This component shouldn't be available in menus at all, only subclasses of it should
 /*namespace
 {

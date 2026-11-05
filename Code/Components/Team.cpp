@@ -120,4 +120,14 @@ void CTeamComponent::TeamChanged()
 	{
 		m_pEntity->GetSchematycObject()->ProcessSignal(STeamChanged(), GetGUID());
 	}
+
+	// Quick hack to fix thirdperson model showing in firstperson
+	// TODO: Maybe put this in the Schematyc callback
+	if (CPlayerComponent* pPlayerComp = m_pEntity->GetComponent<CPlayerComponent>())
+	{
+		if (pPlayerComp->IsLocalClient())
+		{
+			pPlayerComp->SetCharacterThirdPerson(pPlayerComp->m_bIsThirdPersonCamera);
+		}
+	}
 }

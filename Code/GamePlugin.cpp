@@ -38,6 +38,9 @@ bool CGamePlugin::Initialize(SSystemGlobalEnvironment& env, const SSystemInitPar
 	// Register for engine system events, in our case we need ESYSTEM_EVENT_GAME_POST_INIT to load the map
 	gEnv->pSystem->GetISystemEventDispatcher()->RegisterListener(this, "CGamePlugin");
 
+	// Initialize GameRules manager
+	m_pGameRulesManager = new CGameRulesManager();
+
 	// Initialize game CVars and set global pointer
 	m_pCVars = new SCVars();
 	g_pGameCVars = m_pCVars;
@@ -84,6 +87,22 @@ void CGamePlugin::OnSystemEvent(ESystemEvent event, UINT_PTR wparam, UINT_PTR lp
 						staticAutoRegisterLambda
 						)
 				);
+			}
+		}
+		break;
+		
+		case ESYSTEM_EVENT_LEVEL_LOAD_START:
+		{
+			if (gEnv->bServer)
+			{
+				if (m_pGameRulesManager->CreateGameRules(gEnv->pConsole->GetCVar("sv_gamerules")->GetString()))
+				{
+					CryLogAlways("Successfully created GameRules Entity");
+				}
+				else
+				{
+					CryLogAlways("Failed to create GameRules Entity");
+				}
 			}
 		}
 		break;

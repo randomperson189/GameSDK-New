@@ -1,8 +1,6 @@
 #pragma once
 
 #include "Components/WeaponBehavior.h"
-#include <CryCore/StaticInstanceList.h>
-#include <CryEntitySystem/IEntitySystem.h>
 
 class CShotgunBehaviorComponent : public CWeaponBehaviorComponent
 {
