@@ -24,7 +24,7 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="704" y="2781"/>
+      <pos x="1043" y="2751"/>
       <nodes>
        <element key="2204abfd-21cc-4023-88bb-bec266751202" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="2204abfd-21cc-4023-88bb-bec266751202" objectGUID="49480795-1c51-4ee3-928f-e4678b5a9e5f">
@@ -118,7 +118,7 @@
        </element>
        <element key="67f76e2c-18fc-4211-972c-4fe72d11df3e" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="67f76e2c-18fc-4211-972c-4fe72d11df3e" objectGUID="663c5982-f2eb-425a-a741-77d76cd394b5">
-         <pos x="1228" y="2766"/>
+         <pos x="1230" y="2766"/>
          <functionId domain="Env" guid="079fc652-8252-4241-a7cc-6c381b04896e"/>
          <inputs>
           <element value="1">
@@ -213,7 +213,7 @@
        </element>
        <element key="cee02783-994d-43dc-bc5c-a68db2092854" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="cee02783-994d-43dc-bc5c-a68db2092854" objectGUID="663c5982-f2eb-425a-a741-77d76cd394b5">
-         <pos x="1227" y="2626"/>
+         <pos x="1229" y="2626"/>
          <functionId domain="Env" guid="079fc652-8252-4241-a7cc-6c381b04896e"/>
          <inputs>
           <element value="1">
@@ -255,7 +255,7 @@
        </element>
        <element key="5951d9a2-2ddb-44a0-9070-202486340a89" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="5951d9a2-2ddb-44a0-9070-202486340a89" objectGUID="663c5982-f2eb-425a-a741-77d76cd394b5">
-         <pos x="1227" y="2486"/>
+         <pos x="1229" y="2486"/>
          <functionId domain="Env" guid="079fc652-8252-4241-a7cc-6c381b04896e"/>
          <inputs>
           <element value="1">
@@ -398,7 +398,7 @@
        </element>
        <element key="76651f63-67eb-4723-8084-5eb035d67c5c" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="76651f63-67eb-4723-8084-5eb035d67c5c" objectGUID="663c5982-f2eb-425a-a741-77d76cd394b5">
-         <pos x="807" y="2626"/>
+         <pos x="809" y="2626"/>
          <functionId domain="Env" guid="079fc652-8252-4241-a7cc-6c381b04896e"/>
          <inputs>
           <element value="0">
@@ -427,6 +427,11 @@
          </inputs>
         </value>
        </element>
+       <element key="c9e985d4-4fee-4747-b6ac-aa56edfe8381" typeGUID="a15c2533-d004-4266-b121-68404aa5e02f">
+        <value guid="c9e985d4-4fee-4747-b6ac-aa56edfe8381" referenceGUID="30bc1f14-6447-4d39-9791-e03f4eb30d45" memberId="0">
+         <pos x="810" y="2859"/>
+        </value>
+       </element>
        <element key="3c314692-dc4c-4760-b5b0-12891be19220" typeGUID="87aa640f-b8c6-449f-bc37-2d5400009290">
         <value guid="3c314692-dc4c-4760-b5b0-12891be19220">
          <pos x="110" y="1088"/>
@@ -453,7 +458,7 @@
        </element>
        <element key="e40e4829-8f96-47a4-8d5d-f3cb5d772d81" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="e40e4829-8f96-47a4-8d5d-f3cb5d772d81" objectGUID="663c5982-f2eb-425a-a741-77d76cd394b5">
-         <pos x="808" y="2766"/>
+         <pos x="810" y="2766"/>
          <functionId domain="Env" guid="079fc652-8252-4241-a7cc-6c381b04896e"/>
          <inputs>
           <element value="0">
@@ -517,6 +522,11 @@
            <key type="UInt32" value="1701732717"/>
           </element>
          </inputs>
+        </value>
+       </element>
+       <element key="130035ca-d077-4992-8b6f-378bb46bc3ca" typeGUID="a15c2533-d004-4266-b121-68404aa5e02f">
+        <value guid="130035ca-d077-4992-8b6f-378bb46bc3ca" referenceGUID="ee8bcbde-c955-46fd-a5dc-b153da20e5f8" memberId="0">
+         <pos x="808" y="2712"/>
         </value>
        </element>
        <element key="58252222-c058-49b8-9ae6-13aff38e6de2" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
@@ -646,7 +656,7 @@
        </element>
        <element key="092e4b1e-8e62-4d63-9edd-e64d3a4d2ffb" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="092e4b1e-8e62-4d63-9edd-e64d3a4d2ffb" objectGUID="663c5982-f2eb-425a-a741-77d76cd394b5">
-         <pos x="807" y="2486"/>
+         <pos x="809" y="2486"/>
          <functionId domain="Env" guid="079fc652-8252-4241-a7cc-6c381b04896e"/>
          <inputs>
           <element value="0">
@@ -752,6 +762,11 @@
           <element name="2"/>
           <element name="3"/>
          </outputs>
+        </value>
+       </element>
+       <element key="41f1999f-4517-4f71-b0d6-59340c36452e" typeGUID="a15c2533-d004-4266-b121-68404aa5e02f">
+        <value guid="41f1999f-4517-4f71-b0d6-59340c36452e" referenceGUID="c4e15c18-94f6-4f66-964c-4f14e4fbfa0e" memberId="0">
+         <pos x="808" y="2573"/>
         </value>
        </element>
        <element key="9a7765b8-c902-4f8f-9507-3021148c3ea9" typeGUID="1d081133-e900-4244-add5-f0831d27b16f">
@@ -1077,6 +1092,30 @@
         <srcOutputId type="Idx" value="3"/>
         <dstInputId type="Idx" value="0"/>
        </element>
+       <element srcNodeGUID="41f1999f-4517-4f71-b0d6-59340c36452e" dstNodeGUID="092e4b1e-8e62-4d63-9edd-e64d3a4d2ffb">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="UInt32" value="1667785074"/>
+       </element>
+       <element srcNodeGUID="41f1999f-4517-4f71-b0d6-59340c36452e" dstNodeGUID="5951d9a2-2ddb-44a0-9070-202486340a89">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="UInt32" value="1667785074"/>
+       </element>
+       <element srcNodeGUID="130035ca-d077-4992-8b6f-378bb46bc3ca" dstNodeGUID="76651f63-67eb-4723-8084-5eb035d67c5c">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="UInt32" value="1667785074"/>
+       </element>
+       <element srcNodeGUID="130035ca-d077-4992-8b6f-378bb46bc3ca" dstNodeGUID="cee02783-994d-43dc-bc5c-a68db2092854">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="UInt32" value="1667785074"/>
+       </element>
+       <element srcNodeGUID="c9e985d4-4fee-4747-b6ac-aa56edfe8381" dstNodeGUID="e40e4829-8f96-47a4-8d5d-f3cb5d772d81">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="UInt32" value="1667785074"/>
+       </element>
+       <element srcNodeGUID="c9e985d4-4fee-4747-b6ac-aa56edfe8381" dstNodeGUID="67f76e2c-18fc-4211-972c-4fe72d11df3e">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="UInt32" value="1667785074"/>
+       </element>
       </links>
      </Graph>
     </extensions>
@@ -1126,14 +1165,14 @@
     <transform>
      <translation>
       <position>
-       <element element="-2.7706846e-09"/>
-       <element element="0.048147947"/>
-       <element element="1.7466724"/>
+       <element element="-1.0430813e-08"/>
+       <element element="0.11275482"/>
+       <element element="1.7313402"/>
       </position>
      </translation>
-     <rotation x="-7.9069991" y="5.0888875e-14" z="3.4150939e-06"/>
+     <rotation x="-18.793398" y="-5.0888875e-14" z="5.1226416e-06"/>
      <scale>
-      <element element="1.0000001"/>
+      <element element="1"/>
       <element element="1"/>
       <element element="1"/>
      </scale>
@@ -1183,16 +1222,16 @@
     <transform>
      <translation>
       <position>
-       <element element="-0.02349632"/>
-       <element element="-0.33013862"/>
-       <element element="0.16207814"/>
+       <element element="-0.02349614"/>
+       <element element="-0.55799437"/>
+       <element element="0.24670684"/>
       </position>
      </translation>
-     <rotation x="-5.9493465" y="0.43642589" z="3.3974738"/>
+     <rotation x="-16.818306" y="1.0698833" z="3.2541773"/>
      <scale>
       <element element="1"/>
       <element element="0.99999994"/>
-      <element element="0.99999994"/>
+      <element element="1"/>
      </scale>
     </transform>
     <properties Type="None" Character="Objects/Characters/human/sdk_player/sdk_player.cdf" Material="" DatabasePath="Animations/Mannequin/ADB/playerAnims1P.adb" ControllerDefPath="Animations/Mannequin/ADB/playerControllerDefs.xml" DefaultScope="Char1P" DefaultFragment="" AnimDriven="true" GroundAlign="false">
@@ -3459,6 +3498,21 @@
    </element>
    <element elementType="ComponentInstance" guid="663c5982-f2eb-425a-a741-77d76cd394b5" name="Advanced Animation Helper" Schematyc::EMPEnv="clientserver" accessor="Private" typeGUID="1df944b1-3802-41d6-b56e-d90ab368511e">
     <properties />
+    <extensions />
+    <children />
+   </element>
+   <element elementType="Variable" guid="30bc1f14-6447-4d39-9791-e03f4eb30d45" name="BlueTeamCharacter" Schematyc::EMPEnv="clientserver" accessor="Public" bIsArray="false" value="Objects/characters/human/sdk_player/sdk_player_blue.cdf" baseGUID="" overridePolicy="Default">
+    <typeId domain="Env" guid="cb3189c1-92de-4851-b26a-22894ec039b0"/>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="Variable" guid="ee8bcbde-c955-46fd-a5dc-b153da20e5f8" name="RedTeamCharacter" Schematyc::EMPEnv="clientserver" accessor="Public" bIsArray="false" value="Objects/characters/human/sdk_player/sdk_player_red.cdf" baseGUID="" overridePolicy="Default">
+    <typeId domain="Env" guid="cb3189c1-92de-4851-b26a-22894ec039b0"/>
+    <extensions />
+    <children />
+   </element>
+   <element elementType="Variable" guid="c4e15c18-94f6-4f66-964c-4f14e4fbfa0e" name="DefaultTeamCharacter" Schematyc::EMPEnv="clientserver" accessor="Public" bIsArray="false" value="Objects/characters/human/sdk_player/sdk_player.cdf" baseGUID="" overridePolicy="Default">
+    <typeId domain="Env" guid="cb3189c1-92de-4851-b26a-22894ec039b0"/>
     <extensions />
     <children />
    </element>
