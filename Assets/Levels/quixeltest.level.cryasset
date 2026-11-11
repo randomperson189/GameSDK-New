@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Level" guid="b6e176de-24dc-a98e-b0a9-ecd87975b626" source="" timestamp="1783166955">
+<AssetMetadata version="0" type="Level" guid="b6e176de-24dc-a98e-b0a9-ecd87975b626" source="" timestamp="1794430277">
  <Files>
   <File path="quixeltest/quixeltest.level"/>
  </Files>
@@ -6,15 +6,34 @@
   <Path usageCount="1">%ENGINE%/EngineAssets/Shading/default.env</Path>
   <Path>%editor%/objects/spawnpointhelper.cgf</Path>
   <Path>%engine%/config/defaultscripts/compressionpolicy.xml</Path>
+  <Path>%engine%/engineassets/icons/highmemoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/livepreview.dds</Path>
   <Path>%engine%/engineassets/texturemsg/defaultsolids.mtl</Path>
   <Path usageCount="1">Libs/environmentpresets/quixeltest.env</Path>
   <Path usageCount="1">Libs/environmentpresets/test.env</Path>
+  <Path>editor/resourcecache/materials/castle_wall/scpgdgca_4k_albedo.dds</Path>
+  <Path>editor/resourcecache/materials/castle_wall/scpgdgca_4k_ddna.dds</Path>
+  <Path>editor/resourcecache/materials/castle_wall/scpgdgca_4k_diff.dds</Path>
+  <Path>editor/resourcecache/materials/castle_wall/scpgdgca_4k_displ.dds</Path>
   <Path>editor/resourcecache/materials/creek_stones/ujqmejtr_4k_albedo.dds</Path>
+  <Path>editor/resourcecache/materials/creek_stones/ujqmejtr_4k_ddna.dds</Path>
+  <Path>editor/resourcecache/materials/creek_stones/ujqmejtr_4k_diff.dds</Path>
+  <Path>editor/resourcecache/materials/creek_stones/ujqmejtr_4k_displ.dds</Path>
+  <Path>editor/resourcecache/materials/creek_stones/ulgmbhwn_4k_ddna.dds</Path>
+  <Path>editor/resourcecache/materials/creek_stones/ulgmbhwn_4k_diff.dds</Path>
+  <Path>editor/resourcecache/materials/creek_stones/ulgmbhwn_4k_displ.dds</Path>
+  <Path>editor/resourcecache/materials/creek_stones/ulgmbhwn_4k_sss.dds</Path>
   <Path>editor/resourcecache/materials/grass/sfknaeoa_4k_albedo.dds</Path>
+  <Path>editor/resourcecache/materials/grass/sfknaeoa_4k_ddna.dds</Path>
+  <Path>editor/resourcecache/materials/grass/sfknaeoa_4k_diff.dds</Path>
+  <Path>editor/resourcecache/materials/grass/sfknaeoa_4k_displ.dds</Path>
   <Path>editor/resourcecache/materials/rocks/ulgmbhwn_4k_albedo.dds</Path>
+  <Path>editor/resourcecache/materials/rocks_beach/wldgfhrlw_4k_ddna.dds</Path>
+  <Path>editor/resourcecache/materials/rocks_beach/wldgfhrlw_4k_diff.dds</Path>
+  <Path>editor/resourcecache/materials/rocks_beach/wldgfhrlw_4k_displ.dds</Path>
   <Path>editor/resourcecache/materials/sand_beach/tdsmeeko_4k_albedo.dds</Path>
   <Path>editor/resourcecache/materials/sand_beach_wet/vd3lecfs_4k_albedo.dds</Path>
+  <Path>editor/resourcecache/materials/sand_beach_wet/vd3lecfs_4k_displ.dds</Path>
   <Path>libs/config/defaultprofile.xml</Path>
   <Path>libs/materialeffects/flowgraphs/setviewproxy.xml</Path>
   <Path>libs/ui/textures/background1.dds</Path>
@@ -24,32 +43,63 @@
   <Path>libs/ui/textures/background5.dds</Path>
   <Path>libs/ui/textures/background6.dds</Path>
   <Path>materials/castle_wall/castle_wall.mtl</Path>
-  <Path>materials/creek_stones/creek_stones.mtl</Path>
+  <Path>materials/castle_wall/castle_wall.mtl</Path>
+  <Path>materials/castle_wall/scpgdgca_4k_albedo.dds</Path>
+  <Path>materials/castle_wall/scpgdgca_4k_ddna.dds</Path>
+  <Path>materials/castle_wall/scpgdgca_4k_diff.dds</Path>
+  <Path>materials/castle_wall/scpgdgca_4k_displ.dds</Path>
   <Path>materials/creek_stones/ujqmejtr_4k_albedo.dds</Path>
   <Path>materials/creek_stones/ujqmejtr_4k_ddna.dds</Path>
-  <Path>materials/grass/sfknaeoa.mtl</Path>
+  <Path>materials/creek_stones/ujqmejtr_4k_diff.dds</Path>
+  <Path>materials/creek_stones/ujqmejtr_4k_displ.dds</Path>
+  <Path>materials/creek_stones/ulgmbhwn_4k_ddna.dds</Path>
+  <Path>materials/creek_stones/ulgmbhwn_4k_diff.dds</Path>
+  <Path>materials/creek_stones/ulgmbhwn_4k_displ.dds</Path>
+  <Path>materials/creek_stones/ulgmbhwn_4k_sss.dds</Path>
   <Path>materials/grass/sfknaeoa.mtl</Path>
   <Path>materials/grass/sfknaeoa_4k_albedo.dds</Path>
   <Path>materials/grass/sfknaeoa_4k_ddna.dds</Path>
-  <Path>materials/rocks/rocks_test.mtl</Path>
+  <Path>materials/grass/sfknaeoa_4k_diff.dds</Path>
+  <Path>materials/grass/sfknaeoa_4k_displ.dds</Path>
+  <Path>materials/references/macbeth.mtl</Path>
+  <Path>materials/references/matref_chrome060.mtl</Path>
+  <Path>materials/references/matref_chrome128.mtl</Path>
+  <Path>materials/references/matref_chrome255.mtl</Path>
+  <Path>materials/references/matref_grey000.mtl</Path>
+  <Path>materials/references/matref_grey064.mtl</Path>
+  <Path>materials/references/matref_grey128.mtl</Path>
+  <Path>materials/references/matref_grey191.mtl</Path>
+  <Path>materials/references/matref_grey255.mtl</Path>
+  <Path>materials/references/matref_grey_max.mtl</Path>
+  <Path>materials/references/matref_grey_mid.mtl</Path>
+  <Path>materials/references/matref_grey_min.mtl</Path>
+  <Path>materials/references/metal.mtl</Path>
+  <Path>materials/references/mid_gray_matte.mtl</Path>
+  <Path>materials/references/mid_gray_reflective.mtl</Path>
+  <Path>materials/references/mud.mtl</Path>
+  <Path>materials/references/rust.mtl</Path>
+  <Path>materials/references/vegetation.mtl</Path>
+  <Path>materials/references/white_matte.mtl</Path>
+  <Path>materials/references/white_reflective.mtl</Path>
+  <Path>materials/references/worn_wall.mtl</Path>
   <Path>materials/rocks/ulgmbhwn_4k_albedo.dds</Path>
-  <Path>materials/rocks/ulgmbhwn_4k_ddna.dds</Path>
+  <Path>materials/rocks/ulgmbhwn_4k_displ.dds</Path>
+  <Path>materials/rocks_beach/wldgfhrlw_4k_ddna.dds</Path>
+  <Path>materials/rocks_beach/wldgfhrlw_4k_diff.dds</Path>
+  <Path>materials/rocks_beach/wldgfhrlw_4k_displ.dds</Path>
   <Path>materials/sand_beach/sand_beach.mtl</Path>
   <Path>materials/sand_beach/sand_beach.mtl</Path>
   <Path>materials/sand_beach/tdsmeeko_4k_albedo.dds</Path>
   <Path>materials/sand_beach/tdsmeeko_4k_ddna.dds</Path>
-  <Path>materials/sand_beach_wet/sand_beach_wet.mtl</Path>
+  <Path>materials/sand_beach/tdsmeeko_4k_diff.dds</Path>
+  <Path>materials/sand_beach/tdsmeeko_4k_displ.dds</Path>
   <Path>materials/sand_beach_wet/vd3lecfs_4k_albedo.dds</Path>
-  <Path>materials/sand_beach_wet/vd3lecfs_4k_ddna.dds</Path>
+  <Path>materials/sand_beach_wet/vd3lecfs_4k_displ.dds</Path>
+  <Path>materials/wood/tbykeacs_4k_albedo.dds</Path>
+  <Path>materials/wood/tbykeacs_4k_ddna.dds</Path>
+  <Path>materials/wood/tbykeacs_4k_displ.dds</Path>
   <Path>materials/wood/wood.mtl</Path>
-  <Path>objects/characters/human/sdk_player/head_a.mtl</Path>
   <Path>objects/characters/human/sdk_player/sdk_player.cdf</Path>
-  <Path>objects/characters/human/sdk_player/sdk_player.mtl</Path>
-  <Path>objects/characters/human/sdk_player/sdk_player_black.mtl</Path>
-  <Path>objects/characters/human/sdk_player/sdk_player_blue.mtl</Path>
-  <Path>objects/characters/human/sdk_player/sdk_player_green.mtl</Path>
-  <Path>objects/characters/human/sdk_player/sdk_player_red.mtl</Path>
-  <Path>objects/characters/human/sdk_player/sdk_player_red_white.mtl</Path>
   <Path>objects/weapons/attachments/pistol_magazine/pistol_magazine_fp.cgf</Path>
   <Path>objects/weapons/pistol/pistol.mtl</Path>
   <Path>objects/weapons/pistol/pistol_fp.cdf</Path>
@@ -58,7 +108,6 @@
   <Path>objects/weapons/shotgun/shotgun.cdf</Path>
   <Path>objects/weapons/shotgun/shotgun_fp.skin</Path>
   <Path>objects/weapons/shotgun/shotgun_tp.cgf</Path>
-  <Path>objects/weapons/shotgun/shotgun_tp.mtl</Path>
   <Path>objects/weapons/shotgun/shotgun_tp_lod1.cgf</Path>
   <Path>objects/weapons/shotgun/shotgun_tp_lod2.cgf</Path>
   <Path>scripts/ai/factions.xml</Path>

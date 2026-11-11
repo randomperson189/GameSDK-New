@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="aacbb2fe-e185-41da-5f1e-513d4bf03bcd" source="sfknaeoa_4k_diff.tif">
+ <Files>
+  <File path="sfknaeoa_4k_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

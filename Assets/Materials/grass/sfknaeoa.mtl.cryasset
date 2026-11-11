@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Material" guid="d113ffcf-05c2-5790-eb0e-7ee04922051f" source="" timestamp="1783166906">
+<AssetMetadata version="0" type="Material" guid="d113ffcf-05c2-5790-eb0e-7ee04922051f" source="" timestamp="1794430286">
  <Files>
   <File path="sfknaeoa.mtl"/>
  </Files>
@@ -7,7 +7,7 @@
   <Detail name="textureCount">3</Detail>
  </Details>
  <Dependencies>
-  <Path usageCount="1">./sfknaeoa_4k_albedo.dds</Path>
+  <Path usageCount="1">./sfknaeoa_4k_diff.dds</Path>
   <Path usageCount="1">./sfknaeoa_4k_ddna.dds</Path>
   <Path usageCount="1">./sfknaeoa_4k_displ.dds</Path>
  </Dependencies>

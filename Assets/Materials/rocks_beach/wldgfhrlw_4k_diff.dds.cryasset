@@ -1,6 +1,6 @@
-<AssetMetadata version="0" type="Texture" guid="35b7d61f-4cf7-b8a1-a073-ff53d45abf31" source="tdsmeeko_4k_albedo.tif">
+<AssetMetadata version="0" type="Texture" guid="a1588c7e-11ae-9d30-872e-2f582514a96b" source="wldgfhrlw_4k_diff.tif">
  <Files>
-  <File path="tdsmeeko_4k_albedo.dds"/>
+  <File path="wldgfhrlw_4k_diff.dds"/>
  </Files>
  <Details>
   <Detail name="width">4096</Detail>

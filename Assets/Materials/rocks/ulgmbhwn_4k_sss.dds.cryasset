@@ -1,6 +1,6 @@
-<AssetMetadata version="0" type="Texture" guid="2a652bf1-4b91-91f6-b648-3050c32c2887" source="ulgmbhwn_4k_albedo.tif">
+<AssetMetadata version="0" type="Texture" guid="b107c085-2912-1c1d-39a9-c28ba037fc8e" source="ulgmbhwn_4k_sss.tif">
  <Files>
-  <File path="ulgmbhwn_4k_albedo.dds"/>
+  <File path="ulgmbhwn_4k_sss.dds"/>
  </Files>
  <Details>
   <Detail name="width">4096</Detail>

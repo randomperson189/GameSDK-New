@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Material" guid="0d8fbb77-fe97-adee-fac4-51cbe50419e2" source="" timestamp="1783166903">
+<AssetMetadata version="0" type="Material" guid="0d8fbb77-fe97-adee-fac4-51cbe50419e2" source="" timestamp="1794429303">
  <Files>
   <File path="sand_beach.mtl"/>
  </Files>
@@ -7,7 +7,7 @@
   <Detail name="textureCount">3</Detail>
  </Details>
  <Dependencies>
-  <Path usageCount="1">./tdsmeeko_4k_albedo.dds</Path>
+  <Path usageCount="1">./tdsmeeko_4k_diff.dds</Path>
   <Path usageCount="1">./tdsmeeko_4k_ddna.dds</Path>
   <Path usageCount="1">./tdsmeeko_4k_displ.dds</Path>
  </Dependencies>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="a4adc360-84ce-2d39-a141-c798ead3d672" source="vd3lecfs_4k_diff.tif">
+ <Files>
+  <File path="vd3lecfs_4k_diff.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

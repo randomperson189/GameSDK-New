@@ -1,6 +1,6 @@
 <download name="quixeltest" type="Map">
  <index src="filelist.xml" dest="filelist.xml"/>
  <files>
-  <file src="level.pak" dest="level.pak" size="11955327" md5="d14e743e96c2136dad59fba0b2ae4519"/>
+  <file src="level.pak" dest="level.pak" size="11956409" md5="70f332a8757eba4d9c78cabd800e3260"/>
  </files>
 </download>
