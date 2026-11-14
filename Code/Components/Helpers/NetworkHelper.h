@@ -23,11 +23,11 @@ public:
 	static void ReflectType(Schematyc::CTypeDesc<CNetworkHelperComponent>& desc)
 	{
 		desc.SetGUID("{B65F8780-FD47-49D7-AD6F-02DF006F322A}"_cry_guid);
-		desc.SetComponentFlags({ IEntityComponent::EFlags::Singleton });
 
-		desc.SetEditorCategory("Utilities");
+		desc.SetEditorCategory("Helpers");
 		desc.SetLabel("Network Helper");
 		desc.SetDescription("Component to help with networking");
+		desc.SetComponentFlags({ IEntityComponent::EFlags::Singleton });
 
 		desc.AddMember(&CNetworkHelperComponent::m_bIsNetworked, 'netw', "Networked", "Network Synced", "Syncs the entity over the network, and keeps it in sync with the server", true);
 	}
@@ -47,17 +47,17 @@ public:
 	struct SServerReceiveRemoteEvent
 	{
 		SServerReceiveRemoteEvent() = default;
-		SServerReceiveRemoteEvent(Schematyc::CSharedString eventName) : eventName(Schematyc::CSharedString(eventName)) {}
+		SServerReceiveRemoteEvent(Schematyc::CSharedString pEventName) : pEventName(Schematyc::CSharedString(pEventName)) {}
 
-		Schematyc::CSharedString eventName;
+		Schematyc::CSharedString pEventName;
 	};
 
 	struct SClientReceiveRemoteEvent
 	{
 		SClientReceiveRemoteEvent() = default;
-		SClientReceiveRemoteEvent(Schematyc::CSharedString eventName) : eventName(Schematyc::CSharedString(eventName)) {}
+		SClientReceiveRemoteEvent(Schematyc::CSharedString pEventName) : pEventName(Schematyc::CSharedString(pEventName)) {}
 
-		Schematyc::CSharedString eventName;
+		Schematyc::CSharedString pEventName;
 	};
 
 	// NetSerialize Variables
@@ -93,11 +93,11 @@ protected:
 	// RMI Functions
 	struct RemoteParams
 	{
-		string eventName;
+		string pEventName;
 
 		void SerializeWith(TSerialize ser)
 		{
-			ser.Value("eventName", eventName, 'stab');
+			ser.Value("pEventName", pEventName, 'stab');
 		}
 	};
 

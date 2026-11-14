@@ -4,7 +4,8 @@
 #include <CrySchematyc/Env/Elements/EnvComponent.h>
 #include <CrySchematyc/Env/Elements/EnvFunction.h>
 #include <CrySchematyc/Env/Elements/EnvSignal.h>
-#include <DefaultComponents/Input/InputComponent.h>
+#include <CrySchematyc/Env/IEnvRegistrar.h>
+
 #include <CryNetwork/Rmi.h>
 
 namespace
@@ -58,14 +59,14 @@ static void ReflectType(Schematyc::CTypeDesc<CNetworkHelperComponent::SServerRec
 {
 	desc.SetGUID("{DE6B4D1F-F07D-42DB-B313-E40FB7433CBC}"_cry_guid);
 	desc.SetLabel("Server Receive Remote Event");
-	desc.AddMember(&CNetworkHelperComponent::SServerReceiveRemoteEvent::eventName, 'enam', "EventName", "Event Name", "Name of the Event that was received", "");
+	desc.AddMember(&CNetworkHelperComponent::SServerReceiveRemoteEvent::pEventName, 'enam', "EventName", "Event Name", "Name of the Event that was received", "");
 }
 
 static void ReflectType(Schematyc::CTypeDesc<CNetworkHelperComponent::SClientReceiveRemoteEvent>& desc)
 {
 	desc.SetGUID("{CD6D1D98-9311-4BAE-AC4E-C3CFBD318711}"_cry_guid);
 	desc.SetLabel("Client Receive Remote Event");
-	desc.AddMember(&CNetworkHelperComponent::SClientReceiveRemoteEvent::eventName, 'enam', "EventName", "Event Name", "Name of the Event that was received", "");
+	desc.AddMember(&CNetworkHelperComponent::SClientReceiveRemoteEvent::pEventName, 'enam', "EventName", "Event Name", "Name of the Event that was received", "");
 }
 
 static void ReflectType(Schematyc::CTypeDesc<CNetworkHelperComponent::SServerReceiveNetVariables>& desc)
@@ -146,18 +147,18 @@ bool CNetworkHelperComponent::NetSerialize(TSerialize ser, EEntityAspects aspect
 	return true;
 }
 
-void CNetworkHelperComponent::SendToServer(Schematyc::CSharedString eventName)
+void CNetworkHelperComponent::SendToServer(Schematyc::CSharedString pEventName)
 {
 	RemoteParams params;
-	params.eventName = eventName.c_str();
+	params.pEventName = pEventName.c_str();
 
 	SRmi<RMI_WRAP(&CNetworkHelperComponent::RemoteSendToServer)>::InvokeOnServer(this, std::move(params), GetEntityId());
 }
 
-void CNetworkHelperComponent::SendToClients(Schematyc::CSharedString eventName)
+void CNetworkHelperComponent::SendToClients(Schematyc::CSharedString pEventName)
 {
 	RemoteParams params;
-	params.eventName = eventName.c_str();
+	params.pEventName = pEventName.c_str();
 
 	SRmi<RMI_WRAP(&CNetworkHelperComponent::RemoteSendToClients)>::InvokeOnAllClients(this, std::move(params), GetEntityId());
 }
@@ -166,7 +167,7 @@ bool CNetworkHelperComponent::RemoteSendToServer(RemoteParams && params, INetCha
 {
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
-		m_pEntity->GetSchematycObject()->ProcessSignal(SServerReceiveRemoteEvent(params.eventName), GetGUID());
+		m_pEntity->GetSchematycObject()->ProcessSignal(SServerReceiveRemoteEvent(params.pEventName), GetGUID());
 	}
 
 	return true;
@@ -176,7 +177,7 @@ bool CNetworkHelperComponent::RemoteSendToClients(RemoteParams && params, INetCh
 {
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
-		m_pEntity->GetSchematycObject()->ProcessSignal(SClientReceiveRemoteEvent(params.eventName), GetGUID());
+		m_pEntity->GetSchematycObject()->ProcessSignal(SClientReceiveRemoteEvent(params.pEventName), GetGUID());
 	}
 
 	return true;

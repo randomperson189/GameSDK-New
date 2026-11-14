@@ -189,6 +189,9 @@ void CWeaponComponent::ProcessEvent(const SEntityEvent& event)
 
 void CWeaponComponent::QueueFragmentOnScopes(Schematyc::CSharedString fragment, bool trumpPreviousFragment)
 {
+	if (!m_pAnimationComponent || !m_pAnimationComponent->GetCharacter())
+		return;
+
 	if (trumpPreviousFragment)
 	{
 		m_pWeaponPriority++;
@@ -218,7 +221,7 @@ void CWeaponComponent::AttachToHand()
 	{
 		if (auto* pPlayerComponent = pOwner->GetComponent<CPlayerComponent>())
 		{
-			// For firstperson character, attach a proxy CGF or CDF, depending on what weapon model it is
+			// For firstperson character, attach a proxy CDF or CGF, depending on what weapon model it is
 			if (ICharacterInstance* pCharInstance = pPlayerComponent->m_pAnimationComponent1P->GetCharacter())
 			{
 				if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
@@ -226,16 +229,23 @@ void CWeaponComponent::AttachToHand()
 					if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("weapon"))
 						pAttachment->ClearBinding();
 
-					/*CCGFAttachment* pCGFAttachment = new CCGFAttachment();
-					pCGFAttachment->pObj = gEnv->p3DEngine->LoadStatObj(m_pEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath());
+					// First try to attach the dynamic weapon model (CDF), if not then try attaching the static weapon model (CGF) instead
+					if (ICharacterInstance* pCharacter = m_pEntity->GetComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>()->GetCharacter())
+					{
+						CSKELAttachment* pSKELAttachment = new CSKELAttachment();
+						pSKELAttachment->m_pCharInstance = pCharacter;
 
-					pAttachmentMgr->GetInterfaceByName("weapon")->AddBinding(pCGFAttachment);*/
+							if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("weapon"))
+								pAttachment->AddBinding(pSKELAttachment);
+					}
+					else if (IStatObj* pStatObj = gEnv->p3DEngine->LoadStatObj(m_pEntity->GetComponent<Cry::DefaultComponents::CStaticMeshComponent>()->GetFilePath()))
+					{
+						CCGFAttachment* pCGFAttachment = new CCGFAttachment();
+						pCGFAttachment->pObj = pStatObj;
 
-					CSKELAttachment* pSKELAttachment = new CSKELAttachment();
-					pSKELAttachment->m_pCharInstance = m_pEntity->GetComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>()->GetCharacter();
-
-					if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("weapon"))
-						pAttachment->AddBinding(pSKELAttachment);
+						if (IAttachment* pAttachment = pAttachmentMgr->GetInterfaceByName("weapon"))
+							pAttachment->AddBinding(pCGFAttachment);
+					}
 				}
 			}
 
@@ -269,19 +279,22 @@ void CWeaponComponent::AttachToHand()
 
 			if (m_pAnimationComponent)
 			{
-				// Detach weapon CDF from this entity because it's now attached to the player's firstperson arms
-				m_pEntity->SetCharacter(nullptr, m_pAnimationComponent->GetEntitySlotId(), false);
+				if (m_pAnimationComponent->GetCharacter())
+				{
+					// Detach weapon CDF from this entity because it's now attached to the player's firstperson arms
+					m_pEntity->SetCharacter(nullptr, m_pAnimationComponent->GetEntitySlotId(), false);
 
-				// Add the Audio context to the weapon
-				IMannequin &mannequinSys = gEnv->pGameFramework->GetMannequinInterface();
-				IAnimationDatabaseManager& animationDatabaseManager = mannequinSys.GetAnimationDatabaseManager();
+					// Add the Audio context to the weapon
+					IMannequin &mannequinSys = gEnv->pGameFramework->GetMannequinInterface();
+					IAnimationDatabaseManager& animationDatabaseManager = mannequinSys.GetAnimationDatabaseManager();
 
-				const SControllerDef* pControllerDef = animationDatabaseManager.LoadControllerDef(m_pAnimationComponent->GetControllerDefinitionFile());
+					const SControllerDef* pControllerDef = animationDatabaseManager.LoadControllerDef(m_pAnimationComponent->GetControllerDefinitionFile());
 
-				const IAnimationDatabase* pSoundDatabase = animationDatabaseManager.Load("Animations/Mannequin/ADB/playerSounds.adb");
-				const TagID scopeContextSound = pControllerDef->m_scopeContexts.Find("Audio");
+					const IAnimationDatabase* pSoundDatabase = animationDatabaseManager.Load("Animations/Mannequin/ADB/playerSounds.adb");
+					const TagID scopeContextSound = pControllerDef->m_scopeContexts.Find("Audio");
 
-				m_pAnimationComponent->GetActionController()->SetScopeContext(scopeContextSound, *GetEntity(), m_pAnimationComponent->GetCharacter(), pSoundDatabase);
+					m_pAnimationComponent->GetActionController()->SetScopeContext(scopeContextSound, *GetEntity(), m_pAnimationComponent->GetCharacter(), pSoundDatabase);
+				}
 			}
 		}
 	}

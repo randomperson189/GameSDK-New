@@ -28,8 +28,23 @@ public:
 	// ~IEntityComponent
 
 	void GetDimensions(float& radius, float& height, float& zOffset, bool& bCapsule, float& groundContactEps);
-	void SetDimensions(/*float mass, */float radius, float height, float zOffset, bool bCapsule, float groundContactEps);
+	void SetDimensions(float radius, float height, float zOffset, bool bCapsule, float groundContactEps);
 
-	/*CryTransform::CTransform GetTransform();
-	void SetTransform(CryTransform::CTransform transform);*/
+	void GetDynamics(float& kInertia, float& kInertiaAccel, float& kAirControl, float& kAirResistance, float& minSlideAngle, float& maxClimbAngle, float& maxJumpAngle, float& minFallAngle, float& maxVelGround);
+	void SetDynamics(float kInertia, float kInertiaAccel, float kAirControl, float kAirResistance, float minSlideAngle, float maxClimbAngle, float maxJumpAngle, float minFallAngle, float maxVelGround);
+
+	void GetGravity(Vec3& gravity);
+	void SetGravity(Vec3 gravity);
+
+	void GetNodSpeed(float& nodSpeed);
+	void SetNodSpeed(float nodSpeed);
+
+	void GetSwimming(bool& bSwimming);
+	void SetSwimming(bool bSwimming);
+
+	void GetMass(float& mass);
+	void SetMass(float mass);
+
+	void GetActive(int& bActive);
+	void SetActive(int bActive);
 };

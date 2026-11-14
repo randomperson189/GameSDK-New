@@ -3,7 +3,7 @@
 // Must include the header where your class is defined
 #include "BehaviorTreeNodes_Custom.h"
 
-#include "Components/BehaviorTreeHelper.h"
+#include "Components/Helpers/BehaviorTreeHelper.h"
 
 using namespace BehaviorTree;
 
