@@ -7,7 +7,7 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="461" y="84"/>
+      <pos x="460" y="84"/>
       <nodes>
        <element key="592ac57f-295f-403e-b7f9-b53b85d9a38b" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="592ac57f-295f-403e-b7f9-b53b85d9a38b" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
@@ -27,6 +27,32 @@
          <inputs>
           <element value="pistol">
            <key type="UInt32" value="1851878757"/>
+          </element>
+         </inputs>
+        </value>
+       </element>
+       <element key="7b314fbd-47cf-4241-95a2-664e422098f3" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="7b314fbd-47cf-4241-95a2-664e422098f3" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
+         <pos x="90" y="423"/>
+         <functionId domain="Env" guid="0b235a0d-d65b-4319-a978-0c8b4e9a3e46"/>
+         <inputs>
+          <element>
+           <key type="UInt32" value="1953653102"/>
+           <value>
+                        <translation>
+                          <position>
+                            <element element="0"/>
+                            <element element="0.25"/>
+                            <element element="0"/>
+                          </position>
+                        </translation>
+                        <rotation x="0" y="-0" z="0"/>
+                        <scale>
+                          <element element="1"/>
+                          <element element="1"/>
+                          <element element="1"/>
+                        </scale>
+           </value>
           </element>
          </inputs>
         </value>
@@ -106,6 +132,10 @@
         <srcOutputId type="Idx" value="0"/>
         <dstInputId type="Idx" value="0"/>
        </element>
+       <element srcNodeGUID="8e43b95e-823a-4074-80f6-925c7e91b527" dstNodeGUID="7b314fbd-47cf-4241-95a2-664e422098f3">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
       </links>
      </Graph>
     </extensions>
@@ -115,7 +145,7 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="794" y="-514"/>
+      <pos x="794" y="-513"/>
       <nodes>
        <element key="8dd3f09a-e577-40f0-855e-1130a2e32ff5" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="8dd3f09a-e577-40f0-855e-1130a2e32ff5" objectGUID="">

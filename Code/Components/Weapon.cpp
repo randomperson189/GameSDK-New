@@ -62,6 +62,22 @@ namespace
 				componentScope.Register(pFunction);
 			}
 
+			/*{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::DoMuzzleFlash, "{4D2028AA-EA82-4E14-B615-5D61B4AEB4E7}"_cry_guid, "DoMuzzleFlash");
+				componentScope.Register(pFunction);
+			}*/
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::DoLegacyPFX1MuzzleFlash, "{470B8312-2FA5-4981-8CC4-0DABBCB8D9B8}"_cry_guid, "DoLegacyPFX1MuzzleFlash");
+				componentScope.Register(pFunction);
+			}
+
+			{
+				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CWeaponComponent::SetMuzzleFlashOffset3P, "{0B235A0D-D65B-4319-A978-0C8B4E9A3E46}"_cry_guid, "SetMuzzleFlashOffset3P");
+				pFunction->BindInput(1, 'tran', "Transform", "Transform");
+				pFunction->SetFlags({ Schematyc::EEnvFunctionFlags::Construction });
+				componentScope.Register(pFunction);
+			}
+
 			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SEquip));
 			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CWeaponComponent::SHolster));
 
@@ -85,14 +101,6 @@ CWeaponComponent::CWeaponComponent()
 
 CWeaponComponent::~CWeaponComponent() 
 {
-	// Remove the Audio context to the weapon
-	/*IMannequin &mannequinSys = gEnv->pGameFramework->GetMannequinInterface();
-	IAnimationDatabaseManager& animationDatabaseManager = mannequinSys.GetAnimationDatabaseManager();
-
-	const SControllerDef* pControllerDef = animationDatabaseManager.LoadControllerDef(m_pAnimationComponent->GetControllerDefinitionFile());
-	const TagID scopeContextSound = pControllerDef->m_scopeContexts.Find("Audio");
-
-	m_pAnimationComponent->GetActionController()->ClearScopeContext(scopeContextSound);*/
 }
 
 static void ReflectType(Schematyc::CTypeDesc<CWeaponComponent::SHolster>& desc)
@@ -140,12 +148,25 @@ void CWeaponComponent::Initialize()
 	m_pMeshComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CStaticMeshComponent>();
 	m_pAnimationComponent = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CAdvancedAnimationComponent>();
 	m_pItemComponent = m_pEntity->GetOrCreateComponent<CItemComponent>();
+	
+	// Setup legacy PFX1 emitters
+	if (IParticleEffect* pEffect1P = gEnv->pParticleManager->FindEffect("weapon_fx.pistol.muzzle_flash.muzzle_flash_fp", "1PMF"))
+	{
+		m_pPFX1MuzzleFlashEmitter1P = m_pEntity->GetParticleEmitter(m_pEntity->LoadParticleEmitter(-1, pEffect1P));
+		m_pPFX1MuzzleFlashEmitter1P->SetEffect(pEffect1P);
+	}
+	if (IParticleEffect* pEffect3P = gEnv->pParticleManager->FindEffect("weapon_fx.pistol.muzzle_flash.muzzle_flash_tp", "3PMF"))
+	{
+		m_pPFX1MuzzleFlashEmitter3P = m_pEntity->GetParticleEmitter(m_pEntity->LoadParticleEmitter(-1, pEffect3P));
+		m_pPFX1MuzzleFlashEmitter3P->SetEffect(pEffect3P);
+	}
 }
 
 Cry::Entity::EventFlags CWeaponComponent::GetEventMask() const 
 {
 	return
 		Cry::Entity::EEvent::TimerExpired |
+		Cry::Entity::EEvent::Update |
 		Cry::Entity::EEvent::Reset |
 		Cry::Entity::EEvent::Remove;
 }
@@ -160,7 +181,7 @@ void CWeaponComponent::ProcessEvent(const SEntityEvent& event)
 		{
 		case 1:
 		{
-			
+
 		}
 		break;
 		}
@@ -211,6 +232,60 @@ void CWeaponComponent::QueueFragmentOnScopes(Schematyc::CSharedString fragment, 
 	m_pWeaponAction = new TAction<SAnimationContext>(m_pWeaponPriority, m_pAnimationComponent->GetFragmentId(fragment.c_str()), fragTags, 0U, EPlayerScopes::Scope_10, 0U);
 
 	m_pAnimationComponent->QueueCustomFragment(*m_pWeaponAction);
+}
+
+void CWeaponComponent::DoMuzzleFlash(Schematyc::ParticleEffectName effectName)
+{
+	/*if (m_pPFX2MuzzleFlashComponent1P)
+	{
+		m_pPFX2MuzzleFlashComponent1P->SetEffectName(effectName.value);
+		m_pPFX2MuzzleFlashComponent1P->LoadEffect(true);
+	}
+	if (m_pPFX2MuzzleFlashComponent3P)
+	{
+		m_pPFX2MuzzleFlashComponent3P->SetEffectName(effectName.value);
+		m_pPFX2MuzzleFlashComponent3P->LoadEffect(true);
+	}*/
+}
+
+void CWeaponComponent::DoLegacyPFX1MuzzleFlash()
+{
+	if (IEntity* pOwner = gEnv->pEntitySystem->GetEntity((EntityId)m_pItemComponent->GetOwner()))
+	{
+		if (auto* pPlayerComponent = pOwner->GetComponent<CPlayerComponent>())
+		{
+			if (pPlayerComponent->IsLocalClient() && !pPlayerComponent->m_bIsThirdPersonCamera)
+			{
+				if (m_pAnimationComponent)
+				{
+					if (ICharacterInstance* pCharInstance = m_pAnimationComponent->GetCharacter())
+					{
+						if (IAttachmentManager* pAttachmentMgr = pCharInstance->GetIAttachmentManager())
+						{
+							if (IAttachment* pMuzzleAttachment = pAttachmentMgr->GetInterfaceByName(MuzzleFlashAttachment1P.c_str()))
+							{
+								if (m_pPFX1MuzzleFlashEmitter1P)
+								{
+									QuatTS muzzleTM = pMuzzleAttachment->GetAttWorldAbsolute();
+
+									m_pPFX1MuzzleFlashEmitter1P->EmitParticle(nullptr, nullptr, &muzzleTM);
+								}
+							}
+						}
+					}
+				}
+			}
+			else if (m_pPFX1MuzzleFlashEmitter3P)
+			{
+				Matrix34 offsetTM = MuzzleFlashOffset3P.ToMatrix34();
+				Matrix34 muzzleFlashTM = m_pEntity->GetWorldTM() * offsetTM;
+
+				QuatTS location(muzzleFlashTM);
+				
+				m_pPFX1MuzzleFlashEmitter3P->EmitParticle(nullptr, nullptr, &location);
+			}
+		}
+	}
 }
 
 void CWeaponComponent::AttachToHand()
@@ -388,6 +463,7 @@ void CWeaponComponent::StartFire()
 	{
 		pBehaviorComponent->StartFire();
 	}
+
 	if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 	{
 		pSchematycObject->ProcessSignal(SStartFire(), GetGUID());

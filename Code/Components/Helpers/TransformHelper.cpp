@@ -35,7 +35,7 @@ namespace
 	CRY_STATIC_AUTO_REGISTER_FUNCTION(&RegisterTransformHelperComponent);
 }
 
-CTransformHelperComponent::CTransformHelperComponent() 
+CTransformHelperComponent::CTransformHelperComponent()
 {
 }
 
@@ -47,33 +47,35 @@ void CTransformHelperComponent::Initialize()
 {
 }
 
-CryTransform::CTransform CTransformHelperComponent::GetComponentTransform(int componentIndex)
+CryTransform::CTransform CTransformHelperComponent::GetComponentTransform(Schematyc::CSharedString componentName)
 {
-	DynArray<IEntityComponent*> components;
-	m_pEntity->GetComponents(components);
+	CryTransform::CTransform result;
 
-	if (componentIndex >= 0 && componentIndex < components.size())
+	m_pEntity->VisitComponents([&](IEntityComponent* pComponent)
 	{
-		if (IEntityComponent* pComponent = components[componentIndex])
+		if (pComponent && strcmp(pComponent->GetName(), componentName.c_str()) == 0)
 		{
-			return *pComponent->GetTransform();
+			if (pComponent->GetTransform())
+			{
+				result = *pComponent->GetTransform();
+			}
 		}
-	}
+	});
 
-	return CryTransform::CTransform();
+	return result;
 }
 
-void CTransformHelperComponent::SetComponentTransform(int componentIndex, CryTransform::CTransform transform)
+void CTransformHelperComponent::SetComponentTransform(Schematyc::CSharedString componentName, CryTransform::CTransform transform)
 {
-	DynArray<IEntityComponent*> components;
-	m_pEntity->GetComponents(components);
-
-	if (componentIndex >= 0 && componentIndex < components.size())
+	m_pEntity->VisitComponents([&](IEntityComponent* pComponent)
 	{
-		if (IEntityComponent* pComponent = components[componentIndex])
+		if (pComponent && strcmp(pComponent->GetName(), componentName.c_str()) == 0)
 		{
-			pComponent->SetTransformMatrix(transform.ToMatrix34());
+			if (pComponent->GetTransform())
+			{
+				pComponent->SetTransformMatrix(transform.ToMatrix34());
+			}
 		}
-	}
+	});
 }
 

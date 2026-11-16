@@ -7,7 +7,7 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="0" y="0"/>
+      <pos x="250" y="342"/>
       <nodes>
        <element key="bb3188be-5400-43d9-854d-b1970506581f" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="bb3188be-5400-43d9-854d-b1970506581f" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
@@ -53,9 +53,35 @@
          </inputs>
         </value>
        </element>
+       <element key="e9ac14b5-a870-4cf0-84e8-f42c21eb358c" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="e9ac14b5-a870-4cf0-84e8-f42c21eb358c" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
+         <pos x="101" y="421"/>
+         <functionId domain="Env" guid="0b235a0d-d65b-4319-a978-0c8b4e9a3e46"/>
+         <inputs>
+          <element>
+           <key type="UInt32" value="1953653102"/>
+           <value>
+                        <translation>
+                          <position>
+                            <element element="0"/>
+                            <element element="0.75"/>
+                            <element element="0"/>
+                          </position>
+                        </translation>
+                        <rotation x="0" y="-0" z="0"/>
+                        <scale>
+                          <element element="1"/>
+                          <element element="1"/>
+                          <element element="1"/>
+                        </scale>
+           </value>
+          </element>
+         </inputs>
+        </value>
+       </element>
        <element key="d9b03911-42ab-4df8-80e9-693e56bcba26" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="d9b03911-42ab-4df8-80e9-693e56bcba26" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
-         <pos x="104" y="346.5"/>
+         <pos x="104" y="346"/>
          <functionId domain="Env" guid="3b1864ec-427a-4e58-b5a1-c6adb3540746"/>
          <inputs>
           <element value="shotgun">
@@ -106,6 +132,10 @@
         <srcOutputId type="Idx" value="0"/>
         <dstInputId type="Idx" value="0"/>
        </element>
+       <element srcNodeGUID="d9b03911-42ab-4df8-80e9-693e56bcba26" dstNodeGUID="e9ac14b5-a870-4cf0-84e8-f42c21eb358c">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
+       </element>
       </links>
      </Graph>
     </extensions>
@@ -115,7 +145,7 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="213" y="-445"/>
+      <pos x="213" y="-443"/>
       <nodes>
        <element key="c97b257f-1269-409d-b615-4b6764e20958" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="c97b257f-1269-409d-b615-4b6764e20958" objectGUID="">
@@ -130,7 +160,7 @@
        </element>
        <element key="f37b5629-ff51-42a8-898c-b25dd7a66329" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="f37b5629-ff51-42a8-898c-b25dd7a66329" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
-         <pos x="-32.25" y="-1291.75"/>
+         <pos x="-32" y="-1291"/>
          <signalId domain="Env" guid="79ba51dd-be6e-4dd7-9e1d-7d46a6bdacd7"/>
         </value>
        </element>
@@ -169,7 +199,7 @@
        </element>
        <element key="8c600ca8-d228-4920-8b5c-864d447b9702" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="8c600ca8-d228-4920-8b5c-864d447b9702" objectGUID="">
-         <pos x="245.75" y="-1852.75"/>
+         <pos x="245" y="-1852"/>
          <functionId domain="Script" guid="185feab2-96ab-47c4-a961-b31b1095fcfd"/>
         </value>
        </element>
@@ -193,7 +223,7 @@
        </element>
        <element key="f9e9e60a-0ec2-4c56-b64f-aae9755a2eaf" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="f9e9e60a-0ec2-4c56-b64f-aae9755a2eaf" objectGUID="">
-         <pos x="244.75" y="-1572.75"/>
+         <pos x="244" y="-1572"/>
          <functionId domain="Script" guid="3ef3fea0-90d4-44fe-bc96-e2253ada1855"/>
         </value>
        </element>
@@ -205,7 +235,7 @@
        </element>
        <element key="71ec28b8-2b99-4cb5-a592-78495e5cbba4" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="71ec28b8-2b99-4cb5-a592-78495e5cbba4" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
-         <pos x="-33.25" y="-1571.75"/>
+         <pos x="-33" y="-1571"/>
          <signalId domain="Env" guid="bcf9aa3f-8fd1-4f8c-a66b-b73c6e23f19b"/>
         </value>
        </element>
@@ -220,7 +250,7 @@
        </element>
        <element key="130856d1-2725-4d92-a401-2d0e84291f28" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="130856d1-2725-4d92-a401-2d0e84291f28" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
-         <pos x="-34.25" y="-1852.75"/>
+         <pos x="-34" y="-1852"/>
          <signalId domain="Env" guid="5f201f39-b6fe-434b-80a6-ed38896781de"/>
         </value>
        </element>
@@ -251,7 +281,7 @@
        </element>
        <element key="90211e76-3c5e-4ee9-bb4f-da336bd69a8d" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="90211e76-3c5e-4ee9-bb4f-da336bd69a8d" objectGUID="">
-         <pos x="248.25" y="-1291.75"/>
+         <pos x="248" y="-1291"/>
          <functionId domain="Script" guid="d41b541c-e5da-41b5-bc97-b696e9c00833"/>
         </value>
        </element>

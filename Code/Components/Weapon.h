@@ -3,15 +3,15 @@
 
 #include "Player.h"
 
-#include <CrySchematyc/Env/Elements/EnvComponent.h>
-#include <CryCore/StaticInstanceList.h>
 #include <CrySchematyc/Env/IEnvRegistrar.h>
+#include <CrySchematyc/Env/Elements/EnvComponent.h>
+#include <CrySchematyc/Env/Elements/EnvSignal.h>
+#include <CryCore/StaticInstanceList.h>
 #include <CryPhysics/physinterface.h>
 #include <CryEntitySystem/IEntitySystem.h>
 
-#include <CrySchematyc/Env/Elements/EnvSignal.h>
-
 #include <DefaultComponents/Geometry/StaticMeshComponent.h>
+#include <DefaultComponents/Effects/ParticleComponent.h>
 
 class CWeaponComponent final : public IEntityComponent
 {
@@ -36,6 +36,10 @@ public:
 		desc.AddMember(&CWeaponComponent::m_pAnimCodeName, 'acn', "AnimCodeName", "Animation Code Name", "Weapon name in animation code (e.g. Mannequin tags and fragments)", "Weapon Code Name");
 		desc.AddMember(&CWeaponComponent::m_pWeaponType, 'wpt', "WeaponType", "Weapon Type", "Weapon type in animation code (e.g. AimPose)", "Weapon Type");
 		desc.AddMember(&CWeaponComponent::m_pDamage, 'dmg', "Damage", "Damage", "Damage of the weapon", 5);
+		desc.AddMember(&CWeaponComponent::PFX1MuzzleFlashEffect1P, 'mf1', "PFX1MuzzleFlashEffect1P", "Muzzle Flash Effect 1P (PFX1)", "Legacy PFX1 muzzle flash effect in firstperson", "weapon_fx.pistol.muzzle_flash.muzzle_flash_fp");
+		desc.AddMember(&CWeaponComponent::MuzzleFlashAttachment1P, 'ma1', "MuzzleFlashAttachment1P", "Muzzle Flash Attachment 1P", "Attachment for muzzle flash effect in firstperson", "muzzleflash_effect");
+		desc.AddMember(&CWeaponComponent::PFX1MuzzleFlashEffect3P, 'mf3', "PFX1MuzzleFlashEffect3P", "Muzzle Flash Effect 3P (PFX1)", "Legacy PFX1 muzzle flash effect in thirdperson", "weapon_fx.pistol.muzzle_flash.muzzle_flash_tp");
+		desc.AddMember(&CWeaponComponent::MuzzleFlashOffset3P, 'mo3', "MuzzleFlashOffset3P", "Muzzle Flash Offset 3P", "Offset for muzzle flash effect in thirdperson", CryTransform::CTransform());
 	}
 
 	virtual Cry::Entity::EventFlags GetEventMask() const override;
@@ -55,25 +59,16 @@ public:
 	void SetShadowsOnly(bool shadowOnly);
 	void SetMaterialOpacity(IStatObj* obj, int materialIndex, float opacity);
 
-protected:
-	Cry::DefaultComponents::CStaticMeshComponent* m_pMeshComponent = nullptr;
-	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent = nullptr;
-	CItemComponent* m_pItemComponent = nullptr;
+	void DoMuzzleFlash(Schematyc::ParticleEffectName effectName);
+	void DoLegacyPFX1MuzzleFlash();
 
-public:
+	void SetMuzzleFlashOffset3P(CryTransform::CTransform transform) { MuzzleFlashOffset3P = transform; }
+
+	void QueueFragmentOnScopes(Schematyc::CSharedString fragment, bool trumpPreviousFragment);
+
 	Schematyc::CSharedString m_pDisplayName;
 	Schematyc::CSharedString m_pAnimCodeName;
 	Schematyc::CSharedString m_pWeaponType;
-protected:
-
-	int m_pDamage;
-
-	IActionPtr m_pWeaponAction;
-
-	int m_pWeaponPriority = 1;
-
-public:
-	void QueueFragmentOnScopes(Schematyc::CSharedString fragment, bool trumpPreviousFragment);
 
 	void AttachToHand();
 	void AttachToBack();
@@ -121,4 +116,24 @@ public:
 	{
 		SStopAltFire() = default;
 	};
+
+protected:
+	CItemComponent* m_pItemComponent = nullptr;
+	Cry::DefaultComponents::CStaticMeshComponent* m_pMeshComponent = nullptr;
+	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAnimationComponent = nullptr;
+
+	// PFX1 particle emitters
+	IParticleEmitter* m_pPFX1MuzzleFlashEmitter1P;
+	IParticleEmitter* m_pPFX1MuzzleFlashEmitter3P;
+
+	Schematyc::CSharedString PFX1MuzzleFlashEffect1P;
+	Schematyc::CSharedString MuzzleFlashAttachment1P;
+
+	Schematyc::CSharedString PFX1MuzzleFlashEffect3P;
+	CryTransform::CTransform MuzzleFlashOffset3P;
+
+	int m_pDamage;
+	int m_pWeaponPriority = 1;
+
+	IActionPtr m_pWeaponAction;
 };

@@ -7,7 +7,7 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="0" y="0"/>
+      <pos x="169" y="18"/>
       <nodes>
        <element key="cebd5217-b6b9-44d5-b8e7-fbc80326407b" typeGUID="12bdfa06-ba95-4e48-bb2d-bb48a7080abc">
         <value guid="cebd5217-b6b9-44d5-b8e7-fbc80326407b">
@@ -24,7 +24,7 @@
     <userDocumentation author="User" description=""/>
     <extensions>
      <Graph>
-      <pos x="139" y="-155"/>
+      <pos x="139" y="-154"/>
       <nodes>
        <element key="d54510eb-ae5b-4077-8244-6d80da855abf" typeGUID="ad2aee64-0a60-4469-8ec7-38b4b720d30c">
         <value guid="d54510eb-ae5b-4077-8244-6d80da855abf" objectGUID="">
@@ -56,11 +56,27 @@
     <children />
    </element>
    <element elementType="ComponentInstance" guid="a997f380-fa5d-4498-8712-f39e53184c63" name="Weapon Component" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="a7822024-0228-4d13-af99-043f418fa36d">
-    <properties DisplayName="DisplayName" AnimCodeName="AnimationCodeName" WeaponType="" Damage="5"/>
+    <properties DisplayName="DisplayName" AnimCodeName="AnimationCodeName" WeaponType="" Damage="5" PFX1MuzzleFlashEffect1P="weapon_fx.pistol.muzzle_flash.muzzle_flash_fp" MuzzleFlashAttachment1P="muzzleflash_effect" PFX1MuzzleFlashEffect3P="weapon_fx.pistol.muzzle_flash.muzzle_flash_tp">
+     <MuzzleFlashOffset3P>
+      <translation>
+       <position>
+        <element element="0"/>
+        <element element="0"/>
+        <element element="0"/>
+       </position>
+      </translation>
+      <rotation x="0" y="-0" z="0"/>
+      <scale>
+       <element element="1"/>
+       <element element="1"/>
+       <element element="1"/>
+      </scale>
+     </MuzzleFlashOffset3P>
+    </properties>
     <extensions />
     <children />
    </element>
-   <element elementType="ComponentInstance" guid="e620cbc9-4335-4a0e-bfa1-223fa90129c0" name="Mesh" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29">
+   <element elementType="ComponentInstance" guid="e620cbc9-4335-4a0e-bfa1-223fa90129c0" name="WeaponModel3P" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29">
     <transform>
      <translation>
       <position>
@@ -93,7 +109,7 @@
     <extensions />
     <children />
    </element>
-   <element elementType="ComponentInstance" guid="ae0fa033-5649-46ac-88e3-535334fa6b69" name="Advanced Animations" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="3cd5ddc5-ee15-437f-a997-79c2391537fe">
+   <element elementType="ComponentInstance" guid="ae0fa033-5649-46ac-88e3-535334fa6b69" name="WeaponModel1P" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="3cd5ddc5-ee15-437f-a997-79c2391537fe">
     <transform>
      <translation>
       <position>
@@ -801,6 +817,12 @@
          </inputs>
         </value>
        </element>
+       <element key="48cd4591-c0d8-46e7-8ec0-cc0c9af60754" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
+        <value guid="48cd4591-c0d8-46e7-8ec0-cc0c9af60754" objectGUID="a997f380-fa5d-4498-8712-f39e53184c63">
+         <pos x="1786" y="-35"/>
+         <functionId domain="Env" guid="470b8312-2fa5-4981-8cc4-0dabbcb8d9b8"/>
+        </value>
+       </element>
        <element key="dd57fa49-d2a6-48a5-ae24-79245800494c" typeGUID="1bcfd811-b8b7-4032-a90c-311dfa4454c6">
         <value guid="dd57fa49-d2a6-48a5-ae24-79245800494c" objectGUID="a7ece2f5-5c60-48a6-9e7a-c1eb6360f864">
          <pos x="107" y="-35"/>
@@ -837,6 +859,10 @@
        <element srcNodeGUID="dd57fa49-d2a6-48a5-ae24-79245800494c" dstNodeGUID="7fdb3528-b7fe-42cd-b549-be90d8d17a84">
         <srcOutputId type="UInt32" value="7305070"/>
         <dstInputId type="Idx" value="1"/>
+       </element>
+       <element srcNodeGUID="dedbe8c1-310b-40aa-a557-c0f85d7a5146" dstNodeGUID="48cd4591-c0d8-46e7-8ec0-cc0c9af60754">
+        <srcOutputId type="Idx" value="0"/>
+        <dstInputId type="Idx" value="0"/>
        </element>
       </links>
      </Graph>
@@ -1793,6 +1819,11 @@
       </links>
      </Graph>
     </extensions>
+    <children />
+   </element>
+   <element elementType="ComponentInstance" guid="abb91af4-d20d-4ff5-bac2-df20ecd951fc" name="Transform Helper" Schematyc::EMPEnv="clientserver" accessor="Public" typeGUID="280c1ee0-078a-4821-b437-fe6c358665b9">
+    <properties />
+    <extensions />
     <children />
    </element>
   </children>

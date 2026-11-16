@@ -4,6 +4,11 @@
 #include <CrySchematyc/Env/Elements/EnvComponent.h>
 #include <CrySchematyc/Env/Elements/EnvFunction.h>
 #include <CrySchematyc/Env/Elements/EnvSignal.h>
+#include <CrySchematyc/ResourceTypes.h>
+#include <CrySchematyc/MathTypes.h>
+#include <CrySchematyc/IObject.h>
+#include <CrySchematyc/Utils/SharedString.h>
+#include <CrySchematyc/Env/IEnvRegistrar.h>
 
 namespace
 {
@@ -16,6 +21,7 @@ namespace
 			{
 				auto pFunction = SCHEMATYC_MAKE_ENV_FUNCTION(&CTimerComponent::SetTimerSchematyc, "{61994F63-291F-492D-90DB-E95257C10D0A}"_cry_guid, "SetTimer");
 				pFunction->BindInput(1, 'tid', "Timer Id", "Timer Id");
+				pFunction->BindInput(2, 'tms', "Time In Milliseconds", "Time In Milliseconds");
 				componentScope.Register(pFunction);
 			}
 			{
@@ -23,6 +29,8 @@ namespace
 				pFunction->BindInput(1, 'tid', "Timer Id", "Timer Id");
 				componentScope.Register(pFunction);
 			}
+
+			componentScope.Register(SCHEMATYC_MAKE_ENV_SIGNAL(CTimerComponent::SOnTimer));
 		}
 	}
 
@@ -36,7 +44,7 @@ static void ReflectType(Schematyc::CTypeDesc<CTimerComponent::SOnTimer>& desc)
 	desc.AddMember(&CTimerComponent::SOnTimer::timerId, 'tid', "TimerId", "Timer Id", "Timer Id", "0");
 }
 
-CTimerComponent::CTimerComponent() 
+CTimerComponent::CTimerComponent()
 {
 }
 
@@ -51,7 +59,8 @@ void CTimerComponent::Initialize()
 Cry::Entity::EventFlags CTimerComponent::GetEventMask() const
 {
 	return
-		Cry::Entity::EEvent::TimerExpired;
+		Cry::Entity::EEvent::TimerExpired |
+		Cry::Entity::EEvent::Reset;
 }
 
 void CTimerComponent::ProcessEvent(const SEntityEvent& event)
@@ -63,6 +72,18 @@ void CTimerComponent::ProcessEvent(const SEntityEvent& event)
 		if (Schematyc::IObject* const pSchematycObject = m_pEntity->GetSchematycObject())
 		{
 			m_pEntity->GetSchematycObject()->ProcessSignal(SOnTimer((int)event.nParam[0]), GetGUID());
+		}
+	}
+	break;
+	case Cry::Entity::EEvent::Reset:
+	{
+		if (event.nParam[0] != 0)
+		{
+
+		}
+		else
+		{
+			KillAllTimers();
 		}
 	}
 	break;

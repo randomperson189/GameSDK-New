@@ -28,6 +28,6 @@ public:
 	}
 	// ~IEntityComponent
 
-	CryTransform::CTransform GetComponentTransform(int componentIndex);
-	void SetComponentTransform(int componentIndex, CryTransform::CTransform transform);
+	CryTransform::CTransform GetComponentTransform(Schematyc::CSharedString componentName);
+	void SetComponentTransform(Schematyc::CSharedString componentName, CryTransform::CTransform transform);
 };
