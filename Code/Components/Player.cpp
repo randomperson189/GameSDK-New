@@ -1636,6 +1636,7 @@ void CPlayerComponent::SpawnDefaultWeapon()
 	spawnParams.vPosition = GetWorldTransformMatrix().GetTranslation();
 
 	// Spawn weapon on the server
+	// TODO: Make AddToInventory function in ItemComponent to organise this
 	if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams))
 	{
 		m_pInventoryComponent->AddItem(Schematyc::ExplicitEntityId(pEntity->GetId()));
@@ -1667,10 +1668,17 @@ void CPlayerComponent::SpawnDefaultWeapon()
 	spawnParams2.sName = m_defaultWeapon2.value;
 	spawnParams2.vPosition = GetWorldTransformMatrix().GetTranslation();
 
-	// Spawn the weapon on the server
+	// Spawn the second weapon on the server
+	// TODO: Make AddToInventory function in ItemComponent to organise this
 	if (IEntity* pEntity = gEnv->pEntitySystem->SpawnEntity(spawnParams2))
 	{
 		m_pInventoryComponent->AddItem(Schematyc::ExplicitEntityId(pEntity->GetId()));
+
+		// Tell other clients to add the item to inventory
+		if (auto* pWeaponComponent = pEntity->GetComponent<CWeaponComponent>())
+		{
+			pWeaponComponent->NetMarkAspectsDirty(CItemComponent::ItemAspect);
+		}
 
 		CryLogAlways("MY SECOND ENTITY SPAWNED ID %u", pEntity->GetId());
 	}
